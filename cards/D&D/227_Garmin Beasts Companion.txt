@@ -1,0 +1,1 @@
+﻿Garmin, Beast's Companion	G	rare	Legendary Creature – Halfling Ranger 	227	G	2G	When Garmin enters the battlefield create Cerberus, a 2/2 legendary green Wolf creature token with “Whenever a creature dealt damage by Cerberus dies, put a +1/+1 counter on Cerberus”.NEWLINEG, T: Cerberus fights target creature you don’t control.	1/4		normal	D&D		

@@ -1,0 +1,1 @@
+﻿Elemental Orb of Darkness		mythic	Legendary Artifact – Elemental Orb 	316	B	2	T: Add BNEWLINE1B, T:  Draw a card, then lose life equal to its mana value.			normal	D&D		

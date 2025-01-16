@@ -1,0 +1,1 @@
+﻿Squad Commander	W	rare	Creature – Elf Soldier 	41	W	3W	When Squad Commander enters the battlefield, create a 1/1 white Soldier creature token for each legendary creature you control.NEWLINEAt the beginning of combat on your turn, if you control four or more legendary creatures, creatures you control get +1/+0 and gain indestructible until end of turn.	3/3		normal	D&D		

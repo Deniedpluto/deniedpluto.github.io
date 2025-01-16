@@ -1,0 +1,1 @@
+﻿Werebear Warrior	G	uncommon	Creature – Werebear 	246	G	1G	When Werebear Warrior enters the battlefield, target creature you control and target creature an opponent controls fight. (Each deals damage equal to its power to the other.)	2/2		normal	D&D		

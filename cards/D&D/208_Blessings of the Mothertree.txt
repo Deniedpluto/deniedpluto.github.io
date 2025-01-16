@@ -1,0 +1,1 @@
+﻿Blessings of the Mothertree	G	rare	Legendary Enchantment	208	G	2G	Creatures you control have: “T, Add G.”NEWLINE3G, T: Create a 1/1 green Forest Dryad land creature token.			normal	D&D		

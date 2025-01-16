@@ -1,0 +1,1 @@
+﻿Fama, Assassin Favored	UBG	rare	Legendary Enchantment Creature – God 	297	UBG	1B/GG/U	IndestructibleNEWLINEAs long as your devotion to green, black, and blue is less than seven, Fama, Assassin Favored isn’t a creature.NEWLINECreatures you control have deathtouch.NEWLINEWhenever a creature dies, each opponent loses 1 life.	4/5		normal	D&D		

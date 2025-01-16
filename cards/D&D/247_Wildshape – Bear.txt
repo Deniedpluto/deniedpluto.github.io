@@ -1,0 +1,1 @@
+﻿Wildshape – Bear	G	rare	Enchantment – Aura 	247	G	1G	Totem Armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)NEWLINEEnchant creatureNEWLINEEnchanted creature has +2/+2 and trample and is a bear in addition to its other types.			normal	D&D		

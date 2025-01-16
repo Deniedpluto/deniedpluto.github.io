@@ -1,0 +1,1 @@
+﻿Basalisk	G	uncommon	Creature – Monstrosity 	207	G	3G	DeathtouchNEWLINEWhenever a creature dealt damage by Basalisk would die, exile it and return it to the battlefield under your control face-down. It is a 0/4 golem creature with defender.	3/4		normal	D&D		

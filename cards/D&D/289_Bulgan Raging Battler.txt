@@ -1,0 +1,1 @@
+﻿Bulgan, Raging Battler	RG	uncommon	Legendary Creature – Orc Barbarian 	289	RG	2R/GR/G	Menace, TrampleNEWLINEBlitz RG (If you cast this spell for its blitz cost, it gains haste and “When this creature dies, draw a card”. Sacrifice it at the beginning of the next end step.)	4/3		normal	D&D		

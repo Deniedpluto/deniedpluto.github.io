@@ -1,0 +1,1 @@
+﻿Wall Guard Recruiter	W	uncommon	Creature – Human Soldier 	49	W	W	When Guard Recruiter enters the battlefield, look at the top four cards of your library. You may reveal a creature card with mana value 3 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order.	2/1		normal	D&D		

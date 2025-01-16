@@ -1,0 +1,1 @@
+﻿Captain of the Guard	W	rare	Creature – Human Soldier 	10	W	1W	Other soldiers you control get +1/+1NEWLINEWhen captain of the guard attacks, create a 1/1 white Soldier creature token.	2/3		normal	D&D		

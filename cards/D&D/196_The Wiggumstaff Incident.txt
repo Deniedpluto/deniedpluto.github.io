@@ -1,0 +1,1 @@
+﻿The Wiggumstaff Incident	R	rare	Sorcery	196	R	8R	Deal 9 damage to each creature. This spell costs 1 less for each creature on the battlefield.			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Elf Scout	G	common	Creature  – Elf Ranger 	219	G	1G	When Elf Scout enters the battlefield, you may search your library for a basic land and put it on the battlefield tapped.	1/1		normal	D&D		

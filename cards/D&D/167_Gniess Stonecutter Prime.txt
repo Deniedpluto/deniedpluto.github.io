@@ -1,0 +1,1 @@
+﻿Gniess, Stonecutter Prime	R	rare	Legendary Creature – Dwarf Noble 	167	R	1R	Whenever a dwarf you control becomes tapped, create a treasure.NEWLINEWhenever a creature you control dies, you may pay 1 life. if you do exile the top card of your library, you may play that card until the end of your next turn.NEWLINE	1/1		normal	D&D		

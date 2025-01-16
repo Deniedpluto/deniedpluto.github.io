@@ -1,0 +1,1 @@
+﻿Theo, Friendly Barkeep	G	uncommon	Legendary Creature – Human Citizen 	242	G	G	Whenever another legendary permanent enters the battlefield under your control, you gain 1 life and draw a card. This ability triggers only once each turn.	1/1		normal	D&D		

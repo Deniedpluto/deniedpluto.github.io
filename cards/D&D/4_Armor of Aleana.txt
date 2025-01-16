@@ -1,0 +1,1 @@
+﻿Armor of Aleana	W	uncommon	Artifact – Equipment 	4	W	2W	Equipped creature gets +3/+3 and has ward 1. (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays 1.)NEWLINEEquip 3. This ability costs 1 less to activate for each other Equipment you control.			normal	D&D		

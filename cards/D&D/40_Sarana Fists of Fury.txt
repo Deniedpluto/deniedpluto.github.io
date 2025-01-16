@@ -1,0 +1,1 @@
+﻿Sarana, Fists of Fury	W	rare	Legendary Creature – Halfling Monk 	40	W	1WW	FlashNEWLINEWhen Sarana, Fists of Fury enters the battlefield, target creature you control phases out. (Treat it and anything attached to it as though they don’t exist until its controller’s next turn.)			normal	D&D		

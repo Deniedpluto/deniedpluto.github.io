@@ -1,0 +1,1 @@
+﻿The Forge of Spells	U	mythic	Legendary Artifact	65	U	2U	Whenever you cast or copy an instant or sorcery spell, scry 1. If this is the second time this ability has resolved this turn, draw a card instead.NEWLINE1U, T: Copy the next instant or sorcery spell you cast.			normal	D&D		

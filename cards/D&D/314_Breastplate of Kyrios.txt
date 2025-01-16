@@ -1,0 +1,1 @@
+﻿Breastplate of Kyrios		rare	Legendary Artifact – Equipment 	314	C	4	Equipped creature gets +1/+3 and has vigilance, and is a Paladin in addition to its other types.NEWLINEWhenever equipped creature attacks or blocks, create a 2/2 white Paladin creature token with vigilance.NEWLINEEquip 3			normal	D&D		

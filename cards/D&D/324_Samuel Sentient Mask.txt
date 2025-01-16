@@ -1,0 +1,1 @@
+﻿Samuel, Sentient Mask		rare	Legendary Artifact Creature – Contruct 	324	C	3	DefenderNEWLINEWhen Samuel enter the battlefield, draw a card.NEWLINE3T: Draw a card	1/2		normal	D&D		

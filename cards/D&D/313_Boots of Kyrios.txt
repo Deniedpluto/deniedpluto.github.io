@@ -1,0 +1,1 @@
+﻿Boots of Kyrios		rare	Legendary Artifact – Equipment 	313	C	2	Equipped creature has haste.NEWLINEWhenever equipped creature attacks, put a charge counter of Boots of Kyrios.NEWLINEEquipped creature gets +1/+1 for each charge counter on Boots of Kyrios.NEWLINEEquip 1			normal	D&D		

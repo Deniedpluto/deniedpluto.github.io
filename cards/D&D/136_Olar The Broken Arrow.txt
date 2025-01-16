@@ -1,0 +1,1 @@
+﻿Olar, The Broken Arrow	B	rare	Legendary Creature – Aasimar Ranger 	136	B	2B	T: Olar, the Broken Arrow deals damage equal to its power to target creature. If that creature dies, put a +1/+1 counter on Olar, the Broken Arrow.	1/3		normal	D&D		

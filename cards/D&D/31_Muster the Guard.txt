@@ -1,0 +1,1 @@
+﻿Muster the Guard	W	uncommon	Enchantment	31	W	1W	FlashNEWLINEWhen Muster the Guard enters the battlefield, create two 1/1 white soldier creature tokens.NEWLINE3W: Create a 1/1 white human soldier.			normal	D&D		

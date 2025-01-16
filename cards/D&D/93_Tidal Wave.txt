@@ -1,0 +1,1 @@
+﻿Tidal Wave	U	rare	Sorcery	93	U	U	Upcast 1U (You may pay an additional 1U any number of times as you cast this spell.)NEWLINEReturn target creature to its owners hand. You may target an additional creature for each time this spell was upcast.			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Necromancer's Apprentice	B	uncommon	Creature – Human Warlock 	133	B	2BB	Skeletons and Zombies get +1/+1NEWLINEAt the beginning of each end step, if a creature died this turn, you may pay 1. If you do, create a 1/1 black Skeleton creature token.	2/2		normal	D&D		

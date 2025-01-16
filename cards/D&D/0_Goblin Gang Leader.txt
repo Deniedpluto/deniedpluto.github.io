@@ -1,0 +1,1 @@
+﻿Goblin Gang Leader	R	rare	Creature – Goblin 	0	C		Other goblins you control get +1/+1NEWLINEWhenever you attack with two or more creatures, create a 1/1 red goblin creature token that is tapped and attacking.	2/2		normal	D&D		

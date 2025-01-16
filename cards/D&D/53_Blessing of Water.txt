@@ -1,0 +1,1 @@
+﻿Blessing of Water	U	uncommon	Sorcery	53	U	2U	Each player discards their hand, then draws cards equal to the greatest number of cards a player discarded this way.			normal	D&D		

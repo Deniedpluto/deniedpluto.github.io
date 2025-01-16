@@ -1,0 +1,1 @@
+﻿Griffin Mount	W	uncommon	Creature – Griffon 	22	W	2W	FlyingNEWLINEWhen Griffin Mount attacks, target creature you control gains flying until the end of the turn.	3/2		normal	D&D		

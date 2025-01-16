@@ -1,0 +1,1 @@
+﻿Lodaec, Tyrant King	R	rare	Legendary Creature – Dwarf Lord 	178	R	2RR	Other Dwarves you control get +1/+1NEWLINEIf a dwarf you control would deal excess damage to a creature or planeswalker, Lodaec deals damage equal to the excess to any target other than that permanent.	3/3		normal	D&D		

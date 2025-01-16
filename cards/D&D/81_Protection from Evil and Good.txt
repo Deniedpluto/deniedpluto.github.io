@@ -1,0 +1,1 @@
+﻿Protection from Evil and Good	U	uncommon	Instant	81	U	U	Target creature you control gains hexproof.NEWLINEOverload 2UU (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of “target” with “each”.)			normal	D&D		

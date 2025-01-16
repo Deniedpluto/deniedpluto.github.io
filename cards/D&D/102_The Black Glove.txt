@@ -1,0 +1,1 @@
+﻿The Black Glove	B	rare	Legendary Artifact	102	B	B	The Black Glove does not untap during your untap step.NEWLINE1B, T: Target creature gets -1/-1 for as long as The Black Glove remains tapped. When targeted creature dies, untap The Black Glove and draw a card. 			normal	D&D		

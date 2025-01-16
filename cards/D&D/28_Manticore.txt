@@ -1,0 +1,1 @@
+﻿Manticore	W	common	Creature – Manticore 	28	W	2W	Flash, FlyingNEWLINEWhen Manticore Dies, draw a card.	3/1		normal	D&D		

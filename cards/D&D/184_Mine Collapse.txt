@@ -1,0 +1,1 @@
+﻿Mine Collapse	R	uncommon	Instant	184	R	1R	As an additional cost to cast this spell, you may sacrifice a creature.NEWLINEChoose one, if you sacrificed a creature, you may choose both – NEWLINE• Destroy target artifact.NEWLINE• Deal 3 damage to target creature.			normal	D&D		

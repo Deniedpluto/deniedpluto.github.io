@@ -1,0 +1,1 @@
+﻿Book of Victims	B	rare	Legendary Artifact	107	B	1B	T: Exile target creature from a graveyard.NEWLINE5: Sacrifice Book of Victims. Each opponent loses life equal to the number of cards exiled with Book of Victims.			normal	D&D		

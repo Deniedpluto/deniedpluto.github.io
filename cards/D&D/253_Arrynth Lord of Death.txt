@@ -1,0 +1,1 @@
+﻿Arrynth, Lord of Death	WB	rare	Legendary Creature – Dragon 	253	WB	3WB	FlyingNEWLINEWhenever a creature dies, each opponent loses 1 life. If it is the first time this turn, draw a card.NEWLINEWhen Arrynth, Lord of Death attacks exile target creature from a graveyard.	5/5		normal	D&D		

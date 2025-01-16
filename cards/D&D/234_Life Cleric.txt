@@ -1,0 +1,1 @@
+﻿Life Cleric	G	uncommon	Creature – Elf Cleric 	234	G	1GG	When Life Cleric enters the battlefield, return target card from your graveyard to your hand.	2/2		normal	D&D		

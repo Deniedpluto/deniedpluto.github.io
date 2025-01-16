@@ -1,0 +1,1 @@
+﻿Rising Populace	W	uncommon	Sorcery	38	W	W	Upcast 1W (You may pay an additional 1W any number of times as you cast this spell.)NEWLINEExile target creature with mana value less than or equal to the number of creatures you control.NEWLINEIf this spell was upcast, create two 1/1 white Human Soldier creature tokens.			normal	D&D		

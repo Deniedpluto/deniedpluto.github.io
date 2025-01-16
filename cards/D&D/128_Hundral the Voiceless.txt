@@ -1,0 +1,1 @@
+﻿Hundral the Voiceless	B	rare	Legendary Creature – Dwarf Fighter 	128	B	1B	When Hundral the Voiceless enters the battlefield, you may pay 2B any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Hundral the Voiceless then create twice that many 2/2 black dwarf creature tokens.	2/3		normal	D&D		

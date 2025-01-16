@@ -1,0 +1,1 @@
+﻿Astral Prison	W	uncommon	Enchantment	5	W	2W	When Astral Prison enters the battlefield, exile target nonland permanent an opponent controls until Astral Prison leaves the battlefield.			normal	D&D		

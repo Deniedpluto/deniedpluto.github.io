@@ -1,0 +1,1 @@
+﻿Milde, Faithful Assistant	WG	uncommon	Legendary Creature – Human Citizen 	303	WG	1G/W	At the beginning of each end step, gain 1 life if a creature died this turn.	1/2		normal	D&D		

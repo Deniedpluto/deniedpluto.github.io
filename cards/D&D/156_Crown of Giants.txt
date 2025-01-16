@@ -1,0 +1,1 @@
+﻿Crown of Giants	R	uncommon	Enchantment – Aura 	156	R	2R	Enchant creatureNEWLINEEnchanted creature has +4/+4 and trample and is a giant in addition to its other creature types.			normal	D&D		

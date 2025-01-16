@@ -1,0 +1,1 @@
+﻿Klaarrrgggg, Affable Bugbear	RG	rare	Legendary Creature – Goblin Barbarian 	271	RG	1RG	Nemesis (You may only control one creature or Planeswalker with Nemesis.)NEWLINEAt the beginning of each upkeep create a 1/1 red goblin creature token with haste. NEWLINEGoblins you control get +1/+0 and must attack each combat if able.	3/3		normal	D&D		

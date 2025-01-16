@@ -1,0 +1,1 @@
+﻿Elemental Orb of Earth		mythic	Legendary Artifact – Elemental Orb 	317	G	2	T: Add GNEWLINE1G, T: Put a land from your hand onto the battlefield tapped.			normal	D&D		

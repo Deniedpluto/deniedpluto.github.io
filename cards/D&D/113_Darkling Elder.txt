@@ -1,0 +1,1 @@
+﻿Darkling Elder	B	uncommon	Creature – Goblin Rogue 	113	B	2B	B: Goblins you control get +1/+0 until the end of the turn.NEWLINE1B: Target goblin with power 2 or less cannot be blocked.	2/3		normal	D&D		

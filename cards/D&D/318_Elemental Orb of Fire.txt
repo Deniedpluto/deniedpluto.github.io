@@ -1,0 +1,1 @@
+﻿Elemental Orb of Fire		mythic	Legendary Artifact – Elemental Orb 	318	R	2	T: Add R NEWLINE1R, T: Draw a card, discard a card.			normal	D&D		

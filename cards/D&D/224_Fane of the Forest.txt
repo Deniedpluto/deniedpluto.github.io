@@ -1,0 +1,1 @@
+﻿Fane of the Forest	G	rare	Legendary Creature – Demigod 	224	G	2G	If one or more +1/+1 counters would be put on a permanent you control, that many plus one +1/+1 counters are put on that permanent instead.NEWLINET: Add X mana of any one color, where X is Fane of the Forest’s power.	1/1		normal	D&D		

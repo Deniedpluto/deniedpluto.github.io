@@ -1,0 +1,1 @@
+﻿Minnesota, Impulsive Planner	UR	rare	Legendary Creature – Human Wizard 	276	UR	UR	When you cast your first instant or sorcery each turn roll a d20.NEWLINE1-9|Target opponent may copy the spell. They may choose new targets for the copy.NEWLINE10-20|Copy the spell. You may choose new targets for the copy.	2/3		normal	D&D		Dice-roll, spellslinger

@@ -1,0 +1,1 @@
+﻿Lady Aurelia	RG	mythic	Legendary Creature – Orc Noble 	273	RG	3RG	Creatures you control have vigilance.NEWLINE3G: Create a 3/3 green Soldier creature token with vigilance.	4/4		normal	D&D		

@@ -1,0 +1,1 @@
+﻿Bron, Dastardly Thief	B	uncommon	Legendary Creature – Human Rogue 	109	B	1B	MenaceNEWLINEWhen Bron, Dastardly Thief enters the battlefield return it to your hand unless mana from a Treasure was spent to cast it.	4/3		normal	D&D		

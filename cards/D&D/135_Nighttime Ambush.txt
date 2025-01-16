@@ -1,0 +1,1 @@
+﻿Nighttime Ambush	B	common	Instant	135	B	1B	Destroy target creature with power 3 or less.			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Gildling	B	common	Creature – Human Noble 	125	B	B	When Gildling dies, create a treasure.	1/1		normal	D&D		

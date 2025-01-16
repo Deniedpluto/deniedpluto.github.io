@@ -1,0 +1,1 @@
+﻿Werebear Amulet	G	uncommon	Artifact – Equipment 	245	G	1G	When Werebear Amulet enters the battlefield destroy target enchantment.NEWLINEEquipped creature has hexproof.NEWLINEEquip 1			normal	D&D		

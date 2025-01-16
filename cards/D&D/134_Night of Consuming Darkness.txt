@@ -1,0 +1,1 @@
+﻿Night of Consuming Darkness	B	rare	Sorcery	134	B	2B	As an additional cost to cast this spell, pay X life.NEWLINECreatures get -X/-X until the end of turn.			normal	D&D		

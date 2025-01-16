@@ -1,0 +1,1 @@
+﻿Sahuaghin Commander	U	rare	Creature – Sahuaghin 	85	U	2U	Other Sahuaghin you control get +1/+1.NEWLINE2U, T: Create a 1/1 blue Sahuaghin creature token with unblockable.  	3/3		normal	D&D		

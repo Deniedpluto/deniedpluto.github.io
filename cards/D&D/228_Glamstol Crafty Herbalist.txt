@@ -1,0 +1,1 @@
+﻿Glamstol, Crafty Herbalist	G	rare	Legendary Creature – Halfling Druid 	228	G	2G	Whenever another creature enters the battlefield under your control, you may create a food, a map token, or a clue token.	2/2		normal	D&D		

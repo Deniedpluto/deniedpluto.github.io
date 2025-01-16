@@ -1,0 +1,1 @@
+﻿Vampire Spawn	B	uncommon	Creature – Vampire 	149	B	2B	ReachNEWLINEVampire Spawn enters the battlefield tapped.NEWLINEWhenever a creature dealt damage by Vampire Spawn dies, create a tapped token copy of Vampire Spawn.	3/2		normal	D&D		

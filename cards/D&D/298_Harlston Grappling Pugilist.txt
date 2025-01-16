@@ -1,0 +1,1 @@
+﻿Harlston, Grappling Pugilist	WR	rare	Legendary Creature – Dwarf Fighter 	298	WR	3R/W	FlashNEWLINEWhen Harlston, Grappling Pugilist enters the battlefield, tap target creature an opponent controls. It doesn’t untap during its controllers next untap step.	4/3		normal	D&D		

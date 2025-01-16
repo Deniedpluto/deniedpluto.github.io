@@ -1,0 +1,1 @@
+﻿Elemental Orb of Water		mythic	Legendary Artifact – Elemental Orb 	319	U	2	T: Add U NEWLINE1U, T: Tap target creature, artifact, or land.			normal	D&D		

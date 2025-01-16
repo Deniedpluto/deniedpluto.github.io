@@ -1,0 +1,1 @@
+﻿Blood Ritual	B	rare	Enchantment	105	B	2B	Whenever a creature dies, put a blood counter on Blood Ritual.NEWLINERemove a blood counter: Each opponent loses 1 life.NEWLINERemove five blood counters: Return target creature from your graveyard to the battlefield.			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Charles	B	uncommon	Legendary Creature – Human 	110	B	B	When Charles dies, deal 1 damage to any target.	1/1		normal	D&D		

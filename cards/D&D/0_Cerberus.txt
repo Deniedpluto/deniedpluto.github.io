@@ -1,0 +1,1 @@
+﻿Cerberus	G	rare	Legendary Token Creature – Wolf 	0	C		Whenever a creature dealt damage by Cerberus dies, put a +1/+1 counter on Cerberus	2/2		normal	D&D		

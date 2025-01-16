@@ -1,0 +1,1 @@
+﻿The Beacon		rare	Land	334	C		T, Pay 1 Life, Sacrifice The Beacon: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.			normal	D&D		

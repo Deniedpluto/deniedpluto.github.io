@@ -1,0 +1,1 @@
+﻿Zunam, Fate Favored	U	rare	Legendary Creature – Aasimar Bard 	100	U	2U	At the beginning of your upkeep, scry 1. NEWLINEWhenever you cast a non-creature spell, roll a d20.NEWLINE1-9 | Scry 1.NEWLINE10-19| Scry 1 then draw a card.NEWLINE20| Scry 2 then draw 2 cards.	2/3		normal	D&D		

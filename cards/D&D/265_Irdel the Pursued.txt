@@ -1,0 +1,1 @@
+﻿Irdel the Pursued	UB	uncommon	Legendary Creature – Dragon Wizard 	265	UB	UB	At the beginning of your upkeep pay 1 life unless you sacrifice Irdel the Pursued.NEWLINEWhen Irdel the Pursued deals combat damage to a player put a +1/+1 counter on it.NEWLINEUB: Irdel the Pursued cannot be blocked until end of turn.	2/1		normal	D&D		

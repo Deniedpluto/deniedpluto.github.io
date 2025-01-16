@@ -1,0 +1,1 @@
+﻿Kirk of Clan Daardendrian	W	rare	Legendary Creature – Dragon Paladin 	23	W	3W	When Kirk of Clan Daardendrian enters the battlefield, search your library for an equipment card and put it on the battlefield.NEWLINE1W: Attach all Equipment you control to Kirk.	3/3		normal	D&D		

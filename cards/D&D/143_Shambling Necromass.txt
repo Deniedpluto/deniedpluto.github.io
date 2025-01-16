@@ -1,0 +1,1 @@
+﻿Shambling Necromass	B	uncommon	Creature – Zombie 	143	B	7B	MenaceNEWLINEShambling Necromass costs 1 less to cast for each creature card in your graveyard.NEWLINEShambling Necromass power and toughness is equal to the number of creature cards in your graveyard.	*/*		normal	D&D		

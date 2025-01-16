@@ -1,0 +1,1 @@
+﻿Sahuaghin Artillerist	U	uncommon	Creature – Sahuaghin 	84	U	2U	Foretell U (During your turn, you may pay 2 and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)NEWLINEWhen Sahuaghin Artillerist enters the battlefield, return target creature to its owner’s hand. 	1/3		normal	D&D		

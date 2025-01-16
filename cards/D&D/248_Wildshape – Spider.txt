@@ -1,0 +1,1 @@
+﻿Wildshape – Spider	G	rare	Enchantment – Aura 	248	G	G	Totem Armor (If enchanted permanent would be destroyed, instead remove all damage from it and destroy this Aura.)NEWLINEEnchant CreatureNEWLINEEnchanted creature has base power and toughness 1/1 and can’t be blocked and is a spider in addition to its other types.			normal	D&D		

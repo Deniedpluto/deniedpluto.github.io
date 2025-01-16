@@ -1,0 +1,1 @@
+﻿Fane of the River	U	rare	Legendary Creature – Demigod 	63	U	2U	At the beginning of your upkeep, scry 1.NEWLINE1U: Target creature you control can’t be blocked this turn.	3/3		normal	D&D		

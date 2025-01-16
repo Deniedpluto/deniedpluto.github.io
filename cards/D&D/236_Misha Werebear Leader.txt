@@ -1,0 +1,1 @@
+﻿Misha, Werebear Leader	G	rare	Legendary Creature – Werebear 	236	G	2GG	When Misha enters the battlefield create a 2/2 green Werebear creature token.NEWLINEOther Bears and Werebears you control get +1/+1NEWLINE1G, Exile target creature card from your graveyard: Create a 2/2 green Werebear creature token.	4/4		normal	D&D		

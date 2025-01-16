@@ -1,0 +1,1 @@
+﻿Syosa, Raving Dragon	BG	rare	Legendary Creature – Dragon 	279	BG	3BG	Nemesis (You may only control one creature or Planeswalker with Nemesis.)NEWLINEFlyingNEWLINEAt the beginning of each combat, create an dragon egg token with “2: Transform this egg.” It transforms into a 0/0 dragon creature token. Put a +1/+1 counter on each egg you control.	5/2		normal	D&D		

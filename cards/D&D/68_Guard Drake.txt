@@ -1,0 +1,1 @@
+﻿Guard Drake	U	common	Creature – Dragon 	68	U	3U	VigilanceNEWLINEWhen Guard Drake enters the battlefield, Scry 2.	4/2		normal	D&D		

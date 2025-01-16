@@ -1,0 +1,1 @@
+﻿Owlbear	G	uncommon	Creature – Bear Bird 	238	G	3G	TrampleNEWLINEWhen Owlbear enters the battlefield, draw a card.	4/4		normal	D&D		

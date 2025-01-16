@@ -1,0 +1,1 @@
+﻿Divine Smite	W	common	Instant	18	W	W	Deal 4 damage to target attacking or blocking creature. If that creature would die, exile it instead.			normal	D&D		

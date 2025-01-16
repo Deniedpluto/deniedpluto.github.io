@@ -1,0 +1,1 @@
+﻿Kruthik Tunneler	G	uncommon	Creature – Monstrosity 	233	G	1G	MenaceNEWLINEWhen Kruthik Tunneler deals combat damage to a player, mill 2 cards. You may return a land from your graveyard to your hand.	3/1		normal	D&D		

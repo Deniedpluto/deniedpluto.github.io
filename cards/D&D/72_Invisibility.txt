@@ -1,0 +1,1 @@
+﻿Invisibility	U	uncommon	Enchantment – Aura 	72	U	UU	Enchant creature.NEWLINEEnchanted creature can’t be blocked.			normal	D&D		

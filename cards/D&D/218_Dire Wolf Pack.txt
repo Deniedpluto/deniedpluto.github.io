@@ -1,0 +1,1 @@
+﻿Dire Wolf Pack	G	uncommon	Creature – Wolf 	218	G	1G	Squad 2 (As an additional cost to cast this spell, you may pay 2 any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)	2/2		normal	D&D		

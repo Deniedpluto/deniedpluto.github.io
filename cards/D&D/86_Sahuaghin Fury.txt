@@ -1,0 +1,1 @@
+﻿Sahuaghin Fury	U	uncommon	Creature – Sahuaghin 	86	U	1U	HasteNEWLINEWhen Sahuaghin Fury attacks, draw a card then discard a card. If a creature card is discarded this way, Sahuaghin Fury gets first strike until end of turn.	3/1		normal	D&D		

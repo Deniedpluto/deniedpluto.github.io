@@ -1,0 +1,1 @@
+﻿Mazzer, The Rat King	UB	rare	Legendary Creature – Human Rat Monk 	0	UB	2UB	Double strike, MenaceNEWLINEDiscard a card: Create a 1/1 black rat creature tokens with menace and “This creature can’t block”NEWLINERats you control get +1/+1	3/3		normal	D&D		

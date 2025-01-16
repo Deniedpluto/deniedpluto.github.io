@@ -1,0 +1,1 @@
+﻿Counterspell	U	uncommon	Instant	56	U	UU	Counter target spell.			normal	D&D		

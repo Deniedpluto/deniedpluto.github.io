@@ -1,0 +1,1 @@
+﻿Inopportune Arrest	U	rare	Enchantment	0	C		Tap a creature you control: Tap target creature an opponent controls.			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Fire Bolt	R	common	Instant	161	R	R	Upcast 1R (You may pay an additional 1R any number of times as you cast this spell.)NEWLINEDeal 2 damage to any target.NEWLINEIf this spell was upcast, deal an additional 2 damage to that creature for each time it was upcast.			normal	D&D		

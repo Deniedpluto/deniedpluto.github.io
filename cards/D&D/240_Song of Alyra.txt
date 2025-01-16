@@ -1,0 +1,1 @@
+﻿Song of Alyra	G	rare	Enchantment	240	G	2G	Nontoken creatures you control have riot. (That creature enters the battlefield with your choice of a +1/+1 counter or haste.)NEWLINEWhenever a creature enters the battlefield under your control with power four or greater, draw a card.			normal	D&D		

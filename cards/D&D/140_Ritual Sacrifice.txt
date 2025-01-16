@@ -1,0 +1,1 @@
+﻿Ritual Sacrifice	B	uncommon	Sorcery	140	B	B	As an additional cost to cast this spell, sacrifice creatures with total mana value X.NEWLINEReturn up to two target creatures from your graveyard to the battlefield with total mana value less than or equal to X+2.			normal	D&D		

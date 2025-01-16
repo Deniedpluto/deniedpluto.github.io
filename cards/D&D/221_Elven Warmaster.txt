@@ -1,0 +1,1 @@
+﻿Elven Warmaster	G	uncommon	Creature – Elf Fighter 	221	G	1G	Whenever one or more other Elves enter the battlefield under your control, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.NEWLINE5GG: Elves you control get +2/+2 and gain deathtouch until end of turn.	2/2		normal	D&D		

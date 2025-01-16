@@ -1,0 +1,1 @@
+﻿Acolyte of Vetys	U	rare	Creature – Dragon Wizard 	51	U	2UU	Whenever you cast an instant or sorcery, draw a card.	2/2		normal	D&D		

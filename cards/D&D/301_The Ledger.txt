@@ -1,0 +1,1 @@
+﻿The Ledger	UB	rare	Legendary Creature – Human Rogue 	301	UB	1UU/BB	Nemesis – At the beginning of your upkeep if you control no rogue creatures tokens, create a 1/1 black rogue creature token with unblockable. (You may only control one creature or Planeswalker with Nemesis.)NEWLINESacrifice a creature: Create a treasure.	3/3		normal	D&D		

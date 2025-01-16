@@ -1,0 +1,1 @@
+﻿Teleportation Circle	W	rare	Enchantment	44	W	3W	At the beginning of your end step, exile target creature you control and then return it to the battlefield.			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Phaedra the Seeker	W	rare	Legendary Creature – Tiefling Paladin 	34	W	2W	VigilanceNEWLINEWhen Phaedra enters the battlefield, create Rowan, a 2/1 soldier token with “Sacrifice Rowan, target creature you control gets indestructible until the end of turn.”NEWLINEWhen Phaedra attacks with at least two other creatures, creatures you control get first strike.	3/4		normal	D&D		

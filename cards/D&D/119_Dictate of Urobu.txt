@@ -1,0 +1,1 @@
+﻿Dictate of Urobu	B	rare	Sorcery	119	B	3BB	Each opponent sacrifices a creature then loses life equal to the number of creatures cards in all graveyards.NEWLINEExile all graveyards.NEWLINEDraw a card.			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Grappling Octopus	U	uncommon	Creature – Octopus 	67	U	3U	When Grappling Octopus attacks, roll a d20:NEWLINE1-9| Tap up to two target creatures.NEWLINE10-19| Tap up to two target creatures, they don’t untap during their next untap step.NEWLINE20| Tap up to eight target creatures.	3/4		normal	D&D		

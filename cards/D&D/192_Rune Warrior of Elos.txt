@@ -1,0 +1,1 @@
+﻿Rune Warrior of Elos	R	uncommon	Creature – Dragon Soldier 	192	R	1R	HasteNEWLINEProwessNEWLINEWhen Rune Warrior of Elos dies, it deals damage equal to its power to any target.	1/1		normal	D&D		

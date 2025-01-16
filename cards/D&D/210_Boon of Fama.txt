@@ -1,0 +1,1 @@
+﻿Boon of Fama	G	uncommon	Instant	210	G	1G	Target creature gets deathtouch until the end of the turn.NEWLINEDraw a card.			normal	D&D		

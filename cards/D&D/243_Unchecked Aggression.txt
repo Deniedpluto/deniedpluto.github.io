@@ -1,0 +1,1 @@
+﻿Unchecked Aggression	G	common	Sorcery	243	G	2G	Target creature you control deals damage equal to its power to target creature.NEWLINEIf a creature you control dies, draw cards equal to its toughness.			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Aranya's Intervention	G	rare	Instant	205	G	1G	Creatures you control gain hexproof and indestructible until the end of turn.			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Blue Flame Candle	B	rare	Legendary Artifact	106	B	B	Whenever a creature dies, scry 1.NEWLINEIf you choose to leave the card on top of your library, you may draw a card. If you do, reveal it and lose life equal to its mana value.			normal	D&D		

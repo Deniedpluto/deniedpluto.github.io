@@ -1,0 +1,1 @@
+﻿Town's Guard	W	common	Creature – Human Soldier 	45	W	1W	Bolster 1 (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)	2/1		normal	D&D		

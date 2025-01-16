@@ -1,0 +1,1 @@
+﻿Aleana, Faith's Shield	WR	rare	Legendary Enchantment Creature – God 	284	WR	2R/WW	IndestructibleNEWLINEAs long as your devotion to white and red is less than five, Aleana, Faith’s Shield isn’t a creature.NEWLINECreature you controls gain vigilance.NEWLINEPrevent all damage done to blocking creatures you control.	5/6		normal	D&D		

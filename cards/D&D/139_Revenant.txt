@@ -1,0 +1,1 @@
+﻿Revenant	B	uncommon	Creature – Zombie Paladin 	139	B	1B	1B: Return Revenant from the graveyard to the battlefield tapped.	2/2		normal	D&D		

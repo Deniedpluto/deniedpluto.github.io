@@ -1,0 +1,1 @@
+﻿Caravan Raid	G	common	Instant	211	G	G	Upcast 1G: (You may pay an additional 1G any number of times as you cast this spell.)NEWLINEDestroy target artifact.NEWLINEIf this spell was upcast, you may destroy up to one other target enchantment.			normal	D&D		

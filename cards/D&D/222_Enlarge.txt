@@ -1,0 +1,1 @@
+﻿Enlarge	G	uncommon	Instant	222	G	1G	Target creature gets +3/+3 and trample.NEWLINEOverload 4GG (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of “target” with “each”.)			normal	D&D		

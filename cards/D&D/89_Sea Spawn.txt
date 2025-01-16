@@ -1,0 +1,1 @@
+﻿Sea Spawn	U	common	Creature – Merfolk Horror 	89	U	1U	1U: Roll a d20. Active only if Sea Spawn is in your graveyard.NEWLINE1-10| Return Sea Spawn to your hand.NEWLINE11-19| Return Sea Spawn to your battlefield tapped.NEWLINE20| Return Sea Spawn to the battlefield.	2/1		normal	D&D		

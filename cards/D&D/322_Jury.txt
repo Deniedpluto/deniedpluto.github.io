@@ -1,0 +1,1 @@
+﻿Jury		rare	Legendary Artifact – Equipment 	322	C	3	Equip 3NEWLINEEquipped creature gets +1/+0NEWLINEEquipped creature has “When you attack, you may exert this creature. If you do, double its power and it deals its combat damage as though it wasn’t blocked. Tap it.” (An exerted permanent won’t untap during your next untap step.)			normal	D&D		

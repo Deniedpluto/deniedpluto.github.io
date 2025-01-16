@@ -1,0 +1,1 @@
+﻿Boon of Aranya	G	common	Sorcery	209	G	1G	You may play an additional land this turn.NEWLINEDraw a card.			normal	D&D		

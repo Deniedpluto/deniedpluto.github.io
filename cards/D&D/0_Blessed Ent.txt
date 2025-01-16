@@ -1,0 +1,1 @@
+﻿Blessed Ent	G	rare	Creature – Treefolk 	0	C		Blessed Ent’s power and toughness are equal to the number of lands you control.	*/*		normal	D&D		

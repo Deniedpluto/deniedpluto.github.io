@@ -1,0 +1,1 @@
+﻿Luster, War-Scarred	BR	mythic	Legendary Creature – Human Fighter 	274	BR	2BR	Double strikeNEWLINEPut a +1/+1 counter on Luster, War-Scarred whenever a creature dealt damage by Luster, War-Scarred dies.NEWLINESacrifice a creature: Luster, War-Scarred is indestructible until the end of the turn.	2/2		normal	D&D		

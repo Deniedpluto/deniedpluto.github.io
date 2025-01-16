@@ -1,0 +1,1 @@
+﻿Pyrrydoss the Unbroken	UR	mythic	Legendary Creature – Dragon 	277	UR	2UR	Flying, HasteNEWLINEWhen Pyrrydoss attacks, roll a d20.NEWLINE1-9 | Return Pyrrydoss to your hand.NEWLINE10-19| Pyrrydoss deals 3 damage to target creature.NEWLINE20| Pyrrydoss deals 2 damage to each creature target opponent controls.	7/7		normal	D&D		

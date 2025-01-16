@@ -1,0 +1,1 @@
+﻿Lady Ostrix	W	rare	Legendary Creature – Elf Noble 	25	W	1W	First strikeNEWLINECreatures your opponents control enter tapped.	2/1		normal	D&D		

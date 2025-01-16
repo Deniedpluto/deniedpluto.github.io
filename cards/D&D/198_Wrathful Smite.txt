@@ -1,0 +1,1 @@
+﻿Wrathful Smite	R	uncommon	Instant	198	R	R	Target creature you control gets trample and +2/+0 until end of turn.NEWLINEOverload 4RR (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of “target” with “each”.)			normal	D&D		

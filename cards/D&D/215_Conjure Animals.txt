@@ -1,0 +1,1 @@
+﻿Conjure Animals	G	rare	Sorcery	215	G	2G	Upcast 1G (You may pay an additional 1G any number of times as you cast this spell.)NEWLINECreate two 2/2 green Bear creature tokens.NEWLINEFor each time this spell was upcast, create two additional 2/2 green Bear creature tokens.			normal	D&D		

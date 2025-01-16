@@ -1,0 +1,1 @@
+﻿Sorsha, Restrained	BG	rare	Legendary Creature – Elf Vampire Druid 	306	BG	2B/G	When Sorsha, Restrained enters the battlefield, you may sacrifice a creature. If you do, return target creature from your graveyard to the battlefield. It is fungi in addition to its other types.	2/3		normal	D&D		

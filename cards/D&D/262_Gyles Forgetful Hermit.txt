@@ -1,0 +1,1 @@
+﻿Gyles, Forgetful Hermit	BG	uncommon	Legendary Creature – Human Noble 	262	BG	BG	When Gyles, Forgetful Hermit enters the battlefield, mill three cards then return a land from your graveyard to your hand.	1/3		normal	D&D		

@@ -1,0 +1,1 @@
+﻿Elemental Orb of Air		mythic	Legendary Artifact – Elemental Orb 	315	W	2	T: Add W NEWLINE1W, T: Target creature gets +1/+1 and vigilance until end of turn.			normal	D&D		

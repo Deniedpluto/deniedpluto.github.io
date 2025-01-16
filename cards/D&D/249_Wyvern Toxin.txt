@@ -1,0 +1,1 @@
+﻿Wyvern Toxin	G	uncommon	Sorcery	249	G	1G	Choose one –NEWLINE• Each opponent sacrifices an artifact.NEWLINE• Each opponent sacrifices an enchantment.NEWLINE• Each opponent sacrifices a creature with flying.			normal	D&D		

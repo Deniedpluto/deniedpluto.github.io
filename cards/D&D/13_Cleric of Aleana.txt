@@ -1,0 +1,1 @@
+﻿Cleric of Aleana	W	rare	Creature – Tiefling Cleric 	13	W	W	T: Another target creature you control gains protection from the color of your choice until end of turn. (This creature can’t be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until end of turn.)	1/2		normal	D&D		

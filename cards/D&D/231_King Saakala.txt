@@ -1,0 +1,1 @@
+﻿King Saakala	G	rare	Legendary Creature – Elf Lord 	231	G	1GG	Forestwalk (This creature can’t be blocked as long as defending player controls a Forest.)NEWLINEOther elves you control get +1/+1 and “T: Add G”.	2/2		normal	D&D		

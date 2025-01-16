@@ -1,0 +1,1 @@
+﻿Defend the Walls!	W	common	Instant	15	W	2W	Untap creatures you control, they get +1/+3 until the end of turn.			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Fama's Talon	B	uncommon	Creature – Assassin 	124	B	1B	DeathtouchNEWLINEWhenever a creature dealt damage by Fama’s Talon would die, exile it instead.	2/1		normal	D&D		

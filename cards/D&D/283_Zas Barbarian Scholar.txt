@@ -1,0 +1,1 @@
+﻿Zas, Barbarian Scholar	RG	rare	Legendary Creature – Orc Barbarian 	283	RG	1RG	TrampleNEWLINEWhenever Zas, Barbarian Scholar and two other creatures attack, double Zas, Barbarian Scholar’s power and toughness until end of turn.	2/3		normal	D&D		

@@ -1,0 +1,1 @@
+﻿Spare the Dying	B	uncommon	Instant	145	B	B	Upcast 1B (You may pay an additional 1B any number of times as you cast this spell.)NEWLINETarget creature gains undying till the end of the turn. (When that creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner’s control with a +1/+1 counter on it.)			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Staff of the Blightree	B	mythic	Legendary Enchantment Artifact	146	B	3B	1T: Target opponent discards a card.NEWLINE3T: NEWLINE5T: Return target creature from the graveyard to the battlefield.			planeswalker	D&D	5	

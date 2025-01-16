@@ -1,0 +1,1 @@
+﻿Caelys's Favor	R	uncommon	Instant	152	R	1R	Create a Treasure token.NEWLINEDraw a card.NEWLINEFlashback 3R (You may cast this card from your graveyard for its flashback cost. Then exile it.)			normal	D&D		

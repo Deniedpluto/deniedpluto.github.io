@@ -1,0 +1,1 @@
+﻿Alyra, Oracle's Muse	WRG	rare	Legendary Enchantment Creature – God 	285	WRG	1R/GR/W	IndestructibleNEWLINEAs long as your devotion to red, green, and white is less than seven, Alyra, Oracle’s Muse isn’t a creature.NEWLINECreature you control have haste. NEWLINEAt the beginning of your end step, if you dealt combat damage to a player, draw a card.	5/5		normal	D&D		

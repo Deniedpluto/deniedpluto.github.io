@@ -1,0 +1,1 @@
+﻿Fleetfoot, Sharpshooter	G	rare	Legendary Creature – Human Ranger 	225	G	1GG	FlashNEWLINEReachNEWLINEWhen Fleetfoot enters the battlefield he deals damage equal to the number of creatures you control to target creature an opponent controls.	2/3		normal	D&D		

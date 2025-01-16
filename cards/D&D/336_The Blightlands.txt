@@ -1,0 +1,1 @@
+﻿The Blightlands		rare	Land	336	C		T, Pay 1 Life, Sacrifice The Blightlands: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.			normal	D&D		

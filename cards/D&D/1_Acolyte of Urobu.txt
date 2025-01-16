@@ -1,0 +1,1 @@
+﻿Acolyte of Urobu	W	rare	Creature – Elf Cleric 	1	W	1W	W: Exile target card from a graveyard. If it was a creature card, put a +1/+1 counter on Acolyte of Urobu.	1/1		normal	D&D		

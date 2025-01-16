@@ -1,0 +1,1 @@
+﻿Scorching Ray	R	rare	Instant	193	R	2R	For each opponent, choose a creature that opponent controls. Scorching Ray deals 3 damage to each creature.			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Granite, Elos' Vengeance	BR	rare	Legendary Creature – Dwarf Paladin 	261	BR	2BR	When Granite, Elos’ Vengeance attacks put a glory counter on Granite.NEWLINERemove any number of glory counters from Granite, Elos’ Vengeance. Destroy target creature with mana value less than or equal to the number of removed counters.	3/4		normal	D&D		

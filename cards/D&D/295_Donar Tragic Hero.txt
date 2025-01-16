@@ -1,0 +1,1 @@
+﻿Donar, Tragic Hero	WU	uncommon	Legendary Creature – Human Cleric 	295	WU	1W/U	When Donar, Tragic Hero is put into the graveyard from anywhere return a creature with mana value 2 or less from the graveyard to your hand.	2/2		normal	D&D		

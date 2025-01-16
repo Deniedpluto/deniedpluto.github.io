@@ -1,0 +1,1 @@
+﻿Aleana's Mercy	W	uncommon	Instant	3	W	1W	Target creature you control gets protection from the color of your choice until the end of the turn. (It can’t be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until the end of the turn.)NEWLINEDraw a card.			normal	D&D		

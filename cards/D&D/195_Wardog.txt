@@ -1,0 +1,1 @@
+﻿Wardog	R	common	Creature – Dog 	195	R	R	Haste	2/1		normal	D&D		

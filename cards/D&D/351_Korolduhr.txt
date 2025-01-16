@@ -1,0 +1,1 @@
+﻿Korolduhr		rare	Legendary Land – Mountain 	351	R		T: Add RNEWLINE1R, T, Exile a creature card from your graveyard: Create a treasure.			normal	D&D		

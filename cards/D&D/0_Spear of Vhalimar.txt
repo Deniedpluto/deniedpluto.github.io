@@ -1,0 +1,1 @@
+﻿Spear of Vhalimar	B	rare	Legendary Artifact – Equipment 	0	C		Equipped creature gets +2/+2 and has flying and vigilance.NEWLINEWhenever equipped creature attacks, it gains your choice of lifelink, trample, or deathtouch.NEWLINEEquip 3			normal	D&D		

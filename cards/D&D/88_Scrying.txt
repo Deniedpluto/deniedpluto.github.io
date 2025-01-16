@@ -1,0 +1,1 @@
+﻿Scrying	U	common	Instant	88	U	U	Draw 3 cards, then put two cards from your hand on top of your library in any order.			normal	D&D		

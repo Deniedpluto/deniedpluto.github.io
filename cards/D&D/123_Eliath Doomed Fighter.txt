@@ -1,0 +1,1 @@
+﻿Eliath, Doomed Fighter	B	rare	Legendary Creature – Elf Fighter 	123	B	1BB	When Eliath, Doomed Fighter is dies, return another target legendary creature from your graveyard to the battlefield with a +1/+1 counter.	3/2		normal	D&D		

@@ -1,0 +1,1 @@
+﻿High Priest Kaaladeth	U	rare	Legendary Creature – Dragon Cleric 	69	U	2UU	When High Priest Kaaladeth enters the battlefield, look at the top five cards of your library. You may reveal a dragon card and put it in your hand. Put the rest on the bottom of your library in random order.NEWLINE3U, T: Scry 2. This ability cost 1 less for each other dragon you control.	2/3		normal	D&D		

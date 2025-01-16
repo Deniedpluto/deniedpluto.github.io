@@ -1,0 +1,1 @@
+﻿Worker's Union	R	uncommon	Enchantment	197	R	1R	When Worker’s Union enters the battlefield, create two 1/1 red Worker creature tokens.NEWLINESacrifice a treasure: Create a 1/1 red Worker creature token.			normal	D&D		

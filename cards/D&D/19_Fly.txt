@@ -1,0 +1,1 @@
+﻿Fly	W	uncommon	Enchantment – Aura 	19	W	1W	Upcast 1W (You may pay an additional 1W any number of times as you cast this spell.)NEWLINEEnchant CreatureNEWLINEEnchanted creature has flying.NEWLINEIf this spell was upcast, create a copy of Fly for each time it was upcast. Attach each copy to a different creature.			normal	D&D		

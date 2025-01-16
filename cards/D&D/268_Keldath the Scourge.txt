@@ -1,0 +1,1 @@
+﻿Keldath the Scourge	BG	mythic	Legendary Creature – Dragon 	268	BG	4BG	Flying, DeathtouchNEWLINEWhen Keldath the Scourge enters the battlefield, put a -1/-1 counter on each creature an opponent controls.NEWLINEWhen a creature with a -1/-1 counter on it dies, you may move the counters to another creature.	4/3		normal	D&D		

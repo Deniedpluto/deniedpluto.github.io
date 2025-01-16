@@ -1,0 +1,1 @@
+﻿Chief Inspector	W	common	Creature – Human Soldier 	12	W	W	When Chief Inspector enters the battlefield, investigate. (Create a colorless Clue artifact token with “2, Sacrifice this artifact: Draw a card.”)	1/2		normal	D&D		

@@ -1,0 +1,1 @@
+﻿Library of Vetys	U	rare	Enchantment	76	U	3U	Instant and sorcery spells you cast cost 1 less to cast.NEWLINEWhenever you cast an instant or sorcery spell, scry 1.			normal	D&D		

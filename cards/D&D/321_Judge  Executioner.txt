@@ -1,0 +1,1 @@
+﻿Judge & Executioner		rare	Legendary Artifact – Equipment 	321	C	2	Equipped creature has double strike.NEWLINEWhenever equipped creature attacks, put a charge counter on Judge & Executioner.NEWLINERemove a charge counter from Judge & Executioner: Deal 1 damage to any target.NEWLINEEquip 2			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Dungeon Skeleton	B	common	Creature – Skeleton 	122	B	1B	When Dungeon Skeleton dies, create a treasure token.NEWLINE2B: Return Dungeon Skeleton to the battlefield tapped.	1/1		normal	D&D		

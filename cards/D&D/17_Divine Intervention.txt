@@ -1,0 +1,1 @@
+﻿Divine Intervention	W	rare	Instant	17	W	2W	Until your next turn, your life total can’t change and you have protection from everything. All permanents you control phase out. (While they’re phased out, they’re treated as though they don’t exist. They phase in before you untap during your untap step.)NEWLINEExile Divine Intervention			normal	D&D		

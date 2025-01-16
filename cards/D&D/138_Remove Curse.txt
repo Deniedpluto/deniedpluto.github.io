@@ -1,0 +1,1 @@
+﻿Remove Curse	B	uncommon	Sorcery	138	B	BB	Destroy target enchantment. You lose life equal to its mana value.			normal	D&D		

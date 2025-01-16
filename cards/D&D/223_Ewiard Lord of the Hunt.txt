@@ -1,0 +1,1 @@
+﻿Ewiard, Lord of the Hunt	G	uncommon	Legendary Creature – Goliath Fighter 	223	G	3GG	Trample, ReachNEWLINEOther creatures you control have trample.NEWLINEWhenever you cast a green creature spell, put a +1/+1 counter on each creature you control.	5/4		normal	D&D		

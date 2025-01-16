@@ -1,0 +1,1 @@
+﻿The Forge of War	W	mythic	Legendary Artifact	20	W	2W	Equipped creatures you control have double strike and battle cry (Whenever that creature attacks, each other attacking creature gets +1/+0 until end of turn.)NEWLINE1W, T: Attach all Equipment you control to target creature you control.			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Adolescent Dragon	G	uncommon	Creature – Dragon 	202	G	1G	Flying, Deathtouch	1/1		normal	D&D		

@@ -1,0 +1,1 @@
+﻿The Halcyon	R	uncommon	Creature – Human Noble 	173	R	2R	When The Halcyon enters the battlefield create a treasure.NEWLINESacrifice a treasure: Target creature can’t be blocked this turn.	2/3		normal	D&D		

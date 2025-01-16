@@ -1,0 +1,1 @@
+﻿The Wilds		rare	Land	372	C		T, Pay 1 Life, Sacrifice The Wilds: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.			normal	D&D		

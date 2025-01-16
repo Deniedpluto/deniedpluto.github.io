@@ -1,0 +1,1 @@
+﻿Cleanse the Fanes	G	rare	Enchantment – Quest 	213	G	1G	Enter the Tomb:NEWLINECreate a treasure token			class	D&D		

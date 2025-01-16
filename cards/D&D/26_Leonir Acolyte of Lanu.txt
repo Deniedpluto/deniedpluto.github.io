@@ -1,0 +1,1 @@
+﻿Leonir, Acolyte of Lanu	W	rare	Legendary Creature – Elf Cleric Rogue 	26	W	1WW	When Leonir, Acolyte of Lanu enters the battlefield create a 2/2 white elf token.NEWLINESacrifice a creature token: Leonir, Acolyte of Lanu phases out.  (Treat it and anything attached to it as though they don’t exist until its controller’s next turn.)	3/3		normal	D&D		

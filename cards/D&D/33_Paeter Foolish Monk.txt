@@ -1,0 +1,1 @@
+﻿Paeter, Foolish Monk	W	common	Legendary Creature – Human Monk 	33	W	W	When Paeter, Foolish Monk dies, draw a card.	2/1		normal	D&D		

@@ -1,0 +1,1 @@
+﻿Soul Eater		common	Legendary Artifact	325	C	5	T, Sacrifice a Legendary permanent: Exile target legendary permanent.			normal	D&D		

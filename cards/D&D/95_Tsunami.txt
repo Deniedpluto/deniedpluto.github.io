@@ -1,0 +1,1 @@
+﻿Tsunami	U	rare	Sorcery	95	U	4UU	Return each creature your opponents control with toughness X or less to its owner’s hand, where X is the number of Islands you control.NEWLINEForetell 1UU (During your turn, you may pay 2 and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)			normal	D&D		

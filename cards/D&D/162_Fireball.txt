@@ -1,0 +1,1 @@
+﻿Fireball	R	rare	Sorcery	162	R	XR	This spell costs 1 more to cast for each target beyond the first.NEWLINEFireball deals X damage divided evenly, rounded down, among any number of targets.			normal	D&D		

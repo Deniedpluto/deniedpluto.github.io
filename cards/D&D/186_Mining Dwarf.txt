@@ -1,0 +1,1 @@
+﻿Mining Dwarf	R	common	Creature – Dwarf 	186	R	R	When Mining Dwarf enters the battlefield, create a treasure token.	1/1		normal	D&D		

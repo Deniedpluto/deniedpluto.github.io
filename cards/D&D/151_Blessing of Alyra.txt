@@ -1,0 +1,1 @@
+﻿Blessing of Alyra	R	uncommon	Sorcery	151	R	1R	Creatures you control get +2/+0 and haste until the end of the turn.NEWLINEDraw a card.			normal	D&D		

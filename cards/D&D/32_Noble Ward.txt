@@ -1,0 +1,1 @@
+﻿Noble Ward	W	uncommon	Creature – Human  Noble 	32	W	1WW	When Noble Ward dies, return target creature card with mana value 3 or less from the graveyard to the battlefield.	2/2		normal	D&D		

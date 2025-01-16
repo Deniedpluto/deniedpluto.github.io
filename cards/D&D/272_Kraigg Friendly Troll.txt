@@ -1,0 +1,1 @@
+﻿Kraigg, Friendly Troll	RG	uncommon	Legendary Creature – Troll 	272	RG	2RG	DefenderNEWLINEKraigg, Friendly Troll assigns combat damage equal to its toughness rather than its power.	1/5		normal	D&D		

@@ -1,0 +1,1 @@
+﻿Mazzer, Protected	G	rare	Legendary Creature – Elf Monk 	235	G	1GG	Double strikeNEWLINEWhen Mazzer enters the battlefield, destroy target artifact or enchantment.	2/3		normal	D&D		

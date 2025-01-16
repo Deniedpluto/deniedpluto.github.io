@@ -1,0 +1,1 @@
+﻿Dispel Magic	W	uncommon	Sorcery	16	W	1W	Upcast 1W (You may pay an additional 1W any number of times as you cast this spell.)NEWLINEExile target artifact or enchantment.NEWLINEExile an additional artifact or enchantment for each time this spell was upcast.			normal	D&D		

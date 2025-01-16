@@ -1,0 +1,1 @@
+﻿Captain Ryo	R	rare	Legendary Creature – Elf Pirate 	153	R	2R	When Captain Ryo enters the battlefield, create a treasure token.NEWLINESacrifice a treasure: Goad target creature. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)	3/2		normal	D&D		

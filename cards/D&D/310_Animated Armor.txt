@@ -1,0 +1,1 @@
+﻿Animated Armor		common	Artifact Creature – Construct 	310	C	3	FlashNEWLINEVigilanceNEWLINEWhen Animated Armor enters the battlefield, tap target creature.	3/3		normal	D&D		

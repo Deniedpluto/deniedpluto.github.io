@@ -1,0 +1,1 @@
+﻿Captain Morro	W	rare	Legendary Creature – Human Soldier 	9	W	2W	Flash, First strikeNEWLINEWhen Captain Morro enters the battlefield, you may pay 1W any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Captain Morro then tap that many target creatures. They don’t untap during their controllers next untap step.	2/3		normal	D&D		

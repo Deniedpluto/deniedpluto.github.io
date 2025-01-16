@@ -1,0 +1,1 @@
+﻿Wall of Force	U	common	Instant	97	U	3U	Foretell 2U (During your turn, you may pay 2 and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)NEWLINEReturn all attacking creatures to their owner’s hand.			normal	D&D		

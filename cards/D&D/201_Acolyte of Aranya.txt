@@ -1,0 +1,1 @@
+﻿Acolyte of Aranya	G	rare	Creature – Elf  Druid 	201	G	2G	When Acolyte of Aranya enters the battlefield, draw a card. NEWLINEYou may play an additional land each turn.	2/1		normal	D&D		

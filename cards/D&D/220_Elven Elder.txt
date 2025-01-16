@@ -1,0 +1,1 @@
+﻿Elven Elder	G	rare	Creature – Elf Druid 	220	G	1G	Other Elf creatures you control get +1/+1.NEWLINET: Add G for each Elf you control.	2/2		normal	D&D		

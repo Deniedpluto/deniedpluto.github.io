@@ -1,0 +1,1 @@
+﻿Darkling Scout	B	common	Creature – Goblin Rogue 	114	B	B	When Darkling Scout dies it deals 1 damage to any target.	1/1		normal	D&D		

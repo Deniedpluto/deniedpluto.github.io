@@ -1,0 +1,1 @@
+﻿His Opulence IV	BR	mythic	Legendary Creature – Human Noble 	263	BR	2BR	Nemesis (You may only control one creature or Planeswalker with Nemesis.)NEWLINEWhenever a creature your opponents control dies, create a treasure.NEWLINEAt the beginning of your upkeep, if you control ten or more treasure you win the game.	3/2		normal	D&D		

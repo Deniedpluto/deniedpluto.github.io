@@ -1,0 +1,1 @@
+﻿Death Druid	B	uncommon	Creature – Zombie Druid 	116	B	1B	Whenever a creature dies, each opponent loses 1 life.	2/1		normal	D&D		

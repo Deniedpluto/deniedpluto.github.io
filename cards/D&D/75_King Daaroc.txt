@@ -1,0 +1,1 @@
+﻿King Da'aroc	U	rare	Legendary Creature – Dragon Lord 	75	U	3UU	Dragon spells cost 2 less to cast.NEWLINEOther dragons you control get +1/+1.NEWLINEUU: Return target dragon to your hand.	5/5		normal	D&D		

@@ -1,0 +1,1 @@
+﻿Rowan, Faithful Squire		uncommon	Legendary Token Creature – Human Soldier 	0	C		Sacrifice Rowan, target creature you control gets indestructible until the end of turn.	2/1		normal	D&D		

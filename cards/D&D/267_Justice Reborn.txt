@@ -1,0 +1,1 @@
+﻿Justice, Reborn	BR	mythic	Legendary Creature – Dragon Paladin 	267	BR	3BR	Nemesis – Creatures you control have undying. (You may only control one creature or Planeswalker with Nemesis.)NEWLINEMenaceNEWLINEUndying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner’s control with a +1/+1 counter on it.)	5/4		normal	D&D		

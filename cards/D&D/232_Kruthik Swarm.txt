@@ -1,0 +1,1 @@
+﻿Kruthik Swarm	G	uncommon	Creature – Monstrosity 	232	G	2G	Landfall – Whenever a land you control enters, create a 1/1 green Monstrosity creature token. If you control six or more lands, create a token that’s a copy of Kruthik Swarm instead.	1/1		normal	D&D		

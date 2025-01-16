@@ -1,0 +1,1 @@
+﻿Zazzid, Chosen of Coelys	R	mythic	Legendary Creature – Orc Barbarian 	200	R	3RR	When Zazzid attacks roll a d20.NEWLINE1-9| Zazzid deals 3 damage to a random creature.NEWLINE10-19| Zazzid deals 3 damage to a random creature an opponent controls.NEWLINE20| Zazzid deals 3 damage to a each creature your opponents control.	5/4		normal	D&D		

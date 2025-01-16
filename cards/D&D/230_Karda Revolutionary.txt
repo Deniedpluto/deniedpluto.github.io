@@ -1,0 +1,1 @@
+﻿Karda, Revolutionary	G	uncommon	Legendary Creature – Elf Ranger 	230	G	2G	FlashNEWLINEWhen Karda enters the battlefield, destroy target artifact or enchantment.NEWLINE2: Sacrifice Karda, Revolutionary. Destroy target creature that was dealt damage this turn.	2/2		normal	D&D		

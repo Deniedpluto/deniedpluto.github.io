@@ -1,0 +1,1 @@
+﻿Cleanse the Bloodlines	B	uncommon	Sorcery	111	B	1B	Destroy target non-dragon creature.			normal	D&D		

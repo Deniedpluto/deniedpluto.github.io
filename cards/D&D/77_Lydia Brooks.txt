@@ -1,0 +1,1 @@
+﻿Lydia Brooks	U	rare	Legendary Creature – Human Cleric 	77	U	2U	When Lydia Brooks enters the battlefield, you may pay 1U any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Lydia Brooks then return that many target instant or sorcery cards from your graveyard to your hand.	1/3		normal	D&D		

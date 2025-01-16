@@ -1,0 +1,1 @@
+﻿Reinforce	W	uncommon	Enchantment	35	W	4W	Flash NEWLINEConvoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINECreatures you control get +1/+1NEWLINEWhenever you cast a legendary creature create a 1/1 white soldier creature token.			normal	D&D		

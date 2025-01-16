@@ -1,0 +1,1 @@
+﻿Drown in the Lake	B	uncommon	Sorcery	121	B	1B	Target creature gets -X/-X until the end of turn where X is two plus your devotion to black. (Each B in the mana costs of permanents you control counts toward your devotion to black.)			normal	D&D		

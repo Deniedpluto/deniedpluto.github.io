@@ -1,0 +1,1 @@
+﻿Invoke Duplicity	U	uncommon	Instant	73	U	U	Target creature you control phases out. (Treat it and anything attached to it as though they don’t exist until its controller’s next turn.)NEWLINECreate a 0/1 blue illusion token.			normal	D&D		

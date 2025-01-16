@@ -1,0 +1,1 @@
+﻿Namfoodle Stumbleduck	UR	rare	Legendary Creature – Gnome Wizard 	304	UR	2U/R	When Namfoodle Stumbleduck enters the battlefield, roll a d20:NEWLINE1-5|Return target creature to its owner’s hand.NEWLINE6-15|Scry 2 then draw a card.NEWLINE16+|Deal 3 damage to target creature or player.	1/3		normal	D&D		

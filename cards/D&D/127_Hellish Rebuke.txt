@@ -1,0 +1,1 @@
+﻿Hellish Rebuke	B	rare	Instant	127	B	2B	Until end of turn, permanents your opponents control gain “When this permanent deals damage to the player who cast Hellish Rebuke, sacrifice this permanent. You lose 2 life.”			normal	D&D		

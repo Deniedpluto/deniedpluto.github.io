@@ -1,0 +1,1 @@
+﻿Moon Scythe	W	common	Artifact – Equipment 	30	W	1W	Whenever equipped creature attacks, put a +1/+1 counter on it and tap up to one target creature defending player controls.NEWLINEEquip W			normal	D&D		

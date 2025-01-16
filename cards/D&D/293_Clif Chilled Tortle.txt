@@ -1,0 +1,1 @@
+﻿Clif, Chilled Tortle	WG	rare	Legendary Creature – Turtle Cleric 	293	WG	2G/W	LifelinkNEWLINEDefenderNEWLINE2W: Clif deals damage to any target equal to the amount of life you gained this turn.	2/4		normal	D&D		

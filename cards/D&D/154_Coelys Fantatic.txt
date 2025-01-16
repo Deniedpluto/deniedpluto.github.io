@@ -1,0 +1,1 @@
+﻿Coelys Fantatic	R	rare	Creature – Goblin Wizard 	154	R	1RR	If a red source you control would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus 1 instead.	2/1		normal	D&D		

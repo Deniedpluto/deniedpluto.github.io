@@ -1,0 +1,1 @@
+﻿Ring of Etheria	W	rare	Artifact – Equipment 	37	W	1W	Equipped creature gets +0/+3NEWLINE1W: Equipped creature phases out. (Treat it and anything attached to it as though they don’t exist until its controller’s next turn.)NEWLINEEquip 1			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Dimension Door	U	uncommon	Instant	59	U	U	Upcast 1U (You may pay an additional 1U any number of times as you cast this spell.)NEWLINEExile target creature you control, then return that card to the battlefield under its owner’s control at the beginning on the next end step. You may target an additional creature for each time this spell was upcast.			normal	D&D		

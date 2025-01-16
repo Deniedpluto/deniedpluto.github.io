@@ -1,0 +1,1 @@
+﻿Undead Elk	B	uncommon	Creature – Elk Skeleton 	148	B	1B	MenaceNEWLINETrample	3/1		normal	D&D		

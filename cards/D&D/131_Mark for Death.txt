@@ -1,0 +1,1 @@
+﻿Mark for Death	B	uncommon	Instant	131	B	1B	Destroy target creature. Lose 2 life.			normal	D&D		

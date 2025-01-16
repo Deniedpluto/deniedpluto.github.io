@@ -1,0 +1,1 @@
+﻿Goblin Raid Runner	R	uncommon	Creature – Goblin 	169	R	R	HasteNEWLINEWhenever Goblin Raid Runner becomes blocked, it deals 1 damage to target creature blocking it.	1/1		normal	D&D		

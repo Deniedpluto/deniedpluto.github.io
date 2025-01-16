@@ -1,0 +1,1 @@
+﻿Draconic Ascent	U	mythic	Sorcery	62	U	1U	Overload 4UU  (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of “target” with “each”.)NEWLINETarget creature you control becomes a dragon in addition to its other types, gets +1/+1 and can’t be blocked except by other dragons.			normal	D&D		

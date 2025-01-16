@@ -1,0 +1,1 @@
+﻿Malaasan Emissary	R	rare	Creature – Dwarf Noble  	182	R	2R	Whenever you cast a legendary spell, create a treasure token.			normal	D&D		

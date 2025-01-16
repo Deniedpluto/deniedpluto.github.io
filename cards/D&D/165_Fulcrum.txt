@@ -1,0 +1,1 @@
+﻿Fulcrum	R	rare	Legendary Artifact – Equipment 	165	R	2RR	When Fulcrum enters the battlefield, attach it to target creature you control. Equipped creature gets +3/+1 and trample.NEWLINEWhen Fulcrum becomes equipped to a creature or the equipped creature attacks, it fights target dragon.NEWLINEEquip 3			normal	D&D		

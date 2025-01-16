@@ -1,0 +1,1 @@
+﻿Death Ward	G	uncommon	Instant	217	G	G	Untap target creature. It gains hexproof, indestructible, and trample until end of turn.			normal	D&D		
