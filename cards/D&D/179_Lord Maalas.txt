@@ -1,1 +1,0 @@
-﻿Lord Maalas	R	rare	Legendary Creature – Dwarf Lord 	179	R	3R	Equipped creatures you control have +1/+0 and ward 1. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 1.)NEWLINEYou may pay 0 rather than pay the equip cost of the first equip ability you activate each turn.	3/4		normal	D&D		

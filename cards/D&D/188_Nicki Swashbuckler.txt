@@ -1,0 +1,1 @@
+﻿Nicki, Swashbuckler	R	rare	Legendary Creature – Human Pirate 	188	R	2R	HasteNEWLINEIf you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.NEWLINEWhenever you roll one or more dice, put a +1/+1 counter on Nicki.	1/1		normal	D&D		

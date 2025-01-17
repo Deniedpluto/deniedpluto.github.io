@@ -1,0 +1,1 @@
+﻿Idryyth the Flamebringer	R	mythic	Legendary Creature – Dragon 	176	R	4RR	FlyingNEWLINEWhen Idryyth enters the battlefield, it deals 5 damage to target creature and 3 damage to each other creature that player controls.	5/5		normal	D&D		

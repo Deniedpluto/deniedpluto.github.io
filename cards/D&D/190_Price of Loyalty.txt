@@ -1,0 +1,1 @@
+﻿Price of Loyalty	R	uncommon	Sorcery	190	R	1R	Gain control of target creature [with mana value 3 or less] until end of turn. untap that creature. It gains haste until end of turn.NEWLINECleave 1, Sacrifice a treasure. (You may cast this spell for its cleave cost. If you do, remove the words in square brackets.)			normal	D&D		

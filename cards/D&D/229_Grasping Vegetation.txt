@@ -1,1 +1,1 @@
-﻿Grasping Vegetation	G	uncommon	Creature – Plant Monstrosity 	229	G	G	 When Grasping Vegetation enters the battlefield, reveal cards until you reveal a land. Put the cards revealed this way into your graveyard and the land into your hand.	0/3		normal	D&D		
+﻿Grasping Vegetation	G	uncommon	Creature – Plant Monstrosity 	229	G	G	When Grasping Vegetation enters the battlefield, reveal cards until you reveal a land. Put the cards revealed this way into your graveyard and the land into your hand.	0/3		normal	D&D		

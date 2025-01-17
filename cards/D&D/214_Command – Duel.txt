@@ -1,1 +1,1 @@
-﻿Command – Duel	G	uncommon	Sorcery	214	G	2G	Target creature you control fights target creature an opponent controls.			normal	D&D		
+﻿Command – Duel	G	uncommon	Sorcery	214	G	G	Target creature you control fights target creature an opponent controls.			normal	D&D		

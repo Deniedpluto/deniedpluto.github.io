@@ -1,1 +1,0 @@
-﻿Hobgoblin Warboss	R	uncommon	Creature – Goblin 	174	R	2R	When Hobgoblin Warboss enters the battlefield roll a d20:NEWLINE1-9| Create a 1/1 red goblin creature token.NEWLINE10-19|Create two 1/1 red goblin creature tokens.NEWLINE20| Create three 1/1 red goblin creature tokens.	3/3		normal	D&D		

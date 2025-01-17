@@ -1,0 +1,1 @@
+﻿Rovari, Magic Weaver	R	uncommon	Legendary Creature – Tiefling Artificer 	192	R	3R	Magecraft – Whenever you cast or copy an instant or sorcery spell, create a Treasure token.	2/2		normal	D&D		

@@ -1,1 +1,1 @@
-﻿Volley of Arrows	G	common	Sorcery	244	G	2G	Destroy target creature with flying.			normal	D&D		
+﻿Volley of Arrows	G	common	Instant	244	G	2G	Destroy target artifact, enchantment, or creature with flying.			normal	D&D		

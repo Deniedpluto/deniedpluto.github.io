@@ -1,1 +1,1 @@
-﻿Devilish Imp	B	common	Creature – Imp 	118	B	1B	FlyingNEWLINEWhen Devilish Imp dies choose one – Draw a card and lose 1 life. Target creature gets -2/-2 until the end of the turn.	1/1		normal	D&D		
+﻿Devilish Imp	B	common	Creature – Imp 	118	B	1B	FlyingNEWLINEWhen Devilish Imp dies choose one – NEWLINE• Draw a card and lose 1 life.NEWLINE• Target creature gets -2/-2 until the end of the turn.	1/1		normal	D&D		

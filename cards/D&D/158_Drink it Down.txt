@@ -1,1 +1,0 @@
-﻿Drink it Down	R	rare	Instant	158	R	RR	Choose one –NEWLINE• Copy target instant or sorcery.NEWLINE• Red sources you control deal an additional 1 damage until the end of turn.NEWLINE• Up to two target creatures can’t block until the end of turn.			normal	D&D		

@@ -1,0 +1,1 @@
+﻿Mining Contract	R	common	Enchantment	186	R	1R	Whenever a dwarf you control becomes tapped, create a treasure token.			normal	D&D		

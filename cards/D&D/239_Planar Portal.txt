@@ -1,1 +1,1 @@
-﻿Planar Portal	G	rare	Enchantment	239	G	4GG	Whenever you cast a creature spell. Reveal cards off the top of your library until you reveal a creature with lesser mana value. Put that creature onto the battlefield.			normal	D&D		
+﻿Planar Portal	G	rare	Enchantment	239	G	5GG	Whenever you cast a creature spell. Reveal cards off the top of your library until you reveal a creature with lesser mana value. Put that creature onto the battlefield.			normal	D&D		

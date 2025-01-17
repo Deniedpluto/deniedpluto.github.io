@@ -1,1 +1,1 @@
-﻿Soul Eater		common	Legendary Artifact	325	C	5	T, Sacrifice a Legendary permanent: Exile target legendary permanent.			normal	D&D		
+﻿Soul Eater		mythic	Legendary Artifact – Equipment 	325	C	2	When equipped creature deals combat damage to a player, you may sacrifice it. If you do, exile target legendary permanent that player controls.NEWLINEEquip legendary creature 3NEWLINEEquip 7			normal	D&D		

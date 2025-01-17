@@ -1,17 +1,17 @@
 14_Cube of K'nezeret
 62_Draconic Ascent
 115_Dayvroass the Haunted
-159_Eye of Coelys
+160_Eye of Coelys
 226_The Forge of Life
 20_The Forge of War
 65_The Forge of Spells
 137_Olethros the Destroyer
-164_The Forge of Elements
+165_The Forge of Elements
 237_Nydissia the Protector
 24_Kyrios the Creator
 74_Jimmy Beanz
 146_Staff of the Blightree
-175_Idryyth the Flamebringer
+176_Idryyth the Flamebringer
 241_Staff of the Mothertree
 47_Tundrayl the Pure
 96_Umbra
@@ -36,93 +36,93 @@
 1_Acolyte of Urobu
 52_Arabel, Seer Prodigy
 105_Blood Ritual
-158_Drink it Down
+159_Drink it Down
 208_Blessings of the Mothertree
 6_Ayleia's Return
 61_Dominate Monster
 106_Blue Flame Candle
-160_Fane of the Mountain
+161_Fane of the Mountain
 213_Cleanse the Fanes
 9_Captain Morro
 63_Fane of the River
 107_Book of Victims
-162_Fireball
+163_Fireball
 215_Conjure Animals
 10_Captain of the Guard
 66_Gift of Vetys
 112_Dark Gift
-165_Fulcrum
+166_Fulcrum
 220_Elven Elder
 13_Cleric of Aleana
 69_High Priest Kaaladeth
 119_Dictate of Urobu
-166_Fury of the Gods
+167_Fury of the Gods
 224_Fane of the Forest
 17_Divine Intervention
 71_Huff vs McDoogal
 120_Draconic Purge
-167_Gniess, Stonecutter Prime
+168_Gniess, Stonecutter Prime
 225_Fleetfoot, Sharpshooter
 23_Kirk of Clan Daardendrian
 75_King Da'aroc
 123_Eliath, Doomed Fighter
-168_Goblin Raid
+169_Goblin Raid
 227_Garmin, Beast's Companion
 25_Lady Ostrix
 76_Library of Vetys
 127_Hellish Rebuke
-171_Goblins of the Red Hand
+172_Goblins of the Red Hand
 228_Glamstol, Crafty Herbalist
 26_Leonir, Acolyte of Lanu
 77_Lydia Brooks
 128_Hundral the Voiceless
-172_Guantlets of the Storm
+173_Guantlets of the Storm
 231_King Saakala
 29_March of the the Dead
 80_Professor Arden
 134_Night of Consuming Darkness
-176_Kythr, Sorrow's Mark
+177_Kythr, Sorrow's Mark
 235_Mazzer, Protected
 34_Phaedra the Seeker
 85_Sahuaghin Commander
 136_Olar, The Broken Arrow
-177_Leshanna, Lovestruck Bard
+178_Leshanna, Lovestruck Bard
 236_Misha, Werebear Leader
 37_Ring of Etheria
 90_Secrets of Tathys
 141_Shaedrun, the Necromancer
-178_Lodaec, Tyrant King
+179_Lodaec, Tyrant King
 239_Planar Portal
 40_Sarana, Fists of Fury
 92_Tathys's Silencer
 144_Soul Diversion
-179_Lord Maalas
+180_Lord Maalas
 240_Song of Alyra
 41_Squad Commander
 93_Tidal Wave
 150_Vladimir & Godfrey, Reunited
-181_Malaas War Marshall
+182_Malaas War Marshall
 247_Wildshape — Bear
 44_Teleportation Circle
 95_Tsunami
 101_The Archon of Gold
-182_Malaasan Emissary
+183_Malaasan Emissary
 248_Wildshape — Spider
 46_Trials of Thadenswel
 100_Zunam, Fate Favored
 104_Blood Magic
-187_Nicki, Swashbuckler
+188_Nicki, Swashbuckler
 202_Adolescent Dragon
 50_Wartime Financier
 53_Blessing of Water
 109_Bron, Dastardly Thief
-188_Nicki's Blade
+189_Nicki's Blade
 206_Aurelia's Elites
 2_Aleana's Chosen
 54_Captain Laos
 110_Charles
-190_The Prosperity
-207_Basalisk
+191_The Prosperity
+207_Basilisk
 3_Aleana's Mercy
 55_Cone of Cold
 111_Cleanse the Bloodlines
@@ -166,57 +166,57 @@
 22_Griffin Mount
 72_Invisibility
 131_Mark for Death
-163_Fondael the Bloodied
+157_Drachenjäger
 223_Ewiard, Lord of the Hunt
 27_Lord Chuck Gavelston
 73_Invoke Duplicity
 132_Mysterious Benefactor
-169_Goblin Raid Runner
+164_Fondael the Bloodied
 229_Grasping Vegetation
 31_Muster the Guard
 79_Pierce the Veil
 133_Necromancer's Apprentice
-170_Goblin War-Rider
+170_Goblin Raid Runner
 230_Karda, Revolutionary
 32_Noble Ward
 81_Protection from Evil and Good
 138_Remove Curse
-173_The Halcyon
+171_Goblin War-Rider
 232_Kruthik Swarm
 35_Reinforce
 82_Reject
 139_Revenant
-174_Hobgoblin Warboss
+174_The Halcyon
 233_Kruthik Tunneler
 36_Resistance Squad
 84_Sahuaghin Artillerist
 140_Ritual Sacrifice
-180_Magic Missile
+175_Hobgoblin Warboss
 234_Life Cleric
 38_Rising Populace
 86_Sahuaghin Fury
 142_Shaedrun's Gambit
-183_Malaasan Pick-Axe
+181_Magic Missile
 238_Owlbear
 39_Sacred Flame
 91_Tarroka Reading
 143_Shambling Necromass
-184_Mine Collapse
+184_Malaasan Pick-Axe
 242_Theo, Friendly Barkeep
 42_Taj, Glittering Thief
 99_Young Flayer
 145_Spare the Dying
-189_Price of Loyalty
+185_Mine Collapse
 245_Werebear Amulet
 43_Tax Accessor
 58_Death of the Oracle
 148_Undead Elk
-191_Rovari, Magic Weaver
+190_Price of Loyalty
 246_Werebear Warrior
 49_Wall Guard Recruiter
 68_Guard Drake
 149_Vampire Spawn
-192_Rune Warrior of Elos
+192_Rovari, Magic Weaver
 249_Wyvern Toxin
 7_Binding of the Law
 78_Oracle's Insight
@@ -231,22 +231,22 @@
 15_Defend the Walls!
 87_Saw it Coming
 118_Devilish Imp
-157_Dragon's Fire
+158_Dragon's Fire
 209_Boon of Aranya
 18_Divine Smite
 88_Scrying
 122_Dungeon Skeleton
-161_Fire Bolt
+162_Fire Bolt
 211_Caravan Raid
 28_Manticore
 89_Sea Spawn
 125_Gildling
-185_Mining Contract
+186_Mining Contract
 219_Elf Scout
 30_Moon Scythe
 94_Treasure Diver
 129_Inflict Wounds
-186_Mining Dwarf
+187_Mining Dwarf
 243_Unchecked Aggression
 33_Paeter, Foolish Monk
 97_Wall of Force
@@ -349,6 +349,7 @@ er
 317_Elemental Orb of Earth
 318_Elemental Orb of Fire
 319_Elemental Orb of Water
+325_Soul Eater
 326_Soul Steel Dagger
 311_Blade of Blood
 313_Boots of Kyrios
@@ -361,7 +362,6 @@ er
 327_Sword of Kyrios
 328_Zas's Battleaxe
 310_Animated Armor
-325_Soul Eater
 e
 er
 er

@@ -1,1 +1,0 @@
-﻿Fane of the Mountain	R	rare	Legendary Creature – Demigod 	160	R	2R	Whenever you sacrifice an Artifact, put a +1/+1 counter on Fane of the Mountain and add R.	1/3		normal	D&D		

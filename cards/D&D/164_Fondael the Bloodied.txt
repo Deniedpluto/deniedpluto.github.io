@@ -1,0 +1,1 @@
+﻿Fondael the Bloodied	R	uncommon	Legendary Creature – Dwarf Fighter 	164	R	1R	HasteNEWLINEWhen Fondael dies, exile the top two cards of your library. You may play one of them until the end of your next turn.	3/2		normal	D&D		

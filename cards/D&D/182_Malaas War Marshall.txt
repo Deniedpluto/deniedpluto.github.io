@@ -1,0 +1,1 @@
+﻿Malaas War Marshall	R	rare	Creature – Dwarf Soldier 	182	R	1R	Whenever you attack a player with one or more equipped creatures, draw a card.	2/2		normal	D&D		

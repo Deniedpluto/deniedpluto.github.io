@@ -104,9 +104,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Creature — Elf Bard ",
-			"collector_number": "177",
+			"collector_number": "178",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/177_Leshanna, Lovestruck Bard.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/178_Leshanna, Lovestruck Bard.png"
 			}
 		},
 		{
@@ -174,9 +174,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Creature — Dwarf Fighter ",
-			"collector_number": "163",
+			"collector_number": "164",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/163_Fondael the Bloodied.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/164_Fondael the Bloodied.png"
 			}
 		},
 		{
@@ -384,9 +384,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Creature — Human Pirate ",
-			"collector_number": "187",
+			"collector_number": "188",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/187_Nicki, Swashbuckler.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/188_Nicki, Swashbuckler.png"
 			}
 		},
 		{
@@ -414,9 +414,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Legendary Creature — Dwarf Lord ",
-			"collector_number": "178",
+			"collector_number": "179",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/178_Lodaec, Tyrant King.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/179_Lodaec, Tyrant King.png"
 			}
 		},
 		{
@@ -994,9 +994,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Legendary Creature — Dragon ",
-			"collector_number": "175",
+			"collector_number": "176",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/175_Idryyth the Flamebringer.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/176_Idryyth the Flamebringer.png"
 			}
 		},
 		{
@@ -1394,9 +1394,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "161",
+			"collector_number": "162",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/161_Fire Bolt.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/162_Fire Bolt.png"
 			}
 		},
 		{
@@ -1504,9 +1504,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Creature — Dwarf ",
-			"collector_number": "186",
+			"collector_number": "187",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/186_Mining Dwarf.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/187_Mining Dwarf.png"
 			}
 		},
 		{
@@ -1514,9 +1514,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Goblin ",
-			"collector_number": "174",
+			"collector_number": "175",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/174_Hobgoblin Warboss.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/175_Hobgoblin Warboss.png"
 			}
 		},
 		{
@@ -1524,9 +1524,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment",
-			"collector_number": "185",
+			"collector_number": "186",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/185_Mining Contract.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/186_Mining Contract.png"
 			}
 		},
 		{
@@ -1804,9 +1804,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Creature — Demigod ",
-			"collector_number": "160",
+			"collector_number": "161",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/160_Fane of the Mountain.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/161_Fane of the Mountain.png"
 			}
 		},
 		{
@@ -1861,9 +1861,9 @@
 		},
 		{
 			"name": "Soul Eater",
-			"rarity": "common",
-			"mana_cost": "{5}",
-			"type": "Legendary Artifact",
+			"rarity": "mythic",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Equipment ",
 			"collector_number": "325",
 			"image_uris": {
 				"en": "https://deniedpluto.github.io/sets/D&D-files/img/325_Soul Eater.png"
@@ -2104,9 +2104,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Enchantment Artifact",
-			"collector_number": "159",
+			"collector_number": "160",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/159_Eye of Coelys.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/160_Eye of Coelys.png"
 			}
 		},
 		{
@@ -2194,9 +2194,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Legendary Creature — Dwarf Paladin ",
-			"collector_number": "176",
+			"collector_number": "177",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/176_Kythr, Sorrow's Mark.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/177_Kythr, Sorrow's Mark.png"
 			}
 		},
 		{
@@ -2354,9 +2354,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Noble ",
-			"collector_number": "190",
+			"collector_number": "191",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/190_The Prosperity.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/191_The Prosperity.png"
 			}
 		},
 		{
@@ -2384,9 +2384,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Dwarf Soldier ",
-			"collector_number": "181",
+			"collector_number": "182",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/181_Malaas War Marshall.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/182_Malaas War Marshall.png"
 			}
 		},
 		{
@@ -2414,9 +2414,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "157",
+			"collector_number": "158",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/157_Dragon's Fire.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/158_Dragon's Fire.png"
 			}
 		},
 		{
@@ -2434,9 +2434,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Noble ",
-			"collector_number": "173",
+			"collector_number": "174",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/173_The Halcyon.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/174_The Halcyon.png"
 			}
 		},
 		{
@@ -2454,9 +2454,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Goblin Dinosaur ",
-			"collector_number": "170",
+			"collector_number": "171",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/170_Goblin War-Rider.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/171_Goblin War-Rider.png"
 			}
 		},
 		{
@@ -2504,9 +2504,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Artifact",
-			"collector_number": "164",
+			"collector_number": "165",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/164_The Forge of Elements.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/165_The Forge of Elements.png"
 			}
 		},
 		{
@@ -2534,9 +2534,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
 			"type": "Legendary Creature — Tiefling Artificer ",
-			"collector_number": "191",
+			"collector_number": "192",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/191_Rovari, Magic Weaver.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/192_Rovari, Magic Weaver.png"
 			}
 		},
 		{
@@ -2554,9 +2554,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact — Equipment ",
-			"collector_number": "172",
+			"collector_number": "173",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/172_Guantlets of the Storm.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/173_Guantlets of the Storm.png"
 			}
 		},
 		{
@@ -2694,9 +2694,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "166",
+			"collector_number": "167",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/166_Fury of the Gods.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/167_Fury of the Gods.png"
 			}
 		},
 		{
@@ -2794,9 +2794,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Legendary Artifact — Equipment ",
-			"collector_number": "165",
+			"collector_number": "166",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/165_Fulcrum.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/166_Fulcrum.png"
 			}
 		},
 		{
@@ -2804,9 +2804,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Creature — Goblin ",
-			"collector_number": "169",
+			"collector_number": "170",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/169_Goblin Raid Runner.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/170_Goblin Raid Runner.png"
 			}
 		},
 		{
@@ -2814,9 +2814,9 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{R}",
 			"type": "Sorcery",
-			"collector_number": "162",
+			"collector_number": "163",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/162_Fireball.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/163_Fireball.png"
 			}
 		},
 		{
@@ -2824,9 +2824,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "189",
+			"collector_number": "190",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/189_Price of Loyalty.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/190_Price of Loyalty.png"
 			}
 		},
 		{
@@ -2904,9 +2904,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}",
 			"type": "Legendary Creature — Dwarf Lord ",
-			"collector_number": "179",
+			"collector_number": "180",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/179_Lord Maalas.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/180_Lord Maalas.png"
 			}
 		},
 		{
@@ -2914,9 +2914,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Creature — Dwarf Noble ",
-			"collector_number": "167",
+			"collector_number": "168",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/167_Gniess, Stonecutter Prime.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/168_Gniess, Stonecutter Prime.png"
 			}
 		},
 		{
@@ -3284,9 +3284,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "180",
+			"collector_number": "181",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/180_Magic Missile.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/181_Magic Missile.png"
 			}
 		},
 		{
@@ -3294,9 +3294,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Goblin ",
-			"collector_number": "171",
+			"collector_number": "172",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/171_Goblins of the Red Hand.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/172_Goblins of the Red Hand.png"
 			}
 		},
 		{
@@ -3304,19 +3304,19 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Dwarf Noble  ",
-			"collector_number": "182",
+			"collector_number": "183",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/182_Malaasan Emissary.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/183_Malaasan Emissary.png"
 			}
 		},
 		{
-			"name": "Rune Warrior of Elos",
+			"name": "Drachenjäger",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Dragon Soldier ",
-			"collector_number": "192",
+			"collector_number": "157",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/192_Rune Warrior of Elos.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/157_Drachenjäger.png"
 			}
 		},
 		{
@@ -3324,9 +3324,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact — Equipment ",
-			"collector_number": "183",
+			"collector_number": "184",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/183_Malaasan Pick-Axe.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/184_Malaasan Pick-Axe.png"
 			}
 		},
 		{
@@ -3334,9 +3334,9 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{R}",
 			"type": "Instant",
-			"collector_number": "158",
+			"collector_number": "159",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/158_Drink it Down.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/159_Drink it Down.png"
 			}
 		},
 		{
@@ -3344,9 +3344,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "184",
+			"collector_number": "185",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/184_Mine Collapse.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/185_Mine Collapse.png"
 			}
 		},
 		{
@@ -3354,9 +3354,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact — Equipment ",
-			"collector_number": "188",
+			"collector_number": "189",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/188_Nicki's Blade.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/189_Nicki's Blade.png"
 			}
 		},
 		{
@@ -3373,7 +3373,7 @@
 			"name": "Volley of Arrows",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
-			"type": "Sorcery",
+			"type": "Instant",
 			"collector_number": "244",
 			"image_uris": {
 				"en": "https://deniedpluto.github.io/sets/D&D-files/img/244_Volley of Arrows.png"
@@ -3402,7 +3402,7 @@
 		{
 			"name": "Command — Duel",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{G}",
+			"mana_cost": "{G}",
 			"type": "Sorcery",
 			"collector_number": "214",
 			"image_uris": {
@@ -3462,7 +3462,7 @@
 		{
 			"name": "Planar Portal",
 			"rarity": "rare",
-			"mana_cost": "{4}{G}{G}",
+			"mana_cost": "{5}{G}{G}",
 			"type": "Enchantment",
 			"collector_number": "239",
 			"image_uris": {
@@ -3550,13 +3550,13 @@
 			}
 		},
 		{
-			"name": "Basalisk",
+			"name": "Basilisk",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Monstrosity ",
 			"collector_number": "207",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/207_Basalisk.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/207_Basilisk.png"
 			}
 		},
 		{
@@ -3604,9 +3604,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment — Quest ",
-			"collector_number": "168",
+			"collector_number": "169",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/168_Goblin Raid.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/169_Goblin Raid.png"
 			}
 		},
 		{
@@ -4150,7 +4150,7 @@
 	10 Magic Missile
 	10 Goblins of the Red Hand
 	10 Malaasan Emissary
-	10 Rune Warrior of Elos
+	10 Drachenjäger
 	10 Malaasan Pick-Axe
 	10 Drink it Down
 	10 Mine Collapse
@@ -4174,7 +4174,7 @@
 	10 Life Cleric
 	10 Kruthik Swarm
 	10 Grasping Vegetation
-	10 Basalisk
+	10 Basilisk
 	10 Owlbear
 	10 Adolescent Dragon
 	10 Kruthik Tunneler

@@ -1,1 +1,0 @@
-﻿Malaasan Pick-Axe	R	uncommon	Artifact – Equipment 	183	R	1R	Equipped creature gets +1/+1 and has “Whenever this creature attacks, create a Treasure token.” NEWLINEEquip 2			normal	D&D		
