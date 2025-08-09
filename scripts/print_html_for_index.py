@@ -1,7 +1,8 @@
 import os
 import sys
+import json
 
-def generateHTML(set_codes):
+def generateHTML():
 	output_html_file = "index.html"
 
 	# Start creating the HTML file content
@@ -37,7 +38,7 @@ def generateHTML(set_codes):
 		max-height: 200px;
 		display: block;
 		margin: auto;
-		padding-bottom: 20px;
+		padding: 20px 0;
 	}
 	select {
 		position: absolute;
@@ -85,8 +86,7 @@ def generateHTML(set_codes):
 		margin: 0;
 	}
 	.container p {
-		padding-top: 11px;
-		padding-bottom: 16px;
+		padding: 11px 0px;
 	}
 	.preview-container {
 		display: grid;
@@ -94,12 +94,19 @@ def generateHTML(set_codes):
 		gap: 2px;
 		justify-items: center;
 		align-items: center;
-		padding-bottom: 20px;
+		padding-bottom: 10px;
+	}
+	.set-group {
+		font-family: Beleren Small Caps;
+		font-size: 18px;
+		width: 100%;
+		margin-bottom: 10px;
+		border-bottom: 2px solid #171717;
 	}
 	.button-grid {
 		display: grid;
 		margin: auto;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: repeat(3, 1fr);
 		gap: 20px;
 		padding-top: 10px;
 		padding-bottom: 20px;
@@ -168,6 +175,7 @@ def generateHTML(set_codes):
 	.set-icon-container a {
 		text-decoration: none;
 		color: #171717;
+		height: 100%;
 	}
 	.set-icon {
 		height: 60px;
@@ -179,7 +187,7 @@ def generateHTML(set_codes):
 		width: 60px;
 	}
 	.set-icon-name {
-		height: 30px;
+		min-height: 30px;
 	}
 	@media ( max-width: 750px ) {
 		.item-container {
@@ -203,25 +211,42 @@ def generateHTML(set_codes):
 			<input type="text" inputmode="search" placeholder="Search ..." autofocus="autofocus" name="search" id="search" spellcheck="false" autocomplete="off" autocorrext="off" spellcheck="false">
 			<div class="button-grid">
 				<button onclick="goToSets()"><img src="/img/sets.png" class="btn-img">All Sets</button>
+				<button onclick="goToDeckbuilder()"><img src="/img/deck.png" class="btn-img">Deckbuilder</button>
 				<button onclick="randomCard()"><img src="/img/random.png" class="btn-img">Random Card</button>
 			</div>
 			<div class="two-part-grid">
 				<div class="container" id="preview-container">
 					<p>Preview Galleries</p>
-					<div class="preview-container">
 					'''
 
-	for code in set_codes:
-		if not os.path.exists(os.path.join('sets', code + '-files', 'ignore.txt')):
-			with open(os.path.join('sets', code + '-files', code + '-fullname.txt'), encoding='utf-8-sig') as f:
-				set_name = f.read()
-			html_content += '''<div class="set-icon-container">
-								<a href="''' + code + '''-spoiler"><div class="set-icon"><img src="sets/''' + code + '''-files/icon.png" title="''' + set_name + '''"></img></div>
-								<div class="set-icon-name">''' + set_name + '''</div></a>
-							</div>
-			'''
+	with open(os.path.join('lists', 'set-order.json'), encoding='utf-8-sig') as j:
+		so_json = json.load(j)
 
-	html_content += '''				</div>
+	for key in so_json:
+		html_content += '''					<div class="set-group">''' + key + '''</div>
+		'''
+		html_content += '''					<div class="preview-container">
+		'''
+		set_codes = so_json[key]
+		for code in set_codes:
+			set_name = 'MISSING'
+			if not os.path.exists(os.path.join('sets', code + '-files', 'ignore.txt')):
+				with open(os.path.join('lists', 'all-sets.json'), encoding='utf-8-sig') as f:
+					data = json.load(f)
+					for s in data['sets']:
+						if s['set_code'] == code:
+							set_name = s['set_name']
+							break
+
+				html_content += '''<div class="set-icon-container">
+									<a href="previews/''' + code + '''"><div class="set-icon"><img src="sets/''' + code + '''-files/icon.png" title="''' + set_name + '''"></img></div>
+									<div class="set-icon-name">''' + set_name + '''</div></a>
+								</div>
+				'''
+		html_content += '''					</div>
+		'''
+	
+	html_content += '''
 				</div>
 				<div class="card-container" id="cotd-image">
 					<p>Card of the Day</p>
@@ -233,17 +258,18 @@ def generateHTML(set_codes):
 			let gradients = [];
 			let card_list_arrayified = [];
 			let specialchars = "";
+			let initial_gradient = true;
 
 			document.addEventListener("DOMContentLoaded", async function () {
 				try {
-					const response = await fetch('./resources/gradients.txt');
-					raw_gradients = await response.text();
+					const response = await fetch('./resources/gradients.json');
+					raw_gradients = await response.json();
 				}
 				catch(error) {
 					console.error('Error:', error);
 				}
 
-				gradients = raw_gradients.split('\\n');
+				gradients = raw_gradients.gradients;
 				prepareGradients();
 
 				'''
@@ -251,7 +277,7 @@ def generateHTML(set_codes):
 	with open(os.path.join('resources', 'snippets', 'load-files.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
-
+	
 	html_content += '''
 				card_list_cleaned = [];
 
@@ -259,12 +285,19 @@ def generateHTML(set_codes):
 				{
 					let card_stats = [];
 
-					for (let i = 0; i < card.length; i++)
+					for (var key in card)
 					{
-						card_stats.push(card[i].toLowerCase());
+						if (isNaN(card[key]))
+						{
+							card_stats[key] = card[key].toLowerCase();
+						}
+						else
+						{
+							card_stats[key] = card[key];
+						}
 					}
 
-					if (!card_stats[3].includes("token") && !card_stats[3].includes("basic"))
+					if (!card_stats.shape.includes("token") && !card_stats.type.includes("basic"))
 					{
 						card_list_cleaned.push(card);
 					}
@@ -274,17 +307,22 @@ def generateHTML(set_codes):
 				const card_stats = card_list_cleaned[cotd];
 
 				const a = document.createElement("a");
-				let card_name = card_stats[0];
-				for (const char of specialchars)
-				{
-					card_name = card_name.replaceAll(char, "");
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: card_stats.set,
+					num: card_stats.number,
+					name: card_stats.card_name
 				}
-				a.href = '/cards/' + card_stats[11] + '/' + card_stats[4] + '_' + card_name;
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+				a.href = url;
 
 				const img = document.createElement("img");
 				img.id = "cotd";
 
-				img.src = '/sets/' + card_stats[11] + '-files/img/' + card_stats[4] + '_' + card_stats[0] + '.png';
+				img.src = '/sets/' + card_stats.set + '-files/img/' + card_stats.number + '_' + card_stats.card_name + (card_stats.shape.includes('double') ? '_front' : '') + '.' + card_stats.image_type;
 
 				a.append(img);
 				document.getElementById("cotd-image").append(a);
@@ -335,11 +373,9 @@ def generateHTML(set_codes):
 			function prepareGradients() {
 				for (const gradient of gradients)
 				{
-					gradientStats = gradient.split('\\t');
-
 					const opt = document.createElement("option");
-					opt.value = gradientStats[0].replace(' ', '-');
-					opt.text = gradientStats[0];
+					opt.value = gradient.name.replace(' ', '-');
+					opt.text = gradient.name;
 					document.getElementById("color-select").appendChild(opt);
 				}
 
@@ -347,20 +383,30 @@ def generateHTML(set_codes):
 			}
 
 			function setGradient() {
-				gradient = document.getElementById("color-select").value;
+				if (!initial_gradient || !localStorage.getItem("gradient"))
+				{
+					localStorage.setItem("gradient", document.getElementById("color-select").value);
+				}
+				
+				gradient = localStorage.getItem("gradient");
 
 				gradTop = "#000000";
 				gradBottom = "#FFFFFF";
 				for (const grad of gradients)
 				{
-					gradientStats = grad.split('\\t');
-					if (gradient == gradientStats[0].replace(' ', '-'))
+					if (gradient == grad.name.replace(' ', '-'))
 					{
-						gradTop = gradientStats[1];
-						gradBottom = gradientStats[2];
+						gradTop = grad.color1;
+						gradBottom = grad.color2;
 					}
 				}
+				
+				if (initial_gradient)
+				{
+					document.getElementById("color-select").value = gradient;
+				}
 
+				initial_gradient = false;
 				document.body.style.backgroundImage = `linear-gradient(to bottom, ${gradTop}, ${gradBottom})`;
 			}
 
@@ -368,8 +414,14 @@ def generateHTML(set_codes):
 				window.location = ("/all-sets");
 			}
 
+			function goToDeckbuilder() {
+				window.location = ("/deckbuilder");
+			}
+
 			function search() {
-				window.location = ("search?search=" + document.getElementById("search").value);
+				const url = new URL('search', window.location.origin);
+				url.searchParams.append('search', document.getElementById("search").value);
+				window.location.href = url;
 			}
 
 			'''

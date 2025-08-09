@@ -1,5 +1,8 @@
 import os
 import sys
+import json
+
+#F = Fungustober's notes
 
 def generateHTML(codes):
 	output_html_file = "search.html"
@@ -11,8 +14,13 @@ def generateHTML(codes):
 	<link rel="icon" type="image/x-icon" href="/img/search.png">
 	<link rel="stylesheet" href="resources/mana.css">
 	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="stylesheet" href="/resources/card-text.css">
 </head>
 <style>
+	@font-face {
+		font-family: Beleren;
+		src: url('/resources/beleren.ttf');
+	}
 	body {
 		font-family: 'Helvetica', 'Arial', sans-serif;
 		overscroll-behavior: none;
@@ -140,30 +148,6 @@ def generateHTML(codes):
 		min-height: 75%;
 		margin-top: 3%;
 	}
-	.card-text div {
-		white-space: normal;
-		font-size: 15px;
-		padding-bottom: 10px;
-		padding-left: 12px;
-		padding-right: 12px;
-		line-height: 155%;
-	}
-	.card-text .name-cost {
-		font-weight: bold;
-		font-size: 20px;
-		white-space: pre-wrap;
-	}
-	.card-text .type {
-		font-size: 16px;
-	}
-	.card-text .pt {
-		font-weight: bold;
-	}
-	.card-text br {
-		content: "";
-		display: block;
-		margin-bottom: 5px;
-	}
 	.img-container {
 		position: relative;
 		width: 100%;
@@ -182,24 +166,25 @@ def generateHTML(codes):
 		cursor: pointer;
 		border: none;
 		position: absolute;
-		top: 6.5%;
-		left: 8.5%;
-		transform: translate(-50%, -85%);
 		border-radius: 0px;
 		box-shadow: none;
+		left: 50%;
+		top: 48%;
+		transform: translate(-50%, -50%);
+		opacity: 0.5;
 	}
 	.img-container .btn:hover {
 		background: url('img/flip-hover.png') no-repeat;
 		background-size: contain;
 		background-position: center;
-		width: 15%;
-		height: 11%;
-		cursor: pointer;
-		border: none;
+	}
+	.img-container .hidden-text {
 		position: absolute;
-		top: 6.5%;
-		left: 8.5%;
-		transform: translate(-50%, -85%);
+		font-family: Beleren;
+		top: 5%;
+		left: 9%;
+		font-size: .97vw;
+		color: rgba(0, 0, 0, 0);
 	}
 </style>
 <body>
@@ -238,6 +223,7 @@ def generateHTML(codes):
 		let search_results = [];
 		let card_list_arrayified = [];
 		let specialchars = "";
+		let sets_json = {};
 
 		document.addEventListener("DOMContentLoaded", async function () {
 			'''
@@ -247,6 +233,15 @@ def generateHTML(codes):
 		html_content += snippet
 
 	html_content += '''
+
+			await fetch('/lists/all-sets.json')
+					.then(response => response.json())
+					.then(data => {
+						sets_json = data; 
+				}).catch(error => console.error('Error:', error));
+
+			card_list_arrayified = card_list.cards;
+
 			if (sessionStorage.getItem("display") != "cards-only")
 			{
 				cardGrid = document.getElementById("grid");
@@ -258,11 +253,11 @@ def generateHTML(codes):
 
 			card_list_arrayified.sort(compareFunction);
 
-			page = window.location.href.indexOf("page=") == -1 ? 0 : parseInt(window.location.href.substring(window.location.href.indexOf("page=") + 5)) - 1;
-
 			// refresh page values
-			let params = decodeURIComponent(window.location.href.indexOf("?search") == -1 ? "" : window.location.href.substring(window.location.href.indexOf("?search") + 8));
-			document.getElementById("search").value = (params.indexOf("&page=") == -1 ? params.replaceAll("+", " ") : params.substring(0, params.indexOf("&page=")).replaceAll("+", " "));
+			const params = new URLSearchParams(window.location.search);
+			page = params.get("page") ? params.get("page") : 0;
+			document.getElementById("search").value = params.get("search") ? decodeURIComponent(params.get("search")) : "";
+
 			if (sessionStorage.getItem("sortMethod"))
 			{
 				document.getElementById("sort-by").value = sessionStorage.getItem("sortMethod");				
@@ -312,6 +307,9 @@ def generateHTML(codes):
 		snippet = f.read()
 		html_content += snippet
 
+	#F: I've added in a bunch of additional variables to allow people to search DFCs by info on their back faces
+	#F: For example, let's say I want to find Delver of Secrets by searching for a 3/2 (which is the p/t of Insectile Aberration)
+	#F: Alas, I don't know how to incorporate this into the search, so I will leave that up to other people.
 	html_content += '''
 
 		function preSearch(setNewState) {
@@ -361,12 +359,17 @@ def generateHTML(codes):
 			cardGrid.innerHTML = "";
 
 			for (const card of card_list_arrayified) {
-				if (card[3].includes("Token") && !searchTerms.includes("*t:token") && !searchTerms.includes("t:token"))
+				if (card.shape.includes("token") && !searchTerms.includes("+t:token") && !searchTerms.includes("t:token"))
 				{
 					continue;
 				}
 
-				if (card[3].includes("Basic") && !searchTerms.includes("*t:basic") && !searchTerms.includes("t:basic"))
+				if (card.type.includes("Basic") && !searchTerms.includes("+t:basic") && !searchTerms.includes("t:basic"))
+				{
+					continue;
+				}
+
+				if (card.rarity.includes("masterpiece") && !searchTerms.includes("+r:masterpiece") && !searchTerms.includes("+r:mp") && !searchTerms.includes("t:basic"))
 				{
 					continue;
 				}
@@ -412,7 +415,7 @@ def generateHTML(codes):
 
 					let url = (window.location.href.indexOf("page=") == -1 ? new URL(window.location.href) : new URL(window.location.href.substring(0, window.location.href.indexOf("page="))));
 				let params = new URLSearchParams(url.search);
-				params.append("page", page+1);
+				params.append("page", page + 1);
 				history.replaceState({}, '', url.pathname + '?' + params.toString());
 				}
 
@@ -437,7 +440,7 @@ def generateHTML(codes):
 		{
 			for (const li of list)
 			{
-				if (li[0] == card[0] && li[3] == card[3])
+				if (li.card_name == card.card_name && li.type == card.type)
 				{
 					return true;
 				}
@@ -446,408 +449,11 @@ def generateHTML(codes):
 			return false;
 		}
 
-		function tokenizeTerms(searchTerms)
-		{
-			let searchTokens = [];
-			let key = 0;
-			let inParens = false;
-			let inQuotes = false;
-			for (let i = 0; i < searchTerms.length; i++)
-			{
-				if (searchTerms.charAt(i) == '(')
-				{
-					inParens = true;
-				}
-				if (searchTerms.charAt(i) == ')')
-				{
-					inParens = false;
-				}
-				if (!inParens && !inQuotes && (searchTerms.charAt(i) == '"' || searchTerms.charAt(i) == '“' || searchTerms.charAt(i) == '/'))
-				{
-					inQuotes = true;
-				}
-				else if (!inParens && inQuotes && (searchTerms.charAt(i) == '"' || searchTerms.charAt(i) == '”' || searchTerms.charAt(i) == '/'))
-				{
-					inQuotes = false;
-				}
-				if (searchTerms.charAt(i) == ' ' && !inParens && !inQuotes)
-				{
-					searchTokens.push(searchTerms.substring(key, i));
-					key = i + 1;
-				}
-				if (i == searchTerms.length - 1)
-				{
-					searchTokens.push(searchTerms.substring(key));
-				}
-			}
-
-			return searchTokens;
-		}
-
-		function searchAllTokens(card, tokens)
-		{
-			if (tokens.length < 1)
-			{
-				return true;
-			}
-			for (let i = 0; i < tokens.length; i++)
-			{
-				if (tokens[i].charAt(0) == '*')
-				{
-					return searchAllTokens(card, tokens.slice(0, i)) && searchAllTokens(card, tokens.slice(i + 1));
-				}
-				if (tokens[i] == "or")
-				{
-					return searchAllTokens(card, tokens.slice(0, i)) || searchAllTokens(card, tokens.slice(i + 1));
-				}
-			}
-
-			for (let token of tokens)
-			{
-				if (token.charAt(0) == '-')
-				{
-					return !searchToken(card, token.substring(1)) && (tokens.length == 1 ? true : searchAllTokens(card, tokens.slice(1)));
-				}
-				if (token.charAt(0) == '(')
-				{
-					return searchAllTokens(card, tokenizeTerms(token.substring(1, token.length - 1))) && (tokens.length == 1 ? true : searchAllTokens(card, tokens.slice(1)));
-				}
-				else
-				{
-					return searchToken(card, token) && (tokens.length == 1 ? true : searchAllTokens(card, tokens.slice(1)));
-				}
-			}
-		}
-
-		function searchToken(card, token)
-		{
-			let card_stats = [];
-
-			for (let i = 0; i < card.length; i++)
-			{
-				card_stats.push(card[i].toLowerCase());
-			}
-
-			let card_name = card_stats[0];
-			let card_color = card_stats[1] != "" ? card_stats[1] : "c";
-			let card_rarity = card_stats[2];
-			let card_type = card_stats[3];
-			// 4: collector number
-			let card_ci = card_stats[5];
-			let card_mv = isDecimal(card_stats[6].charAt(0)) ? parseInt(card_stats[6]) + card_stats[6].replaceAll('x','').length - 1 : card_stats[6].replaceAll('x','').length;
-			let card_oracle_text = card_stats[7] != "" ? card_stats[7].replaceAll("NEWLINE", '\\n') : card_stats[9].replaceAll("NEWLINE", '\\n');
-			let card_power = card_stats[8].substring(0,card_stats[8].indexOf('/'));
-			let card_toughness = card_stats[8].substring(card_stats[8].indexOf('/')+1);
-			let card_shape = card_stats[10];
-			let card_set = card_stats[11];
-			let card_loyalty = card_stats[12];
-			let card_notes = card_stats.length == 14 ? card_stats[13].replaceAll("NEWLINE", '\\n') : card_stats[22].replaceAll("NEWLINE", '\\n');
-
-			// two cards in one
-			if (card_shape.includes("adventure") || card_shape.includes("double") || card_shape.includes("spli"))
-			{
-				card_name = card_name + "	" + card_stats[13];
-				card_type = card_type + "	" + card_stats[15];
-				card_oracle_text = card_oracle_text + "	" + (card_stats[18] != "" ? card_stats[18].replaceAll("NEWLINE", '\\n') : card_stats[20].replaceAll("NEWLINE", '\\n'));
-			}
-
-			token = token.replaceAll("~", card_name).replaceAll("cardname", card_name).replaceAll('"','').replaceAll('/','').replaceAll('“','').replaceAll('”','');
-
-			const modifierRegex = /[!:<>=]/;
-			const match = token.search(modifierRegex);
-
-			if (match > -1)
-			{
-				const term = token.substring(0, match);
-				const modifier = token.charAt(match);
-				const check = token.substring(match + 1);
-
-				// availableTokens = ["mv", "c", "ci", "t", "o", "pow", "tou", "r", "is"]
-
-				/* template
-				if (term == "mv")
-				{
-					if (modifier == "!" || modifier == "=")
-					{
-
-					}
-					else if (modifier == ":")
-					{
-
-					}
-					else if (modifier == "<")
-					{
-
-					}
-					else if (modifier == ">")
-					{
-
-					}
-				} */
-				if (term == "mv")
-				{
-					if (modifier == "!" || modifier == "=")
-					{
-						return (card_mv == check);
-					}
-					else if (modifier == ":")
-					{
-						return (card_mv == check);
-					}
-					else if (modifier == "<")
-					{
-						return (card_mv < check);
-					}
-					else if (modifier == ">")
-					{
-						return (card_mv > check);
-					}
-				}
-				if (term == "c")
-				{
-					if (modifier == "!" || modifier == "=")
-					{
-						if (!isNaN(check))
-						{
-							return card_color.length == parseInt(check);
-						}
-						return (card_color.split("").sort().join("") == check.split("").sort().join(""));
-					}
-					else if (modifier == ":")
-					{
-						if (!isNaN(check))
-						{
-							return card_color.length == parseInt(check);
-						}
-						return hasAllChars(card_color, check);
-					}
-					else if (modifier == "<")
-					{
-						if (!isNaN(check))
-						{
-							return card_color.length < parseInt(check);
-						}
-						return hasNoChars(card_color, check);
-					}
-					else if (modifier == ">")
-					{
-						if (!isNaN(check))
-						{
-							return card_color.length > parseInt(check);
-						}
-						return hasAllAndMoreChars(card_color, check);
-					}
-				}
-				if (term == "ci")
-				{
-					if (modifier == "!" || modifier == "=")
-					{
-						// why is this the best way to do this?
-						if (!isNaN(check))
-						{
-							return card_ci.length == parseInt(check);
-						}
-						return (card_ci.split("").sort().join("") == check.split("").sort().join(""));
-					}
-					else if (modifier == ":")
-					{
-						if (!isNaN(check))
-						{
-							return card_ci.length == parseInt(check);
-						}
-						return hasAllChars(card_ci, check);
-					}
-					else if (modifier == "<")
-					{
-						if (!isNaN(check))
-						{
-							return card_ci.length < parseInt(check);
-						}
-						return hasNoChars(card_ci, check);
-					}
-					else if (modifier == ">")
-					{
-
-						if (!isNaN(check))
-						{
-							return card_ci.length > parseInt(check);
-						}
-						return hasAllAndMoreChars(card_ci, check);
-					}
-				}
-				if (term == "t" || term == "type")
-				{
-					if (modifier == ":")
-					{
-						return card_type.includes(check);
-					}
-					/* unsupported flows
-					if (modifier == "!" || modifier == "=")
-					{
-
-					}
-					else if (modifier == "<")
-					{
-
-					}
-					else if (modifier == ">")
-					{
-
-					} */
-				}
-				if (term == "o")
-				{
-					if (modifier == ":")
-					{
-						regex = new RegExp(check);
-						return regex.test(card_oracle_text);
-						if (check.charAt(0) == '/')
-						{
-							
-							return regex.test(card_oracle_text);
-						}
-						else
-						{
-							return card_oracle_text.includes(check);
-						}
-					}
-					/* unsupported flows
-					if (modifier == "!" || modifier == "=")
-					{
-
-					}
-					else if (modifier == "<")
-					{
-
-					}
-					else if (modifier == ">")
-					{
-
-					} */
-				}
-				if (term == "pow")
-				{
-					if (modifier == "!" || modifier == "=")
-					{
-						return (card_power == check);
-					}
-					else if (modifier == ":")
-					{
-						return (card_power == check);
-					}
-					else if (modifier == "<")
-					{
-						return (card_power < check);
-					}
-					else if (modifier == ">")
-					{
-						return (card_power > check);
-					}
-				}
-				if (term == "tou")
-				{
-					if (modifier == "!" || modifier == "=")
-					{
-						return (card_toughness == check);
-					}
-					else if (modifier == ":")
-					{
-						return (card_toughness == check);
-					}
-					else if (modifier == "<")
-					{
-						return (card_toughness < check);
-					}
-					else if (modifier == ">")
-					{
-						return (card_toughness > check);
-					}
-				}
-				if (term == "r")
-				{
-					if (modifier == ":")
-					{
-						return (card_rarity == check);
-					}
-					/* unsupported flows
-					if (modifier == "!" || modifier == "=")
-					{
-
-					}
-					else if (modifier == "<")
-					{
-
-					}
-					else if (modifier == ">")
-					{
-
-					} */
-				}
-				if (term == "e")
-				{
-					if (modifier == ":")
-					{
-						return (card_set == check);
-					}
-					/* unsupported flows
-					if (modifier == "!" || modifier == "=")
-					{
-
-					}
-					else if (modifier == "<")
-					{
-
-					}
-					else if (modifier == ">")
-					{
-
-					} */
-				}
-				if (term == "is")
-				{
-					if (modifier == ":")
-					{
-						// all of these are implemented individually
-						if (check == "permanent")
-						{
-							return !card_type.includes("instant") && !card_type.includes("sorcery");
-						}
-						if (check == "spell")
-						{
-							return !card_type.includes("land");
-						}
-						if (check == "commander")
-						{
-							return (card_type.includes("legendary") && card_type.includes("creature")) || card_oracle_text.includes("can be your commander");
-						}
-					}
-					/* unsupported flows
-					if (modifier == "!" || modifier == "=")
-					{
-
-					}
-					else if (modifier == "<")
-					{
-
-					}
-					else if (modifier == ">")
-					{
-
-					} */
-				}
-				if (term == "tag")
-				{
-					if (modifier == ":" || modifier == "=" || modifier == "!")
-					{
-						return card_notes.includes("!tag " + check);
-					}
-				}
-			}
-
-			return card_name.includes(token);
-		}
-
 		'''
+
+	with open(os.path.join('resources', 'snippets', 'search-defs.txt'), encoding='utf-8-sig') as f:
+		snippet = f.read()
+		html_content += snippet
 
 	with open(os.path.join('resources', 'snippets', 'tokenize-symbolize.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
@@ -855,12 +461,12 @@ def generateHTML(codes):
 
 	html_content += '''
 
-		function gridifyCard(card_stats) {
-			const card_name = card_stats[0];
+		function gridifyCard(card_stats, card_text = false, rotate_card = false, designer_notes = false) {
+			const card_name = card_stats.card_name;
 
 			if (displayStyle == "cards-only")
 			{
-				return buildImgContainer(card_stats);
+				return buildImgContainer(card_stats, true, rotate_card);
 			}
 
 		'''
@@ -928,7 +534,7 @@ def generateHTML(codes):
 			let params = new URLSearchParams(url.search);
 			if (page != 0)
 			{
-				params.append("page", page+1);
+				params.append("page", page + 1);
 			}
 			history.pushState({}, '', url.pathname + '?' + params.toString());
 
@@ -954,7 +560,7 @@ def generateHTML(codes):
 			
 			let url = (window.location.href.indexOf("page=") == -1 ? new URL(window.location.href) : new URL(window.location.href.substring(0, window.location.href.indexOf("page="))));
 			let params = new URLSearchParams(url.search);
-			params.append("page", page+1);
+			params.append("page", page + 1);
 			history.pushState({}, '', url.pathname + '?' + params.toString());
 
 			cardGrid.innerHTML = "";

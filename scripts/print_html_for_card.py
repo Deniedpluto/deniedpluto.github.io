@@ -1,33 +1,25 @@
 import os
 import sys
+import json
 
-def generateHTML(card):
-	code = card.split('\t')[11]
-	card_name = card.split('\t')[0]
-	card_name_cleaned = card_name
-	card_type = card.split('\t')[3]
-	with open(os.path.join('resources', 'replacechars.txt'), encoding='utf-8-sig') as f:
-		chars = f.read()
-	for char in chars:
-		card_name_cleaned = card_name_cleaned.replace(char, '')
-	card_num = card.split('\t')[4]
-	output_html_file = "cards/" + code + "/" + card_num + "_" + card_name_cleaned + ".html"
+#F = Fungustober's notes
 
-	with open(os.path.join("sets", code + "-files", code + "-fullname.txt"), encoding='utf-8-sig') as f:
-		set_name = f.read()
+def generateHTML():
+	output_html_file = "card.html"
 	
 	# Start creating the HTML file content
 	html_content = '''<html>
 <head>
-  <title>''' + card.split('\t')[0] + '''</title>
-  <link rel="icon" type="image/x-icon" href="/img/favicon.png">
-  <link rel="stylesheet" href="/resources/mana.css">
-  <link rel="stylesheet" href="/resources/header.css">
+	<title>Card</title>
+	<link rel="icon" type="image/x-icon" href="/img/favicon.png">
+	<link rel="stylesheet" href="/resources/mana.css">
+	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="stylesheet" href="/resources/card-text.css">
 </head>
 <style>
 	@font-face {
-	  font-family: Beleren;
-	  src: url('/resources/beleren.ttf');
+		font-family: Beleren;
+		src: url('/resources/beleren.ttf');
 	}
 	body {
 		font-family: 'Helvetica', 'Arial', sans-serif;
@@ -96,35 +88,18 @@ def generateHTML(card):
 		display: flex;
 		flex-direction: column;
 	}
-	.card-text div {
-		white-space: normal;
-		font-size: 15px;
-		padding-bottom: 10px;
-		padding-left: 12px;
-		padding-right: 12px;
-		line-height: 155%;
-	}
-	.card-text .name-cost {
-		font-weight: bold;
-		font-size: 20px;
-		white-space: pre-wrap;
-	}
-	.card-text .type {
-		font-size: 16px;
-	}
-	.card-text .pt {
-		font-weight: bold;
-	}
-	.card-text br {
-		content: "";
-		display: block;
-		margin-bottom: 5px;
+	.designer-notes {
+		padding-top: 10px;
+		border-top: 1px solid #171717;
 	}
 	.card-text .printings {
 		margin-top: auto;
 		font-size: 12px;
 		font-weight: bold;
 		padding-bottom: 0px;
+	}
+	.printings {
+		display: none;
 	}
 	.printings a {
 		color: #1338be;
@@ -134,12 +109,12 @@ def generateHTML(card):
 		color: #0492c2;
 	}
 	.img-container {
-	  position: relative;
-	  align-self: center;
+		position: relative;
+		align-self: center;
 	}
 	.img-container img {
-	  width: 100%;
-	  height: auto;
+		width: 100%;
+		height: auto;
 	}
 	.img-container .btn {
 		background: url('/img/flip.png') no-repeat;
@@ -150,22 +125,30 @@ def generateHTML(card):
 		cursor: pointer;
 		border: none;
 		position: absolute;
-		top: 6.5%;
-		left: 8.5%;
-		transform: translate(-50%, -85%);
+		left: 50%;
+		top: 48%;
+		transform: translate(-50%, -50%);
+		opacity: 0.5;
 	}
 	.img-container .btn:hover {
 		background: url('/img/flip-hover.png') no-repeat;
 		background-size: contain;
 		background-position: center;
-		width: 15%;
-		height: 11%;
-		cursor: pointer;
-		border: none;
-		position: absolute;
-		top: 6.5%;
-		left: 8.5%;
-		transform: translate(-50%, -85%);
+	}
+	.img-container .h-img {
+		transform: rotate(90deg);
+		width: 80%;
+	}
+	.img-container a {
+		height: 100%;
+		display: grid;
+		justify-self: center;
+		align-items: center;
+		justify-items: center;
+	}
+	.img-container a > * {
+		grid-row: 1;
+		grid-column: 1;
 	}
 	.hidden {
 		display: none;
@@ -182,35 +165,15 @@ def generateHTML(card):
 
 	<input type="text" id="display" class="hidden" value="cards-and-text"> <!-- here to make img-container-defs snippet work properly -->
 	<div class="banner-container">
-		<a class="set-banner" id="set-banner" href="/sets/''' + code + '''">
-			<img class="set-logo" src="/sets/''' + code + '''-files/icon.png">
-			<div class="set-title">''' + set_name + '''</div>
+		<a class="set-banner" id="set-banner">
+			<img class="set-logo" id="set-banner-logo">
+			<div class="set-title" id="set-banner-title"></div>
 		</a>
 	</div>
 
 	<div class="grid-container" id="grid">
 	</div>
-	'''
 
-	other_printings = []
-	with open(os.path.join('lists', 'all-cards.txt'), encoding='utf-8-sig') as f:
-		cards = f.read()
-	cards = cards.split('\\n')
-	for i in range(len(cards)):
-		card_stats = cards[i].split('\t')
-		if card_stats[0] == card_name and card_stats[3] == card_type and (card_stats[11] != code or card_stats[4] != card_num) and 'Token' not in card_type:
-			other_printings.append(card_stats)
-	if other_printings != []:
-		html_content += '''<div class="printings" id="other-printings">Other Printings: '''
-		for printing in other_printings:
-			set_code = printing[11]
-			html_content += '''<a href="/cards/''' + set_code + '''/''' + printing[4] + '''_''' + card_name_cleaned + '''">''' + set_code + '''</a>'''
-			if printing != other_printings[len(other_printings) - 1]:
-				html_content += ''' • '''
-		html_content += '''</div>
-		'''
-
-	html_content += '''
 	<script>
 		let card_list_arrayified = [];
 		let specialchars = "";
@@ -221,35 +184,114 @@ def generateHTML(card):
 	with open(os.path.join('resources', 'snippets', 'load-files.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
-
+	
 	html_content += '''
-			await fetch('/cards/''' + code + '''/''' + card_num + '''_''' + card_name_cleaned + '''.txt')
-				.then(response => response.text())
-				.then(text => {
-					card = text;
-			}).catch(error => console.error('Error:', error));
+			await fetch('/lists/all-sets.json')
+					.then(response => response.json())
+					.then(json => {
+						set_list = json;
+				}).catch(error => console.error('Error:', error));
 
-			document.getElementById("grid").appendChild(gridifyCard(card));
-			if (document.getElementById("other-printings"))
+			const params = new URLSearchParams(window.location.search);
+
+			const set = params.get('set');
+			const num = params.get('num');
+			const name = params.get('name');
+
+			for (const c of card_list_arrayified)
 			{
-				document.getElementById("card-text").appendChild(document.getElementById("other-printings"));			
+				if (c.card_name == name && c.set == set && c.number == num)
+				{
+					card = c;
+					break;
+				}
+			}
+
+			var link = document.querySelector("link[rel~='icon']");
+			link.href = '/sets/' + set + '-files/icon.png';
+
+			document.title = name;
+
+			const banner = document.getElementById("set-banner");
+			const banner_logo = document.getElementById("set-banner-logo");
+			const banner_title = document.getElementById("set-banner-title");
+
+			banner.href = '/sets/' + set;
+			banner_logo.src = '/sets/' + set + '-files/icon.png';
+
+			for (const set_stats of set_list.sets)
+			{
+				if (set_stats.set_code == set)
+				{
+					banner_title.innerHTML = set_stats.set_name;
+					break;
+				}
+			}			
+
+			document.getElementById("grid").appendChild(gridifyCard(card, false, true));
+
+			other_printings = [];
+			for (const c of card_list_arrayified)
+			{
+				if (c.card_name == card.card_name && c.type == card.type && !c.shape.includes("Token") && (c.set != card.set || c.number != card.number))
+				{
+					other_printings.push(c);
+				}
+			}
+
+			if (other_printings.length > 0)
+			{
+				const printings = document.createElement("div");
+				printings.className = "printings";
+				printings.id = "other-printings";
+				printings.innerText = "Other Printings: ";
+
+				for (let i = 0; i < other_printings.length; i++)
+				{
+					const printing = other_printings[i];
+					const setlink = document.createElement("a");
+					setlink.innerText = printing.set;
+
+					const url = new URL('card', window.location.origin);
+					const params = {
+						set: printing.set,
+						num: printing.number,
+						name: printing.card_name
+					}
+					for (const key in params) {
+						url.searchParams.append(key, params[key]);
+					}
+					setlink.href = url;
+
+					printings.appendChild(setlink);
+
+					if (i != other_printings.length - 1)
+					{
+						const dot = document.createElement("text");
+						dot.innerText = " • ";
+						printings.appendChild(dot);
+					}
+				}
+
+				document.getElementById("card-text").appendChild(printings);
+				document.getElementById("other-printings").style.display = "block";
 			}
 		});
 
 		'''
-
+	
 	with open(os.path.join('resources', 'snippets', 'tokenize-symbolize.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 
 	html_content += '''
 
-		function gridifyCard(card) {
-			card_stats = card.split('\\t');
-			const card_name = card_stats[0];
+		function gridifyCard(card_stats, card_text = false, rotate_card = false, designer_notes = true) {
+			card_stats = card;
+			const card_name = card_stats.card_name;
 
 		'''
-
+	
 	with open(os.path.join('resources', 'snippets', 'img-container-defs.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
@@ -257,14 +299,16 @@ def generateHTML(card):
 	html_content += '''
 
 		document.getElementById("search").addEventListener("keypress", function(event) {
-		  if (event.key === "Enter") {
+			if (event.key === "Enter") {
 				event.preventDefault();
 				search();
-		  }
+			}
 		});
 
 		function search() {
-			window.location = ("/search?search=" + document.getElementById("search").value);
+			const url = new URL('search', window.location.origin);
+			url.searchParams.append('search', document.getElementById("search").value);
+			window.location.href = url;
 		}
 
 		'''
@@ -281,4 +325,3 @@ def generateHTML(card):
 	# Write the HTML content to the output HTML file
 	with open(output_html_file, 'w', encoding='utf-8-sig') as file:
 		file.write(html_content)
-		print(card_name + " HTML page written")

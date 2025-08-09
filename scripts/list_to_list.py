@@ -1,25 +1,39 @@
 import os
 import sys
 import re
+import json
+
+#F = Fungustober's notes
 
 def convertList(setCode):
-	inputList = os.path.join('sets', setCode + '-files', setCode + '-raw.txt')
-	outputList = os.path.join('lists', setCode + '-list.txt')
-	with open(inputList, errors="ignore") as f:
-		raw = f.read()
-		cards_raw = raw.replace('\n','NEWLINE').replace('REPLACEME','\\n')
-	cards_raw = cards_raw.rstrip('\\n')
-	cards = cards_raw.split('\\n')
-
-	skipdex = []
-	for i in range(len(cards)):
-		tmpI = re.sub("\t[0-9]+\t.*", "", cards[i])
-		for j in range(i):
-			tmpJ = re.sub("\t[0-9]+\t.*", "", cards[j])
-			if tmpI == tmpJ and "\tToken" not in tmpJ and "\tBasic" not in tmpJ:
-				skipdex.append(j)
+	#F: inputList = sets/SET-files/SET.json
+	inputList = os.path.join('sets', setCode + '-files', setCode + '.json')
+	#F: outputList = lists/SET-list.json
+	outputList = os.path.join('lists', setCode + '-list.json')
 	
-	master_list = []
+	#create the two blanks as dictionaries so we can fit them into the JSON structure
+	blank1 = {'card_name':'e'}
+	blank2 = {'card_name':'er'}
+	#F: open up the inputList file
+	with open(inputList, encoding='utf-8-sig') as f:
+		raw = json.load(f)
+	cards = raw['cards']
+
+	#F: array of cards to skip
+	skipdex = []
+	#CE: array of special sort groups
+	sort_groups = []
+	#F: This gets any alt-arts in a single set and adds their card number to a list of cards to skip.
+	#CE: And also appends all available groups to the set
+	for i in range(len(cards)):
+		match = re.search(r'!group ([^ \n]+)', cards[i]['notes'])
+		if match and match.group() not in sort_groups:
+			sort_groups.append(match.group())
+		for j in range(i):
+			if cards[i]['card_name'] == cards[j]['card_name'] and "token" not in cards[i]['shape'] and "Basic" not in cards[i]['type']:
+				skipdex.append(cards[j]['number'])
+
+	final_list = []
 	cards_mono = []
 	cards_multi = []
 	cards_brown = []
@@ -27,364 +41,230 @@ def convertList(setCode):
 	cards_basic = []
 	cards_token = []
 
-	for i in range(len(cards)):
-		if i in skipdex:
+	colors = [ 'W', 'U', 'B', 'R', 'G' ]
+	guilds = [ 'WU', 'UB', 'BR', 'RG', 'GW', 'WB', 'BG', 'GU', 'UR', 'RW' ]
+	shards = [ 'WUB', 'UBR', 'BRG', 'RGW', 'GWU', 'WBG', 'BGU', 'GUR', 'URW', 'RWB' ] # and wedges
+
+	cards_sorted = {
+		'W': [],
+		'U': [],
+		'B': [],
+		'R': [],
+		'G': [],
+		'WU': [],
+		'UB': [],
+		'BR': [],
+		'RG': [],
+		'GW': [],
+		'WB': [],
+		'BG': [],
+		'GU': [],
+		'UR': [],
+		'RW': [],
+		'WUB': [],
+		'UBR': [],
+		'BRG': [],
+		'RGW': [],
+		'GWU': [],
+		'WBG': [],
+		'BGU': [],
+		'GUR': [],
+		'URW': [],
+		'RWB': [],
+		'gold': [],
+		'C': [],
+		'WL': [],
+		'UL': [],
+		'BL': [],
+		'RL': [],
+		'GL': [],
+		'WUL': [],
+		'UBL': [],
+		'BRL': [],
+		'RGL': [],
+		'GWL': [],
+		'WBL': [],
+		'BGL': [],
+		'GUL': [],
+		'URL': [],
+		'RWL': [],
+		'L': [],
+		'basic': [],
+		'token': [],
+		'mp': [],
+		'': []
+	}
+
+	for group in sort_groups:
+		cards_sorted[group] = []
+
+	#CE: set up previews if necessary
+	if 'unpreviewed' in raw and raw['unpreviewed'] == 'empty':
+		previewed_path = os.path.join('sets', setCode + '-files', 'previewed.txt')
+		if os.path.isfile(previewed_path):
+			with open(previewed_path, encoding='utf-8-sig') as f:
+				previewed = f.read().split('\n')
+
+	#F: now go over the cards again
+	for card in cards:
+		#F: skip the card if it's in the skipdex
+		if card['number'] in skipdex or ('previewed' in locals() and card['card_name'] not in previewed):
 			continue
-		card = cards[i].split('\t')
-		# name to include card number
-		card[0] = card[4] + ('t_' if 'Token' in card[3] else '_') + card[0]
-		# card number to int
-		card[4] = int(card[4])
 
+		#CE: fix for devoid cards
+		if 'devoid' in card['rules_text'].lower():
+			card['color'] = card['color_identity']
 
-		# clean color inputs
-		if card[1] == 'WR':
-			card[1] = 'RW'
-		if card[1] == 'WG':
-			card[1] = 'GW'
-		if card[1] == 'UG':
-			card[1] = 'GU'
-		if len(card[1]) > 2:
-			card[1] = 'gold'
-
-		# clean color identity inputs
-		if card[5] == 'WR':
-			card[5] = 'RW'
-		if card[5] == 'WG':
-			card[5] = 'GW'
-		if card[5] == 'UG':
-			card[5] = 'GU'
-		if len(card[5]) > 2:
-			card[5] = 'gold'
-
-		# clean rarities
-		if card[2] == 'common':
-			card[2] = 4
-		elif card[2] == 'uncommon':
-			card[2] = 3
-		elif card[2] == 'rare':
-			card[2] = 2
-		elif card[2] == 'mythic':
-			card[2] = 1
-		else:
-			card[2] = 5
+		#CE: fix for split cards
+		if 'split' in card['shape']:
+			card['color'] = "".join(set(card['color'] + card['color2']))
 
 		# sort types
-		if 'Token' in card[3]:
-			cards_token.append(card)
-		elif len(card[1]) > 1:
-			cards_multi.append(card)
-		elif card[1] == '':
-			if 'Basic' in card[3]:
-				cards_basic.append(card)
-			elif 'Land' in card[3]:
-				cards_land.append(card)
+		if '!group' in card['notes']:
+			for group in sort_groups:
+				pattern = re.compile(re.escape(group) + r'(?:\n|$)')
+				if pattern.search(card['notes']):
+					cards_sorted[group].append(card)
+		elif 'token' in card['shape']:
+			cards_sorted['token'].append(card)
+		elif 'masterpiece' in card['rarity']: # masterpiece
+			cards_sorted['mp'].append(card)
+		elif len(card['color']) > 1:
+			assigned = False
+			for guild in guilds:
+				if colorEquals(card['color'], guild):
+					cards_sorted[guild].append(card)
+					assigned = True
+			if not assigned:
+				cards_sorted['gold'].append(card)
+		elif card['color'] == '':
+			if 'Basic' in card['type']:
+				cards_sorted['basic'].append(card)
+			elif 'Land' in card['type']:
+				assigned = False
+				for c in colors:
+					if colorEquals(card['color_identity'], c):
+						cards_sorted[c + 'L'].append(card)
+						assigned = True
+				for guild in guilds:
+					if colorEquals(card['color_identity'], guild):
+						cards_sorted[guild + 'L'].append(card)
+						assigned = True
+				if not assigned:
+					cards_sorted['L'].append(card)
 			else:
-				cards_brown.append(card)
+				cards_sorted['C'].append(card)
 		else:
-			cards_mono.append(card)
+			for c in colors:
+				if card['color'] == c:
+					cards_sorted[c].append(card)
 
-	# prepare monocolor lists
-	cards_w = []
-	cards_u = []
-	cards_b = []
-	cards_r = []
-	cards_g = []
-	
-	for card in cards_mono:
-		if card[1] == 'W':
-			cards_w.append(card)
-		if card[1] == 'U':
-			cards_u.append(card)
-		if card[1] == 'B':
-			cards_b.append(card)
-		if card[1] == 'R':
-			cards_r.append(card)
-		if card[1] == 'G':
-			cards_g.append(card)
-
-	row_count = max(len(cards_w),len(cards_u),len(cards_b),len(cards_r),len(cards_g))
-	cards_mono_arr = [cards_w, cards_u, cards_b, cards_r, cards_g]
-	
-	for x in range(len(cards_mono_arr)):
-		card_arr = cards_mono_arr[x]
-		cards_mono_arr[x] = sorted(card_arr, key=lambda x : (x[2], x[4]))
-	
-	for row in range(row_count):
-		for card_arr in cards_mono_arr:
-			if (row >= len(card_arr)):
-				master_list.append('e')
-			else:
-				master_list.append(card_arr[row][0])
-
-	for x in range(5):
-		master_list.append('er')
-
-	# prepare gold lists
-	cards_wu = []
-	cards_ub = []
-	cards_br = []
-	cards_rg = []
-	cards_gw = []
-	cards_wb = []
-	cards_bg = []
-	cards_gu = []
-	cards_ur = []
-	cards_rw = []
-	cards_gold = []
-
-	for card in cards_multi:
-		if card[1] == 'WU':
-			cards_wu.append(card)
-		elif card[1] == 'UB':
-			cards_ub.append(card)
-		elif card[1] == 'BR':
-			cards_br.append(card)
-		elif card[1] == 'RG':
-			cards_rg.append(card)
-		elif card[1] == 'GW':
-			cards_gw.append(card)
-		elif card[1] == 'WB':
-			cards_wb.append(card)
-		elif card[1] == 'BG':
-			cards_bg.append(card)
-		elif card[1] == 'GU':
-			cards_gu.append(card)
-		elif card[1] == 'UR':
-			cards_ur.append(card)
-		elif card[1] == 'RW':
-			cards_rw.append(card)
+		# clean rarities
+		if card['rarity'] == 'common':
+			card['rarity'] = 4
+		elif card['rarity'] == 'uncommon':
+			card['rarity'] = 3
+		elif card['rarity'] == 'rare':
+			card['rarity'] = 2
+		elif card['rarity'] == 'mythic':
+			card['rarity'] = 1
 		else:
-			cards_gold.append(card)
-	
-	# ally pairs
-	row_count = max(len(cards_wu),len(cards_ub),len(cards_br),len(cards_rg),len(cards_gw))
-	cards_ally_arr = [cards_wu, cards_ub, cards_br, cards_rg, cards_gw]
+			card['rarity'] = 5
 
-	for x in range(len(cards_ally_arr)):
-		card_arr = cards_ally_arr[x]
-		cards_ally_arr[x] = sorted(card_arr, key=lambda x : (x[2], x[4]))
-	
-	for row in range(row_count):
-		for card_arr in cards_ally_arr:
-			if (row >= len(card_arr)):
-				master_list.append('e')
-			else:
-				master_list.append(card_arr[row][0])
-
-	for x in range(5):
-		master_list.append('er')
-
-	# enemy pairs
-	row_count = max(len(cards_wb),len(cards_bg),len(cards_gu),len(cards_ur),len(cards_rw))
-	cards_enemy_arr = [cards_wb, cards_bg, cards_gu, cards_ur, cards_rw]
-
-	for x in range(len(cards_enemy_arr)):
-		card_arr = cards_enemy_arr[x]
-		cards_enemy_arr[x] = sorted(card_arr, key=lambda x : (x[2], x[4]))
-	
-	for row in range(row_count):
-		for card_arr in cards_enemy_arr:
-			if (row >= len(card_arr)):
-				master_list.append('e')
-			else:
-				master_list.append(card_arr[row][0])
-
-	for x in range(5):
-		master_list.append('er')
-
-	# 3c+ cards
-	cards_gold = sorted(cards_gold, key=lambda x : (x[2], x[4]))
-
-	for card in cards_gold:
-		master_list.append(card[0])
-
-	if len(cards_gold) % 5 != 0:
-		for x in range(5 - (len(cards_gold) % 5)):
-			master_list.append('e')
-
-	if len(cards_gold) > 0:
-		for x in range(5):
-			master_list.append('er')
-
-	# artifacts
-	cards_brown = sorted(cards_brown, key=lambda x : (x[2], x[4]))
-
-	for card in cards_brown:
-		master_list.append(card[0])
-
-	if len(cards_brown) % 5 != 0:
-		for x in range(5 - (len(cards_brown) % 5)):
-			master_list.append('e')
-
-	for x in range(5):
-		master_list.append('er')
-
-	# lands
-	# prepare colored land lists
-	lands_w = []
-	lands_u = []
-	lands_b = []
-	lands_r = []
-	lands_g = []
-	lands_wu = []
-	lands_ub = []
-	lands_br = []
-	lands_rg = []
-	lands_gw = []
-	lands_wb = []
-	lands_bg = []
-	lands_gu = []
-	lands_ur = []
-	lands_rw = []
-	lands_other = []
-
-	for card in cards_land:
-		if card[5] == 'W':
-			lands_w.append(card)
-		elif card[5] == 'U':
-			lands_u.append(card)
-		elif card[5] == 'B':
-			lands_b.append(card)
-		elif card[5] == 'R':
-			lands_r.append(card)
-		elif card[5] == 'G':
-			lands_g.append(card)
-		elif card[5] == 'WU':
-			lands_wu.append(card)
-		elif card[5] == 'UB':
-			lands_ub.append(card)
-		elif card[5] == 'BR':
-			lands_br.append(card)
-		elif card[5] == 'RG':
-			lands_rg.append(card)
-		elif card[5] == 'GW':
-			lands_gw.append(card)
-		elif card[5] == 'WB':
-			lands_wb.append(card)
-		elif card[5] == 'BG':
-			lands_bg.append(card)
-		elif card[5] == 'GU':
-			lands_gu.append(card)
-		elif card[5] == 'UR':
-			lands_ur.append(card)
-		elif card[5] == 'RW':
-			lands_rw.append(card)
+		# filter sorting tags
+		notes = card['notes']
+		if '!sort' in notes:
+			#F: notes = index of !sort + 6 to the end of the string
+			card['notes'] = notes[notes.index('!sort') + 6:]
 		else:
-			lands_other.append(card)
-	
-	# monocolor
-	row_count = max(len(lands_w),len(lands_u),len(lands_b),len(lands_r),len(lands_g))
-	lands_mono_arr = [lands_w, lands_u, lands_b, lands_r, lands_g]
+			card['notes'] = 'zzz'
 
-	for x in range(len(lands_mono_arr)):
-		card_arr = lands_mono_arr[x]
-		lands_mono_arr[x] = sorted(card_arr, key=lambda x : (x[2], x[4]))
-	
-	for row in range(row_count):
-		for card_arr in lands_mono_arr:
-			if (row >= len(card_arr)):
-				master_list.append('e')
-			else:
-				master_list.append(card_arr[row][0])
+		# clean shape
+		if 'Battle' in card['type']:
+			card['shape'] = card['shape'] + ' split'
 
-	# ally pairs
-	row_count = max(len(lands_wu),len(lands_ub),len(lands_br),len(lands_rg),len(lands_gw))
-	lands_ally_arr = [lands_wu, lands_ub, lands_br, lands_rg, lands_gw]
+	if len(cards_sorted['gold']) >= 10: # probably has a decent number of tri-color cards
+		tmp = cards_sorted['gold']
+		cards_sorted['gold'] = []
+		for card in tmp:
+			assigned = False
+			for shard in shards: # and wedges
+				if colorEquals(card['color_identity'], shard): # or wedge
+					cards_sorted[shard].append(card)
+					assigned = True
+			if not assigned:
+				cards_sorted['gold'].append(card)
 
-	for x in range(len(lands_ally_arr)):
-		card_arr = lands_ally_arr[x]
-		lands_ally_arr[x] = sorted(card_arr, key=lambda x : (x[2], x[4]))
-	
-	for row in range(row_count):
-		for card_arr in lands_ally_arr:
-			if (row >= len(card_arr)):
-				master_list.append('e')
-			else:
-				master_list.append(card_arr[row][0])
+	preview_path = 'resources'
+	if os.path.isfile(os.path.join('sets', setCode + '-files', 'preview-order.json')):
+		preview_path = os.path.join('sets', setCode + '-files')
 
-	# enemy pairs
-	row_count = max(len(lands_wb),len(lands_bg),len(lands_gu),len(lands_ur),len(lands_rw))
-	lands_enemy_arr = [lands_wb, lands_bg, lands_gu, lands_ur, lands_rw]
+	with open(os.path.join(preview_path, 'preview-order.json'), encoding='utf-8-sig') as j:
+		list_order = json.load(j)
 
-	for x in range(len(lands_enemy_arr)):
-		card_arr = lands_enemy_arr[x]
-		lands_enemy_arr[x] = sorted(card_arr, key=lambda x : (x[2], x[4]))
-	
-	for row in range(row_count):
-		for card_arr in lands_enemy_arr:
-			if (row >= len(card_arr)):
-				master_list.append('e')
-			else:
-				master_list.append(card_arr[row][0])
+	for r in list_order:
+		row_count = 0
+		cards_arr = []
+		code = setCode
+		if 'set' in r:
+			if r['logo']:
+				final_list.append('l->' + r['set'])
+				for x in range(5):
+					final_list.append(blank2)
+			code = r['set']
+			external = os.path.join('sets', code + '-files', code + '.json')
+			ext_cards = []
+			with open(external, encoding='utf-8-sig') as j:
+				ext_js = json.load(j)
+			for card in ext_js['cards']:
+				if r['cards'][0] in card['notes']:
+					ext_cards.append(card)
+			cards_arr.append(ext_cards)
+			row_count = len(ext_cards)
+		elif 'html' in r:
+			final_list.append('h->' + r['html'])
+			for x in range(5):
+					final_list.append(blank2)
+			continue
+		else:
+			for index in r['cards']:
+				if index not in cards_sorted:
+					print(f'INFO: Group {index} not found in any card notes.')
+					index = ''
+				row_count = max(row_count, len(cards_sorted[index]))
+				cards_arr.append(cards_sorted[index])
 
-	if len(cards_land) - len(lands_other) > 0:
-		for x in range(5):
-			master_list.append('er')
+		if (row_count > 0):
+			if 'title' in r and len(final_list) > 0:
+				del final_list[-1]
+				final_list.append('a->' + r['title'])
+			for x in range(len(cards_arr)):
+				if len(cards_arr[x]) > 0 and 'Basic' not in cards_arr[x][0]['type']:
+					if len(r['cards']) == 1 and r['cards'][0] in sort_groups:
+						cards_arr[x] = sorted(cards_arr[x], key=lambda x : (x['notes'], x['rarity'], x['number']))
+					else:
+						cards_arr[x] = sorted(cards_arr[x], key=lambda x : (len(x['color']), x['rarity'], x['notes'], x['number'])) # start with len() for 3+c cards
+					# otherwise, preserve order of basics from set file
 
-	# other lands
-	lands_other = sorted(lands_other, key=lambda x : (x[2], x[4]))
+			for row in range(row_count):
+				for arr in cards_arr:
+					if (row >= len(arr)):
+						final_list.append(blank1)
+					else:
+						ca = arr[row]
+						final_list.append({'card_name':ca['card_name'],'number':ca['number'],'shape':ca['shape'],'set':code})
 
-	for card in lands_other:
-		master_list.append(card[0])
+			if len(r['cards']) == 1: # single-card categories
+				if not row_count % 5 == 0:
+					for x in range(5 - (row_count % 5)):
+						final_list.append(blank1)
 
-	if len(lands_other) % 5 != 0:
-		for x in range(5 - (len(lands_other) % 5)):
-			master_list.append('e')
+			for x in range(5):
+				final_list.append(blank2)
 
-	if len(lands_other) > 0 and (len(cards_basic) > 0 or len(cards_token) > 0):
-		for x in range(5):
-			master_list.append('er')
+	#F: lists/SET-list.txt finally comes into play
+	with open(outputList, 'w', encoding="utf-8-sig") as f:
+		json.dump(final_list, f, indent=4)
 
-	# basic lands
-	cards_basic = sorted(cards_basic, key=lambda x : (x[2], x[4]))
-
-	# if you're reading this, leave me alone, I did this in like 2 minutes I know it's bad code
-	basic_types = []
-	for card in cards_basic:
-		if card[3] not in basic_types:
-			basic_types.append(card[3])
-
-	if len(basic_types) == 0:
-		land_count = 0
-	else:
-		land_count = int(len(cards_basic) / len(basic_types)) # number of different basic arts
-	for n in range(land_count): 
-		for x in range(len(cards_basic)):
-			if (x % land_count == n):
-				master_list.append(cards_basic[x][0])
-
-	if len(cards_basic) % 5 != 0:
-		for x in range(5 - (len(cards_basic) % 5)):
-			master_list.append('e')
-
-	if len(cards_basic) > 0:
-		for x in range(5):
-			master_list.append('er')
-
-	# tokens
-	cards_token = sorted(cards_token, key=lambda x : (x[2], x[4]))
-
-	for card in cards_token:
-		master_list.append(card[0])
-
-	if len(cards_token) % 5 != 0:
-		for x in range(5 - (len(cards_token) % 5)):
-			master_list.append('e')
-
-	with open(outputList, 'w') as f:
-		for card_name in master_list:
-			print(card_name.replace(u'\ufeff', ''), file=f)
-
-
-
-
-
-
-
-
-
-
-
-
-
+def colorEquals(color, match):
+	return sorted("".join(dict.fromkeys(color))) == sorted("".join(dict.fromkeys(match)))
