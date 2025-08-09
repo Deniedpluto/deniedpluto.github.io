@@ -1,1537 +1,1537 @@
 ﻿[
     {
         "card_name": "Wesley the Rescued",
-        "number": "0",
+        "number": 0,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Inopportune Arrest",
-        "number": "0",
+        "number": 0,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Spear of Vhalimar",
-        "number": "0",
+        "number": 0,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Goblin Gang Leader",
-        "number": "0",
+        "number": 0,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Cerberus",
-        "number": "0",
+        "number": 0,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Champions of Thadenswel",
-        "number": "0",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Zunam, Fate Favored",
-        "number": "100",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "The Archon of Gold",
-        "number": "101",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Blessing of Alyra",
-        "number": "151",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Blessed Ent",
-        "number": "0",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Acolyte of Urobu",
-        "number": "1",
+        "number": 0,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Acolyte of Vetys",
-        "number": "51",
+        "number": 51,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "The Black Glove",
-        "number": "102",
+        "card_name": "The Archon of Gold",
+        "number": 101,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Caelys's Favor",
-        "number": "152",
+        "card_name": "Blessing of Alyra",
+        "number": 151,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Acolyte of Aranya",
-        "number": "201",
+        "card_name": "Blessed Ent",
+        "number": 0,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Captain of the Guard",
-        "number": "10",
+        "card_name": "Acolyte of Urobu",
+        "number": 1,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Arabel, Seer Prodigy",
-        "number": "52",
+        "number": 52,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Blinksy, Toymaker",
-        "number": "103",
+        "card_name": "The Black Glove",
+        "number": 102,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Captain Ryo",
-        "number": "153",
+        "card_name": "Caelys's Favor",
+        "number": 152,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Adolescent Dragon",
-        "number": "202",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Carmen, Pious Knight",
-        "number": "11",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Blessing of Water",
-        "number": "53",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Blood Magic",
-        "number": "104",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Coelys Fantatic",
-        "number": "154",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Ara, Reknown Scout",
-        "number": "203",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Chief Inspector",
-        "number": "12",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Captain Laos",
-        "number": "54",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Blood Ritual",
-        "number": "105",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Coelys's Ire",
-        "number": "155",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Aranya's Adept",
-        "number": "204",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Cleric of Aleana",
-        "number": "13",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Cone of Cold",
-        "number": "55",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Blue Flame Candle",
-        "number": "106",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Crown of Giants",
-        "number": "156",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Aranya's Intervention",
-        "number": "205",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Cube of K'nezeret",
-        "number": "14",
-        "shape": "planeswalker",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Counterspell",
-        "number": "56",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Book of Victims",
-        "number": "107",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Drachenj\u00e4ger",
-        "number": "157",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Aurelia's Elites",
-        "number": "206",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Defend the Walls!",
-        "number": "15",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Cutting Words",
-        "number": "57",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Boon of Elos",
-        "number": "108",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Dragon's Fire",
-        "number": "158",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Basilisk",
-        "number": "207",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Dispel Magic",
-        "number": "16",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Death of the Oracle",
-        "number": "58",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Bron, Dastardly Thief",
-        "number": "109",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Drink it Down",
-        "number": "159",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Blessings of the Mothertree",
-        "number": "208",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Divine Intervention",
-        "number": "17",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Dimension Door",
-        "number": "59",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Charles",
-        "number": "110",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Eye of Coelys",
-        "number": "160",
-        "shape": "planeswalker",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Boon of Aranya",
-        "number": "209",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Divine Smite",
-        "number": "18",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Divination",
-        "number": "60",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Cleanse the Bloodlines",
-        "number": "111",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Fane of the Mountain",
-        "number": "161",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Boon of Fama",
-        "number": "210",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Fly",
-        "number": "19",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Dominate Monster",
-        "number": "61",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Dark Gift",
-        "number": "112",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Fire Bolt",
-        "number": "162",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Caravan Raid",
-        "number": "211",
+        "card_name": "Acolyte of Aranya",
+        "number": 201,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Aleana's Chosen",
-        "number": "2",
+        "number": 2,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Draconic Ascent",
-        "number": "62",
+        "card_name": "Blessing of Water",
+        "number": 53,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Darkling Elder",
-        "number": "113",
+        "card_name": "Blinksy, Toymaker",
+        "number": 103,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Fireball",
-        "number": "163",
+        "card_name": "Captain Ryo",
+        "number": 153,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Chittering Spider",
-        "number": "212",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "The Forge of War",
-        "number": "20",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Fane of the River",
-        "number": "63",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Darkling Scout",
-        "number": "114",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Fondael the Bloodied",
-        "number": "164",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Cleanse the Fanes",
-        "number": "213",
-        "shape": "class",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Gnome Technocrat",
-        "number": "21",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "First Mate Addus",
-        "number": "64",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Dayvroass the Haunted",
-        "number": "115",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "The Forge of Elements",
-        "number": "165",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Command \u2014 Duel",
-        "number": "214",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Griffin Mount",
-        "number": "22",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "The Forge of Spells",
-        "number": "65",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Death Druid",
-        "number": "116",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Fulcrum",
-        "number": "166",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Conjure Animals",
-        "number": "215",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Kirk of Clan Daardendrian",
-        "number": "23",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Gift of Vetys",
-        "number": "66",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Desecrate the Temple",
-        "number": "117",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Fury of the Gods",
-        "number": "167",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Coordinated Assault",
-        "number": "216",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Kyrios the Creator",
-        "number": "24",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Grappling Octopus",
-        "number": "67",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Devilish Imp",
-        "number": "118",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Gniess, Stonecutter Prime",
-        "number": "168",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Death Ward",
-        "number": "217",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Lady Ostrix",
-        "number": "25",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Guard Drake",
-        "number": "68",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Dictate of Urobu",
-        "number": "119",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Goblin Raid",
-        "number": "169",
-        "shape": "class",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Dire Wolf Pack",
-        "number": "218",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Leonir, Acolyte of Lanu",
-        "number": "26",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "High Priest Kaaladeth",
-        "number": "69",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Draconic Purge",
-        "number": "120",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Goblin Raid Runner",
-        "number": "170",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Elf Scout",
-        "number": "219",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Lord Chuck Gavelston",
-        "number": "27",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Hueick, Susceptible Youth",
-        "number": "70",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Drown in the Lake",
-        "number": "121",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Goblin War-Rider",
-        "number": "171",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Elven Elder",
-        "number": "220",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Manticore",
-        "number": "28",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Huff vs McDoogal",
-        "number": "71",
-        "shape": "class",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Dungeon Skeleton",
-        "number": "122",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Goblins of the Red Hand",
-        "number": "172",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Elven Warmaster",
-        "number": "221",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "March of the the Dead",
-        "number": "29",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Invisibility",
-        "number": "72",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Eliath, Doomed Fighter",
-        "number": "123",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Guantlets of the Storm",
-        "number": "173",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Enlarge",
-        "number": "222",
+        "card_name": "Adolescent Dragon",
+        "number": 202,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Aleana's Mercy",
-        "number": "3",
+        "number": 3,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Invoke Duplicity",
-        "number": "73",
+        "card_name": "Captain Laos",
+        "number": 54,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Fama's Talon",
-        "number": "124",
+        "card_name": "Blood Magic",
+        "number": 104,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "The Halcyon",
-        "number": "174",
+        "card_name": "Coelys Fantatic",
+        "number": 154,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Ewiard, Lord of the Hunt",
-        "number": "223",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Moon Scythe",
-        "number": "30",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Jimmy Beanz",
-        "number": "74",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Gildling",
-        "number": "125",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Hobgoblin Warboss",
-        "number": "175",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Fane of the Forest",
-        "number": "224",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Muster the Guard",
-        "number": "31",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "King Da'aroc",
-        "number": "75",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Hag Coven",
-        "number": "126",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Idryyth the Flamebringer",
-        "number": "176",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Fleetfoot, Sharpshooter",
-        "number": "225",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Noble Ward",
-        "number": "32",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Library of Vetys",
-        "number": "76",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Hellish Rebuke",
-        "number": "127",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Kythr, Sorrow's Mark",
-        "number": "177",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "The Forge of Life",
-        "number": "226",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Paeter, Foolish Monk",
-        "number": "33",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Lydia Brooks",
-        "number": "77",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Hundral the Voiceless",
-        "number": "128",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Leshanna, Lovestruck Bard",
-        "number": "178",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Garmin, Beast's Companion",
-        "number": "227",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Phaedra the Seeker",
-        "number": "34",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Oracle's Insight",
-        "number": "78",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Inflict Wounds",
-        "number": "129",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Lodaec, Tyrant King",
-        "number": "179",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Glamstol, Crafty Herbalist",
-        "number": "228",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Reinforce",
-        "number": "35",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Pierce the Veil",
-        "number": "79",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Lanu's Intervention",
-        "number": "130",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Lord Maalas",
-        "number": "180",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Grasping Vegetation",
-        "number": "229",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Resistance Squad",
-        "number": "36",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Professor Arden",
-        "number": "80",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Mark for Death",
-        "number": "131",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Magic Missile",
-        "number": "181",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Karda, Revolutionary",
-        "number": "230",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Ring of Etheria",
-        "number": "37",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Protection from Evil and Good",
-        "number": "81",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Mysterious Benefactor",
-        "number": "132",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Malaas War Marshall",
-        "number": "182",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "King Saakala",
-        "number": "231",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Rising Populace",
-        "number": "38",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Reject",
-        "number": "82",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Necromancer's Apprentice",
-        "number": "133",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Malaasan Emissary",
-        "number": "183",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Kruthik Swarm",
-        "number": "232",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Sacred Flame",
-        "number": "39",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Sahuaghin",
-        "number": "83",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Night of Consuming Darkness",
-        "number": "134",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Malaasan Pick-Axe",
-        "number": "184",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Kruthik Tunneler",
-        "number": "233",
+        "card_name": "Ara, Reknown Scout",
+        "number": 203,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Armor of Aleana",
-        "number": "4",
+        "number": 4,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Sahuaghin Artillerist",
-        "number": "84",
+        "card_name": "Cone of Cold",
+        "number": 55,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Nighttime Ambush",
-        "number": "135",
+        "card_name": "Blood Ritual",
+        "number": 105,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Mine Collapse",
-        "number": "185",
+        "card_name": "Coelys's Ire",
+        "number": 155,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Life Cleric",
-        "number": "234",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Sarana, Fists of Fury",
-        "number": "40",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Sahuaghin Commander",
-        "number": "85",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Olar, The Broken Arrow",
-        "number": "136",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Mining Contract",
-        "number": "186",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Mazzer, Protected",
-        "number": "235",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Squad Commander",
-        "number": "41",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Sahuaghin Fury",
-        "number": "86",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Olethros the Destroyer",
-        "number": "137",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Mining Dwarf",
-        "number": "187",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Misha, Werebear Leader",
-        "number": "236",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Taj, Glittering Thief",
-        "number": "42",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Saw it Coming",
-        "number": "87",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Remove Curse",
-        "number": "138",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Nicki, Swashbuckler",
-        "number": "188",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Nydissia the Protector",
-        "number": "237",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Tax Accessor",
-        "number": "43",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Scrying",
-        "number": "88",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Revenant",
-        "number": "139",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Nicki's Blade",
-        "number": "189",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Owlbear",
-        "number": "238",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Teleportation Circle",
-        "number": "44",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Sea Spawn",
-        "number": "89",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Ritual Sacrifice",
-        "number": "140",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Price of Loyalty",
-        "number": "190",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Planar Portal",
-        "number": "239",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Town's Guard",
-        "number": "45",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Secrets of Tathys",
-        "number": "90",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Shaedrun, the Necromancer",
-        "number": "141",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "The Prosperity",
-        "number": "191",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Song of Alyra",
-        "number": "240",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Trials of Thadenswel",
-        "number": "46",
-        "shape": "class",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Tarroka Reading",
-        "number": "91",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Shaedrun's Gambit",
-        "number": "142",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Rovari, Magic Weaver",
-        "number": "192",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Staff of the Mothertree",
-        "number": "241",
-        "shape": "planeswalker",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Tundrayl the Pure",
-        "number": "47",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Tathys's Silencer",
-        "number": "92",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Shambling Necromass",
-        "number": "143",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Scorching Ray",
-        "number": "193",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Theo, Friendly Barkeep",
-        "number": "242",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Urwin Brighstar, Guild Founder",
-        "number": "48",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Tidal Wave",
-        "number": "93",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Soul Diversion",
-        "number": "144",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Scyruss, Forge Master",
-        "number": "194",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Unchecked Aggression",
-        "number": "243",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Wall Guard Recruiter",
-        "number": "49",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Treasure Diver",
-        "number": "94",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Spare the Dying",
-        "number": "145",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Wardog",
-        "number": "195",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Volley of Arrows",
-        "number": "244",
+        "card_name": "Aranya's Adept",
+        "number": 204,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Astral Prison",
-        "number": "5",
+        "number": 5,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Tsunami",
-        "number": "95",
+        "card_name": "Counterspell",
+        "number": 56,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Staff of the Blightree",
-        "number": "146",
-        "shape": "planeswalker",
-        "set": "D&D"
-    },
-    {
-        "card_name": "The Wiggumstaff Incident",
-        "number": "196",
+        "card_name": "Blue Flame Candle",
+        "number": 106,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Werebear Amulet",
-        "number": "245",
+        "card_name": "Crown of Giants",
+        "number": 156,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Wartime Financier",
-        "number": "50",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Umbra",
-        "number": "96",
-        "shape": "planeswalker",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Temple of Judgement",
-        "number": "147",
-        "shape": "class",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Worker's Union",
-        "number": "197",
-        "shape": "normal",
-        "set": "D&D"
-    },
-    {
-        "card_name": "Werebear Warrior",
-        "number": "246",
+        "card_name": "Aranya's Intervention",
+        "number": 205,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Ayleia's Return",
-        "number": "6",
+        "number": 6,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Wall of Force",
-        "number": "97",
+        "card_name": "Cutting Words",
+        "number": 57,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Undead Elk",
-        "number": "148",
+        "card_name": "Book of Victims",
+        "number": 107,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Wrathful Smite",
-        "number": "198",
+        "card_name": "Drachenj\u00e4ger",
+        "number": 157,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Wildshape \u2014 Bear",
-        "number": "247",
+        "card_name": "Aurelia's Elites",
+        "number": 206,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Binding of the Law",
-        "number": "7",
+        "number": 7,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Ylbor the Lazy",
-        "number": "98",
+        "card_name": "Death of the Oracle",
+        "number": 58,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Vampire Spawn",
-        "number": "149",
+        "card_name": "Boon of Elos",
+        "number": 108,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Xurug the Avenger",
-        "number": "199",
+        "card_name": "Dragon's Fire",
+        "number": 158,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Wildshape \u2014 Spider",
-        "number": "248",
+        "card_name": "Basilisk",
+        "number": 207,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Cadrea's Blessing",
-        "number": "8",
+        "number": 8,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Young Flayer",
-        "number": "99",
+        "card_name": "Dimension Door",
+        "number": 59,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Vladimir & Godfrey, Reunited",
-        "number": "150",
+        "card_name": "Bron, Dastardly Thief",
+        "number": 109,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Zazzid, Chosen of Coelys",
-        "number": "200",
+        "card_name": "Drink it Down",
+        "number": 159,
         "shape": "normal",
         "set": "D&D"
     },
     {
-        "card_name": "Wyvern Toxin",
-        "number": "249",
+        "card_name": "Blessings of the Mothertree",
+        "number": 208,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Captain Morro",
-        "number": "9",
+        "number": 9,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Divination",
+        "number": 60,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Charles",
+        "number": 110,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Eye of Coelys",
+        "number": 160,
+        "shape": "planeswalker",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Boon of Aranya",
+        "number": 209,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Captain of the Guard",
+        "number": 10,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Dominate Monster",
+        "number": 61,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Cleanse the Bloodlines",
+        "number": 111,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Fane of the Mountain",
+        "number": 161,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Boon of Fama",
+        "number": 210,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Carmen, Pious Knight",
+        "number": 11,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Draconic Ascent",
+        "number": 62,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Dark Gift",
+        "number": 112,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Fire Bolt",
+        "number": 162,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Caravan Raid",
+        "number": 211,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Chief Inspector",
+        "number": 12,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Fane of the River",
+        "number": 63,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Darkling Elder",
+        "number": 113,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Fireball",
+        "number": 163,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Chittering Spider",
+        "number": 212,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Cleric of Aleana",
+        "number": 13,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "First Mate Addus",
+        "number": 64,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Darkling Scout",
+        "number": 114,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Fondael the Bloodied",
+        "number": 164,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Cleanse the Fanes",
+        "number": 213,
+        "shape": "class",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Cube of K'nezeret",
+        "number": 14,
+        "shape": "planeswalker",
+        "set": "D&D"
+    },
+    {
+        "card_name": "The Forge of Spells",
+        "number": 65,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Dayvroass the Haunted",
+        "number": 115,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "The Forge of Elements",
+        "number": 165,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Command \u2014 Duel",
+        "number": 214,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Defend the Walls!",
+        "number": 15,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Gift of Vetys",
+        "number": 66,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Death Druid",
+        "number": 116,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Fulcrum",
+        "number": 166,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Conjure Animals",
+        "number": 215,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Dispel Magic",
+        "number": 16,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Grappling Octopus",
+        "number": 67,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Desecrate the Temple",
+        "number": 117,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Fury of the Gods",
+        "number": 167,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Coordinated Assault",
+        "number": 216,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Divine Intervention",
+        "number": 17,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Guard Drake",
+        "number": 68,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Devilish Imp",
+        "number": 118,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Gniess, Stonecutter Prime",
+        "number": 168,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Death Ward",
+        "number": 217,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Divine Smite",
+        "number": 18,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "High Priest Kaaladeth",
+        "number": 69,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Dictate of Urobu",
+        "number": 119,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Goblin Raid",
+        "number": 169,
+        "shape": "class",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Dire Wolf Pack",
+        "number": 218,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Fly",
+        "number": 19,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Hueick, Susceptible Youth",
+        "number": 70,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Draconic Purge",
+        "number": 120,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Goblin Raid Runner",
+        "number": 170,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Elf Scout",
+        "number": 219,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "The Forge of War",
+        "number": 20,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Huff vs McDoogal",
+        "number": 71,
+        "shape": "class",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Drown in the Lake",
+        "number": 121,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Goblin War-Rider",
+        "number": 171,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Elven Elder",
+        "number": 220,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Gnome Technocrat",
+        "number": 21,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Invisibility",
+        "number": 72,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Dungeon Skeleton",
+        "number": 122,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Goblins of the Red Hand",
+        "number": 172,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Elven Warmaster",
+        "number": 221,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Griffin Mount",
+        "number": 22,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Invoke Duplicity",
+        "number": 73,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Eliath, Doomed Fighter",
+        "number": 123,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Guantlets of the Storm",
+        "number": 173,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Enlarge",
+        "number": 222,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Kirk of Clan Daardendrian",
+        "number": 23,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Jimmy Beanz",
+        "number": 74,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Fama's Talon",
+        "number": 124,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "The Halcyon",
+        "number": 174,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Ewiard, Lord of the Hunt",
+        "number": 223,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Kyrios the Creator",
+        "number": 24,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "King Da'aroc",
+        "number": 75,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Gildling",
+        "number": 125,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Hobgoblin Warboss",
+        "number": 175,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Fane of the Forest",
+        "number": 224,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Lady Ostrix",
+        "number": 25,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Library of Vetys",
+        "number": 76,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Hag Coven",
+        "number": 126,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Idryyth the Flamebringer",
+        "number": 176,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Fleetfoot, Sharpshooter",
+        "number": 225,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Leonir, Acolyte of Lanu",
+        "number": 26,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Lydia Brooks",
+        "number": 77,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Hellish Rebuke",
+        "number": 127,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Kythr, Sorrow's Mark",
+        "number": 177,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "The Forge of Life",
+        "number": 226,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Lord Chuck Gavelston",
+        "number": 27,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Oracle's Insight",
+        "number": 78,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Hundral the Voiceless",
+        "number": 128,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Leshanna, Lovestruck Bard",
+        "number": 178,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Garmin, Beast's Companion",
+        "number": 227,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Manticore",
+        "number": 28,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Pierce the Veil",
+        "number": 79,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Inflict Wounds",
+        "number": 129,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Lodaec, Tyrant King",
+        "number": 179,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Glamstol, Crafty Herbalist",
+        "number": 228,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "March of the the Dead",
+        "number": 29,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Professor Arden",
+        "number": 80,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Lanu's Intervention",
+        "number": 130,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Lord Maalas",
+        "number": 180,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Grasping Vegetation",
+        "number": 229,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Moon Scythe",
+        "number": 30,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Protection from Evil and Good",
+        "number": 81,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Mark for Death",
+        "number": 131,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Magic Missile",
+        "number": 181,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Karda, Revolutionary",
+        "number": 230,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Muster the Guard",
+        "number": 31,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Reject",
+        "number": 82,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Mysterious Benefactor",
+        "number": 132,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Malaas War Marshall",
+        "number": 182,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "King Saakala",
+        "number": 231,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Noble Ward",
+        "number": 32,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Sahuaghin",
+        "number": 83,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Necromancer's Apprentice",
+        "number": 133,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Malaasan Emissary",
+        "number": 183,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Kruthik Swarm",
+        "number": 232,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Paeter, Foolish Monk",
+        "number": 33,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Sahuaghin Artillerist",
+        "number": 84,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Night of Consuming Darkness",
+        "number": 134,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Malaasan Pick-Axe",
+        "number": 184,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Kruthik Tunneler",
+        "number": 233,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Phaedra the Seeker",
+        "number": 34,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Sahuaghin Commander",
+        "number": 85,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Nighttime Ambush",
+        "number": 135,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Mine Collapse",
+        "number": 185,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Life Cleric",
+        "number": 234,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Reinforce",
+        "number": 35,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Sahuaghin Fury",
+        "number": 86,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Olar, The Broken Arrow",
+        "number": 136,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Mining Contract",
+        "number": 186,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Mazzer, Protected",
+        "number": 235,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Resistance Squad",
+        "number": 36,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Saw it Coming",
+        "number": 87,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Olethros the Destroyer",
+        "number": 137,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Mining Dwarf",
+        "number": 187,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Misha, Werebear Leader",
+        "number": 236,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Ring of Etheria",
+        "number": 37,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Scrying",
+        "number": 88,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Remove Curse",
+        "number": 138,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Nicki, Swashbuckler",
+        "number": 188,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Nydissia the Protector",
+        "number": 237,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Rising Populace",
+        "number": 38,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Sea Spawn",
+        "number": 89,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Revenant",
+        "number": 139,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Nicki's Blade",
+        "number": 189,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Owlbear",
+        "number": 238,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Sacred Flame",
+        "number": 39,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Secrets of Tathys",
+        "number": 90,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Ritual Sacrifice",
+        "number": 140,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Price of Loyalty",
+        "number": 190,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Planar Portal",
+        "number": 239,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Sarana, Fists of Fury",
+        "number": 40,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Tarroka Reading",
+        "number": 91,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Shaedrun, the Necromancer",
+        "number": 141,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "The Prosperity",
+        "number": 191,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Song of Alyra",
+        "number": 240,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Squad Commander",
+        "number": 41,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Tathys's Silencer",
+        "number": 92,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Shaedrun's Gambit",
+        "number": 142,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Rovari, Magic Weaver",
+        "number": 192,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Staff of the Mothertree",
+        "number": 241,
+        "shape": "planeswalker",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Taj, Glittering Thief",
+        "number": 42,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Tidal Wave",
+        "number": 93,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Shambling Necromass",
+        "number": 143,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Scorching Ray",
+        "number": 193,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Theo, Friendly Barkeep",
+        "number": 242,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Tax Accessor",
+        "number": 43,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Treasure Diver",
+        "number": 94,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Soul Diversion",
+        "number": 144,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Scyruss, Forge Master",
+        "number": 194,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Unchecked Aggression",
+        "number": 243,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Teleportation Circle",
+        "number": 44,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Tsunami",
+        "number": 95,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Spare the Dying",
+        "number": 145,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Wardog",
+        "number": 195,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Volley of Arrows",
+        "number": 244,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Town's Guard",
+        "number": 45,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Umbra",
+        "number": 96,
+        "shape": "planeswalker",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Staff of the Blightree",
+        "number": 146,
+        "shape": "planeswalker",
+        "set": "D&D"
+    },
+    {
+        "card_name": "The Wiggumstaff Incident",
+        "number": 196,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Werebear Amulet",
+        "number": 245,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Trials of Thadenswel",
+        "number": 46,
+        "shape": "class",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Wall of Force",
+        "number": 97,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Temple of Judgement",
+        "number": 147,
+        "shape": "class",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Worker's Union",
+        "number": 197,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Werebear Warrior",
+        "number": 246,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Tundrayl the Pure",
+        "number": 47,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Ylbor the Lazy",
+        "number": 98,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Undead Elk",
+        "number": 148,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Wrathful Smite",
+        "number": 198,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Wildshape \u2014 Bear",
+        "number": 247,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Urwin Brighstar, Guild Founder",
+        "number": 48,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Young Flayer",
+        "number": 99,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Vampire Spawn",
+        "number": 149,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Xurug the Avenger",
+        "number": 199,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Wildshape \u2014 Spider",
+        "number": 248,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Wall Guard Recruiter",
+        "number": 49,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Zunam, Fate Favored",
+        "number": 100,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Vladimir & Godfrey, Reunited",
+        "number": 150,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Zazzid, Chosen of Coelys",
+        "number": 200,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Wyvern Toxin",
+        "number": 249,
+        "shape": "normal",
+        "set": "D&D"
+    },
+    {
+        "card_name": "Wartime Financier",
+        "number": 50,
         "shape": "normal",
         "set": "D&D"
     },
@@ -1546,7 +1546,7 @@
     },
     {
         "card_name": "Yanna the Ill-Fated",
-        "number": "250",
+        "number": 250,
         "shape": "normal",
         "set": "D&D"
     },
@@ -1565,121 +1565,121 @@
     "a->gold",
     {
         "card_name": "Adenar, Willful Protector",
-        "number": "251",
+        "number": 251,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Mazzer, The Rat King",
-        "number": "0",
+        "number": 0,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Granite, Elos' Vengeance",
-        "number": "261",
+        "number": 261,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Klaarrrgggg, Affable Bugbear",
-        "number": "271",
+        "number": 271,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Hyrum, Last Refuge",
-        "number": "264",
+        "number": 264,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Master Jarreau",
-        "number": "275",
+        "number": 275,
         "shape": "planeswalker",
         "set": "D&D"
     },
     {
         "card_name": "Irdel the Pursued",
-        "number": "265",
+        "number": 265,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "His Opulence IV",
-        "number": "263",
+        "number": 263,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Kraigg, Friendly Troll",
-        "number": "272",
+        "number": 272,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Kildrak, Life's Spring",
-        "number": "269",
+        "number": 269,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Blessing of the Moon",
-        "number": "287",
+        "number": 287,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Iskael, Lord of Shadows",
-        "number": "266",
+        "number": 266,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Justice, Reborn",
-        "number": "267",
+        "number": 267,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Lady Aurelia",
-        "number": "273",
+        "number": 273,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Kinzine the Lifegiver",
-        "number": "270",
+        "number": 270,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Donar, Tragic Hero",
-        "number": "295",
+        "number": 295,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Strahd Von Zarovich",
-        "number": "278",
+        "number": 278,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Luster, War-Scarred",
-        "number": "274",
+        "number": 274,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Zas, Barbarian Scholar",
-        "number": "283",
+        "number": 283,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Clif, Chilled Tortle",
-        "number": "293",
+        "number": 293,
         "shape": "normal",
         "set": "D&D"
     },
@@ -1688,25 +1688,25 @@
     },
     {
         "card_name": "The Ledger",
-        "number": "301",
+        "number": 301,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Vas Asareen",
-        "number": "281",
+        "number": 281,
         "shape": "planeswalker",
         "set": "D&D"
     },
     {
         "card_name": "Bulgan, Raging Battler",
-        "number": "289",
+        "number": 289,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Milde, Faithful Assistant",
-        "number": "303",
+        "number": 303,
         "shape": "normal",
         "set": "D&D"
     },
@@ -1727,151 +1727,151 @@
     },
     {
         "card_name": "Arrynth, Lord of Death",
-        "number": "253",
+        "number": 253,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Boomer",
-        "number": "256",
+        "number": 256,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Gyles, Forgetful Hermit",
-        "number": "262",
+        "number": 262,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Aipa the Ancient",
-        "number": "252",
+        "number": 252,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Beatrix, Wily Herbalist",
-        "number": "255",
+        "number": 255,
         "shape": "planeswalker",
         "set": "D&D"
     },
     {
         "card_name": "Captain Lebrode",
-        "number": "257",
+        "number": 257,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Minnesota, Impulsive Planner",
-        "number": "276",
+        "number": 276,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Keldath the Scourge",
-        "number": "268",
+        "number": 268,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Emir, Fists of Fury",
-        "number": "259",
+        "number": 259,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Dryad Grove",
-        "number": "258",
+        "number": 258,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Vhalimar, Forsaken Angel",
-        "number": "282",
+        "number": 282,
         "shape": "adventure",
         "set": "D&D"
     },
     {
         "card_name": "Pyrrydoss the Unbroken",
-        "number": "277",
+        "number": 277,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Syosa, Raving Dragon",
-        "number": "279",
+        "number": 279,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Aleana, Faith's Shield",
-        "number": "284",
+        "number": 284,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Explore the Outlands",
-        "number": "260",
+        "number": 260,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Mathias, Cursed of Urobu",
-        "number": "302",
+        "number": 302,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Chaos Bolt",
-        "number": "292",
+        "number": 292,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "The Professor",
-        "number": "305",
+        "number": 305,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Harlston, Grappling Pugilist",
-        "number": "298",
+        "number": 298,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Tammer, Reclusive Scholar",
-        "number": "280",
+        "number": 280,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Urobu, Judge of Souls",
-        "number": "308",
+        "number": 308,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Namfoodle Stumbleduck",
-        "number": "304",
+        "number": 304,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Sorsha, Restrained",
-        "number": "306",
+        "number": 306,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Kriv, Champion of Heroes",
-        "number": "299",
+        "number": 299,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Bressio and Vynne, Twins",
-        "number": "288",
+        "number": 288,
         "shape": "normal",
         "set": "D&D"
     },
@@ -1892,31 +1892,31 @@
     },
     {
         "card_name": "Tathys, Keeper of Secrets",
-        "number": "307",
+        "number": 307,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Coelys, Chaos Incarnate",
-        "number": "294",
+        "number": 294,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Elos, God of War",
-        "number": "296",
+        "number": 296,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Alyra, Oracle's Muse",
-        "number": "285",
+        "number": 285,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Vetys, Beacon of Knowledge",
-        "number": "309",
+        "number": 309,
         "shape": "normal",
         "set": "D&D"
     },
@@ -1937,31 +1937,31 @@
     },
     {
         "card_name": "Cadrea, God of the Forge",
-        "number": "290",
+        "number": 290,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Aranya, Nature's Queen",
-        "number": "286",
+        "number": 286,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Lanu, Moon Trickster",
-        "number": "300",
+        "number": 300,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Caelys the Gilded",
-        "number": "291",
+        "number": 291,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Fama, Assassin Favored",
-        "number": "297",
+        "number": 297,
         "shape": "normal",
         "set": "D&D"
     },
@@ -1982,7 +1982,7 @@
     },
     {
         "card_name": "Ayleia Progenitor",
-        "number": "254",
+        "number": 254,
         "shape": "normal",
         "set": "D&D"
     },
@@ -2013,121 +2013,121 @@
     "a->colorless",
     {
         "card_name": "Rowan, Faithful Squire",
-        "number": "0",
+        "number": 0,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Animated Armor",
-        "number": "310",
+        "number": 310,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Blade of Blood",
-        "number": "311",
+        "number": 311,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Blade of Olethros",
-        "number": "312",
+        "number": 312,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Boots of Kyrios",
-        "number": "313",
+        "number": 313,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Breastplate of Kyrios",
-        "number": "314",
+        "number": 314,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Elemental Orb of Air",
-        "number": "315",
+        "number": 315,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Elemental Orb of Darkness",
-        "number": "316",
+        "number": 316,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Elemental Orb of Earth",
-        "number": "317",
+        "number": 317,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Elemental Orb of Fire",
-        "number": "318",
+        "number": 318,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Elemental Orb of Water",
-        "number": "319",
+        "number": 319,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Helm of Kyrios",
-        "number": "320",
+        "number": 320,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Judge & Executioner",
-        "number": "321",
+        "number": 321,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Jury",
-        "number": "322",
+        "number": 322,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Monument of Heroes",
-        "number": "323",
+        "number": 323,
         "shape": "class",
         "set": "D&D"
     },
     {
         "card_name": "Samuel, Sentient Mask",
-        "number": "324",
+        "number": 324,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Soul Eater",
-        "number": "325",
+        "number": 325,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Soul Steel Dagger",
-        "number": "326",
+        "number": 326,
         "shape": "planeswalker",
         "set": "D&D"
     },
     {
         "card_name": "Sword of Kyrios",
-        "number": "327",
+        "number": 327,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Zas's Battleaxe",
-        "number": "328",
+        "number": 328,
         "shape": "normal",
         "set": "D&D"
     },
@@ -2146,31 +2146,31 @@
     "a->land",
     {
         "card_name": "Manticore Tower",
-        "number": "354",
+        "number": 354,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Banden Docks",
-        "number": "331",
+        "number": 331,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Old Falden",
-        "number": "361",
+        "number": 361,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Korolduhr",
-        "number": "351",
+        "number": 351,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Hyathyr",
-        "number": "346",
+        "number": 346,
         "shape": "normal",
         "set": "D&D"
     },
@@ -2191,31 +2191,31 @@
     },
     {
         "card_name": "Eislessi Isle",
-        "number": "343",
+        "number": 343,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Misty Isles",
-        "number": "356",
+        "number": 356,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Shattered Peaks",
-        "number": "366",
+        "number": 366,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Ovauto Forest",
-        "number": "363",
+        "number": 363,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Et'limi'dak",
-        "number": "344",
+        "number": 344,
         "shape": "normal",
         "set": "D&D"
     },
@@ -2236,31 +2236,31 @@
     },
     {
         "card_name": "Ikbarre Marshes",
-        "number": "347",
+        "number": 347,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Lake Dorn",
-        "number": "352",
+        "number": 352,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Corpsewood",
-        "number": "341",
+        "number": 341,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Upper Iron Pass",
-        "number": "371",
+        "number": 371,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Kavedii Islands",
-        "number": "349",
+        "number": 349,
         "shape": "normal",
         "set": "D&D"
     },
@@ -2281,61 +2281,61 @@
     },
     {
         "card_name": "The Abyss",
-        "number": "330",
+        "number": 330,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Bastion",
-        "number": "333",
+        "number": 333,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "The Beacon",
-        "number": "335",
+        "number": 335,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "The Blightlands",
-        "number": "337",
+        "number": 337,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "The Cataclysm",
-        "number": "339",
+        "number": 339,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "The Moon Grove",
-        "number": "358",
+        "number": 358,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "The Nether",
-        "number": "360",
+        "number": 360,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "Revalia",
-        "number": "365",
+        "number": 365,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "The Tumult",
-        "number": "369",
+        "number": 369,
         "shape": "normal",
         "set": "D&D"
     },
     {
         "card_name": "The Wilds",
-        "number": "373",
+        "number": 373,
         "shape": "normal",
         "set": "D&D"
     },

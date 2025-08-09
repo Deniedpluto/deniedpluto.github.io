@@ -1,4 +1,9 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Fixed numbers that came in as strings
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
