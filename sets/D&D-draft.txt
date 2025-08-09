@@ -2077,7 +2077,7 @@
 			"type": "Creature — Treefolk",
 			"collector_number": "0",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Blessed Ent.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img//0_Blessed Ent.png"
 			}
 		},
 		{
