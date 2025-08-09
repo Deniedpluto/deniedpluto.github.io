@@ -1,4204 +1,4207 @@
 ﻿[CustomCards]
-	[	{
+	[
+		{
 			"name": "Monument of Heroes",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}",
 			"type": "Legendary Artifact",
 			"collector_number": "323",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/323_Monument of Heroes.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/323_Monument of Heroes.png"
 			}
 		},
 		{
 			"name": "Kriv, Champion of Heroes",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{3}{R/W}{R/W}",
-			"type": "Legendary Creature — Dragon Paladin ",
+			"type": "Legendary Creature — Dragon Paladin",
 			"collector_number": "299",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/299_Kriv, Champion of Heroes.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/299_Kriv, Champion of Heroes.png"
 			}
 		},
 		{
 			"name": "Mathias, Cursed of Urobu",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{W/B}",
-			"type": "Legendary Creature — Elf Ranger ",
+			"type": "Legendary Creature — Elf Ranger",
 			"collector_number": "302",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/302_Mathias, Cursed of Urobu.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/302_Mathias, Cursed of Urobu.png"
 			}
 		},
 		{
 			"name": "The Professor",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{B/G}",
-			"type": "Legendary Creature — Human Wizard ",
+			"type": "Legendary Creature — Human Wizard",
 			"collector_number": "305",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/305_The Professor.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/305_The Professor.png"
 			}
 		},
 		{
 			"name": "Vas Asareen",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{B}{R}",
-			"type": "Legendary Planeswalker — Vas Asareen ",
+			"type": "Legendary Planeswalker — Vas Asareen",
 			"collector_number": "281",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/281_Vas Asareen.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/281_Vas Asareen.png"
 			}
 		},
 		{
 			"name": "Donar, Tragic Hero",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{W/U}",
-			"type": "Legendary Creature — Human Cleric ",
+			"type": "Legendary Creature — Human Cleric",
 			"collector_number": "295",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/295_Donar, Tragic Hero.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/295_Donar, Tragic Hero.png"
 			}
 		},
 		{
 			"name": "Paeter, Foolish Monk",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{W}",
-			"type": "Legendary Creature — Human Monk ",
+			"type": "Legendary Creature — Human Monk",
 			"collector_number": "33",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/33_Paeter, Foolish Monk.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/33_Paeter, Foolish Monk.png"
 			}
 		},
 		{
 			"name": "Iskael, Lord of Shadows",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{3}{U}{B}",
-			"type": "Legendary Creature — Human Elf Rogue ",
+			"type": "Legendary Creature — Human Elf Rogue",
 			"collector_number": "266",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/266_Iskael, Lord of Shadows.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/266_Iskael, Lord of Shadows.png"
 			}
 		},
 		{
 			"name": "Bron, Dastardly Thief",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
-			"type": "Legendary Creature — Human Rogue ",
+			"type": "Legendary Creature — Human Rogue",
 			"collector_number": "109",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/109_Bron, Dastardly Thief.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/109_Bron, Dastardly Thief.png"
 			}
 		},
 		{
 			"name": "Taj, Glittering Thief",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{W}",
-			"type": "Legendary Creature — Tabaxi Rogue ",
+			"type": "Legendary Creature — Tabaxi Rogue",
 			"collector_number": "42",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/42_Taj, Glittering Thief.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/42_Taj, Glittering Thief.png"
 			}
 		},
 		{
 			"name": "Leshanna, Lovestruck Bard",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
-			"type": "Legendary Creature — Elf Bard ",
+			"type": "Legendary Creature — Elf Bard",
 			"collector_number": "178",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/178_Leshanna, Lovestruck Bard.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/178_Leshanna, Lovestruck Bard.png"
 			}
 		},
 		{
 			"name": "Boomer",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{U}{R}",
-			"type": "Legendary Creature — Bird Wizard ",
+			"type": "Legendary Creature — Bird Wizard",
 			"collector_number": "256",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/256_Boomer.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/256_Boomer.png"
 			}
 		},
 		{
 			"name": "Klaarrrgggg, Affable Bugbear",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{R}{G}",
-			"type": "Legendary Creature — Goblin Barbarian ",
+			"type": "Legendary Creature — Goblin Barbarian",
 			"collector_number": "271",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/271_Klaarrrgggg, Affable Bugbear.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/271_Klaarrrgggg, Affable Bugbear.png"
 			}
 		},
 		{
 			"name": "Zazzid, Chosen of Coelys",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{3}{R}{R}",
-			"type": "Legendary Creature — Orc Barbarian ",
+			"type": "Legendary Creature — Orc Barbarian",
 			"collector_number": "200",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/200_Zazzid, Chosen of Coelys.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/200_Zazzid, Chosen of Coelys.png"
 			}
 		},
 		{
 			"name": "Gyles, Forgetful Hermit",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{B}{G}",
-			"type": "Legendary Creature — Human Noble ",
+			"type": "Legendary Creature — Human Noble",
 			"collector_number": "262",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/262_Gyles, Forgetful Hermit.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/262_Gyles, Forgetful Hermit.png"
 			}
 		},
 		{
 			"name": "Milde, Faithful Assistant",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{G/W}",
-			"type": "Legendary Creature — Human Citizen ",
+			"type": "Legendary Creature — Human Citizen",
 			"collector_number": "303",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/303_Milde, Faithful Assistant.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/303_Milde, Faithful Assistant.png"
 			}
 		},
 		{
 			"name": "The Ledger",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{U}{U/B}{B}",
-			"type": "Legendary Creature — Human Rogue ",
+			"type": "Legendary Creature — Human Rogue",
 			"collector_number": "301",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/301_The Ledger.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/301_The Ledger.png"
 			}
 		},
 		{
 			"name": "Fondael the Bloodied",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
-			"type": "Legendary Creature — Dwarf Fighter ",
+			"type": "Legendary Creature — Dwarf Fighter",
 			"collector_number": "164",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/164_Fondael the Bloodied.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/164_Fondael the Bloodied.png"
 			}
 		},
 		{
 			"name": "Carmen, Pious Knight",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{W}",
-			"type": "Legendary Creature — Giant Paladin ",
+			"type": "Legendary Creature — Giant Paladin",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/11_Carmen, Pious Knight.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/11_Carmen, Pious Knight.png"
 			}
 		},
 		{
 			"name": "Adenar, Willful Protector",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{W}{U}",
-			"type": "Legendary Creature — Aasimar Wizard ",
+			"type": "Legendary Creature — Aasimar Wizard",
 			"collector_number": "251",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/251_Adenar, Willful Protector.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/251_Adenar, Willful Protector.png"
 			}
 		},
 		{
 			"name": "Bulgan, Raging Battler",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{R/G}{R/G}",
-			"type": "Legendary Creature — Orc Barbarian ",
+			"type": "Legendary Creature — Orc Barbarian",
 			"collector_number": "289",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/289_Bulgan, Raging Battler.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/289_Bulgan, Raging Battler.png"
 			}
 		},
 		{
 			"name": "Lord Chuck Gavelston",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Legendary Creature — Human Noble ",
+			"type": "Legendary Creature — Human Noble",
 			"collector_number": "27",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/27_Lord Chuck Gavelston.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/27_Lord Chuck Gavelston.png"
 			}
 		},
 		{
 			"name": "Xurug the Avenger",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{R}",
-			"type": "Legendary Creature — Human Orc Barbarian ",
+			"type": "Legendary Creature — Human Orc Barbarian",
 			"collector_number": "199",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/199_Xurug the Avenger.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/199_Xurug the Avenger.png"
 			}
 		},
 		{
 			"name": "Theo, Friendly Barkeep",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{G}",
-			"type": "Legendary Creature — Human Citizen ",
+			"type": "Legendary Creature — Human Citizen",
 			"collector_number": "242",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/242_Theo, Friendly Barkeep.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/242_Theo, Friendly Barkeep.png"
 			}
 		},
 		{
 			"name": "Vhalimar, Forsaken Angel",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{W}{B}",
-			"type": "Legendary Creature — Aasimar Warlock ",
+			"type": "Legendary Creature — Aasimar Warlock",
 			"collector_number": "282",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/282_Vhalimar, Forsaken Angel.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/282_Vhalimar, Forsaken Angel.png"
 			}
 		},
 		{
 			"name": "Temple of Judgement",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
-			"type": "Enchantment — Quest ",
+			"type": "Enchantment — Quest",
 			"collector_number": "147",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/147_Temple of Judgement.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/147_Temple of Judgement.png"
 			}
 		},
 		{
 			"name": "Mazzer, Protected",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{G}{G}",
-			"type": "Legendary Creature — Elf Monk ",
+			"type": "Legendary Creature — Elf Monk",
 			"collector_number": "235",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/235_Mazzer, Protected.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/235_Mazzer, Protected.png"
 			}
 		},
 		{
 			"name": "Misha, Werebear Leader",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{G}{G}",
-			"type": "Legendary Creature — Werebear ",
+			"type": "Legendary Creature — Werebear",
 			"collector_number": "236",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/236_Misha, Werebear Leader.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/236_Misha, Werebear Leader.png"
 			}
 		},
 		{
 			"name": "Werebear Amulet",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "245",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/245_Werebear Amulet.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/245_Werebear Amulet.png"
 			}
 		},
 		{
 			"name": "Kirk of Clan Daardendrian",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}{W}",
-			"type": "Legendary Creature — Dragon Paladin ",
+			"type": "Legendary Creature — Dragon Paladin",
 			"collector_number": "23",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/23_Kirk of Clan Daardendrian.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/23_Kirk of Clan Daardendrian.png"
 			}
 		},
 		{
 			"name": "Namfoodle Stumbleduck",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{U/R}",
-			"type": "Legendary Creature — Gnome Wizard ",
+			"type": "Legendary Creature — Gnome Wizard",
 			"collector_number": "304",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/304_Namfoodle Stumbleduck.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/304_Namfoodle Stumbleduck.png"
 			}
 		},
 		{
 			"name": "Garmin, Beast's Companion",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
-			"type": "Legendary Creature — Halfling Ranger ",
+			"type": "Legendary Creature — Halfling Ranger",
 			"collector_number": "227",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/227_Garmin, Beast's Companion.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/227_Garmin, Beast's Companion.png"
 			}
 		},
 		{
 			"name": "Cerberus",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Legendary Token Creature — Wolf ",
+			"type": "Legendary Token Creature — Wolf",
 			"collector_number": "0",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Cerberus.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Cerberus.png"
 			}
 		},
 		{
 			"name": "Phaedra the Seeker",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{W}",
-			"type": "Legendary Creature — Tiefling Paladin ",
+			"type": "Legendary Creature — Tiefling Paladin",
 			"collector_number": "34",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/34_Phaedra the Seeker.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/34_Phaedra the Seeker.png"
 			}
 		},
 		{
 			"name": "Blade of Olethros",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{5}",
-			"type": "Legendary Artifact — Equipment ",
+			"type": "Legendary Artifact — Equipment",
 			"collector_number": "312",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/312_Blade of Olethros.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/312_Blade of Olethros.png"
 			}
 		},
 		{
 			"name": "Master Jarreau",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{W}{U}",
-			"type": "Legendary Planeswalker — Jarreau ",
+			"type": "Legendary Planeswalker — Jarreau",
 			"collector_number": "275",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/275_Master Jarreau.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/275_Master Jarreau.png"
 			}
 		},
 		{
 			"name": "Rowan, Faithful Squire",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Legendary Token Creature — Human Soldier ",
+			"type": "Legendary Token Creature — Human Soldier",
 			"collector_number": "0",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Rowan, Faithful Squire.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Rowan, Faithful Squire.png"
 			}
 		},
 		{
 			"name": "Beatrix, Wily Herbalist",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{G}{U}",
-			"type": "Legendary Planeswalker — Beatrix ",
+			"type": "Legendary Planeswalker — Beatrix",
 			"collector_number": "255",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/255_Beatrix, Wily Herbalist.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/255_Beatrix, Wily Herbalist.png"
 			}
 		},
 		{
 			"name": "Nicki, Swashbuckler",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{R}",
-			"type": "Legendary Creature — Human Pirate ",
+			"type": "Legendary Creature — Human Pirate",
 			"collector_number": "188",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/188_Nicki, Swashbuckler.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/188_Nicki, Swashbuckler.png"
 			}
 		},
 		{
 			"name": "Tammer, Reclusive Scholar",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{G}{U}",
-			"type": "Legendary Creature — Halfling Wizard ",
+			"type": "Legendary Creature — Halfling Wizard",
 			"collector_number": "280",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/280_Tammer, Reclusive Scholar.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/280_Tammer, Reclusive Scholar.png"
 			}
 		},
 		{
 			"name": "Samuel, Sentient Mask",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}",
-			"type": "Legendary Artifact Creature — Contruct ",
+			"type": "Legendary Artifact Creature — Contruct",
 			"collector_number": "324",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/324_Samuel, Sentient Mask.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/324_Samuel, Sentient Mask.png"
 			}
 		},
 		{
 			"name": "Lodaec, Tyrant King",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{R}{R}",
-			"type": "Legendary Creature — Dwarf Lord ",
+			"type": "Legendary Creature — Dwarf Lord",
 			"collector_number": "179",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/179_Lodaec, Tyrant King.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/179_Lodaec, Tyrant King.png"
 			}
 		},
 		{
 			"name": "Kraigg, Friendly Troll",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{R}{G}",
-			"type": "Legendary Creature — Troll ",
+			"type": "Legendary Creature — Troll",
 			"collector_number": "272",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/272_Kraigg, Friendly Troll.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/272_Kraigg, Friendly Troll.png"
 			}
 		},
 		{
 			"name": "Scyruss, Forge Master",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
-			"type": "Legendary Creature — Gnome Artificer ",
+			"type": "Legendary Creature — Gnome Artificer",
 			"collector_number": "194",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/194_Scyruss, Forge Master.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/194_Scyruss, Forge Master.png"
 			}
 		},
 		{
 			"name": "Elemental Orb of Water",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}",
-			"type": "Legendary Artifact — Elemental Orb ",
+			"type": "Legendary Artifact — Elemental Orb",
 			"collector_number": "319",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/319_Elemental Orb of Water.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/319_Elemental Orb of Water.png"
 			}
 		},
 		{
 			"name": "Elemental Orb of Fire",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}",
-			"type": "Legendary Artifact — Elemental Orb ",
+			"type": "Legendary Artifact — Elemental Orb",
 			"collector_number": "318",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/318_Elemental Orb of Fire.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/318_Elemental Orb of Fire.png"
 			}
 		},
 		{
 			"name": "Elemental Orb of Earth",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}",
-			"type": "Legendary Artifact — Elemental Orb ",
+			"type": "Legendary Artifact — Elemental Orb",
 			"collector_number": "317",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/317_Elemental Orb of Earth.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/317_Elemental Orb of Earth.png"
 			}
 		},
 		{
 			"name": "Elemental Orb of Air",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}",
-			"type": "Legendary Artifact — Elemental Orb ",
+			"type": "Legendary Artifact — Elemental Orb",
 			"collector_number": "315",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/315_Elemental Orb of Air.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/315_Elemental Orb of Air.png"
 			}
 		},
 		{
 			"name": "Elemental Orb of Darkness",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}",
-			"type": "Legendary Artifact — Elemental Orb ",
+			"type": "Legendary Artifact — Elemental Orb",
 			"collector_number": "316",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/316_Elemental Orb of Darkness.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/316_Elemental Orb of Darkness.png"
 			}
 		},
 		{
 			"name": "Helm of Kyrios",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}",
-			"type": "Legendary Artifact — Equipment ",
+			"type": "Legendary Artifact — Equipment",
 			"collector_number": "320",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/320_Helm of Kyrios.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/320_Helm of Kyrios.png"
 			}
 		},
 		{
 			"name": "Breastplate of Kyrios",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{4}",
-			"type": "Legendary Artifact — Equipment ",
+			"type": "Legendary Artifact — Equipment",
 			"collector_number": "314",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/314_Breastplate of Kyrios.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/314_Breastplate of Kyrios.png"
 			}
 		},
 		{
 			"name": "Boots of Kyrios",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}",
-			"type": "Legendary Artifact — Equipment ",
+			"type": "Legendary Artifact — Equipment",
 			"collector_number": "313",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/313_Boots of Kyrios.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/313_Boots of Kyrios.png"
 			}
 		},
 		{
 			"name": "Sword of Kyrios",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{5}",
-			"type": "Legendary Artifact — Equipment ",
+			"type": "Legendary Artifact — Equipment",
 			"collector_number": "327",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/327_Sword of Kyrios.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/327_Sword of Kyrios.png"
 			}
 		},
 		{
 			"name": "The Black Glove",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{B}",
 			"type": "Legendary Artifact",
 			"collector_number": "102",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/102_The Black Glove.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/102_The Black Glove.png"
 			}
 		},
 		{
 			"name": "Darkling Scout",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{B}",
-			"type": "Creature — Goblin Rogue ",
+			"type": "Creature — Goblin Rogue",
 			"collector_number": "114",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/114_Darkling Scout.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/114_Darkling Scout.png"
 			}
 		},
 		{
 			"name": "Darkling Elder",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Goblin Rogue ",
+			"type": "Creature — Goblin Rogue",
 			"collector_number": "113",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/113_Darkling Elder.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/113_Darkling Elder.png"
 			}
 		},
 		{
 			"name": "Captain Ryo",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{R}",
-			"type": "Legendary Creature — Elf Pirate ",
+			"type": "Legendary Creature — Elf Pirate",
 			"collector_number": "153",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/153_Captain Ryo.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/153_Captain Ryo.png"
 			}
 		},
 		{
 			"name": "Captain Laos",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{U}",
-			"type": "Legendary Creature — Elf Pirate ",
+			"type": "Legendary Creature — Elf Pirate",
 			"collector_number": "54",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/54_Captain Laos.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/54_Captain Laos.png"
 			}
 		},
 		{
 			"name": "First Mate Addus",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{U}",
-			"type": "Legendary Creature — Dwarf Pirate ",
+			"type": "Legendary Creature — Dwarf Pirate",
 			"collector_number": "64",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/64_First Mate Addus.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/64_First Mate Addus.png"
 			}
 		},
 		{
 			"name": "Sea Spawn",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Merfolk Horror ",
+			"type": "Creature — Merfolk Horror",
 			"collector_number": "89",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/89_Sea Spawn.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/89_Sea Spawn.png"
 			}
 		},
 		{
 			"name": "Kildrak, Life's Spring",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{3}{G}{W}",
-			"type": "Legendary Creature — Dwarf Cleric ",
+			"type": "Legendary Creature — Dwarf Cleric",
 			"collector_number": "269",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/269_Kildrak, Life's Spring.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/269_Kildrak, Life's Spring.png"
 			}
 		},
 		{
 			"name": "Luster, War-Scarred",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{B}{R}",
-			"type": "Legendary Creature — Human Fighter ",
+			"type": "Legendary Creature — Human Fighter",
 			"collector_number": "274",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/274_Luster, War-Scarred.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/274_Luster, War-Scarred.png"
 			}
 		},
 		{
 			"name": "Tathys, Keeper of Secrets",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{W/U}{U/B}",
-			"type": "Legendary Enchantment Creature — God ",
+			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "307",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/307_Tathys, Keeper of Secrets.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/307_Tathys, Keeper of Secrets.png"
 			}
 		},
 		{
 			"name": "Ayleia Progenitor",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{1}{W}{U}{B}{R}{G}",
-			"type": "Legendary Enchantment Creature — God ",
+			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "254",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/254_Ayleia Progenitor.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/254_Ayleia Progenitor.png"
 			}
 		},
 		{
 			"name": "Urobu, Judge of Souls",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{W/B}{B}",
-			"type": "Legendary Enchantment Creature — God ",
+			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "308",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/308_Urobu, Judge of Souls.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/308_Urobu, Judge of Souls.png"
 			}
 		},
 		{
 			"name": "Aranya, Nature's Queen",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}{R/G}{G/U}",
-			"type": "Legendary Enchantment Creature — God ",
+			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "286",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/286_Aranya, Nature's Queen.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/286_Aranya, Nature's Queen.png"
 			}
 		},
 		{
 			"name": "Elos, God of War",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}{B/R}{R/G}",
-			"type": "Legendary Enchantment Creature — God ",
+			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "296",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/296_Elos, God of War.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/296_Elos, God of War.png"
 			}
 		},
 		{
 			"name": "Aleana, Faith's Shield",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{R/W}{W}",
-			"type": "Legendary Enchantment Creature — God ",
+			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "284",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/284_Aleana, Faith's Shield.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/284_Aleana, Faith's Shield.png"
 			}
 		},
 		{
 			"name": "Fama, Assassin Favored",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{B/G}{G/U}",
-			"type": "Legendary Enchantment Creature — God ",
+			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "297",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/297_Fama, Assassin Favored.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/297_Fama, Assassin Favored.png"
 			}
 		},
 		{
 			"name": "Vetys, Beacon of Knowledge",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{W/U}{G/U}",
-			"type": "Legendary Enchantment Creature — God ",
+			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "309",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/309_Vetys, Beacon of Knowledge.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/309_Vetys, Beacon of Knowledge.png"
 			}
 		},
 		{
 			"name": "Cadrea, God of the Forge",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{R/W}{W/B}",
-			"type": "Legendary Enchantment Creature — God ",
+			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "290",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/290_Cadrea, God of the Forge.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/290_Cadrea, God of the Forge.png"
 			}
 		},
 		{
 			"name": "Alyra, Oracle's Muse",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{R/G}{R/W}",
-			"type": "Legendary Enchantment Creature — God ",
+			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "285",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/285_Alyra, Oracle's Muse.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/285_Alyra, Oracle's Muse.png"
 			}
 		},
 		{
 			"name": "Caelys the Gilded",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{U/R}{R/W}",
-			"type": "Legendary Enchantment Creature — God ",
+			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "291",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/291_Caelys the Gilded.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/291_Caelys the Gilded.png"
 			}
 		},
 		{
 			"name": "Coelys, Chaos Incarnate",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{U/B}{B/R}",
-			"type": "Legendary Enchantment Creature — God ",
+			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "294",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/294_Coelys, Chaos Incarnate.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/294_Coelys, Chaos Incarnate.png"
 			}
 		},
 		{
 			"name": "Lanu, Moon Trickster",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{W/B}{B/G}",
-			"type": "Legendary Enchantment Creature — God ",
+			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "300",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/300_Lanu, Moon Trickster.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/300_Lanu, Moon Trickster.png"
 			}
 		},
 		{
 			"name": "Hueick, Susceptible Youth",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{U}",
-			"type": "Legendary Creature — Human Bird ",
+			"type": "Legendary Creature — Human Bird",
 			"collector_number": "70",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/70_Hueick, Susceptible Youth.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/70_Hueick, Susceptible Youth.png"
 			}
 		},
 		{
 			"name": "Olar, The Broken Arrow",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{B}",
-			"type": "Legendary Creature — Aasimar Ranger ",
+			"type": "Legendary Creature — Aasimar Ranger",
 			"collector_number": "136",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/136_Olar, The Broken Arrow.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/136_Olar, The Broken Arrow.png"
 			}
 		},
 		{
 			"name": "Zunam, Fate Favored",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{U}",
-			"type": "Legendary Creature — Aasimar Bard ",
+			"type": "Legendary Creature — Aasimar Bard",
 			"collector_number": "100",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/100_Zunam, Fate Favored.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/100_Zunam, Fate Favored.png"
 			}
 		},
 		{
 			"name": "Leonir, Acolyte of Lanu",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{W}{W}",
-			"type": "Legendary Creature — Elf Cleric Rogue ",
+			"type": "Legendary Creature — Elf Cleric Rogue",
 			"collector_number": "26",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/26_Leonir, Acolyte of Lanu.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/26_Leonir, Acolyte of Lanu.png"
 			}
 		},
 		{
 			"name": "Granite, Elos' Vengeance",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{B}{R}",
-			"type": "Legendary Creature — Dwarf Paladin ",
+			"type": "Legendary Creature — Dwarf Paladin",
 			"collector_number": "261",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/261_Granite, Elos' Vengeance.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/261_Granite, Elos' Vengeance.png"
 			}
 		},
 		{
 			"name": "Captain Lebrode",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{W}{B}",
-			"type": "Legendary Creature — Elf Advisor ",
+			"type": "Legendary Creature — Elf Advisor",
 			"collector_number": "257",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/257_Captain Lebrode.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/257_Captain Lebrode.png"
 			}
 		},
 		{
 			"name": "Urwin Brighstar, Guild Founder",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{3}{W}",
-			"type": "Legendary Creature — Human Paladin ",
+			"type": "Legendary Creature — Human Paladin",
 			"collector_number": "48",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/48_Urwin Brighstar, Guild Founder.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/48_Urwin Brighstar, Guild Founder.png"
 			}
 		},
 		{
 			"name": "King Saakala",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{G}{G}",
-			"type": "Legendary Creature — Elf Lord ",
+			"type": "Legendary Creature — Elf Lord",
 			"collector_number": "231",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/231_King Saakala.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/231_King Saakala.png"
 			}
 		},
 		{
 			"name": "Professor Arden",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{U}",
-			"type": "Legendary Creature — Changeling Rogue ",
+			"type": "Legendary Creature — Changeling Rogue",
 			"collector_number": "80",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/80_Professor Arden.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/80_Professor Arden.png"
 			}
 		},
 		{
 			"name": "Glamstol, Crafty Herbalist",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
-			"type": "Legendary Creature — Halfling Druid ",
+			"type": "Legendary Creature — Halfling Druid",
 			"collector_number": "228",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/228_Glamstol, Crafty Herbalist.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/228_Glamstol, Crafty Herbalist.png"
 			}
 		},
 		{
 			"name": "Irdel the Pursued",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{U}{B}",
-			"type": "Legendary Creature — Dragon Wizard ",
+			"type": "Legendary Creature — Dragon Wizard",
 			"collector_number": "265",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/265_Irdel the Pursued.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/265_Irdel the Pursued.png"
 			}
 		},
 		{
 			"name": "Yanna the Ill-Fated",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
-			"type": "Legendary Creature — Turtle Druid ",
+			"type": "Legendary Creature — Turtle Druid",
 			"collector_number": "250",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/250_Yanna the Ill-Fated.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/250_Yanna the Ill-Fated.png"
 			}
 		},
 		{
 			"name": "Ara, Reknown Scout",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
-			"type": "Legendary Creature — Elf Ranger ",
+			"type": "Legendary Creature — Elf Ranger",
 			"collector_number": "203",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/203_Ara, Reknown Scout.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/203_Ara, Reknown Scout.png"
 			}
 		},
 		{
 			"name": "Harlston, Grappling Pugilist",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}{R/W}",
-			"type": "Legendary Creature — Dwarf Fighter ",
+			"type": "Legendary Creature — Dwarf Fighter",
 			"collector_number": "298",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/298_Harlston, Grappling Pugilist.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/298_Harlston, Grappling Pugilist.png"
 			}
 		},
 		{
 			"name": "Clif, Chilled Tortle",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{G/W}",
-			"type": "Legendary Creature — Turtle Cleric ",
+			"type": "Legendary Creature — Turtle Cleric",
 			"collector_number": "293",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/293_Clif, Chilled Tortle.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/293_Clif, Chilled Tortle.png"
 			}
 		},
 		{
 			"name": "Minnesota, Impulsive Planner",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{U}{R}",
-			"type": "Legendary Creature — Human Wizard ",
+			"type": "Legendary Creature — Human Wizard",
 			"collector_number": "276",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/276_Minnesota, Impulsive Planner.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/276_Minnesota, Impulsive Planner.png"
 			}
 		},
 		{
 			"name": "Book of Victims",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Legendary Artifact",
 			"collector_number": "107",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/107_Book of Victims.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/107_Book of Victims.png"
 			}
 		},
 		{
 			"name": "Zas, Barbarian Scholar",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{R}{G}",
-			"type": "Legendary Creature — Orc Barbarian ",
+			"type": "Legendary Creature — Orc Barbarian",
 			"collector_number": "283",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/283_Zas, Barbarian Scholar.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/283_Zas, Barbarian Scholar.png"
 			}
 		},
 		{
 			"name": "Karda, Revolutionary",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
-			"type": "Legendary Creature — Elf Ranger ",
+			"type": "Legendary Creature — Elf Ranger",
 			"collector_number": "230",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/230_Karda, Revolutionary.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/230_Karda, Revolutionary.png"
 			}
 		},
 		{
 			"name": "Undead Elk",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Elk Skeleton ",
+			"type": "Creature — Elk Skeleton",
 			"collector_number": "148",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/148_Undead Elk.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/148_Undead Elk.png"
 			}
 		},
 		{
 			"name": "Death Druid",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Zombie Druid ",
+			"type": "Creature — Zombie Druid",
 			"collector_number": "116",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/116_Death Druid.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/116_Death Druid.png"
 			}
 		},
 		{
 			"name": "Blade of Blood",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}",
-			"type": "Legendary Artifact — Equipment ",
+			"type": "Legendary Artifact — Equipment",
 			"collector_number": "311",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/311_Blade of Blood.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/311_Blade of Blood.png"
 			}
 		},
 		{
 			"name": "Keldath the Scourge",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{4}{B}{G}",
-			"type": "Legendary Creature — Dragon ",
+			"type": "Legendary Creature — Dragon",
 			"collector_number": "268",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/268_Keldath the Scourge.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/268_Keldath the Scourge.png"
 			}
 		},
 		{
 			"name": "Bressio and Vynne, Twins",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{G}{G/U}{U}",
-			"type": "Legendary Creature — Dragon ",
+			"type": "Legendary Creature — Dragon",
 			"collector_number": "288",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/288_Bressio and Vynne, Twins.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/288_Bressio and Vynne, Twins.png"
 			}
 		},
 		{
 			"name": "Idryyth the Flamebringer",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{4}{R}{R}",
-			"type": "Legendary Creature — Dragon ",
+			"type": "Legendary Creature — Dragon",
 			"collector_number": "176",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/176_Idryyth the Flamebringer.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/176_Idryyth the Flamebringer.png"
 			}
 		},
 		{
 			"name": "Kinzine the Lifegiver",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}{G}{W}",
-			"type": "Legendary Creature — Dragon ",
+			"type": "Legendary Creature — Dragon",
 			"collector_number": "270",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/270_Kinzine the Lifegiver.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/270_Kinzine the Lifegiver.png"
 			}
 		},
 		{
 			"name": "Ylbor the Lazy",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{4}{U}{U}",
-			"type": "Legendary Creature — Dragon ",
+			"type": "Legendary Creature — Dragon",
 			"collector_number": "98",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/98_Ylbor the Lazy.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/98_Ylbor the Lazy.png"
 			}
 		},
 		{
 			"name": "Arrynth, Lord of Death",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}{W}{B}",
-			"type": "Legendary Creature — Dragon ",
+			"type": "Legendary Creature — Dragon",
 			"collector_number": "253",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/253_Arrynth, Lord of Death.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/253_Arrynth, Lord of Death.png"
 			}
 		},
 		{
 			"name": "Aipa the Ancient",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{3}{R}{W}",
-			"type": "Legendary Creature — Dragon ",
+			"type": "Legendary Creature — Dragon",
 			"collector_number": "252",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/252_Aipa the Ancient.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/252_Aipa the Ancient.png"
 			}
 		},
 		{
 			"name": "Pyrrydoss the Unbroken",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{U}{R}",
-			"type": "Legendary Creature — Dragon ",
+			"type": "Legendary Creature — Dragon",
 			"collector_number": "277",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/277_Pyrrydoss the Unbroken.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/277_Pyrrydoss the Unbroken.png"
 			}
 		},
 		{
 			"name": "Dayvroass the Haunted",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{4}{B}{B}",
-			"type": "Legendary Creature — Dragon ",
+			"type": "Legendary Creature — Dragon",
 			"collector_number": "115",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/115_Dayvroass the Haunted.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/115_Dayvroass the Haunted.png"
 			}
 		},
 		{
 			"name": "Nydissia the Protector",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{4}{G}{G}",
-			"type": "Legendary Creature — Dragon ",
+			"type": "Legendary Creature — Dragon",
 			"collector_number": "237",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/237_Nydissia the Protector.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/237_Nydissia the Protector.png"
 			}
 		},
 		{
 			"name": "Tundrayl the Pure",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{4}{W}{W}",
-			"type": "Legendary Creature — Dragon ",
+			"type": "Legendary Creature — Dragon",
 			"collector_number": "47",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/47_Tundrayl the Pure.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/47_Tundrayl the Pure.png"
 			}
 		},
 		{
 			"name": "Spear of Vhalimar",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Legendary Artifact — Equipment ",
+			"type": "Legendary Artifact — Equipment",
 			"collector_number": "0",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Spear of Vhalimar.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Spear of Vhalimar.png"
 			}
 		},
 		{
 			"name": "Captain Morro",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{W}",
-			"type": "Legendary Creature — Human Soldier ",
+			"type": "Legendary Creature — Human Soldier",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/9_Captain Morro.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/9_Captain Morro.png"
 			}
 		},
 		{
 			"name": "Lydia Brooks",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{U}",
-			"type": "Legendary Creature — Human Cleric ",
+			"type": "Legendary Creature — Human Cleric",
 			"collector_number": "77",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/77_Lydia Brooks.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/77_Lydia Brooks.png"
 			}
 		},
 		{
 			"name": "Hundral the Voiceless",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
-			"type": "Legendary Creature — Dwarf Fighter ",
+			"type": "Legendary Creature — Dwarf Fighter",
 			"collector_number": "128",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/128_Hundral the Voiceless.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/128_Hundral the Voiceless.png"
 			}
 		},
 		{
 			"name": "Zas's Battleaxe",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}",
-			"type": "Legendary Artifact — Equipment ",
+			"type": "Legendary Artifact — Equipment",
 			"collector_number": "328",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/328_Zas's Battleaxe.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/328_Zas's Battleaxe.png"
 			}
 		},
 		{
 			"name": "Staff of the Mothertree",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Enchantment Artifact",
 			"collector_number": "241",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/241_Staff of the Mothertree.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/241_Staff of the Mothertree.png"
 			}
 		},
 		{
 			"name": "Explore the Outlands",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{G}{U}",
 			"type": "Sorcery",
 			"collector_number": "260",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/260_Explore the Outlands.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/260_Explore the Outlands.png"
 			}
 		},
 		{
 			"name": "The Beacon",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "334",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/334_The Beacon.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/334_The Beacon.png"
 			}
 		},
 		{
 			"name": "Et'limi'dak",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Forest Plains ",
+			"type": "Land — Forest Plains",
 			"collector_number": "345",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/345_Et'limi'dak.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/345_Et'limi'dak.png"
 			}
 		},
 		{
 			"name": "Lake Dorn",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Mountain Island ",
+			"type": "Land — Mountain Island",
 			"collector_number": "353",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/353_Lake Dorn.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/353_Lake Dorn.png"
 			}
 		},
 		{
 			"name": "The Nether",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "359",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/359_The Nether.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/359_The Nether.png"
 			}
 		},
 		{
 			"name": "The Wilds",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "372",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/372_The Wilds.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/372_The Wilds.png"
 			}
 		},
 		{
 			"name": "The Blightlands",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "336",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/336_The Blightlands.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/336_The Blightlands.png"
 			}
 		},
 		{
 			"name": "The Abyss",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "329",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/329_The Abyss.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/329_The Abyss.png"
 			}
 		},
 		{
 			"name": "Ovauto Forest",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Mountain Forest ",
+			"type": "Land — Mountain Forest",
 			"collector_number": "362",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/362_Ovauto Forest.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/362_Ovauto Forest.png"
 			}
 		},
 		{
 			"name": "The Moon Grove",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "357",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/357_The Moon Grove.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/357_The Moon Grove.png"
 			}
 		},
 		{
 			"name": "Upper Iron Pass",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Mountain Plains ",
+			"type": "Land — Mountain Plains",
 			"collector_number": "370",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/370_Upper Iron Pass.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/370_Upper Iron Pass.png"
 			}
 		},
 		{
 			"name": "Blue Flame Candle",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{B}",
 			"type": "Legendary Artifact",
 			"collector_number": "106",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/106_Blue Flame Candle.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/106_Blue Flame Candle.png"
 			}
 		},
 		{
 			"name": "Invoke Duplicity",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{U}",
 			"type": "Instant",
 			"collector_number": "73",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/73_Invoke Duplicity.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/73_Invoke Duplicity.png"
 			}
 		},
 		{
 			"name": "Scorching Ray",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Instant",
 			"collector_number": "193",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/193_Scorching Ray.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/193_Scorching Ray.png"
 			}
 		},
 		{
 			"name": "Crown of Giants",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{R}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "156",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/156_Crown of Giants.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/156_Crown of Giants.png"
 			}
 		},
 		{
 			"name": "Muster the Guard",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment",
 			"collector_number": "31",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/31_Muster the Guard.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/31_Muster the Guard.png"
 			}
 		},
 		{
 			"name": "Invisibility",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{U}{U}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "72",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/72_Invisibility.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/72_Invisibility.png"
 			}
 		},
 		{
 			"name": "Spare the Dying",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{B}",
 			"type": "Instant",
 			"collector_number": "145",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/145_Spare the Dying.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/145_Spare the Dying.png"
 			}
 		},
 		{
 			"name": "Emir, Fists of Fury",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{R}{W}",
-			"type": "Legendary Creature — Elf Monk ",
+			"type": "Legendary Creature — Elf Monk",
 			"collector_number": "259",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/259_Emir, Fists of Fury.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/259_Emir, Fists of Fury.png"
 			}
 		},
 		{
 			"name": "Justice, Reborn",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{3}{B}{R}",
-			"type": "Legendary Creature — Dragon Paladin ",
+			"type": "Legendary Creature — Dragon Paladin",
 			"collector_number": "267",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/267_Justice, Reborn.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/267_Justice, Reborn.png"
 			}
 		},
 		{
 			"name": "Town's Guard",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Human Soldier ",
+			"type": "Creature — Human Soldier",
 			"collector_number": "45",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/45_Town's Guard.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/45_Town's Guard.png"
 			}
 		},
 		{
 			"name": "Sorsha, Restrained",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{B/G}",
-			"type": "Legendary Creature — Elf Vampire Druid ",
+			"type": "Legendary Creature — Elf Vampire Druid",
 			"collector_number": "306",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/306_Sorsha, Restrained.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/306_Sorsha, Restrained.png"
 			}
 		},
 		{
 			"name": "Umbra",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Enchantment Artifact",
 			"collector_number": "96",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/96_Umbra.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/96_Umbra.png"
 			}
 		},
 		{
 			"name": "Staff of the Blightree",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{3}{B}",
 			"type": "Legendary Enchantment Artifact",
 			"collector_number": "146",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/146_Staff of the Blightree.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/146_Staff of the Blightree.png"
 			}
 		},
 		{
 			"name": "Aleana's Chosen",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{3}{W}",
-			"type": "Creature — Tiefling Paladin ",
+			"type": "Creature — Tiefling Paladin",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/2_Aleana's Chosen.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/2_Aleana's Chosen.png"
 			}
 		},
 		{
 			"name": "Fire Bolt",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{R}",
 			"type": "Instant",
 			"collector_number": "162",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/162_Fire Bolt.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/162_Fire Bolt.png"
 			}
 		},
 		{
 			"name": "Sacred Flame",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
 			"collector_number": "39",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/39_Sacred Flame.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/39_Sacred Flame.png"
 			}
 		},
 		{
 			"name": "Divine Smite",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{W}",
 			"type": "Instant",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/18_Divine Smite.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/18_Divine Smite.png"
 			}
 		},
 		{
 			"name": "Chaos Bolt",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{2}{U/R}",
 			"type": "Instant",
 			"collector_number": "292",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/292_Chaos Bolt.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/292_Chaos Bolt.png"
 			}
 		},
 		{
 			"name": "Werebear Warrior",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Werebear ",
+			"type": "Creature — Werebear",
 			"collector_number": "246",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/246_Werebear Warrior.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/246_Werebear Warrior.png"
 			}
 		},
 		{
 			"name": "Manticore Tower",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Legendary Land — Plains ",
+			"type": "Legendary Land — Plains",
 			"collector_number": "354",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/354_Manticore Tower.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/354_Manticore Tower.png"
 			}
 		},
 		{
 			"name": "Banden Docks",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Legendary Land — Island ",
+			"type": "Legendary Land — Island",
 			"collector_number": "331",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/331_Banden Docks.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/331_Banden Docks.png"
 			}
 		},
 		{
 			"name": "Old Falden",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Legendary Land — Swamp ",
+			"type": "Legendary Land — Swamp",
 			"collector_number": "361",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/361_Old Falden.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/361_Old Falden.png"
 			}
 		},
 		{
 			"name": "Korolduhr",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Legendary Land — Mountain ",
+			"type": "Legendary Land — Mountain",
 			"collector_number": "351",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/351_Korolduhr.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/351_Korolduhr.png"
 			}
 		},
 		{
 			"name": "Hyathyr",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Legendary Land — Forest ",
+			"type": "Legendary Land — Forest",
 			"collector_number": "346",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/346_Hyathyr.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/346_Hyathyr.png"
 			}
 		},
 		{
 			"name": "Elf Scout",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
-			"type": "Creature  — Elf Ranger ",
+			"type": "Creature — Elf Ranger",
 			"collector_number": "219",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/219_Elf Scout.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/219_Elf Scout.png"
 			}
 		},
 		{
 			"name": "Mining Dwarf",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{R}",
-			"type": "Creature — Dwarf ",
+			"type": "Creature — Dwarf",
 			"collector_number": "187",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/187_Mining Dwarf.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/187_Mining Dwarf.png"
 			}
 		},
 		{
 			"name": "Hobgoblin Warboss",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Goblin ",
+			"type": "Creature — Goblin",
 			"collector_number": "175",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/175_Hobgoblin Warboss.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/175_Hobgoblin Warboss.png"
 			}
 		},
 		{
 			"name": "Mining Contract",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment",
 			"collector_number": "186",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/186_Mining Contract.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/186_Mining Contract.png"
 			}
 		},
 		{
 			"name": "Caravan Raid",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{G}",
 			"type": "Instant",
 			"collector_number": "211",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/211_Caravan Raid.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/211_Caravan Raid.png"
 			}
 		},
 		{
 			"name": "Inflict Wounds",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
 			"collector_number": "129",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/129_Inflict Wounds.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/129_Inflict Wounds.png"
 			}
 		},
 		{
 			"name": "Mysterious Benefactor",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Human Noble ",
+			"type": "Creature — Human Noble",
 			"collector_number": "132",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/132_Mysterious Benefactor.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/132_Mysterious Benefactor.png"
 			}
 		},
 		{
 			"name": "Manticore",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Manticore ",
+			"type": "Creature — Manticore",
 			"collector_number": "28",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/28_Manticore.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/28_Manticore.png"
 			}
 		},
 		{
 			"name": "Blessing of the Moon",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{W/U}",
 			"type": "Instant",
 			"collector_number": "287",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/287_Blessing of the Moon.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/287_Blessing of the Moon.png"
 			}
 		},
 		{
 			"name": "Blessings of the Mothertree",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Enchantment",
 			"collector_number": "208",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/208_Blessings of the Mothertree.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/208_Blessings of the Mothertree.png"
 			}
 		},
 		{
 			"name": "Treasure Diver",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{U}",
-			"type": "Creature — Merfolk Rogue ",
+			"type": "Creature — Merfolk Rogue",
 			"collector_number": "94",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/94_Treasure Diver.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/94_Treasure Diver.png"
 			}
 		},
 		{
 			"name": "Nighttime Ambush",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
 			"collector_number": "135",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/135_Nighttime Ambush.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/135_Nighttime Ambush.png"
 			}
 		},
 		{
 			"name": "Oracle's Insight",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{U}",
 			"type": "Sorcery",
 			"collector_number": "78",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/78_Oracle's Insight.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/78_Oracle's Insight.png"
 			}
 		},
 		{
 			"name": "Counterspell",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{U}{U}",
 			"type": "Instant",
 			"collector_number": "56",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/56_Counterspell.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/56_Counterspell.png"
 			}
 		},
 		{
 			"name": "Teleportation Circle",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}{W}",
 			"type": "Enchantment",
 			"collector_number": "44",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/44_Teleportation Circle.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/44_Teleportation Circle.png"
 			}
 		},
 		{
 			"name": "Defend the Walls!",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Instant",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/15_Defend the Walls!.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/15_Defend the Walls!.png"
 			}
 		},
 		{
 			"name": "Wrathful Smite",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{R}",
 			"type": "Instant",
 			"collector_number": "198",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/198_Wrathful Smite.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/198_Wrathful Smite.png"
 			}
 		},
 		{
 			"name": "Sahuaghin",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{U}",
-			"type": "Creature — Sahuaghin ",
+			"type": "Creature — Sahuaghin",
 			"collector_number": "83",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/83_Sahuaghin.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/83_Sahuaghin.png"
 			}
 		},
 		{
 			"name": "Dryad Grove",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{G}{U}",
 			"type": "Enchantment",
 			"collector_number": "258",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/258_Dryad Grove.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/258_Dryad Grove.png"
 			}
 		},
 		{
 			"name": "Captain of the Guard",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Human Soldier ",
+			"type": "Creature — Human Soldier",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/10_Captain of the Guard.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/10_Captain of the Guard.png"
 			}
 		},
 		{
 			"name": "Wall Guard Recruiter",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{W}",
-			"type": "Creature — Human Soldier ",
+			"type": "Creature — Human Soldier",
 			"collector_number": "49",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/49_Wall Guard Recruiter.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/49_Wall Guard Recruiter.png"
 			}
 		},
 		{
 			"name": "Sahuaghin Artillerist",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Sahuaghin ",
+			"type": "Creature — Sahuaghin",
 			"collector_number": "84",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/84_Sahuaghin Artillerist.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/84_Sahuaghin Artillerist.png"
 			}
 		},
 		{
 			"name": "Sahuaghin Fury",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Sahuaghin ",
+			"type": "Creature — Sahuaghin",
 			"collector_number": "86",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/86_Sahuaghin Fury.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/86_Sahuaghin Fury.png"
 			}
 		},
 		{
 			"name": "Sahuaghin Commander",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Sahuaghin ",
+			"type": "Creature — Sahuaghin",
 			"collector_number": "85",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/85_Sahuaghin Commander.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/85_Sahuaghin Commander.png"
 			}
 		},
 		{
 			"name": "Aurelia's Elites",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Soldier ",
+			"type": "Creature — Soldier",
 			"collector_number": "206",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/206_Aurelia's Elites.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/206_Aurelia's Elites.png"
 			}
 		},
 		{
 			"name": "Squad Commander",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}{W}",
-			"type": "Creature — Elf Soldier ",
+			"type": "Creature — Elf Soldier",
 			"collector_number": "41",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/41_Squad Commander.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/41_Squad Commander.png"
 			}
 		},
 		{
 			"name": "Charles",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{B}",
-			"type": "Legendary Creature — Human ",
+			"type": "Legendary Creature — Human",
 			"collector_number": "110",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/110_Charles.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/110_Charles.png"
 			}
 		},
 		{
 			"name": "Wardog",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{R}",
-			"type": "Creature — Dog ",
+			"type": "Creature — Dog",
 			"collector_number": "195",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/195_Wardog.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/195_Wardog.png"
 			}
 		},
 		{
 			"name": "Hag Coven",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{3}{B}{B}{B}",
-			"type": "Creature — Hag ",
+			"type": "Creature — Hag",
 			"collector_number": "126",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/126_Hag Coven.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/126_Hag Coven.png"
 			}
 		},
 		{
 			"name": "Night of Consuming Darkness",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{B}",
 			"type": "Sorcery",
 			"collector_number": "134",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/134_Night of Consuming Darkness.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/134_Night of Consuming Darkness.png"
 			}
 		},
 		{
 			"name": "Soul Diversion",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Instant",
 			"collector_number": "144",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/144_Soul Diversion.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/144_Soul Diversion.png"
 			}
 		},
 		{
 			"name": "Fane of the Mountain",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{R}",
-			"type": "Legendary Creature — Demigod ",
+			"type": "Legendary Creature — Demigod",
 			"collector_number": "161",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/161_Fane of the Mountain.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/161_Fane of the Mountain.png"
 			}
 		},
 		{
 			"name": "Fane of the River",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{U}",
-			"type": "Legendary Creature — Demigod ",
+			"type": "Legendary Creature — Demigod",
 			"collector_number": "63",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/63_Fane of the River.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/63_Fane of the River.png"
 			}
 		},
 		{
 			"name": "Fane of the Forest",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
-			"type": "Legendary Creature — Demigod ",
+			"type": "Legendary Creature — Demigod",
 			"collector_number": "224",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/224_Fane of the Forest.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/224_Fane of the Forest.png"
 			}
 		},
 		{
 			"name": "Boon of Aranya",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
 			"collector_number": "209",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/209_Boon of Aranya.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/209_Boon of Aranya.png"
 			}
 		},
 		{
 			"name": "Judge & Executioner",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}",
-			"type": "Legendary Artifact — Equipment ",
+			"type": "Legendary Artifact — Equipment",
 			"collector_number": "321",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/321_Judge & Executioner.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/321_Judge & Executioner.png"
 			}
 		},
 		{
 			"name": "Jury",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}",
-			"type": "Legendary Artifact — Equipment ",
+			"type": "Legendary Artifact — Equipment",
 			"collector_number": "322",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/322_Jury.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/322_Jury.png"
 			}
 		},
 		{
 			"name": "Soul Eater",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}",
-			"type": "Legendary Artifact — Equipment ",
+			"type": "Legendary Artifact — Equipment",
 			"collector_number": "325",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/325_Soul Eater.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/325_Soul Eater.png"
 			}
 		},
 		{
 			"name": "Young Flayer",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Horror ",
+			"type": "Creature — Horror",
 			"collector_number": "99",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/99_Young Flayer.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/99_Young Flayer.png"
 			}
 		},
 		{
 			"name": "Acolyte of Aranya",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Elf  Druid ",
+			"type": "Creature — Elf Druid",
 			"collector_number": "201",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/201_Acolyte of Aranya.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/201_Acolyte of Aranya.png"
 			}
 		},
 		{
 			"name": "Chittering Spider",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Spider ",
+			"type": "Creature — Spider",
 			"collector_number": "212",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/212_Chittering Spider.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/212_Chittering Spider.png"
 			}
 		},
 		{
 			"name": "Kavedii Islands",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Forest Island ",
+			"type": "Land — Forest Island",
 			"collector_number": "350",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/350_Kavedii Islands.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/350_Kavedii Islands.png"
 			}
 		},
 		{
 			"name": "Revalia",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "364",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/364_Revalia.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/364_Revalia.png"
 			}
 		},
 		{
 			"name": "Misty Isles",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Island Swamp ",
+			"type": "Land — Island Swamp",
 			"collector_number": "355",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/355_Misty Isles.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/355_Misty Isles.png"
 			}
 		},
 		{
 			"name": "The Tumult",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "368",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/368_The Tumult.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/368_The Tumult.png"
 			}
 		},
 		{
 			"name": "The Cataclysm",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "338",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/338_The Cataclysm.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/338_The Cataclysm.png"
 			}
 		},
 		{
 			"name": "Bastion",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "332",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/332_Bastion.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/332_Bastion.png"
 			}
 		},
 		{
 			"name": "Eislessi Isle",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Plains Island ",
+			"type": "Land — Plains Island",
 			"collector_number": "342",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/342_Eislessi Isle.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/342_Eislessi Isle.png"
 			}
 		},
 		{
 			"name": "Ikbarre Marshes",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Plains Swamp ",
+			"type": "Land — Plains Swamp",
 			"collector_number": "348",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/348_Ikbarre Marshes.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/348_Ikbarre Marshes.png"
 			}
 		},
 		{
 			"name": "Corpsewood",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Swamp Forest ",
+			"type": "Land — Swamp Forest",
 			"collector_number": "340",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/340_Corpsewood.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/340_Corpsewood.png"
 			}
 		},
 		{
 			"name": "Shattered Peaks",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Swamp Mountain ",
+			"type": "Land — Swamp Mountain",
 			"collector_number": "367",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/367_Shattered Peaks.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/367_Shattered Peaks.png"
 			}
 		},
 		{
 			"name": "Grappling Octopus",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{3}{U}",
-			"type": "Creature — Octopus ",
+			"type": "Creature — Octopus",
 			"collector_number": "67",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/67_Grappling Octopus.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/67_Grappling Octopus.png"
 			}
 		},
 		{
 			"name": "Boon of Elos",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
 			"collector_number": "108",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/108_Boon of Elos.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/108_Boon of Elos.png"
 			}
 		},
 		{
 			"name": "Mark for Death",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
 			"collector_number": "131",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/131_Mark for Death.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/131_Mark for Death.png"
 			}
 		},
 		{
 			"name": "Hyrum, Last Refuge",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{G}{G}{W}",
-			"type": "Legendary Creature — Dwarf Fighter ",
+			"type": "Legendary Creature — Dwarf Fighter",
 			"collector_number": "264",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/264_Hyrum, Last Refuge.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/264_Hyrum, Last Refuge.png"
 			}
 		},
 		{
 			"name": "Reject",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{U}",
 			"type": "Instant",
 			"collector_number": "82",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/82_Reject.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/82_Reject.png"
 			}
 		},
 		{
 			"name": "Strahd Von Zarovich",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{3}{U}{B}",
-			"type": "Legendary Creature — Vampire Wizard ",
+			"type": "Legendary Creature — Vampire Wizard",
 			"collector_number": "278",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/278_Strahd Von Zarovich.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/278_Strahd Von Zarovich.png"
 			}
 		},
 		{
 			"name": "Wesley the Rescued",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Legendary Creature — Human Fighter ",
+			"type": "Legendary Creature — Human Fighter",
 			"collector_number": "0",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Wesley the Rescued.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Wesley the Rescued.png"
 			}
 		},
 		{
 			"name": "Blessed Ent",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Creature — Treefolk ",
+			"type": "Creature — Treefolk",
 			"collector_number": "0",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Blessed Ent.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Blessed Ent.png"
 			}
 		},
 		{
 			"name": "Trials of Thadenswel",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Enchantment — Quest ",
+			"type": "Enchantment — Quest",
 			"collector_number": "46",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/46_Trials of Thadenswel.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/46_Trials of Thadenswel.png"
 			}
 		},
 		{
 			"name": "Cube of K'nezeret",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Legendary Enchantment Artifact",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/14_Cube of K'nezeret.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/14_Cube of K'nezeret.png"
 			}
 		},
 		{
 			"name": "Eye of Coelys",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Enchantment Artifact",
 			"collector_number": "160",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/160_Eye of Coelys.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/160_Eye of Coelys.png"
 			}
 		},
 		{
 			"name": "Goblin Gang Leader",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Creature — Goblin ",
+			"type": "Creature — Goblin",
 			"collector_number": "0",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Goblin Gang Leader.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Goblin Gang Leader.png"
 			}
 		},
 		{
 			"name": "Champions of Thadenswel",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Enchantment",
 			"collector_number": "0",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Champions of Thadenswel.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Champions of Thadenswel.png"
 			}
 		},
 		{
 			"name": "Inopportune Arrest",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Enchantment",
 			"collector_number": "0",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Inopportune Arrest.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Inopportune Arrest.png"
 			}
 		},
 		{
 			"name": "Lady Aurelia",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{3}{R}{G}",
-			"type": "Legendary Creature — Orc Noble ",
+			"type": "Legendary Creature — Orc Noble",
 			"collector_number": "273",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/273_Lady Aurelia.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/273_Lady Aurelia.png"
 			}
 		},
 		{
 			"name": "Mazzer, The Rat King",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{U}{B}",
-			"type": "Legendary Creature — Human Rat Monk ",
+			"type": "Legendary Creature — Human Rat Monk",
 			"collector_number": "0",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Mazzer, The Rat King.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Mazzer, The Rat King.png"
 			}
 		},
 		{
 			"name": "Dire Wolf Pack",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Wolf ",
+			"type": "Creature — Wolf",
 			"collector_number": "218",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/218_Dire Wolf Pack.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/218_Dire Wolf Pack.png"
 			}
 		},
 		{
 			"name": "Sarana, Fists of Fury",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{W}{W}",
-			"type": "Legendary Creature — Halfling Monk ",
+			"type": "Legendary Creature — Halfling Monk",
 			"collector_number": "40",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/40_Sarana, Fists of Fury.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/40_Sarana, Fists of Fury.png"
 			}
 		},
 		{
 			"name": "Fleetfoot, Sharpshooter",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{G}{G}",
-			"type": "Legendary Creature — Human Ranger ",
+			"type": "Legendary Creature — Human Ranger",
 			"collector_number": "225",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/225_Fleetfoot, Sharpshooter.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/225_Fleetfoot, Sharpshooter.png"
 			}
 		},
 		{
 			"name": "Kythr, Sorrow's Mark",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{R}{R}",
-			"type": "Legendary Creature — Dwarf Paladin ",
+			"type": "Legendary Creature — Dwarf Paladin",
 			"collector_number": "177",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/177_Kythr, Sorrow's Mark.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/177_Kythr, Sorrow's Mark.png"
 			}
 		},
 		{
 			"name": "Eliath, Doomed Fighter",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{B}{B}",
-			"type": "Legendary Creature — Elf Fighter ",
+			"type": "Legendary Creature — Elf Fighter",
 			"collector_number": "123",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/123_Eliath, Doomed Fighter.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/123_Eliath, Doomed Fighter.png"
 			}
 		},
 		{
 			"name": "Shaedrun, the Necromancer",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{4}{B}{B}",
-			"type": "Legendary Creature — Human Warlock ",
+			"type": "Legendary Creature — Human Warlock",
 			"collector_number": "141",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/141_Shaedrun, the Necromancer.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/141_Shaedrun, the Necromancer.png"
 			}
 		},
 		{
 			"name": "Necromancer's Apprentice",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{B}{B}",
-			"type": "Creature — Human Warlock ",
+			"type": "Creature — Human Warlock",
 			"collector_number": "133",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/133_Necromancer's Apprentice.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/133_Necromancer's Apprentice.png"
 			}
 		},
 		{
 			"name": "Revenant",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Zombie Paladin ",
+			"type": "Creature — Zombie Paladin",
 			"collector_number": "139",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/139_Revenant.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/139_Revenant.png"
 			}
 		},
 		{
 			"name": "Vladimir & Godfrey, Reunited",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}{B}",
-			"type": "Legendary Creature — Zombie  Paladin ",
+			"type": "Legendary Creature — Zombie Paladin",
 			"collector_number": "150",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/150_Vladimir & Godfrey, Reunited.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/150_Vladimir & Godfrey, Reunited.png"
 			}
 		},
 		{
 			"name": "Arabel, Seer Prodigy",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{U}",
-			"type": "Legendary Creature — Human ",
+			"type": "Legendary Creature — Human",
 			"collector_number": "52",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/52_Arabel, Seer Prodigy.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/52_Arabel, Seer Prodigy.png"
 			}
 		},
 		{
 			"name": "Blinksy, Toymaker",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{B}",
-			"type": "Legendary Creature — Human Artificer ",
+			"type": "Legendary Creature — Human Artificer",
 			"collector_number": "103",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/103_Blinksy, Toymaker.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/103_Blinksy, Toymaker.png"
 			}
 		},
 		{
 			"name": "His Opulence IV",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{B}{R}",
-			"type": "Legendary Creature — Human Noble ",
+			"type": "Legendary Creature — Human Noble",
 			"collector_number": "263",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/263_His Opulence IV.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/263_His Opulence IV.png"
 			}
 		},
 		{
 			"name": "Syosa, Raving Dragon",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}{B}{G}",
-			"type": "Legendary Creature — Dragon ",
+			"type": "Legendary Creature — Dragon",
 			"collector_number": "279",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/279_Syosa, Raving Dragon.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/279_Syosa, Raving Dragon.png"
 			}
 		},
 		{
 			"name": "Draconic Purge",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Sorcery",
 			"collector_number": "120",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/120_Draconic Purge.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/120_Draconic Purge.png"
 			}
 		},
 		{
 			"name": "The Wiggumstaff Incident",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{8}{R}",
 			"type": "Sorcery",
 			"collector_number": "196",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/196_The Wiggumstaff Incident.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/196_The Wiggumstaff Incident.png"
 			}
 		},
 		{
 			"name": "March of the the Dead",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
 			"collector_number": "29",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/29_March of the the Dead.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/29_March of the the Dead.png"
 			}
 		},
 		{
 			"name": "Pierce the Veil",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{U}",
 			"type": "Instant",
 			"collector_number": "79",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/79_Pierce the Veil.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/79_Pierce the Veil.png"
 			}
 		},
 		{
 			"name": "Tidal Wave",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{U}",
 			"type": "Sorcery",
 			"collector_number": "93",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/93_Tidal Wave.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/93_Tidal Wave.png"
 			}
 		},
 		{
 			"name": "Fama's Talon",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Assassin ",
+			"type": "Creature — Assassin",
 			"collector_number": "124",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/124_Fama's Talon.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/124_Fama's Talon.png"
 			}
 		},
 		{
 			"name": "The Prosperity",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Human Noble ",
+			"type": "Creature — Human Noble",
 			"collector_number": "191",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/191_The Prosperity.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/191_The Prosperity.png"
 			}
 		},
 		{
 			"name": "Aleana's Mercy",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/3_Aleana's Mercy.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/3_Aleana's Mercy.png"
 			}
 		},
 		{
 			"name": "Blood Magic",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
 			"collector_number": "104",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/104_Blood Magic.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/104_Blood Magic.png"
 			}
 		},
 		{
 			"name": "Malaas War Marshall",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Dwarf Soldier ",
+			"type": "Creature — Dwarf Soldier",
 			"collector_number": "182",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/182_Malaas War Marshall.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/182_Malaas War Marshall.png"
 			}
 		},
 		{
 			"name": "Tarroka Reading",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Instant",
 			"collector_number": "91",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/91_Tarroka Reading.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/91_Tarroka Reading.png"
 			}
 		},
 		{
 			"name": "Cleanse the Bloodlines",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
 			"collector_number": "111",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/111_Cleanse the Bloodlines.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/111_Cleanse the Bloodlines.png"
 			}
 		},
 		{
 			"name": "Dragon's Fire",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
 			"collector_number": "158",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/158_Dragon's Fire.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/158_Dragon's Fire.png"
 			}
 		},
 		{
 			"name": "The Archon of Gold",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Human Noble ",
+			"type": "Creature — Human Noble",
 			"collector_number": "101",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/101_The Archon of Gold.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/101_The Archon of Gold.png"
 			}
 		},
 		{
 			"name": "The Halcyon",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Human Noble ",
+			"type": "Creature — Human Noble",
 			"collector_number": "174",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/174_The Halcyon.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/174_The Halcyon.png"
 			}
 		},
 		{
 			"name": "Gildling",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{B}",
-			"type": "Creature — Human Noble ",
+			"type": "Creature — Human Noble",
 			"collector_number": "125",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/125_Gildling.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/125_Gildling.png"
 			}
 		},
 		{
 			"name": "Goblin War-Rider",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Goblin Dinosaur ",
+			"type": "Creature — Goblin Dinosaur",
 			"collector_number": "171",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/171_Goblin War-Rider.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/171_Goblin War-Rider.png"
 			}
 		},
 		{
 			"name": "Conjure Animals",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
 			"collector_number": "215",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/215_Conjure Animals.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/215_Conjure Animals.png"
 			}
 		},
 		{
 			"name": "Animated Armor",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{3}",
-			"type": "Artifact Creature — Construct ",
+			"type": "Artifact Creature — Construct",
 			"collector_number": "310",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/310_Animated Armor.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/310_Animated Armor.png"
 			}
 		},
 		{
 			"name": "The Forge of Life",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Artifact",
 			"collector_number": "226",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/226_The Forge of Life.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/226_The Forge of Life.png"
 			}
 		},
 		{
 			"name": "The Forge of War",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Legendary Artifact",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/20_The Forge of War.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/20_The Forge of War.png"
 			}
 		},
 		{
 			"name": "The Forge of Elements",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Artifact",
 			"collector_number": "165",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/165_The Forge of Elements.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/165_The Forge of Elements.png"
 			}
 		},
 		{
 			"name": "The Forge of Spells",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Artifact",
 			"collector_number": "65",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/65_The Forge of Spells.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/65_The Forge of Spells.png"
 			}
 		},
 		{
 			"name": "Devilish Imp",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Imp ",
+			"type": "Creature — Imp",
 			"collector_number": "118",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/118_Devilish Imp.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/118_Devilish Imp.png"
 			}
 		},
 		{
 			"name": "Rovari, Magic Weaver",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{3}{R}",
-			"type": "Legendary Creature — Tiefling Artificer ",
+			"type": "Legendary Creature — Tiefling Artificer",
 			"collector_number": "192",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/192_Rovari, Magic Weaver.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/192_Rovari, Magic Weaver.png"
 			}
 		},
 		{
 			"name": "Worker's Union",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment",
 			"collector_number": "197",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/197_Worker's Union.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/197_Worker's Union.png"
 			}
 		},
 		{
 			"name": "Guantlets of the Storm",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "173",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/173_Guantlets of the Storm.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/173_Guantlets of the Storm.png"
 			}
 		},
 		{
 			"name": "Dark Gift",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Enchantment",
 			"collector_number": "112",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/112_Dark Gift.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/112_Dark Gift.png"
 			}
 		},
 		{
 			"name": "Death Ward",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{G}",
 			"type": "Instant",
 			"collector_number": "217",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/217_Death Ward.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/217_Death Ward.png"
 			}
 		},
 		{
 			"name": "Blood Ritual",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{B}",
 			"type": "Enchantment",
 			"collector_number": "105",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/105_Blood Ritual.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/105_Blood Ritual.png"
 			}
 		},
 		{
 			"name": "Lanu's Intervention",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
 			"collector_number": "130",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/130_Lanu's Intervention.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/130_Lanu's Intervention.png"
 			}
 		},
 		{
 			"name": "Drown in the Lake",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
 			"collector_number": "121",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/121_Drown in the Lake.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/121_Drown in the Lake.png"
 			}
 		},
 		{
 			"name": "Desecrate the Temple",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
 			"collector_number": "117",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/117_Desecrate the Temple.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/117_Desecrate the Temple.png"
 			}
 		},
 		{
 			"name": "Dictate of Urobu",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Sorcery",
 			"collector_number": "119",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/119_Dictate of Urobu.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/119_Dictate of Urobu.png"
 			}
 		},
 		{
 			"name": "Ritual Sacrifice",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
 			"collector_number": "140",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/140_Ritual Sacrifice.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/140_Ritual Sacrifice.png"
 			}
 		},
 		{
 			"name": "Shambling Necromass",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{7}{B}",
-			"type": "Creature — Zombie ",
+			"type": "Creature — Zombie",
 			"collector_number": "143",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/143_Shambling Necromass.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/143_Shambling Necromass.png"
 			}
 		},
 		{
 			"name": "Olethros the Destroyer",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{4}{B}{B}",
-			"type": "Legendary Creature — Eternal Dragon ",
+			"type": "Legendary Creature — Eternal Dragon",
 			"collector_number": "137",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/137_Olethros the Destroyer.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/137_Olethros the Destroyer.png"
 			}
 		},
 		{
 			"name": "Dungeon Skeleton",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Skeleton ",
+			"type": "Creature — Skeleton",
 			"collector_number": "122",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/122_Dungeon Skeleton.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/122_Dungeon Skeleton.png"
 			}
 		},
 		{
 			"name": "Vampire Spawn",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Vampire ",
+			"type": "Creature — Vampire",
 			"collector_number": "149",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/149_Vampire Spawn.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/149_Vampire Spawn.png"
 			}
 		},
 		{
 			"name": "Remove Curse",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{B}{B}",
 			"type": "Sorcery",
 			"collector_number": "138",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/138_Remove Curse.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/138_Remove Curse.png"
 			}
 		},
 		{
 			"name": "Fury of the Gods",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Sorcery",
 			"collector_number": "167",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/167_Fury of the Gods.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/167_Fury of the Gods.png"
 			}
 		},
 		{
 			"name": "Shaedrun's Gambit",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{B}",
 			"type": "Instant",
 			"collector_number": "142",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/142_Shaedrun's Gambit.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/142_Shaedrun's Gambit.png"
 			}
 		},
 		{
 			"name": "Ring of Etheria",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "37",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/37_Ring of Etheria.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/37_Ring of Etheria.png"
 			}
 		},
 		{
 			"name": "Ayleia's Return",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Sorcery",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/6_Ayleia's Return.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/6_Ayleia's Return.png"
 			}
 		},
 		{
 			"name": "Gift of Vetys",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
 			"collector_number": "66",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/66_Gift of Vetys.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/66_Gift of Vetys.png"
 			}
 		},
 		{
 			"name": "Secrets of Tathys",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Instant",
 			"collector_number": "90",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/90_Secrets of Tathys.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/90_Secrets of Tathys.png"
 			}
 		},
 		{
 			"name": "Blessing of Alyra",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
 			"collector_number": "151",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/151_Blessing of Alyra.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/151_Blessing of Alyra.png"
 			}
 		},
 		{
 			"name": "Coelys's Ire",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
 			"collector_number": "155",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/155_Coelys's Ire.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/155_Coelys's Ire.png"
 			}
 		},
 		{
 			"name": "Caelys's Favor",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
 			"collector_number": "152",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/152_Caelys's Favor.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/152_Caelys's Favor.png"
 			}
 		},
 		{
 			"name": "Cadrea's Blessing",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/8_Cadrea's Blessing.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/8_Cadrea's Blessing.png"
 			}
 		},
 		{
 			"name": "Fulcrum",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{R}{R}",
-			"type": "Legendary Artifact — Equipment ",
+			"type": "Legendary Artifact — Equipment",
 			"collector_number": "166",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/166_Fulcrum.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/166_Fulcrum.png"
 			}
 		},
 		{
 			"name": "Goblin Raid Runner",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{R}",
-			"type": "Creature — Goblin ",
+			"type": "Creature — Goblin",
 			"collector_number": "170",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/170_Goblin Raid Runner.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/170_Goblin Raid Runner.png"
 			}
 		},
 		{
 			"name": "Fireball",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{X}{R}",
 			"type": "Sorcery",
 			"collector_number": "163",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/163_Fireball.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/163_Fireball.png"
 			}
 		},
 		{
 			"name": "Price of Loyalty",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
 			"collector_number": "190",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/190_Price of Loyalty.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/190_Price of Loyalty.png"
 			}
 		},
 		{
 			"name": "Hellish Rebuke",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{B}",
 			"type": "Instant",
 			"collector_number": "127",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/127_Hellish Rebuke.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/127_Hellish Rebuke.png"
 			}
 		},
 		{
 			"name": "Divine Intervention",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Instant",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/17_Divine Intervention.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/17_Divine Intervention.png"
 			}
 		},
 		{
 			"name": "Lady Ostrix",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Legendary Creature — Elf Noble ",
+			"type": "Legendary Creature — Elf Noble",
 			"collector_number": "25",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/25_Lady Ostrix.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/25_Lady Ostrix.png"
 			}
 		},
 		{
 			"name": "Binding of the Law",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/7_Binding of the Law.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/7_Binding of the Law.png"
 			}
 		},
 		{
 			"name": "Guard Drake",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{3}{U}",
-			"type": "Creature — Dragon ",
+			"type": "Creature — Dragon",
 			"collector_number": "68",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/68_Guard Drake.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/68_Guard Drake.png"
 			}
 		},
 		{
 			"name": "King Da'aroc",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}{U}{U}",
-			"type": "Legendary Creature — Dragon Lord ",
+			"type": "Legendary Creature — Dragon Lord",
 			"collector_number": "75",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/75_King Da'aroc.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/75_King Da'aroc.png"
 			}
 		},
 		{
 			"name": "High Priest Kaaladeth",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{U}{U}",
-			"type": "Legendary Creature — Dragon Cleric ",
+			"type": "Legendary Creature — Dragon Cleric",
 			"collector_number": "69",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/69_High Priest Kaaladeth.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/69_High Priest Kaaladeth.png"
 			}
 		},
 		{
 			"name": "Lord Maalas",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}{R}",
-			"type": "Legendary Creature — Dwarf Lord ",
+			"type": "Legendary Creature — Dwarf Lord",
 			"collector_number": "180",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/180_Lord Maalas.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/180_Lord Maalas.png"
 			}
 		},
 		{
 			"name": "Gniess, Stonecutter Prime",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
-			"type": "Legendary Creature — Dwarf Noble ",
+			"type": "Legendary Creature — Dwarf Noble",
 			"collector_number": "168",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/168_Gniess, Stonecutter Prime.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/168_Gniess, Stonecutter Prime.png"
 			}
 		},
 		{
 			"name": "Gnome Technocrat",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Gnome Artificer ",
+			"type": "Creature — Gnome Artificer",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/21_Gnome Technocrat.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/21_Gnome Technocrat.png"
 			}
 		},
 		{
 			"name": "Moon Scythe",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "30",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/30_Moon Scythe.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/30_Moon Scythe.png"
 			}
 		},
 		{
 			"name": "Armor of Aleana",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{W}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/4_Armor of Aleana.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/4_Armor of Aleana.png"
 			}
 		},
 		{
 			"name": "Kyrios the Creator",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{4}{W}{W}",
-			"type": "Legendary Creature — Eternal Dragon ",
+			"type": "Legendary Creature — Eternal Dragon",
 			"collector_number": "24",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/24_Kyrios the Creator.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/24_Kyrios the Creator.png"
 			}
 		},
 		{
 			"name": "Fly",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/19_Fly.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/19_Fly.png"
 			}
 		},
 		{
 			"name": "Astral Prison",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/5_Astral Prison.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/5_Astral Prison.png"
 			}
 		},
 		{
 			"name": "Reinforce",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{4}{W}",
 			"type": "Enchantment",
 			"collector_number": "35",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/35_Reinforce.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/35_Reinforce.png"
 			}
 		},
 		{
 			"name": "Dispel Magic",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/16_Dispel Magic.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/16_Dispel Magic.png"
 			}
 		},
 		{
 			"name": "Rising Populace",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{W}",
 			"type": "Sorcery",
 			"collector_number": "38",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/38_Rising Populace.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/38_Rising Populace.png"
 			}
 		},
 		{
 			"name": "Soul Steel Dagger",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{5}",
 			"type": "Legendary Enchantment Artifact",
 			"collector_number": "326",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/326_Soul Steel Dagger.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/326_Soul Steel Dagger.png"
 			}
 		},
 		{
 			"name": "Griffin Mount",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Griffon ",
+			"type": "Creature — Griffon",
 			"collector_number": "22",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/22_Griffin Mount.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/22_Griffin Mount.png"
 			}
 		},
 		{
 			"name": "Cleric of Aleana",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{W}",
-			"type": "Creature — Tiefling Cleric ",
+			"type": "Creature — Tiefling Cleric",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/13_Cleric of Aleana.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/13_Cleric of Aleana.png"
 			}
 		},
 		{
 			"name": "Resistance Squad",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Dwarf Soldier ",
+			"type": "Creature — Dwarf Soldier",
 			"collector_number": "36",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/36_Resistance Squad.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/36_Resistance Squad.png"
 			}
 		},
 		{
 			"name": "Wartime Financier",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Elf Noble ",
+			"type": "Creature — Elf Noble",
 			"collector_number": "50",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/50_Wartime Financier.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/50_Wartime Financier.png"
 			}
 		},
 		{
 			"name": "Noble Ward",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{W}{W}",
-			"type": "Creature — Human  Noble ",
+			"type": "Creature — Human Noble",
 			"collector_number": "32",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/32_Noble Ward.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/32_Noble Ward.png"
 			}
 		},
 		{
 			"name": "Chief Inspector",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{W}",
-			"type": "Creature — Human Soldier ",
+			"type": "Creature — Human Soldier",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/12_Chief Inspector.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/12_Chief Inspector.png"
 			}
 		},
 		{
 			"name": "Acolyte of Urobu",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Elf Cleric ",
+			"type": "Creature — Elf Cleric",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/1_Acolyte of Urobu.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/1_Acolyte of Urobu.png"
 			}
 		},
 		{
 			"name": "Tax Accessor",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Human Noble ",
+			"type": "Creature — Human Noble",
 			"collector_number": "43",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/43_Tax Accessor.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/43_Tax Accessor.png"
 			}
 		},
 		{
 			"name": "Wall of Force",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Instant",
 			"collector_number": "97",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/97_Wall of Force.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/97_Wall of Force.png"
 			}
 		},
 		{
 			"name": "Cone of Cold",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Sorcery",
 			"collector_number": "55",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/55_Cone of Cold.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/55_Cone of Cold.png"
 			}
 		},
 		{
 			"name": "Tsunami",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{4}{U}{U}",
 			"type": "Sorcery",
 			"collector_number": "95",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/95_Tsunami.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/95_Tsunami.png"
 			}
 		},
 		{
 			"name": "Saw it Coming",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Instant",
 			"collector_number": "87",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/87_Saw it Coming.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/87_Saw it Coming.png"
 			}
 		},
 		{
 			"name": "Divination",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Instant",
 			"collector_number": "60",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/60_Divination.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/60_Divination.png"
 			}
 		},
 		{
 			"name": "Protection from Evil and Good",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{U}",
 			"type": "Instant",
 			"collector_number": "81",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/81_Protection from Evil and Good.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/81_Protection from Evil and Good.png"
 			}
 		},
 		{
 			"name": "Draconic Ascent",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Sorcery",
 			"collector_number": "62",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/62_Draconic Ascent.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/62_Draconic Ascent.png"
 			}
 		},
 		{
 			"name": "Dimension Door",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{U}",
 			"type": "Instant",
 			"collector_number": "59",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/59_Dimension Door.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/59_Dimension Door.png"
 			}
 		},
 		{
 			"name": "Dominate Monster",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{U}{U}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "61",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/61_Dominate Monster.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/61_Dominate Monster.png"
 			}
 		},
 		{
 			"name": "Library of Vetys",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Enchantment",
 			"collector_number": "76",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/76_Library of Vetys.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/76_Library of Vetys.png"
 			}
 		},
 		{
 			"name": "Tathys's Silencer",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Creture — Devil",
 			"collector_number": "92",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/92_Tathys's Silencer.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/92_Tathys's Silencer.png"
 			}
 		},
 		{
 			"name": "Cutting Words",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
 			"collector_number": "57",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/57_Cutting Words.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/57_Cutting Words.png"
 			}
 		},
 		{
 			"name": "Acolyte of Vetys",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{U}{U}",
-			"type": "Creature — Dragon Wizard ",
+			"type": "Creature — Dragon Wizard",
 			"collector_number": "51",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/51_Acolyte of Vetys.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/51_Acolyte of Vetys.png"
 			}
 		},
 		{
 			"name": "Jimmy Beanz",
-			"rarity": "mythic",
+			"rarity": "special",
 			"mana_cost": "{2}{U}{U}",
-			"type": "Legendary Creature — Changeling Rogue ",
+			"type": "Legendary Creature — Changeling Rogue",
 			"collector_number": "74",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/74_Jimmy Beanz.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/74_Jimmy Beanz.png"
 			}
 		},
 		{
 			"name": "Blessing of Water",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
 			"collector_number": "53",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/53_Blessing of Water.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/53_Blessing of Water.png"
 			}
 		},
 		{
 			"name": "Scrying",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{U}",
 			"type": "Instant",
 			"collector_number": "88",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/88_Scrying.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/88_Scrying.png"
 			}
 		},
 		{
 			"name": "Death of the Oracle",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
 			"collector_number": "58",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/58_Death of the Oracle.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/58_Death of the Oracle.png"
 			}
 		},
 		{
 			"name": "Coelys Fantatic",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{R}{R}",
-			"type": "Creature — Goblin Wizard ",
+			"type": "Creature — Goblin Wizard",
 			"collector_number": "154",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/154_Coelys Fantatic.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/154_Coelys Fantatic.png"
 			}
 		},
 		{
 			"name": "Magic Missile",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Sorcery",
 			"collector_number": "181",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/181_Magic Missile.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/181_Magic Missile.png"
 			}
 		},
 		{
 			"name": "Goblins of the Red Hand",
-			"rarity": "rare",
-			"mana_cost": "{2}{R}",
-			"type": "Creature — Goblin ",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Goblin",
 			"collector_number": "172",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/172_Goblins of the Red Hand.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/172_Goblins of the Red Hand.png"
 			}
 		},
 		{
 			"name": "Malaasan Emissary",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Dwarf Noble  ",
+			"type": "Creature — Dwarf Noble",
 			"collector_number": "183",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/183_Malaasan Emissary.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/183_Malaasan Emissary.png"
 			}
 		},
 		{
 			"name": "Drachenjäger",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Dragon Soldier ",
+			"type": "Creature — Dragon Soldier",
 			"collector_number": "157",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/157_Drachenjäger.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/157_Drachenjäger.png"
 			}
 		},
 		{
 			"name": "Malaasan Pick-Axe",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "184",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/184_Malaasan Pick-Axe.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/184_Malaasan Pick-Axe.png"
 			}
 		},
 		{
 			"name": "Drink it Down",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{R}{R}",
 			"type": "Instant",
 			"collector_number": "159",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/159_Drink it Down.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/159_Drink it Down.png"
 			}
 		},
 		{
 			"name": "Mine Collapse",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
 			"collector_number": "185",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/185_Mine Collapse.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/185_Mine Collapse.png"
 			}
 		},
 		{
 			"name": "Nicki's Blade",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "189",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/189_Nicki's Blade.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/189_Nicki's Blade.png"
 			}
 		},
 		{
 			"name": "Aranya's Intervention",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
 			"collector_number": "205",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/205_Aranya's Intervention.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/205_Aranya's Intervention.png"
 			}
 		},
 		{
 			"name": "Volley of Arrows",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Instant",
 			"collector_number": "244",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/244_Volley of Arrows.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/244_Volley of Arrows.png"
 			}
 		},
 		{
 			"name": "Wyvern Toxin",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
 			"collector_number": "249",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/249_Wyvern Toxin.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/249_Wyvern Toxin.png"
 			}
 		},
 		{
 			"name": "Unchecked Aggression",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
 			"collector_number": "243",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/243_Unchecked Aggression.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/243_Unchecked Aggression.png"
 			}
 		},
 		{
 			"name": "Command — Duel",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
 			"collector_number": "214",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/214_Command — Duel.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/214_Command — Duel.png"
 			}
 		},
 		{
 			"name": "Coordinated Assault",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
 			"collector_number": "216",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/216_Coordinated Assault.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/216_Coordinated Assault.png"
 			}
 		},
 		{
 			"name": "Boon of Fama",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
 			"collector_number": "210",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/210_Boon of Fama.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/210_Boon of Fama.png"
 			}
 		},
 		{
 			"name": "Enlarge",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
 			"collector_number": "222",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/222_Enlarge.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/222_Enlarge.png"
 			}
 		},
 		{
 			"name": "Wildshape — Bear",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "247",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/247_Wildshape — Bear.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/247_Wildshape — Bear.png"
 			}
 		},
 		{
 			"name": "Song of Alyra",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Enchantment",
 			"collector_number": "240",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/240_Song of Alyra.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/240_Song of Alyra.png"
 			}
 		},
 		{
 			"name": "Planar Portal",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{5}{G}{G}",
 			"type": "Enchantment",
 			"collector_number": "239",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/239_Planar Portal.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/239_Planar Portal.png"
 			}
 		},
 		{
 			"name": "Wildshape — Spider",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{G}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "248",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/248_Wildshape — Spider.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/248_Wildshape — Spider.png"
 			}
 		},
 		{
 			"name": "Elven Elder",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Elf Druid ",
+			"type": "Creature — Elf Druid",
 			"collector_number": "220",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/220_Elven Elder.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/220_Elven Elder.png"
 			}
 		},
 		{
 			"name": "Ewiard, Lord of the Hunt",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{3}{G}{G}",
-			"type": "Legendary Creature — Goliath Fighter ",
+			"type": "Legendary Creature — Goliath Fighter",
 			"collector_number": "223",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/223_Ewiard, Lord of the Hunt.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/223_Ewiard, Lord of the Hunt.png"
 			}
 		},
 		{
 			"name": "Elven Warmaster",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Elf Fighter ",
+			"type": "Creature — Elf Fighter",
 			"collector_number": "221",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/221_Elven Warmaster.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/221_Elven Warmaster.png"
 			}
 		},
 		{
 			"name": "Aranya's Adept",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "{G}",
-			"type": "Creature — Elf Druid ",
+			"type": "Creature — Elf Druid",
 			"collector_number": "204",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/204_Aranya's Adept.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/204_Aranya's Adept.png"
 			}
 		},
 		{
 			"name": "Life Cleric",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{G}{G}",
-			"type": "Creature — Elf Cleric ",
+			"type": "Creature — Elf Cleric",
 			"collector_number": "234",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/234_Life Cleric.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/234_Life Cleric.png"
 			}
 		},
 		{
 			"name": "Kruthik Swarm",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Monstrosity ",
+			"type": "Creature — Monstrosity",
 			"collector_number": "232",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/232_Kruthik Swarm.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/232_Kruthik Swarm.png"
 			}
 		},
 		{
 			"name": "Grasping Vegetation",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{G}",
-			"type": "Creature — Plant Monstrosity ",
+			"type": "Creature — Plant Monstrosity",
 			"collector_number": "229",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/229_Grasping Vegetation.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/229_Grasping Vegetation.png"
 			}
 		},
 		{
 			"name": "Basilisk",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{3}{G}",
-			"type": "Creature — Monstrosity ",
+			"type": "Creature — Monstrosity",
 			"collector_number": "207",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/207_Basilisk.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/207_Basilisk.png"
 			}
 		},
 		{
 			"name": "Owlbear",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{3}{G}",
-			"type": "Creature — Bear Bird ",
+			"type": "Creature — Bear Bird",
 			"collector_number": "238",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/238_Owlbear.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/238_Owlbear.png"
 			}
 		},
 		{
 			"name": "Adolescent Dragon",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Dragon ",
+			"type": "Creature — Dragon",
 			"collector_number": "202",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/202_Adolescent Dragon.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/202_Adolescent Dragon.png"
 			}
 		},
 		{
 			"name": "Kruthik Tunneler",
-			"rarity": "uncommon",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Monstrosity ",
+			"type": "Creature — Monstrosity",
 			"collector_number": "233",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/233_Kruthik Tunneler.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/233_Kruthik Tunneler.png"
 			}
 		},
 		{
 			"name": "Huff vs McDoogal",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{U}",
-			"type": "Enchantment — Quest ",
+			"type": "Enchantment — Quest",
 			"collector_number": "71",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/71_Huff vs McDoogal.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/71_Huff vs McDoogal.png"
 			}
 		},
 		{
 			"name": "Goblin Raid",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{R}",
-			"type": "Enchantment — Quest ",
+			"type": "Enchantment — Quest",
 			"collector_number": "169",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/169_Goblin Raid.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/169_Goblin Raid.png"
 			}
 		},
 		{
 			"name": "Cleanse the Fanes",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
-			"type": "Enchantment — Quest ",
+			"type": "Enchantment — Quest",
 			"collector_number": "213",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/213_Cleanse the Fanes.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/213_Cleanse the Fanes.png"
 			}
 		},
 		{
 			"name": "Corpsewood",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Swamp Forest ",
+			"type": "Land — Swamp Forest",
 			"collector_number": "341",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/341_Corpsewood.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/341_Corpsewood.png"
 			}
 		},
 		{
 			"name": "Eislessi Isle",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Plains Island ",
+			"type": "Land — Plains Island",
 			"collector_number": "343",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/343_Eislessi Isle.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/343_Eislessi Isle.png"
 			}
 		},
 		{
 			"name": "Et'limi'dak",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Forest Plains ",
+			"type": "Land — Forest Plains",
 			"collector_number": "344",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/344_Et'limi'dak.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/344_Et'limi'dak.png"
 			}
 		},
 		{
 			"name": "Ikbarre Marshes",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Plains Swamp ",
+			"type": "Land — Plains Swamp",
 			"collector_number": "347",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/347_Ikbarre Marshes.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/347_Ikbarre Marshes.png"
 			}
 		},
 		{
 			"name": "Kavedii Islands",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Forest Island ",
+			"type": "Land — Forest Island",
 			"collector_number": "349",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/349_Kavedii Islands.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/349_Kavedii Islands.png"
 			}
 		},
 		{
 			"name": "Lake Dorn",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Mountain Island ",
+			"type": "Land — Mountain Island",
 			"collector_number": "352",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/352_Lake Dorn.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/352_Lake Dorn.png"
 			}
 		},
 		{
 			"name": "Misty Isles",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Island Swamp ",
+			"type": "Land — Island Swamp",
 			"collector_number": "356",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/356_Misty Isles.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/356_Misty Isles.png"
 			}
 		},
 		{
 			"name": "Ovauto Forest",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Mountain Forest ",
+			"type": "Land — Mountain Forest",
 			"collector_number": "363",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/363_Ovauto Forest.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/363_Ovauto Forest.png"
 			}
 		},
 		{
 			"name": "Shattered Peaks",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Swamp Mountain ",
+			"type": "Land — Swamp Mountain",
 			"collector_number": "366",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/366_Shattered Peaks.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/366_Shattered Peaks.png"
 			}
 		},
 		{
 			"name": "Upper Iron Pass",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land — Mountain Plains ",
+			"type": "Land — Mountain Plains",
 			"collector_number": "371",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/371_Upper Iron Pass.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/371_Upper Iron Pass.png"
 			}
 		},
 		{
 			"name": "The Abyss",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "330",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/330_The Abyss.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/330_The Abyss.png"
 			}
 		},
 		{
 			"name": "Bastion",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "333",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/333_Bastion.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/333_Bastion.png"
 			}
 		},
 		{
 			"name": "The Beacon",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "335",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/335_The Beacon.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/335_The Beacon.png"
 			}
 		},
 		{
 			"name": "The Blightlands",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "337",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/337_The Blightlands.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/337_The Blightlands.png"
 			}
 		},
 		{
 			"name": "The Cataclysm",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "339",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/339_The Cataclysm.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/339_The Cataclysm.png"
 			}
 		},
 		{
 			"name": "The Moon Grove",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "358",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/358_The Moon Grove.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/358_The Moon Grove.png"
 			}
 		},
 		{
 			"name": "The Nether",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "360",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/360_The Nether.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/360_The Nether.png"
 			}
 		},
 		{
 			"name": "Revalia",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "365",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/365_Revalia.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/365_Revalia.png"
 			}
 		},
 		{
 			"name": "The Tumult",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "369",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/369_The Tumult.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/369_The Tumult.png"
 			}
 		},
 		{
 			"name": "The Wilds",
-			"rarity": "rare",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "373",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/373_The Wilds.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/373_The Wilds.png"
 			}
-		},
-		]
-	[WildcardSlot(15)]
-	10 Monument of Heroes
-	10 Kriv, Champion of Heroes
-	10 Mathias, Cursed of Urobu
-	10 The Professor
-	10 Vas Asareen
-	10 Donar, Tragic Hero
-	10 Paeter, Foolish Monk
-	10 Iskael, Lord of Shadows
-	10 Bron, Dastardly Thief
-	10 Taj, Glittering Thief
-	10 Leshanna, Lovestruck Bard
-	10 Boomer
-	10 Klaarrrgggg, Affable Bugbear
-	10 Zazzid, Chosen of Coelys
-	10 Gyles, Forgetful Hermit
-	10 Milde, Faithful Assistant
-	10 The Ledger
-	10 Fondael the Bloodied
-	10 Carmen, Pious Knight
-	10 Adenar, Willful Protector
-	10 Bulgan, Raging Battler
-	10 Lord Chuck Gavelston
-	10 Xurug the Avenger
-	10 Theo, Friendly Barkeep
-	10 Vhalimar, Forsaken Angel
-	10 Temple of Judgement
-	10 Mazzer, Protected
-	10 Misha, Werebear Leader
-	10 Werebear Amulet
-	10 Kirk of Clan Daardendrian
-	10 Namfoodle Stumbleduck
-	10 Garmin, Beast's Companion
-	10 Phaedra the Seeker
-	10 Blade of Olethros
-	10 Master Jarreau
-	10 Beatrix, Wily Herbalist
-	10 Nicki, Swashbuckler
-	10 Tammer, Reclusive Scholar
-	10 Samuel, Sentient Mask
-	10 Lodaec, Tyrant King
-	10 Kraigg, Friendly Troll
-	10 Scyruss, Forge Master
-	10 Elemental Orb of Water
-	10 Elemental Orb of Fire
-	10 Elemental Orb of Earth
-	10 Elemental Orb of Air
-	10 Elemental Orb of Darkness
-	10 Helm of Kyrios
-	10 Breastplate of Kyrios
-	10 Boots of Kyrios
-	10 Sword of Kyrios
-	10 The Black Glove
-	10 Darkling Scout
-	10 Darkling Elder
-	10 Captain Ryo
-	10 Captain Laos
-	10 First Mate Addus
-	10 Sea Spawn
-	10 Kildrak, Life's Spring
-	10 Luster, War-Scarred
-	10 Tathys, Keeper of Secrets
-	10 Ayleia Progenitor
-	10 Urobu, Judge of Souls
-	10 Aranya, Nature's Queen
-	10 Elos, God of War
-	10 Aleana, Faith's Shield
-	10 Fama, Assassin Favored
-	10 Vetys, Beacon of Knowledge
-	10 Cadrea, God of the Forge
-	10 Alyra, Oracle's Muse
-	10 Caelys the Gilded
-	10 Coelys, Chaos Incarnate
-	10 Lanu, Moon Trickster
-	10 Hueick, Susceptible Youth
-	10 Olar, The Broken Arrow
-	10 Zunam, Fate Favored
-	10 Leonir, Acolyte of Lanu
-	10 Granite, Elos' Vengeance
-	10 Captain Lebrode
-	10 Urwin Brighstar, Guild Founder
-	10 King Saakala
-	10 Professor Arden
-	10 Glamstol, Crafty Herbalist
-	10 Irdel the Pursued
-	10 Yanna the Ill-Fated
-	10 Ara, Reknown Scout
-	10 Harlston, Grappling Pugilist
-	10 Clif, Chilled Tortle
-	10 Minnesota, Impulsive Planner
-	10 Book of Victims
-	10 Zas, Barbarian Scholar
-	10 Karda, Revolutionary
-	10 Undead Elk
-	10 Death Druid
-	10 Blade of Blood
-	10 Keldath the Scourge
-	10 Bressio and Vynne, Twins
-	10 Idryyth the Flamebringer
-	10 Kinzine the Lifegiver
-	10 Ylbor the Lazy
-	10 Arrynth, Lord of Death
-	10 Aipa the Ancient
-	10 Pyrrydoss the Unbroken
-	10 Dayvroass the Haunted
-	10 Nydissia the Protector
-	10 Tundrayl the Pure
-	10 Spear of Vhalimar
-	10 Captain Morro
-	10 Lydia Brooks
-	10 Hundral the Voiceless
-	10 Zas's Battleaxe
-	10 Staff of the Mothertree
-	10 Explore the Outlands
-	10 The Beacon
-	10 Et'limi'dak
-	10 Lake Dorn
-	10 The Nether
-	10 The Wilds
-	10 The Blightlands
-	10 The Abyss
-	10 Ovauto Forest
-	10 The Moon Grove
-	10 Upper Iron Pass
-	10 Blue Flame Candle
-	10 Invoke Duplicity
-	10 Scorching Ray
-	10 Crown of Giants
-	10 Muster the Guard
-	10 Invisibility
-	10 Spare the Dying
-	10 Emir, Fists of Fury
-	10 Justice, Reborn
-	10 Town's Guard
-	10 Sorsha, Restrained
-	10 Umbra
-	10 Staff of the Blightree
-	10 Aleana's Chosen
-	10 Fire Bolt
-	10 Sacred Flame
-	10 Divine Smite
-	10 Chaos Bolt
-	10 Werebear Warrior
-	10 Manticore Tower
-	10 Banden Docks
-	10 Old Falden
-	10 Korolduhr
-	10 Hyathyr
-	10 Elf Scout
-	10 Mining Dwarf
-	10 Hobgoblin Warboss
-	10 Mining Contract
-	10 Caravan Raid
-	10 Inflict Wounds
-	10 Mysterious Benefactor
-	10 Manticore
-	10 Blessing of the Moon
-	10 Blessings of the Mothertree
-	10 Treasure Diver
-	10 Nighttime Ambush
-	10 Oracle's Insight
-	10 Counterspell
-	10 Teleportation Circle
-	10 Defend the Walls!
-	10 Wrathful Smite
-	10 Sahuaghin
-	10 Dryad Grove
-	10 Captain of the Guard
-	10 Wall Guard Recruiter
-	10 Sahuaghin Artillerist
-	10 Sahuaghin Fury
-	10 Sahuaghin Commander
-	10 Aurelia's Elites
-	10 Squad Commander
-	10 Charles
-	10 Wardog
-	10 Hag Coven
-	10 Night of Consuming Darkness
-	10 Soul Diversion
-	10 Fane of the Mountain
-	10 Fane of the River
-	10 Fane of the Forest
-	10 Boon of Aranya
-	10 Judge & Executioner
-	10 Jury
-	10 Soul Eater
-	10 Young Flayer
-	10 Acolyte of Aranya
-	10 Chittering Spider
-	10 Kavedii Islands
-	10 Revalia
-	10 Misty Isles
-	10 The Tumult
-	10 The Cataclysm
-	10 Bastion
-	10 Eislessi Isle
-	10 Ikbarre Marshes
-	10 Corpsewood
-	10 Shattered Peaks
-	10 Grappling Octopus
-	10 Boon of Elos
-	10 Mark for Death
-	10 Hyrum, Last Refuge
-	10 Reject
-	10 Strahd Von Zarovich
-	10 Wesley the Rescued
-	10 Blessed Ent
-	10 Trials of Thadenswel
-	10 Cube of K'nezeret
-	10 Eye of Coelys
-	10 Goblin Gang Leader
-	10 Champions of Thadenswel
-	10 Inopportune Arrest
-	10 Lady Aurelia
-	10 Mazzer, The Rat King
-	10 Dire Wolf Pack
-	10 Sarana, Fists of Fury
-	10 Fleetfoot, Sharpshooter
-	10 Kythr, Sorrow's Mark
-	10 Eliath, Doomed Fighter
-	10 Shaedrun, the Necromancer
-	10 Necromancer's Apprentice
-	10 Revenant
-	10 Vladimir & Godfrey, Reunited
-	10 Arabel, Seer Prodigy
-	10 Blinksy, Toymaker
-	10 His Opulence IV
-	10 Syosa, Raving Dragon
-	10 Draconic Purge
-	10 The Wiggumstaff Incident
-	10 March of the the Dead
-	10 Pierce the Veil
-	10 Tidal Wave
-	10 Fama's Talon
-	10 The Prosperity
-	10 Aleana's Mercy
-	10 Blood Magic
-	10 Malaas War Marshall
-	10 Tarroka Reading
-	10 Cleanse the Bloodlines
-	10 Dragon's Fire
-	10 The Archon of Gold
-	10 The Halcyon
-	10 Gildling
-	10 Goblin War-Rider
-	10 Conjure Animals
-	10 Animated Armor
-	10 The Forge of Life
-	10 The Forge of War
-	10 The Forge of Elements
-	10 The Forge of Spells
-	10 Devilish Imp
-	10 Rovari, Magic Weaver
-	10 Worker's Union
-	10 Guantlets of the Storm
-	10 Dark Gift
-	10 Death Ward
-	10 Blood Ritual
-	10 Lanu's Intervention
-	10 Drown in the Lake
-	10 Desecrate the Temple
-	10 Dictate of Urobu
-	10 Ritual Sacrifice
-	10 Shambling Necromass
-	10 Olethros the Destroyer
-	10 Dungeon Skeleton
-	10 Vampire Spawn
-	10 Remove Curse
-	10 Fury of the Gods
-	10 Shaedrun's Gambit
-	10 Ring of Etheria
-	10 Ayleia's Return
-	10 Gift of Vetys
-	10 Secrets of Tathys
-	10 Blessing of Alyra
-	10 Coelys's Ire
-	10 Caelys's Favor
-	10 Cadrea's Blessing
-	10 Fulcrum
-	10 Goblin Raid Runner
-	10 Fireball
-	10 Price of Loyalty
-	10 Hellish Rebuke
-	10 Divine Intervention
-	10 Lady Ostrix
-	10 Binding of the Law
-	10 Guard Drake
-	10 King Da'aroc
-	10 High Priest Kaaladeth
-	10 Lord Maalas
-	10 Gniess, Stonecutter Prime
-	10 Gnome Technocrat
-	10 Moon Scythe
-	10 Armor of Aleana
-	10 Kyrios the Creator
-	10 Fly
-	10 Astral Prison
-	10 Reinforce
-	10 Dispel Magic
-	10 Rising Populace
-	10 Soul Steel Dagger
-	10 Griffin Mount
-	10 Cleric of Aleana
-	10 Resistance Squad
-	10 Wartime Financier
-	10 Noble Ward
-	10 Chief Inspector
-	10 Acolyte of Urobu
-	10 Tax Accessor
-	10 Wall of Force
-	10 Cone of Cold
-	10 Tsunami
-	10 Saw it Coming
-	10 Divination
-	10 Protection from Evil and Good
-	10 Draconic Ascent
-	10 Dimension Door
-	10 Dominate Monster
-	10 Library of Vetys
-	10 Tathys's Silencer
-	10 Cutting Words
-	10 Acolyte of Vetys
-	10 Jimmy Beanz
-	10 Blessing of Water
-	10 Scrying
-	10 Death of the Oracle
-	10 Coelys Fantatic
-	10 Magic Missile
-	10 Goblins of the Red Hand
-	10 Malaasan Emissary
-	10 Drachenjäger
-	10 Malaasan Pick-Axe
-	10 Drink it Down
-	10 Mine Collapse
-	10 Nicki's Blade
-	10 Aranya's Intervention
-	10 Volley of Arrows
-	10 Wyvern Toxin
-	10 Unchecked Aggression
-	10 Command — Duel
-	10 Coordinated Assault
-	10 Boon of Fama
-	10 Enlarge
-	10 Wildshape — Bear
-	10 Song of Alyra
-	10 Planar Portal
-	10 Wildshape — Spider
-	10 Elven Elder
-	10 Ewiard, Lord of the Hunt
-	10 Elven Warmaster
-	10 Aranya's Adept
-	10 Life Cleric
-	10 Kruthik Swarm
-	10 Grasping Vegetation
-	10 Basilisk
-	10 Owlbear
-	10 Adolescent Dragon
-	10 Kruthik Tunneler
-	10 Huff vs McDoogal
-	10 Goblin Raid
-	10 Cleanse the Fanes
-	10 Corpsewood
-	10 Eislessi Isle
-	10 Et'limi'dak
-	10 Ikbarre Marshes
-	10 Kavedii Islands
-	10 Lake Dorn
-	10 Misty Isles
-	10 Ovauto Forest
-	10 Shattered Peaks
-	10 Upper Iron Pass
-	10 The Abyss
-	10 Bastion
-	10 The Beacon
-	10 The Blightlands
-	10 The Cataclysm
-	10 The Moon Grove
-	10 The Nether
-	10 Revalia
-	10 The Tumult
-	10 The Wilds
-	
+		}
+	]
+
+[cube(15)]
+	1 Monument of Heroes
+	1 Kriv, Champion of Heroes
+	1 Mathias, Cursed of Urobu
+	1 The Professor
+	1 Vas Asareen
+	1 Donar, Tragic Hero
+	1 Paeter, Foolish Monk
+	1 Iskael, Lord of Shadows
+	1 Bron, Dastardly Thief
+	1 Taj, Glittering Thief
+	1 Leshanna, Lovestruck Bard
+	1 Boomer
+	1 Klaarrrgggg, Affable Bugbear
+	1 Zazzid, Chosen of Coelys
+	1 Gyles, Forgetful Hermit
+	1 Milde, Faithful Assistant
+	1 The Ledger
+	1 Fondael the Bloodied
+	1 Carmen, Pious Knight
+	1 Adenar, Willful Protector
+	1 Bulgan, Raging Battler
+	1 Lord Chuck Gavelston
+	1 Xurug the Avenger
+	1 Theo, Friendly Barkeep
+	1 Vhalimar, Forsaken Angel
+	1 Temple of Judgement
+	1 Mazzer, Protected
+	1 Misha, Werebear Leader
+	1 Werebear Amulet
+	1 Kirk of Clan Daardendrian
+	1 Namfoodle Stumbleduck
+	1 Garmin, Beast's Companion
+	1 Cerberus
+	1 Phaedra the Seeker
+	1 Blade of Olethros
+	1 Master Jarreau
+	1 Rowan, Faithful Squire
+	1 Beatrix, Wily Herbalist
+	1 Nicki, Swashbuckler
+	1 Tammer, Reclusive Scholar
+	1 Samuel, Sentient Mask
+	1 Lodaec, Tyrant King
+	1 Kraigg, Friendly Troll
+	1 Scyruss, Forge Master
+	1 Elemental Orb of Water
+	1 Elemental Orb of Fire
+	1 Elemental Orb of Earth
+	1 Elemental Orb of Air
+	1 Elemental Orb of Darkness
+	1 Helm of Kyrios
+	1 Breastplate of Kyrios
+	1 Boots of Kyrios
+	1 Sword of Kyrios
+	1 The Black Glove
+	1 Darkling Scout
+	1 Darkling Elder
+	1 Captain Ryo
+	1 Captain Laos
+	1 First Mate Addus
+	1 Sea Spawn
+	1 Kildrak, Life's Spring
+	1 Luster, War-Scarred
+	1 Tathys, Keeper of Secrets
+	1 Ayleia Progenitor
+	1 Urobu, Judge of Souls
+	1 Aranya, Nature's Queen
+	1 Elos, God of War
+	1 Aleana, Faith's Shield
+	1 Fama, Assassin Favored
+	1 Vetys, Beacon of Knowledge
+	1 Cadrea, God of the Forge
+	1 Alyra, Oracle's Muse
+	1 Caelys the Gilded
+	1 Coelys, Chaos Incarnate
+	1 Lanu, Moon Trickster
+	1 Hueick, Susceptible Youth
+	1 Olar, The Broken Arrow
+	1 Zunam, Fate Favored
+	1 Leonir, Acolyte of Lanu
+	1 Granite, Elos' Vengeance
+	1 Captain Lebrode
+	1 Urwin Brighstar, Guild Founder
+	1 King Saakala
+	1 Professor Arden
+	1 Glamstol, Crafty Herbalist
+	1 Irdel the Pursued
+	1 Yanna the Ill-Fated
+	1 Ara, Reknown Scout
+	1 Harlston, Grappling Pugilist
+	1 Clif, Chilled Tortle
+	1 Minnesota, Impulsive Planner
+	1 Book of Victims
+	1 Zas, Barbarian Scholar
+	1 Karda, Revolutionary
+	1 Undead Elk
+	1 Death Druid
+	1 Blade of Blood
+	1 Keldath the Scourge
+	1 Bressio and Vynne, Twins
+	1 Idryyth the Flamebringer
+	1 Kinzine the Lifegiver
+	1 Ylbor the Lazy
+	1 Arrynth, Lord of Death
+	1 Aipa the Ancient
+	1 Pyrrydoss the Unbroken
+	1 Dayvroass the Haunted
+	1 Nydissia the Protector
+	1 Tundrayl the Pure
+	1 Spear of Vhalimar
+	1 Captain Morro
+	1 Lydia Brooks
+	1 Hundral the Voiceless
+	1 Zas's Battleaxe
+	1 Staff of the Mothertree
+	1 Explore the Outlands
+	1 The Beacon
+	1 Et'limi'dak
+	1 Lake Dorn
+	1 The Nether
+	1 The Wilds
+	1 The Blightlands
+	1 The Abyss
+	1 Ovauto Forest
+	1 The Moon Grove
+	1 Upper Iron Pass
+	1 Blue Flame Candle
+	1 Invoke Duplicity
+	1 Scorching Ray
+	1 Crown of Giants
+	1 Muster the Guard
+	1 Invisibility
+	1 Spare the Dying
+	1 Emir, Fists of Fury
+	1 Justice, Reborn
+	1 Town's Guard
+	1 Sorsha, Restrained
+	1 Umbra
+	1 Staff of the Blightree
+	1 Aleana's Chosen
+	1 Fire Bolt
+	1 Sacred Flame
+	1 Divine Smite
+	1 Chaos Bolt
+	1 Werebear Warrior
+	1 Manticore Tower
+	1 Banden Docks
+	1 Old Falden
+	1 Korolduhr
+	1 Hyathyr
+	1 Elf Scout
+	1 Mining Dwarf
+	1 Hobgoblin Warboss
+	1 Mining Contract
+	1 Caravan Raid
+	1 Inflict Wounds
+	1 Mysterious Benefactor
+	1 Manticore
+	1 Blessing of the Moon
+	1 Blessings of the Mothertree
+	1 Treasure Diver
+	1 Nighttime Ambush
+	1 Oracle's Insight
+	1 Counterspell
+	1 Teleportation Circle
+	1 Defend the Walls!
+	1 Wrathful Smite
+	1 Sahuaghin
+	1 Dryad Grove
+	1 Captain of the Guard
+	1 Wall Guard Recruiter
+	1 Sahuaghin Artillerist
+	1 Sahuaghin Fury
+	1 Sahuaghin Commander
+	1 Aurelia's Elites
+	1 Squad Commander
+	1 Charles
+	1 Wardog
+	1 Hag Coven
+	1 Night of Consuming Darkness
+	1 Soul Diversion
+	1 Fane of the Mountain
+	1 Fane of the River
+	1 Fane of the Forest
+	1 Boon of Aranya
+	1 Judge & Executioner
+	1 Jury
+	1 Soul Eater
+	1 Young Flayer
+	1 Acolyte of Aranya
+	1 Chittering Spider
+	1 Kavedii Islands
+	1 Revalia
+	1 Misty Isles
+	1 The Tumult
+	1 The Cataclysm
+	1 Bastion
+	1 Eislessi Isle
+	1 Ikbarre Marshes
+	1 Corpsewood
+	1 Shattered Peaks
+	1 Grappling Octopus
+	1 Boon of Elos
+	1 Mark for Death
+	1 Hyrum, Last Refuge
+	1 Reject
+	1 Strahd Von Zarovich
+	1 Wesley the Rescued
+	1 Blessed Ent
+	1 Trials of Thadenswel
+	1 Cube of K'nezeret
+	1 Eye of Coelys
+	1 Goblin Gang Leader
+	1 Champions of Thadenswel
+	1 Inopportune Arrest
+	1 Lady Aurelia
+	1 Mazzer, The Rat King
+	1 Dire Wolf Pack
+	1 Sarana, Fists of Fury
+	1 Fleetfoot, Sharpshooter
+	1 Kythr, Sorrow's Mark
+	1 Eliath, Doomed Fighter
+	1 Shaedrun, the Necromancer
+	1 Necromancer's Apprentice
+	1 Revenant
+	1 Vladimir & Godfrey, Reunited
+	1 Arabel, Seer Prodigy
+	1 Blinksy, Toymaker
+	1 His Opulence IV
+	1 Syosa, Raving Dragon
+	1 Draconic Purge
+	1 The Wiggumstaff Incident
+	1 March of the the Dead
+	1 Pierce the Veil
+	1 Tidal Wave
+	1 Fama's Talon
+	1 The Prosperity
+	1 Aleana's Mercy
+	1 Blood Magic
+	1 Malaas War Marshall
+	1 Tarroka Reading
+	1 Cleanse the Bloodlines
+	1 Dragon's Fire
+	1 The Archon of Gold
+	1 The Halcyon
+	1 Gildling
+	1 Goblin War-Rider
+	1 Conjure Animals
+	1 Animated Armor
+	1 The Forge of Life
+	1 The Forge of War
+	1 The Forge of Elements
+	1 The Forge of Spells
+	1 Devilish Imp
+	1 Rovari, Magic Weaver
+	1 Worker's Union
+	1 Guantlets of the Storm
+	1 Dark Gift
+	1 Death Ward
+	1 Blood Ritual
+	1 Lanu's Intervention
+	1 Drown in the Lake
+	1 Desecrate the Temple
+	1 Dictate of Urobu
+	1 Ritual Sacrifice
+	1 Shambling Necromass
+	1 Olethros the Destroyer
+	1 Dungeon Skeleton
+	1 Vampire Spawn
+	1 Remove Curse
+	1 Fury of the Gods
+	1 Shaedrun's Gambit
+	1 Ring of Etheria
+	1 Ayleia's Return
+	1 Gift of Vetys
+	1 Secrets of Tathys
+	1 Blessing of Alyra
+	1 Coelys's Ire
+	1 Caelys's Favor
+	1 Cadrea's Blessing
+	1 Fulcrum
+	1 Goblin Raid Runner
+	1 Fireball
+	1 Price of Loyalty
+	1 Hellish Rebuke
+	1 Divine Intervention
+	1 Lady Ostrix
+	1 Binding of the Law
+	1 Guard Drake
+	1 King Da'aroc
+	1 High Priest Kaaladeth
+	1 Lord Maalas
+	1 Gniess, Stonecutter Prime
+	1 Gnome Technocrat
+	1 Moon Scythe
+	1 Armor of Aleana
+	1 Kyrios the Creator
+	1 Fly
+	1 Astral Prison
+	1 Reinforce
+	1 Dispel Magic
+	1 Rising Populace
+	1 Soul Steel Dagger
+	1 Griffin Mount
+	1 Cleric of Aleana
+	1 Resistance Squad
+	1 Wartime Financier
+	1 Noble Ward
+	1 Chief Inspector
+	1 Acolyte of Urobu
+	1 Tax Accessor
+	1 Wall of Force
+	1 Cone of Cold
+	1 Tsunami
+	1 Saw it Coming
+	1 Divination
+	1 Protection from Evil and Good
+	1 Draconic Ascent
+	1 Dimension Door
+	1 Dominate Monster
+	1 Library of Vetys
+	1 Tathys's Silencer
+	1 Cutting Words
+	1 Acolyte of Vetys
+	1 Jimmy Beanz
+	1 Blessing of Water
+	1 Scrying
+	1 Death of the Oracle
+	1 Coelys Fantatic
+	1 Magic Missile
+	1 Goblins of the Red Hand
+	1 Malaasan Emissary
+	1 Drachenjäger
+	1 Malaasan Pick-Axe
+	1 Drink it Down
+	1 Mine Collapse
+	1 Nicki's Blade
+	1 Aranya's Intervention
+	1 Volley of Arrows
+	1 Wyvern Toxin
+	1 Unchecked Aggression
+	1 Command — Duel
+	1 Coordinated Assault
+	1 Boon of Fama
+	1 Enlarge
+	1 Wildshape — Bear
+	1 Song of Alyra
+	1 Planar Portal
+	1 Wildshape — Spider
+	1 Elven Elder
+	1 Ewiard, Lord of the Hunt
+	1 Elven Warmaster
+	1 Aranya's Adept
+	1 Life Cleric
+	1 Kruthik Swarm
+	1 Grasping Vegetation
+	1 Basilisk
+	1 Owlbear
+	1 Adolescent Dragon
+	1 Kruthik Tunneler
+	1 Huff vs McDoogal
+	1 Goblin Raid
+	1 Cleanse the Fanes
+	1 Corpsewood
+	1 Eislessi Isle
+	1 Et'limi'dak
+	1 Ikbarre Marshes
+	1 Kavedii Islands
+	1 Lake Dorn
+	1 Misty Isles
+	1 Ovauto Forest
+	1 Shattered Peaks
+	1 Upper Iron Pass
+	1 The Abyss
+	1 Bastion
+	1 The Beacon
+	1 The Blightlands
+	1 The Cataclysm
+	1 The Moon Grove
+	1 The Nether
+	1 Revalia
+	1 The Tumult
+	1 The Wilds

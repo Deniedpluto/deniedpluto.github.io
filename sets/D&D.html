@@ -4,8 +4,17 @@
   <link rel="icon" type="image/x-icon" href="/sets/D&D-files/icon.png">
   <link rel="stylesheet" href="/resources/mana.css">
   <link rel="stylesheet" href="/resources/header.css">
+  <link rel="stylesheet" href="/resources/card-text.css">
 </head>
 <style>
+	@font-face {
+		font-family: 'Beleren Small Caps';
+		src: url('/resources/beleren-caps.ttf');
+	}
+	@font-face {
+		font-family: Beleren;
+		src: url('/resources/beleren.ttf');
+	}
 	body {
 		font-family: 'Helvetica', 'Arial', sans-serif;
 		overscroll-behavior: none;
@@ -21,13 +30,13 @@
 		max-width: 1100px;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+		gap: 20px;
 		align-items: center;
 		margin: auto;
 	}
 	.set-banner {
 		font-family: Beleren;
 		display: flex;
-		gap: 30px;
 		align-items: center;
 		justify-items: center;
 		font-size: 26px;
@@ -37,9 +46,11 @@
 		padding-bottom: 10px;
 		justify-self: left;
 		width: 100%;
+		white-space: nowrap;
 	}
 	.set-banner img {
 		width: 50px;
+		padding-right: 8px;
 	}
 	.set-banner a {
 		font-size: 18px;
@@ -69,6 +80,31 @@
 		font-size: 13px;
 		height: 30px;
 	}
+	.button-container {
+		width: 50%;
+		max-width: 900px;
+		margin: auto;
+		padding: 15px 0 5px 0;
+		border-bottom: 2px solid #171717;
+		display: none;
+		grid-template-columns: 1fr 1fr;
+	}
+	.button-container button {
+		font-family: Beleren;
+		font-size: 30px;
+		width: 100%;
+		justify-self: center;
+		border: none;
+		background: none;
+		cursor: pointer;
+	}
+	.button-container button:hover {
+		color: #797979;
+	}
+	.button-container button:disabled {
+		color: #797979;
+		cursor: auto;
+	}
 	.grid-container {
 		display: grid;
 		grid-template-columns: auto;
@@ -76,6 +112,13 @@
 		padding-bottom: 30px;
 		max-width: 1200px;
 		margin: auto;
+	}
+	.splash-container {
+		width: 70%;
+		max-width: 1200px;
+		margin: auto;
+		justify-items: center;
+		padding-bottom: 20px;
 	}
 	.image-grid-container {
 		display: grid;
@@ -87,6 +130,13 @@
 		justify-items: center;
 		padding-top: 30px;
 		padding-bottom: 30px;
+		font-size: 36px;
+		font-family: 'Beleren';
+		color: #535353;
+	}
+	.small-caps {
+		font-family: 'Beleren Small Caps';
+		font-size: 46px;
 	}
 	@media ( max-width: 750px ) {
 		.image-grid-container {
@@ -124,30 +174,6 @@
 		min-height: 75%;
 		margin-top: 3%;
 	}
-	.card-text div {
-		white-space: normal;
-		font-size: 15px;
-		padding-bottom: 10px;
-		padding-left: 12px;
-		padding-right: 12px;
-		line-height: 155%;
-	}
-	.card-text .name-cost {
-		font-weight: bold;
-		font-size: 20px;
-		white-space: pre-wrap;
-	}
-	.card-text .type {
-		font-size: 16px;
-	}
-	.card-text .pt {
-		font-weight: bold;
-	}
-	.card-text br {
-		content: "";
-		display: block;
-		margin-bottom: 5px;
-	}
 	.img-container {
 		position: relative;
 		width: 100%;
@@ -166,22 +192,107 @@
 		cursor: pointer;
 		border: none;
 		position: absolute;
-		top: 6.5%;
-		left: 8.5%;
-		transform: translate(-50%, -85%);
+		left: 50%;
+		top: 48%;
+		transform: translate(-50%, -50%);
+		opacity: 0.5;
 	}
 	.img-container .btn:hover {
 		background: url('/img/flip-hover.png') no-repeat;
 		background-size: contain;
 		background-position: center;
-		width: 15%;
-		height: 11%;
-		cursor: pointer;
-		border: none;
+	}
+	.img-container .hidden-text {
 		position: absolute;
-		top: 6.5%;
-		left: 8.5%;
-		transform: translate(-50%, -85%);
+		font-family: Beleren;
+		top: 5%;
+		left: 9%;
+		font-size: .97vw;
+		color: rgba(0, 0, 0, 0);
+	}
+	h1 {
+		font-family: 'Beleren Small Caps';
+		font-size: 48px;
+		margin: 24px 0;
+	}
+	h2 {
+		font-family: 'Beleren';
+		font-size: 30px;
+		margin: 15px 0;
+	}
+	.overlay {
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translate(-50%, -50%);
+	    height: 90%;
+	    width: 90%;
+		max-width: 1000px;
+		background-color: #e3e3e3;
+		border: 2px solid #171717;
+		border-radius: 20px;
+		display: none;
+	}
+	.overlay-title {
+		font-family: 'Beleren';
+		font-size: 34px;
+	}
+	.close-btn {
+		background: url('/img/close.png') no-repeat;
+		background-size: contain;
+		background-position: center;
+		width: 50px;
+		height: 50px;
+		border: none;
+		cursor: pointer;
+	}
+	.copy-btn {
+		background: url('/img/copy.png') no-repeat;
+		background-size: contain;
+		background-position: center;
+		width: 50px;
+		height: 50px;
+		border: none;
+		cursor: pointer;
+	}
+	.canvas {
+		max-width: 95%;
+		max-height: 95%;
+		width: auto;
+		height: auto;
+		display: flex;
+		justify-self: center;
+	}
+	.overlay-header {
+		display: grid;
+		height: 7%;
+		grid-template-columns: 2fr 18fr 1fr 1fr;
+		gap: 10px;
+		padding: 1%;
+		justify-self: center;
+		justify-items: center;
+		align-items: center;
+	}
+	.canvas-container {
+		height: 89%;
+		align-content: center;
+		padding-bottom: 1%;
+	}
+	.dot {
+		font-family: 'Helvetica', 'Arial';
+		white-space: pre;
+		padding-top: 6px;
+	}
+	a {
+		cursor: pointer;
+	}
+	p {
+		width: 100%;
+	}
+	p img {
+		display: block;
+		margin: auto;
 	}
 </style>
 <body>
@@ -191,6 +302,7 @@
 			<img class="sg-icon" src="/img/search.png">
 			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
 			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
 			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
 		</div>
 	</div>
@@ -198,11 +310,26 @@
 		<div class="banner-container">
 			<div class="set-banner" id="set-banner">
 				<img class="set-logo" src="/sets/D&D-files/icon.png">
-				<div class="set-title">Peter’s D&D</div><a href="/sets/D&D-files/D&D-draft.txt" download>Draft me!</a>
-		
-			</div>
-			<div class="select-text">Cards displayed as<select name="display" id="display"><option value="cards-only">Cards Only</option><option value="cards-text">Cards + Text</option></select>sorted by<select name="sort-by" id="sort-by"><option value="set-num">Set Number</option><option value="name">Name</option><option value="mv">Mana Value</option><option value="color">Color</option><option value="rarity">Rarity</option></select> : <select name="sort-order" id="sort-order"><option value="ascending">Asc</option><option value="descending">Desc</option></select></div>
+				<div class="set-title">Peter’s D&D</div><div class="dot"> • </div><a href="/sets/D&D-files/D&D-draft.txt" download>Draft</a>
+		<div class="dot"> • </div><a onclick="packOnePickOne()">P1P1</a>
 		</div>
+
+			<div class="select-text">Cards displayed as<select name="display" id="display"><option value="cards-only">Cards Only</option><option value="cards-text">Cards + Text</option></select>sorted by<select name="sort-by" id="sort-by"><option value="set-code">Set Number</option><option value="name">Name</option><option value="mv">Mana Value</option><option value="color">Color</option><option value="rarity">Rarity</option></select> : <select name="sort-order" id="sort-order"><option value="ascending">Asc</option><option value="descending">Desc</option></select></div>
+		</div>
+	</div>
+
+	<div class="button-container" id="buttons">
+		<button style="border-right: 1px solid #171717;" onclick="switchView('splash')" id="splash-button">Splash</button><button onclick="switchView('cards')"id="cards-button">Cards</button>
+	</div>
+
+	<div class="splash-container" id="splash">
+	<p>﻿A journey through my history of D&amp;D games. These are all games I have run and each has its own abbreviations:<soft-line>
+1. TLD — The Legendary Defenders: A timetravel based campaign set around returning the four elemental orbs (Water, Earth, Fire, and Wind) to the elemental plane before they consumed the universe.
+2. TFF — The Formidable Five: This is my main campaign set in Cephestia, my homebrew world, that centers around the conflict of the gods and the Holy Kingdom on Nastrax invasion of the Oclea Alliance (House Ostrix, House Malaas, and House Aurelia)<soft-line>
+3. ER — Eastern Reach: This was a west marches style campaign I ran for 3 years or so set in the distant future in Cephestia after the gods had been banished in the far eastern continent.
+4. CoS — Curse of Strahd: I ran this for a goup.
+5. CEP — Cephestia: This is my general tag for cards related to my homebrew world, but not explicitly part of any of the campaigns.</p>
+<p>Other expansion may be added later, but they will likely be separated out... maybe.</soft-line></soft-line></p>
 	</div>
 
 	<div class="grid-container" id="grid">
@@ -211,17 +338,30 @@
 	<div class="image-grid-container" id="imagesOnlyGrid">
 	</div>
 
+	<div class="overlay" id="p1p1">
+		<div class="overlay-header">
+			<div></div> <!-- empty div for spacing -->
+			<div class="overlay-title">Pack 1, Pick 1</div>
+			<button class="copy-btn" onclick="copyP1P1()"></button>
+			<button class="close-btn" onclick="closeP1P1()"></button>
+		</div>
+		<div class="canvas-container">
+			<canvas id="canvas" class="canvas"></canvas>
+		</div>
+	</div>
+
 	<script>
 		let card_list_arrayified = [];
 		let set_list_arrayified = [];
 		let specialchars = "";
 		let displayStyle = "";
+		let p1p1cards = [];
 
 		document.addEventListener("DOMContentLoaded", async function () {
-			await fetch('/lists/all-cards.txt')
-					.then(response => response.text())
-					.then(text => {
-						card_list_stringified = text;
+			await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
 				await fetch('/resources/replacechars.txt')
@@ -230,23 +370,26 @@
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
-				card_list_arrayified = card_list_stringified.split('\\n');
-
-				for (let i = 0; i < card_list_arrayified.length; i++)
-				{
-					card_list_arrayified[i] = card_list_arrayified[i].split('\t');
-				}
+				card_list_arrayified = card_list.cards;
 
 
+			await fetch('/sets/D&D-files/D&D-draft.txt')
+				.then(response => response.text())
+				.then(text => {
+					draft_file = text.replace(/},\n\t]/g, '}\n\t]');
+			}).catch(error => console.error('Error:', error));
+
+			draftmancerToP1P1(draft_file);
+      
 			for (let i = 0; i < card_list_arrayified.length; i++)
 			{
-				if (card_list_arrayified[i][11] == "D&D")
+				if (card_list_arrayified[i].set == "D&D")
 				{
 					set_list_arrayified.push(card_list_arrayified[i]);
 				}
 			}
-
-			setCardView();
+					buttons.style.display = 'grid';
+				switchView('splash');
 		});
 
 		document.getElementById("sort-by").onchange = displayChangeListener;
@@ -257,9 +400,26 @@
 			setCardView();
 		}
 
+		function switchView(view) {
+			if (view == "splash")
+			{
+				splash.style.display = '';
+				imagesOnlyGrid.style.display = 'none';
+				grid.style.display = 'none';
+			}
+			else if (view == "cards")
+			{
+				setCardView();
+			}
+
+			document.getElementById("splash-button").disabled = (view == "splash");
+			document.getElementById("cards-button").disabled = (view == "cards");
+		}
+
 		function setCardView() {
 			displayStyle = document.getElementById("display").value;
 
+			splash.style.display = 'none';
 			imagesOnlyGrid.style.display = displayStyle == "cards-only" ? '' : 'none';
 			grid.style.display = displayStyle == "cards-only" ? 'none' : '';
 
@@ -275,89 +435,274 @@
 			{
 				cardGrid = document.getElementById("grid");
 			}
-
-			let set_cards = [];
-			let set_tokens_basics = [];
-
-			for (const card of set_list_arrayified)
-			{
-				if (card[3].includes("Token") || card[3].includes("Basic"))
-				{
-					set_tokens_basics.push(card);
-				}
-				else
-				{
-					set_cards.push(card);
-				}
-			}
-
-			set_cards.sort(compareFunction);
-			set_tokens_basics.sort(compareFunction);
-			if (document.getElementById("sort-order").value == "descending")
-			{
-				set_cards.reverse();
-				set_tokens_basics.reverse();
-			}
-			set_list_sorted = set_cards.concat(set_tokens_basics);
 			cardGrid.innerHTML = "";
 
-			for (const card of set_list_sorted)
+			if (false)
 			{
-				cardGrid.append(gridifyCard(card));
+				let text1 = document.createElement("div");
+				let text2 = document.createElement("div");
+				
+				text1.innerText = "Currently Previewing";
+				text2.innerText = "check back soon";
+
+				text1.className = "small-caps";
+
+				cardGrid.appendChild(text1);
+				cardGrid.appendChild(text2);
+				cardGrid.style.gridTemplateColumns = "1fr";
 			}
+			else
+			{
+				let set_cards = [];
+				let set_basics = [];
+				let set_tokens = [];
+				let set_mp = [];
+
+				for (const card of set_list_arrayified)
+				{
+					if (card.rarity.includes("masterpiece"))
+					{
+						set_mp.push(card);
+					}
+					else if (card.shape.includes("token"))
+					{
+						set_tokens.push(card);
+					}
+					else if (card.type.includes("Basic"))
+					{
+						set_basics.push(card);
+					}
+					else
+					{
+						set_cards.push(card);
+					}
+				}
+
+				set_cards.sort(compareFunction);
+				set_basics.sort(compareFunction);
+				set_tokens.sort(compareFunction);
+				set_mp.sort(compareFunction);
+				if (document.getElementById("sort-order").value == "descending")
+				{
+					set_cards.reverse();
+					set_basics.reverse();
+					set_tokens.reverse();
+					set_mp.reverse();
+				}
+				set_list_sorted = set_cards.concat(set_basics).concat(set_tokens).concat(set_mp);
+				cardGrid.innerHTML = "";
+
+				for (const card of set_list_sorted)
+				{
+					cardGrid.append(gridifyCard(card));
+				}
+			}
+		}
+
+		function draftmancerToP1P1(draft_file) { // comments in here by aanginer
+			let draft_slots = {};
+			let p1p1_object = [];
+			let result_json = [];
+			let card_map    = {};
+			let current_slot_index = 0;
+			let slot_indexes = {};
+			let card_images = [];
+			let mapping = true;
+
+			const draft_headers = draft_file.matchAll(/\[(.*?)\]/g); // match text between [ and ]
+			for (const result of draft_headers) {
+				if (result[1] == "CustomCards")
+					continue; // skip the CustomCards header
+
+				if (mapping)
+				{
+					draft_json = JSON.parse(draft_file.substring(15, draft_file.indexOf(result[1]) - 1));
+
+					for (const card of draft_json)
+					{
+						card_images.push({
+							name: card.name,
+							url: card.image_uris.en
+						});
+					}
+
+					mapping = false;
+				}
+
+				const copies = parseInt(result[0].match(/\((.*?)\)/g)[0].split("(")[1].split(")")[0]); // match text between ( and ) -- do the split thing bc js regex doesnt let me grab the group for some reason????????
+				// -- this is useless but if needed, const name = result.groups[0].match(/\[(.*)\(/g); // match text before (
+				draft_slots[result[0]] = copies;
+				slot_indexes[result[0]] = current_slot_index;
+				current_slot_index += copies;
+			}
+
+			for (let i = 0; i < current_slot_index; i++) { // the current index should be the total number
+				p1p1_object.push([]);
+			}
+
+			draft_slots["EOF"] = 0; // add this so when we check for the next slot in the final one we don't get an index error
+			for (let i = 0; i < Object.keys(draft_slots).length - 1; i++) {
+				const draft_slot = Object.keys(draft_slots)[i];
+				const next_slot  = Object.keys(draft_slots)[i + 1];
+				const slot_size  = draft_slots[draft_slot];
+
+				let card_lines = draft_file.split(draft_slot)[1].split(next_slot)[0].split("\n"); // split between the 2 slots -- splitting by EOF shouldnt be a problem as thatll yield a 1 element list
+
+				for (const line of card_lines) {
+					const count = parseInt(line.substring(0, line.indexOf(' ')));
+					const card_name = line.substring(line.indexOf(' ') + 1).trim();
+
+					if (!card_map[card_name]) {
+						card_map[card_name] = {};
+					}
+
+					card_map[card_name][draft_slot] = card_map[card_name][draft_slot] ? card_map[card_name][draft_slot] + count : count; // fancy way to do a null check to decide between = and +=
+				}
+			}
+
+			for (const card of card_images) { // grab the needed card data
+				if (Object.keys(card_map).includes(card.name)) {
+					const card_slots = card_map[card.name];
+					for (const slot in card_slots) {
+						const slot_copies = draft_slots[slot];
+						for (let i = 0; i < slot_copies; i++) {
+							for (let j = 0; j < card_slots[slot]; j++) {
+								p1p1_object[slot_indexes[slot] + i].push(card);
+							}
+						}
+					}
+				}
+			}
+
+			p1p1_cards = p1p1_object;
+		}
+
+
+		function packOnePickOne() {
+			img_list = [];
+			used_cards = [];
+			for (const slot of p1p1_cards)
+			{
+				if (slot.length == 0) 
+					continue;
+
+				do {
+					rand_i = Math.floor(Math.random() * (slot.length));
+					card = slot[rand_i];
+				} while (used_cards.includes(card));
+
+				const img_url = card.url;
+
+				const image = new Image();
+				image.src = img_url;
+
+				img_list.push(image);
+				used_cards.push(card);
+			}
+
+			const canvas = document.getElementById("canvas");
+			const ctx = canvas.getContext('2d');
+
+			canvas.width = 1883;
+			canvas.height = 1573;
+
+			for (let i = 0; i < img_list.length; i++)
+			{
+				img_list[i].onload = function() {
+					x_offset = 377 * (i % 5);
+					y_offset = 525 * Math.floor(i / 5);
+					ctx.drawImage(img_list[i], x_offset, y_offset, 375, 523);
+				};
+			}
+
+			document.getElementById("p1p1").style.display = "block";
+		}
+
+		async function copyP1P1() {
+			const canvas = document.getElementById("canvas");
+
+			canvas.toBlob(async (blob) => {
+				if (!blob) {
+					console.error('Failed to create Blob from canvas.');
+					return;
+				}
+
+				try {
+					const item = new ClipboardItem({ [blob.type]: blob });
+					await navigator.clipboard.write([item]);
+				} catch (err) {
+					console.error('Failed to copy canvas image:', err);
+				}
+			}, 'image/png');
+		}
+
+		function closeP1P1() {
+			document.getElementById("p1p1").style.display = "none";
 		}
 
 		function compareFunction(a, b) {
 			const sortMode = document.getElementById("sort-by").value;
 
-			if (a[3].includes("Token") && !b[3].includes("Token"))
+			if (a.rarity.includes("masterpiece") && !b.rarity.includes("masterpiece"))
 			{
 				return 1;
 			}
 
-			if (!a[3].includes("Token") && b[3].includes("Token"))
+			if (!a.rarity.includes("masterpiece") && b.rarity.includes("masterpiece"))
+			{
+				return -1;
+			}
+
+			if (a.shape.includes("token") && !b.shape.includes("token"))
+			{
+				return 1;
+			}
+
+			if (!a.shape.includes("token") && b.shape.includes("token"))
 			{
 				return -1;
 			}
 			
-			if (sortMode == 'set-num')
+			if (sortMode == 'set-code')
 			{
-				if (a[11] === b[11])
+				if (a.set === b.set)
 				{
-					if (a[4] === b[4])
+					if (a.number === b.number)
 					{
 						return 0;
 					}
 					else {
-						return (parseInt(a[4]) < parseInt(b[4])) ? -1 : 1;
+						return (a.number < b.number) ? -1 : 1;
 					}
 				}
 				else {
-					return (a[11] < b[11]) ? -1 : 1;
+					return (a.set < b.set) ? -1 : 1;
 				}
 			}
 			if (sortMode == 'name')
 			{
-				if (a[0] === b[0])
+				if (a.card_name === b.card_name)
 				{
 					return 0;
 				}
 				else {
-					return (a[0] < b[0]) ? -1 : 1;
+					return (a.card_name < b.card_name) ? -1 : 1;
 				}
 			}
 			if (sortMode == 'mv')
 			{
-				a_mv = isDecimal(a[6].charAt(0)) ? parseInt(a[6]) + a[6].replaceAll('x','').length - 1 : a[6].replaceAll('x','').length;
-				b_mv = isDecimal(b[6].charAt(0)) ? parseInt(b[6]) + b[6].replaceAll('x','').length - 1 : b[6].replaceAll('x','').length;
+				//since cost is now formatted like {1}{U} instead of 1U, we need to remove the brackets from the string first
+				//CE: undoing this because we're counting { chars for MV
+				a_mv = isDecimal(a.cost.charAt(1)) ? parseInt(a.cost.substring(1, a.cost.indexOf('}'))) + a.cost.replaceAll('x','').split('{').length - 2 : a.cost.replaceAll('x','').split('{').length - 1;
+				b_mv = isDecimal(b.cost.charAt(1)) ? parseInt(b.cost.substring(1, b.cost.indexOf('}'))) + b.cost.replaceAll('x','').split('{').length - 2 : b.cost.replaceAll('x','').split('{').length - 1;
 				if (a_mv === b_mv)
 				{
-					if (a[0] === b[0])
+					if (a.card_name === b.card_name)
 					{
 						return 0;
 					}
 					else {
-						return (a[0] < b[0]) ? -1 : 1;
+						return (a.card_name < b.card_name) ? -1 : 1;
 					}
 				}
 				else {
@@ -372,11 +717,11 @@
 
 				for (let i = 0; i < color_sort_order.length; i++)
 				{
-					if (a[1].toLowerCase().split('').sort().join('') == color_sort_order[i].toLowerCase().split('').sort().join(''))
+					if (a.color.toLowerCase().split('').sort().join('') == color_sort_order[i].toLowerCase().split('').sort().join(''))
 					{
 						a_color_index = i;
 					}
-					if (b[1].toLowerCase().split('').sort().join('') == color_sort_order[i].toLowerCase().split('').sort().join(''))
+					if (b.color.toLowerCase().split('').sort().join('') == color_sort_order[i].toLowerCase().split('').sort().join(''))
 					{
 						b_color_index = i;
 					}
@@ -384,12 +729,12 @@
 
 				if (a_color_index === b_color_index)
 				{
-					if (a[0] === b[0])
+					if (a.card_name === b.card_name)
 					{
 						return 0;
 					}
 					else {
-						return (a[0] < b[0]) ? -1 : 1;
+						return (a.card_name < b.card_name) ? -1 : 1;
 					}
 				}
 				else {
@@ -404,11 +749,11 @@
 
 				for (let i = 0; i < rarity_sort_order.length; i++)
 				{
-					if (a[2].toLowerCase() == rarity_sort_order[i])
+					if (a.rarity.toLowerCase() == rarity_sort_order[i])
 					{
 						a_rarity_index = i;
 					}
-					if (b[2].toLowerCase() == rarity_sort_order[i])
+					if (b.rarity.toLowerCase() == rarity_sort_order[i])
 					{
 						b_rarity_index = i;
 					}
@@ -422,11 +767,11 @@
 
 					for (let i = 0; i < color_sort_order.length; i++)
 					{
-						if (a[1].toLowerCase().split('').sort().join('') == color_sort_order[i].toLowerCase().split('').sort().join(''))
+						if (a.color.toLowerCase().split('').sort().join('') == color_sort_order[i].toLowerCase().split('').sort().join(''))
 						{
 							a_color_index = i;
 						}
-						if (b[1].toLowerCase().split('').sort().join('') == color_sort_order[i].toLowerCase().split('').sort().join(''))
+						if (b.color.toLowerCase().split('').sort().join('') == color_sort_order[i].toLowerCase().split('').sort().join(''))
 						{
 							b_color_index = i;
 						}
@@ -434,12 +779,12 @@
 
 					if (a_color_index === b_color_index)
 					{
-						if (a[0] === b[0])
+						if (a.card_name === b.card_name)
 						{
 							return 0;
 						}
 						else {
-							return (a[0] < b[0]) ? -1 : 1;
+							return (a.card_name < b.card_name) ? -1 : 1;
 						}
 					}
 					else {
@@ -488,38 +833,39 @@
 		}
 
 		function symbolize(text) {
-			let tokens = tokenize(text);
-			let symText = "";
-			for (const token of tokens)
-			{
-				symText = symText + "{" + token + "}";
-			}
+			//This isn't needed now that the { & } are put into the cost & text by the exporter
+			//let tokens = tokenize(text);
+			//let symText = "";
+			//for (const token of tokens)
+			//{
+			//	symText = symText + "{" + token + "}";
+			//}
 
-			return formatTextHTML(symText);
+			return formatTextHTML(text);
 		}
 
 		function formatTextHTML(str) {
 			if(!str)
 				return "";
 			str = str.replace(/[{]([^}]+)[}]/g, function(matched, _1) {
-				let letters = _1.toLowerCase().replace("/", "")
+				let letters = _1.toLowerCase()
 				return '<span class="mana mana-cost mana-' + letters + '"></span>';
 			})
 			return str;
 		}
 
-		function gridifyCard(card_stats) {
-			const card_name = card_stats[0];
+		function gridifyCard(card_stats, card_text = false, rotate_card = false, designer_notes = false) {
+			const card_name = card_stats.card_name;
 
 			if (displayStyle == "cards-only")
 			{
-				return buildImgContainer(card_stats);
+				return buildImgContainer(card_stats, true, rotate_card);
 			}
 
 			const grid = document.createElement("div");
 			grid.className = "image-grid";
 
-			grid.appendChild(buildImgContainer(card_stats));
+			grid.appendChild(buildImgContainer(card_stats, false, rotate_card));
 			
 			const text = document.createElement("div");
 			text.className = "card-text";
@@ -527,82 +873,87 @@
 
 			const name_cost = document.createElement("div");
 			name_cost.className = "name-cost";
-			name_cost.innerHTML = card_stats[0] + (card_stats[6] != "" ? '     ' + symbolize(card_stats[6]) : "");
+			name_cost.innerHTML = card_stats.card_name + (card_stats.cost != "" ? '     ' + symbolize(card_stats.cost) : "");
 			text.appendChild(name_cost);
 
 			const type = document.createElement("div");
 			type.className = "type";
-			type.textContent = card_stats[3];
+			type.textContent = card_stats.type;
 			text.appendChild(type);
 
 			const effect = document.createElement("div");
 			effect.className = "effect";
 			let card_effects = "";
-			if (card_stats[7] != "")
+			if (card_stats.rules_text != "")
 			{
-				card_effects = card_stats[7].split("NEWLINE");
-			}
-			else
-			{
-				card_effects = card_stats[9].split("NEWLINE");
+				card_effects = card_stats.rules_text + (card_stats.flavor_text != "[i][/i]" ? "\n" + "<hr class=\"ft-divider text-bg\">" + "\n" + card_stats.flavor_text.replace('\n','<br>') : ""); // this expression looks cursed but what it does is check if the ft is empty, and if it isn't, insert a divider + the ft
+			} else {
+				card_effects = "";
 			}
 			effect.innerHTML += prettifyEffects(card_effects);
 			text.appendChild(effect);
 
-			if(card_stats[8] != "")
+			if(card_stats.pt != "")
 			{
 				const pt = document.createElement("div");
 				pt.className = "pt";
-				pt.textContent = card_stats[8];
+				pt.textContent = card_stats.pt;
 				text.appendChild(pt);
 			}
-			else if (card_stats[12] != "")
+			else if (card_stats.loyalty != "")
 			{
 				const loyalty = document.createElement("div");
 				loyalty.className = "pt";
-				loyalty.textContent = "[" + card_stats[12] + "]";
+				loyalty.textContent = "[" + card_stats.loyalty + "]";
 				text.appendChild(loyalty);
 			}
 
+			if(designer_notes && card_stats.designer_notes != null)
+			{
+				const dnotes = document.createElement("div");
+				dnotes.className = "designer-notes";
+				dnotes.innerHTML = "<u><b>Designer Notes</b></u>";
+				dnotes.innerHTML = dnotes.innerHTML + card_stats.designer_notes;
+				text.appendChild(dnotes);
+			}
+
 			// 13-name	14-color	15-type	16-ci	17-cost	18-ability	19-pt	20-special-text	21-loyalty
-			if(card_stats[10].includes("adventure") || card_stats[10].includes("double") || card_stats[10].includes("spli"))
+			if(card_stats.shape.includes("adventure") || card_stats.shape.includes("double") || card_stats.shape.includes("spli"))
 			{
 				const name_cost_2 = document.createElement("div");
 				name_cost_2.className = "name-cost";
-				name_cost_2.innerHTML = card_stats[13] + (card_stats[17] != "" ? '     ' + symbolize(card_stats[17]) : "");
+				name_cost_2.innerHTML = card_stats.card_name2 + (card_stats.cost2 != "" ? '     ' + symbolize(card_stats.cost2) : "");
 				text.appendChild(name_cost_2);
 
 				const type_2 = document.createElement("div");
 				type_2.className = "type";
-				type_2.textContent = card_stats[15];
+				type_2.textContent = card_stats.type2;
 				text.appendChild(type_2);
 
 				const effect_2 = document.createElement("div");
 				effect_2.className = "effect";
 				let card_effects_2 = "";
-				if (card_stats[18] != "")
+				if (card_stats.rules_text2 != "")
 				{
-					card_effects_2 = card_stats[18].split("NEWLINE");
-				}
-				else
-				{
-					card_effects_2 = card_stats[20].split("NEWLINE");
+					card_effects_2 = card_stats.rules_text2 + (card_stats.flavor_text2 != "[i][/i]" ? "\n" + "<hr class=\"ft-divider text-bg\">" + "\n" + card_stats.flavor_text2.replace('\n','<br>') : "");
+				} else {
+					card_effects_2 = "";
 				}
 				effect_2.innerHTML += prettifyEffects(card_effects_2);
 				text.appendChild(effect_2);
 
-				if(card_stats[19] != "")
+				if(card_stats.pt2 != "")
 				{
 					const pt_2 = document.createElement("div");
 					pt_2.className = "pt";
-					pt_2.textContent = card_stats[19];
+					pt_2.textContent = card_stats.pt2;
 					text.appendChild(pt_2);
 				}
-				else if (card_stats[21] != "")
+				else if (card_stats.loyalty2 != "")
 				{
 					const loyalty = document.createElement("div");
 					loyalty.className = "pt";
-					loyalty.textContent = "[" + card_stats[21] + "]";
+					loyalty.textContent = "[" + card_stats.loyalty2 + "]";
 					text.appendChild(loyalty);
 				}
 			}
@@ -612,81 +963,120 @@
 			return grid;
 		}
 
-		function buildImgContainer(card_stats) {
+		function buildImgContainer(card_stats, hidden_title = false, rotate_card = false) {
 			const imgContainer = document.createElement("div");
 			imgContainer.className = "img-container";
-			const id = card_stats[11] + "-" + card_stats[4] + "-" + document.getElementById("display").value;
+			const id = card_stats.set + "-" + card_stats.number + "-" + document.getElementById("display").value;
 
 			const img = document.createElement("img");
 			img.className = "card-image";
 			img.id = id;
 			// (card_stats[13].includes("_") ? card_stats[13] : card_stats[0]) for posterity
-			img.src = "/sets/" + card_stats[11] + "-files/img/" + card_stats[4] + (card_stats[3].includes("Token") ? "t_" : "_") + card_stats[0] + ((card_stats[10].includes("double")) ? "_front" : "") + ".png";
+			img.src = "/sets/" + card_stats.set + "-files/img/" + card_stats.number + (card_stats.shape.includes("token") ? "t_" : "_") + card_stats.card_name + ((card_stats.shape.includes("double")) ? "_front" : "") + "." + card_stats.image_type;
 			
 			const link = document.createElement("a");
-			let card_name = card_stats[0];
-			for (const char of specialchars)
-			{
-				card_name = card_name.replaceAll(char, "");
+			
+			const url = new URL('card', window.location.origin);
+			const params = {
+				set: card_stats.set,
+				num: card_stats.number,
+				name: card_stats.card_name
 			}
-			link.href = "/cards/" + card_stats[11] + "/" + card_stats[4] + "_" + card_name;
+			for (const key in params) {
+				url.searchParams.append(key, params[key]);
+			}
+			link.href = url;
+
 			link.appendChild(img);
+
+			if ((card_stats.shape.includes("spli") || card_stats.type.includes("Battle")) && rotate_card)
+			{
+				const rotated_img = document.createElement("img");
+				rotated_img.className = "h-img";
+				rotated_img.id = "h-img";
+				rotated_img.src = img.src;
+				rotated_img.style.display = "block";
+				img.style.filter = "blur(2px) brightness(0.7)";
+
+				link.appendChild(rotated_img);
+			}
+
 			imgContainer.appendChild(link);
 
-			if (card_stats[10].includes("double"))
+			if (card_stats.shape.includes("double"))
 			{
 				const imgFlipBtn = document.createElement("button");
 				imgFlipBtn.className = "btn";
-				imgFlipBtn.onclick = function() { imgFlip(id); };
+				imgFlipBtn.onclick = function() { imgFlip(id, rotate_card); };
 				imgContainer.appendChild(imgFlipBtn);
+			}
+
+			if (hidden_title)
+			{
+				const title = document.createElement("div");
+				title.innerText = card_stats.card_name;
+				title.className = "hidden-text";
+				imgContainer.appendChild(title);
 			}
 
 			return imgContainer;
 		}
 
-		function imgFlip(id) {
-			cardToFlip = document.getElementById(id);
-			cardName = cardToFlip.src;
-			
-			cardToFlip.src = cardName.includes("_front") ? cardName.replace("_front", "_back") : cardName.replace("_back", "_front");
-		}
+		function imgFlip(id, rotate_card = false) { // comments in here by aanginer
+            const img = document.getElementById(id);
+            const seconds = 0.2; // adjust this as needed, this is half of the animation time
 
-		function prettifyEffects(card_effects) {
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(90deg)"; // rotate 90 degrees
+
+            setTimeout(function() { // wait for the rotation, then set the image's src correctly
+                const rotated_img = document.getElementById("h-img");
+
+                const cardName = img.src;
+                
+                if (cardName.includes("_front"))
+                {
+                    img.src = cardName.replace("_front", "_back");
+
+                    if (rotate_card)
+                    {
+                        rotated_img.style.display = "none";
+                        img.style.filter = "";
+                    }
+                }
+                else
+                {
+                    img.src = cardName.replace("_back", "_front");
+
+                    if (rotate_card)
+                    {
+                        rotated_img.style.display = "block";
+                        img.style.filter = "blur(2px) brightness(0.7)";
+                    }
+                }
+
+                img.style.transition = (seconds * 2).toString() + "s"; // idk why we have to double the time but it works
+                img.style.transform = "rotateY(0deg)";
+            }, seconds * 1000);
+        }
+
+		function prettifyEffects(card_effect) {
 			let HTML = "";
+
+			let styled_effect = card_effect.replace(/(\[i\])+(.+?)(\[\/i\])+/gs, function(matched, _1, _2) {
+				return '<i>' + _2 + '</i>'
+			}).replaceAll(/(\[b\])+(.+?)(\[\/b\])+/gs, function(matched, _1, _2) {
+				return '<b>' + _2 + '</b>'
+			});
+
+			let card_effects = styled_effect.split("\n");
 
 			for (let i = 0; i < card_effects.length; i++)
 			{
-				let styled_effect = card_effects[i].replaceAll("(","<i>(").replaceAll(")",")</i>");
-
-				if (styled_effect.includes("—") && !styled_effect.toLowerCase().includes("choose"))
-				{
-					styled_effect = "<i>" + styled_effect.replace("—", "—</i>");
-				}
-
-				HTML += styled_effect;
-
-				if (i != card_effects.length - 1)
-				{
-					HTML += "<br>"
-				}
+				HTML += "<p>" + card_effects[i] + "</p>";
 			}
-
-			let pattern1 = /([0-9X]*[WUBRGCT/]+)([ :,\.<]|$)/g;
-			let pattern2 = /(?<![a-z] |\/[0-9X]*)([0-9X]+)([:,]| <i>\()/g;
-			let pattern3 = /([Pp]ay[s]* |[Cc]ost[s]* |[Ww]ard )([0-9X])(?! life)/g;
-			let pattern4 = /(Equip [^(<]*)([0-9XWUBRGC/]+)/g;
-			let regexHTML = HTML.replace(pattern1, function (match, group1, group2) {
-				return symbolize(group1) + group2;
-			});
-			regexHTML = regexHTML.replace(pattern2, function (match, group1, group2) {
-				return symbolize(group1) + group2;
-			});
-			regexHTML = regexHTML.replace(pattern3, function (match, group1, group2) {
-				return group1 + symbolize(group2);
-			});
-			regexHTML = regexHTML.replace(pattern4, function (match, group1, group2) {
-				return group1 + symbolize(group2);
-			});
+			
+			let regexHTML = symbolize(HTML);
 
 			return regexHTML;
 		}
@@ -699,18 +1089,26 @@
 		});
 
 		function search() {
-			window.location = ("/search?search=" + document.getElementById("search").value);
+			const url = new URL('search', window.location.origin);
+			url.searchParams.append('search', document.getElementById("search").value);
+			window.location.href = url;
 		}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-				let card_name = card_list_arrayified[i][0];
-				for (const char of specialchars)
-				{
-					card_name = card_name.replaceAll(char, "");
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
 				}
 
-				window.location = ('/cards/' + card_list_arrayified[i][11] + '/' + card_list_arrayified[i][4] + '_' + card_name);
+				window.location.href = url;
 			}
 	</script>
 </body>

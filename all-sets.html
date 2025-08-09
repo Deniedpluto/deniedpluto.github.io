@@ -7,8 +7,12 @@
 	</head>
 	<style>
 		@font-face {
-		  font-family: Beleren;
-		  src: url('/resources/beleren.ttf');
+			font-family: 'Beleren Small Caps';
+			src: url('/resources/beleren-caps.ttf');
+		}
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
 		}
 		body {
 			font-family: 'Helvetica', 'Arial', sans-serif;
@@ -16,6 +20,7 @@
 			margin: 0px;
 			background-color: #f3f3f3;
 			font-size: 20px;
+			padding-bottom: 30px;
 		}
 		a {
 			text-decoration: none;
@@ -26,8 +31,7 @@
 			max-width: 1000px;
 			display: grid;
 			grid-template-columns: 1fr;
-			padding-top: 50px;
-			padding-bottom: 40px;
+			padding-top: 20px;
 			margin: auto;
 		}
 		.set-header-row {
@@ -65,6 +69,12 @@
 			letter-spacing: .02em;
 			font-size: 22px;
 		}
+		.set-group {
+			font-family: Beleren Small Caps;
+			text-align: center;
+			font-size: 40px;
+			padding-top: 20px;
+		}
 	</style>
 	<body>
 		<div class="header">
@@ -73,35 +83,37 @@
 			<img class="sg-icon" src="/img/search.png">
 			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
 			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
 			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
 		</div>
-	</div>
-		<div class="set-table">
-		<div class="set-header-row">
-			<div></div> <!-- empty div for spacing -->
-			<div>NAME</div>
-			<div>CODE</div>
-			<div>CARDS</div>
-		</div>
-	
-		<a href="/sets/D&D" class="set-row"> 
-			<img src="/sets/D&D-files/icon.png">
-			<div class="set-title">Peter’s D&D</div>
-			<div>D&D</div>
-			<div>382</div>
-		</a>
+	</div>			<div class="set-group"></div>
 		
-		</div>
+			<div class="set-table">
+			<div class="set-header-row">
+				<div></div> <!-- empty div for spacing -->
+				<div>NAME</div>
+				<div>CODE</div>
+				<div>CARDS</div>
+			</div>
+		
+			<a href="/sets/D&D" class="set-row"> 
+				<img src="/sets/D&D-files/icon.png">
+				<div class="set-title">Peter’s D&D</div>
+				<div>D&D</div>
+				<div>382</div>
+			</a>
+			</div>
+		
 	<script>
 		let card_list_arrayified = [];
 		let specialchars = "";
 		let displayStyle = "";
 
 		document.addEventListener("DOMContentLoaded", async function () {
-			await fetch('/lists/all-cards.txt')
-					.then(response => response.text())
-					.then(text => {
-						card_list_stringified = text;
+			await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
 				await fetch('/resources/replacechars.txt')
@@ -110,12 +122,7 @@
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
-				card_list_arrayified = card_list_stringified.split('\\n');
-
-				for (let i = 0; i < card_list_arrayified.length; i++)
-				{
-					card_list_arrayified[i] = card_list_arrayified[i].split('\t');
-				}
+				card_list_arrayified = card_list.cards;
 
 		});
 
@@ -131,18 +138,26 @@
 		});
 
 		function search() {
-			window.location = ("/search?search=" + document.getElementById("search").value);
+			const url = new URL('search', window.location.origin);
+			url.searchParams.append('search', document.getElementById("search").value);
+			window.location.href = url;
 		}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-				let card_name = card_list_arrayified[i][0];
-				for (const char of specialchars)
-				{
-					card_name = card_name.replaceAll(char, "");
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
 				}
 
-				window.location = ('/cards/' + card_list_arrayified[i][11] + '/' + card_list_arrayified[i][4] + '_' + card_name);
+				window.location.href = url;
 			}
 	</script>
 </body>
