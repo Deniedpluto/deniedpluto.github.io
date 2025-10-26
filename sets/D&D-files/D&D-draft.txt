@@ -107,7 +107,8 @@
 			"type": "Legendary Creature — Elf Bard",
 			"collector_number": "178",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/178_Leshanna, Lovestruck Bard.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/178_Leshanna, Lovestruck Bard.png",
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Wesley the Rescued.png"
 			}
 		},
 		{
@@ -257,7 +258,8 @@
 			"type": "Enchantment — Quest",
 			"collector_number": "147",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/147_Temple of Judgement.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/147_Temple of Judgement.png",
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Spear of Vhalimar.png"
 			}
 		},
 		{
@@ -267,7 +269,8 @@
 			"type": "Legendary Creature — Elf Monk",
 			"collector_number": "235",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/235_Mazzer, Protected.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/235_Mazzer, Protected.png",
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Mazzer, The Rat King.png"
 			}
 		},
 		{
@@ -321,16 +324,6 @@
 			}
 		},
 		{
-			"name": "Cerberus",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Legendary Token Creature — Wolf",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Cerberus.png"
-			}
-		},
-		{
 			"name": "Phaedra the Seeker",
 			"rarity": "special",
 			"mana_cost": "{2}{W}",
@@ -358,16 +351,6 @@
 			"collector_number": "275",
 			"image_uris": {
 				"en": "https://deniedpluto.github.io/sets/D&D-files/img/275_Master Jarreau.png"
-			}
-		},
-		{
-			"name": "Rowan, Faithful Squire",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Legendary Token Creature — Human Soldier",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Rowan, Faithful Squire.png"
 			}
 		},
 		{
@@ -1078,16 +1061,6 @@
 			"collector_number": "47",
 			"image_uris": {
 				"en": "https://deniedpluto.github.io/sets/D&D-files/img/47_Tundrayl the Pure.png"
-			}
-		},
-		{
-			"name": "Spear of Vhalimar",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Legendary Artifact — Equipment",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Spear of Vhalimar.png"
 			}
 		},
 		{
@@ -2061,33 +2034,14 @@
 			}
 		},
 		{
-			"name": "Wesley the Rescued",
-			"rarity": "special",
-			"mana_cost": "{1}{W}",
-			"type": "Legendary Creature — Human Fighter",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Wesley the Rescued.png"
-			}
-		},
-		{
-			"name": "Blessed Ent",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Creature — Treefolk",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Blessed Ent.png"
-			}
-		},
-		{
 			"name": "Trials of Thadenswel",
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment — Quest",
 			"collector_number": "46",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/46_Trials of Thadenswel.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/46_Trials of Thadenswel.png",
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Champions of Thadenswel.png"
 			}
 		},
 		{
@@ -2111,36 +2065,6 @@
 			}
 		},
 		{
-			"name": "Goblin Gang Leader",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Creature — Goblin",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Goblin Gang Leader.png"
-			}
-		},
-		{
-			"name": "Champions of Thadenswel",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Enchantment",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Champions of Thadenswel.png"
-			}
-		},
-		{
-			"name": "Inopportune Arrest",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Enchantment",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Inopportune Arrest.png"
-			}
-		},
-		{
 			"name": "Lady Aurelia",
 			"rarity": "special",
 			"mana_cost": "{3}{R}{G}",
@@ -2148,16 +2072,6 @@
 			"collector_number": "273",
 			"image_uris": {
 				"en": "https://deniedpluto.github.io/sets/D&D-files/img/273_Lady Aurelia.png"
-			}
-		},
-		{
-			"name": "Mazzer, The Rat King",
-			"rarity": "special",
-			"mana_cost": "{2}{U}{B}",
-			"type": "Legendary Creature — Human Rat Monk",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Mazzer, The Rat King.png"
 			}
 		},
 		{
@@ -3597,7 +3511,8 @@
 			"type": "Enchantment — Quest",
 			"collector_number": "71",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/71_Huff vs McDoogal.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/71_Huff vs McDoogal.png",
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Inopportune Arrest.png"
 			}
 		},
 		{
@@ -3607,7 +3522,9 @@
 			"type": "Enchantment — Quest",
 			"collector_number": "169",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/169_Goblin Raid.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/169_Goblin Raid.png",
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Goblin Gang Leader.png"
+
 			}
 		},
 		{
@@ -3617,7 +3534,8 @@
 			"type": "Enchantment — Quest",
 			"collector_number": "213",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/213_Cleanse the Fanes.png"
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img/213_Cleanse the Fanes.png",
+				"en": "https://deniedpluto.github.io/sets/D&D-files/img//0_Blessed Ent.png"
 			}
 		},
 		{
@@ -3855,11 +3773,9 @@
 	1 Kirk of Clan Daardendrian
 	1 Namfoodle Stumbleduck
 	1 Garmin, Beast's Companion
-	1 Cerberus
 	1 Phaedra the Seeker
 	1 Blade of Olethros
 	1 Master Jarreau
-	1 Rowan, Faithful Squire
 	1 Beatrix, Wily Herbalist
 	1 Nicki, Swashbuckler
 	1 Tammer, Reclusive Scholar
@@ -3931,7 +3847,6 @@
 	1 Dayvroass the Haunted
 	1 Nydissia the Protector
 	1 Tundrayl the Pure
-	1 Spear of Vhalimar
 	1 Captain Morro
 	1 Lydia Brooks
 	1 Hundral the Voiceless
@@ -4029,16 +3944,10 @@
 	1 Hyrum, Last Refuge
 	1 Reject
 	1 Strahd Von Zarovich
-	1 Wesley the Rescued
-	1 Blessed Ent
 	1 Trials of Thadenswel
 	1 Cube of K'nezeret
 	1 Eye of Coelys
-	1 Goblin Gang Leader
-	1 Champions of Thadenswel
-	1 Inopportune Arrest
 	1 Lady Aurelia
-	1 Mazzer, The Rat King
 	1 Dire Wolf Pack
 	1 Sarana, Fists of Fury
 	1 Fleetfoot, Sharpshooter
