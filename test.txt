@@ -1,0 +1,23 @@
+[CustomCards]
+	[	{
+			"name": "Side A",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "cReature — fefe ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/Deniedpluto/deniedpluto.github.io/main/sets/D&D-files/imgSide A_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://raw.githubusercontent.com/Deniedpluto/deniedpluto.github.io/main/sets/D&D-files/imgSide A_back.png"
+				}
+			}
+		},
+		]
+	[WildcardSlot(14)]
+	10 Side A
+	[LandSlot(1)]
+	

@@ -108,7 +108,15 @@
 			"collector_number": "178",
 			"image_uris": {
 				"en": "https://deniedpluto.github.io/sets/D&D-files/img/178_Leshanna, Lovestruck Bard.png"
-            }
+            		},
+			"back": {
+				"name": "Wesley the Rescued",
+				"mana_cost": "{1}{W}"
+				"type": "Legendary Creature — Human Fighter",
+				"image_uris": {
+					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Wesley the Rescued.png"
+				}
+			}
 		},
 		{
 			"name": "Boomer",
@@ -258,6 +266,13 @@
 			"collector_number": "147",
 			"image_uris": {
 				"en": "https://deniedpluto.github.io/sets/D&D-files/img/147_Temple of Judgement.png"
+			},
+			"back": {
+				"name": "Spear of Vhalimar",
+				"type": "Legendary Artifact — Equipment",
+				"image_uris": {
+					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Spear of Vhalimar.png"
+				}
 			}
 		},
 		{
@@ -268,6 +283,14 @@
 			"collector_number": "235",
 			"image_uris": {
 				"en": "https://deniedpluto.github.io/sets/D&D-files/img/235_Mazzer, Protected.png"
+			},
+			"back": {
+				"name": "Mazzer, The Rat King",
+				"mana_cost": "{2}{U}{B}"
+				"type": "Legendary Creature — Elf Rat Monk",
+				"image_uris": {
+					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Mazzer, The Rat King.png"
+				}
 			}
 		},
 		{
@@ -2038,6 +2061,13 @@
 			"collector_number": "46",
 			"image_uris": {
 				"en": "https://deniedpluto.github.io/sets/D&D-files/img/46_Trials of Thadenswel.png"
+			},
+			"back": {
+				"name": "Champions of Thadenswel",
+				"type": "Enchantment",
+				"image_uris": {
+					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Champions of Thadenswel.png"
+				}
 			}
 		},
 		{
@@ -3508,6 +3538,13 @@
 			"collector_number": "71",
 			"image_uris": {
 				"en": "https://deniedpluto.github.io/sets/D&D-files/img/71_Huff vs McDoogal.png"
+			},
+			"back": {
+				"name": "Inopportune Arrest",
+				"type": "Enchantment",
+				"image_uris": {
+					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Inopportune Arrest.png"
+				}
 			}
 		},
 		{
@@ -3519,6 +3556,13 @@
 			"image_uris": {
 				"en": "https://deniedpluto.github.io/sets/D&D-files/img/169_Goblin Raid.png"
 
+			},
+			"back": {
+				"name": "Goblin Gang Leader",
+				"type": "Creature — Goblin",
+				"image_uris": {
+					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Goblin Gang Leader.png"
+				}
 			}
 		},
 		{
@@ -3529,6 +3573,13 @@
 			"collector_number": "213",
 			"image_uris": {
 				"en": "https://deniedpluto.github.io/sets/D&D-files/img/213_Cleanse the Fanes.png"
+			},
+			"back": {
+				"name": "Blessed Ent",
+				"type": "Creature — Treefolk",
+				"image_uris": {
+					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Blessed Ent.png"
+				}
 			}
 		},
 		{
