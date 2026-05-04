@@ -1,0 +1,259 @@
+﻿[
+    {
+        "card_name": "March of the the Dead",
+        "number": 1,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "Arabel, Seer Prodigy",
+        "number": 2,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "Blinksy, Toymaker",
+        "number": 4,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Scrying",
+        "number": 3,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "Book of Victims",
+        "number": 5,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Dark Gift",
+        "number": 6,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Drown in the Lake",
+        "number": 7,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Revenant",
+        "number": 8,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Vampire Spawn",
+        "number": 9,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Vladimir & Godfrey, Reunited",
+        "number": 10,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Strahd Von Zarovich",
+        "number": 12,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Zas, Barbarian Scholar",
+        "number": 13,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "Clif, Chilled Tortle",
+        "number": 14,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Minnesota, Impulsive Planner",
+        "number": 11,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Harlston, Grappling Pugilist",
+        "number": 15,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Animated Armor",
+        "number": 16,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "Zas's Battleaxe",
+        "number": 17,
+        "shape": "normal",
+        "set": "CoS"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

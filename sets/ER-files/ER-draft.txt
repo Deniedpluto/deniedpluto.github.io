@@ -1,0 +1,718 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Rowan, Faithful Squire",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Token Creature — Human Soldier",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/1_Rowan, Faithful Squire.png"
+			}
+		},
+		{
+			"name": "Wesley the Rescued",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human Fighter",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/0_Wesley the Rescued.png"
+			}
+		},
+		{
+			"name": "Armor of Aleana",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/1_Armor of Aleana.png"
+			}
+		},
+		{
+			"name": "Goblin Gang Leader",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Creature — Goblin",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/0_Goblin Gang Leader.png"
+			}
+		},
+		{
+			"name": "Cerberus",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Token Creature — Wolf",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/20_Cerberus.png"
+			}
+		},
+		{
+			"name": "Mazzer, The Rat King",
+			"rarity": "special",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Creature — Human Rat Monk",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/30_Mazzer, The Rat King.png"
+			}
+		},
+		{
+			"name": "Captain Morro",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Human Soldier",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/2_Captain Morro.png"
+			}
+		},
+		{
+			"name": "Carmen, Pious Knight",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Giant Paladin",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/3_Carmen, Pious Knight.png"
+			}
+		},
+		{
+			"name": "Kirk of Clan Daardendrian",
+			"rarity": "special",
+			"mana_cost": "{3}{W}",
+			"type": "Legendary Creature — Dragon Paladin",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/4_Kirk of Clan Daardendrian.png"
+			}
+		},
+		{
+			"name": "Lord Chuck Gavelston",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/5_Lord Chuck Gavelston.png"
+			}
+		},
+		{
+			"name": "Manticore",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Manticore",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/2_Manticore.png"
+			}
+		},
+		{
+			"name": "Spear of Vhalimar",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/0_Spear of Vhalimar.png"
+			}
+		},
+		{
+			"name": "Paeter, Foolish Monk",
+			"rarity": "special",
+			"mana_cost": "{W}",
+			"type": "Legendary Creature — Human Monk",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/6_Paeter, Foolish Monk.png"
+			}
+		},
+		{
+			"name": "Phaedra the Seeker",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Tiefling Paladin",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/7_Phaedra the Seeker.png"
+			}
+		},
+		{
+			"name": "Taj, Glittering Thief",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Tabaxi Rogue",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/8_Taj, Glittering Thief.png"
+			}
+		},
+		{
+			"name": "Lydia Brooks",
+			"rarity": "special",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Human Cleric",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/9_Lydia Brooks.png"
+			}
+		},
+		{
+			"name": "The Black Glove",
+			"rarity": "special",
+			"mana_cost": "{B}",
+			"type": "Legendary Artifact",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/10_The Black Glove.png"
+			}
+		},
+		{
+			"name": "Hundral the Voiceless",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Dwarf Fighter",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/12_Hundral the Voiceless.png"
+			}
+		},
+		{
+			"name": "Bron, Dastardly Thief",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/11_Bron, Dastardly Thief.png"
+			}
+		},
+		{
+			"name": "Nighttime Ambush",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/3_Nighttime Ambush.png"
+			}
+		},
+		{
+			"name": "Temple of Judgement",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Quest",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/4_Temple of Judgement.png"
+			}
+		},
+		{
+			"name": "Captain Ryo",
+			"rarity": "special",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Elf Pirate",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/13_Captain Ryo.png"
+			}
+		},
+		{
+			"name": "Crown of Giants",
+			"rarity": "special",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/5_Crown of Giants.png"
+			}
+		},
+		{
+			"name": "Eye of Coelys",
+			"rarity": "special",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Enchantment Artifact",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/6_Eye of Coelys.png"
+			}
+		},
+		{
+			"name": "Fondael the Bloodied",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Dwarf Fighter",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/14_Fondael the Bloodied.png"
+			}
+		},
+		{
+			"name": "Goblin Raid",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Quest",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/7_Goblin Raid.png"
+			}
+		},
+		{
+			"name": "Goblin Raid Runner",
+			"rarity": "special",
+			"mana_cost": "{R}",
+			"type": "Creature — Goblin",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/8_Goblin Raid Runner.png"
+			}
+		},
+		{
+			"name": "Guantlets of the Storm",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/10_Guantlets of the Storm.png"
+			}
+		},
+		{
+			"name": "Goblin War-Rider",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Goblin Dinosaur",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/9_Goblin War-Rider.png"
+			}
+		},
+		{
+			"name": "Leshanna, Lovestruck Bard",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Elf Bard",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/15_Leshanna, Lovestruck Bard.png"
+			}
+		},
+		{
+			"name": "Lodaec, Tyrant King",
+			"rarity": "special",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Dwarf Lord",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/16_Lodaec, Tyrant King.png"
+			}
+		},
+		{
+			"name": "Mining Contract",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/11_Mining Contract.png"
+			}
+		},
+		{
+			"name": "Mining Dwarf",
+			"rarity": "special",
+			"mana_cost": "{R}",
+			"type": "Creature — Dwarf",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/12_Mining Dwarf.png"
+			}
+		},
+		{
+			"name": "Nicki, Swashbuckler",
+			"rarity": "special",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Human Pirate",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/17_Nicki, Swashbuckler.png"
+			}
+		},
+		{
+			"name": "Nicki's Blade",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/13_Nicki's Blade.png"
+			}
+		},
+		{
+			"name": "Xurug the Avenger",
+			"rarity": "special",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Human Orc Barbarian",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/18_Xurug the Avenger.png"
+			}
+		},
+		{
+			"name": "Zazzid, Chosen of Coelys",
+			"rarity": "special",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Creature — Orc Barbarian",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/19_Zazzid, Chosen of Coelys.png"
+			}
+		},
+		{
+			"name": "Chittering Spider",
+			"rarity": "special",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Spider",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/14_Chittering Spider.png"
+			}
+		},
+		{
+			"name": "Garmin, Beast's Companion",
+			"rarity": "special",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Halfling Ranger",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/21_Garmin, Beast's Companion.png"
+			}
+		},
+		{
+			"name": "Mazzer, Protected",
+			"rarity": "special",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Elf Monk",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/22_Mazzer, Protected.png"
+			}
+		},
+		{
+			"name": "Misha, Werebear Leader",
+			"rarity": "special",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Creature — Werebear",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/23_Misha, Werebear Leader.png"
+			}
+		},
+		{
+			"name": "Theo, Friendly Barkeep",
+			"rarity": "special",
+			"mana_cost": "{G}",
+			"type": "Legendary Creature — Human Citizen",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/24_Theo, Friendly Barkeep.png"
+			}
+		},
+		{
+			"name": "Werebear Amulet",
+			"rarity": "special",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact — Equipment",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/15_Werebear Amulet.png"
+			}
+		},
+		{
+			"name": "Werebear Warrior",
+			"rarity": "special",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Werebear",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/16_Werebear Warrior.png"
+			}
+		},
+		{
+			"name": "Adenar, Willful Protector",
+			"rarity": "special",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Creature — Aasimar Wizard",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/25_Adenar, Willful Protector.png"
+			}
+		},
+		{
+			"name": "Beatrix, Wily Herbalist",
+			"rarity": "special",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Planeswalker — Beatrix",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/17_Beatrix, Wily Herbalist.png"
+			}
+		},
+		{
+			"name": "Boomer",
+			"rarity": "special",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Bird Wizard",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/26_Boomer.png"
+			}
+		},
+		{
+			"name": "Gyles, Forgetful Hermit",
+			"rarity": "special",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/27_Gyles, Forgetful Hermit.png"
+			}
+		},
+		{
+			"name": "Klaarrrgggg, Affable Bugbear",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Creature — Goblin Barbarian",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/28_Klaarrrgggg, Affable Bugbear.png"
+			}
+		},
+		{
+			"name": "Kraigg, Friendly Troll",
+			"rarity": "special",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Legendary Creature — Troll",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/29_Kraigg, Friendly Troll.png"
+			}
+		},
+		{
+			"name": "Master Jarreau",
+			"rarity": "special",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Planeswalker — Jarreau",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/18_Master Jarreau.png"
+			}
+		},
+		{
+			"name": "Vhalimar, Forsaken Angel",
+			"rarity": "special",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Creature — Aasimar Warlock",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/19_Vhalimar, Forsaken Angel.png"
+			}
+		},
+		{
+			"name": "Bulgan, Raging Battler",
+			"rarity": "special",
+			"mana_cost": "{2}{R/G}{R/G}",
+			"type": "Legendary Creature — Orc Barbarian",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/31_Bulgan, Raging Battler.png"
+			}
+		},
+		{
+			"name": "Donar, Tragic Hero",
+			"rarity": "special",
+			"mana_cost": "{1}{W/U}",
+			"type": "Legendary Creature — Human Cleric",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/32_Donar, Tragic Hero.png"
+			}
+		},
+		{
+			"name": "Kriv, Champion of Heroes",
+			"rarity": "special",
+			"mana_cost": "{3}{R/W}{R/W}",
+			"type": "Legendary Creature — Dragon Paladin",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/33_Kriv, Champion of Heroes.png"
+			}
+		},
+		{
+			"name": "The Ledger",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{U/B}{B}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/34_The Ledger.png"
+			}
+		},
+		{
+			"name": "Mathias, Cursed of Urobu",
+			"rarity": "special",
+			"mana_cost": "{2}{W/B}",
+			"type": "Legendary Creature — Elf Ranger",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/35_Mathias, Cursed of Urobu.png"
+			}
+		},
+		{
+			"name": "Milde, Faithful Assistant",
+			"rarity": "special",
+			"mana_cost": "{1}{G/W}",
+			"type": "Legendary Creature — Human Citizen",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/36_Milde, Faithful Assistant.png"
+			}
+		},
+		{
+			"name": "Namfoodle Stumbleduck",
+			"rarity": "special",
+			"mana_cost": "{2}{U/R}",
+			"type": "Legendary Creature — Gnome Wizard",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/37_Namfoodle Stumbleduck.png"
+			}
+		},
+		{
+			"name": "The Professor",
+			"rarity": "special",
+			"mana_cost": "{2}{B/G}",
+			"type": "Legendary Creature — Human Wizard",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/38_The Professor.png"
+			}
+		},
+		{
+			"name": "Blade of Olethros",
+			"rarity": "special",
+			"mana_cost": "{5}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/39_Blade of Olethros.png"
+			}
+		},
+		{
+			"name": "Monument of Heroes",
+			"rarity": "special",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/20_Monument of Heroes.png"
+			}
+		},
+		{
+			"name": "Samuel, Sentient Mask",
+			"rarity": "special",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact Creature — Contruct",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/40_Samuel, Sentient Mask.png"
+			}
+		},
+		{
+			"name": "Soul Eater",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/41_Soul Eater.png"
+			}
+		},
+		{
+			"name": "Banden Docks",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Island",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/42_Banden Docks.png"
+			}
+		},
+		{
+			"name": "Hyathyr",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Forest",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/43_Hyathyr.png"
+			}
+		},
+		{
+			"name": "Korolduhr",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Mountain",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/44_Korolduhr.png"
+			}
+		},
+		{
+			"name": "Manticore Tower",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Plains",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/45_Manticore Tower.png"
+			}
+		},
+		{
+			"name": "Old Falden",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Swamp",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/ER-files/img/46_Old Falden.png"
+			}
+		}
+	]
+
+[cube(15)]
+	1 Wesley the Rescued
+	1 Armor of Aleana
+	1 Goblin Gang Leader
+	1 Manticore
+	1 Spear of Vhalimar
+	1 Nighttime Ambush
+	1 Temple of Judgement
+	1 Crown of Giants
+	1 Eye of Coelys
+	1 Goblin Raid
+	1 Goblin Raid Runner
+	1 Guantlets of the Storm
+	1 Goblin War-Rider
+	1 Mining Contract
+	1 Mining Dwarf
+	1 Nicki's Blade
+	1 Chittering Spider
+	1 Werebear Amulet
+	1 Werebear Warrior
+	1 Beatrix, Wily Herbalist
+	1 Master Jarreau
+	1 Vhalimar, Forsaken Angel
+	1 Monument of Heroes

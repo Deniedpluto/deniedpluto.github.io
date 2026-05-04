@@ -1,0 +1,546 @@
+﻿VERSION 2 CHANGELOG
+====================
+
+
+
+Acolyte of Urobu
+
+Aleana's Chosen
+
+Aleana's Mercy
+
+Astral Prison
+
+Ayleia's Return
+
+Blessed Ent
+
+Binding of the Law
+
+Cadrea's Blessing
+
+Captain of the Guard
+
+Chief Inspector
+
+Cleric of Aleana
+
+Cube of K'nezeret
+
+Defend the Walls!
+
+Dispel Magic
+
+Divine Intervention
+
+Divine Smite
+
+Fly
+
+The Forge of War
+
+Gnome Technocrat
+
+Griffin Mount
+
+Kyrios the Creator
+
+Lady Ostrix
+
+Leonir, Acolyte of Lanu
+
+Moon Scythe
+
+Muster the Guard
+
+Noble Ward
+
+Reinforce
+
+Resistance Squad
+
+Ring of Etheria
+
+Rising Populace
+
+Sacred Flame
+
+Sarana, Fists of Fury
+
+Squad Commander
+
+Tax Accessor
+
+Teleportation Circle
+
+Town's Guard
+
+Tundrayl the Pure
+
+Urwin Brighstar, Guild Founder
+
+Wall Guard Recruiter
+
+Wartime Financier
+
+Acolyte of Vetys
+
+Cone of Cold
+
+Counterspell
+
+Cutting Words
+
+Death of the Oracle
+
+Dimension Door
+
+Divination
+
+Dominate Monster
+
+Draconic Ascent
+
+Fane of the River
+
+The Forge of Spells
+
+Gift of Vetys
+
+Grappling Octopus
+
+Guard Drake
+
+High Priest Kaaladeth
+
+Hueick, Susceptible Youth
+
+Huff vs McDoogal
+
+Invisibility
+
+Invoke Duplicity
+
+Jimmy Beanz
+
+King Da'aroc
+
+Library of Vetys
+
+Oracle's Insight
+
+Pierce the Veil
+
+Professor Arden
+
+Protection from Evil and Good
+
+Reject
+
+Sahuaghin
+
+Sahuaghin Artillerist
+
+Sahuaghin Commander
+
+Sahuaghin Fury
+
+Saw it Coming
+
+Tathys's Silencer
+
+Tidal Wave
+
+Treasure Diver
+
+Tsunami
+
+Umbra
+
+Wall of Force
+
+Ylbor the Lazy
+
+Young Flayer
+
+Zunam, Fate Favored
+
+Secrets of Tathys
+
+Blood Magic
+
+Blood Ritual
+
+Blue Flame Candle
+
+Charles
+
+Cleanse the Bloodlines
+
+Dayvroass the Haunted
+
+Death Druid
+
+Desecrate the Temple
+
+Devilish Imp
+
+Dictate of Urobu
+
+Draconic Purge
+
+Dungeon Skeleton
+
+Eliath, Doomed Fighter
+
+Fama's Talon
+
+Gildling
+
+Hag Coven
+
+Hellish Rebuke
+
+Inflict Wounds
+
+Lanu's Intervention
+
+Mark for Death
+
+Necromancer's Apprentice
+
+Night of Consuming Darkness
+
+Olar, The Broken Arrow
+
+Olethros the Destroyer
+
+Remove Curse
+
+Ritual Sacrifice
+
+Shaedrun, the Necromancer
+
+Shaedrun's Gambit
+
+Shambling Necromass
+
+Soul Diversion
+
+Spare the Dying
+
+Staff of the Blightree
+
+Undead Elk
+
+Blessing of Alyra
+
+Caelys's Favor
+
+Coelys Fantatic
+
+Coelys's Ire
+
+Drachenjäger
+
+Dragon's Fire
+
+Drink it Down
+
+Fane of the Mountain
+
+Fire Bolt
+
+Fireball
+
+The Forge of Elements
+
+Fulcrum
+
+Fury of the Gods
+
+Gniess, Stonecutter Prime
+
+Goblins of the Red Hand
+
+The Halcyon
+
+Idryyth the Flamebringer
+
+Kythr, Sorrow's Mark
+
+Lord Maalas
+
+Magic Missile
+
+Malaas War Marshall
+
+Malaasan Emissary
+
+Malaasan Pick-Axe
+
+Mine Collapse
+
+Price of Loyalty
+
+The Prosperity
+
+Rovari, Magic Weaver
+
+Scorching Ray
+
+Scyruss, Forge Master
+
+Wardog
+
+The Wiggumstaff Incident
+
+Worker's Union
+
+Wrathful Smite
+
+Acolyte of Aranya
+
+Adolescent Dragon
+
+Ara, Reknown Scout
+
+Aranya's Adept
+
+Aranya's Intervention
+
+Aurelia's Elites
+
+Basilisk
+
+Blessings of the Mothertree
+
+Boon of Aranya
+
+Boon of Fama
+
+Caravan Raid
+
+Cleanse the Fanes
+
+Command — Duel
+
+Conjure Animals
+
+Coordinated Assault
+
+Death Ward
+
+Dire Wolf Pack
+
+Elf Scout
+
+Elven Elder
+
+Elven Warmaster
+
+Enlarge
+
+Ewiard, Lord of the Hunt
+
+Fane of the Forest
+
+Fleetfoot, Sharpshooter
+
+The Forge of Life
+
+Glamstol, Crafty Herbalist
+
+Grasping Vegetation
+
+Karda, Revolutionary
+
+King Saakala
+
+Kruthik Swarm
+
+Kruthik Tunneler
+
+Life Cleric
+
+Nydissia the Protector
+
+Owlbear
+
+Planar Portal
+
+Song of Alyra
+
+Staff of the Mothertree
+
+Unchecked Aggression
+
+Volley of Arrows
+
+Wildshape — Bear
+
+Wildshape — Spider
+
+Wyvern Toxin
+
+Yanna the Ill-Fated
+
+Aipa the Ancient
+
+Arrynth, Lord of Death
+
+Ayleia Progenitor
+
+Captain Lebrode
+
+Dryad Grove
+
+Emir, Fists of Fury
+
+Explore the Outlands
+
+Granite, Elos' Vengeance
+
+His Opulence IV
+
+Hyrum, Last Refuge
+
+Irdel the Pursued
+
+Justice, Reborn
+
+Keldath the Scourge
+
+Kinzine the Lifegiver
+
+Lady Aurelia
+
+Pyrrydoss the Unbroken
+
+Syosa, Raving Dragon
+
+Tammer, Reclusive Scholar
+
+Vas Asareen
+
+Aleana, Faith's Shield
+
+Alyra, Oracle's Muse
+
+Aranya, Nature's Queen
+
+Blessing of the Moon
+
+Bressio and Vynne, Twins
+
+Cadrea, God of the Forge
+
+Caelys the Gilded
+
+Chaos Bolt
+
+Coelys, Chaos Incarnate
+
+Elos, God of War
+
+Fama, Assassin Favored
+
+Lanu, Moon Trickster
+
+Sorsha, Restrained
+
+Tathys, Keeper of Secrets
+
+Urobu, Judge of Souls
+
+Vetys, Beacon of Knowledge
+
+Soul Steel Dagger
+
+The Abyss
+
+The Abyss
+
+Bastion
+
+Bastion
+
+The Beacon
+
+The Beacon
+
+The Blightlands
+
+The Blightlands
+
+The Cataclysm
+
+The Cataclysm
+
+Corpsewood
+
+Corpsewood
+
+Eislessi Isle
+
+Eislessi Isle
+
+Et'limi'dak
+
+Et'limi'dak
+
+Ikbarre Marshes
+
+Ikbarre Marshes
+
+Kavedii Islands
+
+Kavedii Islands
+
+Lake Dorn
+
+Lake Dorn
+
+Misty Isles
+
+Misty Isles
+
+The Moon Grove
+
+The Moon Grove
+
+The Nether
+
+The Nether
+
+Ovauto Forest
+
+Ovauto Forest
+
+Revalia
+
+Revalia
+
+Shattered Peaks
+
+Shattered Peaks
+
+The Tumult
+
+The Tumult
+
+Upper Iron Pass
+
+Upper Iron Pass
+
+The Wilds
+
+The Wilds
+
+Mysterious Benefactor
+
+
+VERSION 1 CHANGELOG
+====================
+
+First version published.

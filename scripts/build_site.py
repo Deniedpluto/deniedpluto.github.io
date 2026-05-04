@@ -5,17 +5,17 @@ import json
 import glob
 import re
 
-import image_flip
-import card_edge_trimmer
-import list_to_list
-import print_draft_file
-import print_html_for_index
-import print_html_for_search
-import print_html_for_preview
-import print_html_for_card
-import print_html_for_set
-import print_html_for_sets_page
-import print_html_for_deckbuilder
+from scripts import image_flip
+from scripts import card_edge_trimmer
+from scripts import list_to_list
+from scripts import print_draft_file
+from scripts import print_html_for_index
+from scripts import print_html_for_search
+from scripts import print_html_for_preview
+from scripts import print_html_for_card
+from scripts import print_html_for_set
+from scripts import print_html_for_sets_page
+from scripts import print_html_for_deckbuilder
 
 import markdown
 

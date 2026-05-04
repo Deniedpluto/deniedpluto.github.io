@@ -1,0 +1,192 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "March of the the Dead",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/1_March of the the Dead.png"
+			}
+		},
+		{
+			"name": "Arabel, Seer Prodigy",
+			"rarity": "special",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/2_Arabel, Seer Prodigy.png"
+			}
+		},
+		{
+			"name": "Scrying",
+			"rarity": "special",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/3_Scrying.png"
+			}
+		},
+		{
+			"name": "Blinksy, Toymaker",
+			"rarity": "special",
+			"mana_cost": "{B}",
+			"type": "Legendary Creature — Human Artificer",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/4_Blinksy, Toymaker.png"
+			}
+		},
+		{
+			"name": "Book of Victims",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Artifact",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/5_Book of Victims.png"
+			}
+		},
+		{
+			"name": "Dark Gift",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/6_Dark Gift.png"
+			}
+		},
+		{
+			"name": "Drown in the Lake",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/7_Drown in the Lake.png"
+			}
+		},
+		{
+			"name": "Revenant",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie Paladin",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/8_Revenant.png"
+			}
+		},
+		{
+			"name": "Vampire Spawn",
+			"rarity": "special",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Vampire",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/9_Vampire Spawn.png"
+			}
+		},
+		{
+			"name": "Vladimir & Godfrey, Reunited",
+			"rarity": "special",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Creature — Zombie Paladin",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/10_Vladimir & Godfrey, Reunited.png"
+			}
+		},
+		{
+			"name": "Minnesota, Impulsive Planner",
+			"rarity": "special",
+			"mana_cost": "{U}{R}",
+			"type": "Legendary Creature — Human Wizard",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/11_Minnesota, Impulsive Planner.png"
+			}
+		},
+		{
+			"name": "Strahd Von Zarovich",
+			"rarity": "special",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Legendary Creature — Vampire Wizard",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/12_Strahd Von Zarovich.png"
+			}
+		},
+		{
+			"name": "Zas, Barbarian Scholar",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Creature — Orc Barbarian",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/13_Zas, Barbarian Scholar.png"
+			}
+		},
+		{
+			"name": "Clif, Chilled Tortle",
+			"rarity": "special",
+			"mana_cost": "{2}{G/W}",
+			"type": "Legendary Creature — Turtle Cleric",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/14_Clif, Chilled Tortle.png"
+			}
+		},
+		{
+			"name": "Harlston, Grappling Pugilist",
+			"rarity": "special",
+			"mana_cost": "{3}{R/W}",
+			"type": "Legendary Creature — Dwarf Fighter",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/15_Harlston, Grappling Pugilist.png"
+			}
+		},
+		{
+			"name": "Animated Armor",
+			"rarity": "special",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/16_Animated Armor.png"
+			}
+		},
+		{
+			"name": "Zas's Battleaxe",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/17_Zas's Battleaxe.png"
+			}
+		}
+	]
+
+[cube(15)]
+	1 March of the the Dead
+	1 Arabel, Seer Prodigy
+	1 Scrying
+	1 Blinksy, Toymaker
+	1 Book of Victims
+	1 Dark Gift
+	1 Drown in the Lake
+	1 Revenant
+	1 Vampire Spawn
+	1 Vladimir & Godfrey, Reunited
+	1 Minnesota, Impulsive Planner
+	1 Strahd Von Zarovich
+	1 Zas, Barbarian Scholar
+	1 Clif, Chilled Tortle
+	1 Harlston, Grappling Pugilist
+	1 Animated Armor
+	1 Zas's Battleaxe

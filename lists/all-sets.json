@@ -1,8 +1,28 @@
 ﻿{
     "sets": [
         {
+            "set_code": "CEP",
+            "set_name": "The Formidable Five",
+            "formats": ""
+        },
+        {
+            "set_code": "CoS",
+            "set_name": "Curse of Strahd",
+            "formats": ""
+        },
+        {
             "set_code": "D&D",
             "set_name": "Peter\u2019s D&D",
+            "formats": ""
+        },
+        {
+            "set_code": "ER",
+            "set_name": "Eastern Reach",
+            "formats": ""
+        },
+        {
+            "set_code": "TLD",
+            "set_name": "The Legendary Defenders",
             "formats": ""
         }
     ]
