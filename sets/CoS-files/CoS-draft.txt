@@ -7,7 +7,7 @@
 			"type": "Instant",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/1_March of the the Dead.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/March of the the Dead.png"
 			}
 		},
 		{
@@ -17,7 +17,7 @@
 			"type": "Legendary Creature — Human",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/2_Arabel, Seer Prodigy.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Arabel, Seer Prodigy.png"
 			}
 		},
 		{
@@ -27,7 +27,7 @@
 			"type": "Instant",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/3_Scrying.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Scrying.png"
 			}
 		},
 		{
@@ -37,7 +37,7 @@
 			"type": "Legendary Creature — Human Artificer",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/4_Blinksy, Toymaker.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Blinksy, Toymaker.png"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/5_Book of Victims.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Book of Victims.png"
 			}
 		},
 		{
@@ -57,7 +57,7 @@
 			"type": "Enchantment",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/6_Dark Gift.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Dark Gift.png"
 			}
 		},
 		{
@@ -67,7 +67,7 @@
 			"type": "Sorcery",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/7_Drown in the Lake.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Drown in the Lake.png"
 			}
 		},
 		{
@@ -77,7 +77,7 @@
 			"type": "Creature — Zombie Paladin",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/8_Revenant.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Revenant.png"
 			}
 		},
 		{
@@ -87,7 +87,7 @@
 			"type": "Creature — Vampire",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/9_Vampire Spawn.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Vampire Spawn.png"
 			}
 		},
 		{
@@ -97,7 +97,7 @@
 			"type": "Legendary Creature — Zombie Paladin",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/10_Vladimir & Godfrey, Reunited.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Vladimir & Godfrey, Reunited.png"
 			}
 		},
 		{
@@ -107,7 +107,7 @@
 			"type": "Legendary Creature — Human Wizard",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/11_Minnesota, Impulsive Planner.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Minnesota, Impulsive Planner.png"
 			}
 		},
 		{
@@ -117,7 +117,7 @@
 			"type": "Legendary Creature — Vampire Wizard",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/12_Strahd Von Zarovich.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Strahd Von Zarovich.png"
 			}
 		},
 		{
@@ -127,7 +127,7 @@
 			"type": "Legendary Creature — Orc Barbarian",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/13_Zas, Barbarian Scholar.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Zas, Barbarian Scholar.png"
 			}
 		},
 		{
@@ -137,7 +137,7 @@
 			"type": "Legendary Creature — Turtle Cleric",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/14_Clif, Chilled Tortle.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Clif, Chilled Tortle.png"
 			}
 		},
 		{
@@ -147,7 +147,7 @@
 			"type": "Legendary Creature — Dwarf Fighter",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/15_Harlston, Grappling Pugilist.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Harlston, Grappling Pugilist.png"
 			}
 		},
 		{
@@ -157,7 +157,7 @@
 			"type": "Artifact Creature — Construct",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/16_Animated Armor.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Animated Armor.png"
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/17_Zas's Battleaxe.png"
+				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Zas's Battleaxe.png"
 			}
 		}
 	]

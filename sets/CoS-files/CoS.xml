@@ -12,7 +12,7 @@
 		<card>
 			<name>March of the the Dead</name>
 			<text>Creatures you control get afterlife 1. (Whenever that creature dies, create a 1/1 white and black Spirit creature token with flying.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/1_March of the the Dead.png" num="1">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/March of the the Dead.png" num="1">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -28,7 +28,7 @@
 		<card>
 			<name>Arabel, Seer Prodigy</name>
 			<text>When Arabel or another legendary creature enters the battlefield, scry 1.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/2_Arabel, Seer Prodigy.png" num="2">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Arabel, Seer Prodigy.png" num="2">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -45,7 +45,7 @@
 		<card>
 			<name>Scrying</name>
 			<text>Draw 3 cards, then put two cards from your hand on top of your library in any order.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/3_Scrying.png" num="3">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Scrying.png" num="3">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -61,7 +61,7 @@
 		<card>
 			<name>Blinksy, Toymaker</name>
 			<text>{B}, {T}, Pay 1 life: Create a treasure token</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/4_Blinksy, Toymaker.png" num="4">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Blinksy, Toymaker.png" num="4">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -79,7 +79,7 @@
 			<name>Book of Victims</name>
 			<text>{T}: Exile target creature from a graveyard.
 {5}: Sacrifice Book of Victims. Each opponent loses life equal to the number of cards exiled with Book of Victims.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/5_Book of Victims.png" num="5">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Book of Victims.png" num="5">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -97,7 +97,7 @@
 			<text>Enchant creature card in a graveyard
 When Dark Gift enters the battlefield, if it&apos;s on the battlefield, it loses &quot;enchant creature card in a graveyard&quot; and gains &quot;enchant creature put onto the battlefield with Dark Gift.&quot; Return enchanted creature card to the battlefield under your control and attach Dark Gift to it. When Dark Gift leaves the battlefield, that creature&apos;s controller sacrifices it.
 Enchanted creature gets +1/+0.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/6_Dark Gift.png" num="6">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Dark Gift.png" num="6">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -113,7 +113,7 @@ Enchanted creature gets +1/+0.</text>
 		<card>
 			<name>Drown in the Lake</name>
 			<text>Target creature gets -X/-X until the end of turn where X is two plus your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/7_Drown in the Lake.png" num="7">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Drown in the Lake.png" num="7">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -129,7 +129,7 @@ Enchanted creature gets +1/+0.</text>
 		<card>
 			<name>Revenant</name>
 			<text>{1}{B}: Return Revenant from the graveyard to the battlefield tapped.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/8_Revenant.png" num="8">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Revenant.png" num="8">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -148,7 +148,7 @@ Enchanted creature gets +1/+0.</text>
 			<text>Reach
 Vampire Spawn enters the battlefield tapped.
 Whenever a creature dealt damage by Vampire Spawn dies, create a tapped token copy of Vampire Spawn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/9_Vampire Spawn.png" num="9">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Vampire Spawn.png" num="9">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -165,7 +165,7 @@ Whenever a creature dealt damage by Vampire Spawn dies, create a tapped token co
 		<card>
 			<name>Vladimir &amp; Godfrey, Reunited</name>
 			<text>Whenever Vladimir &amp; Godfrey attack or block, create a 2/2 black Zombie Paladin creature token.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/10_Vladimir &amp; Godfrey, Reunited.png" num="10">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Vladimir &amp; Godfrey, Reunited.png" num="10">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -184,7 +184,7 @@ Whenever a creature dealt damage by Vampire Spawn dies, create a tapped token co
 			<text>When you cast your first instant or sorcery each turn roll a d20.
 [b]1-9[/b]|Target opponent may copy the spell. They may choose new targets for the copy.
 [b]10-20[/b]|Copy the spell. You may choose new targets for the copy.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/11_Minnesota, Impulsive Planner.png" num="11">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Minnesota, Impulsive Planner.png" num="11">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -204,7 +204,7 @@ Whenever a creature dealt damage by Vampire Spawn dies, create a tapped token co
 Flying
 Whenever Strahd Von Zarovich deals combat damage to a player that player discards a card and you draw a card.
 If Strahd Von Zarovich would die, return him to the battlefield tapped and the beginning of the next end step.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/12_Strahd Von Zarovich.png" num="12">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Strahd Von Zarovich.png" num="12">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -222,7 +222,7 @@ If Strahd Von Zarovich would die, return him to the battlefield tapped and the b
 			<name>Zas, Barbarian Scholar</name>
 			<text>Trample
 You may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Barbarian Scholar&apos;s power and toughness until end of turn. (An exerted creature won&apos;t untap during your next untap step.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/13_Zas, Barbarian Scholar.png" num="13">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Zas, Barbarian Scholar.png" num="13">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -241,7 +241,7 @@ You may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Bar
 			<text>Lifelink
 Defender
 {2}{W}: Clif deals damage to any target equal to the amount of life you gained this turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/14_Clif, Chilled Tortle.png" num="14">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Clif, Chilled Tortle.png" num="14">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -259,7 +259,7 @@ Defender
 			<name>Harlston, Grappling Pugilist</name>
 			<text>Flash
 When Harlston, Grappling Pugilist enters the battlefield, tap target creature an opponent controls. It doesn&apos;t untap during its controllers next untap step.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/15_Harlston, Grappling Pugilist.png" num="15">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Harlston, Grappling Pugilist.png" num="15">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -278,7 +278,7 @@ When Harlston, Grappling Pugilist enters the battlefield, tap target creature an
 			<text>Flash
 Vigilance
 When Animated Armor enters the battlefield, tap target creature.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/16_Animated Armor.png" num="16">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Animated Armor.png" num="16">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -298,7 +298,7 @@ Equip {4}
 [b]1-9[/b]| Equipped creature gains trample until the end of turn.
 [b]10-19[/b]| Creatures you control gain trample until end of turn.
 [b]20[/b]| Creatures you control gain trample. Untap each attacking creature you control. After this combat phase, there is an additional combat phase.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/17_Zas&apos;s Battleaxe.png" num="17">CoS</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/CoS-files/img/Zas&apos;s Battleaxe.png" num="17">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>

@@ -111,7 +111,7 @@
             		},
 			"back": {
 				"name": "Wesley the Rescued",
-				"mana_cost": "{1}{W}"
+				"mana_cost": "{1}{W}",
 				"type": "Legendary Creature — Human Fighter",
 				"image_uris": {
 					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Wesley the Rescued.png"
@@ -286,7 +286,7 @@
 			},
 			"back": {
 				"name": "Mazzer, The Rat King",
-				"mana_cost": "{2}{U}{B}"
+				"mana_cost": "{2}{U}{B}",
 				"type": "Legendary Creature — Elf Rat Monk",
 				"image_uris": {
 					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Mazzer, The Rat King.png"
@@ -3784,7 +3784,7 @@
 		}
 	]
 
-[cube(15)]
+[cube(20)]
 	1 Monument of Heroes
 	1 Kriv, Champion of Heroes
 	1 Mathias, Cursed of Urobu
@@ -4138,23 +4138,23 @@
 	1 Huff vs McDoogal
 	1 Goblin Raid
 	1 Cleanse the Fanes
-	2 Corpsewood
-	2 Eislessi Isle
-	2 Et'limi'dak
-	2 Ikbarre Marshes
-	2 Kavedii Islands
-	2 Lake Dorn
-	2 Misty Isles
-	2 Ovauto Forest
-	2 Shattered Peaks
-	2 Upper Iron Pass
-	2 The Abyss
-	2 Bastion
-	2 The Beacon
-	2 The Blightlands
-	2 The Cataclysm
-	2 The Moon Grove
-	2 The Nether
-	2 Revalia
-	2 The Tumult
-	2 The Wilds
+	1 Corpsewood
+	1 Eislessi Isle
+	1 Et'limi'dak
+	1 Ikbarre Marshes
+	1 Kavedii Islands
+	1 Lake Dorn
+	1 Misty Isles
+	1 Ovauto Forest
+	1 Shattered Peaks
+	1 Upper Iron Pass
+	1 The Abyss
+	1 Bastion
+	1 The Beacon
+	1 The Blightlands
+	1 The Cataclysm
+	1 The Moon Grove
+	1 The Nether
+	1 Revalia
+	1 The Tumult
+	1 The Wilds

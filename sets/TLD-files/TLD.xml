@@ -12,7 +12,7 @@
 		<card>
 			<name>Champions of Thadenswel</name>
 			<text>Legendary creatures you control get +1/+2 and have ward {1} (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/0_Champions of Thadenswel.png" num="0">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Champions of Thadenswel.png" num="0">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -27,7 +27,7 @@
 		<card>
 			<name>Trials of Thadenswel</name>
 			<text>​</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/1_Trials of Thadenswel.png" num="1">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Trials of Thadenswel.png" num="1">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -44,7 +44,7 @@
 			<name>Captain Laos</name>
 			<text>Partner with First Mate Addus (When this creature enters the battlefield, target player may put First Mate Addus into their hand from their library, then shuffle.)
 Whenever a dwarf you control deals combat damage to a player, create a treasure.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/3_Captain Laos.png" num="3">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Captain Laos.png" num="3">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -61,7 +61,7 @@ Whenever a dwarf you control deals combat damage to a player, create a treasure.
 		<card>
 			<name>Blessing of Water</name>
 			<text>Each player discards their hand, then draws cards equal to the greatest number of cards a player discarded this way.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/2_Blessing of Water.png" num="2">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Blessing of Water.png" num="2">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -78,7 +78,7 @@ Whenever a dwarf you control deals combat damage to a player, create a treasure.
 			<name>First Mate Addus</name>
 			<text>Partner with Captain Laos (When this creature enters the battlefield, target player may put Captain Laos into their hand from their library, then shuffle.)
 Whenever an elf you control deals combat damage to a player, scry 1.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/4_First Mate Addus.png" num="4">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/First Mate Addus.png" num="4">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -97,7 +97,7 @@ Whenever an elf you control deals combat damage to a player, scry 1.</text>
 			<text>Double strike
 Put a +1/+1 counter on Luster, War-Scarred whenever a creature dealt damage by Luster, War-Scarred dies.
 Sacrifice a creature: Luster, War-Scarred is indestructible until the end of the turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/10_Luster, War-Scarred.png" num="10">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Luster, War-Scarred.png" num="10">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -118,7 +118,7 @@ Equipped creature has first strike.
 Whenever a creature is dealt damage by equipped creature, exile it until Blade of Blood leaves the battlefield.
 Sacrifice Blade of Blood if it is not equipped to a creature.
 Equip {2}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/12_Blade of Blood.png" num="12">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Blade of Blood.png" num="12">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -133,7 +133,7 @@ Equip {2}</text>
 			<name>Elemental Orb of Earth</name>
 			<text>{T}: Add {G}
 {1}{G}, {T}: Put a land from your hand onto the battlefield tapped.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/17_Elemental Orb of Earth.png" num="17">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Elemental Orb of Earth.png" num="17">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -151,7 +151,7 @@ Equip {2}</text>
 Whenever equipped creature attacks, put a charge counter on Judge &amp; Executioner.
 Remove a charge counter from Judge &amp; Executioner: Deal 1 damage to any target.
 Equip {2}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/21_Judge &amp; Executioner.png" num="21">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Judge &amp; Executioner.png" num="21">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -167,7 +167,7 @@ Equip {2}</text>
 			<text>Equipped creature gets +2/+0
 Equipped creature has &quot;When you attack, you may exert this creature. If you do, double its power and it deals its combat damage as though it wasn&apos;t blocked. Tap it.&quot; (An exerted permanent won&apos;t untap during your next untap step.)
 Equip {3}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/22_Jury.png" num="22">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Jury.png" num="22">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -184,7 +184,7 @@ Equip {3}</text>
 [b]1-10[/b]| Return Sea Spawn to your hand.
 [b]11-19[/b]| Return Sea Spawn to your battlefield tapped.
 [b]20[/b]| Return Sea Spawn to the battlefield.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/5_Sea Spawn.png" num="5">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Sea Spawn.png" num="5">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -202,7 +202,7 @@ Equip {3}</text>
 			<name>Darkling Elder</name>
 			<text>{B}: Goblins you control get +1/+0 until the end of the turn.
 {1}{B}: Target goblin with power 2 or less cannot be blocked.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/6_Darkling Elder.png" num="6">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Darkling Elder.png" num="6">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -219,7 +219,7 @@ Equip {3}</text>
 		<card>
 			<name>Darkling Scout</name>
 			<text>When Darkling Scout dies it deals 1 damage to any target.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/7_Darkling Scout.png" num="7">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Darkling Scout.png" num="7">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -238,7 +238,7 @@ Equip {3}</text>
 			<text>When Kildrak, Life&apos;s Spring enters the battlefield, return target creature from your graveyard to the battlefield.
 Whenever a cleric enters the battlefield under your control, gain life equal to its toughness.
 Whenever you gain life, put a +1/+1 counter on target creature you control.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/9_Kildrak, Life&apos;s Spring.png" num="9">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Kildrak, Life&apos;s Spring.png" num="9">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -256,7 +256,7 @@ Whenever you gain life, put a +1/+1 counter on target creature you control.</tex
 			<name>Elemental Orb of Water</name>
 			<text>{T}: Add {U} 
 {1}{U}, {T}: Tap target creature, artifact, or land.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/19_Elemental Orb of Water.png" num="19">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Elemental Orb of Water.png" num="19">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -273,7 +273,7 @@ Whenever you gain life, put a +1/+1 counter on target creature you control.</tex
 			<text>Vigilance
 Boast — {1}{R}: Kriv, Champion of Heroes deals 3 damage to target creature. (Activate this ability only if this creature attacked this turn and only once each turn.)
 Other creatures you control get +1/+1</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/11_Kriv, Champion of Heroes.png" num="11">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Kriv, Champion of Heroes.png" num="11">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -292,7 +292,7 @@ Other creatures you control get +1/+1</text>
 			<text>Equipped creature gets +1/+3 and has vigilance, and is a Paladin in addition to its other types.
 Whenever equipped creature attacks or blocks, create a 2/2 white Paladin creature token with vigilance.
 Equip {3}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/14_Breastplate of Kyrios.png" num="14">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Breastplate of Kyrios.png" num="14">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -307,7 +307,7 @@ Equip {3}</text>
 			<name>Elemental Orb of Fire</name>
 			<text>{T}: Add {R} 
 {1}{R}, {T}: Draw a card, discard a card.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/18_Elemental Orb of Fire.png" num="18">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Elemental Orb of Fire.png" num="18">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -325,7 +325,7 @@ Equip {3}</text>
 Whenever equipped creature attacks, put a charge counter of Boots of Kyrios.
 Equipped creature gets +1/+1 for each charge counter on Boots of Kyrios.
 Equip {1}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/13_Boots of Kyrios.png" num="13">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Boots of Kyrios.png" num="13">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -340,7 +340,7 @@ Equip {1}</text>
 			<name>Helm of Kyrios</name>
 			<text>Equipped creature has &quot;Boast {2}: Deal 2 damage to target creature defending player controls.&quot; (Activate this ability only if that creature attacked this turn and only once each turn.)
 Equip {3}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/20_Helm of Kyrios.png" num="20">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Helm of Kyrios.png" num="20">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -361,7 +361,7 @@ Equip {2}
 [b]5-6[/b]| Up to two target creatures gain trample and indestructible until end of turn.
 [b]7-8[/b]| Exile the top 2 cards of your library. You may play one of those cards this turn.
 [b]9-10[/b]| Return target nonland permanent with mana value 2 or less from your graveyard to the battlefield.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/23_Sword of Kyrios.png" num="23">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Sword of Kyrios.png" num="23">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -377,7 +377,7 @@ Equip {2}
 			<text>Ninjutsu {1}{U}{B} ({1}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 First strike
 When Iskael, Lord of Shadows deals combat damage to a player you may return it to your hand. If you do, you may put a creature from your hand onto the battlefield tapped.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/8_Iskael, Lord of Shadows.png" num="8">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Iskael, Lord of Shadows.png" num="8">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -395,7 +395,7 @@ When Iskael, Lord of Shadows deals combat damage to a player you may return it t
 			<name>Elemental Orb of Air</name>
 			<text>{T}: Add {W} 
 {1}{W}, {T}: Target creature gets +1/+1 and vigilance until end of turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/15_Elemental Orb of Air.png" num="15">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Elemental Orb of Air.png" num="15">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -411,7 +411,7 @@ When Iskael, Lord of Shadows deals combat damage to a player you may return it t
 			<name>Elemental Orb of Darkness</name>
 			<text>{T}: Add {B}
 {1}{B}, {T}: Draw a card, then lose life equal to its mana value.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/TLD-files/img/16_Elemental Orb of Darkness.png" num="16">TLD</set>
+			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/TLD-files/img/Elemental Orb of Darkness.png" num="16">TLD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
