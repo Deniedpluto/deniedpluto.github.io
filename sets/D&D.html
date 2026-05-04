@@ -1,7 +1,7 @@
 ﻿<html>
 <head>
-  <title>The Formidable Five</title>
-  <link rel="icon" type="image/x-icon" href="../sets/CEP-files/icon.png">
+  <title>Peter’s D&D</title>
+  <link rel="icon" type="image/x-icon" href="../sets/D&D-files/icon.png">
   <link rel="stylesheet" href="../resources/mana.css">
   <link rel="stylesheet" href="../resources/header.css">
   <link rel="stylesheet" href="../resources/card-text.css">
@@ -333,12 +333,12 @@
 	<div class="banner">
 		<div class="banner-container">
 			<div class="set-banner" id="set-banner">
-				<img class="set-logo" src="../sets/CEP-files/icon.png">
+				<img class="set-logo" src="../sets/D&D-files/icon.png">
 				<div class="banner-text">
-					<div class="set-title">The Formidable Five</div>
-					<div class="extras-container"><a href="../sets/CEP-files/CEP-draft.txt" download>Draft</a><div class="dot"> • </div>
+					<div class="set-title">Peter’s D&D</div>
+					<div class="extras-container"><a href="../sets/D&D-files/D&D-draft.txt" download>Draft</a><div class="dot"> • </div>
 			<a onclick="packOnePickOne()">P1P1</a><div class="dot"> • </div>
-<a href="../sets/CEP-files/CEP.xml" download>Play</a><div class="dot"> • </div>
+<a href="../sets/D&D-files/D&D.xml" download>Play</a><div class="dot"> • </div>
 			<a onclick="randomSetCard()">I'm Feeling Lucky</a>
 				</div>
 			</div>
@@ -489,7 +489,7 @@
 				}
 
 
-			await fetch(rootPath + '/sets/CEP-files/CEP-draft.txt')
+			await fetch(rootPath + '/sets/D&D-files/D&D-draft.txt')
 				.then(response => response.text())
 				.then(text => {
 					draft_file = text.replace(/},\n\t]/g, '}\n\t]');
@@ -499,7 +499,7 @@
       
 			for (let i = 0; i < card_list_arrayified.length; i++)
 			{
-				if (card_list_arrayified[i].set == "CEP")
+				if (card_list_arrayified[i].set == "D&D")
 				{
 					set_list_arrayified.push(card_list_arrayified[i]);
 				}
@@ -1321,7 +1321,7 @@
 			let set_card_list = [];
 			for (card of card_list_arrayified)
 			{
-				if (card.set == "CEP")
+				if (card.set == "D&D")
 				{
 					set_card_list.push(card);
 				}

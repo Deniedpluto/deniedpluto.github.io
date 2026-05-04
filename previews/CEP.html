@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/CEP-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>CEP visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/CEP-files/logo.png" />
+	<img class="preload-hidden" src="../sets/CEP-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CoS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/D&D-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ER-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TLD-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/CEP"><img src="../sets/CEP-files/icon.png">The Formidable Five</a>
+	
+		<a class="set-bar inactive" href="../previews/CoS"><img src="../sets/CoS-files/icon.png">Curse of Strahd</a>
+	
+		<a class="set-bar inactive" href="../previews/D&D"><img src="../sets/D&D-files/icon.png">Peter’s D&D</a>
+	
+		<a class="set-bar inactive" href="../previews/ER"><img src="../sets/ER-files/icon.png">Eastern Reach</a>
+	
+		<a class="set-bar inactive" href="../previews/TLD"><img src="../sets/TLD-files/icon.png">The Legendary Defenders</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/CEP-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\CEP-files\img\1_Acolyte of Urobu.png" id="CEP_1_Acolyte of Urobu" data-flag="@X" onclick="openSidebar('CEP_1_Acolyte of Urobu',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\40_Acolyte of Vetys.png" id="CEP_40_Acolyte of Vetys" data-flag="@X" onclick="openSidebar('CEP_40_Acolyte of Vetys',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\82_Blood Magic.png" id="CEP_82_Blood Magic" data-flag="@X" onclick="openSidebar('CEP_82_Blood Magic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\116_Blessing of Alyra.png" id="CEP_116_Blessing of Alyra" data-flag="@X" onclick="openSidebar('CEP_116_Blessing of Alyra',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\0_Blessed Ent.png" id="CEP_0_Blessed Ent" data-flag="@X" onclick="openSidebar('CEP_0_Blessed Ent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\2_Aleana's Chosen.png" id="CEP_2_Aleanas Chosen" data-flag="@X" onclick="openSidebar('CEP_2_Aleanas Chosen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\41_Cone of Cold.png" id="CEP_41_Cone of Cold" data-flag="@X" onclick="openSidebar('CEP_41_Cone of Cold',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\83_Blood Ritual.png" id="CEP_83_Blood Ritual" data-flag="@X" onclick="openSidebar('CEP_83_Blood Ritual',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\117_Caelys's Favor.png" id="CEP_117_Caelyss Favor" data-flag="@X" onclick="openSidebar('CEP_117_Caelyss Favor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\149_Acolyte of Aranya.png" id="CEP_149_Acolyte of Aranya" data-flag="@X" onclick="openSidebar('CEP_149_Acolyte of Aranya',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\3_Aleana's Mercy.png" id="CEP_3_Aleanas Mercy" data-flag="@X" onclick="openSidebar('CEP_3_Aleanas Mercy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\42_Counterspell.png" id="CEP_42_Counterspell" data-flag="@X" onclick="openSidebar('CEP_42_Counterspell',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\84_Blue Flame Candle.png" id="CEP_84_Blue Flame Candle" data-flag="@X" onclick="openSidebar('CEP_84_Blue Flame Candle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\118_Coelys Fantatic.png" id="CEP_118_Coelys Fantatic" data-flag="@X" onclick="openSidebar('CEP_118_Coelys Fantatic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\150_Adolescent Dragon.png" id="CEP_150_Adolescent Dragon" data-flag="@X" onclick="openSidebar('CEP_150_Adolescent Dragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\4_Astral Prison.png" id="CEP_4_Astral Prison" data-flag="@X" onclick="openSidebar('CEP_4_Astral Prison',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\43_Cutting Words.png" id="CEP_43_Cutting Words" data-flag="@X" onclick="openSidebar('CEP_43_Cutting Words',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\85_Charles.png" id="CEP_85_Charles" data-flag="@X" onclick="openSidebar('CEP_85_Charles',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\119_Coelys's Ire.png" id="CEP_119_Coelyss Ire" data-flag="@X" onclick="openSidebar('CEP_119_Coelyss Ire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\151_Ara, Reknown Scout.png" id="CEP_151_Ara, Reknown Scout" data-flag="@X" onclick="openSidebar('CEP_151_Ara, Reknown Scout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\5_Ayleia's Return.png" id="CEP_5_Ayleias Return" data-flag="@X" onclick="openSidebar('CEP_5_Ayleias Return',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\44_Death of the Oracle.png" id="CEP_44_Death of the Oracle" data-flag="@X" onclick="openSidebar('CEP_44_Death of the Oracle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\86_Cleanse the Bloodlines.png" id="CEP_86_Cleanse the Bloodlines" data-flag="@X" onclick="openSidebar('CEP_86_Cleanse the Bloodlines',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\120_Drachenjäger.png" id="CEP_120_Drachenjäger" data-flag="@X" onclick="openSidebar('CEP_120_Drachenjäger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\152_Aranya's Adept.png" id="CEP_152_Aranyas Adept" data-flag="@X" onclick="openSidebar('CEP_152_Aranyas Adept',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\6_Binding of the Law.png" id="CEP_6_Binding of the Law" data-flag="@X" onclick="openSidebar('CEP_6_Binding of the Law',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\45_Dimension Door.png" id="CEP_45_Dimension Door" data-flag="@X" onclick="openSidebar('CEP_45_Dimension Door',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\87_Dayvroass the Haunted.png" id="CEP_87_Dayvroass the Haunted" data-flag="@X" onclick="openSidebar('CEP_87_Dayvroass the Haunted',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\121_Dragon's Fire.png" id="CEP_121_Dragons Fire" data-flag="@X" onclick="openSidebar('CEP_121_Dragons Fire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\153_Aranya's Intervention.png" id="CEP_153_Aranyas Intervention" data-flag="@X" onclick="openSidebar('CEP_153_Aranyas Intervention',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\7_Cadrea's Blessing.png" id="CEP_7_Cadreas Blessing" data-flag="@X" onclick="openSidebar('CEP_7_Cadreas Blessing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\46_Divination.png" id="CEP_46_Divination" data-flag="@X" onclick="openSidebar('CEP_46_Divination',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\88_Death Druid.png" id="CEP_88_Death Druid" data-flag="@X" onclick="openSidebar('CEP_88_Death Druid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\122_Drink it Down.png" id="CEP_122_Drink it Down" data-flag="@X" onclick="openSidebar('CEP_122_Drink it Down',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\154_Aurelia's Elites.png" id="CEP_154_Aurelias Elites" data-flag="@X" onclick="openSidebar('CEP_154_Aurelias Elites',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\8_Captain of the Guard.png" id="CEP_8_Captain of the Guard" data-flag="@X" onclick="openSidebar('CEP_8_Captain of the Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\47_Dominate Monster.png" id="CEP_47_Dominate Monster" data-flag="@X" onclick="openSidebar('CEP_47_Dominate Monster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\89_Desecrate the Temple.png" id="CEP_89_Desecrate the Temple" data-flag="@X" onclick="openSidebar('CEP_89_Desecrate the Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\123_Fane of the Mountain.png" id="CEP_123_Fane of the Mountain" data-flag="@X" onclick="openSidebar('CEP_123_Fane of the Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\155_Basilisk.png" id="CEP_155_Basilisk" data-flag="@X" onclick="openSidebar('CEP_155_Basilisk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\9_Chief Inspector.png" id="CEP_9_Chief Inspector" data-flag="@X" onclick="openSidebar('CEP_9_Chief Inspector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\48_Draconic Ascent.png" id="CEP_48_Draconic Ascent" data-flag="@X" onclick="openSidebar('CEP_48_Draconic Ascent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\90_Devilish Imp.png" id="CEP_90_Devilish Imp" data-flag="@X" onclick="openSidebar('CEP_90_Devilish Imp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\124_Fire Bolt.png" id="CEP_124_Fire Bolt" data-flag="@X" onclick="openSidebar('CEP_124_Fire Bolt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\156_Blessings of the Mothertree.png" id="CEP_156_Blessings of the Mothertree" data-flag="@X" onclick="openSidebar('CEP_156_Blessings of the Mothertree',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\10_Cleric of Aleana.png" id="CEP_10_Cleric of Aleana" data-flag="@X" onclick="openSidebar('CEP_10_Cleric of Aleana',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\49_Fane of the River.png" id="CEP_49_Fane of the River" data-flag="@X" onclick="openSidebar('CEP_49_Fane of the River',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\91_Dictate of Urobu.png" id="CEP_91_Dictate of Urobu" data-flag="@X" onclick="openSidebar('CEP_91_Dictate of Urobu',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\125_Fireball.png" id="CEP_125_Fireball" data-flag="@X" onclick="openSidebar('CEP_125_Fireball',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\157_Boon of Aranya.png" id="CEP_157_Boon of Aranya" data-flag="@X" onclick="openSidebar('CEP_157_Boon of Aranya',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\11_Cube of K'nezeret.png" id="CEP_11_Cube of Knezeret" data-flag="@X" onclick="openSidebar('CEP_11_Cube of Knezeret',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\50_The Forge of Spells.png" id="CEP_50_The Forge of Spells" data-flag="@X" onclick="openSidebar('CEP_50_The Forge of Spells',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\92_Draconic Purge.png" id="CEP_92_Draconic Purge" data-flag="@X" onclick="openSidebar('CEP_92_Draconic Purge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\126_The Forge of Elements.png" id="CEP_126_The Forge of Elements" data-flag="@X" onclick="openSidebar('CEP_126_The Forge of Elements',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\158_Boon of Fama.png" id="CEP_158_Boon of Fama" data-flag="@X" onclick="openSidebar('CEP_158_Boon of Fama',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\12_Defend the Walls!.png" id="CEP_12_Defend the Walls!" data-flag="@X" onclick="openSidebar('CEP_12_Defend the Walls!',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\51_Gift of Vetys.png" id="CEP_51_Gift of Vetys" data-flag="@X" onclick="openSidebar('CEP_51_Gift of Vetys',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\93_Dungeon Skeleton.png" id="CEP_93_Dungeon Skeleton" data-flag="@X" onclick="openSidebar('CEP_93_Dungeon Skeleton',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\127_Fulcrum.png" id="CEP_127_Fulcrum" data-flag="@X" onclick="openSidebar('CEP_127_Fulcrum',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\159_Caravan Raid.png" id="CEP_159_Caravan Raid" data-flag="@X" onclick="openSidebar('CEP_159_Caravan Raid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\13_Dispel Magic.png" id="CEP_13_Dispel Magic" data-flag="@X" onclick="openSidebar('CEP_13_Dispel Magic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\52_Grappling Octopus.png" id="CEP_52_Grappling Octopus" data-flag="@X" onclick="openSidebar('CEP_52_Grappling Octopus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\94_Eliath, Doomed Fighter.png" id="CEP_94_Eliath, Doomed Fighter" data-flag="@X" onclick="openSidebar('CEP_94_Eliath, Doomed Fighter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\128_Fury of the Gods.png" id="CEP_128_Fury of the Gods" data-flag="@X" onclick="openSidebar('CEP_128_Fury of the Gods',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\160_Cleanse the Fanes.png" id="CEP_160_Cleanse the Fanes" data-flag="@X" onclick="openSidebar('CEP_160_Cleanse the Fanes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\14_Divine Intervention.png" id="CEP_14_Divine Intervention" data-flag="@X" onclick="openSidebar('CEP_14_Divine Intervention',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\53_Guard Drake.png" id="CEP_53_Guard Drake" data-flag="@X" onclick="openSidebar('CEP_53_Guard Drake',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\95_Fama's Talon.png" id="CEP_95_Famas Talon" data-flag="@X" onclick="openSidebar('CEP_95_Famas Talon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\129_Gniess, Stonecutter Prime.png" id="CEP_129_Gniess, Stonecutter Prime" data-flag="@X" onclick="openSidebar('CEP_129_Gniess, Stonecutter Prime',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\161_Command — Duel.png" id="CEP_161_Command — Duel" data-flag="@X" onclick="openSidebar('CEP_161_Command — Duel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\15_Divine Smite.png" id="CEP_15_Divine Smite" data-flag="@X" onclick="openSidebar('CEP_15_Divine Smite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\54_High Priest Kaaladeth.png" id="CEP_54_High Priest Kaaladeth" data-flag="@X" onclick="openSidebar('CEP_54_High Priest Kaaladeth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\96_Gildling.png" id="CEP_96_Gildling" data-flag="@X" onclick="openSidebar('CEP_96_Gildling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\130_Goblins of the Red Hand.png" id="CEP_130_Goblins of the Red Hand" data-flag="@X" onclick="openSidebar('CEP_130_Goblins of the Red Hand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\162_Conjure Animals.png" id="CEP_162_Conjure Animals" data-flag="@X" onclick="openSidebar('CEP_162_Conjure Animals',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\16_Fly.png" id="CEP_16_Fly" data-flag="@X" onclick="openSidebar('CEP_16_Fly',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\55_Hueick, Susceptible Youth.png" id="CEP_55_Hueick, Susceptible Youth" data-flag="@X" onclick="openSidebar('CEP_55_Hueick, Susceptible Youth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\97_Hag Coven.png" id="CEP_97_Hag Coven" data-flag="@X" onclick="openSidebar('CEP_97_Hag Coven',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\131_The Halcyon.png" id="CEP_131_The Halcyon" data-flag="@X" onclick="openSidebar('CEP_131_The Halcyon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\163_Coordinated Assault.png" id="CEP_163_Coordinated Assault" data-flag="@X" onclick="openSidebar('CEP_163_Coordinated Assault',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\17_The Forge of War.png" id="CEP_17_The Forge of War" data-flag="@X" onclick="openSidebar('CEP_17_The Forge of War',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\56_Huff vs McDoogal.png" id="CEP_56_Huff vs McDoogal" data-flag="@X" onclick="openSidebar('CEP_56_Huff vs McDoogal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\98_Hellish Rebuke.png" id="CEP_98_Hellish Rebuke" data-flag="@X" onclick="openSidebar('CEP_98_Hellish Rebuke',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\132_Idryyth the Flamebringer.png" id="CEP_132_Idryyth the Flamebringer" data-flag="@X" onclick="openSidebar('CEP_132_Idryyth the Flamebringer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\164_Death Ward.png" id="CEP_164_Death Ward" data-flag="@X" onclick="openSidebar('CEP_164_Death Ward',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\18_Gnome Technocrat.png" id="CEP_18_Gnome Technocrat" data-flag="@X" onclick="openSidebar('CEP_18_Gnome Technocrat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\57_Invisibility.png" id="CEP_57_Invisibility" data-flag="@X" onclick="openSidebar('CEP_57_Invisibility',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\99_Inflict Wounds.png" id="CEP_99_Inflict Wounds" data-flag="@X" onclick="openSidebar('CEP_99_Inflict Wounds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\133_Kythr, Sorrow's Mark.png" id="CEP_133_Kythr, Sorrows Mark" data-flag="@X" onclick="openSidebar('CEP_133_Kythr, Sorrows Mark',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\165_Dire Wolf Pack.png" id="CEP_165_Dire Wolf Pack" data-flag="@X" onclick="openSidebar('CEP_165_Dire Wolf Pack',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\19_Griffin Mount.png" id="CEP_19_Griffin Mount" data-flag="@X" onclick="openSidebar('CEP_19_Griffin Mount',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\58_Invoke Duplicity.png" id="CEP_58_Invoke Duplicity" data-flag="@X" onclick="openSidebar('CEP_58_Invoke Duplicity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\100_Lanu's Intervention.png" id="CEP_100_Lanus Intervention" data-flag="@X" onclick="openSidebar('CEP_100_Lanus Intervention',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\134_Lord Maalas.png" id="CEP_134_Lord Maalas" data-flag="@X" onclick="openSidebar('CEP_134_Lord Maalas',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\166_Elf Scout.png" id="CEP_166_Elf Scout" data-flag="@X" onclick="openSidebar('CEP_166_Elf Scout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\20_Kyrios the Creator.png" id="CEP_20_Kyrios the Creator" data-flag="@X" onclick="openSidebar('CEP_20_Kyrios the Creator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\59_Jimmy Beanz.png" id="CEP_59_Jimmy Beanz" data-flag="@X" onclick="openSidebar('CEP_59_Jimmy Beanz',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\101_Mark for Death.png" id="CEP_101_Mark for Death" data-flag="@X" onclick="openSidebar('CEP_101_Mark for Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\135_Magic Missile.png" id="CEP_135_Magic Missile" data-flag="@X" onclick="openSidebar('CEP_135_Magic Missile',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\167_Elven Elder.png" id="CEP_167_Elven Elder" data-flag="@X" onclick="openSidebar('CEP_167_Elven Elder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\21_Lady Ostrix.png" id="CEP_21_Lady Ostrix" data-flag="@X" onclick="openSidebar('CEP_21_Lady Ostrix',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\60_King Da'aroc.png" id="CEP_60_King Daaroc" data-flag="@X" onclick="openSidebar('CEP_60_King Daaroc',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\102_Mysterious Benefactor.png" id="CEP_102_Mysterious Benefactor" data-flag="@X" onclick="openSidebar('CEP_102_Mysterious Benefactor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\136_Malaas War Marshall.png" id="CEP_136_Malaas War Marshall" data-flag="@X" onclick="openSidebar('CEP_136_Malaas War Marshall',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\168_Elven Warmaster.png" id="CEP_168_Elven Warmaster" data-flag="@X" onclick="openSidebar('CEP_168_Elven Warmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\22_Leonir, Acolyte of Lanu.png" id="CEP_22_Leonir, Acolyte of Lanu" data-flag="@X" onclick="openSidebar('CEP_22_Leonir, Acolyte of Lanu',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\61_Library of Vetys.png" id="CEP_61_Library of Vetys" data-flag="@X" onclick="openSidebar('CEP_61_Library of Vetys',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\103_Necromancer's Apprentice.png" id="CEP_103_Necromancers Apprentice" data-flag="@X" onclick="openSidebar('CEP_103_Necromancers Apprentice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\137_Malaasan Emissary.png" id="CEP_137_Malaasan Emissary" data-flag="@X" onclick="openSidebar('CEP_137_Malaasan Emissary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\169_Enlarge.png" id="CEP_169_Enlarge" data-flag="@X" onclick="openSidebar('CEP_169_Enlarge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\23_Moon Scythe.png" id="CEP_23_Moon Scythe" data-flag="@X" onclick="openSidebar('CEP_23_Moon Scythe',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\62_Oracle's Insight.png" id="CEP_62_Oracles Insight" data-flag="@X" onclick="openSidebar('CEP_62_Oracles Insight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\104_Night of Consuming Darkness.png" id="CEP_104_Night of Consuming Darkness" data-flag="@X" onclick="openSidebar('CEP_104_Night of Consuming Darkness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\138_Malaasan Pick-Axe.png" id="CEP_138_Malaasan Pick-Axe" data-flag="@X" onclick="openSidebar('CEP_138_Malaasan Pick-Axe',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\170_Ewiard, Lord of the Hunt.png" id="CEP_170_Ewiard, Lord of the Hunt" data-flag="@X" onclick="openSidebar('CEP_170_Ewiard, Lord of the Hunt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\24_Muster the Guard.png" id="CEP_24_Muster the Guard" data-flag="@X" onclick="openSidebar('CEP_24_Muster the Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\63_Pierce the Veil.png" id="CEP_63_Pierce the Veil" data-flag="@X" onclick="openSidebar('CEP_63_Pierce the Veil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\105_Olar, The Broken Arrow.png" id="CEP_105_Olar, The Broken Arrow" data-flag="@X" onclick="openSidebar('CEP_105_Olar, The Broken Arrow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\139_Mine Collapse.png" id="CEP_139_Mine Collapse" data-flag="@X" onclick="openSidebar('CEP_139_Mine Collapse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\171_Fane of the Forest.png" id="CEP_171_Fane of the Forest" data-flag="@X" onclick="openSidebar('CEP_171_Fane of the Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\25_Noble Ward.png" id="CEP_25_Noble Ward" data-flag="@X" onclick="openSidebar('CEP_25_Noble Ward',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\64_Professor Arden.png" id="CEP_64_Professor Arden" data-flag="@X" onclick="openSidebar('CEP_64_Professor Arden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\106_Olethros the Destroyer.png" id="CEP_106_Olethros the Destroyer" data-flag="@X" onclick="openSidebar('CEP_106_Olethros the Destroyer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\140_Price of Loyalty.png" id="CEP_140_Price of Loyalty" data-flag="@X" onclick="openSidebar('CEP_140_Price of Loyalty',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\172_Fleetfoot, Sharpshooter.png" id="CEP_172_Fleetfoot, Sharpshooter" data-flag="@X" onclick="openSidebar('CEP_172_Fleetfoot, Sharpshooter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\26_Reinforce.png" id="CEP_26_Reinforce" data-flag="@X" onclick="openSidebar('CEP_26_Reinforce',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\65_Protection from Evil and Good.png" id="CEP_65_Protection from Evil and Good" data-flag="@X" onclick="openSidebar('CEP_65_Protection from Evil and Good',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\107_Remove Curse.png" id="CEP_107_Remove Curse" data-flag="@X" onclick="openSidebar('CEP_107_Remove Curse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\141_The Prosperity.png" id="CEP_141_The Prosperity" data-flag="@X" onclick="openSidebar('CEP_141_The Prosperity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\173_The Forge of Life.png" id="CEP_173_The Forge of Life" data-flag="@X" onclick="openSidebar('CEP_173_The Forge of Life',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\27_Resistance Squad.png" id="CEP_27_Resistance Squad" data-flag="@X" onclick="openSidebar('CEP_27_Resistance Squad',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\66_Reject.png" id="CEP_66_Reject" data-flag="@X" onclick="openSidebar('CEP_66_Reject',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\108_Ritual Sacrifice.png" id="CEP_108_Ritual Sacrifice" data-flag="@X" onclick="openSidebar('CEP_108_Ritual Sacrifice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\142_Rovari, Magic Weaver.png" id="CEP_142_Rovari, Magic Weaver" data-flag="@X" onclick="openSidebar('CEP_142_Rovari, Magic Weaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\174_Glamstol, Crafty Herbalist.png" id="CEP_174_Glamstol, Crafty Herbalist" data-flag="@X" onclick="openSidebar('CEP_174_Glamstol, Crafty Herbalist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\28_Ring of Etheria.png" id="CEP_28_Ring of Etheria" data-flag="@X" onclick="openSidebar('CEP_28_Ring of Etheria',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\67_Sahuaghin.png" id="CEP_67_Sahuaghin" data-flag="@X" onclick="openSidebar('CEP_67_Sahuaghin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\109_Shaedrun, the Necromancer.png" id="CEP_109_Shaedrun, the Necromancer" data-flag="@X" onclick="openSidebar('CEP_109_Shaedrun, the Necromancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\143_Scorching Ray.png" id="CEP_143_Scorching Ray" data-flag="@X" onclick="openSidebar('CEP_143_Scorching Ray',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\175_Grasping Vegetation.png" id="CEP_175_Grasping Vegetation" data-flag="@X" onclick="openSidebar('CEP_175_Grasping Vegetation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\29_Rising Populace.png" id="CEP_29_Rising Populace" data-flag="@X" onclick="openSidebar('CEP_29_Rising Populace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\68_Sahuaghin Artillerist.png" id="CEP_68_Sahuaghin Artillerist" data-flag="@X" onclick="openSidebar('CEP_68_Sahuaghin Artillerist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\110_Shaedrun's Gambit.png" id="CEP_110_Shaedruns Gambit" data-flag="@X" onclick="openSidebar('CEP_110_Shaedruns Gambit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\144_Scyruss, Forge Master.png" id="CEP_144_Scyruss, Forge Master" data-flag="@X" onclick="openSidebar('CEP_144_Scyruss, Forge Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\176_Karda, Revolutionary.png" id="CEP_176_Karda, Revolutionary" data-flag="@X" onclick="openSidebar('CEP_176_Karda, Revolutionary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\30_Sacred Flame.png" id="CEP_30_Sacred Flame" data-flag="@X" onclick="openSidebar('CEP_30_Sacred Flame',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\69_Sahuaghin Commander.png" id="CEP_69_Sahuaghin Commander" data-flag="@X" onclick="openSidebar('CEP_69_Sahuaghin Commander',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\111_Shambling Necromass.png" id="CEP_111_Shambling Necromass" data-flag="@X" onclick="openSidebar('CEP_111_Shambling Necromass',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\145_Wardog.png" id="CEP_145_Wardog" data-flag="@X" onclick="openSidebar('CEP_145_Wardog',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\177_King Saakala.png" id="CEP_177_King Saakala" data-flag="@X" onclick="openSidebar('CEP_177_King Saakala',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\31_Sarana, Fists of Fury.png" id="CEP_31_Sarana, Fists of Fury" data-flag="@X" onclick="openSidebar('CEP_31_Sarana, Fists of Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\70_Sahuaghin Fury.png" id="CEP_70_Sahuaghin Fury" data-flag="@X" onclick="openSidebar('CEP_70_Sahuaghin Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\112_Soul Diversion.png" id="CEP_112_Soul Diversion" data-flag="@X" onclick="openSidebar('CEP_112_Soul Diversion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\146_The Wiggumstaff Incident.png" id="CEP_146_The Wiggumstaff Incident" data-flag="@X" onclick="openSidebar('CEP_146_The Wiggumstaff Incident',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\178_Kruthik Swarm.png" id="CEP_178_Kruthik Swarm" data-flag="@X" onclick="openSidebar('CEP_178_Kruthik Swarm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\32_Squad Commander.png" id="CEP_32_Squad Commander" data-flag="@X" onclick="openSidebar('CEP_32_Squad Commander',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\71_Saw it Coming.png" id="CEP_71_Saw it Coming" data-flag="@X" onclick="openSidebar('CEP_71_Saw it Coming',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\113_Spare the Dying.png" id="CEP_113_Spare the Dying" data-flag="@X" onclick="openSidebar('CEP_113_Spare the Dying',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\147_Worker's Union.png" id="CEP_147_Workers Union" data-flag="@X" onclick="openSidebar('CEP_147_Workers Union',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\179_Kruthik Tunneler.png" id="CEP_179_Kruthik Tunneler" data-flag="@X" onclick="openSidebar('CEP_179_Kruthik Tunneler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\33_Tax Accessor.png" id="CEP_33_Tax Accessor" data-flag="@X" onclick="openSidebar('CEP_33_Tax Accessor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\72_Secrets of Tathys.png" id="CEP_72_Secrets of Tathys" data-flag="@X" onclick="openSidebar('CEP_72_Secrets of Tathys',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\114_Staff of the Blightree.png" id="CEP_114_Staff of the Blightree" data-flag="@X" onclick="openSidebar('CEP_114_Staff of the Blightree',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\148_Wrathful Smite.png" id="CEP_148_Wrathful Smite" data-flag="@X" onclick="openSidebar('CEP_148_Wrathful Smite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\180_Life Cleric.png" id="CEP_180_Life Cleric" data-flag="@X" onclick="openSidebar('CEP_180_Life Cleric',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\34_Teleportation Circle.png" id="CEP_34_Teleportation Circle" data-flag="@X" onclick="openSidebar('CEP_34_Teleportation Circle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\73_Tathys's Silencer.png" id="CEP_73_Tathyss Silencer" data-flag="@X" onclick="openSidebar('CEP_73_Tathyss Silencer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\115_Undead Elk.png" id="CEP_115_Undead Elk" data-flag="@X" onclick="openSidebar('CEP_115_Undead Elk',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\181_Nydissia the Protector.png" id="CEP_181_Nydissia the Protector" data-flag="@X" onclick="openSidebar('CEP_181_Nydissia the Protector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\35_Town's Guard.png" id="CEP_35_Towns Guard" data-flag="@X" onclick="openSidebar('CEP_35_Towns Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\74_Tidal Wave.png" id="CEP_74_Tidal Wave" data-flag="@X" onclick="openSidebar('CEP_74_Tidal Wave',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\182_Owlbear.png" id="CEP_182_Owlbear" data-flag="@X" onclick="openSidebar('CEP_182_Owlbear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\36_Tundrayl the Pure.png" id="CEP_36_Tundrayl the Pure" data-flag="@X" onclick="openSidebar('CEP_36_Tundrayl the Pure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\75_Treasure Diver.png" id="CEP_75_Treasure Diver" data-flag="@X" onclick="openSidebar('CEP_75_Treasure Diver',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\183_Planar Portal.png" id="CEP_183_Planar Portal" data-flag="@X" onclick="openSidebar('CEP_183_Planar Portal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\37_Urwin Brighstar, Guild Founder.png" id="CEP_37_Urwin Brighstar, Guild Founder" data-flag="@X" onclick="openSidebar('CEP_37_Urwin Brighstar, Guild Founder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\76_Tsunami.png" id="CEP_76_Tsunami" data-flag="@X" onclick="openSidebar('CEP_76_Tsunami',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\184_Song of Alyra.png" id="CEP_184_Song of Alyra" data-flag="@X" onclick="openSidebar('CEP_184_Song of Alyra',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\38_Wall Guard Recruiter.png" id="CEP_38_Wall Guard Recruiter" data-flag="@X" onclick="openSidebar('CEP_38_Wall Guard Recruiter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\77_Umbra.png" id="CEP_77_Umbra" data-flag="@X" onclick="openSidebar('CEP_77_Umbra',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\185_Staff of the Mothertree.png" id="CEP_185_Staff of the Mothertree" data-flag="@X" onclick="openSidebar('CEP_185_Staff of the Mothertree',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\39_Wartime Financier.png" id="CEP_39_Wartime Financier" data-flag="@X" onclick="openSidebar('CEP_39_Wartime Financier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\78_Wall of Force.png" id="CEP_78_Wall of Force" data-flag="@X" onclick="openSidebar('CEP_78_Wall of Force',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\186_Unchecked Aggression.png" id="CEP_186_Unchecked Aggression" data-flag="@X" onclick="openSidebar('CEP_186_Unchecked Aggression',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\79_Ylbor the Lazy.png" id="CEP_79_Ylbor the Lazy" data-flag="@X" onclick="openSidebar('CEP_79_Ylbor the Lazy',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\187_Volley of Arrows.png" id="CEP_187_Volley of Arrows" data-flag="@X" onclick="openSidebar('CEP_187_Volley of Arrows',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\80_Young Flayer.png" id="CEP_80_Young Flayer" data-flag="@X" onclick="openSidebar('CEP_80_Young Flayer',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\188_Wildshape — Bear.png" id="CEP_188_Wildshape — Bear" data-flag="@X" onclick="openSidebar('CEP_188_Wildshape — Bear',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\81_Zunam, Fate Favored.png" id="CEP_81_Zunam, Fate Favored" data-flag="@X" onclick="openSidebar('CEP_81_Zunam, Fate Favored',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\189_Wildshape — Spider.png" id="CEP_189_Wildshape — Spider" data-flag="@X" onclick="openSidebar('CEP_189_Wildshape — Spider',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\190_Wyvern Toxin.png" id="CEP_190_Wyvern Toxin" data-flag="@X" onclick="openSidebar('CEP_190_Wyvern Toxin',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\191_Yanna the Ill-Fated.png" id="CEP_191_Yanna the Ill-Fated" data-flag="@X" onclick="openSidebar('CEP_191_Yanna the Ill-Fated',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\214_Blessing of the Moon.png" id="CEP_214_Blessing of the Moon" data-flag="@X" onclick="openSidebar('CEP_214_Blessing of the Moon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\202_Irdel the Pursued.png" id="CEP_202_Irdel the Pursued" data-flag="@X" onclick="openSidebar('CEP_202_Irdel the Pursued',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\199_Granite, Elos' Vengeance.png" id="CEP_199_Granite, Elos Vengeance" data-flag="@X" onclick="openSidebar('CEP_199_Granite, Elos Vengeance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\206_Lady Aurelia.png" id="CEP_206_Lady Aurelia" data-flag="@X" onclick="openSidebar('CEP_206_Lady Aurelia',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\201_Hyrum, Last Refuge.png" id="CEP_201_Hyrum, Last Refuge" data-flag="@X" onclick="openSidebar('CEP_201_Hyrum, Last Refuge',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\200_His Opulence IV.png" id="CEP_200_His Opulence IV" data-flag="@X" onclick="openSidebar('CEP_200_His Opulence IV',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\205_Kinzine the Lifegiver.png" id="CEP_205_Kinzine the Lifegiver" data-flag="@X" onclick="openSidebar('CEP_205_Kinzine the Lifegiver',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\203_Justice, Reborn.png" id="CEP_203_Justice, Reborn" data-flag="@X" onclick="openSidebar('CEP_203_Justice, Reborn',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\210_Vas Asareen.png" id="CEP_210_Vas Asareen" data-flag="@X" onclick="openSidebar('CEP_210_Vas Asareen',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\193_Arrynth, Lord of Death.png" id="CEP_193_Arrynth, Lord of Death" data-flag="@X" onclick="openSidebar('CEP_193_Arrynth, Lord of Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\207_Pyrrydoss the Unbroken.png" id="CEP_207_Pyrrydoss the Unbroken" data-flag="@X" onclick="openSidebar('CEP_207_Pyrrydoss the Unbroken',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\204_Keldath the Scourge.png" id="CEP_204_Keldath the Scourge" data-flag="@X" onclick="openSidebar('CEP_204_Keldath the Scourge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\192_Aipa the Ancient.png" id="CEP_192_Aipa the Ancient" data-flag="@X" onclick="openSidebar('CEP_192_Aipa the Ancient',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\196_Dryad Grove.png" id="CEP_196_Dryad Grove" data-flag="@X" onclick="openSidebar('CEP_196_Dryad Grove',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\195_Captain Lebrode.png" id="CEP_195_Captain Lebrode" data-flag="@X" onclick="openSidebar('CEP_195_Captain Lebrode',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\218_Chaos Bolt.png" id="CEP_218_Chaos Bolt" data-flag="@X" onclick="openSidebar('CEP_218_Chaos Bolt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\208_Syosa, Raving Dragon.png" id="CEP_208_Syosa, Raving Dragon" data-flag="@X" onclick="openSidebar('CEP_208_Syosa, Raving Dragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\197_Emir, Fists of Fury.png" id="CEP_197_Emir, Fists of Fury" data-flag="@X" onclick="openSidebar('CEP_197_Emir, Fists of Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\198_Explore the Outlands.png" id="CEP_198_Explore the Outlands" data-flag="@X" onclick="openSidebar('CEP_198_Explore the Outlands',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\225_Urobu, Judge of Souls.png" id="CEP_225_Urobu, Judge of Souls" data-flag="@X" onclick="openSidebar('CEP_225_Urobu, Judge of Souls',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\223_Sorsha, Restrained.png" id="CEP_223_Sorsha, Restrained" data-flag="@X" onclick="openSidebar('CEP_223_Sorsha, Restrained',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\211_Aleana, Faith's Shield.png" id="CEP_211_Aleana, Faiths Shield" data-flag="@X" onclick="openSidebar('CEP_211_Aleana, Faiths Shield',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\209_Tammer, Reclusive Scholar.png" id="CEP_209_Tammer, Reclusive Scholar" data-flag="@X" onclick="openSidebar('CEP_209_Tammer, Reclusive Scholar',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\215_Bressio and Vynne, Twins.png" id="CEP_215_Bressio and Vynne, Twins" data-flag="@X" onclick="openSidebar('CEP_215_Bressio and Vynne, Twins',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\224_Tathys, Keeper of Secrets.png" id="CEP_224_Tathys, Keeper of Secrets" data-flag="@X" onclick="openSidebar('CEP_224_Tathys, Keeper of Secrets',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\219_Coelys, Chaos Incarnate.png" id="CEP_219_Coelys, Chaos Incarnate" data-flag="@X" onclick="openSidebar('CEP_219_Coelys, Chaos Incarnate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\220_Elos, God of War.png" id="CEP_220_Elos, God of War" data-flag="@X" onclick="openSidebar('CEP_220_Elos, God of War',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\212_Alyra, Oracle's Muse.png" id="CEP_212_Alyra, Oracles Muse" data-flag="@X" onclick="openSidebar('CEP_212_Alyra, Oracles Muse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\226_Vetys, Beacon of Knowledge.png" id="CEP_226_Vetys, Beacon of Knowledge" data-flag="@X" onclick="openSidebar('CEP_226_Vetys, Beacon of Knowledge',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\216_Cadrea, God of the Forge.png" id="CEP_216_Cadrea, God of the Forge" data-flag="@X" onclick="openSidebar('CEP_216_Cadrea, God of the Forge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\213_Aranya, Nature's Queen.png" id="CEP_213_Aranya, Natures Queen" data-flag="@X" onclick="openSidebar('CEP_213_Aranya, Natures Queen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\222_Lanu, Moon Trickster.png" id="CEP_222_Lanu, Moon Trickster" data-flag="@X" onclick="openSidebar('CEP_222_Lanu, Moon Trickster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\217_Caelys the Gilded.png" id="CEP_217_Caelys the Gilded" data-flag="@X" onclick="openSidebar('CEP_217_Caelys the Gilded',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\221_Fama, Assassin Favored.png" id="CEP_221_Fama, Assassin Favored" data-flag="@X" onclick="openSidebar('CEP_221_Fama, Assassin Favored',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\194_Ayleia Progenitor.png" id="CEP_194_Ayleia Progenitor" data-flag="@X" onclick="openSidebar('CEP_194_Ayleia Progenitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\227_Soul Steel Dagger.png" id="CEP_227_Soul Steel Dagger" data-flag="@X" onclick="openSidebar('CEP_227_Soul Steel Dagger',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CEP_e" data-flag="@E" onclick="openSidebar('CEP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\241_Eislessi Isle.png" id="CEP_241_Eislessi Isle" data-flag="@X" onclick="openSidebar('CEP_241_Eislessi Isle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\251_Misty Isles.png" id="CEP_251_Misty Isles" data-flag="@X" onclick="openSidebar('CEP_251_Misty Isles',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\260_Shattered Peaks.png" id="CEP_260_Shattered Peaks" data-flag="@X" onclick="openSidebar('CEP_260_Shattered Peaks',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\257_Ovauto Forest.png" id="CEP_257_Ovauto Forest" data-flag="@X" onclick="openSidebar('CEP_257_Ovauto Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\243_Et'limi'dak.png" id="CEP_243_Etlimidak" data-flag="@X" onclick="openSidebar('CEP_243_Etlimidak',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\245_Ikbarre Marshes.png" id="CEP_245_Ikbarre Marshes" data-flag="@X" onclick="openSidebar('CEP_245_Ikbarre Marshes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\249_Lake Dorn.png" id="CEP_249_Lake Dorn" data-flag="@X" onclick="openSidebar('CEP_249_Lake Dorn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\238_Corpsewood.png" id="CEP_238_Corpsewood" data-flag="@X" onclick="openSidebar('CEP_238_Corpsewood',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\265_Upper Iron Pass.png" id="CEP_265_Upper Iron Pass" data-flag="@X" onclick="openSidebar('CEP_265_Upper Iron Pass',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\247_Kavedii Islands.png" id="CEP_247_Kavedii Islands" data-flag="@X" onclick="openSidebar('CEP_247_Kavedii Islands',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\229_The Abyss.png" id="CEP_229_The Abyss" data-flag="@X" onclick="openSidebar('CEP_229_The Abyss',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\231_Bastion.png" id="CEP_231_Bastion" data-flag="@X" onclick="openSidebar('CEP_231_Bastion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\233_The Beacon.png" id="CEP_233_The Beacon" data-flag="@X" onclick="openSidebar('CEP_233_The Beacon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\235_The Blightlands.png" id="CEP_235_The Blightlands" data-flag="@X" onclick="openSidebar('CEP_235_The Blightlands',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\236_The Cataclysm.png" id="CEP_236_The Cataclysm" data-flag="@X" onclick="openSidebar('CEP_236_The Cataclysm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\252_The Moon Grove.png" id="CEP_252_The Moon Grove" data-flag="@X" onclick="openSidebar('CEP_252_The Moon Grove',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\255_The Nether.png" id="CEP_255_The Nether" data-flag="@X" onclick="openSidebar('CEP_255_The Nether',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\259_Revalia.png" id="CEP_259_Revalia" data-flag="@X" onclick="openSidebar('CEP_259_Revalia',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\263_The Tumult.png" id="CEP_263_The Tumult" data-flag="@X" onclick="openSidebar('CEP_263_The Tumult',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CEP-files\img\267_The Wilds.png" id="CEP_267_The Wilds" data-flag="@X" onclick="openSidebar('CEP_267_The Wilds',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CEP_er" data-flag="@E" onclick="openSidebar('CEP_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>

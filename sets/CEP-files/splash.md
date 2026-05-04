@@ -1,1 +1,0 @@
-﻿Epic open world campaign set in Cephestia before the gods were banished. It follows the invasion of the Oclea alliance by the Holy Kingdom of Nastrax.

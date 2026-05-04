@@ -1,0 +1,1273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>ER</name>
+			<longname>Eastern Reach</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-05-03</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Rowan, Faithful Squire ER</name>
+			<text>Sacrifice Rowan, target creature you control gets indestructible until the end of turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/1t_Rowan, Faithful Squire.png" num="1">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Token Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Wesley the Rescued</name>
+			<text>Non-creature spells your opponents cast cost {1} more.
+At the beginning of each end step you may flip Wesley the Rescued.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/0_Wesley the Rescued.png" num="0">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Fighter</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Armor of Aleana</name>
+			<text>Equipped creature gets +3/+3 and has ward {1}. (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
+Equip {3}. This ability costs {1} less to activate for each other Equipment you control.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/1_Armor of Aleana.png" num="1">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Goblin Gang Leader</name>
+			<text>Other goblins you control get +1/+1
+Whenever you attack with two or more creatures, create a 1/1 red goblin creature token that is tapped and attacking.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/0_Goblin Gang Leader.png" num="0">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cerberus ER</name>
+			<text>Whenever a creature dealt damage by Cerberus dies, put a +1/+1 counter on Cerberus</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/20t_Cerberus.png" num="20">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Token Creature — Wolf</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Mazzer, The Rat King ER</name>
+			<text>Skulk (This creature can&apos;t be blocked by creatures with greater power.)
+Discard a card: Create a 1/1 black rat creature tokens with menace and &quot;This creature can&apos;t block&quot;
+Other rats you control get +1/+1</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/30t_Mazzer, The Rat King.png" num="30">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rat Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Captain Morro ER</name>
+			<text>Flash, First strike
+When Captain Morro enters the battlefield, you may pay 1{W} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Captain Morro then tap that many target creatures. They don&apos;t untap during their controllers next untap step.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/2t_Captain Morro.png" num="2">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Carmen, Pious Knight ER</name>
+			<text>Vigilance
+When Carmen, Pious Knight enters the battlefield gain 3 life.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/3t_Carmen, Pious Knight.png" num="3">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Giant Paladin</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Kirk of Clan Daardendrian ER</name>
+			<text>When Kirk of Clan Daardendrian enters the battlefield, search your library for an equipment card and put it on the battlefield.
+{1}{W}: Attach all Equipment you control to Kirk.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/4t_Kirk of Clan Daardendrian.png" num="4">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Paladin</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Lord Chuck Gavelston ER</name>
+			<text>When Lord Chuck Gavelston enters the battlefield create a food token.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/5t_Lord Chuck Gavelston.png" num="5">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Manticore</name>
+			<text>Flash, Flying
+When Manticore Dies, draw a card.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/2_Manticore.png" num="2">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Manticore</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spear of Vhalimar</name>
+			<text>Equipped creature gets +2/+2 and has flying and vigilance.
+Whenever equipped creature attacks, it gains your choice of lifelink, trample, or deathtouch.
+Equip {3}</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/0_Spear of Vhalimar.png" num="0">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Paeter, Foolish Monk ER</name>
+			<text>When Paeter, Foolish Monk dies, draw a card.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/6t_Paeter, Foolish Monk.png" num="6">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Phaedra the Seeker ER</name>
+			<text>Vigilance
+When Phaedra enters the battlefield, create Rowan, a 2/1 soldier token with &quot;Sacrifice Rowan, target creature you control gets indestructible until the end of turn.&quot;
+When Phaedra attacks with at least two other creatures, creatures you control get first strike.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/7t_Phaedra the Seeker.png" num="7">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Tiefling Paladin</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Taj, Glittering Thief ER</name>
+			<text>Haste
+When Taj, Glitter Thief enters the battlefield gain control of target artifact until Taj, Glittering Thief leaves the battlefield.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/8t_Taj, Glittering Thief.png" num="8">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Tabaxi Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Lydia Brooks ER</name>
+			<text>When Lydia Brooks enters the battlefield, you may pay 1{U} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Lydia Brooks then return that many target instant or sorcery cards from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/9t_Lydia Brooks.png" num="9">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>The Black Glove ER</name>
+			<text>The Black Glove does not untap during your untap step.
+{1}{B}, {T}: Target creature gets -1/-1 for as long as The Black Glove remains tapped. When targeted creature dies, untap The Black Glove and draw a card.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/10t_The Black Glove.png" num="10">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Hundral the Voiceless ER</name>
+			<text>When Hundral the Voiceless enters the battlefield, you may pay 2{B} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Hundral the Voiceless then create twice that many 2/2 black dwarf creature tokens.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/12t_Hundral the Voiceless.png" num="12">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Fighter</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bron, Dastardly Thief ER</name>
+			<text>Menace
+When Bron, Dastardly Thief enters the battlefield return it to your hand unless mana from a Treasure was spent to cast it.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/11t_Bron, Dastardly Thief.png" num="11">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Nighttime Ambush</name>
+			<text>Destroy target creature with power 3 or less.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/3_Nighttime Ambush.png" num="3">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Temple of Judgement</name>
+			<text></text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/4_Temple of Judgement.png" num="4">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Quest</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Captain Ryo ER</name>
+			<text>When Captain Ryo enters the battlefield, create a treasure token.
+Sacrifice a treasure: Goad target creature. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/13t_Captain Ryo.png" num="13">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Crown of Giants</name>
+			<text>Enchant creature
+Enchanted creature has +3/+3 and trample and is a giant in addition to its other creature types.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/5_Crown of Giants.png" num="5">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Eye of Coelys</name>
+			<text>​</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/6_Eye of Coelys.png" num="6">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fondael the Bloodied ER</name>
+			<text>Haste
+When Fondael dies, exile the top two cards of your library. You may play one of them until the end of your next turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/14t_Fondael the Bloodied.png" num="14">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Fighter</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Goblin Raid</name>
+			<text>​</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/7_Goblin Raid.png" num="7">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Quest</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Goblin Raid Runner</name>
+			<text>Haste
+Whenever Goblin Raid Runner becomes blocked, it deals 1 damage to target creature blocking it.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/8_Goblin Raid Runner.png" num="8">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Guantlets of the Storm</name>
+			<text>Flash
+When Guantlets of the Storm enters the battlefield, attach it to target creature you control.
+Equipped creature gets +2/+0 and has first strike.
+Equip {2}
+{2}{R}, Sacrifice Guantlets of the Storm: Deal 3 damage to any target.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/10_Guantlets of the Storm.png" num="10">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Goblin War-Rider</name>
+			<text>Haste, Menace</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/9_Goblin War-Rider.png" num="9">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Dinosaur</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Leshanna, Lovestruck Bard ER</name>
+			<text>Non-creature spells you cast cost {1} less.
+At the beginning of each end step you may flip Leshanna bard</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/15t_Leshanna, Lovestruck Bard.png" num="15">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Lodaec, Tyrant King ER</name>
+			<text>Other Dwarves you control get +1/+1
+If a dwarf you control would deal excess damage to a creature or planeswalker, Lodaec deals damage equal to the excess to any target other than that permanent.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/16t_Lodaec, Tyrant King.png" num="16">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Lord</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Mining Contract</name>
+			<text>Whenever a dwarf you control becomes tapped, create a treasure token.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/11_Mining Contract.png" num="11">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mining Dwarf</name>
+			<text>When Mining Dwarf enters the battlefield, create a treasure token.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/12_Mining Dwarf.png" num="12">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nicki, Swashbuckler ER</name>
+			<text>Haste
+If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Whenever you roll one or more dice, put a +1/+1 counter on Nicki.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/17t_Nicki, Swashbuckler.png" num="17">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Nicki&apos;s Blade</name>
+			<text>Whenever equipped creature attacks, put a +1/+1 counter on it.
+Whenever equipped creature deals combat damage, roll a d12. If the result is greater than the damage dealt or the result is 12, double the number of +1/+1 counters on that creature.
+Equip {2}</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/13_Nicki&apos;s Blade.png" num="13">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Xurug the Avenger ER</name>
+			<text>Whenever Xurug attacks with at least two other creatures, attacking creatures get trample until end of turn.
+Other Barbarians and Fighters you control get +1/+1</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/18t_Xurug the Avenger.png" num="18">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Orc Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Zazzid, Chosen of Coelys ER</name>
+			<text>When Zazzid attacks roll a d20.
+[b]1-9[/b]| Zazzid deals 3 damage to a random creature.
+[b]10-19|[/b] Zazzid deals 3 damage to a random creature an opponent controls.
+[b]20[/b]| Zazzid deals 3 damage to a each creature your opponents control.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/19t_Zazzid, Chosen of Coelys.png" num="19">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Orc Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Chittering Spider</name>
+			<text>Deathtouch, Reach
+{3}{G}: Return Chittering Spider from your graveyard to the battlefield tapped.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/14_Chittering Spider.png" num="14">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spider</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Garmin, Beast&apos;s Companion ER</name>
+			<text>When Garmin enters the battlefield create Cerberus, a 2/2 legendary green Wolf creature token with &quot;Whenever a creature dealt damage by Cerberus dies, put a +1/+1 counter on Cerberus&quot;.
+{G}, {T}: Cerberus fights target creature you don&apos;t control.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/21t_Garmin, Beast&apos;s Companion.png" num="21">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Halfling Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Mazzer, Protected ER</name>
+			<text>Skulk (This creature can&apos;t be blocked by creatures with greater power.)
+When Mazzer enters the battlefield, destroy target artifact or enchantment.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/22t_Mazzer, Protected.png" num="22">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Misha, Werebear Leader ER</name>
+			<text>When Misha enters the battlefield create a 2/2 green Werebear creature token.
+Other Bears and Werebears you control get +1/+1
+{1}{G}, Exile target creature card from your graveyard: Create a 2/2 green Werebear creature token.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/23t_Misha, Werebear Leader.png" num="23">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Werebear</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Theo, Friendly Barkeep ER</name>
+			<text>Whenever another legendary permanent enters the battlefield under your control, you gain 1 life and draw a card. This ability triggers only once each turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/24t_Theo, Friendly Barkeep.png" num="24">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Werebear Amulet</name>
+			<text>When Werebear Amulet enters the battlefield destroy target enchantment.
+Equipped creature has hexproof.
+Equip {1}</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/15_Werebear Amulet.png" num="15">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Werebear Warrior</name>
+			<text>When Werebear Warrior enters the battlefield, target creature you control and target creature an opponent controls fight. (Each deals damage equal to its power to the other.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/16_Werebear Warrior.png" num="16">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Werebear</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Adenar, Willful Protector ER</name>
+			<text>Flash
+Flying
+When Adenar enters the battlefield, exile target creature and return it to the battlefield under its owner&apos;s control.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/25t_Adenar, Willful Protector.png" num="25">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Aasimar Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Beatrix, Wily Herbalist</name>
+			<text>​</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/17_Beatrix, Wily Herbalist.png" num="17">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Beatrix</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Boomer ER</name>
+			<text>Each time an instant or sorcery resolves, you may exile that card. You may copy that card for as long as it remains in exile and cast it using mana as though it were mana of any color. If you cast the exiled spell or exile another spell this way return the previously exiled card to its owner&apos;s graveyard.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/26t_Boomer.png" num="26">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Bird Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Gyles, Forgetful Hermit ER</name>
+			<text>When Gyles, Forgetful Hermit enters the battlefield, mill three cards then return a land from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/27t_Gyles, Forgetful Hermit.png" num="27">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Klaarrrgggg, Affable Bugbear ER</name>
+			<text>Nemesis (You may only control one creature or Planeswalker with Nemesis.)
+At the beginning of each upkeep create a 1/1 red goblin creature token with haste. 
+Goblins you control get +1/+0 and must attack each combat if able.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/28t_Klaarrrgggg, Affable Bugbear.png" num="28">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Goblin Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Kraigg, Friendly Troll ER</name>
+			<text>Defender
+Kraigg, Friendly Troll assigns combat damage equal to its toughness rather than its power.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/29t_Kraigg, Friendly Troll.png" num="29">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Troll</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>1/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Master Jarreau</name>
+			<text>​</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/18_Master Jarreau.png" num="18">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Jarreau</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vhalimar, Forsaken Angel // Eldritch Blast</name>
+			<text>Haste
+At the beginning of your upkeep, sacrifice a creature.
+
+---
+
+Target creature get -2/-2 until end of turn. If that creature would die this turn, exile it instead. 
+(Then exile this card. You may cast the creature later from exile).</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/19_Vhalimar, Forsaken Angel.png" num="19">ER</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Aasimar Warlock // Sorcery — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB // 1B</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bulgan, Raging Battler ER</name>
+			<text>Menace, Trample
+Blitz {R}{G} (If you cast this spell for its blitz cost, it gains haste and &quot;When this creature dies, draw a card&quot;. Sacrifice it at the beginning of the next end step.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/31t_Bulgan, Raging Battler.png" num="31">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Orc Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>2R/GR/G</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Donar, Tragic Hero ER</name>
+			<text>When Donar, Tragic Hero is put into the graveyard from anywhere return a creature with mana value 2 or less from the graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/32t_Donar, Tragic Hero.png" num="32">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/U</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Kriv, Champion of Heroes ER</name>
+			<text>Vigilance
+Boast — {1}{R}: Kriv, Champion of Heroes deals 3 damage to target creature. (Activate this ability only if this creature attacked this turn and only once each turn.)
+Other creatures you control get +1/+1</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/33t_Kriv, Champion of Heroes.png" num="33">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Paladin</type>
+				<maintype>Creature</maintype>
+				<manacost>3R/WR/W</manacost>
+				<cmc>5</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>The Ledger ER</name>
+			<text>Nemesis — At the beginning of your upkeep if you control no rogue creatures tokens, create a 1/1 black rogue creature token with unblockable. (You may only control one creature or Planeswalker with Nemesis.)
+Sacrifice a creature: Create a treasure.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/34t_The Ledger.png" num="34">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU/BB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Mathias, Cursed of Urobu ER</name>
+			<text>Flash
+When Mathias, Cursed of Urobu enters the battlefield, target creature gets -2/-2 until end of turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/35t_Mathias, Cursed of Urobu.png" num="35">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/B</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Milde, Faithful Assistant ER</name>
+			<text>At the beginning of each end step, gain 1 life if a creature died this turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/36t_Milde, Faithful Assistant.png" num="36">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1G/W</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Namfoodle Stumbleduck ER</name>
+			<text>When Namfoodle Stumbleduck enters the battlefield, roll a d20:
+[b]1-5[/b]|Return target creature to its owner&apos;s hand.
+[b]6-15[/b]|Scry 2 then draw a card.
+[b]16+[/b]|Deal 3 damage to target creature or player.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/37t_Namfoodle Stumbleduck.png" num="37">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Gnome Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U/R</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>The Professor ER</name>
+			<text>Nemesis (You may only control one creature or Planeswalker with Nemesis.)
+At the beginning of your upkeep create a 1/1 Homunculus creature token with mutate. Creatures in your hand have mutate.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/38t_The Professor.png" num="38">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2B/G</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Blade of Olethros ER</name>
+			<text>Equipped creatures has deathtouch.
+When equipped creature attacks, roll a d10.
+Equip {2}
+[b]1-2[/b]|Target player mills 2.
+[b]3-4| [/b]Destroy target nonland permanent with mana value 2 or less.
+[b]5-6[/b]|Destroy target artifact or enchantment.
+[b]7-8[/b]|Deal 2 damage to target creature or player
+[b]9-10[/b]| Target creature gets -2/-2 until the end of turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/39t_Blade of Olethros.png" num="39">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Monument of Heroes</name>
+			<text>​</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/20_Monument of Heroes.png" num="20">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Samuel, Sentient Mask ER</name>
+			<text>Defender
+When Samuel enter the battlefield, draw a card.
+{3}{T}: Draw a card</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/40t_Samuel, Sentient Mask.png" num="40">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Contruct</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Soul Eater ER</name>
+			<text>When equipped creature deals combat damage to a player, you may sacrifice it. If you do, exile target legendary permanent that player controls.
+Equip legendary creature {3}
+Equip {7}</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/41t_Soul Eater.png" num="41">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Banden Docks ER</name>
+			<text>{T}: Add {U}
+Crew 1 (Tap any number of creatures you control with total power 1 or greater: This Island becomes an artifact creature until end of turn.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/42t_Banden Docks.png" num="42">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>0</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Hyathyr ER</name>
+			<text>{T}: Add {G}
+{2}{G}{G}: Create a 2/2 green bear creature token.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/43t_Hyathyr.png" num="43">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Korolduhr ER</name>
+			<text>{T}: Add {R}
+{1}{R}, {T}, Exile a creature card from your graveyard: Create a treasure.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/44t_Korolduhr.png" num="44">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Manticore Tower ER</name>
+			<text>{T}: Add {W}
+{4}{W}: Create a 3/1 Flying Manticore creature token.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/45t_Manticore Tower.png" num="45">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Old Falden ER</name>
+			<text>When Old Falden enters the battlefield, mill four then return a card from your graveyard to your hand that was put there this turn.
+{T}: Add {B}</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/46t_Old Falden.png" num="46">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<token>1</token>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

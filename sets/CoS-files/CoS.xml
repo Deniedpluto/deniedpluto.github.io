@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>CoS</name>
+			<longname>Curse of Strahd</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-05-03</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>March of the the Dead</name>
+			<text>Creatures you control get afterlife 1. (Whenever that creature dies, create a 1/1 white and black Spirit creature token with flying.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/1_March of the the Dead.png" num="1">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Arabel, Seer Prodigy</name>
+			<text>When Arabel or another legendary creature enters the battlefield, scry 1.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/2_Arabel, Seer Prodigy.png" num="2">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scrying</name>
+			<text>Draw 3 cards, then put two cards from your hand on top of your library in any order.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/3_Scrying.png" num="3">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blinksy, Toymaker</name>
+			<text>{B}, {T}, Pay 1 life: Create a treasure token</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/4_Blinksy, Toymaker.png" num="4">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Book of Victims</name>
+			<text>{T}: Exile target creature from a graveyard.
+{5}: Sacrifice Book of Victims. Each opponent loses life equal to the number of cards exiled with Book of Victims.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/5_Book of Victims.png" num="5">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dark Gift</name>
+			<text>Enchant creature card in a graveyard
+When Dark Gift enters the battlefield, if it&apos;s on the battlefield, it loses &quot;enchant creature card in a graveyard&quot; and gains &quot;enchant creature put onto the battlefield with Dark Gift.&quot; Return enchanted creature card to the battlefield under your control and attach Dark Gift to it. When Dark Gift leaves the battlefield, that creature&apos;s controller sacrifices it.
+Enchanted creature gets +1/+0.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/6_Dark Gift.png" num="6">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Drown in the Lake</name>
+			<text>Target creature gets -X/-X until the end of turn where X is two plus your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/7_Drown in the Lake.png" num="7">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Revenant</name>
+			<text>{1}{B}: Return Revenant from the graveyard to the battlefield tapped.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/8_Revenant.png" num="8">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Paladin</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vampire Spawn</name>
+			<text>Reach
+Vampire Spawn enters the battlefield tapped.
+Whenever a creature dealt damage by Vampire Spawn dies, create a tapped token copy of Vampire Spawn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/9_Vampire Spawn.png" num="9">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vladimir &amp; Godfrey, Reunited</name>
+			<text>Whenever Vladimir &amp; Godfrey attack or block, create a 2/2 black Zombie Paladin creature token.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/10_Vladimir &amp; Godfrey, Reunited.png" num="10">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Zombie Paladin</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Minnesota, Impulsive Planner</name>
+			<text>When you cast your first instant or sorcery each turn roll a d20.
+[b]1-9[/b]|Target opponent may copy the spell. They may choose new targets for the copy.
+[b]10-20[/b]|Copy the spell. You may choose new targets for the copy.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/11_Minnesota, Impulsive Planner.png" num="11">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Strahd Von Zarovich</name>
+			<text>Nemesis (You may only control one creature or Planeswalker with Nemesis.)
+Flying
+Whenever Strahd Von Zarovich deals combat damage to a player that player discards a card and you draw a card.
+If Strahd Von Zarovich would die, return him to the battlefield tapped and the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/12_Strahd Von Zarovich.png" num="12">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Vampire Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3UB</manacost>
+				<cmc>5</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zas, Barbarian Scholar</name>
+			<text>Trample
+You may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Barbarian Scholar&apos;s power and toughness until end of turn. (An exerted creature won&apos;t untap during your next untap step.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/13_Zas, Barbarian Scholar.png" num="13">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Orc Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Clif, Chilled Tortle</name>
+			<text>Lifelink
+Defender
+{2}{W}: Clif deals damage to any target equal to the amount of life you gained this turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/14_Clif, Chilled Tortle.png" num="14">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Turtle Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2G/W</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Harlston, Grappling Pugilist</name>
+			<text>Flash
+When Harlston, Grappling Pugilist enters the battlefield, tap target creature an opponent controls. It doesn&apos;t untap during its controllers next untap step.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/15_Harlston, Grappling Pugilist.png" num="15">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Fighter</type>
+				<maintype>Creature</maintype>
+				<manacost>3R/W</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Animated Armor</name>
+			<text>Flash
+Vigilance
+When Animated Armor enters the battlefield, tap target creature.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/16_Animated Armor.png" num="16">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zas&apos;s Battleaxe</name>
+			<text>Equipped creature gets +2/+0
+When equipped creature attacks, roll a d20.
+Equip {4}
+[b]1-9[/b]| Equipped creature gains trample until the end of turn.
+[b]10-19[/b]| Creatures you control gain trample until end of turn.
+[b]20[/b]| Creatures you control gain trample. Untap each attacking creature you control. After this combat phase, there is an additional combat phase.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/17_Zas&apos;s Battleaxe.png" num="17">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

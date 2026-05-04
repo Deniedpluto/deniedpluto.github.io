@@ -3,7 +3,9 @@
         "card_name": "Wesley the Rescued",
         "number": 0,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -12,25 +14,33 @@
         "card_name": "Spear of Vhalimar",
         "number": 0,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Goblin Gang Leader",
         "number": 0,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Chittering Spider",
         "number": 14,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Armor of Aleana",
         "number": 1,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -39,25 +49,33 @@
         "card_name": "Nighttime Ambush",
         "number": 3,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Crown of Giants",
         "number": 5,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Werebear Amulet",
         "number": 15,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Manticore",
         "number": 2,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -66,19 +84,25 @@
         "card_name": "Temple of Judgement",
         "number": 4,
         "shape": "class",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Eye of Coelys",
         "number": 6,
         "shape": "planeswalker",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Werebear Warrior",
         "number": 16,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -93,7 +117,9 @@
         "card_name": "Goblin Raid",
         "number": 7,
         "shape": "class",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -111,7 +137,9 @@
         "card_name": "Goblin Raid Runner",
         "number": 8,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -129,7 +157,9 @@
         "card_name": "Goblin War-Rider",
         "number": 9,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -147,7 +177,9 @@
         "card_name": "Guantlets of the Storm",
         "number": 10,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -165,7 +197,9 @@
         "card_name": "Mining Contract",
         "number": 11,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -183,7 +217,9 @@
         "card_name": "Mining Dwarf",
         "number": 12,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -201,7 +237,9 @@
         "card_name": "Nicki's Blade",
         "number": 13,
         "shape": "normal",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -223,7 +261,9 @@
         "card_name": "Master Jarreau",
         "number": 18,
         "shape": "planeswalker",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -256,7 +296,9 @@
         "card_name": "Vhalimar, Forsaken Angel",
         "number": 19,
         "shape": "adventure",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -271,7 +313,9 @@
         "card_name": "Beatrix, Wily Herbalist",
         "number": 17,
         "shape": "planeswalker",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "er"
@@ -290,7 +334,9 @@
         "card_name": "Monument of Heroes",
         "number": 20,
         "shape": "class",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -321,277 +367,369 @@
         "card_name": "Rowan, Faithful Squire",
         "number": 1,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Blade of Olethros",
         "number": 39,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Samuel, Sentient Mask",
         "number": 40,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Soul Eater",
         "number": 41,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Banden Docks",
         "number": 42,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Hyathyr",
         "number": 43,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Korolduhr",
         "number": 44,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Manticore Tower",
         "number": 45,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Old Falden",
         "number": 46,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Captain Morro",
         "number": 2,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Carmen, Pious Knight",
         "number": 3,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Kirk of Clan Daardendrian",
         "number": 4,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Lord Chuck Gavelston",
         "number": 5,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Paeter, Foolish Monk",
         "number": 6,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Phaedra the Seeker",
         "number": 7,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Taj, Glittering Thief",
         "number": 8,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Lydia Brooks",
         "number": 9,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "The Black Glove",
         "number": 10,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Bron, Dastardly Thief",
         "number": 11,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Hundral the Voiceless",
         "number": 12,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Captain Ryo",
         "number": 13,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Fondael the Bloodied",
         "number": 14,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Leshanna, Lovestruck Bard",
         "number": 15,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Lodaec, Tyrant King",
         "number": 16,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Nicki, Swashbuckler",
         "number": 17,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Xurug the Avenger",
         "number": 18,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Zazzid, Chosen of Coelys",
         "number": 19,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Cerberus",
         "number": 20,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Garmin, Beast's Companion",
         "number": 21,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Mazzer, Protected",
         "number": 22,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Misha, Werebear Leader",
         "number": 23,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Theo, Friendly Barkeep",
         "number": 24,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Adenar, Willful Protector",
         "number": 25,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Boomer",
         "number": 26,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Gyles, Forgetful Hermit",
         "number": 27,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Klaarrrgggg, Affable Bugbear",
         "number": 28,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Kraigg, Friendly Troll",
         "number": 29,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Mazzer, The Rat King",
         "number": 30,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Bulgan, Raging Battler",
         "number": 31,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Donar, Tragic Hero",
         "number": 32,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Kriv, Champion of Heroes",
         "number": 33,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "The Ledger",
         "number": 34,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Mathias, Cursed of Urobu",
         "number": 35,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Milde, Faithful Assistant",
         "number": 36,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Namfoodle Stumbleduck",
         "number": 37,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "The Professor",
         "number": 38,
         "shape": "token",
-        "set": "ER"
+        "set": "ER",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
