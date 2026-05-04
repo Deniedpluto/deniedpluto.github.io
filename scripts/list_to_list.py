@@ -29,8 +29,10 @@ def convertList(setCode):
 		match = re.search(r'!group ([^ \n]+)', cards[i]['notes'])
 		if match and match.group() not in sort_groups:
 			sort_groups.append(match.group())
+		if "token" in cards[i]['shape'] or "Basic" in cards[i]['type']:
+			continue
 		for j in range(i):
-			if cards[i]['card_name'] == cards[j]['card_name'] and "token" not in cards[i]['shape'] and "Basic" not in cards[i]['type']:
+			if cards[i]['card_name'] == cards[j]['card_name'] and "token" not in cards[j]['shape'] and "Basic" not in cards[j]['type']:
 				skipdex.append(cards[j]['number'])
 
 	final_list = []
@@ -252,7 +254,7 @@ def convertList(setCode):
 						final_list.append(blank1)
 					else:
 						ca = arr[row]
-						final_list.append({'card_name':ca['card_name'],'number':ca['number'],'shape':ca['shape'],'set':code})
+						final_list.append({'card_name':ca['card_name'],'number':ca['number'],'shape':ca['shape'],'set':code,'rotated':(False if 'rotated' not in ca else ca['rotated']),'position':('' if 'position' not in ca else ca['position'])})
 
 			if len(r['cards']) == 1: # single-card categories
 				if not row_count % 5 == 0:

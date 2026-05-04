@@ -11,15 +11,18 @@ def generateHTML(codes):
 	html_content = '''<html>
 <head>
 	<title>Search</title>
-	<link rel="icon" type="image/x-icon" href="/img/search.png">
-	<link rel="stylesheet" href="resources/mana.css">
-	<link rel="stylesheet" href="/resources/header.css">
-	<link rel="stylesheet" href="/resources/card-text.css">
+	<link rel="icon" type="image/x-icon" href="./img/search.png">
+	<link rel="stylesheet" href="./resources/mana.css">
+	<link rel="stylesheet" href="./resources/header.css">
+	<link rel="stylesheet" href="./resources/card-text.css">
 </head>
+<script title="root">
+	const rootPath = ".";
+</script>
 <style>
 	@font-face {
 		font-family: Beleren;
-		src: url('/resources/beleren.ttf');
+		src: url('./resources/beleren.ttf');
 	}
 	body {
 		font-family: 'Helvetica', 'Arial', sans-serif;
@@ -68,7 +71,7 @@ def generateHTML(codes):
 		box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
 		outline: 0;
 	}
-	button:disabled {
+	button:disabled, select:disabled {
 		cursor: auto;
 		background-color: #f7fafa;
 		font-style: italic;
@@ -158,7 +161,7 @@ def generateHTML(codes):
 		height: auto;
 	}
 	.img-container .btn {
-		background: url('img/flip.png') no-repeat;
+		background: url('./img/flip.png') no-repeat;
 		background-size: contain;
 		background-position: center;
 		width: 15%;
@@ -174,7 +177,7 @@ def generateHTML(codes):
 		opacity: 0.5;
 	}
 	.img-container .btn:hover {
-		background: url('img/flip-hover.png') no-repeat;
+		background: url('./img/flip-hover.png') no-repeat;
 		background-size: contain;
 		background-position: center;
 	}
@@ -186,17 +189,41 @@ def generateHTML(codes):
 		font-size: .97vw;
 		color: rgba(0, 0, 0, 0);
 	}
+	.no-results {
+		display: none;
+		text-align: center;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		width: 100%;
+	}
+	.no-results img {
+		width: 150px;
+		margin-bottom: 20px;
+		opacity: 0.3;
+		filter: drop-shadow(0 0 4px #000);
+	}
+	.no-results h1 {
+		font-family: Beleren;
+		color: #494949;
+		margin: 0;
+		font-size: 40px;
+	}
+	.no-results p {
+		color: #797979;
+		font-size: 18px;
+		margin-top: 10px;
+	}
 </style>
 <body>
 	'''
 
-	with open(os.path.join('resources', 'snippets', 'header.txt'), encoding='utf-8-sig') as f:
+	with open(os.path.join('scripts', 'snippets', 'header.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 
 	html_content += '''
 	<div class="button-grid">
-		<div class="select-text"><div class="results-text" id="results-text">Loading ...</div>Cards displayed as<select name="display" id="display"><option value="cards-only">Cards Only</option><option value="cards-text">Cards + Text</option></select>sorted by<select name="sort-by" id="sort-by"><option value="name">Name</option><option value="set-code">Set / Number</option><option value="mv">Mana Value</option><option value="color">Color</option><option value="rarity">Rarity</option></select> : <select name="sort-order" id="sort-order"><option value="ascending">Asc</option><option value="descending">Desc</option></select></div>		
+		<div class="select-text"><div class="results-text" id="results-text">Loading ...</div>Cards displayed as<select name="display" id="display"><option value="cards-only">Cards Only</option><option value="cards-text">Cards + Text</option></select>sorted by<select name="sort-by" id="sort-by"><option value="name">Name</option><option value="set-code">Set / Number</option><option value="mv">Mana Value</option><option value="color">Color</option><option value="rarity">Rarity</option><option value="cube">Cube</option></select> : <select name="sort-order" id="sort-order"><option value="ascending">Asc</option><option value="descending">Desc</option></select></div>		
 		<div class="prev-next-btns">
 			<button type="submit" onclick="previousPage()" id="prevBtn" disabled>< Previous</button>
 			<button type="submit" onclick="nextPage()" id="nextBtn">Next 30 ></button>
@@ -207,6 +234,12 @@ def generateHTML(codes):
 	</div>
 
 	<div class="image-grid-container" id="imagesOnlyGrid">
+	</div>
+
+	<div id="no-results" class="no-results">
+		<img src="./img/deck.png">
+		<h1>No cards found</h1>
+		<p>Your search didn't match any cards. Try adjusting your search terms.</p>
 	</div>
 
 	<div class="button-grid" id="footer">
@@ -228,13 +261,13 @@ def generateHTML(codes):
 		document.addEventListener("DOMContentLoaded", async function () {
 			'''
 
-	with open(os.path.join('resources', 'snippets', 'load-files.txt'), encoding='utf-8-sig') as f:
+	with open(os.path.join('scripts', 'snippets', 'load-files.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 
 	html_content += '''
 
-			await fetch('/lists/all-sets.json')
+			await fetch(rootPath + '/lists/all-sets.json')
 					.then(response => response.json())
 					.then(data => {
 						sets_json = data; 
@@ -303,7 +336,7 @@ def generateHTML(codes):
 
 		'''
 
-	with open(os.path.join('resources', 'snippets', 'compare-function.txt'), encoding='utf-8-sig') as f:
+	with open(os.path.join('scripts', 'snippets', 'compare-function.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 
@@ -313,6 +346,49 @@ def generateHTML(codes):
 	html_content += '''
 
 		function preSearch(setNewState) {
+			const searchTerms = document.getElementById("search").value.toLowerCase();
+			const tokens = tokenizeTerms(searchTerms) || [];
+			const sortBySelect = document.getElementById("sort-by");
+			const sortOrderSelect = document.getElementById("sort-order");
+
+			sortBySelect.disabled = false;
+			sortOrderSelect.disabled = false;
+
+			tokens.forEach(token => {
+				if (token.startsWith("sort:")) {
+					const val = token.substring(5);
+					const map = {
+						"name": "name",
+						"set": "set-code",
+						"mv": "mv",
+						"color": "color",
+						"rarity": "rarity",
+						"cube": "cube"
+					};
+					if (map[val]) {
+						const option = Array.from(sortBySelect.options).find(opt => opt.value === map[val]);
+						if (option) {
+							sortBySelect.value = map[val];
+							sortBySelect.disabled = true;
+						}
+					}
+				}
+				if (token.startsWith("direction:")) {
+					const val = token.substring(10);
+					const map = {
+						"asc": "ascending",
+						"desc": "descending"
+					};
+					if (map[val]) {
+						const option = Array.from(sortOrderSelect.options).find(opt => opt.value === map[val]);
+						if (option) {
+							sortOrderSelect.value = map[val];
+							sortOrderSelect.disabled = true;
+						}
+					}
+				}
+			});
+
 			card_list_arrayified.sort(compareFunction);
 			if (document.getElementById("sort-order").value == "descending")
 			{
@@ -391,6 +467,14 @@ def generateHTML(codes):
 				document.getElementById("results-text").innerText = "";
 			}
 
+			if (search_results.length == 0) {
+				document.getElementById("no-results").style.display = "block";
+				document.getElementById("footer").style.display = "none";
+			} else {
+				document.getElementById("no-results").style.display = "none";
+				document.getElementById("footer").style.display = "grid";
+			}
+
 			if (page != 0)
 			{
 				document.getElementById("prevBtn").disabled = false;
@@ -440,7 +524,7 @@ def generateHTML(codes):
 		{
 			for (const li of list)
 			{
-				if (li.card_name == card.card_name && li.type == card.type)
+				if (li.card_name == card.card_name && li.type == card.type && li.rules_text == card.rules_text)
 				{
 					return true;
 				}
@@ -451,11 +535,11 @@ def generateHTML(codes):
 
 		'''
 
-	with open(os.path.join('resources', 'snippets', 'search-defs.txt'), encoding='utf-8-sig') as f:
+	with open(os.path.join('scripts', 'snippets', 'search-defs.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 
-	with open(os.path.join('resources', 'snippets', 'tokenize-symbolize.txt'), encoding='utf-8-sig') as f:
+	with open(os.path.join('scripts', 'snippets', 'tokenize-symbolize.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 
@@ -471,7 +555,7 @@ def generateHTML(codes):
 
 		'''
 
-	with open(os.path.join('resources', 'snippets', 'img-container-defs.txt'), encoding='utf-8-sig') as f:
+	with open(os.path.join('scripts', 'snippets', 'img-container-defs.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 
@@ -584,7 +668,7 @@ def generateHTML(codes):
 
 		'''
 
-	with open(os.path.join('resources', 'snippets', 'random-card.txt'), encoding='utf-8-sig') as f:
+	with open(os.path.join('scripts', 'snippets', 'random-card.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 

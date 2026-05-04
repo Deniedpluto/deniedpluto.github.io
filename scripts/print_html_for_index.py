@@ -9,13 +9,16 @@ def generateHTML():
 	html_content = '''<html>
 	<head>
 		<title>MSE Set Hub</title>
-		<link rel="icon" type="image/x-icon" href="/img/favicon.png">
+		<link rel="icon" type="image/x-icon" href="./img/favicon.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
+	<script title="root">
+		const rootPath = ".";
+	</script>
 	<style>
 	@font-face {
 	  font-family: 'Beleren Small Caps';
-	  src: url('/resources/beleren-caps.ttf');
+	  src: url('./resources/beleren-caps.ttf');
 	}
 	body {
 		background-image: linear-gradient(to top, #ffdde1, #ee9ca7);
@@ -160,6 +163,7 @@ def generateHTML():
 		width: 100%;
 		display: block;
 		margin: auto;
+		border-radius: 3.733% / 2.677%;
 	}
 	.set-icon-container {
 		font-family: 'Beleren Small Caps';
@@ -210,9 +214,9 @@ def generateHTML():
 			<img class="banner" src="img/banner.png"></img>
 			<input type="text" inputmode="search" placeholder="Search ..." autofocus="autofocus" name="search" id="search" spellcheck="false" autocomplete="off" autocorrext="off" spellcheck="false">
 			<div class="button-grid">
-				<button onclick="goToSets()"><img src="/img/sets.png" class="btn-img">All Sets</button>
-				<button onclick="goToDeckbuilder()"><img src="/img/deck.png" class="btn-img">Deckbuilder</button>
-				<button onclick="randomCard()"><img src="/img/random.png" class="btn-img">Random Card</button>
+				<button onclick="goToSets()"><img src="img/sets.png" class="btn-img">All Sets</button>
+				<button onclick="goToDeckbuilder()"><img src="img/deck.png" class="btn-img">Deckbuilder</button>
+				<button onclick="randomCard()"><img src="img/random.png" class="btn-img">Random Card</button>
 			</div>
 			<div class="two-part-grid">
 				<div class="container" id="preview-container">
@@ -229,6 +233,8 @@ def generateHTML():
 		'''
 		set_codes = so_json[key]
 		for code in set_codes:
+			if code == "":
+				continue
 			set_name = 'MISSING'
 			if not os.path.exists(os.path.join('sets', code + '-files', 'ignore.txt')):
 				with open(os.path.join('lists', 'all-sets.json'), encoding='utf-8-sig') as f:
@@ -262,7 +268,7 @@ def generateHTML():
 
 			document.addEventListener("DOMContentLoaded", async function () {
 				try {
-					const response = await fetch('./resources/gradients.json');
+					const response = await fetch(rootPath + '/resources/gradients.json');
 					raw_gradients = await response.json();
 				}
 				catch(error) {
@@ -274,7 +280,7 @@ def generateHTML():
 
 				'''
 
-	with open(os.path.join('resources', 'snippets', 'load-files.txt'), encoding='utf-8-sig') as f:
+	with open(os.path.join('scripts', 'snippets', 'load-files.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 	
@@ -308,7 +314,7 @@ def generateHTML():
 
 				const a = document.createElement("a");
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.origin);
 				const params = {
 					set: card_stats.set,
 					num: card_stats.number,
@@ -322,7 +328,14 @@ def generateHTML():
 				const img = document.createElement("img");
 				img.id = "cotd";
 
-				img.src = '/sets/' + card_stats.set + '-files/img/' + card_stats.number + '_' + card_stats.card_name + (card_stats.shape.includes('double') ? '_front' : '') + '.' + card_stats.image_type;
+				if ("position" in card_stats)
+				{
+					img.src = rootPath + '/sets/' + card_stats.set + '-files/img/' + card_stats.position + (card_stats.shape.includes('double') ? '_front' : '') + '.' + card_stats.image_type;
+				}
+				else
+				{
+					img.src = rootPath + '/sets/' + card_stats.set + '-files/img/' + card_stats.number + '_' + card_stats.card_name + (card_stats.shape.includes('double') ? '_front' : '') + '.' + card_stats.image_type;
+				}
 
 				a.append(img);
 				document.getElementById("cotd-image").append(a);
@@ -411,22 +424,22 @@ def generateHTML():
 			}
 
 			function goToSets() {
-				window.location = ("/all-sets");
+				window.location = (rootPath + "/all-sets");
 			}
 
 			function goToDeckbuilder() {
-				window.location = ("/deckbuilder");
+				window.location = (rootPath + "/deckbuilder");
 			}
 
 			function search() {
-				const url = new URL('search', window.location.origin);
+				const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				url.searchParams.append('search', document.getElementById("search").value);
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 
 			'''
 
-	with open(os.path.join('resources', 'snippets', 'random-card.txt'), encoding='utf-8-sig') as f:
+	with open(os.path.join('scripts', 'snippets', 'random-card.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 

@@ -8,15 +8,18 @@ def generateHTML(codes):
 	html_content = '''<html>
 <head>
 	<title>Deckbuilder</title>
-	<link rel="icon" type="image/x-icon" href="/img/deck.png">
-	<link rel="stylesheet" href="resources/mana.css">
-	<link rel="stylesheet" href="/resources/header.css">
-	<link rel="stylesheet" href="/resources/card-text.css">
+	<link rel="icon" type="image/x-icon" href="./img/deck.png">
+	<link rel="stylesheet" href="./resources/mana.css">
+	<link rel="stylesheet" href="./resources/header.css">
+	<link rel="stylesheet" href="./resources/card-text.css">
 </head>
+<script title="root">
+	const rootPath = ".";
+</script>
 <style>
 	@font-face {
 		font-family: Beleren;
-		src: url('/resources/beleren.ttf');
+		src: url('./resources/beleren.ttf');
 	}
 	body {
 		font-family: 'Helvetica', 'Arial', sans-serif;
@@ -107,7 +110,7 @@ def generateHTML(codes):
 		box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
 		outline: 0;
 	}
-	button:disabled {
+	button:disabled, select:disabled {
 		cursor: auto;
 		background-color: #f7fafa;
 		font-style: italic;
@@ -138,16 +141,15 @@ def generateHTML(codes):
 	}
 	.search-image-grid-container {
 		overflow-y: scroll;
-		scrollbar-width: none;
 	}
 	.search-image-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		width: 98%;
-		height: fit-content;
+		overflow-y: scroll;
 		gap: 3px;
 		justify-items: center;
-		padding: 8px 1%;
+		padding: 1%;
 	}
 	@media ( max-width: 750px ) {
 		.image-grid {
@@ -188,9 +190,10 @@ def generateHTML(codes):
 	.img-container img {
 		width: 100%;
 		height: auto;
+		border-radius: 3.733% / 2.677%;
 	}
 	.img-container .btn {
-		background: url('img/flip.png') no-repeat;
+		background: url('./img/flip.png') no-repeat;
 		background-size: contain;
 		background-position: center;
 		width: 15%;
@@ -205,7 +208,7 @@ def generateHTML(codes):
 		box-shadow: none;
 	}
 	.img-container .btn:hover {
-		background: url('img/flip-hover.png') no-repeat;
+		background: url('./img/flip-hover.png') no-repeat;
 		background-size: contain;
 		background-position: center;
 	}
@@ -247,6 +250,7 @@ def generateHTML(codes):
 		max-height: 100%;
 		display: block;
 		margin: auto;
+		border-radius: 3.733% / 2.677%;
 	}
 	.card-grid-container .btn {
 		left: 50%;
@@ -348,6 +352,7 @@ def generateHTML(codes):
 	}
 	.card-img-container img {
 		width: 100%;
+		border-radius: 3.733% / 2.677%;
 	}
 	.card-fx {
 		display: grid;
@@ -360,8 +365,9 @@ def generateHTML(codes):
 		max-height: 63px;
 	}
 	.img-container .h-img {
-		transform: rotate(90deg);
+		transform: rotateY(0deg) rotate(90deg);
 		width: 85%;
+		border-radius: 3.733% / 2.677%;
 	}
 	.rc-menu {
 		display: none;
@@ -396,13 +402,22 @@ def generateHTML(codes):
 <body>
 	<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png" onclick="goToSearch()">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+	</script>
 	<div id="myContextMenu" class="rc-menu">
 		<ul>
 			<li id="add-to-deck">Add to Deck</li>
@@ -454,6 +469,9 @@ def generateHTML(codes):
 					<option value="default">Actions ...</option>
 					<option value="new">New deck</option>
 					<option value="import">Import deck</option>
+					<option value="import-clipboard">Load from clipboard</option>
+					<option value="clipboard">Copy to clipboard</option>
+					<option value="save">Save deck</option>
 					<option value="export-dek">Export .dek</option>
 					<option value="export-txt">Export .txt</option>
 					<option value="export-cod">Export .cod</option>
@@ -528,13 +546,13 @@ def generateHTML(codes):
 		document.addEventListener("DOMContentLoaded", async function () {
 			'''
 
-	with open(os.path.join('resources', 'snippets', 'load-files.txt'), encoding='utf-8-sig') as f:
+	with open(os.path.join('scripts', 'snippets', 'load-files.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 
 	html_content += '''
 
-			await fetch('/lists/all-sets.json')
+			await fetch(rootPath + '/lists/all-sets.json')
 					.then(response => response.json())
 					.then(data => {
 						sets_json = data; 
@@ -543,7 +561,7 @@ def generateHTML(codes):
 			cardGrid = document.getElementById("imagesOnlyGrid");
 			card_list_arrayified.sort(compareFunction);
 
-			gridified_card = gridifyCard(card_list_arrayified[0], true, true);
+			gridified_card = gridifyCard(card_list_arrayified[0], true);
 			gridified_card.getElementsByTagName("img")[0].id = "image-grid-card";
 			gridified_card.getElementsByTagName("a")[0].removeAttribute("href");
 			document.getElementById("card-grid-container").appendChild(gridified_card);
@@ -573,7 +591,15 @@ def generateHTML(codes):
 			{
 				document.getElementById("import-file").click();
 			}
-			else if (option.startsWith("export"))
+			else if (option == "import-clipboard")
+			{
+				importFromClipboard();
+			}
+			else if (option == "save")
+			{
+				saveDeck();
+			}
+			else if (option == "clipboard" || option.startsWith("export"))
 			{
 				exportFile(option);
 			}
@@ -715,13 +741,56 @@ def generateHTML(codes):
 
 		'''
 
-	with open(os.path.join('resources', 'snippets', 'compare-function.txt'), encoding='utf-8-sig') as f:
+	with open(os.path.join('scripts', 'snippets', 'compare-function.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 
 	html_content += '''
 
 		function preSearch() {
+			const searchTerms = document.getElementById("search").value.toLowerCase();
+			const tokens = tokenizeTerms(searchTerms) || [];
+			const sortBySelect = document.getElementById("sort-by");
+			const sortOrderSelect = document.getElementById("sort-order");
+
+			sortBySelect.disabled = false;
+			sortOrderSelect.disabled = false;
+
+			tokens.forEach(token => {
+				if (token.startsWith("sort:")) {
+					const val = token.substring(5);
+					const map = {
+						"name": "name",
+						"set": "set-code",
+						"mv": "mv",
+						"color": "color",
+						"rarity": "rarity",
+						"cube": "cube"
+					};
+					if (map[val]) {
+						const option = Array.from(sortBySelect.options).find(opt => opt.value === map[val]);
+						if (option) {
+							sortBySelect.value = map[val];
+							sortBySelect.disabled = true;
+						}
+					}
+				}
+				if (token.startsWith("direction:")) {
+					const val = token.substring(10);
+					const map = {
+						"asc": "ascending",
+						"desc": "descending"
+					};
+					if (map[val]) {
+						const option = Array.from(sortOrderSelect.options).find(opt => opt.value === map[val]);
+						if (option) {
+							sortOrderSelect.value = map[val];
+							sortOrderSelect.disabled = true;
+						}
+					}
+				}
+			});
+
 			card_list_arrayified.sort(compareFunction);
 			if (document.getElementById("sort-order").value == "descending")
 			{
@@ -758,19 +827,19 @@ def generateHTML(codes):
 				const card_stats = search_results[i];
 				const id = card_stats.set + "-" + card_stats.number + "-" + document.getElementById("display").value;
 				imgContainer.className = "img-container";
-				const card_sr_grid = gridifyCard(search_results[i]);
+				const card_sr_grid = gridifyCard(search_results[i], true, true);
 				const card_sr = card_sr_grid.getElementsByTagName("img")[0];
 
 				card_sr.onmouseover = function() {
 					cgc = document.getElementById("card-grid-container");
 					cgc.innerHTML = "";
-					const gridified_card = gridifyCard(card_stats, true, true);
+					const gridified_card = gridifyCard(card_stats, true);
 					gridified_card.getElementsByTagName("img")[0].id = "image-grid-card";
 					gridified_card.getElementsByTagName("a")[0].removeAttribute("href");
 					if (card_stats.shape.includes("double"))
 					{
 						gridified_card.getElementsByTagName("button")[0].onclick = function() {
-							imgFlip("image-grid-card", card_stats.type.includes("Battle"));
+							imgFlip("image-grid-card", card_stats.rotated);
 						}
 					}
 					cgc.appendChild(gridified_card);
@@ -799,18 +868,19 @@ def generateHTML(codes):
 
 		'''
 
-	with open(os.path.join('resources', 'snippets', 'search-defs.txt'), encoding='utf-8-sig') as f:
+	with open(os.path.join('scripts', 'snippets', 'search-defs.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 
-	with open(os.path.join('resources', 'snippets', 'tokenize-symbolize.txt'), encoding='utf-8-sig') as f:
+	with open(os.path.join('scripts', 'snippets', 'tokenize-symbolize.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 
 	html_content += '''
 
-		function gridifyCard(card_stats, card_text = false, rotate_card = false, designer_notes = false) {
+		function gridifyCard(card_stats, card_text = false, small = false, designer_notes = false) {
 			const card_name = card_stats.card_name;
+			rotate_card = !small && card_stats.rotated;
 
 			if (!card_text)
 			{
@@ -819,7 +889,7 @@ def generateHTML(codes):
 
 		'''
 
-	with open(os.path.join('resources', 'snippets', 'img-container-defs.txt'), encoding='utf-8-sig') as f:
+	with open(os.path.join('scripts', 'snippets', 'img-container-defs.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 
@@ -974,13 +1044,13 @@ def generateHTML(codes):
 							card_in_deck.onmouseover = function() {
 								cgc = document.getElementById("card-grid-container");
 								cgc.innerHTML = "";
-								const gridified_card = gridifyCard(card_stats, true, true);
+								const gridified_card = gridifyCard(card_stats, true);
 								gridified_card.getElementsByTagName("img")[0].id = "image-grid-card";
 								gridified_card.getElementsByTagName("a")[0].removeAttribute("href");
 								if (card_stats.shape.includes("double"))
 								{
 									gridified_card.getElementsByTagName("button")[0].onclick = function() {
-										imgFlip("image-grid-card", card_stats.type.includes("Battle"));
+										imgFlip("image-grid-card", card_stats.rotated);
 									}
 								}
 								cgc.appendChild(gridified_card);
@@ -996,13 +1066,13 @@ def generateHTML(codes):
 
 							if (key == "sideboard")
 							{
-								del_btn.src = "/img/sb-delete.png";
+								del_btn.src = rootPath + "/img/sb-delete.png";
 								del_btn.onclick = function() {
 									sideboard.splice(sideboard.indexOf(card), 1);
 									processDeck();
 								}
 
-								add_btn.src = "/img/sb-add.png";
+								add_btn.src = rootPath + "/img/sb-add.png";
 								add_btn.onclick = function() {
 									sideboard.push(card);
 									processDeck();
@@ -1015,13 +1085,13 @@ def generateHTML(codes):
 							}
 							else
 							{
-								del_btn.src = "/img/delete.png";
+								del_btn.src = rootPath + "/img/delete.png";
 								del_btn.onclick = function() {
 									deck.splice(deck.indexOf(card), 1);
 									processDeck();
 								}
 
-								add_btn.src = "/img/add.png";
+								add_btn.src = rootPath + "/img/add.png";
 								add_btn.onclick = function() {
 									deck.push(card);
 									processDeck();
@@ -1057,18 +1127,24 @@ def generateHTML(codes):
 							}
 
 							card_img = document.createElement("img");
-							card_img.src = "/sets/" + card_stats.set + "-files/img/" + card_stats.number + "_" + card_stats.card_name + ((card_stats.shape.includes("double")) ? "_front" : "") + "." + card_stats.image_type;
+							card_img.loading = "lazy";
+							if ("position" in card_stats) {
+								card_img.src = "/sets/" + card_stats.set + "-files/img/" + card_stats.position + ((card_stats.shape.includes("double")) ? "_front" : "") + "." + card_stats.image_type;
+							}
+							else {
+								card_img.src = "/sets/" + card_stats.set + "-files/img/" + card_stats.number + (card_stats.shape.includes("token") ? "t_" : "_") + card_stats.card_name + ((card_stats.shape.includes("double")) ? "_front" : "") + "." + card_stats.image_type;
+							}
 							card_img.style.cursor = "pointer";
 							card_img.onmouseover = function() {
 								cgc = document.getElementById("card-grid-container");
 								cgc.innerHTML = "";
-								const gridified_card = gridifyCard(card_stats, true, true);
+								const gridified_card = gridifyCard(card_stats, true);
 								gridified_card.getElementsByTagName("img")[0].id = "image-grid-card";
 								gridified_card.getElementsByTagName("a")[0].removeAttribute("href");
 								if (card_stats.shape.includes("double"))
 								{
 									gridified_card.getElementsByTagName("button")[0].onclick = function() {
-										imgFlip("image-grid-card", card_stats.type.includes("Battle"));
+										imgFlip("image-grid-card", card_stats.rotated);
 									}
 								}
 								cgc.appendChild(gridified_card);
@@ -1087,13 +1163,13 @@ def generateHTML(codes):
 
 							if (key == "sideboard")
 							{
-								del_btn.src = "/img/sb-delete.png";
+								del_btn.src = rootPath + "/img/sb-delete.png";
 								del_btn.onclick = function() {
 									sideboard.splice(sideboard.indexOf(card), 1);
 									processDeck();
 								}
 
-								add_btn.src = "/img/sb-add.png";
+								add_btn.src = rootPath + "/img/sb-add.png";
 								add_btn.onclick = function() {
 									sideboard.push(card);
 									processDeck();
@@ -1106,13 +1182,13 @@ def generateHTML(codes):
 							}
 							else
 							{
-								del_btn.src = "/img/delete.png";
+								del_btn.src = rootPath + "/img/delete.png";
 								del_btn.onclick = function() {
 									deck.splice(deck.indexOf(card), 1);
 									processDeck();
 								}
 
-								add_btn.src = "/img/add.png";
+								add_btn.src = rootPath + "/img/add.png";
 								add_btn.onclick = function() {
 									deck.push(card);
 									processDeck();
@@ -1142,6 +1218,35 @@ def generateHTML(codes):
 					}
 				}
 			}
+		}
+
+		function saveDeck() {
+			const deckName = document.getElementById("deck-name").value;
+			let mainParts = [];
+			let sideParts = [];
+
+			const mainMap = new Map();
+			deck.forEach(cardStr => {
+				mainMap.set(cardStr, (mainMap.get(cardStr) || 0) + 1);
+			});
+			mainMap.forEach((count, cardStr) => {
+				const card = JSON.parse(cardStr);
+				mainParts.push(`${card.set}.${card.number}.${count}`);
+			});
+
+			const sideMap = new Map();
+			sideboard.forEach(cardStr => {
+				sideMap.set(cardStr, (sideMap.get(cardStr) || 0) + 1);
+			});
+			sideMap.forEach((count, cardStr) => {
+				const card = JSON.parse(cardStr);
+				sideParts.push(`${card.set}.${card.number}.${count}`);
+			});
+
+			const compactString = `${deckName}|${mainParts.join(',')}|${sideParts.join(',')}`;
+			const hash = btoa(compactString);
+			window.open(rootPath + "/deck#" + hash, "_blank");
+			document.getElementById("file-menu").value = "default";
 		}
 
 		async function exportFile(export_as) {
@@ -1204,18 +1309,99 @@ def generateHTML(codes):
 				deck_text += "\\t</zone>\\n</cockatrice_deck>";
 			}
 
-			let downloadableLink = document.createElement('a');
-			downloadableLink.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(deck_text));
-			downloadableLink.download = deck_name + ("." + export_as.split("-")[1]);
-			document.body.appendChild(downloadableLink);
-			downloadableLink.click();
-			document.body.removeChild(downloadableLink);
+			if (export_as != "clipboard")
+			{
+				let downloadableLink = document.createElement('a');
+				downloadableLink.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(deck_text));
+				downloadableLink.download = deck_name + ("." + export_as.split("-")[1]);
+				document.body.appendChild(downloadableLink);
+				downloadableLink.click();
+				document.body.removeChild(downloadableLink);
+			}
+			else
+			{
+				navigator.clipboard.writeText(deck_text);
+			}
 
 			document.getElementById("file-menu").value = "default";
 		}
 
+		async function importFromClipboard() {
+			try {
+				const deckText = await navigator.clipboard.readText();
+
+				deck = [];
+				sideboard = [];
+
+				let deck_map = new Map();
+				let sb_map = new Map();
+				let sb_cards = false;
+
+				for (let line of deckText.split('\\n'))
+				{
+					line = line.trim();
+
+					if (line == 'sideboard' || line == '') // '' for Draftmancer files
+					{
+						sb_cards = true;
+					}
+					else if (!sb_cards)
+					{
+						count = parseInt(line.substring(0, line.indexOf(' ')));
+						card_name = line.substring(line.indexOf(' ') + 1);
+
+						if (deck_map.has(card_name))
+						{
+							deck_map.set(card_name, deck_map.get(card_name) + count);
+						}
+						else
+						{
+							deck_map.set(card_name, count);
+						}
+					}
+					else
+					{
+						count = parseInt(line.substring(0, line.indexOf(' ')));
+						card_name = line.substring(line.indexOf(' ') + 1);
+
+						if (sb_map.has(card_name))
+						{
+							sb_map.set(card_name, sb_map.get(card_name) + count);
+						}
+						else
+						{
+							sb_map.set(card_name, count);
+						}
+					}
+				}
+				for (const card of card_list_arrayified)
+				{
+					if (deck_map.has(card.card_name))
+					{
+						for (let i = 0; i < deck_map.get(card.card_name); i++)
+						{
+							addCardToDeck(JSON.stringify(card));
+						}
+						deck_map.delete(card.card_name);
+					}
+
+					if (sb_map.has(card.card_name))
+					{
+						for (let i = 0; i < sb_map.get(card.card_name); i++)
+						{
+							addCardToSideboard(JSON.stringify(card));
+						}
+						sb_map.delete(card.card_name);
+					}
+				}
+			} catch (err) {
+				console.error('Failed to read clipboard:', err);
+			}
+			document.getElementById("file-menu").value = "default";
+		}
+
 		function goToSearch() {
-			window.location = ("/search");
+			window.location = (rootPath + "/search");
 		}
 
 		document.getElementById("search").addEventListener("keypress", function(event) {
@@ -1227,7 +1413,7 @@ def generateHTML(codes):
 
 		'''
 
-	with open(os.path.join('resources', 'snippets', 'random-card.txt'), encoding='utf-8-sig') as f:
+	with open(os.path.join('scripts', 'snippets', 'random-card.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 

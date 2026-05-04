@@ -44,25 +44,24 @@ The options you can select are as follows:
 - **Formats**: This is a text field where you can enter any custom formats your set is a part of, which can be queried in your site's search.
 - **V mana replacement**: If you're using a custom V mana symbol, insert it here.
 
-Once each of these options is filled out, click OK and save the set file as "\<set_code>.txt". (This should match the "Set code" in your "Set info" tab.) This will take a second as the application exports all your images, and the end result is two outputs:
-- **\<code>.txt**, which is irrelevant.
-- **\<code>-files**, a directory containing all the files necessary to publish your set onto your hub.
+Once each of these options is filled out, click OK and save the set file as "\<set_code\>.txt". (This should match the "Set code" in your "Set info" tab.) This will take a second as the application exports all your images, and the end result is two outputs:
+- **\<code\>.txt**, which is irrelevant.
+- **\<code\>-files**, a directory containing all the files necessary to publish your set onto your hub.
 
 ## Step 3: Generating the site
 
-Surprisingly, you're almost done! Copy the "\<code>-files" folder (the entire directory) into the "sets" folder of your GitHub checkout. Open Github Desktop, and you should see that directory in the "Changes" sidebar. Click Repository => Open in Terminal (or Command Prompt for Windows machines).
+Surprisingly, you're almost done! Copy the "\<code\>-files" folder (the entire directory) into the "sets" folder of your GitHub checkout. Open Github Desktop, and you should see that directory in the "Changes" sidebar. Click Repository => Open in Terminal (or Command Prompt for Windows machines).
 
-In the opened terminal, execute the following command:
+In the opened terminal, execute the following commands:
 
 ```
 git config --global http.postBuffer 157286400
+python3 -m pip install pillow markdown
 ```
 
-This updates your buffer so you can upload all of your images with no timeout issues. Otherwise, git sometimes gets tired and quits somewhat arbitrarily. Afterwards, execute:
+This updates your buffer so you can upload all of your images with no timeout issues and installs required packages. Otherwise, git sometimes gets tired and quits somewhat arbitrarily. You only need to do this ONCE. Afterwards, execute:
 
 ```
-python3 -m pip install pillow
-python3 -m pip install markdown
 python3 scripts/build_site.py
 ```
 
@@ -72,7 +71,7 @@ python3 scripts/build_site.py
 
 This will spit out a bunch of confirmation lines for different site elements being built. The first time it runs, it will take a few minutes to process through each image. Subsequent runs will be much quicker, unless you update the images with new files. After the command finishes, navigate back to Github desktop and you should see plenty of new artifacts in the "Changes" sidebar. In the bottom left, type a title for your change (this is for versioning), then click "Commit to main". Once you've done so, a big "Push origin" button will appear in the middle of the window. Click that, wait for the push to finish, and voila! Your site is deployed.
 
-To track the process of your site deployment, navigate to https://github.com/USERNAME/USERNAME.github.io/actions, replacing USERNAME with your Github username. Each time you push to origin, a deployment action will trigger, and once that's complete your site will be visible at https://\<username>.github.io.
+To track the process of your site deployment, navigate to https://github.com/USERNAME/USERNAME.github.io/actions, replacing USERNAME with your Github username. Each time you push to origin, a deployment action will trigger, and once that's complete your site will be visible at https://\<username\>.github.io.
 
 ## Future MSE Set Hub Updates
 
@@ -80,41 +79,92 @@ To get updates to the scripts or resources, from Github Desktop, select "Fetch o
 
 If it's indicated that the new change comes with a change to the exporter, you can find the updated exporter in the `resources` directory. Make sure to copy it into your MSE's `data` folder.
 
-## Appendix
+---
 
-### Updating your custom site
+# Active Features & Customization
 
-To update a set, re-export it using Egg's All-in-One exporter, then replace the "\<code>-files" directory in your "sets" folder with the newly generated folder. To add or delete a set, simply add or delete that set's "-files" folder from the "sets" folder. After updating the "sets" folder, rerun `python3 scripts/build_site.py` and deploy your new changes.
+If you want to get fancy with your Hub, this is where the real power lies. Most of these features can be triggered by adding special text to your card data or dropping files into specific folders.
 
-### Custom assets
+## 1. Mastering the Search Engine
 
-If you want to replace default or generated assets, You can use the "custom" folder in your Github checkout. Put any files you'd like to replace in similarly named directories within "custom". For instance, to replace a set's logo, create "sets/\<code>-files" within your "custom" folder, then put a new "logo.png" within it. Any assets replaced this way will be brought over once you run `build_site.py`.
+The search bar is smarter than it looks. It supports a robust syntax similar to Scryfall for filtering your sets.
 
-This is specifically useful for backgrounds on preview pages, which are by default blank. If you want a background, add "bg.png" to that set's "custom/sets/\<code>-files" directory and rebuild the site.
+### Boolean Logic & Grouping
+*   **AND**: Just use a space or `+`. `t:creature c:w` finds White creatures.
+*   **OR**: Use `or`. `t:instant or t:sorcery` finds both.
+*   **NOT**: Use a minus sign `-`. `-t:land` finds non-lands.
+*   **Grouping**: Use parentheses `(...)`. `t:creature (c:b or c:r)` finds Black or Red creatures.
 
-### Custom tags
+### Numerical Stats
+You can use `:`, `=`, `>`, `<`, `>=`, or `<=` with any number-based field:
+*   **Mana Value**: `mv:3` or `cmc=3`.
+*   **Power/Toughness**: `pow>5`, `tou<2`.
+*   **Loyalty**: `loyalty:4`.
 
-The search page supports custom tags, which can be queried using "tag:\<foo>". In your MSE file, add "!tag \<foo>" to the card notes. The exporter and site builder will do the rest.
+### Colors & Identity
+*   **Color**: `c:wu` (White-Blue), `c:m` (Multicolored), `c:3` (Exactly 3 colors).
+*   **Guilds/Shards**: `c:boros`, `id:esper`, `c:azorius`.
+*   **Identity**: `id:rg` or `ci:rg`.
 
-### Custom preview sorting
+### Advanced Queries
+*   **Oracle Text**: `o:"draw a card"`.
+*   **Regex**: For the real pros, use slashes for regex oracle search. `o:/[0-9] damage/`.
+*   **Lore**: `lore:Akroma` searches the card name AND the flavor text.
+*   **Keywords**: `has:flying` or `kw:cycling`.
+*   **Shortcuts**: `is:permanent`, `is:spell`, `is:commander`, `is:hybrid`.
+*   **Artist/Flavor**: `a:"John Avon"`, `ft:destiny`.
+*   **Godzilla/Alias**: `alias:Godzilla` or `godzilla:Biollante`.
 
-If you want cards to sort to the same row, add "!sort <foo>" to their notes. If you want cards to sort to the end of the preview gallery, add "!last" to their notes.
+## 2. Card Notes (`notes` field magic)
 
-### Set splash pages
+In your MSE set's JSON, every card has a `"notes"` field. Typing these commands (usually starting with `!`) lets you control how they render or sort.
 
-Sets now support splash pages written in markdown! If you want to add one, add `splash.md` to your "custom/sets/\<code>-files" directory. It will automatically show up as the default view on the set's page. You can shortcut adding set logos/icons and card images by putting their name between `%` symbols. It'll look something like this:
-```
-![alt text](%Card Name Goes Here% "hover-over text")
-```
+### Site & Search Logic
+*   **`!group [Name]`**: Pulls the card into a specific section in the visual preview.
+*   **`!sort [Value]`**: Overrides alphabetical sorting. Use `!sort 01`, `!sort 02`, etc., to manually order cards within a group. (Default sorting is `zzz`).
+*   **`!tag [Name]`**: Adds a tag searchable via `tag:Name`.
+*   **`!tag<category> [Value]`**: Create custom categories. Adding `!tag<mechanic> cycling` means a user can find the card by searching `mechanic:cycling`.
+*   **`cube:[Name]`**: Flags the card for a specific cube search (`cube:Name`).
 
-### Designer Notes
+### External Tools (Cockatrice)
+*   **`!tokens [Name]<count>`**: Automatically attaches tokens in Cockatrice. Example: `!tokens Elf Warrior<3>;Map<1>`.
+*   **`!related [Name]`**: Links another card as "Related."
+*   **`!tapped`**: Tells Cockatrice the card enters the battlefield tapped.
 
-To add designer notes to a card, add `card-notes/<cardname>.md` to "custom/sets/\<code>-files" to your custom directory. This markdown file will automatically append to the card's page when you build your site.
+## 3. Set-Specific Overrides (`[code]-files` folder)
 
-### Changing the homepage's background gradient
+Every set has a folder at `sets/[SETCODE]-files/`. Dropping files here toggles advanced features for just that set.
 
-There are 34 gradients you can choose from on the homepage, which are stored in `resources/gradients.json`. You can always switch between them using the select in the top left of the homepage. If you'd like to set a new gradient as the default, simply edit `gradients.json` and move your favorite gradient's entry to the top of the text file.
+### Layout & Branding
+*   **`bg.png`**: Automatically becomes the background image for the set's pages.
+*   **`logo.png`**: The main banner for the visual preview page.
+*   **`splash.md`**: Enables a beautiful Markdown "Splash" page.
+    *   **Image Shortcut**: Use `%Card Name%` in your Markdown to embed that card's image automatically.
+*   **`card-notes/[Card Name].md`**: Create a Markdown file named after a card, and it will render as "Designer Notes" at the bottom of that card's individual page.
 
-### HTML addenda
+### The Visual Preview Layout (`preview-order.json`)
+This file is the "director" of your preview gallery. It's an array of objects:
+*   **Standard Group**: `{ "cards": ["Group1"], "title": "Artifacts" }`
+    *   The `title` key automatically generates a header and an **Anchor** (`a->`).
+*   **Pulling from other sets**: `{ "set": "OTHER", "cards": ["!tag Tag"], "logo": true }`
+    *   `logo: true` inserts that set's **Logo Banner** (`l->`).
+*   **Content Injection**: `{ "html": "lore.md" }`
+    *   Injects a Markdown/HTML **Addenda** (`h->`) directly into the card grid.
 
-If you want to insert your own custom HTML into a set's preview gallery (for instance, to add images of a Masterpiece series to the end), create your custom HTML file in "custom/\<code>-files/addenda/\<code>-addendum.html". This will be injected at the end of that set's preview gallery once you run `build_site.py`.
+### Build Control
+*   **`structure.json`**: Overrides the global booster distribution for this set's draft packs.
+*   **Booster Mode**: Setting `"draft_structure": "cube"` in your set JSON forces all cards to "Special" rarity for drafting.
+*   **`previewed.txt`**: "Spoiler Mode"—list names here, and if the set is in `unpreviewed: empty` mode, only these cards appear.
+*   **`ignore.txt`**: Completely hides the set from the search engine and "All Sets" page.
+*   **`image_name: position`**: If you don't use the standard `number_name.png` format, add this to your set JSON to look for images by the `"position"` field instead.
+
+## 4. Site-Wide Configuration
+
+### The "Custom" Tree & Mirroring
+The **`custom/`** folder is your best friend. The generator mirrors this folder directly to the site root during build.
+*   To override a generated file (like `resources/mana.css`), place your version at `custom/resources/mana.css`.
+*   To add a site-wide favicon, place it at `custom/img/favicon.png`.
+
+### Home Page Magic
+*   **`lists/set-order.json`**: Groups your sets into categories (like "Standard" or "Cube") on the Home page.
+*   **`resources/gradients.json`**: Want a new Home page theme? Add two hex codes here. The first entry in the list becomes the site's default background theme.

@@ -12,6 +12,13 @@ function tokenizeTerms(searchTerms)
 			{
 				return true;
 			}
+
+			tokens = tokens.filter(t => !t.startsWith("sort:") && !t.startsWith("direction:"));
+			if (tokens.length == 0)
+			{
+				return true;
+			}
+
 			for (let i = 0; i < tokens.length; i++)
 			{
 				if (tokens[i].charAt(0) == '+')
@@ -196,7 +203,7 @@ function tokenizeTerms(searchTerms)
 
 					}
 				} */
-				if (term == "mv")
+				if (term == "mv" || term == "cmc")
 				{
 					if (modifier == "!" || modifier == "=")
 					{
@@ -517,6 +524,13 @@ function tokenizeTerms(searchTerms)
 					{
 
 					} */
+				}
+				if (term == "cube")
+				{
+					if (modifier == ":" || modifier == "!" || modifier == "=")
+					{
+						return (card_notes.includes("cube:" + check));
+					}
 				}
 				if (term == "keyword" || term=="kw" || term == "has")
 				{

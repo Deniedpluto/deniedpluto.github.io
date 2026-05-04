@@ -5,17 +5,17 @@ import json
 import glob
 import re
 
-from scripts import image_flip
-from scripts import card_edge_trimmer
-from scripts import list_to_list
-from scripts import print_draft_file
-from scripts import print_html_for_index
-from scripts import print_html_for_search
-from scripts import print_html_for_preview
-from scripts import print_html_for_card
-from scripts import print_html_for_set
-from scripts import print_html_for_sets_page
-from scripts import print_html_for_deckbuilder
+import list_to_list
+import print_cockatrice_file
+import print_draft_file
+import print_html_for_index
+import print_html_for_search
+import print_html_for_preview
+import print_html_for_card
+import print_html_for_set
+import print_html_for_sets_page
+import print_html_for_deckbuilder
+import print_html_for_deck_page
 
 import markdown
 
@@ -26,6 +26,12 @@ def genAllCards(codes):
 	set_input = {'sets':[]}
 	#F: ...goes over all the set codes,
 	for code in codes:
+		#CE: check to see if the set is currently previewing
+		previewed_path = os.path.join('sets', code + '-files', 'previewed.txt')
+		previewed_cards = None
+		if os.path.exists(previewed_path):
+			with open(previewed_path, encoding='utf-8-sig') as f:
+				previewed_cards = f.read().split('\n')
 		#CE: non-indented JSON is driving me insane
 		prettifyJSON(os.path.join('sets', code + '-files', code + '.json'))	
 		#F: grabs the corresponding file,
@@ -41,12 +47,15 @@ def genAllCards(codes):
 					card['rules_text2'] = card['rules_text2'].replace('—', '–')
 					card['special_text2'] = card['special_text2'].replace('—', '–')
 				card['image_type'] = 'png' if 'image_type' not in raw else raw['image_type']
+				if 'v_mana' in raw:
+					card['v_mana'] = raw['v_mana']
 				#CE: Designer notes (for Rachel)
 				d_notes_path = os.path.join('sets', code + '-files', 'card-notes', card['card_name'] + '.md')
 				if os.path.exists(d_notes_path):
 					with open(d_notes_path, encoding='utf-8-sig') as md:
 						card['designer_notes'] = markdown.markdown(md.read())
-				card_input['cards'].append(card)
+				if previewed_cards == None or card['card_name'] in previewed_cards:
+					card_input['cards'].append(card)
 			set_data = {}
 			set_data['set_code'] = code
 			set_data['set_name'] = raw['name']
@@ -81,20 +90,32 @@ def portCustomFiles(custom_dir, export_dir):
 			print(os.path.join(export_dir, entry.name) + ' added')
 
 def removeStaleFiles(set_dir):
-	filesToRemove = [ 'structure.json', 'preview-order.json' ]
+	filesToKeep = [ 'img', 'icon.png', 'logo.png' ]
 	for entry in os.scandir(set_dir):
 		#CE: ignore default or generated files
-		if entry.name in [ '.DS_Store', '__pycache__', 'README.md' ]:
+		if entry.name in [ '.DS_Store', '__pycache__', 'README.md', 'versions' ]:
 			continue
 		s_dir = os.path.join(set_dir, entry.name)
 		for set_entry in os.scandir(s_dir):
-			if set_entry.name in filesToRemove:
-				os.remove(set_entry)
+			filename, file_extension = os.path.splitext(set_entry.name)
+			if set_entry.name not in filesToKeep and file_extension != '.json' and file_extension != '.xml':
+				if set_entry.is_dir():
+					shutil.rmtree(set_entry)
+				else:
+					os.remove(set_entry)
 
 #CE: legacy file removal
 for entry in os.scandir('.'):
 	if '-spoiler' in entry.name:
 		os.remove(entry)
+
+#CE: auto-generate site-config.json
+repo_name = os.path.basename(os.getcwd())
+default_config = {
+	"base_url": f"https://{repo_name}"
+}
+with open(os.path.join('resources', 'site-config.json'), 'w', encoding='utf-8-sig') as f:
+	json.dump(default_config, f, indent=4)
 
 #F: first, get all the set codes
 set_codes = []
@@ -116,6 +137,10 @@ removeStaleFiles('sets')
 #CE: copy the entire custom tree
 portCustomFiles('custom', '')
 
+#CE: reload config in case it was overwritten by custom files
+import utils
+utils.load_config()
+
 #F: sort them
 set_codes.sort()
 
@@ -127,16 +152,23 @@ set_order = []
 #F: iterate over set codes again
 for code in set_codes:
 	set_order.append(code)
-	image_flip.flipImages(code)
 	set_dir = code + '-files'
 	with open(os.path.join('sets', code + '-files', code + '.json'), encoding='utf-8-sig') as f:
 		raw = json.load(f)
-	if 'draft_structure' in raw and not raw['draft_structure'] == 'none' and not os.path.isfile(os.path.join('custom', 'sets', code + '-files', code + '-draft.txt')):
+	if 'draft_structure' not in raw or not raw['draft_structure'] == 'none' and not os.path.isfile(os.path.join('custom', 'sets', code + '-files', code + '-draft.txt')):
 		try:
 			print_draft_file.generateFile(code)
 			print('Generated draft file for {0}.'.format(code))
 		except Exception as e:
-			print('Unable to generate draft file for {0}: {1}'.format(code, e))
+			print('! Unable to generate draft file for {0}: {1}'.format(code, e))
+
+	# CE: Trice
+	if not os.path.isfile(os.path.join('custom', 'sets', code + '-files', code + '.xml')):
+		try:
+			print_cockatrice_file.generateFile(code)
+			print('Generated Cockatrice file for {0}.'.format(code))
+		except Exception as e:
+			print('! Unable to generate Cockatrice file for {0}: {1}'.format(code, e))
 
 	#CE: this code is all for version history
 	if 'version' not in raw:
@@ -181,7 +213,7 @@ for code in set_codes:
 					card_copy = card.copy()
 					prev_card_copy = prev_card.copy()
 					card_copy.pop("number", None)
-					prev_card.pop("number", None)
+					prev_card_copy.pop("number", None)
 
 					if card_copy != prev_card_copy:
 						changed = True
@@ -208,11 +240,6 @@ for code in set_codes:
 			prettifyJSON(os.path.join('sets', 'versions', str(new_version) + '_' + code + '.json'))
 			os.remove(os.path.join('sets', 'versions', str(old_version) + '_' + code + '.json'))
 			raw['version'] = new_version
-
-	#CE: trims border radius of images
-	if raw['trimmed'] == 'n':
-		raw['trimmed'] = 'y'
-		card_edge_trimmer.batch_process_images(code)
 
 	with open(os.path.join('sets', code + '-files', code + '.json'), 'w', encoding='utf-8-sig') as f:
 		json.dump(raw, f, indent=4)
@@ -243,4 +270,5 @@ for code in set_codes:
 print_html_for_sets_page.generateHTML()
 print_html_for_search.generateHTML(set_codes)
 print_html_for_deckbuilder.generateHTML(set_codes)
+print_html_for_deck_page.generateHTML(set_codes)
 print_html_for_index.generateHTML()
