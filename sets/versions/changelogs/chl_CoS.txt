@@ -1,4 +1,11 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Tarroka Reading added.
+
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

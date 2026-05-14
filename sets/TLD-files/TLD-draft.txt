@@ -7,7 +7,7 @@
 			"type": "Enchantment",
 			"collector_number": "0",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Champions of Thadenswel.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/0_Champions of Thadenswel.png"
 			}
 		},
 		{
@@ -17,7 +17,7 @@
 			"type": "Enchantment — Quest",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Trials of Thadenswel.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/1_Trials of Thadenswel.png"
 			}
 		},
 		{
@@ -27,7 +27,7 @@
 			"type": "Legendary Creature — Elf Pirate",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Captain Laos.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/3_Captain Laos.png"
 			}
 		},
 		{
@@ -37,7 +37,7 @@
 			"type": "Sorcery",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Blessing of Water.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/2_Blessing of Water.png"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 			"type": "Legendary Creature — Dwarf Pirate",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/First Mate Addus.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/4_First Mate Addus.png"
 			}
 		},
 		{
@@ -57,7 +57,7 @@
 			"type": "Legendary Creature — Human Fighter",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Luster, War-Scarred.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/10_Luster, War-Scarred.png"
 			}
 		},
 		{
@@ -67,7 +67,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Blade of Blood.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/12_Blade of Blood.png"
 			}
 		},
 		{
@@ -77,7 +77,7 @@
 			"type": "Legendary Artifact — Elemental Orb",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Elemental Orb of Earth.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/17_Elemental Orb of Earth.png"
 			}
 		},
 		{
@@ -87,7 +87,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Judge & Executioner.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/21_Judge & Executioner.png"
 			}
 		},
 		{
@@ -97,7 +97,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "22",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Jury.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/22_Jury.png"
 			}
 		},
 		{
@@ -107,7 +107,7 @@
 			"type": "Creature — Merfolk Horror",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Sea Spawn.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/5_Sea Spawn.png"
 			}
 		},
 		{
@@ -117,7 +117,7 @@
 			"type": "Creature — Goblin Rogue",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Darkling Elder.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/6_Darkling Elder.png"
 			}
 		},
 		{
@@ -127,7 +127,7 @@
 			"type": "Creature — Goblin Rogue",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Darkling Scout.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/7_Darkling Scout.png"
 			}
 		},
 		{
@@ -137,7 +137,7 @@
 			"type": "Legendary Creature — Dwarf Cleric",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Kildrak, Life's Spring.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/9_Kildrak, Life's Spring.png"
 			}
 		},
 		{
@@ -147,7 +147,7 @@
 			"type": "Legendary Artifact — Elemental Orb",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Elemental Orb of Water.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/19_Elemental Orb of Water.png"
 			}
 		},
 		{
@@ -157,7 +157,7 @@
 			"type": "Legendary Creature — Dragon Paladin",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Kriv, Champion of Heroes.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/11_Kriv, Champion of Heroes.png"
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Breastplate of Kyrios.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/14_Breastplate of Kyrios.png"
 			}
 		},
 		{
@@ -177,7 +177,7 @@
 			"type": "Legendary Artifact — Elemental Orb",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Elemental Orb of Fire.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/18_Elemental Orb of Fire.png"
 			}
 		},
 		{
@@ -187,7 +187,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Boots of Kyrios.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/13_Boots of Kyrios.png"
 			}
 		},
 		{
@@ -197,7 +197,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Helm of Kyrios.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/20_Helm of Kyrios.png"
 			}
 		},
 		{
@@ -207,7 +207,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "23",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Sword of Kyrios.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/23_Sword of Kyrios.png"
 			}
 		},
 		{
@@ -217,7 +217,7 @@
 			"type": "Legendary Creature — Human Elf Rogue",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Iskael, Lord of Shadows.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/8_Iskael, Lord of Shadows.png"
 			}
 		},
 		{
@@ -227,7 +227,7 @@
 			"type": "Legendary Artifact — Elemental Orb",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Elemental Orb of Air.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/15_Elemental Orb of Air.png"
 			}
 		},
 		{
@@ -237,7 +237,7 @@
 			"type": "Legendary Artifact — Elemental Orb",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/TLD-files/img/Elemental Orb of Darkness.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/16_Elemental Orb of Darkness.png"
 			}
 		}
 	]

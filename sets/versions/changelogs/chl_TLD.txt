@@ -1,4 +1,9 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+No changes.
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

@@ -7,7 +7,7 @@
 			"type": "Instant",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/March of the the Dead.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/1_March of the the Dead.png"
 			}
 		},
 		{
@@ -17,7 +17,7 @@
 			"type": "Legendary Creature — Human",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Arabel, Seer Prodigy.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/2_Arabel, Seer Prodigy.png"
 			}
 		},
 		{
@@ -27,7 +27,7 @@
 			"type": "Instant",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Scrying.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/3_Scrying.png"
 			}
 		},
 		{
@@ -35,9 +35,9 @@
 			"rarity": "special",
 			"mana_cost": "{B}",
 			"type": "Legendary Creature — Human Artificer",
-			"collector_number": "4",
+			"collector_number": "5",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Blinksy, Toymaker.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/5_Blinksy, Toymaker.png"
 			}
 		},
 		{
@@ -45,9 +45,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Legendary Artifact",
-			"collector_number": "5",
+			"collector_number": "6",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Book of Victims.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/6_Book of Victims.png"
 			}
 		},
 		{
@@ -55,9 +55,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Enchantment",
-			"collector_number": "6",
+			"collector_number": "7",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Dark Gift.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/7_Dark Gift.png"
 			}
 		},
 		{
@@ -65,9 +65,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "7",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Drown in the Lake.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/8_Drown in the Lake.png"
 			}
 		},
 		{
@@ -75,9 +75,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Zombie Paladin",
-			"collector_number": "8",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Revenant.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/9_Revenant.png"
 			}
 		},
 		{
@@ -85,9 +85,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Vampire",
-			"collector_number": "9",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Vampire Spawn.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/10_Vampire Spawn.png"
 			}
 		},
 		{
@@ -95,9 +95,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{B}",
 			"type": "Legendary Creature — Zombie Paladin",
-			"collector_number": "10",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Vladimir & Godfrey, Reunited.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/11_Vladimir & Godfrey, Reunited.png"
 			}
 		},
 		{
@@ -105,9 +105,9 @@
 			"rarity": "special",
 			"mana_cost": "{U}{R}",
 			"type": "Legendary Creature — Human Wizard",
-			"collector_number": "11",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Minnesota, Impulsive Planner.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/12_Minnesota, Impulsive Planner.png"
 			}
 		},
 		{
@@ -115,9 +115,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{U}{B}",
 			"type": "Legendary Creature — Vampire Wizard",
-			"collector_number": "12",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Strahd Von Zarovich.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/13_Strahd Von Zarovich.png"
 			}
 		},
 		{
@@ -125,9 +125,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}{G}",
 			"type": "Legendary Creature — Orc Barbarian",
-			"collector_number": "13",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Zas, Barbarian Scholar.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/14_Zas, Barbarian Scholar.png"
 			}
 		},
 		{
@@ -135,9 +135,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G/W}",
 			"type": "Legendary Creature — Turtle Cleric",
-			"collector_number": "14",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Clif, Chilled Tortle.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/15_Clif, Chilled Tortle.png"
 			}
 		},
 		{
@@ -145,9 +145,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{R/W}",
 			"type": "Legendary Creature — Dwarf Fighter",
-			"collector_number": "15",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Harlston, Grappling Pugilist.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/16_Harlston, Grappling Pugilist.png"
 			}
 		},
 		{
@@ -155,9 +155,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}",
 			"type": "Artifact Creature — Construct",
-			"collector_number": "16",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Animated Armor.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/17_Animated Armor.png"
 			}
 		},
 		{
@@ -165,9 +165,19 @@
 			"rarity": "special",
 			"mana_cost": "{2}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "17",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/CoS-files/img/Zas's Battleaxe.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/18_Zas's Battleaxe.png"
+			}
+		},
+		{
+			"name": "Tarroka Reading",
+			"rarity": "special",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/4_Tarroka Reading.png"
 			}
 		}
 	]
@@ -190,3 +200,4 @@
 	1 Harlston, Grappling Pugilist
 	1 Animated Armor
 	1 Zas's Battleaxe
+	1 Tarroka Reading

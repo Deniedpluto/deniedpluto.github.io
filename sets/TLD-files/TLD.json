@@ -1,7 +1,7 @@
 ﻿{
     "name": "The Legendary Defenders",
     "formats": "",
-    "trimmed": "y",
+    "trimmed": "n",
     "image_type": "png",
     "draft_structure": "cube",
     "unpreviewed": "card back",
@@ -463,5 +463,5 @@
             "notes": ","
         }
     ],
-    "version": 1
+    "version": 2
 }

@@ -5,7 +5,7 @@
 			<name>CEP</name>
 			<longname>The Formidable Five</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-03</releasedate>
+			<releasedate>2026-05-14</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -1455,7 +1455,7 @@ Draw a card.</text>
 			<name>Blood Magic</name>
 			<text>As an additional cost to cast this spell, sacrifice a creature. 
 Destroy target creature.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/82_Blood Magic.png" num="82">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/83_Blood Magic.png" num="83">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1473,7 +1473,7 @@ Destroy target creature.</text>
 			<text>Whenever a creature dies, put a blood counter on Blood Ritual.
 Remove a blood counter: Each opponent loses 1 life.
 Remove five blood counters: Return target creature from your graveyard to the battlefield.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/83_Blood Ritual.png" num="83">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/84_Blood Ritual.png" num="84">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1490,7 +1490,7 @@ Remove five blood counters: Return target creature from your graveyard to the ba
 			<name>Blue Flame Candle</name>
 			<text>Whenever a creature dies, scry 1.
 If you choose to leave the card on top of your library, you may draw a card. If you do, reveal it and lose life equal to its mana value.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/84_Blue Flame Candle.png" num="84">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/85_Blue Flame Candle.png" num="85">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1506,7 +1506,7 @@ If you choose to leave the card on top of your library, you may draw a card. If 
 		<card>
 			<name>Charles</name>
 			<text>When Charles dies, deal 1 damage to any target.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/85_Charles.png" num="85">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/87_Charles.png" num="87">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1523,7 +1523,7 @@ If you choose to leave the card on top of your library, you may draw a card. If 
 		<card>
 			<name>Cleanse the Bloodlines</name>
 			<text>Destroy target non-dragon creature.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/86_Cleanse the Bloodlines.png" num="86">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/88_Cleanse the Bloodlines.png" num="88">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1540,7 +1540,7 @@ If you choose to leave the card on top of your library, you may draw a card. If 
 			<name>Dayvroass the Haunted</name>
 			<text>Flying, Menace
 Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/87_Dayvroass the Haunted.png" num="87">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/89_Dayvroass the Haunted.png" num="89">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1557,7 +1557,7 @@ Annihilator 1 (Whenever this creature attacks, defending player sacrifices a per
 		<card>
 			<name>Death Druid</name>
 			<text>Whenever a creature dies, each opponent loses 1 life.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/88_Death Druid.png" num="88">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/90_Death Druid.png" num="90">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1575,7 +1575,7 @@ Annihilator 1 (Whenever this creature attacks, defending player sacrifices a per
 			<name>Desecrate the Temple</name>
 			<text>Target God loses all abilities until the end of the turn.
 Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/89_Desecrate the Temple.png" num="89">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/91_Desecrate the Temple.png" num="91">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1594,7 +1594,7 @@ Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, pu
 When Devilish Imp dies choose one — 
 • Draw a card and lose 1 life.
 • Target creature gets -2/-2 until the end of the turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/90_Devilish Imp.png" num="90">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/92_Devilish Imp.png" num="92">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1613,7 +1613,7 @@ When Devilish Imp dies choose one —
 			<text>Each opponent sacrifices a creature then loses life equal to the number of creatures cards in all graveyards.
 Exile all graveyards.
 Draw a card.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/91_Dictate of Urobu.png" num="91">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/93_Dictate of Urobu.png" num="93">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1629,7 +1629,7 @@ Draw a card.</text>
 		<card>
 			<name>Draconic Purge</name>
 			<text>Destroy all Dragons</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/92_Draconic Purge.png" num="92">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/94_Draconic Purge.png" num="94">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1646,7 +1646,7 @@ Draw a card.</text>
 			<name>Dungeon Skeleton</name>
 			<text>When Dungeon Skeleton dies, create a treasure token.
 {2}{B}: Return Dungeon Skeleton to the battlefield tapped.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/93_Dungeon Skeleton.png" num="93">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/95_Dungeon Skeleton.png" num="95">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1663,7 +1663,7 @@ Draw a card.</text>
 		<card>
 			<name>Eliath, Doomed Fighter</name>
 			<text>When Eliath, Doomed Fighter dies, return another target legendary creature from your graveyard to the battlefield with a +1/+1 counter.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/94_Eliath, Doomed Fighter.png" num="94">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/96_Eliath, Doomed Fighter.png" num="96">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1681,7 +1681,7 @@ Draw a card.</text>
 			<name>Fama&apos;s Talon</name>
 			<text>Deathtouch
 Whenever a creature dealt damage by Fama&apos;s Talon would die, exile it instead.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/95_Fama&apos;s Talon.png" num="95">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/97_Fama&apos;s Talon.png" num="97">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1698,7 +1698,7 @@ Whenever a creature dealt damage by Fama&apos;s Talon would die, exile it instea
 		<card>
 			<name>Gildling</name>
 			<text>When Gildling dies, create a treasure.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/96_Gildling.png" num="96">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/98_Gildling.png" num="98">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1720,7 +1720,7 @@ Whenever a creature dealt damage by Fama&apos;s Talon would die, exile it instea
 • Body: The opponent sacrifice a creature.
 • Courage: Creatures opponent controls cannot attack you or planeswalkers you control until the start of your next turn. 
 • Memory: Look at the top three cards of your opponents library, you may put them back in any order.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/97_Hag Coven.png" num="97">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/99_Hag Coven.png" num="99">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1737,7 +1737,7 @@ Whenever a creature dealt damage by Fama&apos;s Talon would die, exile it instea
 		<card>
 			<name>Hellish Rebuke</name>
 			<text>Until end of turn, permanents your opponents control gain &quot;When this permanent deals damage to the player who cast Hellish Rebuke, sacrifice this permanent. You lose 2 life.&quot;</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/98_Hellish Rebuke.png" num="98">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/100_Hellish Rebuke.png" num="100">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1754,7 +1754,7 @@ Whenever a creature dealt damage by Fama&apos;s Talon would die, exile it instea
 			<name>Inflict Wounds</name>
 			<text>Target creature gets -2/-2 until end of turn.
 Morbid — If a creature died this turn, target creature gets -5/-5 until end of turn instead.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/99_Inflict Wounds.png" num="99">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/101_Inflict Wounds.png" num="101">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1771,7 +1771,7 @@ Morbid — If a creature died this turn, target creature gets -5/-5 until end of
 			<name>Lanu&apos;s Intervention</name>
 			<text>Return target card from your graveyard to your hand.
 Draw a card.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/100_Lanu&apos;s Intervention.png" num="100">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/102_Lanu&apos;s Intervention.png" num="102">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1787,7 +1787,7 @@ Draw a card.</text>
 		<card>
 			<name>Mark for Death</name>
 			<text>Destroy target creature. Lose 2 life.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/101_Mark for Death.png" num="101">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/103_Mark for Death.png" num="103">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1804,7 +1804,7 @@ Draw a card.</text>
 			<name>Necromancer&apos;s Apprentice</name>
 			<text>Skeletons and Zombies get +1/+1
 At the beginning of each end step, if a creature died this turn, you may pay {1}. If you do, create a 1/1 black Skeleton creature token.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/103_Necromancer&apos;s Apprentice.png" num="103">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/105_Necromancer&apos;s Apprentice.png" num="105">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1822,7 +1822,7 @@ At the beginning of each end step, if a creature died this turn, you may pay {1}
 			<name>Night of Consuming Darkness</name>
 			<text>As an additional cost to cast this spell, pay X life.
 Creatures get -X/-X until the end of turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/104_Night of Consuming Darkness.png" num="104">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/106_Night of Consuming Darkness.png" num="106">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1838,7 +1838,7 @@ Creatures get -X/-X until the end of turn.</text>
 		<card>
 			<name>Olar, The Broken Arrow</name>
 			<text>{T}: Olar, the Broken Arrow deals damage equal to its power to target creature. If that creature dies, put a +1/+1 counter on Olar, the Broken Arrow.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/105_Olar, The Broken Arrow.png" num="105">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/107_Olar, The Broken Arrow.png" num="107">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1856,7 +1856,7 @@ Creatures get -X/-X until the end of turn.</text>
 			<name>Olethros the Destroyer</name>
 			<text>Flying
 Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/106_Olethros the Destroyer.png" num="106">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/108_Olethros the Destroyer.png" num="108">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1873,7 +1873,7 @@ Annihilator 2 (Whenever this creature attacks, defending player sacrifices two p
 		<card>
 			<name>Remove Curse</name>
 			<text>Destroy target creature or enchantment. You lose life equal to its mana value.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/107_Remove Curse.png" num="107">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/109_Remove Curse.png" num="109">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1890,7 +1890,7 @@ Annihilator 2 (Whenever this creature attacks, defending player sacrifices two p
 			<name>Ritual Sacrifice</name>
 			<text>As an additional cost to cast this spell, sacrifice a creature.
 Return target creature from your graveyard to the battlefield.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/108_Ritual Sacrifice.png" num="108">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/110_Ritual Sacrifice.png" num="110">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1909,7 +1909,7 @@ Return target creature from your graveyard to the battlefield.</text>
 Ward— Sacrifice a creature.
 At the beginning of combat on your turn, mill 2 cards, then exile target creature card from your graveyard. Create a token copy of it, except its a 3/3 black Zombie. Exile all tokens created this way when Shaedrun leaves the battlefield.
 Creature tokens you control have haste and must attack each combat if able.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/109_Shaedrun, the Necromancer.png" num="109">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/111_Shaedrun, the Necromancer.png" num="111">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1927,7 +1927,7 @@ Creature tokens you control have haste and must attack each combat if able.</tex
 			<name>Shaedrun&apos;s Gambit</name>
 			<text>Create X 2/2 black Zombie creature tokens, where X is the number of nontoken creatures that died this turn.
 Foretell {B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/110_Shaedrun&apos;s Gambit.png" num="110">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/112_Shaedrun&apos;s Gambit.png" num="112">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1945,7 +1945,7 @@ Foretell {B} (During your turn, you may pay {2} and exile this card from your ha
 			<text>Menace
 Shambling Necromass costs {1} less to cast for each creature card in your graveyard.
 Shambling Necromass power and toughness is equal to the number of creature cards in your graveyard.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/111_Shambling Necromass.png" num="111">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/113_Shambling Necromass.png" num="113">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1963,7 +1963,7 @@ Shambling Necromass power and toughness is equal to the number of creature cards
 			<name>Soul Diversion</name>
 			<text>Return all creatures you controlled that died this turn to the battlefield.
 Foretell {1}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/112_Soul Diversion.png" num="112">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/114_Soul Diversion.png" num="114">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1980,7 +1980,7 @@ Foretell {1}{B} (During your turn, you may pay {2} and exile this card from your
 			<name>Spare the Dying</name>
 			<text>Upcast {1}{B} (You may pay an additional {1}{B} any number of times as you cast this spell.)
 Target creature gains undying till the end of the turn. (When that creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/113_Spare the Dying.png" num="113">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/115_Spare the Dying.png" num="115">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1998,7 +1998,7 @@ Target creature gains undying till the end of the turn. (When that creature dies
 			<text>{1}{T}: Target opponent discards a card.
 {3}{T}: 
 {5}{T}: Return target creature from the graveyard to the battlefield.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/114_Staff of the Blightree.png" num="114">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/116_Staff of the Blightree.png" num="116">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2016,7 +2016,7 @@ Target creature gains undying till the end of the turn. (When that creature dies
 			<name>Undead Elk</name>
 			<text>Menace
 Trample</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/115_Undead Elk.png" num="115">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/117_Undead Elk.png" num="117">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2034,7 +2034,7 @@ Trample</text>
 			<name>Blessing of Alyra</name>
 			<text>Creatures you control get +2/+0 and haste until the end of the turn.
 Draw a card.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/116_Blessing of Alyra.png" num="116">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/118_Blessing of Alyra.png" num="118">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2052,7 +2052,7 @@ Draw a card.</text>
 			<text>Create a Treasure token.
 Draw a card.
 Flashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/117_Caelys&apos;s Favor.png" num="117">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/119_Caelys&apos;s Favor.png" num="119">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2068,7 +2068,7 @@ Flashback {3}{R} (You may cast this card from your graveyard for its flashback c
 		<card>
 			<name>Coelys Fantatic</name>
 			<text>If a red source you control would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus 1 instead.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/118_Coelys Fantatic.png" num="118">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/120_Coelys Fantatic.png" num="120">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2086,7 +2086,7 @@ Flashback {3}{R} (You may cast this card from your graveyard for its flashback c
 			<name>Coelys&apos;s Ire</name>
 			<text>Deal 3 damage to target creature.
 Draw a card.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/119_Coelys&apos;s Ire.png" num="119">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/121_Coelys&apos;s Ire.png" num="121">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2104,7 +2104,7 @@ Draw a card.</text>
 			<text>Haste
 Prowess
 When Drachenjäger dies, it deals damage equal to its power to any target.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/120_Drachenjäger.png" num="120">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/122_Drachenjäger.png" num="122">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2122,7 +2122,7 @@ When Drachenjäger dies, it deals damage equal to its power to any target.</text
 			<name>Dragon&apos;s Fire</name>
 			<text>As an additional cost to cast this spell, you may reveal a Dragon card from your hand or choose a Dragon you control.
 Dragon&apos;s Fire deals 3 damage to target creature or planeswalker. If you revealed a Dragon card or chose a Dragon as you cast this spell, Dragon&apos;s Fire deals damage equal to the power of that card or creature instead.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/121_Dragon&apos;s Fire.png" num="121">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/123_Dragon&apos;s Fire.png" num="123">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2142,7 +2142,7 @@ Choose one, you may choose an additional mode for each time this spell was upcas
 • Copy target instant or sorcery.
 • Red sources you control deal an additional 1 damage until the end of turn.
 • Up to two target creatures can&apos;t block until the end of turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/122_Drink it Down.png" num="122">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/124_Drink it Down.png" num="124">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2158,7 +2158,7 @@ Choose one, you may choose an additional mode for each time this spell was upcas
 		<card>
 			<name>Fane of the Mountain</name>
 			<text>Whenever you sacrifice an Artifact, put a +1/+1 counter on Fane of the Mountain and add {R}.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/123_Fane of the Mountain.png" num="123">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/125_Fane of the Mountain.png" num="125">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2177,7 +2177,7 @@ Choose one, you may choose an additional mode for each time this spell was upcas
 			<text>Upcast {1}{R} (You may pay an additional {1}{R} any number of times as you cast this spell.)
 Deal 2 damage to any target.
 If this spell was upcast, deal an additional 2 damage to that creature for each time it was upcast.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/124_Fire Bolt.png" num="124">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/126_Fire Bolt.png" num="126">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2194,7 +2194,7 @@ If this spell was upcast, deal an additional 2 damage to that creature for each 
 			<name>Fireball</name>
 			<text>This spell costs {1} more to cast for each target beyond the first.
 Fireball deals X damage divided evenly, rounded down, among any number of targets.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/125_Fireball.png" num="125">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/127_Fireball.png" num="127">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2215,7 +2215,7 @@ Fireball deals X damage divided evenly, rounded down, among any number of target
 20 | Deal damage equal to its mana value to each opponent.
 
 {1}{R}, {T}: Exile the top two cards of your library. You may play them until the end of your next turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/126_The Forge of Elements.png" num="126">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/128_The Forge of Elements.png" num="128">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2234,7 +2234,7 @@ Fireball deals X damage divided evenly, rounded down, among any number of target
 When Fulcrum enters the battlefield, attach it to target creature you control. Equipped creature gets +3/+1 and trample.
 When Fulcrum becomes equipped to a creature or the equipped creature attacks, it fights target dragon.
 Equip {3}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/127_Fulcrum.png" num="127">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/129_Fulcrum.png" num="129">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2251,7 +2251,7 @@ Equip {3}</text>
 			<name>Fury of the Gods</name>
 			<text>Foretell {R}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 Deal 4 damage to each creature.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/128_Fury of the Gods.png" num="128">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/130_Fury of the Gods.png" num="130">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2268,7 +2268,7 @@ Deal 4 damage to each creature.</text>
 			<name>Gniess, Stonecutter Prime</name>
 			<text>Whenever a dwarf you control becomes tapped, create a treasure.
 Whenever a creature you control dies, you may pay 1 life. if you do exile the top card of your library, you may play that card until the end of your next turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/129_Gniess, Stonecutter Prime.png" num="129">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/131_Gniess, Stonecutter Prime.png" num="131">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2286,7 +2286,7 @@ Whenever a creature you control dies, you may pay 1 life. if you do exile the to
 			<name>Goblins of the Red Hand</name>
 			<text>Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)
 Sacrifice a creature: Deal 1 damage to any target</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/130_Goblins of the Red Hand.png" num="130">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/132_Goblins of the Red Hand.png" num="132">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2304,7 +2304,7 @@ Sacrifice a creature: Deal 1 damage to any target</text>
 			<name>The Halcyon</name>
 			<text>When The Halcyon enters the battlefield create a treasure.
 Sacrifice a treasure: Target creature can&apos;t be blocked this turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/131_The Halcyon.png" num="131">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/133_The Halcyon.png" num="133">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2322,7 +2322,7 @@ Sacrifice a treasure: Target creature can&apos;t be blocked this turn.</text>
 			<name>Idryyth the Flamebringer</name>
 			<text>Flying
 When Idryyth enters the battlefield, it deals 5 damage to target creature and 3 damage to each other creature that player controls.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/132_Idryyth the Flamebringer.png" num="132">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/134_Idryyth the Flamebringer.png" num="134">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2339,7 +2339,7 @@ When Idryyth enters the battlefield, it deals 5 damage to target creature and 3 
 		<card>
 			<name>Kythr, Sorrow&apos;s Mark</name>
 			<text>When Kythr dies, it deals damage equal to its power to target creature or player.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/133_Kythr, Sorrow&apos;s Mark.png" num="133">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/135_Kythr, Sorrow&apos;s Mark.png" num="135">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2357,7 +2357,7 @@ When Idryyth enters the battlefield, it deals 5 damage to target creature and 3 
 			<name>Lord Maalas</name>
 			<text>Equipped creatures you control have +1/+0 and ward {1}. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
 You may pay 0 rather than pay the equip cost of the first equip ability you activate each turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/134_Lord Maalas.png" num="134">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/136_Lord Maalas.png" num="136">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2377,7 +2377,7 @@ You may pay 0 rather than pay the equip cost of the first equip ability you acti
 This spell can&apos;t be countered.
 Magic Missile deals 3 damage divided as you choose among one, two, or three targets.
 If this spell was upcast, it deals an additional 1 damage and you may target one additional creature for each time it was upcast.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/135_Magic Missile.png" num="135">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/137_Magic Missile.png" num="137">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2393,7 +2393,7 @@ If this spell was upcast, it deals an additional 1 damage and you may target one
 		<card>
 			<name>Malaas War Marshall</name>
 			<text>Whenever you attack a player with one or more equipped creatures, draw a card.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/136_Malaas War Marshall.png" num="136">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/138_Malaas War Marshall.png" num="138">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2410,7 +2410,7 @@ If this spell was upcast, it deals an additional 1 damage and you may target one
 		<card>
 			<name>Malaasan Emissary</name>
 			<text>Whenever you cast a legendary spell, create a treasure token.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/137_Malaasan Emissary.png" num="137">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/139_Malaasan Emissary.png" num="139">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2428,7 +2428,7 @@ If this spell was upcast, it deals an additional 1 damage and you may target one
 			<name>Malaasan Pick-Axe</name>
 			<text>Equipped creature gets +1/+1 and has &quot;Whenever this creature attacks, create a Treasure token.&quot; 
 Equip {2}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/138_Malaasan Pick-Axe.png" num="138">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/140_Malaasan Pick-Axe.png" num="140">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2447,7 +2447,7 @@ Equip {2}</text>
 Choose one, if you sacrificed a creature, you may choose both — 
 • Destroy target artifact.
 • Deal 3 damage to target creature.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/139_Mine Collapse.png" num="139">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/141_Mine Collapse.png" num="141">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2464,7 +2464,7 @@ Choose one, if you sacrificed a creature, you may choose both —
 			<name>Price of Loyalty</name>
 			<text>Gain control of target creature [with mana value 3 or less] until end of turn. untap that creature. It gains haste until end of turn.
 Cleave {1}, Sacrifice a treasure. (You may cast this spell for its cleave cost. If you do, remove the words in square brackets.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/140_Price of Loyalty.png" num="140">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/142_Price of Loyalty.png" num="142">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2481,7 +2481,7 @@ Cleave {1}, Sacrifice a treasure. (You may cast this spell for its cleave cost. 
 			<name>The Prosperity</name>
 			<text>When The Prosperity enters the battlefield, create two treasures.
 Whenever an artifact enters the battlefield under your control, deal 1 damage to each opponent.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/141_The Prosperity.png" num="141">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/143_The Prosperity.png" num="143">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2498,7 +2498,7 @@ Whenever an artifact enters the battlefield under your control, deal 1 damage to
 		<card>
 			<name>Rovari, Magic Weaver</name>
 			<text>Magecraft — Whenever you cast or copy an instant or sorcery spell, create a Treasure token.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/142_Rovari, Magic Weaver.png" num="142">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/144_Rovari, Magic Weaver.png" num="144">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2515,7 +2515,7 @@ Whenever an artifact enters the battlefield under your control, deal 1 damage to
 		<card>
 			<name>Scorching Ray</name>
 			<text>For each opponent, choose a creature that opponent controls. Scorching Ray deals 3 damage to each creature.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/143_Scorching Ray.png" num="143">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/145_Scorching Ray.png" num="145">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2532,7 +2532,7 @@ Whenever an artifact enters the battlefield under your control, deal 1 damage to
 			<name>Scyruss, Forge Master</name>
 			<text>First strike
 When Scyruss enters the battlefield, you may pay 1{R} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Scyruss. Then reveal cards off the top of your library until you reveal an equipment for each forge counter on Scyruss. Put them on the battlefield.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/144_Scyruss, Forge Master.png" num="144">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/146_Scyruss, Forge Master.png" num="146">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2549,7 +2549,7 @@ When Scyruss enters the battlefield, you may pay 1{R} any number of times. When 
 		<card>
 			<name>Wardog</name>
 			<text>Haste</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/145_Wardog.png" num="145">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/147_Wardog.png" num="147">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2566,7 +2566,7 @@ When Scyruss enters the battlefield, you may pay 1{R} any number of times. When 
 		<card>
 			<name>The Wiggumstaff Incident</name>
 			<text>Deal 9 damage to each creature. This spell costs {1} less for each creature on the battlefield.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/146_The Wiggumstaff Incident.png" num="146">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/148_The Wiggumstaff Incident.png" num="148">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2583,7 +2583,7 @@ When Scyruss enters the battlefield, you may pay 1{R} any number of times. When 
 			<name>Worker&apos;s Union</name>
 			<text>When Worker&apos;s Union enters the battlefield, create two 1/1 red Worker creature tokens.
 Sacrifice a treasure: Create a 1/1 red Worker creature token.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/147_Worker&apos;s Union.png" num="147">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/149_Worker&apos;s Union.png" num="149">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2600,7 +2600,7 @@ Sacrifice a treasure: Create a 1/1 red Worker creature token.</text>
 			<name>Wrathful Smite</name>
 			<text>Target creature you control gets trample and +2/+0 until end of turn.
 Overload {4}{R}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of &quot;target&quot; with &quot;each&quot;.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/148_Wrathful Smite.png" num="148">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/150_Wrathful Smite.png" num="150">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2617,7 +2617,7 @@ Overload {4}{R}{R} (You may cast this spell for its overload cost. If you do, ch
 			<name>Acolyte of Aranya</name>
 			<text>When Acolyte of Aranya enters the battlefield, draw a card. 
 You may play an additional land each turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/149_Acolyte of Aranya.png" num="149">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/151_Acolyte of Aranya.png" num="151">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2634,7 +2634,7 @@ You may play an additional land each turn.</text>
 		<card>
 			<name>Adolescent Dragon</name>
 			<text>Flying, Deathtouch</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/150_Adolescent Dragon.png" num="150">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/152_Adolescent Dragon.png" num="152">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2651,7 +2651,7 @@ You may play an additional land each turn.</text>
 		<card>
 			<name>Ara, Reknown Scout</name>
 			<text>Landfall — Whenever a land enter the battlefield under your control, Ara explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/151_Ara, Reknown Scout.png" num="151">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/153_Ara, Reknown Scout.png" num="153">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2668,7 +2668,7 @@ You may play an additional land each turn.</text>
 		<card>
 			<name>Aranya&apos;s Adept</name>
 			<text>{T}: Add {G}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/152_Aranya&apos;s Adept.png" num="152">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/154_Aranya&apos;s Adept.png" num="154">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2685,7 +2685,7 @@ You may play an additional land each turn.</text>
 		<card>
 			<name>Aranya&apos;s Intervention</name>
 			<text>Creatures you control gain hexproof and indestructible until the end of turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/153_Aranya&apos;s Intervention.png" num="153">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/155_Aranya&apos;s Intervention.png" num="155">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2702,7 +2702,7 @@ You may play an additional land each turn.</text>
 			<name>Aurelia&apos;s Elites</name>
 			<text>Vigilance
 Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/154_Aurelia&apos;s Elites.png" num="154">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/156_Aurelia&apos;s Elites.png" num="156">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2720,7 +2720,7 @@ Squad {2} (As an additional cost to cast this spell, you may pay {2} any number 
 			<name>Basilisk</name>
 			<text>Deathtouch
 Whenever a creature dealt damage by Basilisk would die, exile it and return it to the battlefield under your control face-down. It is a 0/4 golem creature with defender.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/155_Basilisk.png" num="155">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/157_Basilisk.png" num="157">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2738,7 +2738,7 @@ Whenever a creature dealt damage by Basilisk would die, exile it and return it t
 			<name>Blessings of the Mothertree</name>
 			<text>Creatures you control have: &quot;{T}, Add {G}.&quot;
 {3}{G}, {T}: Create a 1/1 green Forest Dryad land creature token.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/156_Blessings of the Mothertree.png" num="156">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/158_Blessings of the Mothertree.png" num="158">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2755,7 +2755,7 @@ Whenever a creature dealt damage by Basilisk would die, exile it and return it t
 			<name>Boon of Aranya</name>
 			<text>You may play an additional land this turn.
 Draw a card.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/157_Boon of Aranya.png" num="157">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/159_Boon of Aranya.png" num="159">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2772,7 +2772,7 @@ Draw a card.</text>
 			<name>Boon of Fama</name>
 			<text>Target creature gets deathtouch until the end of the turn.
 Draw a card.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/158_Boon of Fama.png" num="158">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/160_Boon of Fama.png" num="160">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2790,7 +2790,7 @@ Draw a card.</text>
 			<text>Upcast {1}{G}: (You may pay an additional {1}{G} any number of times as you cast this spell.)
 Destroy target artifact.
 If this spell was upcast, you may destroy up to one other target enchantment.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/159_Caravan Raid.png" num="159">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/161_Caravan Raid.png" num="161">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2807,7 +2807,7 @@ If this spell was upcast, you may destroy up to one other target enchantment.</t
 			<name>Cleanse the Fanes</name>
 			<text>[b]Enter the Tomb:[/b]
 Create a treasure token</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/160_Cleanse the Fanes.png" num="160">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/162_Cleanse the Fanes.png" num="162">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2823,7 +2823,7 @@ Create a treasure token</text>
 		<card>
 			<name>Command — Duel</name>
 			<text>Target creature you control fights target creature an opponent controls.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/161_Command — Duel.png" num="161">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/163_Command — Duel.png" num="163">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2841,7 +2841,7 @@ Create a treasure token</text>
 			<text>Upcast {1}{G} (You may pay an additional {1}{G} any number of times as you cast this spell.)
 Create two 2/2 green Bear creature tokens.
 For each time this spell was upcast, create two additional 2/2 green Bear creature tokens.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/162_Conjure Animals.png" num="162">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/164_Conjure Animals.png" num="164">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2857,7 +2857,7 @@ For each time this spell was upcast, create two additional 2/2 green Bear creatu
 		<card>
 			<name>Coordinated Assault</name>
 			<text>Up to two target creatures you control each deal damage equal to their power to another target creature.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/163_Coordinated Assault.png" num="163">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/165_Coordinated Assault.png" num="165">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2873,7 +2873,7 @@ For each time this spell was upcast, create two additional 2/2 green Bear creatu
 		<card>
 			<name>Death Ward</name>
 			<text>Untap target creature. It gains hexproof, indestructible, and trample until end of turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/164_Death Ward.png" num="164">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/166_Death Ward.png" num="166">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2889,7 +2889,7 @@ For each time this spell was upcast, create two additional 2/2 green Bear creatu
 		<card>
 			<name>Dire Wolf Pack</name>
 			<text>Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/165_Dire Wolf Pack.png" num="165">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/167_Dire Wolf Pack.png" num="167">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2906,7 +2906,7 @@ For each time this spell was upcast, create two additional 2/2 green Bear creatu
 		<card>
 			<name>Elf Scout</name>
 			<text>When Elf Scout enters the battlefield, you may search your library for a basic land and put it on the battlefield tapped.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/166_Elf Scout.png" num="166">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/168_Elf Scout.png" num="168">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2924,7 +2924,7 @@ For each time this spell was upcast, create two additional 2/2 green Bear creatu
 			<name>Elven Elder</name>
 			<text>Other Elf creatures you control get +1/+1.
 {T}: Add {G} for each Elf you control.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/167_Elven Elder.png" num="167">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/169_Elven Elder.png" num="169">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2942,7 +2942,7 @@ For each time this spell was upcast, create two additional 2/2 green Bear creatu
 			<name>Elven Warmaster</name>
 			<text>Whenever one or more other Elves enter the battlefield under your control, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.
 {5}{G}{G}: Elves you control get +2/+2 and gain deathtouch until end of turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/168_Elven Warmaster.png" num="168">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/170_Elven Warmaster.png" num="170">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2960,7 +2960,7 @@ For each time this spell was upcast, create two additional 2/2 green Bear creatu
 			<name>Enlarge</name>
 			<text>Target creature gets +3/+3 and trample.
 Overload {4}{G}{G} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of &quot;target&quot; with &quot;each&quot;.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/169_Enlarge.png" num="169">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/171_Enlarge.png" num="171">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2978,7 +2978,7 @@ Overload {4}{G}{G} (You may cast this spell for its overload cost. If you do, ch
 			<text>Trample, Reach
 Other creatures you control have trample.
 Whenever you cast a green creature spell, put a +1/+1 counter on each creature you control.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/170_Ewiard, Lord of the Hunt.png" num="170">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/172_Ewiard, Lord of the Hunt.png" num="172">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2996,7 +2996,7 @@ Whenever you cast a green creature spell, put a +1/+1 counter on each creature y
 			<name>Fane of the Forest</name>
 			<text>If one or more +1/+1 counters would be put on a permanent you control, that many plus one +1/+1 counters are put on that permanent instead.
 {T}: Add X mana of any one color, where X is Fane of the Forest&apos;s power.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/171_Fane of the Forest.png" num="171">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/173_Fane of the Forest.png" num="173">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3015,7 +3015,7 @@ Whenever you cast a green creature spell, put a +1/+1 counter on each creature y
 			<text>Flash
 Reach
 When Fleetfoot enters the battlefield he deals damage equal to the number of creatures you control to target creature an opponent controls.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/172_Fleetfoot, Sharpshooter.png" num="172">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/174_Fleetfoot, Sharpshooter.png" num="174">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3033,7 +3033,7 @@ When Fleetfoot enters the battlefield he deals damage equal to the number of cre
 			<name>The Forge of Life</name>
 			<text>Whenever you cast a creature spell, look at the top X cards of your library where X is the mana value of the creature spell. You may reveal a creature card from among them and put it in your hand and the rest on the bottom of your library in random order.
 {1}{G}, {T}: You may put a creature card from your hand onto the battlefield.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/173_The Forge of Life.png" num="173">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/175_The Forge of Life.png" num="175">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3049,7 +3049,7 @@ When Fleetfoot enters the battlefield he deals damage equal to the number of cre
 		<card>
 			<name>Glamstol, Crafty Herbalist</name>
 			<text>Whenever another creature enters the battlefield under your control, you may create a food, a map token, or a clue token.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/174_Glamstol, Crafty Herbalist.png" num="174">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/176_Glamstol, Crafty Herbalist.png" num="176">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3066,7 +3066,7 @@ When Fleetfoot enters the battlefield he deals damage equal to the number of cre
 		<card>
 			<name>Grasping Vegetation</name>
 			<text>When Grasping Vegetation enters the battlefield, reveal cards until you reveal a land. Put the cards revealed this way into your graveyard and the land into your hand.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/175_Grasping Vegetation.png" num="175">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/177_Grasping Vegetation.png" num="177">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3085,7 +3085,7 @@ When Fleetfoot enters the battlefield he deals damage equal to the number of cre
 			<text>Flash
 When Karda enters the battlefield, destroy target artifact or enchantment.
 {2}: Sacrifice Karda, Revolutionary. Destroy target creature that was dealt damage this turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/176_Karda, Revolutionary.png" num="176">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/178_Karda, Revolutionary.png" num="178">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3103,7 +3103,7 @@ When Karda enters the battlefield, destroy target artifact or enchantment.
 			<name>King Saakala</name>
 			<text>Forestwalk (This creature can&apos;t be blocked as long as defending player controls a Forest.)
 Other elves you control get +1/+1 and &quot;{T}: Add {G}&quot;.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/177_King Saakala.png" num="177">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/179_King Saakala.png" num="179">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3120,7 +3120,7 @@ Other elves you control get +1/+1 and &quot;{T}: Add {G}&quot;.</text>
 		<card>
 			<name>Kruthik Swarm</name>
 			<text>Landfall — Whenever a land you control enters, create a 1/1 green Monstrosity creature token. If you control six or more lands, create a token that&apos;s a copy of Kruthik Swarm instead.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/178_Kruthik Swarm.png" num="178">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/180_Kruthik Swarm.png" num="180">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3138,7 +3138,7 @@ Other elves you control get +1/+1 and &quot;{T}: Add {G}&quot;.</text>
 			<name>Kruthik Tunneler</name>
 			<text>Menace
 When Kruthik Tunneler deals combat damage to a player, mill 2 cards. You may return a land from your graveyard to your hand.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/179_Kruthik Tunneler.png" num="179">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/181_Kruthik Tunneler.png" num="181">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3155,7 +3155,7 @@ When Kruthik Tunneler deals combat damage to a player, mill 2 cards. You may ret
 		<card>
 			<name>Life Cleric</name>
 			<text>When Life Cleric enters the battlefield, return target card from your graveyard to your hand.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/180_Life Cleric.png" num="180">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/182_Life Cleric.png" num="182">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3176,7 +3176,7 @@ When Nydissia attacks or blocks, choose one —
 • Create a 2/2 green Elf creature token.
 • Draw a card.
 • You gain 3 life.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/181_Nydissia the Protector.png" num="181">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/183_Nydissia the Protector.png" num="183">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3194,7 +3194,7 @@ When Nydissia attacks or blocks, choose one —
 			<name>Owlbear</name>
 			<text>Trample
 When Owlbear enters the battlefield, draw a card.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/182_Owlbear.png" num="182">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/184_Owlbear.png" num="184">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3211,7 +3211,7 @@ When Owlbear enters the battlefield, draw a card.</text>
 		<card>
 			<name>Planar Portal</name>
 			<text>Whenever you cast a creature spell. Reveal cards off the top of your library until you reveal a creature with lesser mana value. Put that creature onto the battlefield.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/183_Planar Portal.png" num="183">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/185_Planar Portal.png" num="185">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3228,7 +3228,7 @@ When Owlbear enters the battlefield, draw a card.</text>
 			<name>Song of Alyra</name>
 			<text>Nontoken creatures you control have riot. (That creature enters the battlefield with your choice of a +1/+1 counter or haste.)
 Whenever a creature enters the battlefield under your control with power four or greater, draw a card.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/184_Song of Alyra.png" num="184">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/186_Song of Alyra.png" num="186">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3244,7 +3244,7 @@ Whenever a creature enters the battlefield under your control with power four or
 		<card>
 			<name>Staff of the Mothertree</name>
 			<text>​</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/185_Staff of the Mothertree.png" num="185">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/187_Staff of the Mothertree.png" num="187">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3262,7 +3262,7 @@ Whenever a creature enters the battlefield under your control with power four or
 			<name>Unchecked Aggression</name>
 			<text>Target creature you control deals damage equal to its power to target creature.
 If a creature you control dies, draw cards equal to its toughness.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/186_Unchecked Aggression.png" num="186">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/188_Unchecked Aggression.png" num="188">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3278,7 +3278,7 @@ If a creature you control dies, draw cards equal to its toughness.</text>
 		<card>
 			<name>Volley of Arrows</name>
 			<text>Destroy target artifact, enchantment, or creature with flying.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/187_Volley of Arrows.png" num="187">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/189_Volley of Arrows.png" num="189">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3296,7 +3296,7 @@ If a creature you control dies, draw cards equal to its toughness.</text>
 			<text>Totem Armor (If enchanted permanent would be destroyed, instead remove all damage from it and destroy this Aura.)
 Enchant creature
 Enchanted creature has +2/+2 and trample and is a bear in addition to its other types.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/188_Wildshape — Bear.png" num="188">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/190_Wildshape — Bear.png" num="190">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3314,7 +3314,7 @@ Enchanted creature has +2/+2 and trample and is a bear in addition to its other 
 			<text>Totem Armor (If enchanted permanent would be destroyed, instead remove all damage from it and destroy this Aura.)
 Enchant Creature
 Enchanted creature has base power and toughness 1/1 and can&apos;t be blocked and is a spider in addition to its other types.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/189_Wildshape — Spider.png" num="189">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/191_Wildshape — Spider.png" num="191">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3333,7 +3333,7 @@ Enchanted creature has base power and toughness 1/1 and can&apos;t be blocked an
 • Each opponent sacrifices an artifact.
 • Each opponent sacrifices an enchantment.
 • Each opponent sacrifices a creature with flying.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/190_Wyvern Toxin.png" num="190">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/192_Wyvern Toxin.png" num="192">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3349,7 +3349,7 @@ Enchanted creature has base power and toughness 1/1 and can&apos;t be blocked an
 		<card>
 			<name>Yanna the Ill-Fated</name>
 			<text>When Yanna dies, gain 2 life and draw a card.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/191_Yanna the Ill-Fated.png" num="191">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/193_Yanna the Ill-Fated.png" num="193">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3367,7 +3367,7 @@ Enchanted creature has base power and toughness 1/1 and can&apos;t be blocked an
 			<name>Aipa the Ancient</name>
 			<text>Flying, Haste
 Whenever Aipa the Ancient is dealt damage, create that many treasure tokens.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/192_Aipa the Ancient.png" num="192">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/194_Aipa the Ancient.png" num="194">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3386,7 +3386,7 @@ Whenever Aipa the Ancient is dealt damage, create that many treasure tokens.</te
 			<text>Flying
 Whenever a creature dies, each opponent loses 1 life. If it is the first time this turn, draw a card.
 When Arrynth, Lord of Death attacks exile target creature from a graveyard.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/193_Arrynth, Lord of Death.png" num="193">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/195_Arrynth, Lord of Death.png" num="195">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3406,7 +3406,7 @@ When Arrynth, Lord of Death attacks exile target creature from a graveyard.</tex
 As long as your devotion to is less than twelve Ayleia, Progenitor isn&apos;t a creature.
 Whenever a creature you control dies, search your library for a creature of equal mana value and put it on the battlefield.
 At the beginning of your upkeep, sacrifice a creature.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/194_Ayleia Progenitor.png" num="194">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/196_Ayleia Progenitor.png" num="196">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3423,7 +3423,7 @@ At the beginning of your upkeep, sacrifice a creature.</text>
 		<card>
 			<name>Captain Lebrode</name>
 			<text>Spells your opponents cast during your turn cost {1} more to cast.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/195_Captain Lebrode.png" num="195">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/197_Captain Lebrode.png" num="197">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3442,7 +3442,7 @@ At the beginning of your upkeep, sacrifice a creature.</text>
 			<text>Play with the top card of your library revealed.
 You may play lands off the top of your library.
 Landfall — Create a 4/4 green treefolk creature token with reach.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/196_Dryad Grove.png" num="196">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/198_Dryad Grove.png" num="198">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3459,7 +3459,7 @@ Landfall — Create a 4/4 green treefolk creature token with reach.</text>
 			<name>Emir, Fists of Fury</name>
 			<text>Haste, Double strike
 Dwarves you control get +1/+1</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/197_Emir, Fists of Fury.png" num="197">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/199_Emir, Fists of Fury.png" num="199">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3478,7 +3478,7 @@ Dwarves you control get +1/+1</text>
 			<text>Target creature you control explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)
 If you would put a land into your hand, instead put it on the battlefield tapped. 
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/198_Explore the Outlands.png" num="198">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/200_Explore the Outlands.png" num="200">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3495,7 +3495,7 @@ Rebound (If you cast this spell from your hand, exile it as it resolves. At the 
 			<name>Granite, Elos&apos; Vengeance</name>
 			<text>Haste, Menace
 When Granite is dealt damage, Granite fights target creature you don&apos;t control.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/199_Granite, Elos&apos; Vengeance.png" num="199">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/201_Granite, Elos&apos; Vengeance.png" num="201">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3514,7 +3514,7 @@ When Granite is dealt damage, Granite fights target creature you don&apos;t cont
 			<text>Nemesis (You may only control one creature or Planeswalker with Nemesis.)
 Whenever a creature your opponents control dies, create a treasure.
 At the beginning of your upkeep, if you control ten or more treasure you win the game.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/200_His Opulence IV.png" num="200">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/202_His Opulence IV.png" num="202">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3533,7 +3533,7 @@ At the beginning of your upkeep, if you control ten or more treasure you win the
 			<text>Flash
 When Hyrum, Last Refuge enters the battlefield, he fights target creature.
 When Hyrum, Last Refuge attacks, destroy target artifact or enchantment.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/201_Hyrum, Last Refuge.png" num="201">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/203_Hyrum, Last Refuge.png" num="203">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3552,7 +3552,7 @@ When Hyrum, Last Refuge attacks, destroy target artifact or enchantment.</text>
 			<text>At the beginning of your upkeep pay 1 life unless you sacrifice Irdel the Pursued.
 When Irdel the Pursued deals combat damage to a player put a +1/+1 counter on it.
 {U}{B}: Irdel the Pursued cannot be blocked until end of turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/202_Irdel the Pursued.png" num="202">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/204_Irdel the Pursued.png" num="204">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3571,7 +3571,7 @@ When Irdel the Pursued deals combat damage to a player put a +1/+1 counter on it
 			<text>Nemesis — Creatures you control have undying. (You may only control one creature or Planeswalker with Nemesis.)
 Menace
 Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/203_Justice, Reborn.png" num="203">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/205_Justice, Reborn.png" num="205">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3590,7 +3590,7 @@ Undying (When this creature dies, if it had no +1/+1 counters on it, return it t
 			<text>Flying, Deathtouch
 When Keldath the Scourge enters the battlefield, put a -1/-1 counter on each creature an opponent controls.
 When a creature with a -1/-1 counter on it dies, you may move the counters to another creature.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/204_Keldath the Scourge.png" num="204">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/206_Keldath the Scourge.png" num="206">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3608,7 +3608,7 @@ When a creature with a -1/-1 counter on it dies, you may move the counters to an
 			<name>Kinzine the Lifegiver</name>
 			<text>Flying, Vigilance, Lifelink
 Whenever you gain life, create a 2/2 green elk creature token. This ability triggers only once each turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/205_Kinzine the Lifegiver.png" num="205">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/207_Kinzine the Lifegiver.png" num="207">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3626,7 +3626,7 @@ Whenever you gain life, create a 2/2 green elk creature token. This ability trig
 			<name>Lady Aurelia</name>
 			<text>Creatures you control have vigilance.
 {3}{G}: Create a 3/3 green Soldier creature token with vigilance.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/206_Lady Aurelia.png" num="206">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/208_Lady Aurelia.png" num="208">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3647,7 +3647,7 @@ When Pyrrydoss attacks, roll a d20.
 [b]1-9 [/b]| Return Pyrrydoss to your hand.
 [b]10-19[/b]| Pyrrydoss deals 3 damage to target creature.
 [b]20[/b]| Pyrrydoss deals 2 damage to each creature target opponent controls.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/207_Pyrrydoss the Unbroken.png" num="207">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/209_Pyrrydoss the Unbroken.png" num="209">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3666,7 +3666,7 @@ When Pyrrydoss attacks, roll a d20.
 			<text>Nemesis (You may only control one creature or Planeswalker with Nemesis.)
 Flying
 At the beginning of each combat, create an dragon egg token with &quot;{2}: Transform this egg.&quot; It transforms into a 0/0 dragon creature token. Put a +1/+1 counter on each egg you control.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/208_Syosa, Raving Dragon.png" num="208">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/210_Syosa, Raving Dragon.png" num="210">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3683,7 +3683,7 @@ At the beginning of each combat, create an dragon egg token with &quot;{2}: Tran
 		<card>
 			<name>Tammer, Reclusive Scholar</name>
 			<text>When Tammer, Reclusive Scholar enters the battlefield, you may put a land from you hand onto the battlefield.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/209_Tammer, Reclusive Scholar.png" num="209">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/211_Tammer, Reclusive Scholar.png" num="211">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3700,7 +3700,7 @@ At the beginning of each combat, create an dragon egg token with &quot;{2}: Tran
 		<card>
 			<name>Vas Asareen</name>
 			<text>Nemesis — At the beginning of your upkeep you may sacrifice a creature, if you do reveal cards off the top of your library until you reveal a creature card. Put that card onto the battlefield and the rest on the bottom of your library. (You may only control one creature or Planeswalker with Nemesis.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/210_Vas Asareen.png" num="210">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/212_Vas Asareen.png" num="212">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3720,7 +3720,7 @@ At the beginning of each combat, create an dragon egg token with &quot;{2}: Tran
 As long as your devotion to white and red is less than five, Aleana, Faith&apos;s Shield isn&apos;t a creature.
 Creature you controls gain vigilance.
 Prevent all damage done to blocking creatures you control.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/211_Aleana, Faith&apos;s Shield.png" num="211">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/213_Aleana, Faith&apos;s Shield.png" num="213">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3740,7 +3740,7 @@ Prevent all damage done to blocking creatures you control.</text>
 As long as your devotion to red, green, and white is less than seven, Alyra, Oracle&apos;s Muse isn&apos;t a creature.
 Creature you control have haste. 
 At the beginning of your end step, if you dealt combat damage to a player, draw a card.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/212_Alyra, Oracle&apos;s Muse.png" num="212">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/214_Alyra, Oracle&apos;s Muse.png" num="214">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3760,7 +3760,7 @@ At the beginning of your end step, if you dealt combat damage to a player, draw 
 As long as your devotion to green, blue and red is less than seven, Aranya, Nature&apos;s Queen isn&apos;t a creature.
 You may play an additional land each turn.
 When a land enters the battlefield under your control, draw a card. This ability triggers only once each turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/213_Aranya, Nature&apos;s Queen.png" num="213">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/215_Aranya, Nature&apos;s Queen.png" num="215">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3778,7 +3778,7 @@ When a land enters the battlefield under your control, draw a card. This ability
 			<name>Blessing of the Moon</name>
 			<text>Cleave {1}{W}{U} (You may cast this spell for its cleave cost. If you do, remove the words in square brackets.)
 Exile target creature [you control, return it to the battlefield at the beginning of the next end step].</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/214_Blessing of the Moon.png" num="214">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/216_Blessing of the Moon.png" num="216">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3795,7 +3795,7 @@ Exile target creature [you control, return it to the battlefield at the beginnin
 			<name>Bressio and Vynne, Twins</name>
 			<text>Double strike
 Dragon spell cost {2} less for you to cast.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/215_Bressio and Vynne, Twins.png" num="215">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/217_Bressio and Vynne, Twins.png" num="217">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3815,7 +3815,7 @@ Dragon spell cost {2} less for you to cast.</text>
 As long as your devotion to white, red, and black is less than seven, Cadrea, God of the Forge isn&apos;t a creature.
 At the beginning of your upkeep, reveal cards off the top of your library until you reveal an artifact. Put that card onto the battlefield.
 Sacrifice an artifact: Deal x damage to target creature where x is the mana value of the artifact.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/216_Cadrea, God of the Forge.png" num="216">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/218_Cadrea, God of the Forge.png" num="218">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3837,7 +3837,7 @@ At the beginning your upkeep, roll a d20.
 [b]1-9|[/b]Create a Treasure token.
 [b]10-19|[/b] Create two Treasure tokens[b].
 20| [/b]Create three Treasure tokens.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/217_Caelys the Gilded.png" num="217">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/219_Caelys the Gilded.png" num="219">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3856,7 +3856,7 @@ At the beginning your upkeep, roll a d20.
 			<text>Roll a 2d10, If you roll doubles, copy this spell:
 [b]2-9[/b]| Deal 2 damage to target creature, tap it, it doesn&apos;t untap during its controller&apos;s next untap step.
 [b]10-20[/b]|Deal 4 damage divided as you chose to up to two creatures, tap them, they doesn&apos;t untap during its controller&apos;s next untap step.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/218_Chaos Bolt.png" num="218">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/220_Chaos Bolt.png" num="220">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3878,7 +3878,7 @@ Whenever you cast a spell with mana value 4 or greater, roll a d20.
 [b]2-9 [/b]| Deal 1 damage to each creature.
 [b]10-19[/b]| Deal 2 damage to each creature your opponents control.
 [b]20[/b]| Deal 3 damage to each creature your opponents control and each opponent.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/219_Coelys, Chaos Incarnate.png" num="219">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/221_Coelys, Chaos Incarnate.png" num="221">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3899,7 +3899,7 @@ As long as your devotion to red, black, and green is less than seven, Elos, God 
 Creatures you control must attack each turn if able.
 Whenever a creature you control attacks, put a +1/+1 counter on it.
 If a creature with three or more counters on it would be put in the graveyard, return it to the battlefield instead.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/220_Elos, God of War.png" num="220">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/222_Elos, God of War.png" num="222">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3919,7 +3919,7 @@ If a creature with three or more counters on it would be put in the graveyard, r
 As long as your devotion to green, black, and blue is less than seven, Fama, Assassin Favored isn&apos;t a creature.
 Creatures you control have deathtouch.
 Whenever a creature dies, each opponent loses 1 life.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/221_Fama, Assassin Favored.png" num="221">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/223_Fama, Assassin Favored.png" num="223">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3938,7 +3938,7 @@ Whenever a creature dies, each opponent loses 1 life.</text>
 			<text>Indestructible, Unblockable
 As long as your devotion to white, green, and black is less than seven, Lanu, Moon Trickster isn&apos;t a creature.
 When a creature an opponent controls is put into the graveyard, you may pay {X} where {X} is the mana value of that card. If you do, put it on the battlefield tapped under your control.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/222_Lanu, Moon Trickster.png" num="222">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/224_Lanu, Moon Trickster.png" num="224">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3955,7 +3955,7 @@ When a creature an opponent controls is put into the graveyard, you may pay {X} 
 		<card>
 			<name>Sorsha, Restrained</name>
 			<text>When Sorsha, Restrained enters the battlefield, you may sacrifice a creature. If you do, return target creature from your graveyard to the battlefield. It is fungi in addition to its other types.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/223_Sorsha, Restrained.png" num="223">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/225_Sorsha, Restrained.png" num="225">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3975,7 +3975,7 @@ When a creature an opponent controls is put into the graveyard, you may pay {X} 
 As long as your devotion to blue, black, and white is less than seven, Tathys, Keeper of Secrets isn&apos;t a creature.
 You may look at the top of each player&apos;s library at any time.
 Whenever a player casts a spell from anywhere other than their hand, draw a card.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/224_Tathys, Keeper of Secrets.png" num="224">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/226_Tathys, Keeper of Secrets.png" num="226">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3996,7 +3996,7 @@ As long as your devotion to white and black is less than five, Urobu, Judge of S
 When Urobu, Judge of Souls enters the battlefield, exile all graveyards.
 Opponents cannot cast spells from anywhere other than their hands.
 Opponents cannot target creature cards in their graveyard.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/225_Urobu, Judge of Souls.png" num="225">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/227_Urobu, Judge of Souls.png" num="227">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4016,7 +4016,7 @@ Opponents cannot target creature cards in their graveyard.</text>
 As long as your devotion to blue, white, and green is less than seven, Vetys, Beacon of Knowledge isn&apos;t a creature.
 During upkeep on your turn, draw a card.
 During upkeep on each opponent&apos;s turn, that player may draw a card. If they do, draw a card.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/226_Vetys, Beacon of Knowledge.png" num="226">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/228_Vetys, Beacon of Knowledge.png" num="228">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4033,7 +4033,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>Soul Steel Dagger</name>
 			<text>​</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/227_Soul Steel Dagger.png" num="227">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/229_Soul Steel Dagger.png" num="229">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4048,7 +4048,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Abyss</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Abyss: Search your library for a Island or Swamp card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/228_The Abyss.png" num="228">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/230_The Abyss.png" num="230">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4062,7 +4062,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Abyss</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Abyss: Search your library for a Island or Swamp card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/229_The Abyss.png" num="229">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/231_The Abyss.png" num="231">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4076,7 +4076,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>Bastion</name>
 			<text>{T}, Pay 1 Life, Sacrifice Bastion: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/230_Bastion.png" num="230">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/232_Bastion.png" num="232">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4090,7 +4090,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>Bastion</name>
 			<text>{T}, Pay 1 Life, Sacrifice Bastion: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/231_Bastion.png" num="231">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/233_Bastion.png" num="233">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4104,7 +4104,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Beacon</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Beacon: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/232_The Beacon.png" num="232">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/234_The Beacon.png" num="234">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4118,7 +4118,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Beacon</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Beacon: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/233_The Beacon.png" num="233">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/235_The Beacon.png" num="235">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4132,7 +4132,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Blightlands</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Blightlands: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/234_The Blightlands.png" num="234">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/236_The Blightlands.png" num="236">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4146,7 +4146,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Blightlands</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Blightlands: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/235_The Blightlands.png" num="235">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/237_The Blightlands.png" num="237">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4160,7 +4160,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Cataclysm</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Cataclysm: Search your library for a Island or Mountain card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/237_The Cataclysm.png" num="237">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/238_The Cataclysm.png" num="238">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4174,7 +4174,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Cataclysm</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Cataclysm: Search your library for a Island or Mountain card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/236_The Cataclysm.png" num="236">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/239_The Cataclysm.png" num="239">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4189,7 +4189,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Corpsewood</name>
 			<text>As Corpsewood enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {B} or {G}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/239_Corpsewood.png" num="239">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/241_Corpsewood.png" num="241">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4205,7 +4205,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Corpsewood</name>
 			<text>As Corpsewood enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {B} or {G}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/238_Corpsewood.png" num="238">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/240_Corpsewood.png" num="240">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4221,7 +4221,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Eislessi Isle</name>
 			<text>As Eislessi Isle enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {W} or {U}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/240_Eislessi Isle.png" num="240">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/243_Eislessi Isle.png" num="243">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4237,7 +4237,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Eislessi Isle</name>
 			<text>As Eislessi Isle enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {W} or {U}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/241_Eislessi Isle.png" num="241">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/242_Eislessi Isle.png" num="242">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4253,7 +4253,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Et&apos;limi&apos;dak</name>
 			<text>As Et&apos;limi&apos;dak enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {G} or {W}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/242_Et&apos;limi&apos;dak.png" num="242">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/244_Et&apos;limi&apos;dak.png" num="244">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4269,7 +4269,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Et&apos;limi&apos;dak</name>
 			<text>As Et&apos;limi&apos;dak enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {G} or {W}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/243_Et&apos;limi&apos;dak.png" num="243">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/245_Et&apos;limi&apos;dak.png" num="245">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4285,7 +4285,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Ikbarre Marshes</name>
 			<text>As Ikbarre Marshes enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {W} or {B}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/244_Ikbarre Marshes.png" num="244">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/247_Ikbarre Marshes.png" num="247">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4301,7 +4301,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Ikbarre Marshes</name>
 			<text>As Ikbarre Marshes enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {W} or {B}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/245_Ikbarre Marshes.png" num="245">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/246_Ikbarre Marshes.png" num="246">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4317,7 +4317,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Kavedii Islands</name>
 			<text>As Kavedii Islands enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {G} or {U}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/246_Kavedii Islands.png" num="246">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/248_Kavedii Islands.png" num="248">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4333,7 +4333,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Kavedii Islands</name>
 			<text>As Kavedii Islands enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {G} or {U}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/247_Kavedii Islands.png" num="247">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/249_Kavedii Islands.png" num="249">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4349,7 +4349,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Lake Dorn</name>
 			<text>As Lake Dorn enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {R} or {U}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/248_Lake Dorn.png" num="248">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/250_Lake Dorn.png" num="250">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4365,7 +4365,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Lake Dorn</name>
 			<text>As Lake Dorn enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {R} or {U}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/249_Lake Dorn.png" num="249">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/251_Lake Dorn.png" num="251">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4381,7 +4381,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Misty Isles</name>
 			<text>As Misty Isles enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {U} or {B}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/250_Misty Isles.png" num="250">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/252_Misty Isles.png" num="252">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4397,7 +4397,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Misty Isles</name>
 			<text>As Misty Isles enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {U} or {B}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/251_Misty Isles.png" num="251">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/253_Misty Isles.png" num="253">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4412,7 +4412,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Moon Grove</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Moon Grove: Search your library for a Forest or Plains card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/253_The Moon Grove.png" num="253">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/254_The Moon Grove.png" num="254">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4426,7 +4426,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Moon Grove</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Moon Grove: Search your library for a Forest or Plains card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/252_The Moon Grove.png" num="252">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/255_The Moon Grove.png" num="255">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4440,7 +4440,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Nether</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Nether: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/254_The Nether.png" num="254">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/257_The Nether.png" num="257">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4454,7 +4454,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Nether</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Nether: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/255_The Nether.png" num="255">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/256_The Nether.png" num="256">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4469,7 +4469,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Ovauto Forest</name>
 			<text>As Ovauto Forest enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {R} or {G}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/256_Ovauto Forest.png" num="256">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/259_Ovauto Forest.png" num="259">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4485,7 +4485,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Ovauto Forest</name>
 			<text>As Ovauto Forest enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {R} or {G}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/257_Ovauto Forest.png" num="257">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/258_Ovauto Forest.png" num="258">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4500,7 +4500,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>Revalia</name>
 			<text>{T}, Pay 1 Life, Sacrifice Revalia: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/258_Revalia.png" num="258">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/260_Revalia.png" num="260">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4514,7 +4514,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>Revalia</name>
 			<text>{T}, Pay 1 Life, Sacrifice Revalia: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/259_Revalia.png" num="259">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/261_Revalia.png" num="261">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4529,7 +4529,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Shattered Peaks</name>
 			<text>As Shattered Peaks enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {B} or {R}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/261_Shattered Peaks.png" num="261">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/262_Shattered Peaks.png" num="262">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4545,7 +4545,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Shattered Peaks</name>
 			<text>As Shattered Peaks enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {B} or {R}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/260_Shattered Peaks.png" num="260">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/263_Shattered Peaks.png" num="263">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4560,7 +4560,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Tumult</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Tumult: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/262_The Tumult.png" num="262">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/264_The Tumult.png" num="264">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4574,7 +4574,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Tumult</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Tumult: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/263_The Tumult.png" num="263">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/265_The Tumult.png" num="265">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4589,7 +4589,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Upper Iron Pass</name>
 			<text>As Upper Iron Pass enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {R} or {W}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/264_Upper Iron Pass.png" num="264">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/266_Upper Iron Pass.png" num="266">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4605,7 +4605,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 			<name>Upper Iron Pass</name>
 			<text>As Upper Iron Pass enters the battlefield, you may pay 2 life. If you don&apos;t it enters the battlefield tapped.
 {T}: Add {R} or {W}</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/265_Upper Iron Pass.png" num="265">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/267_Upper Iron Pass.png" num="267">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4620,7 +4620,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Wilds</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Wilds: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/266_The Wilds.png" num="266">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/268_The Wilds.png" num="268">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4634,7 +4634,7 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>The Wilds</name>
 			<text>{T}, Pay 1 Life, Sacrifice The Wilds: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/267_The Wilds.png" num="267">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/269_The Wilds.png" num="269">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4648,7 +4648,56 @@ During upkeep on each opponent&apos;s turn, that player may draw a card. If they
 		<card>
 			<name>Mysterious Benefactor</name>
 			<text>When Mysterious Benefactor enters the battlefield create a Treasure token and a map token. (It&apos;s an artifact with &quot;{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.&quot;)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/102_Mysterious Benefactor.png" num="102">CEP</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/104_Mysterious Benefactor.png" num="104">CEP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Boon of Elos</name>
+			<text>Target creature gains undying until the end of turn. (When that creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)
+Draw a card.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/86_Boon of Elos.png" num="86">CEP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Inopportune Arrest</name>
+			<text>Tap a creature you control: Tap target creature an opponent controls.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/0_Inopportune Arrest.png" num="0">CEP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Archon of Gold</name>
+			<text>{1}{B}, Sacrifice a creature: Create a treasure and draw a card.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CEP-files/img/82_The Archon of Gold.png" num="82">CEP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>

@@ -1,4 +1,13 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Boon of Elos added.
+Inopportune Arrest added.
+The Archon of Gold added.
+
+
+
+VERSION 2 CHANGELOG
 ====================
 
 

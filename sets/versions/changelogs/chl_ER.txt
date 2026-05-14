@@ -1,4 +1,97 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Hobgoblin Warboss added.
+
+
+Captain Morro
+
+Carmen, Pious Knight
+
+Kirk of Clan Daardendrian
+
+Lord Chuck Gavelston
+
+Paeter, Foolish Monk
+
+Phaedra the Seeker
+
+Taj, Glittering Thief
+
+Lydia Brooks
+
+The Black Glove
+
+Hundral the Voiceless
+
+Bron, Dastardly Thief
+
+Captain Ryo
+
+Fondael the Bloodied
+
+Leshanna, Lovestruck Bard
+
+Lodaec, Tyrant King
+
+Nicki, Swashbuckler
+
+Xurug the Avenger
+
+Zazzid, Chosen of Coelys
+
+Garmin, Beast's Companion
+
+Mazzer, Protected
+
+Misha, Werebear Leader
+
+Theo, Friendly Barkeep
+
+Adenar, Willful Protector
+
+Boomer
+
+Gyles, Forgetful Hermit
+
+Klaarrrgggg, Affable Bugbear
+
+Kraigg, Friendly Troll
+
+Bulgan, Raging Battler
+
+Donar, Tragic Hero
+
+Kriv, Champion of Heroes
+
+The Ledger
+
+Mathias, Cursed of Urobu
+
+Milde, Faithful Assistant
+
+Namfoodle Stumbleduck
+
+The Professor
+
+Blade of Olethros
+
+Samuel, Sentient Mask
+
+Soul Eater
+
+Banden Docks
+
+Hyathyr
+
+Korolduhr
+
+Manticore Tower
+
+Old Falden
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

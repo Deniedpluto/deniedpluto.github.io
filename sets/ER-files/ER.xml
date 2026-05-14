@@ -5,14 +5,14 @@
 			<name>ER</name>
 			<longname>Eastern Reach</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-03</releasedate>
+			<releasedate>2026-05-14</releasedate>
 		</set>
 	</sets>
 	<cards>
 		<card>
 			<name>Rowan, Faithful Squire ER</name>
 			<text>Sacrifice Rowan, target creature you control gets indestructible until the end of turn.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/1t_Rowan, Faithful Squire.png" num="1">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/1t_Rowan, Faithful Squire.png" num="1">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -29,7 +29,7 @@
 			<name>Wesley the Rescued</name>
 			<text>Non-creature spells your opponents cast cost {1} more.
 At the beginning of each end step you may flip Wesley the Rescued.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/0_Wesley the Rescued.png" num="0">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/0_Wesley the Rescued.png" num="0">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -47,7 +47,7 @@ At the beginning of each end step you may flip Wesley the Rescued.</text>
 			<name>Armor of Aleana</name>
 			<text>Equipped creature gets +3/+3 and has ward {1}. (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
 Equip {3}. This ability costs {1} less to activate for each other Equipment you control.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/1_Armor of Aleana.png" num="1">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/1_Armor of Aleana.png" num="1">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -64,7 +64,7 @@ Equip {3}. This ability costs {1} less to activate for each other Equipment you 
 			<name>Goblin Gang Leader</name>
 			<text>Other goblins you control get +1/+1
 Whenever you attack with two or more creatures, create a 1/1 red goblin creature token that is tapped and attacking.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/0_Goblin Gang Leader.png" num="0">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/0_Goblin Gang Leader.png" num="0">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -80,7 +80,7 @@ Whenever you attack with two or more creatures, create a 1/1 red goblin creature
 		<card>
 			<name>Cerberus ER</name>
 			<text>Whenever a creature dealt damage by Cerberus dies, put a +1/+1 counter on Cerberus</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/20t_Cerberus.png" num="20">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/2t_Cerberus.png" num="2">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -99,7 +99,7 @@ Whenever you attack with two or more creatures, create a 1/1 red goblin creature
 			<text>Skulk (This creature can&apos;t be blocked by creatures with greater power.)
 Discard a card: Create a 1/1 black rat creature tokens with menace and &quot;This creature can&apos;t block&quot;
 Other rats you control get +1/+1</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/30t_Mazzer, The Rat King.png" num="30">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/3t_Mazzer, The Rat King.png" num="3">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -115,10 +115,10 @@ Other rats you control get +1/+1</text>
 			<token>1</token>
 		</card>
 		<card>
-			<name>Captain Morro ER</name>
+			<name>Captain Morro</name>
 			<text>Flash, First strike
 When Captain Morro enters the battlefield, you may pay 1{W} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Captain Morro then tap that many target creatures. They don&apos;t untap during their controllers next untap step.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/2t_Captain Morro.png" num="2">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/2_Captain Morro.png" num="2">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -131,13 +131,12 @@ When Captain Morro enters the battlefield, you may pay 1{W} any number of times.
 				<pt>2/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Carmen, Pious Knight ER</name>
+			<name>Carmen, Pious Knight</name>
 			<text>Vigilance
 When Carmen, Pious Knight enters the battlefield gain 3 life.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/3t_Carmen, Pious Knight.png" num="3">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/3_Carmen, Pious Knight.png" num="3">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -150,13 +149,12 @@ When Carmen, Pious Knight enters the battlefield gain 3 life.</text>
 				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Kirk of Clan Daardendrian ER</name>
+			<name>Kirk of Clan Daardendrian</name>
 			<text>When Kirk of Clan Daardendrian enters the battlefield, search your library for an equipment card and put it on the battlefield.
 {1}{W}: Attach all Equipment you control to Kirk.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/4t_Kirk of Clan Daardendrian.png" num="4">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/4_Kirk of Clan Daardendrian.png" num="4">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -169,12 +167,11 @@ When Carmen, Pious Knight enters the battlefield gain 3 life.</text>
 				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Lord Chuck Gavelston ER</name>
+			<name>Lord Chuck Gavelston</name>
 			<text>When Lord Chuck Gavelston enters the battlefield create a food token.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/5t_Lord Chuck Gavelston.png" num="5">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/5_Lord Chuck Gavelston.png" num="5">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -187,13 +184,12 @@ When Carmen, Pious Knight enters the battlefield gain 3 life.</text>
 				<pt>1/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
 			<name>Manticore</name>
 			<text>Flash, Flying
 When Manticore Dies, draw a card.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/2_Manticore.png" num="2">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/6_Manticore.png" num="6">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -212,7 +208,7 @@ When Manticore Dies, draw a card.</text>
 			<text>Equipped creature gets +2/+2 and has flying and vigilance.
 Whenever equipped creature attacks, it gains your choice of lifelink, trample, or deathtouch.
 Equip {3}</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/0_Spear of Vhalimar.png" num="0">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/0_Spear of Vhalimar.png" num="0">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -225,9 +221,9 @@ Equip {3}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Paeter, Foolish Monk ER</name>
+			<name>Paeter, Foolish Monk</name>
 			<text>When Paeter, Foolish Monk dies, draw a card.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/6t_Paeter, Foolish Monk.png" num="6">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/7_Paeter, Foolish Monk.png" num="7">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -240,14 +236,13 @@ Equip {3}</text>
 				<pt>2/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Phaedra the Seeker ER</name>
+			<name>Phaedra the Seeker</name>
 			<text>Vigilance
 When Phaedra enters the battlefield, create Rowan, a 2/1 soldier token with &quot;Sacrifice Rowan, target creature you control gets indestructible until the end of turn.&quot;
 When Phaedra attacks with at least two other creatures, creatures you control get first strike.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/7t_Phaedra the Seeker.png" num="7">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/8_Phaedra the Seeker.png" num="8">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -260,13 +255,12 @@ When Phaedra attacks with at least two other creatures, creatures you control ge
 				<pt>3/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Taj, Glittering Thief ER</name>
+			<name>Taj, Glittering Thief</name>
 			<text>Haste
 When Taj, Glitter Thief enters the battlefield gain control of target artifact until Taj, Glittering Thief leaves the battlefield.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/8t_Taj, Glittering Thief.png" num="8">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/9_Taj, Glittering Thief.png" num="9">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -279,12 +273,11 @@ When Taj, Glitter Thief enters the battlefield gain control of target artifact u
 				<pt>4/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Lydia Brooks ER</name>
+			<name>Lydia Brooks</name>
 			<text>When Lydia Brooks enters the battlefield, you may pay 1{U} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Lydia Brooks then return that many target instant or sorcery cards from your graveyard to your hand.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/9t_Lydia Brooks.png" num="9">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/10_Lydia Brooks.png" num="10">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -297,13 +290,12 @@ When Taj, Glitter Thief enters the battlefield gain control of target artifact u
 				<pt>1/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>The Black Glove ER</name>
+			<name>The Black Glove</name>
 			<text>The Black Glove does not untap during your untap step.
 {1}{B}, {T}: Target creature gets -1/-1 for as long as The Black Glove remains tapped. When targeted creature dies, untap The Black Glove and draw a card.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/10t_The Black Glove.png" num="10">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/11_The Black Glove.png" num="11">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -315,12 +307,11 @@ When Taj, Glitter Thief enters the battlefield gain control of target artifact u
 				<coloridentity>B</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Hundral the Voiceless ER</name>
+			<name>Hundral the Voiceless</name>
 			<text>When Hundral the Voiceless enters the battlefield, you may pay 2{B} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Hundral the Voiceless then create twice that many 2/2 black dwarf creature tokens.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/12t_Hundral the Voiceless.png" num="12">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/13_Hundral the Voiceless.png" num="13">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -333,13 +324,12 @@ When Taj, Glitter Thief enters the battlefield gain control of target artifact u
 				<pt>2/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Bron, Dastardly Thief ER</name>
+			<name>Bron, Dastardly Thief</name>
 			<text>Menace
 When Bron, Dastardly Thief enters the battlefield return it to your hand unless mana from a Treasure was spent to cast it.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/11t_Bron, Dastardly Thief.png" num="11">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/12_Bron, Dastardly Thief.png" num="12">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -352,12 +342,11 @@ When Bron, Dastardly Thief enters the battlefield return it to your hand unless 
 				<pt>4/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
 			<name>Nighttime Ambush</name>
 			<text>Destroy target creature with power 3 or less.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/3_Nighttime Ambush.png" num="3">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/14_Nighttime Ambush.png" num="14">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -373,7 +362,7 @@ When Bron, Dastardly Thief enters the battlefield return it to your hand unless 
 		<card>
 			<name>Temple of Judgement</name>
 			<text></text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/4_Temple of Judgement.png" num="4">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/15_Temple of Judgement.png" num="15">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -387,10 +376,10 @@ When Bron, Dastardly Thief enters the battlefield return it to your hand unless 
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Captain Ryo ER</name>
+			<name>Captain Ryo</name>
 			<text>When Captain Ryo enters the battlefield, create a treasure token.
 Sacrifice a treasure: Goad target creature. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/13t_Captain Ryo.png" num="13">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/16_Captain Ryo.png" num="16">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -403,13 +392,12 @@ Sacrifice a treasure: Goad target creature. (Until your next turn, that creature
 				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
 			<name>Crown of Giants</name>
 			<text>Enchant creature
 Enchanted creature has +3/+3 and trample and is a giant in addition to its other creature types.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/5_Crown of Giants.png" num="5">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/17_Crown of Giants.png" num="17">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -425,7 +413,7 @@ Enchanted creature has +3/+3 and trample and is a giant in addition to its other
 		<card>
 			<name>Eye of Coelys</name>
 			<text>​</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/6_Eye of Coelys.png" num="6">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/18_Eye of Coelys.png" num="18">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -440,10 +428,10 @@ Enchanted creature has +3/+3 and trample and is a giant in addition to its other
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Fondael the Bloodied ER</name>
+			<name>Fondael the Bloodied</name>
 			<text>Haste
 When Fondael dies, exile the top two cards of your library. You may play one of them until the end of your next turn.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/14t_Fondael the Bloodied.png" num="14">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/19_Fondael the Bloodied.png" num="19">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -456,12 +444,11 @@ When Fondael dies, exile the top two cards of your library. You may play one of 
 				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
 			<name>Goblin Raid</name>
 			<text>​</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/7_Goblin Raid.png" num="7">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/20_Goblin Raid.png" num="20">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -478,7 +465,7 @@ When Fondael dies, exile the top two cards of your library. You may play one of 
 			<name>Goblin Raid Runner</name>
 			<text>Haste
 Whenever Goblin Raid Runner becomes blocked, it deals 1 damage to target creature blocking it.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/8_Goblin Raid Runner.png" num="8">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/21_Goblin Raid Runner.png" num="21">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -499,7 +486,7 @@ When Guantlets of the Storm enters the battlefield, attach it to target creature
 Equipped creature gets +2/+0 and has first strike.
 Equip {2}
 {2}{R}, Sacrifice Guantlets of the Storm: Deal 3 damage to any target.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/10_Guantlets of the Storm.png" num="10">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/23_Guantlets of the Storm.png" num="23">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -515,7 +502,7 @@ Equip {2}
 		<card>
 			<name>Goblin War-Rider</name>
 			<text>Haste, Menace</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/9_Goblin War-Rider.png" num="9">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/22_Goblin War-Rider.png" num="22">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -530,10 +517,10 @@ Equip {2}
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Leshanna, Lovestruck Bard ER</name>
+			<name>Leshanna, Lovestruck Bard</name>
 			<text>Non-creature spells you cast cost {1} less.
 At the beginning of each end step you may flip Leshanna bard</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/15t_Leshanna, Lovestruck Bard.png" num="15">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/25_Leshanna, Lovestruck Bard.png" num="25">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -546,13 +533,12 @@ At the beginning of each end step you may flip Leshanna bard</text>
 				<pt>2/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Lodaec, Tyrant King ER</name>
+			<name>Lodaec, Tyrant King</name>
 			<text>Other Dwarves you control get +1/+1
 If a dwarf you control would deal excess damage to a creature or planeswalker, Lodaec deals damage equal to the excess to any target other than that permanent.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/16t_Lodaec, Tyrant King.png" num="16">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/26_Lodaec, Tyrant King.png" num="26">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -565,12 +551,11 @@ If a dwarf you control would deal excess damage to a creature or planeswalker, L
 				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
 			<name>Mining Contract</name>
 			<text>Whenever a dwarf you control becomes tapped, create a treasure token.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/11_Mining Contract.png" num="11">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/27_Mining Contract.png" num="27">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -586,7 +571,7 @@ If a dwarf you control would deal excess damage to a creature or planeswalker, L
 		<card>
 			<name>Mining Dwarf</name>
 			<text>When Mining Dwarf enters the battlefield, create a treasure token.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/12_Mining Dwarf.png" num="12">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/28_Mining Dwarf.png" num="28">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -601,11 +586,11 @@ If a dwarf you control would deal excess damage to a creature or planeswalker, L
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Nicki, Swashbuckler ER</name>
+			<name>Nicki, Swashbuckler</name>
 			<text>Haste
 If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
 Whenever you roll one or more dice, put a +1/+1 counter on Nicki.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/17t_Nicki, Swashbuckler.png" num="17">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/29_Nicki, Swashbuckler.png" num="29">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -618,14 +603,13 @@ Whenever you roll one or more dice, put a +1/+1 counter on Nicki.</text>
 				<pt>1/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
 			<name>Nicki&apos;s Blade</name>
 			<text>Whenever equipped creature attacks, put a +1/+1 counter on it.
 Whenever equipped creature deals combat damage, roll a d12. If the result is greater than the damage dealt or the result is 12, double the number of +1/+1 counters on that creature.
 Equip {2}</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/13_Nicki&apos;s Blade.png" num="13">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/30_Nicki&apos;s Blade.png" num="30">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -639,10 +623,10 @@ Equip {2}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Xurug the Avenger ER</name>
+			<name>Xurug the Avenger</name>
 			<text>Whenever Xurug attacks with at least two other creatures, attacking creatures get trample until end of turn.
 Other Barbarians and Fighters you control get +1/+1</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/18t_Xurug the Avenger.png" num="18">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/31_Xurug the Avenger.png" num="31">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -655,15 +639,14 @@ Other Barbarians and Fighters you control get +1/+1</text>
 				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Zazzid, Chosen of Coelys ER</name>
+			<name>Zazzid, Chosen of Coelys</name>
 			<text>When Zazzid attacks roll a d20.
 [b]1-9[/b]| Zazzid deals 3 damage to a random creature.
 [b]10-19|[/b] Zazzid deals 3 damage to a random creature an opponent controls.
 [b]20[/b]| Zazzid deals 3 damage to a each creature your opponents control.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/19t_Zazzid, Chosen of Coelys.png" num="19">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/32_Zazzid, Chosen of Coelys.png" num="32">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -676,13 +659,12 @@ Other Barbarians and Fighters you control get +1/+1</text>
 				<pt>5/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
 			<name>Chittering Spider</name>
 			<text>Deathtouch, Reach
 {3}{G}: Return Chittering Spider from your graveyard to the battlefield tapped.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/14_Chittering Spider.png" num="14">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/33_Chittering Spider.png" num="33">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -697,10 +679,10 @@ Other Barbarians and Fighters you control get +1/+1</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Garmin, Beast&apos;s Companion ER</name>
+			<name>Garmin, Beast&apos;s Companion</name>
 			<text>When Garmin enters the battlefield create Cerberus, a 2/2 legendary green Wolf creature token with &quot;Whenever a creature dealt damage by Cerberus dies, put a +1/+1 counter on Cerberus&quot;.
 {G}, {T}: Cerberus fights target creature you don&apos;t control.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/21t_Garmin, Beast&apos;s Companion.png" num="21">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/34_Garmin, Beast&apos;s Companion.png" num="34">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -713,13 +695,12 @@ Other Barbarians and Fighters you control get +1/+1</text>
 				<pt>1/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Mazzer, Protected ER</name>
+			<name>Mazzer, Protected</name>
 			<text>Skulk (This creature can&apos;t be blocked by creatures with greater power.)
 When Mazzer enters the battlefield, destroy target artifact or enchantment.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/22t_Mazzer, Protected.png" num="22">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/35_Mazzer, Protected.png" num="35">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -732,14 +713,13 @@ When Mazzer enters the battlefield, destroy target artifact or enchantment.</tex
 				<pt>2/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Misha, Werebear Leader ER</name>
+			<name>Misha, Werebear Leader</name>
 			<text>When Misha enters the battlefield create a 2/2 green Werebear creature token.
 Other Bears and Werebears you control get +1/+1
 {1}{G}, Exile target creature card from your graveyard: Create a 2/2 green Werebear creature token.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/23t_Misha, Werebear Leader.png" num="23">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/36_Misha, Werebear Leader.png" num="36">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -752,12 +732,11 @@ Other Bears and Werebears you control get +1/+1
 				<pt>4/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Theo, Friendly Barkeep ER</name>
+			<name>Theo, Friendly Barkeep</name>
 			<text>Whenever another legendary permanent enters the battlefield under your control, you gain 1 life and draw a card. This ability triggers only once each turn.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/24t_Theo, Friendly Barkeep.png" num="24">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/37_Theo, Friendly Barkeep.png" num="37">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -770,14 +749,13 @@ Other Bears and Werebears you control get +1/+1
 				<pt>1/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
 			<name>Werebear Amulet</name>
 			<text>When Werebear Amulet enters the battlefield destroy target enchantment.
 Equipped creature has hexproof.
 Equip {1}</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/15_Werebear Amulet.png" num="15">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/38_Werebear Amulet.png" num="38">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -793,7 +771,7 @@ Equip {1}</text>
 		<card>
 			<name>Werebear Warrior</name>
 			<text>When Werebear Warrior enters the battlefield, target creature you control and target creature an opponent controls fight. (Each deals damage equal to its power to the other.)</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/16_Werebear Warrior.png" num="16">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/39_Werebear Warrior.png" num="39">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -808,11 +786,11 @@ Equip {1}</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Adenar, Willful Protector ER</name>
+			<name>Adenar, Willful Protector</name>
 			<text>Flash
 Flying
 When Adenar enters the battlefield, exile target creature and return it to the battlefield under its owner&apos;s control.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/25t_Adenar, Willful Protector.png" num="25">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/40_Adenar, Willful Protector.png" num="40">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -825,12 +803,11 @@ When Adenar enters the battlefield, exile target creature and return it to the b
 				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
 			<name>Beatrix, Wily Herbalist</name>
 			<text>​</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/17_Beatrix, Wily Herbalist.png" num="17">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/41_Beatrix, Wily Herbalist.png" num="41">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -845,9 +822,9 @@ When Adenar enters the battlefield, exile target creature and return it to the b
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Boomer ER</name>
+			<name>Boomer</name>
 			<text>Each time an instant or sorcery resolves, you may exile that card. You may copy that card for as long as it remains in exile and cast it using mana as though it were mana of any color. If you cast the exiled spell or exile another spell this way return the previously exiled card to its owner&apos;s graveyard.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/26t_Boomer.png" num="26">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/42_Boomer.png" num="42">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -860,12 +837,11 @@ When Adenar enters the battlefield, exile target creature and return it to the b
 				<pt>2/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Gyles, Forgetful Hermit ER</name>
+			<name>Gyles, Forgetful Hermit</name>
 			<text>When Gyles, Forgetful Hermit enters the battlefield, mill three cards then return a land from your graveyard to your hand.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/27t_Gyles, Forgetful Hermit.png" num="27">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/43_Gyles, Forgetful Hermit.png" num="43">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -878,14 +854,13 @@ When Adenar enters the battlefield, exile target creature and return it to the b
 				<pt>1/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Klaarrrgggg, Affable Bugbear ER</name>
+			<name>Klaarrrgggg, Affable Bugbear</name>
 			<text>Nemesis (You may only control one creature or Planeswalker with Nemesis.)
 At the beginning of each upkeep create a 1/1 red goblin creature token with haste. 
 Goblins you control get +1/+0 and must attack each combat if able.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/28t_Klaarrrgggg, Affable Bugbear.png" num="28">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/44_Klaarrrgggg, Affable Bugbear.png" num="44">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -898,13 +873,12 @@ Goblins you control get +1/+0 and must attack each combat if able.</text>
 				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Kraigg, Friendly Troll ER</name>
+			<name>Kraigg, Friendly Troll</name>
 			<text>Defender
 Kraigg, Friendly Troll assigns combat damage equal to its toughness rather than its power.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/29t_Kraigg, Friendly Troll.png" num="29">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/45_Kraigg, Friendly Troll.png" num="45">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -917,12 +891,11 @@ Kraigg, Friendly Troll assigns combat damage equal to its toughness rather than 
 				<pt>1/5</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
 			<name>Master Jarreau</name>
 			<text>​</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/18_Master Jarreau.png" num="18">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/46_Master Jarreau.png" num="46">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -945,7 +918,7 @@ At the beginning of your upkeep, sacrifice a creature.
 
 Target creature get -2/-2 until end of turn. If that creature would die this turn, exile it instead. 
 (Then exile this card. You may cast the creature later from exile).</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/19_Vhalimar, Forsaken Angel.png" num="19">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/47_Vhalimar, Forsaken Angel.png" num="47">ER</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -960,10 +933,10 @@ Target creature get -2/-2 until end of turn. If that creature would die this tur
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Bulgan, Raging Battler ER</name>
+			<name>Bulgan, Raging Battler</name>
 			<text>Menace, Trample
 Blitz {R}{G} (If you cast this spell for its blitz cost, it gains haste and &quot;When this creature dies, draw a card&quot;. Sacrifice it at the beginning of the next end step.)</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/31t_Bulgan, Raging Battler.png" num="31">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/48_Bulgan, Raging Battler.png" num="48">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -976,12 +949,11 @@ Blitz {R}{G} (If you cast this spell for its blitz cost, it gains haste and &quo
 				<pt>4/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Donar, Tragic Hero ER</name>
+			<name>Donar, Tragic Hero</name>
 			<text>When Donar, Tragic Hero is put into the graveyard from anywhere return a creature with mana value 2 or less from the graveyard to your hand.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/32t_Donar, Tragic Hero.png" num="32">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/49_Donar, Tragic Hero.png" num="49">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -994,14 +966,13 @@ Blitz {R}{G} (If you cast this spell for its blitz cost, it gains haste and &quo
 				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Kriv, Champion of Heroes ER</name>
+			<name>Kriv, Champion of Heroes</name>
 			<text>Vigilance
 Boast — {1}{R}: Kriv, Champion of Heroes deals 3 damage to target creature. (Activate this ability only if this creature attacked this turn and only once each turn.)
 Other creatures you control get +1/+1</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/33t_Kriv, Champion of Heroes.png" num="33">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/50_Kriv, Champion of Heroes.png" num="50">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1014,13 +985,12 @@ Other creatures you control get +1/+1</text>
 				<pt>5/5</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>The Ledger ER</name>
+			<name>The Ledger</name>
 			<text>Nemesis — At the beginning of your upkeep if you control no rogue creatures tokens, create a 1/1 black rogue creature token with unblockable. (You may only control one creature or Planeswalker with Nemesis.)
 Sacrifice a creature: Create a treasure.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/34t_The Ledger.png" num="34">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/51_The Ledger.png" num="51">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1033,13 +1003,12 @@ Sacrifice a creature: Create a treasure.</text>
 				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Mathias, Cursed of Urobu ER</name>
+			<name>Mathias, Cursed of Urobu</name>
 			<text>Flash
 When Mathias, Cursed of Urobu enters the battlefield, target creature gets -2/-2 until end of turn.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/35t_Mathias, Cursed of Urobu.png" num="35">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/52_Mathias, Cursed of Urobu.png" num="52">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1052,12 +1021,11 @@ When Mathias, Cursed of Urobu enters the battlefield, target creature gets -2/-2
 				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Milde, Faithful Assistant ER</name>
+			<name>Milde, Faithful Assistant</name>
 			<text>At the beginning of each end step, gain 1 life if a creature died this turn.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/36t_Milde, Faithful Assistant.png" num="36">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/53_Milde, Faithful Assistant.png" num="53">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1070,15 +1038,14 @@ When Mathias, Cursed of Urobu enters the battlefield, target creature gets -2/-2
 				<pt>1/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Namfoodle Stumbleduck ER</name>
+			<name>Namfoodle Stumbleduck</name>
 			<text>When Namfoodle Stumbleduck enters the battlefield, roll a d20:
 [b]1-5[/b]|Return target creature to its owner&apos;s hand.
 [b]6-15[/b]|Scry 2 then draw a card.
 [b]16+[/b]|Deal 3 damage to target creature or player.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/37t_Namfoodle Stumbleduck.png" num="37">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/54_Namfoodle Stumbleduck.png" num="54">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1091,13 +1058,12 @@ When Mathias, Cursed of Urobu enters the battlefield, target creature gets -2/-2
 				<pt>1/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>The Professor ER</name>
+			<name>The Professor</name>
 			<text>Nemesis (You may only control one creature or Planeswalker with Nemesis.)
 At the beginning of your upkeep create a 1/1 Homunculus creature token with mutate. Creatures in your hand have mutate.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/38t_The Professor.png" num="38">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/55_The Professor.png" num="55">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1110,10 +1076,9 @@ At the beginning of your upkeep create a 1/1 Homunculus creature token with muta
 				<pt>2/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Blade of Olethros ER</name>
+			<name>Blade of Olethros</name>
 			<text>Equipped creatures has deathtouch.
 When equipped creature attacks, roll a d10.
 Equip {2}
@@ -1122,7 +1087,7 @@ Equip {2}
 [b]5-6[/b]|Destroy target artifact or enchantment.
 [b]7-8[/b]|Deal 2 damage to target creature or player
 [b]9-10[/b]| Target creature gets -2/-2 until the end of turn.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/39t_Blade of Olethros.png" num="39">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/56_Blade of Olethros.png" num="56">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1132,12 +1097,11 @@ Equip {2}
 				<cmc>5</cmc>
 			</prop>
 			<tablerow>1</tablerow>
-			<token>1</token>
 		</card>
 		<card>
 			<name>Monument of Heroes</name>
 			<text>​</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/20_Monument of Heroes.png" num="20">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/57_Monument of Heroes.png" num="57">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1149,11 +1113,11 @@ Equip {2}
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Samuel, Sentient Mask ER</name>
+			<name>Samuel, Sentient Mask</name>
 			<text>Defender
 When Samuel enter the battlefield, draw a card.
 {3}{T}: Draw a card</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/40t_Samuel, Sentient Mask.png" num="40">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/58_Samuel, Sentient Mask.png" num="58">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1164,14 +1128,13 @@ When Samuel enter the battlefield, draw a card.
 				<pt>1/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Soul Eater ER</name>
+			<name>Soul Eater</name>
 			<text>When equipped creature deals combat damage to a player, you may sacrifice it. If you do, exile target legendary permanent that player controls.
 Equip legendary creature {3}
 Equip {7}</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/41t_Soul Eater.png" num="41">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/59_Soul Eater.png" num="59">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1181,13 +1144,12 @@ Equip {7}</text>
 				<cmc>2</cmc>
 			</prop>
 			<tablerow>1</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Banden Docks ER</name>
+			<name>Banden Docks</name>
 			<text>{T}: Add {U}
 Crew 1 (Tap any number of creatures you control with total power 1 or greater: This Island becomes an artifact creature until end of turn.)</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/42t_Banden Docks.png" num="42">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/60_Banden Docks.png" num="60">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1199,13 +1161,12 @@ Crew 1 (Tap any number of creatures you control with total power 1 or greater: T
 				<pt>3/3</pt>
 			</prop>
 			<tablerow>0</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Hyathyr ER</name>
+			<name>Hyathyr</name>
 			<text>{T}: Add {G}
 {2}{G}{G}: Create a 2/2 green bear creature token.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/43t_Hyathyr.png" num="43">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/61_Hyathyr.png" num="61">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1216,13 +1177,12 @@ Crew 1 (Tap any number of creatures you control with total power 1 or greater: T
 				<coloridentity>G</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Korolduhr ER</name>
+			<name>Korolduhr</name>
 			<text>{T}: Add {R}
 {1}{R}, {T}, Exile a creature card from your graveyard: Create a treasure.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/44t_Korolduhr.png" num="44">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/62_Korolduhr.png" num="62">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1233,13 +1193,12 @@ Crew 1 (Tap any number of creatures you control with total power 1 or greater: T
 				<coloridentity>R</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Manticore Tower ER</name>
+			<name>Manticore Tower</name>
 			<text>{T}: Add {W}
 {4}{W}: Create a 3/1 Flying Manticore creature token.</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/45t_Manticore Tower.png" num="45">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/63_Manticore Tower.png" num="63">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1250,13 +1209,12 @@ Crew 1 (Tap any number of creatures you control with total power 1 or greater: T
 				<coloridentity>W</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
-			<token>1</token>
 		</card>
 		<card>
-			<name>Old Falden ER</name>
+			<name>Old Falden</name>
 			<text>When Old Falden enters the battlefield, mill four then return a card from your graveyard to your hand that was put there this turn.
 {T}: Add {B}</text>
-			<set rarity="rare" picurl="https://deniedpluto.github.io/sets/ER-files/img/46t_Old Falden.png" num="46">ER</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/64_Old Falden.png" num="64">ER</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1267,7 +1225,26 @@ Crew 1 (Tap any number of creatures you control with total power 1 or greater: T
 				<coloridentity>B</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
-			<token>1</token>
+		</card>
+		<card>
+			<name>Hobgoblin Warboss</name>
+			<text>When Hobgoblin Warboss enters the battlefield roll a d20:
+[b]1-9[/b]| Create a 1/1 red goblin creature token.
+[b]10-19[/b]|Create two 1/1 red goblin creature tokens.
+[b]20[/b]| Create three 1/1 red goblin creature tokens.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/ER-files/img/24_Hobgoblin Warboss.png" num="24">ER</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

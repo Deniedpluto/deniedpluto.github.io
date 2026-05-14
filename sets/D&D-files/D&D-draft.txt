@@ -7,7 +7,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "323",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/323_Monument of Heroes.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/323_Monument of Heroes.png"
 			}
 		},
 		{
@@ -17,7 +17,7 @@
 			"type": "Legendary Creature — Dragon Paladin",
 			"collector_number": "299",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/299_Kriv, Champion of Heroes.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/299_Kriv, Champion of Heroes.png"
 			}
 		},
 		{
@@ -27,7 +27,7 @@
 			"type": "Legendary Creature — Elf Ranger",
 			"collector_number": "302",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/302_Mathias, Cursed of Urobu.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/302_Mathias, Cursed of Urobu.png"
 			}
 		},
 		{
@@ -37,7 +37,7 @@
 			"type": "Legendary Creature — Human Wizard",
 			"collector_number": "305",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/305_The Professor.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/305_The Professor.png"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 			"type": "Legendary Planeswalker — Vas Asareen",
 			"collector_number": "281",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/281_Vas Asareen.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/281_Vas Asareen.png"
 			}
 		},
 		{
@@ -57,7 +57,7 @@
 			"type": "Legendary Creature — Human Cleric",
 			"collector_number": "295",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/295_Donar, Tragic Hero.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/295_Donar, Tragic Hero.png"
 			}
 		},
 		{
@@ -67,7 +67,7 @@
 			"type": "Legendary Creature — Human Monk",
 			"collector_number": "33",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/33_Paeter, Foolish Monk.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/33_Paeter, Foolish Monk.png"
 			}
 		},
 		{
@@ -77,7 +77,7 @@
 			"type": "Legendary Creature — Human Elf Rogue",
 			"collector_number": "266",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/266_Iskael, Lord of Shadows.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/266_Iskael, Lord of Shadows.png"
 			}
 		},
 		{
@@ -87,7 +87,7 @@
 			"type": "Legendary Creature — Human Rogue",
 			"collector_number": "109",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/109_Bron, Dastardly Thief.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/109_Bron, Dastardly Thief.png"
 			}
 		},
 		{
@@ -97,7 +97,7 @@
 			"type": "Legendary Creature — Tabaxi Rogue",
 			"collector_number": "42",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/42_Taj, Glittering Thief.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/42_Taj, Glittering Thief.png"
 			}
 		},
 		{
@@ -107,15 +107,7 @@
 			"type": "Legendary Creature — Elf Bard",
 			"collector_number": "178",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/178_Leshanna, Lovestruck Bard.png"
-            		},
-			"back": {
-				"name": "Wesley the Rescued",
-				"mana_cost": "{1}{W}",
-				"type": "Legendary Creature — Human Fighter",
-				"image_uris": {
-					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Wesley the Rescued.png"
-				}
+				"en": "https://mtg-hub/sets/D&D-files/img/178_Leshanna, Lovestruck Bard.png"
 			}
 		},
 		{
@@ -125,7 +117,7 @@
 			"type": "Legendary Creature — Bird Wizard",
 			"collector_number": "256",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/256_Boomer.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/256_Boomer.png"
 			}
 		},
 		{
@@ -135,7 +127,7 @@
 			"type": "Legendary Creature — Goblin Barbarian",
 			"collector_number": "271",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/271_Klaarrrgggg, Affable Bugbear.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/271_Klaarrrgggg, Affable Bugbear.png"
 			}
 		},
 		{
@@ -145,7 +137,7 @@
 			"type": "Legendary Creature — Orc Barbarian",
 			"collector_number": "200",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/200_Zazzid, Chosen of Coelys.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/200_Zazzid, Chosen of Coelys.png"
 			}
 		},
 		{
@@ -155,7 +147,7 @@
 			"type": "Legendary Creature — Human Noble",
 			"collector_number": "262",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/262_Gyles, Forgetful Hermit.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/262_Gyles, Forgetful Hermit.png"
 			}
 		},
 		{
@@ -165,7 +157,7 @@
 			"type": "Legendary Creature — Human Citizen",
 			"collector_number": "303",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/303_Milde, Faithful Assistant.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/303_Milde, Faithful Assistant.png"
 			}
 		},
 		{
@@ -175,7 +167,7 @@
 			"type": "Legendary Creature — Human Rogue",
 			"collector_number": "301",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/301_The Ledger.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/301_The Ledger.png"
 			}
 		},
 		{
@@ -185,7 +177,7 @@
 			"type": "Legendary Creature — Dwarf Fighter",
 			"collector_number": "164",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/164_Fondael the Bloodied.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/164_Fondael the Bloodied.png"
 			}
 		},
 		{
@@ -195,7 +187,7 @@
 			"type": "Legendary Creature — Giant Paladin",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/11_Carmen, Pious Knight.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/11_Carmen, Pious Knight.png"
 			}
 		},
 		{
@@ -205,7 +197,7 @@
 			"type": "Legendary Creature — Aasimar Wizard",
 			"collector_number": "251",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/251_Adenar, Willful Protector.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/251_Adenar, Willful Protector.png"
 			}
 		},
 		{
@@ -215,7 +207,7 @@
 			"type": "Legendary Creature — Orc Barbarian",
 			"collector_number": "289",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/289_Bulgan, Raging Battler.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/289_Bulgan, Raging Battler.png"
 			}
 		},
 		{
@@ -225,7 +217,7 @@
 			"type": "Legendary Creature — Human Noble",
 			"collector_number": "27",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/27_Lord Chuck Gavelston.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/27_Lord Chuck Gavelston.png"
 			}
 		},
 		{
@@ -235,7 +227,7 @@
 			"type": "Legendary Creature — Human Orc Barbarian",
 			"collector_number": "199",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/199_Xurug the Avenger.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/199_Xurug the Avenger.png"
 			}
 		},
 		{
@@ -245,7 +237,7 @@
 			"type": "Legendary Creature — Human Citizen",
 			"collector_number": "242",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/242_Theo, Friendly Barkeep.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/242_Theo, Friendly Barkeep.png"
 			}
 		},
 		{
@@ -255,7 +247,7 @@
 			"type": "Legendary Creature — Aasimar Warlock",
 			"collector_number": "282",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/282_Vhalimar, Forsaken Angel.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/282_Vhalimar, Forsaken Angel.png"
 			}
 		},
 		{
@@ -265,14 +257,7 @@
 			"type": "Enchantment — Quest",
 			"collector_number": "147",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/147_Temple of Judgement.png"
-			},
-			"back": {
-				"name": "Spear of Vhalimar",
-				"type": "Legendary Artifact — Equipment",
-				"image_uris": {
-					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Spear of Vhalimar.png"
-				}
+				"en": "https://mtg-hub/sets/D&D-files/img/147_Temple of Judgement.png"
 			}
 		},
 		{
@@ -282,15 +267,7 @@
 			"type": "Legendary Creature — Elf Monk",
 			"collector_number": "235",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/235_Mazzer, Protected.png"
-			},
-			"back": {
-				"name": "Mazzer, The Rat King",
-				"mana_cost": "{2}{U}{B}",
-				"type": "Legendary Creature — Elf Rat Monk",
-				"image_uris": {
-					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Mazzer, The Rat King.png"
-				}
+				"en": "https://mtg-hub/sets/D&D-files/img/235_Mazzer, Protected.png"
 			}
 		},
 		{
@@ -300,7 +277,7 @@
 			"type": "Legendary Creature — Werebear",
 			"collector_number": "236",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/236_Misha, Werebear Leader.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/236_Misha, Werebear Leader.png"
 			}
 		},
 		{
@@ -310,7 +287,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "245",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/245_Werebear Amulet.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/245_Werebear Amulet.png"
 			}
 		},
 		{
@@ -320,7 +297,7 @@
 			"type": "Legendary Creature — Dragon Paladin",
 			"collector_number": "23",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/23_Kirk of Clan Daardendrian.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/23_Kirk of Clan Daardendrian.png"
 			}
 		},
 		{
@@ -330,7 +307,7 @@
 			"type": "Legendary Creature — Gnome Wizard",
 			"collector_number": "304",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/304_Namfoodle Stumbleduck.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/304_Namfoodle Stumbleduck.png"
 			}
 		},
 		{
@@ -340,7 +317,17 @@
 			"type": "Legendary Creature — Halfling Ranger",
 			"collector_number": "227",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/227_Garmin, Beast's Companion.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/227_Garmin, Beast's Companion.png"
+			}
+		},
+		{
+			"name": "Cerberus",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Token Creature — Wolf",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Cerberus.png"
 			}
 		},
 		{
@@ -350,7 +337,7 @@
 			"type": "Legendary Creature — Tiefling Paladin",
 			"collector_number": "34",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/34_Phaedra the Seeker.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/34_Phaedra the Seeker.png"
 			}
 		},
 		{
@@ -360,7 +347,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "312",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/312_Blade of Olethros.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/312_Blade of Olethros.png"
 			}
 		},
 		{
@@ -370,7 +357,17 @@
 			"type": "Legendary Planeswalker — Jarreau",
 			"collector_number": "275",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/275_Master Jarreau.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/275_Master Jarreau.png"
+			}
+		},
+		{
+			"name": "Rowan, Faithful Squire",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Token Creature — Human Soldier",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Rowan, Faithful Squire.png"
 			}
 		},
 		{
@@ -380,7 +377,7 @@
 			"type": "Legendary Planeswalker — Beatrix",
 			"collector_number": "255",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/255_Beatrix, Wily Herbalist.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/255_Beatrix, Wily Herbalist.png"
 			}
 		},
 		{
@@ -390,7 +387,7 @@
 			"type": "Legendary Creature — Human Pirate",
 			"collector_number": "188",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/188_Nicki, Swashbuckler.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/188_Nicki, Swashbuckler.png"
 			}
 		},
 		{
@@ -400,7 +397,7 @@
 			"type": "Legendary Creature — Halfling Wizard",
 			"collector_number": "280",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/280_Tammer, Reclusive Scholar.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/280_Tammer, Reclusive Scholar.png"
 			}
 		},
 		{
@@ -410,7 +407,7 @@
 			"type": "Legendary Artifact Creature — Contruct",
 			"collector_number": "324",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/324_Samuel, Sentient Mask.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/324_Samuel, Sentient Mask.png"
 			}
 		},
 		{
@@ -420,7 +417,7 @@
 			"type": "Legendary Creature — Dwarf Lord",
 			"collector_number": "179",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/179_Lodaec, Tyrant King.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/179_Lodaec, Tyrant King.png"
 			}
 		},
 		{
@@ -430,7 +427,7 @@
 			"type": "Legendary Creature — Troll",
 			"collector_number": "272",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/272_Kraigg, Friendly Troll.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/272_Kraigg, Friendly Troll.png"
 			}
 		},
 		{
@@ -440,7 +437,7 @@
 			"type": "Legendary Creature — Gnome Artificer",
 			"collector_number": "194",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/194_Scyruss, Forge Master.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/194_Scyruss, Forge Master.png"
 			}
 		},
 		{
@@ -450,7 +447,7 @@
 			"type": "Legendary Artifact — Elemental Orb",
 			"collector_number": "319",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/319_Elemental Orb of Water.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/319_Elemental Orb of Water.png"
 			}
 		},
 		{
@@ -460,7 +457,7 @@
 			"type": "Legendary Artifact — Elemental Orb",
 			"collector_number": "318",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/318_Elemental Orb of Fire.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/318_Elemental Orb of Fire.png"
 			}
 		},
 		{
@@ -470,7 +467,7 @@
 			"type": "Legendary Artifact — Elemental Orb",
 			"collector_number": "317",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/317_Elemental Orb of Earth.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/317_Elemental Orb of Earth.png"
 			}
 		},
 		{
@@ -480,7 +477,7 @@
 			"type": "Legendary Artifact — Elemental Orb",
 			"collector_number": "315",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/315_Elemental Orb of Air.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/315_Elemental Orb of Air.png"
 			}
 		},
 		{
@@ -490,7 +487,7 @@
 			"type": "Legendary Artifact — Elemental Orb",
 			"collector_number": "316",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/316_Elemental Orb of Darkness.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/316_Elemental Orb of Darkness.png"
 			}
 		},
 		{
@@ -500,7 +497,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "320",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/320_Helm of Kyrios.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/320_Helm of Kyrios.png"
 			}
 		},
 		{
@@ -510,7 +507,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "314",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/314_Breastplate of Kyrios.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/314_Breastplate of Kyrios.png"
 			}
 		},
 		{
@@ -520,7 +517,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "313",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/313_Boots of Kyrios.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/313_Boots of Kyrios.png"
 			}
 		},
 		{
@@ -530,7 +527,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "327",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/327_Sword of Kyrios.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/327_Sword of Kyrios.png"
 			}
 		},
 		{
@@ -540,7 +537,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "102",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/102_The Black Glove.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/102_The Black Glove.png"
 			}
 		},
 		{
@@ -550,7 +547,7 @@
 			"type": "Creature — Goblin Rogue",
 			"collector_number": "114",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/114_Darkling Scout.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/114_Darkling Scout.png"
 			}
 		},
 		{
@@ -560,7 +557,7 @@
 			"type": "Creature — Goblin Rogue",
 			"collector_number": "113",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/113_Darkling Elder.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/113_Darkling Elder.png"
 			}
 		},
 		{
@@ -570,7 +567,7 @@
 			"type": "Legendary Creature — Elf Pirate",
 			"collector_number": "153",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/153_Captain Ryo.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/153_Captain Ryo.png"
 			}
 		},
 		{
@@ -580,7 +577,7 @@
 			"type": "Legendary Creature — Elf Pirate",
 			"collector_number": "54",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/54_Captain Laos.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/54_Captain Laos.png"
 			}
 		},
 		{
@@ -590,7 +587,7 @@
 			"type": "Legendary Creature — Dwarf Pirate",
 			"collector_number": "64",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/64_First Mate Addus.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/64_First Mate Addus.png"
 			}
 		},
 		{
@@ -600,7 +597,7 @@
 			"type": "Creature — Merfolk Horror",
 			"collector_number": "89",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/89_Sea Spawn.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/89_Sea Spawn.png"
 			}
 		},
 		{
@@ -610,7 +607,7 @@
 			"type": "Legendary Creature — Dwarf Cleric",
 			"collector_number": "269",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/269_Kildrak, Life's Spring.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/269_Kildrak, Life's Spring.png"
 			}
 		},
 		{
@@ -620,7 +617,7 @@
 			"type": "Legendary Creature — Human Fighter",
 			"collector_number": "274",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/274_Luster, War-Scarred.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/274_Luster, War-Scarred.png"
 			}
 		},
 		{
@@ -630,7 +627,7 @@
 			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "307",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/307_Tathys, Keeper of Secrets.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/307_Tathys, Keeper of Secrets.png"
 			}
 		},
 		{
@@ -640,7 +637,7 @@
 			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "254",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/254_Ayleia Progenitor.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/254_Ayleia Progenitor.png"
 			}
 		},
 		{
@@ -650,7 +647,7 @@
 			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "308",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/308_Urobu, Judge of Souls.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/308_Urobu, Judge of Souls.png"
 			}
 		},
 		{
@@ -660,7 +657,7 @@
 			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "286",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/286_Aranya, Nature's Queen.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/286_Aranya, Nature's Queen.png"
 			}
 		},
 		{
@@ -670,7 +667,7 @@
 			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "296",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/296_Elos, God of War.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/296_Elos, God of War.png"
 			}
 		},
 		{
@@ -680,7 +677,7 @@
 			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "284",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/284_Aleana, Faith's Shield.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/284_Aleana, Faith's Shield.png"
 			}
 		},
 		{
@@ -690,7 +687,7 @@
 			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "297",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/297_Fama, Assassin Favored.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/297_Fama, Assassin Favored.png"
 			}
 		},
 		{
@@ -700,7 +697,7 @@
 			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "309",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/309_Vetys, Beacon of Knowledge.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/309_Vetys, Beacon of Knowledge.png"
 			}
 		},
 		{
@@ -710,7 +707,7 @@
 			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "290",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/290_Cadrea, God of the Forge.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/290_Cadrea, God of the Forge.png"
 			}
 		},
 		{
@@ -720,7 +717,7 @@
 			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "285",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/285_Alyra, Oracle's Muse.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/285_Alyra, Oracle's Muse.png"
 			}
 		},
 		{
@@ -730,7 +727,7 @@
 			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "291",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/291_Caelys the Gilded.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/291_Caelys the Gilded.png"
 			}
 		},
 		{
@@ -740,7 +737,7 @@
 			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "294",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/294_Coelys, Chaos Incarnate.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/294_Coelys, Chaos Incarnate.png"
 			}
 		},
 		{
@@ -750,7 +747,7 @@
 			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "300",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/300_Lanu, Moon Trickster.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/300_Lanu, Moon Trickster.png"
 			}
 		},
 		{
@@ -760,7 +757,7 @@
 			"type": "Legendary Creature — Human Bird",
 			"collector_number": "70",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/70_Hueick, Susceptible Youth.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/70_Hueick, Susceptible Youth.png"
 			}
 		},
 		{
@@ -770,7 +767,7 @@
 			"type": "Legendary Creature — Aasimar Ranger",
 			"collector_number": "136",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/136_Olar, The Broken Arrow.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/136_Olar, The Broken Arrow.png"
 			}
 		},
 		{
@@ -780,7 +777,7 @@
 			"type": "Legendary Creature — Aasimar Bard",
 			"collector_number": "100",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/100_Zunam, Fate Favored.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/100_Zunam, Fate Favored.png"
 			}
 		},
 		{
@@ -790,7 +787,7 @@
 			"type": "Legendary Creature — Elf Cleric Rogue",
 			"collector_number": "26",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/26_Leonir, Acolyte of Lanu.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/26_Leonir, Acolyte of Lanu.png"
 			}
 		},
 		{
@@ -800,7 +797,7 @@
 			"type": "Legendary Creature — Dwarf Paladin",
 			"collector_number": "261",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/261_Granite, Elos' Vengeance.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/261_Granite, Elos' Vengeance.png"
 			}
 		},
 		{
@@ -810,7 +807,7 @@
 			"type": "Legendary Creature — Elf Advisor",
 			"collector_number": "257",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/257_Captain Lebrode.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/257_Captain Lebrode.png"
 			}
 		},
 		{
@@ -820,7 +817,7 @@
 			"type": "Legendary Creature — Human Paladin",
 			"collector_number": "48",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/48_Urwin Brighstar, Guild Founder.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/48_Urwin Brighstar, Guild Founder.png"
 			}
 		},
 		{
@@ -830,7 +827,7 @@
 			"type": "Legendary Creature — Elf Lord",
 			"collector_number": "231",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/231_King Saakala.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/231_King Saakala.png"
 			}
 		},
 		{
@@ -840,7 +837,7 @@
 			"type": "Legendary Creature — Changeling Rogue",
 			"collector_number": "80",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/80_Professor Arden.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/80_Professor Arden.png"
 			}
 		},
 		{
@@ -850,7 +847,7 @@
 			"type": "Legendary Creature — Halfling Druid",
 			"collector_number": "228",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/228_Glamstol, Crafty Herbalist.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/228_Glamstol, Crafty Herbalist.png"
 			}
 		},
 		{
@@ -860,7 +857,7 @@
 			"type": "Legendary Creature — Dragon Wizard",
 			"collector_number": "265",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/265_Irdel the Pursued.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/265_Irdel the Pursued.png"
 			}
 		},
 		{
@@ -870,7 +867,7 @@
 			"type": "Legendary Creature — Turtle Druid",
 			"collector_number": "250",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/250_Yanna the Ill-Fated.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/250_Yanna the Ill-Fated.png"
 			}
 		},
 		{
@@ -880,7 +877,7 @@
 			"type": "Legendary Creature — Elf Ranger",
 			"collector_number": "203",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/203_Ara, Reknown Scout.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/203_Ara, Reknown Scout.png"
 			}
 		},
 		{
@@ -890,7 +887,7 @@
 			"type": "Legendary Creature — Dwarf Fighter",
 			"collector_number": "298",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/298_Harlston, Grappling Pugilist.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/298_Harlston, Grappling Pugilist.png"
 			}
 		},
 		{
@@ -900,7 +897,7 @@
 			"type": "Legendary Creature — Turtle Cleric",
 			"collector_number": "293",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/293_Clif, Chilled Tortle.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/293_Clif, Chilled Tortle.png"
 			}
 		},
 		{
@@ -910,7 +907,7 @@
 			"type": "Legendary Creature — Human Wizard",
 			"collector_number": "276",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/276_Minnesota, Impulsive Planner.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/276_Minnesota, Impulsive Planner.png"
 			}
 		},
 		{
@@ -920,7 +917,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "107",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/107_Book of Victims.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/107_Book of Victims.png"
 			}
 		},
 		{
@@ -930,7 +927,7 @@
 			"type": "Legendary Creature — Orc Barbarian",
 			"collector_number": "283",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/283_Zas, Barbarian Scholar.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/283_Zas, Barbarian Scholar.png"
 			}
 		},
 		{
@@ -940,7 +937,7 @@
 			"type": "Legendary Creature — Elf Ranger",
 			"collector_number": "230",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/230_Karda, Revolutionary.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/230_Karda, Revolutionary.png"
 			}
 		},
 		{
@@ -950,7 +947,7 @@
 			"type": "Creature — Elk Skeleton",
 			"collector_number": "148",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/148_Undead Elk.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/148_Undead Elk.png"
 			}
 		},
 		{
@@ -960,7 +957,7 @@
 			"type": "Creature — Zombie Druid",
 			"collector_number": "116",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/116_Death Druid.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/116_Death Druid.png"
 			}
 		},
 		{
@@ -970,7 +967,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "311",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/311_Blade of Blood.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/311_Blade of Blood.png"
 			}
 		},
 		{
@@ -980,7 +977,7 @@
 			"type": "Legendary Creature — Dragon",
 			"collector_number": "268",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/268_Keldath the Scourge.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/268_Keldath the Scourge.png"
 			}
 		},
 		{
@@ -990,7 +987,7 @@
 			"type": "Legendary Creature — Dragon",
 			"collector_number": "288",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/288_Bressio and Vynne, Twins.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/288_Bressio and Vynne, Twins.png"
 			}
 		},
 		{
@@ -1000,7 +997,7 @@
 			"type": "Legendary Creature — Dragon",
 			"collector_number": "176",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/176_Idryyth the Flamebringer.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/176_Idryyth the Flamebringer.png"
 			}
 		},
 		{
@@ -1010,7 +1007,7 @@
 			"type": "Legendary Creature — Dragon",
 			"collector_number": "270",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/270_Kinzine the Lifegiver.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/270_Kinzine the Lifegiver.png"
 			}
 		},
 		{
@@ -1020,7 +1017,7 @@
 			"type": "Legendary Creature — Dragon",
 			"collector_number": "98",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/98_Ylbor the Lazy.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/98_Ylbor the Lazy.png"
 			}
 		},
 		{
@@ -1030,7 +1027,7 @@
 			"type": "Legendary Creature — Dragon",
 			"collector_number": "253",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/253_Arrynth, Lord of Death.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/253_Arrynth, Lord of Death.png"
 			}
 		},
 		{
@@ -1040,7 +1037,7 @@
 			"type": "Legendary Creature — Dragon",
 			"collector_number": "252",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/252_Aipa the Ancient.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/252_Aipa the Ancient.png"
 			}
 		},
 		{
@@ -1050,7 +1047,7 @@
 			"type": "Legendary Creature — Dragon",
 			"collector_number": "277",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/277_Pyrrydoss the Unbroken.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/277_Pyrrydoss the Unbroken.png"
 			}
 		},
 		{
@@ -1060,7 +1057,7 @@
 			"type": "Legendary Creature — Dragon",
 			"collector_number": "115",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/115_Dayvroass the Haunted.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/115_Dayvroass the Haunted.png"
 			}
 		},
 		{
@@ -1070,7 +1067,7 @@
 			"type": "Legendary Creature — Dragon",
 			"collector_number": "237",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/237_Nydissia the Protector.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/237_Nydissia the Protector.png"
 			}
 		},
 		{
@@ -1080,7 +1077,17 @@
 			"type": "Legendary Creature — Dragon",
 			"collector_number": "47",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/47_Tundrayl the Pure.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/47_Tundrayl the Pure.png"
+			}
+		},
+		{
+			"name": "Spear of Vhalimar",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Spear of Vhalimar.png"
 			}
 		},
 		{
@@ -1090,7 +1097,7 @@
 			"type": "Legendary Creature — Human Soldier",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/9_Captain Morro.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/9_Captain Morro.png"
 			}
 		},
 		{
@@ -1100,7 +1107,7 @@
 			"type": "Legendary Creature — Human Cleric",
 			"collector_number": "77",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/77_Lydia Brooks.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/77_Lydia Brooks.png"
 			}
 		},
 		{
@@ -1110,7 +1117,7 @@
 			"type": "Legendary Creature — Dwarf Fighter",
 			"collector_number": "128",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/128_Hundral the Voiceless.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/128_Hundral the Voiceless.png"
 			}
 		},
 		{
@@ -1120,7 +1127,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "328",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/328_Zas's Battleaxe.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/328_Zas's Battleaxe.png"
 			}
 		},
 		{
@@ -1130,7 +1137,7 @@
 			"type": "Legendary Enchantment Artifact",
 			"collector_number": "241",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/241_Staff of the Mothertree.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/241_Staff of the Mothertree.png"
 			}
 		},
 		{
@@ -1140,7 +1147,7 @@
 			"type": "Sorcery",
 			"collector_number": "260",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/260_Explore the Outlands.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/260_Explore the Outlands.png"
 			}
 		},
 		{
@@ -1150,7 +1157,7 @@
 			"type": "Land",
 			"collector_number": "334",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/334_The Beacon.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/334_The Beacon.png"
 			}
 		},
 		{
@@ -1160,7 +1167,7 @@
 			"type": "Land — Forest Plains",
 			"collector_number": "345",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/345_Et'limi'dak.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/345_Et'limi'dak.png"
 			}
 		},
 		{
@@ -1170,7 +1177,7 @@
 			"type": "Land — Mountain Island",
 			"collector_number": "353",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/353_Lake Dorn.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/353_Lake Dorn.png"
 			}
 		},
 		{
@@ -1180,7 +1187,7 @@
 			"type": "Land",
 			"collector_number": "359",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/359_The Nether.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/359_The Nether.png"
 			}
 		},
 		{
@@ -1190,7 +1197,7 @@
 			"type": "Land",
 			"collector_number": "372",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/372_The Wilds.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/372_The Wilds.png"
 			}
 		},
 		{
@@ -1200,7 +1207,7 @@
 			"type": "Land",
 			"collector_number": "336",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/336_The Blightlands.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/336_The Blightlands.png"
 			}
 		},
 		{
@@ -1210,7 +1217,7 @@
 			"type": "Land",
 			"collector_number": "329",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/329_The Abyss.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/329_The Abyss.png"
 			}
 		},
 		{
@@ -1220,7 +1227,7 @@
 			"type": "Land — Mountain Forest",
 			"collector_number": "362",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/362_Ovauto Forest.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/362_Ovauto Forest.png"
 			}
 		},
 		{
@@ -1230,7 +1237,7 @@
 			"type": "Land",
 			"collector_number": "357",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/357_The Moon Grove.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/357_The Moon Grove.png"
 			}
 		},
 		{
@@ -1240,7 +1247,7 @@
 			"type": "Land — Mountain Plains",
 			"collector_number": "370",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/370_Upper Iron Pass.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/370_Upper Iron Pass.png"
 			}
 		},
 		{
@@ -1250,7 +1257,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "106",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/106_Blue Flame Candle.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/106_Blue Flame Candle.png"
 			}
 		},
 		{
@@ -1260,7 +1267,7 @@
 			"type": "Instant",
 			"collector_number": "73",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/73_Invoke Duplicity.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/73_Invoke Duplicity.png"
 			}
 		},
 		{
@@ -1270,7 +1277,7 @@
 			"type": "Instant",
 			"collector_number": "193",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/193_Scorching Ray.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/193_Scorching Ray.png"
 			}
 		},
 		{
@@ -1280,7 +1287,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "156",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/156_Crown of Giants.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/156_Crown of Giants.png"
 			}
 		},
 		{
@@ -1290,7 +1297,7 @@
 			"type": "Enchantment",
 			"collector_number": "31",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/31_Muster the Guard.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/31_Muster the Guard.png"
 			}
 		},
 		{
@@ -1300,7 +1307,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "72",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/72_Invisibility.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/72_Invisibility.png"
 			}
 		},
 		{
@@ -1310,7 +1317,7 @@
 			"type": "Instant",
 			"collector_number": "145",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/145_Spare the Dying.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/145_Spare the Dying.png"
 			}
 		},
 		{
@@ -1320,7 +1327,7 @@
 			"type": "Legendary Creature — Elf Monk",
 			"collector_number": "259",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/259_Emir, Fists of Fury.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/259_Emir, Fists of Fury.png"
 			}
 		},
 		{
@@ -1330,7 +1337,7 @@
 			"type": "Legendary Creature — Dragon Paladin",
 			"collector_number": "267",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/267_Justice, Reborn.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/267_Justice, Reborn.png"
 			}
 		},
 		{
@@ -1340,7 +1347,7 @@
 			"type": "Creature — Human Soldier",
 			"collector_number": "45",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/45_Town's Guard.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/45_Town's Guard.png"
 			}
 		},
 		{
@@ -1350,7 +1357,7 @@
 			"type": "Legendary Creature — Elf Vampire Druid",
 			"collector_number": "306",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/306_Sorsha, Restrained.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/306_Sorsha, Restrained.png"
 			}
 		},
 		{
@@ -1360,7 +1367,7 @@
 			"type": "Legendary Enchantment Artifact",
 			"collector_number": "96",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/96_Umbra.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/96_Umbra.png"
 			}
 		},
 		{
@@ -1370,7 +1377,7 @@
 			"type": "Legendary Enchantment Artifact",
 			"collector_number": "146",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/146_Staff of the Blightree.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/146_Staff of the Blightree.png"
 			}
 		},
 		{
@@ -1380,7 +1387,7 @@
 			"type": "Creature — Tiefling Paladin",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/2_Aleana's Chosen.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/2_Aleana's Chosen.png"
 			}
 		},
 		{
@@ -1390,7 +1397,7 @@
 			"type": "Instant",
 			"collector_number": "162",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/162_Fire Bolt.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/162_Fire Bolt.png"
 			}
 		},
 		{
@@ -1400,7 +1407,7 @@
 			"type": "Sorcery",
 			"collector_number": "39",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/39_Sacred Flame.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/39_Sacred Flame.png"
 			}
 		},
 		{
@@ -1410,7 +1417,7 @@
 			"type": "Instant",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/18_Divine Smite.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/18_Divine Smite.png"
 			}
 		},
 		{
@@ -1420,7 +1427,7 @@
 			"type": "Instant",
 			"collector_number": "292",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/292_Chaos Bolt.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/292_Chaos Bolt.png"
 			}
 		},
 		{
@@ -1430,7 +1437,7 @@
 			"type": "Creature — Werebear",
 			"collector_number": "246",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/246_Werebear Warrior.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/246_Werebear Warrior.png"
 			}
 		},
 		{
@@ -1440,7 +1447,7 @@
 			"type": "Legendary Land — Plains",
 			"collector_number": "354",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/354_Manticore Tower.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/354_Manticore Tower.png"
 			}
 		},
 		{
@@ -1450,7 +1457,7 @@
 			"type": "Legendary Land — Island",
 			"collector_number": "331",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/331_Banden Docks.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/331_Banden Docks.png"
 			}
 		},
 		{
@@ -1460,7 +1467,7 @@
 			"type": "Legendary Land — Swamp",
 			"collector_number": "361",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/361_Old Falden.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/361_Old Falden.png"
 			}
 		},
 		{
@@ -1470,7 +1477,7 @@
 			"type": "Legendary Land — Mountain",
 			"collector_number": "351",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/351_Korolduhr.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/351_Korolduhr.png"
 			}
 		},
 		{
@@ -1480,7 +1487,7 @@
 			"type": "Legendary Land — Forest",
 			"collector_number": "346",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/346_Hyathyr.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/346_Hyathyr.png"
 			}
 		},
 		{
@@ -1490,7 +1497,7 @@
 			"type": "Creature — Elf Ranger",
 			"collector_number": "219",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/219_Elf Scout.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/219_Elf Scout.png"
 			}
 		},
 		{
@@ -1500,7 +1507,7 @@
 			"type": "Creature — Dwarf",
 			"collector_number": "187",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/187_Mining Dwarf.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/187_Mining Dwarf.png"
 			}
 		},
 		{
@@ -1510,7 +1517,7 @@
 			"type": "Creature — Goblin",
 			"collector_number": "175",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/175_Hobgoblin Warboss.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/175_Hobgoblin Warboss.png"
 			}
 		},
 		{
@@ -1520,7 +1527,7 @@
 			"type": "Enchantment",
 			"collector_number": "186",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/186_Mining Contract.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/186_Mining Contract.png"
 			}
 		},
 		{
@@ -1530,7 +1537,7 @@
 			"type": "Instant",
 			"collector_number": "211",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/211_Caravan Raid.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/211_Caravan Raid.png"
 			}
 		},
 		{
@@ -1540,7 +1547,7 @@
 			"type": "Instant",
 			"collector_number": "129",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/129_Inflict Wounds.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/129_Inflict Wounds.png"
 			}
 		},
 		{
@@ -1550,7 +1557,7 @@
 			"type": "Creature — Human Noble",
 			"collector_number": "132",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/132_Mysterious Benefactor.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/132_Mysterious Benefactor.png"
 			}
 		},
 		{
@@ -1560,7 +1567,7 @@
 			"type": "Creature — Manticore",
 			"collector_number": "28",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/28_Manticore.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/28_Manticore.png"
 			}
 		},
 		{
@@ -1570,7 +1577,7 @@
 			"type": "Instant",
 			"collector_number": "287",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/287_Blessing of the Moon.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/287_Blessing of the Moon.png"
 			}
 		},
 		{
@@ -1580,7 +1587,7 @@
 			"type": "Legendary Enchantment",
 			"collector_number": "208",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/208_Blessings of the Mothertree.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/208_Blessings of the Mothertree.png"
 			}
 		},
 		{
@@ -1590,7 +1597,7 @@
 			"type": "Creature — Merfolk Rogue",
 			"collector_number": "94",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/94_Treasure Diver.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/94_Treasure Diver.png"
 			}
 		},
 		{
@@ -1600,7 +1607,7 @@
 			"type": "Instant",
 			"collector_number": "135",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/135_Nighttime Ambush.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/135_Nighttime Ambush.png"
 			}
 		},
 		{
@@ -1610,7 +1617,7 @@
 			"type": "Sorcery",
 			"collector_number": "78",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/78_Oracle's Insight.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/78_Oracle's Insight.png"
 			}
 		},
 		{
@@ -1620,7 +1627,7 @@
 			"type": "Instant",
 			"collector_number": "56",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/56_Counterspell.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/56_Counterspell.png"
 			}
 		},
 		{
@@ -1630,7 +1637,7 @@
 			"type": "Enchantment",
 			"collector_number": "44",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/44_Teleportation Circle.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/44_Teleportation Circle.png"
 			}
 		},
 		{
@@ -1640,7 +1647,7 @@
 			"type": "Instant",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/15_Defend the Walls!.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/15_Defend the Walls!.png"
 			}
 		},
 		{
@@ -1650,7 +1657,7 @@
 			"type": "Instant",
 			"collector_number": "198",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/198_Wrathful Smite.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/198_Wrathful Smite.png"
 			}
 		},
 		{
@@ -1660,7 +1667,7 @@
 			"type": "Creature — Sahuaghin",
 			"collector_number": "83",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/83_Sahuaghin.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/83_Sahuaghin.png"
 			}
 		},
 		{
@@ -1670,7 +1677,7 @@
 			"type": "Enchantment",
 			"collector_number": "258",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/258_Dryad Grove.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/258_Dryad Grove.png"
 			}
 		},
 		{
@@ -1680,7 +1687,7 @@
 			"type": "Creature — Human Soldier",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/10_Captain of the Guard.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/10_Captain of the Guard.png"
 			}
 		},
 		{
@@ -1690,7 +1697,7 @@
 			"type": "Creature — Human Soldier",
 			"collector_number": "49",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/49_Wall Guard Recruiter.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/49_Wall Guard Recruiter.png"
 			}
 		},
 		{
@@ -1700,7 +1707,7 @@
 			"type": "Creature — Sahuaghin",
 			"collector_number": "84",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/84_Sahuaghin Artillerist.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/84_Sahuaghin Artillerist.png"
 			}
 		},
 		{
@@ -1710,7 +1717,7 @@
 			"type": "Creature — Sahuaghin",
 			"collector_number": "86",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/86_Sahuaghin Fury.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/86_Sahuaghin Fury.png"
 			}
 		},
 		{
@@ -1720,7 +1727,7 @@
 			"type": "Creature — Sahuaghin",
 			"collector_number": "85",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/85_Sahuaghin Commander.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/85_Sahuaghin Commander.png"
 			}
 		},
 		{
@@ -1730,7 +1737,7 @@
 			"type": "Creature — Soldier",
 			"collector_number": "206",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/206_Aurelia's Elites.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/206_Aurelia's Elites.png"
 			}
 		},
 		{
@@ -1740,7 +1747,7 @@
 			"type": "Creature — Elf Soldier",
 			"collector_number": "41",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/41_Squad Commander.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/41_Squad Commander.png"
 			}
 		},
 		{
@@ -1750,7 +1757,7 @@
 			"type": "Legendary Creature — Human",
 			"collector_number": "110",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/110_Charles.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/110_Charles.png"
 			}
 		},
 		{
@@ -1760,7 +1767,7 @@
 			"type": "Creature — Dog",
 			"collector_number": "195",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/195_Wardog.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/195_Wardog.png"
 			}
 		},
 		{
@@ -1770,7 +1777,7 @@
 			"type": "Creature — Hag",
 			"collector_number": "126",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/126_Hag Coven.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/126_Hag Coven.png"
 			}
 		},
 		{
@@ -1780,7 +1787,7 @@
 			"type": "Sorcery",
 			"collector_number": "134",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/134_Night of Consuming Darkness.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/134_Night of Consuming Darkness.png"
 			}
 		},
 		{
@@ -1790,7 +1797,7 @@
 			"type": "Instant",
 			"collector_number": "144",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/144_Soul Diversion.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/144_Soul Diversion.png"
 			}
 		},
 		{
@@ -1800,7 +1807,7 @@
 			"type": "Legendary Creature — Demigod",
 			"collector_number": "161",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/161_Fane of the Mountain.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/161_Fane of the Mountain.png"
 			}
 		},
 		{
@@ -1810,7 +1817,7 @@
 			"type": "Legendary Creature — Demigod",
 			"collector_number": "63",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/63_Fane of the River.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/63_Fane of the River.png"
 			}
 		},
 		{
@@ -1820,7 +1827,7 @@
 			"type": "Legendary Creature — Demigod",
 			"collector_number": "224",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/224_Fane of the Forest.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/224_Fane of the Forest.png"
 			}
 		},
 		{
@@ -1830,7 +1837,7 @@
 			"type": "Sorcery",
 			"collector_number": "209",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/209_Boon of Aranya.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/209_Boon of Aranya.png"
 			}
 		},
 		{
@@ -1840,7 +1847,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "321",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/321_Judge & Executioner.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/321_Judge & Executioner.png"
 			}
 		},
 		{
@@ -1850,7 +1857,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "322",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/322_Jury.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/322_Jury.png"
 			}
 		},
 		{
@@ -1860,7 +1867,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "325",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/325_Soul Eater.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/325_Soul Eater.png"
 			}
 		},
 		{
@@ -1870,7 +1877,7 @@
 			"type": "Creature — Horror",
 			"collector_number": "99",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/99_Young Flayer.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/99_Young Flayer.png"
 			}
 		},
 		{
@@ -1880,7 +1887,7 @@
 			"type": "Creature — Elf Druid",
 			"collector_number": "201",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/201_Acolyte of Aranya.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/201_Acolyte of Aranya.png"
 			}
 		},
 		{
@@ -1890,7 +1897,7 @@
 			"type": "Creature — Spider",
 			"collector_number": "212",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/212_Chittering Spider.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/212_Chittering Spider.png"
 			}
 		},
 		{
@@ -1900,7 +1907,7 @@
 			"type": "Land — Forest Island",
 			"collector_number": "350",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/350_Kavedii Islands.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/350_Kavedii Islands.png"
 			}
 		},
 		{
@@ -1910,7 +1917,7 @@
 			"type": "Land",
 			"collector_number": "364",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/364_Revalia.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/364_Revalia.png"
 			}
 		},
 		{
@@ -1920,7 +1927,7 @@
 			"type": "Land — Island Swamp",
 			"collector_number": "355",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/355_Misty Isles.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/355_Misty Isles.png"
 			}
 		},
 		{
@@ -1930,7 +1937,7 @@
 			"type": "Land",
 			"collector_number": "368",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/368_The Tumult.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/368_The Tumult.png"
 			}
 		},
 		{
@@ -1940,7 +1947,7 @@
 			"type": "Land",
 			"collector_number": "338",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/338_The Cataclysm.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/338_The Cataclysm.png"
 			}
 		},
 		{
@@ -1950,7 +1957,7 @@
 			"type": "Land",
 			"collector_number": "332",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/332_Bastion.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/332_Bastion.png"
 			}
 		},
 		{
@@ -1960,7 +1967,7 @@
 			"type": "Land — Plains Island",
 			"collector_number": "342",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/342_Eislessi Isle.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/342_Eislessi Isle.png"
 			}
 		},
 		{
@@ -1970,7 +1977,7 @@
 			"type": "Land — Plains Swamp",
 			"collector_number": "348",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/348_Ikbarre Marshes.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/348_Ikbarre Marshes.png"
 			}
 		},
 		{
@@ -1980,7 +1987,7 @@
 			"type": "Land — Swamp Forest",
 			"collector_number": "340",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/340_Corpsewood.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/340_Corpsewood.png"
 			}
 		},
 		{
@@ -1990,7 +1997,7 @@
 			"type": "Land — Swamp Mountain",
 			"collector_number": "367",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/367_Shattered Peaks.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/367_Shattered Peaks.png"
 			}
 		},
 		{
@@ -2000,7 +2007,7 @@
 			"type": "Creature — Octopus",
 			"collector_number": "67",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/67_Grappling Octopus.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/67_Grappling Octopus.png"
 			}
 		},
 		{
@@ -2010,7 +2017,7 @@
 			"type": "Instant",
 			"collector_number": "108",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/108_Boon of Elos.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/108_Boon of Elos.png"
 			}
 		},
 		{
@@ -2020,7 +2027,7 @@
 			"type": "Instant",
 			"collector_number": "131",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/131_Mark for Death.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/131_Mark for Death.png"
 			}
 		},
 		{
@@ -2030,7 +2037,7 @@
 			"type": "Legendary Creature — Dwarf Fighter",
 			"collector_number": "264",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/264_Hyrum, Last Refuge.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/264_Hyrum, Last Refuge.png"
 			}
 		},
 		{
@@ -2040,7 +2047,7 @@
 			"type": "Instant",
 			"collector_number": "82",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/82_Reject.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/82_Reject.png"
 			}
 		},
 		{
@@ -2050,7 +2057,27 @@
 			"type": "Legendary Creature — Vampire Wizard",
 			"collector_number": "278",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/278_Strahd Von Zarovich.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/278_Strahd Von Zarovich.png"
+			}
+		},
+		{
+			"name": "Wesley the Rescued",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human Fighter",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Wesley the Rescued.png"
+			}
+		},
+		{
+			"name": "Blessed Ent",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Creature — Treefolk",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Blessed Ent.png"
 			}
 		},
 		{
@@ -2060,14 +2087,7 @@
 			"type": "Enchantment — Quest",
 			"collector_number": "46",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/46_Trials of Thadenswel.png"
-			},
-			"back": {
-				"name": "Champions of Thadenswel",
-				"type": "Enchantment",
-				"image_uris": {
-					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Champions of Thadenswel.png"
-				}
+				"en": "https://mtg-hub/sets/D&D-files/img/46_Trials of Thadenswel.png"
 			}
 		},
 		{
@@ -2077,7 +2097,7 @@
 			"type": "Legendary Enchantment Artifact",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/14_Cube of K'nezeret.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/14_Cube of K'nezeret.png"
 			}
 		},
 		{
@@ -2087,7 +2107,37 @@
 			"type": "Legendary Enchantment Artifact",
 			"collector_number": "160",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/160_Eye of Coelys.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/160_Eye of Coelys.png"
+			}
+		},
+		{
+			"name": "Goblin Gang Leader",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Creature — Goblin",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Goblin Gang Leader.png"
+			}
+		},
+		{
+			"name": "Champions of Thadenswel",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Champions of Thadenswel.png"
+			}
+		},
+		{
+			"name": "Inopportune Arrest",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Inopportune Arrest.png"
 			}
 		},
 		{
@@ -2097,7 +2147,17 @@
 			"type": "Legendary Creature — Orc Noble",
 			"collector_number": "273",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/273_Lady Aurelia.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/273_Lady Aurelia.png"
+			}
+		},
+		{
+			"name": "Mazzer, The Rat King",
+			"rarity": "special",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Creature — Human Rat Monk",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/D&D-files/img/0_Mazzer, The Rat King.png"
 			}
 		},
 		{
@@ -2107,7 +2167,7 @@
 			"type": "Creature — Wolf",
 			"collector_number": "218",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/218_Dire Wolf Pack.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/218_Dire Wolf Pack.png"
 			}
 		},
 		{
@@ -2117,7 +2177,7 @@
 			"type": "Legendary Creature — Halfling Monk",
 			"collector_number": "40",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/40_Sarana, Fists of Fury.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/40_Sarana, Fists of Fury.png"
 			}
 		},
 		{
@@ -2127,7 +2187,7 @@
 			"type": "Legendary Creature — Human Ranger",
 			"collector_number": "225",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/225_Fleetfoot, Sharpshooter.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/225_Fleetfoot, Sharpshooter.png"
 			}
 		},
 		{
@@ -2137,7 +2197,7 @@
 			"type": "Legendary Creature — Dwarf Paladin",
 			"collector_number": "177",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/177_Kythr, Sorrow's Mark.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/177_Kythr, Sorrow's Mark.png"
 			}
 		},
 		{
@@ -2147,7 +2207,7 @@
 			"type": "Legendary Creature — Elf Fighter",
 			"collector_number": "123",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/123_Eliath, Doomed Fighter.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/123_Eliath, Doomed Fighter.png"
 			}
 		},
 		{
@@ -2157,7 +2217,7 @@
 			"type": "Legendary Creature — Human Warlock",
 			"collector_number": "141",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/141_Shaedrun, the Necromancer.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/141_Shaedrun, the Necromancer.png"
 			}
 		},
 		{
@@ -2167,7 +2227,7 @@
 			"type": "Creature — Human Warlock",
 			"collector_number": "133",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/133_Necromancer's Apprentice.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/133_Necromancer's Apprentice.png"
 			}
 		},
 		{
@@ -2177,7 +2237,7 @@
 			"type": "Creature — Zombie Paladin",
 			"collector_number": "139",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/139_Revenant.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/139_Revenant.png"
 			}
 		},
 		{
@@ -2187,7 +2247,7 @@
 			"type": "Legendary Creature — Zombie Paladin",
 			"collector_number": "150",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/150_Vladimir & Godfrey, Reunited.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/150_Vladimir & Godfrey, Reunited.png"
 			}
 		},
 		{
@@ -2197,7 +2257,7 @@
 			"type": "Legendary Creature — Human",
 			"collector_number": "52",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/52_Arabel, Seer Prodigy.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/52_Arabel, Seer Prodigy.png"
 			}
 		},
 		{
@@ -2207,7 +2267,7 @@
 			"type": "Legendary Creature — Human Artificer",
 			"collector_number": "103",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/103_Blinksy, Toymaker.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/103_Blinksy, Toymaker.png"
 			}
 		},
 		{
@@ -2217,7 +2277,7 @@
 			"type": "Legendary Creature — Human Noble",
 			"collector_number": "263",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/263_His Opulence IV.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/263_His Opulence IV.png"
 			}
 		},
 		{
@@ -2227,7 +2287,7 @@
 			"type": "Legendary Creature — Dragon",
 			"collector_number": "279",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/279_Syosa, Raving Dragon.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/279_Syosa, Raving Dragon.png"
 			}
 		},
 		{
@@ -2237,7 +2297,7 @@
 			"type": "Sorcery",
 			"collector_number": "120",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/120_Draconic Purge.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/120_Draconic Purge.png"
 			}
 		},
 		{
@@ -2247,7 +2307,7 @@
 			"type": "Sorcery",
 			"collector_number": "196",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/196_The Wiggumstaff Incident.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/196_The Wiggumstaff Incident.png"
 			}
 		},
 		{
@@ -2257,7 +2317,7 @@
 			"type": "Instant",
 			"collector_number": "29",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/29_March of the the Dead.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/29_March of the the Dead.png"
 			}
 		},
 		{
@@ -2267,7 +2327,7 @@
 			"type": "Instant",
 			"collector_number": "79",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/79_Pierce the Veil.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/79_Pierce the Veil.png"
 			}
 		},
 		{
@@ -2277,7 +2337,7 @@
 			"type": "Sorcery",
 			"collector_number": "93",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/93_Tidal Wave.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/93_Tidal Wave.png"
 			}
 		},
 		{
@@ -2287,7 +2347,7 @@
 			"type": "Creature — Assassin",
 			"collector_number": "124",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/124_Fama's Talon.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/124_Fama's Talon.png"
 			}
 		},
 		{
@@ -2297,7 +2357,7 @@
 			"type": "Creature — Human Noble",
 			"collector_number": "191",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/191_The Prosperity.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/191_The Prosperity.png"
 			}
 		},
 		{
@@ -2307,7 +2367,7 @@
 			"type": "Instant",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/3_Aleana's Mercy.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/3_Aleana's Mercy.png"
 			}
 		},
 		{
@@ -2317,7 +2377,7 @@
 			"type": "Instant",
 			"collector_number": "104",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/104_Blood Magic.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/104_Blood Magic.png"
 			}
 		},
 		{
@@ -2327,7 +2387,7 @@
 			"type": "Creature — Dwarf Soldier",
 			"collector_number": "182",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/182_Malaas War Marshall.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/182_Malaas War Marshall.png"
 			}
 		},
 		{
@@ -2337,7 +2397,7 @@
 			"type": "Instant",
 			"collector_number": "91",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/91_Tarroka Reading.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/91_Tarroka Reading.png"
 			}
 		},
 		{
@@ -2347,7 +2407,7 @@
 			"type": "Sorcery",
 			"collector_number": "111",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/111_Cleanse the Bloodlines.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/111_Cleanse the Bloodlines.png"
 			}
 		},
 		{
@@ -2357,7 +2417,7 @@
 			"type": "Instant",
 			"collector_number": "158",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/158_Dragon's Fire.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/158_Dragon's Fire.png"
 			}
 		},
 		{
@@ -2367,7 +2427,7 @@
 			"type": "Creature — Human Noble",
 			"collector_number": "101",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/101_The Archon of Gold.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/101_The Archon of Gold.png"
 			}
 		},
 		{
@@ -2377,7 +2437,7 @@
 			"type": "Creature — Human Noble",
 			"collector_number": "174",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/174_The Halcyon.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/174_The Halcyon.png"
 			}
 		},
 		{
@@ -2387,7 +2447,7 @@
 			"type": "Creature — Human Noble",
 			"collector_number": "125",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/125_Gildling.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/125_Gildling.png"
 			}
 		},
 		{
@@ -2397,7 +2457,7 @@
 			"type": "Creature — Goblin Dinosaur",
 			"collector_number": "171",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/171_Goblin War-Rider.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/171_Goblin War-Rider.png"
 			}
 		},
 		{
@@ -2407,7 +2467,7 @@
 			"type": "Sorcery",
 			"collector_number": "215",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/215_Conjure Animals.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/215_Conjure Animals.png"
 			}
 		},
 		{
@@ -2417,7 +2477,7 @@
 			"type": "Artifact Creature — Construct",
 			"collector_number": "310",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/310_Animated Armor.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/310_Animated Armor.png"
 			}
 		},
 		{
@@ -2427,7 +2487,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "226",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/226_The Forge of Life.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/226_The Forge of Life.png"
 			}
 		},
 		{
@@ -2437,7 +2497,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/20_The Forge of War.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/20_The Forge of War.png"
 			}
 		},
 		{
@@ -2447,7 +2507,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "165",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/165_The Forge of Elements.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/165_The Forge of Elements.png"
 			}
 		},
 		{
@@ -2457,7 +2517,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "65",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/65_The Forge of Spells.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/65_The Forge of Spells.png"
 			}
 		},
 		{
@@ -2467,7 +2527,7 @@
 			"type": "Creature — Imp",
 			"collector_number": "118",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/118_Devilish Imp.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/118_Devilish Imp.png"
 			}
 		},
 		{
@@ -2477,7 +2537,7 @@
 			"type": "Legendary Creature — Tiefling Artificer",
 			"collector_number": "192",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/192_Rovari, Magic Weaver.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/192_Rovari, Magic Weaver.png"
 			}
 		},
 		{
@@ -2487,7 +2547,7 @@
 			"type": "Enchantment",
 			"collector_number": "197",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/197_Worker's Union.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/197_Worker's Union.png"
 			}
 		},
 		{
@@ -2497,7 +2557,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "173",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/173_Guantlets of the Storm.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/173_Guantlets of the Storm.png"
 			}
 		},
 		{
@@ -2507,7 +2567,7 @@
 			"type": "Enchantment",
 			"collector_number": "112",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/112_Dark Gift.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/112_Dark Gift.png"
 			}
 		},
 		{
@@ -2517,7 +2577,7 @@
 			"type": "Instant",
 			"collector_number": "217",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/217_Death Ward.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/217_Death Ward.png"
 			}
 		},
 		{
@@ -2527,7 +2587,7 @@
 			"type": "Enchantment",
 			"collector_number": "105",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/105_Blood Ritual.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/105_Blood Ritual.png"
 			}
 		},
 		{
@@ -2537,7 +2597,7 @@
 			"type": "Instant",
 			"collector_number": "130",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/130_Lanu's Intervention.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/130_Lanu's Intervention.png"
 			}
 		},
 		{
@@ -2547,7 +2607,7 @@
 			"type": "Sorcery",
 			"collector_number": "121",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/121_Drown in the Lake.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/121_Drown in the Lake.png"
 			}
 		},
 		{
@@ -2557,7 +2617,7 @@
 			"type": "Sorcery",
 			"collector_number": "117",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/117_Desecrate the Temple.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/117_Desecrate the Temple.png"
 			}
 		},
 		{
@@ -2567,7 +2627,7 @@
 			"type": "Sorcery",
 			"collector_number": "119",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/119_Dictate of Urobu.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/119_Dictate of Urobu.png"
 			}
 		},
 		{
@@ -2577,7 +2637,7 @@
 			"type": "Sorcery",
 			"collector_number": "140",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/140_Ritual Sacrifice.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/140_Ritual Sacrifice.png"
 			}
 		},
 		{
@@ -2587,7 +2647,7 @@
 			"type": "Creature — Zombie",
 			"collector_number": "143",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/143_Shambling Necromass.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/143_Shambling Necromass.png"
 			}
 		},
 		{
@@ -2597,7 +2657,7 @@
 			"type": "Legendary Creature — Eternal Dragon",
 			"collector_number": "137",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/137_Olethros the Destroyer.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/137_Olethros the Destroyer.png"
 			}
 		},
 		{
@@ -2607,7 +2667,7 @@
 			"type": "Creature — Skeleton",
 			"collector_number": "122",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/122_Dungeon Skeleton.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/122_Dungeon Skeleton.png"
 			}
 		},
 		{
@@ -2617,7 +2677,7 @@
 			"type": "Creature — Vampire",
 			"collector_number": "149",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/149_Vampire Spawn.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/149_Vampire Spawn.png"
 			}
 		},
 		{
@@ -2627,7 +2687,7 @@
 			"type": "Sorcery",
 			"collector_number": "138",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/138_Remove Curse.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/138_Remove Curse.png"
 			}
 		},
 		{
@@ -2637,7 +2697,7 @@
 			"type": "Sorcery",
 			"collector_number": "167",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/167_Fury of the Gods.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/167_Fury of the Gods.png"
 			}
 		},
 		{
@@ -2647,7 +2707,7 @@
 			"type": "Instant",
 			"collector_number": "142",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/142_Shaedrun's Gambit.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/142_Shaedrun's Gambit.png"
 			}
 		},
 		{
@@ -2657,7 +2717,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "37",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/37_Ring of Etheria.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/37_Ring of Etheria.png"
 			}
 		},
 		{
@@ -2667,7 +2727,7 @@
 			"type": "Sorcery",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/6_Ayleia's Return.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/6_Ayleia's Return.png"
 			}
 		},
 		{
@@ -2677,7 +2737,7 @@
 			"type": "Instant",
 			"collector_number": "66",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/66_Gift of Vetys.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/66_Gift of Vetys.png"
 			}
 		},
 		{
@@ -2687,7 +2747,7 @@
 			"type": "Instant",
 			"collector_number": "90",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/90_Secrets of Tathys.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/90_Secrets of Tathys.png"
 			}
 		},
 		{
@@ -2697,7 +2757,7 @@
 			"type": "Sorcery",
 			"collector_number": "151",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/151_Blessing of Alyra.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/151_Blessing of Alyra.png"
 			}
 		},
 		{
@@ -2707,7 +2767,7 @@
 			"type": "Instant",
 			"collector_number": "155",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/155_Coelys's Ire.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/155_Coelys's Ire.png"
 			}
 		},
 		{
@@ -2717,7 +2777,7 @@
 			"type": "Instant",
 			"collector_number": "152",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/152_Caelys's Favor.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/152_Caelys's Favor.png"
 			}
 		},
 		{
@@ -2727,7 +2787,7 @@
 			"type": "Instant",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/8_Cadrea's Blessing.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/8_Cadrea's Blessing.png"
 			}
 		},
 		{
@@ -2737,7 +2797,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "166",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/166_Fulcrum.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/166_Fulcrum.png"
 			}
 		},
 		{
@@ -2747,7 +2807,7 @@
 			"type": "Creature — Goblin",
 			"collector_number": "170",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/170_Goblin Raid Runner.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/170_Goblin Raid Runner.png"
 			}
 		},
 		{
@@ -2757,7 +2817,7 @@
 			"type": "Sorcery",
 			"collector_number": "163",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/163_Fireball.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/163_Fireball.png"
 			}
 		},
 		{
@@ -2767,7 +2827,7 @@
 			"type": "Sorcery",
 			"collector_number": "190",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/190_Price of Loyalty.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/190_Price of Loyalty.png"
 			}
 		},
 		{
@@ -2777,7 +2837,7 @@
 			"type": "Instant",
 			"collector_number": "127",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/127_Hellish Rebuke.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/127_Hellish Rebuke.png"
 			}
 		},
 		{
@@ -2787,7 +2847,7 @@
 			"type": "Instant",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/17_Divine Intervention.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/17_Divine Intervention.png"
 			}
 		},
 		{
@@ -2797,7 +2857,7 @@
 			"type": "Legendary Creature — Elf Noble",
 			"collector_number": "25",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/25_Lady Ostrix.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/25_Lady Ostrix.png"
 			}
 		},
 		{
@@ -2807,7 +2867,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/7_Binding of the Law.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/7_Binding of the Law.png"
 			}
 		},
 		{
@@ -2817,7 +2877,7 @@
 			"type": "Creature — Dragon",
 			"collector_number": "68",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/68_Guard Drake.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/68_Guard Drake.png"
 			}
 		},
 		{
@@ -2827,7 +2887,7 @@
 			"type": "Legendary Creature — Dragon Lord",
 			"collector_number": "75",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/75_King Da'aroc.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/75_King Da'aroc.png"
 			}
 		},
 		{
@@ -2837,7 +2897,7 @@
 			"type": "Legendary Creature — Dragon Cleric",
 			"collector_number": "69",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/69_High Priest Kaaladeth.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/69_High Priest Kaaladeth.png"
 			}
 		},
 		{
@@ -2847,7 +2907,7 @@
 			"type": "Legendary Creature — Dwarf Lord",
 			"collector_number": "180",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/180_Lord Maalas.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/180_Lord Maalas.png"
 			}
 		},
 		{
@@ -2857,7 +2917,7 @@
 			"type": "Legendary Creature — Dwarf Noble",
 			"collector_number": "168",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/168_Gniess, Stonecutter Prime.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/168_Gniess, Stonecutter Prime.png"
 			}
 		},
 		{
@@ -2867,7 +2927,7 @@
 			"type": "Creature — Gnome Artificer",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/21_Gnome Technocrat.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/21_Gnome Technocrat.png"
 			}
 		},
 		{
@@ -2877,7 +2937,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "30",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/30_Moon Scythe.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/30_Moon Scythe.png"
 			}
 		},
 		{
@@ -2887,7 +2947,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/4_Armor of Aleana.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/4_Armor of Aleana.png"
 			}
 		},
 		{
@@ -2897,7 +2957,7 @@
 			"type": "Legendary Creature — Eternal Dragon",
 			"collector_number": "24",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/24_Kyrios the Creator.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/24_Kyrios the Creator.png"
 			}
 		},
 		{
@@ -2907,7 +2967,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/19_Fly.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/19_Fly.png"
 			}
 		},
 		{
@@ -2917,7 +2977,7 @@
 			"type": "Enchantment",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/5_Astral Prison.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/5_Astral Prison.png"
 			}
 		},
 		{
@@ -2927,7 +2987,7 @@
 			"type": "Enchantment",
 			"collector_number": "35",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/35_Reinforce.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/35_Reinforce.png"
 			}
 		},
 		{
@@ -2937,7 +2997,7 @@
 			"type": "Sorcery",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/16_Dispel Magic.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/16_Dispel Magic.png"
 			}
 		},
 		{
@@ -2947,7 +3007,7 @@
 			"type": "Sorcery",
 			"collector_number": "38",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/38_Rising Populace.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/38_Rising Populace.png"
 			}
 		},
 		{
@@ -2957,7 +3017,7 @@
 			"type": "Legendary Enchantment Artifact",
 			"collector_number": "326",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/326_Soul Steel Dagger.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/326_Soul Steel Dagger.png"
 			}
 		},
 		{
@@ -2967,7 +3027,7 @@
 			"type": "Creature — Griffon",
 			"collector_number": "22",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/22_Griffin Mount.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/22_Griffin Mount.png"
 			}
 		},
 		{
@@ -2977,7 +3037,7 @@
 			"type": "Creature — Tiefling Cleric",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/13_Cleric of Aleana.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/13_Cleric of Aleana.png"
 			}
 		},
 		{
@@ -2987,7 +3047,7 @@
 			"type": "Creature — Dwarf Soldier",
 			"collector_number": "36",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/36_Resistance Squad.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/36_Resistance Squad.png"
 			}
 		},
 		{
@@ -2997,7 +3057,7 @@
 			"type": "Creature — Elf Noble",
 			"collector_number": "50",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/50_Wartime Financier.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/50_Wartime Financier.png"
 			}
 		},
 		{
@@ -3007,7 +3067,7 @@
 			"type": "Creature — Human Noble",
 			"collector_number": "32",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/32_Noble Ward.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/32_Noble Ward.png"
 			}
 		},
 		{
@@ -3017,7 +3077,7 @@
 			"type": "Creature — Human Soldier",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/12_Chief Inspector.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/12_Chief Inspector.png"
 			}
 		},
 		{
@@ -3027,7 +3087,7 @@
 			"type": "Creature — Elf Cleric",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/1_Acolyte of Urobu.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/1_Acolyte of Urobu.png"
 			}
 		},
 		{
@@ -3037,7 +3097,7 @@
 			"type": "Creature — Human Noble",
 			"collector_number": "43",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/43_Tax Accessor.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/43_Tax Accessor.png"
 			}
 		},
 		{
@@ -3047,7 +3107,7 @@
 			"type": "Instant",
 			"collector_number": "97",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/97_Wall of Force.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/97_Wall of Force.png"
 			}
 		},
 		{
@@ -3057,7 +3117,7 @@
 			"type": "Sorcery",
 			"collector_number": "55",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/55_Cone of Cold.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/55_Cone of Cold.png"
 			}
 		},
 		{
@@ -3067,7 +3127,7 @@
 			"type": "Sorcery",
 			"collector_number": "95",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/95_Tsunami.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/95_Tsunami.png"
 			}
 		},
 		{
@@ -3077,7 +3137,7 @@
 			"type": "Instant",
 			"collector_number": "87",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/87_Saw it Coming.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/87_Saw it Coming.png"
 			}
 		},
 		{
@@ -3087,7 +3147,7 @@
 			"type": "Instant",
 			"collector_number": "60",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/60_Divination.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/60_Divination.png"
 			}
 		},
 		{
@@ -3097,7 +3157,7 @@
 			"type": "Instant",
 			"collector_number": "81",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/81_Protection from Evil and Good.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/81_Protection from Evil and Good.png"
 			}
 		},
 		{
@@ -3107,7 +3167,7 @@
 			"type": "Sorcery",
 			"collector_number": "62",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/62_Draconic Ascent.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/62_Draconic Ascent.png"
 			}
 		},
 		{
@@ -3117,7 +3177,7 @@
 			"type": "Instant",
 			"collector_number": "59",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/59_Dimension Door.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/59_Dimension Door.png"
 			}
 		},
 		{
@@ -3127,7 +3187,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "61",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/61_Dominate Monster.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/61_Dominate Monster.png"
 			}
 		},
 		{
@@ -3137,7 +3197,7 @@
 			"type": "Enchantment",
 			"collector_number": "76",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/76_Library of Vetys.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/76_Library of Vetys.png"
 			}
 		},
 		{
@@ -3147,7 +3207,7 @@
 			"type": "Creture — Devil",
 			"collector_number": "92",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/92_Tathys's Silencer.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/92_Tathys's Silencer.png"
 			}
 		},
 		{
@@ -3157,7 +3217,7 @@
 			"type": "Instant",
 			"collector_number": "57",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/57_Cutting Words.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/57_Cutting Words.png"
 			}
 		},
 		{
@@ -3167,7 +3227,7 @@
 			"type": "Creature — Dragon Wizard",
 			"collector_number": "51",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/51_Acolyte of Vetys.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/51_Acolyte of Vetys.png"
 			}
 		},
 		{
@@ -3177,7 +3237,7 @@
 			"type": "Legendary Creature — Changeling Rogue",
 			"collector_number": "74",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/74_Jimmy Beanz.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/74_Jimmy Beanz.png"
 			}
 		},
 		{
@@ -3187,7 +3247,7 @@
 			"type": "Sorcery",
 			"collector_number": "53",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/53_Blessing of Water.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/53_Blessing of Water.png"
 			}
 		},
 		{
@@ -3197,7 +3257,7 @@
 			"type": "Instant",
 			"collector_number": "88",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/88_Scrying.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/88_Scrying.png"
 			}
 		},
 		{
@@ -3207,7 +3267,7 @@
 			"type": "Sorcery",
 			"collector_number": "58",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/58_Death of the Oracle.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/58_Death of the Oracle.png"
 			}
 		},
 		{
@@ -3217,7 +3277,7 @@
 			"type": "Creature — Goblin Wizard",
 			"collector_number": "154",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/154_Coelys Fantatic.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/154_Coelys Fantatic.png"
 			}
 		},
 		{
@@ -3227,7 +3287,7 @@
 			"type": "Sorcery",
 			"collector_number": "181",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/181_Magic Missile.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/181_Magic Missile.png"
 			}
 		},
 		{
@@ -3237,7 +3297,7 @@
 			"type": "Creature — Goblin",
 			"collector_number": "172",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/172_Goblins of the Red Hand.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/172_Goblins of the Red Hand.png"
 			}
 		},
 		{
@@ -3247,7 +3307,7 @@
 			"type": "Creature — Dwarf Noble",
 			"collector_number": "183",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/183_Malaasan Emissary.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/183_Malaasan Emissary.png"
 			}
 		},
 		{
@@ -3257,7 +3317,7 @@
 			"type": "Creature — Dragon Soldier",
 			"collector_number": "157",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/157_Drachenjäger.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/157_Drachenjäger.png"
 			}
 		},
 		{
@@ -3267,7 +3327,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "184",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/184_Malaasan Pick-Axe.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/184_Malaasan Pick-Axe.png"
 			}
 		},
 		{
@@ -3277,7 +3337,7 @@
 			"type": "Instant",
 			"collector_number": "159",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/159_Drink it Down.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/159_Drink it Down.png"
 			}
 		},
 		{
@@ -3287,7 +3347,7 @@
 			"type": "Instant",
 			"collector_number": "185",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/185_Mine Collapse.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/185_Mine Collapse.png"
 			}
 		},
 		{
@@ -3297,7 +3357,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "189",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/189_Nicki's Blade.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/189_Nicki's Blade.png"
 			}
 		},
 		{
@@ -3307,7 +3367,7 @@
 			"type": "Instant",
 			"collector_number": "205",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/205_Aranya's Intervention.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/205_Aranya's Intervention.png"
 			}
 		},
 		{
@@ -3317,7 +3377,7 @@
 			"type": "Instant",
 			"collector_number": "244",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/244_Volley of Arrows.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/244_Volley of Arrows.png"
 			}
 		},
 		{
@@ -3327,7 +3387,7 @@
 			"type": "Sorcery",
 			"collector_number": "249",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/249_Wyvern Toxin.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/249_Wyvern Toxin.png"
 			}
 		},
 		{
@@ -3337,7 +3397,7 @@
 			"type": "Sorcery",
 			"collector_number": "243",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/243_Unchecked Aggression.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/243_Unchecked Aggression.png"
 			}
 		},
 		{
@@ -3347,7 +3407,7 @@
 			"type": "Sorcery",
 			"collector_number": "214",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/214_Command — Duel.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/214_Command — Duel.png"
 			}
 		},
 		{
@@ -3357,7 +3417,7 @@
 			"type": "Sorcery",
 			"collector_number": "216",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/216_Coordinated Assault.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/216_Coordinated Assault.png"
 			}
 		},
 		{
@@ -3367,7 +3427,7 @@
 			"type": "Instant",
 			"collector_number": "210",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/210_Boon of Fama.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/210_Boon of Fama.png"
 			}
 		},
 		{
@@ -3377,7 +3437,7 @@
 			"type": "Instant",
 			"collector_number": "222",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/222_Enlarge.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/222_Enlarge.png"
 			}
 		},
 		{
@@ -3387,7 +3447,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "247",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/247_Wildshape — Bear.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/247_Wildshape — Bear.png"
 			}
 		},
 		{
@@ -3397,7 +3457,7 @@
 			"type": "Enchantment",
 			"collector_number": "240",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/240_Song of Alyra.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/240_Song of Alyra.png"
 			}
 		},
 		{
@@ -3407,7 +3467,7 @@
 			"type": "Enchantment",
 			"collector_number": "239",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/239_Planar Portal.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/239_Planar Portal.png"
 			}
 		},
 		{
@@ -3417,7 +3477,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "248",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/248_Wildshape — Spider.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/248_Wildshape — Spider.png"
 			}
 		},
 		{
@@ -3427,7 +3487,7 @@
 			"type": "Creature — Elf Druid",
 			"collector_number": "220",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/220_Elven Elder.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/220_Elven Elder.png"
 			}
 		},
 		{
@@ -3437,7 +3497,7 @@
 			"type": "Legendary Creature — Goliath Fighter",
 			"collector_number": "223",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/223_Ewiard, Lord of the Hunt.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/223_Ewiard, Lord of the Hunt.png"
 			}
 		},
 		{
@@ -3447,7 +3507,7 @@
 			"type": "Creature — Elf Fighter",
 			"collector_number": "221",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/221_Elven Warmaster.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/221_Elven Warmaster.png"
 			}
 		},
 		{
@@ -3457,7 +3517,7 @@
 			"type": "Creature — Elf Druid",
 			"collector_number": "204",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/204_Aranya's Adept.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/204_Aranya's Adept.png"
 			}
 		},
 		{
@@ -3467,7 +3527,7 @@
 			"type": "Creature — Elf Cleric",
 			"collector_number": "234",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/234_Life Cleric.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/234_Life Cleric.png"
 			}
 		},
 		{
@@ -3477,7 +3537,7 @@
 			"type": "Creature — Monstrosity",
 			"collector_number": "232",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/232_Kruthik Swarm.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/232_Kruthik Swarm.png"
 			}
 		},
 		{
@@ -3487,7 +3547,7 @@
 			"type": "Creature — Plant Monstrosity",
 			"collector_number": "229",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/229_Grasping Vegetation.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/229_Grasping Vegetation.png"
 			}
 		},
 		{
@@ -3497,7 +3557,7 @@
 			"type": "Creature — Monstrosity",
 			"collector_number": "207",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/207_Basilisk.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/207_Basilisk.png"
 			}
 		},
 		{
@@ -3507,7 +3567,7 @@
 			"type": "Creature — Bear Bird",
 			"collector_number": "238",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/238_Owlbear.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/238_Owlbear.png"
 			}
 		},
 		{
@@ -3517,7 +3577,7 @@
 			"type": "Creature — Dragon",
 			"collector_number": "202",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/202_Adolescent Dragon.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/202_Adolescent Dragon.png"
 			}
 		},
 		{
@@ -3527,7 +3587,7 @@
 			"type": "Creature — Monstrosity",
 			"collector_number": "233",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/233_Kruthik Tunneler.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/233_Kruthik Tunneler.png"
 			}
 		},
 		{
@@ -3537,14 +3597,7 @@
 			"type": "Enchantment — Quest",
 			"collector_number": "71",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/71_Huff vs McDoogal.png"
-			},
-			"back": {
-				"name": "Inopportune Arrest",
-				"type": "Enchantment",
-				"image_uris": {
-					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Inopportune Arrest.png"
-				}
+				"en": "https://mtg-hub/sets/D&D-files/img/71_Huff vs McDoogal.png"
 			}
 		},
 		{
@@ -3554,15 +3607,7 @@
 			"type": "Enchantment — Quest",
 			"collector_number": "169",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/169_Goblin Raid.png"
-
-			},
-			"back": {
-				"name": "Goblin Gang Leader",
-				"type": "Creature — Goblin",
-				"image_uris": {
-					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Goblin Gang Leader.png"
-				}
+				"en": "https://mtg-hub/sets/D&D-files/img/169_Goblin Raid.png"
 			}
 		},
 		{
@@ -3572,14 +3617,7 @@
 			"type": "Enchantment — Quest",
 			"collector_number": "213",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/213_Cleanse the Fanes.png"
-			},
-			"back": {
-				"name": "Blessed Ent",
-				"type": "Creature — Treefolk",
-				"image_uris": {
-					"en": "https://deniedpluto.github.io/sets/D&D-files/img/0_Blessed Ent.png"
-				}
+				"en": "https://mtg-hub/sets/D&D-files/img/213_Cleanse the Fanes.png"
 			}
 		},
 		{
@@ -3589,7 +3627,7 @@
 			"type": "Land — Swamp Forest",
 			"collector_number": "341",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/341_Corpsewood.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/341_Corpsewood.png"
 			}
 		},
 		{
@@ -3599,7 +3637,7 @@
 			"type": "Land — Plains Island",
 			"collector_number": "343",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/343_Eislessi Isle.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/343_Eislessi Isle.png"
 			}
 		},
 		{
@@ -3609,7 +3647,7 @@
 			"type": "Land — Forest Plains",
 			"collector_number": "344",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/344_Et'limi'dak.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/344_Et'limi'dak.png"
 			}
 		},
 		{
@@ -3619,7 +3657,7 @@
 			"type": "Land — Plains Swamp",
 			"collector_number": "347",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/347_Ikbarre Marshes.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/347_Ikbarre Marshes.png"
 			}
 		},
 		{
@@ -3629,7 +3667,7 @@
 			"type": "Land — Forest Island",
 			"collector_number": "349",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/349_Kavedii Islands.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/349_Kavedii Islands.png"
 			}
 		},
 		{
@@ -3639,7 +3677,7 @@
 			"type": "Land — Mountain Island",
 			"collector_number": "352",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/352_Lake Dorn.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/352_Lake Dorn.png"
 			}
 		},
 		{
@@ -3649,7 +3687,7 @@
 			"type": "Land — Island Swamp",
 			"collector_number": "356",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/356_Misty Isles.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/356_Misty Isles.png"
 			}
 		},
 		{
@@ -3659,7 +3697,7 @@
 			"type": "Land — Mountain Forest",
 			"collector_number": "363",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/363_Ovauto Forest.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/363_Ovauto Forest.png"
 			}
 		},
 		{
@@ -3669,7 +3707,7 @@
 			"type": "Land — Swamp Mountain",
 			"collector_number": "366",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/366_Shattered Peaks.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/366_Shattered Peaks.png"
 			}
 		},
 		{
@@ -3679,7 +3717,7 @@
 			"type": "Land — Mountain Plains",
 			"collector_number": "371",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/371_Upper Iron Pass.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/371_Upper Iron Pass.png"
 			}
 		},
 		{
@@ -3689,7 +3727,7 @@
 			"type": "Land",
 			"collector_number": "330",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/330_The Abyss.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/330_The Abyss.png"
 			}
 		},
 		{
@@ -3699,7 +3737,7 @@
 			"type": "Land",
 			"collector_number": "333",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/333_Bastion.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/333_Bastion.png"
 			}
 		},
 		{
@@ -3709,7 +3747,7 @@
 			"type": "Land",
 			"collector_number": "335",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/335_The Beacon.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/335_The Beacon.png"
 			}
 		},
 		{
@@ -3719,7 +3757,7 @@
 			"type": "Land",
 			"collector_number": "337",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/337_The Blightlands.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/337_The Blightlands.png"
 			}
 		},
 		{
@@ -3729,7 +3767,7 @@
 			"type": "Land",
 			"collector_number": "339",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/339_The Cataclysm.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/339_The Cataclysm.png"
 			}
 		},
 		{
@@ -3739,7 +3777,7 @@
 			"type": "Land",
 			"collector_number": "358",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/358_The Moon Grove.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/358_The Moon Grove.png"
 			}
 		},
 		{
@@ -3749,7 +3787,7 @@
 			"type": "Land",
 			"collector_number": "360",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/360_The Nether.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/360_The Nether.png"
 			}
 		},
 		{
@@ -3759,7 +3797,7 @@
 			"type": "Land",
 			"collector_number": "365",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/365_Revalia.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/365_Revalia.png"
 			}
 		},
 		{
@@ -3769,7 +3807,7 @@
 			"type": "Land",
 			"collector_number": "369",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/369_The Tumult.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/369_The Tumult.png"
 			}
 		},
 		{
@@ -3779,12 +3817,12 @@
 			"type": "Land",
 			"collector_number": "373",
 			"image_uris": {
-				"en": "https://deniedpluto.github.io/sets/D&D-files/img/373_The Wilds.png"
+				"en": "https://mtg-hub/sets/D&D-files/img/373_The Wilds.png"
 			}
 		}
 	]
 
-[cube(20)]
+[cube(15)]
 	1 Monument of Heroes
 	1 Kriv, Champion of Heroes
 	1 Mathias, Cursed of Urobu
@@ -3817,9 +3855,11 @@
 	1 Kirk of Clan Daardendrian
 	1 Namfoodle Stumbleduck
 	1 Garmin, Beast's Companion
+	1 Cerberus
 	1 Phaedra the Seeker
 	1 Blade of Olethros
 	1 Master Jarreau
+	1 Rowan, Faithful Squire
 	1 Beatrix, Wily Herbalist
 	1 Nicki, Swashbuckler
 	1 Tammer, Reclusive Scholar
@@ -3891,6 +3931,7 @@
 	1 Dayvroass the Haunted
 	1 Nydissia the Protector
 	1 Tundrayl the Pure
+	1 Spear of Vhalimar
 	1 Captain Morro
 	1 Lydia Brooks
 	1 Hundral the Voiceless
@@ -3988,10 +4029,16 @@
 	1 Hyrum, Last Refuge
 	1 Reject
 	1 Strahd Von Zarovich
+	1 Wesley the Rescued
+	1 Blessed Ent
 	1 Trials of Thadenswel
 	1 Cube of K'nezeret
 	1 Eye of Coelys
+	1 Goblin Gang Leader
+	1 Champions of Thadenswel
+	1 Inopportune Arrest
 	1 Lady Aurelia
+	1 Mazzer, The Rat King
 	1 Dire Wolf Pack
 	1 Sarana, Fists of Fury
 	1 Fleetfoot, Sharpshooter

@@ -8,15 +8,15 @@
         "position": ""
     },
     {
-        "card_name": "Acolyte of Vetys",
-        "number": 40,
+        "card_name": "Inopportune Arrest",
+        "number": 0,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Blood Magic",
+        "card_name": "The Archon of Gold",
         "number": 82,
         "shape": "normal",
         "set": "CEP",
@@ -25,7 +25,7 @@
     },
     {
         "card_name": "Blessing of Alyra",
-        "number": 116,
+        "number": 118,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -48,6 +48,46 @@
         "position": ""
     },
     {
+        "card_name": "Acolyte of Vetys",
+        "number": 40,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Blood Magic",
+        "number": 83,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Caelys's Favor",
+        "number": 119,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Acolyte of Aranya",
+        "number": 151,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Aleana's Mercy",
+        "number": 3,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
         "card_name": "Cone of Cold",
         "number": 41,
         "shape": "normal",
@@ -57,31 +97,31 @@
     },
     {
         "card_name": "Blood Ritual",
-        "number": 83,
+        "number": 84,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Caelys's Favor",
-        "number": 117,
+        "card_name": "Coelys Fantatic",
+        "number": 120,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Acolyte of Aranya",
-        "number": 149,
+        "card_name": "Adolescent Dragon",
+        "number": 152,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Aleana's Mercy",
-        "number": 3,
+        "card_name": "Astral Prison",
+        "number": 4,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -97,46 +137,6 @@
     },
     {
         "card_name": "Blue Flame Candle",
-        "number": 84,
-        "shape": "normal",
-        "set": "CEP",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Coelys Fantatic",
-        "number": 118,
-        "shape": "normal",
-        "set": "CEP",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Adolescent Dragon",
-        "number": 150,
-        "shape": "normal",
-        "set": "CEP",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Astral Prison",
-        "number": 4,
-        "shape": "normal",
-        "set": "CEP",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Cutting Words",
-        "number": 43,
-        "shape": "normal",
-        "set": "CEP",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Charles",
         "number": 85,
         "shape": "normal",
         "set": "CEP",
@@ -145,7 +145,7 @@
     },
     {
         "card_name": "Coelys's Ire",
-        "number": 119,
+        "number": 121,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -153,7 +153,7 @@
     },
     {
         "card_name": "Ara, Reknown Scout",
-        "number": 151,
+        "number": 153,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -168,15 +168,15 @@
         "position": ""
     },
     {
-        "card_name": "Death of the Oracle",
-        "number": 44,
+        "card_name": "Cutting Words",
+        "number": 43,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Cleanse the Bloodlines",
+        "card_name": "Boon of Elos",
         "number": 86,
         "shape": "normal",
         "set": "CEP",
@@ -185,7 +185,7 @@
     },
     {
         "card_name": "Drachenj\u00e4ger",
-        "number": 120,
+        "number": 122,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -193,7 +193,7 @@
     },
     {
         "card_name": "Aranya's Adept",
-        "number": 152,
+        "number": 154,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -208,15 +208,15 @@
         "position": ""
     },
     {
-        "card_name": "Dimension Door",
-        "number": 45,
+        "card_name": "Death of the Oracle",
+        "number": 44,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Dayvroass the Haunted",
+        "card_name": "Charles",
         "number": 87,
         "shape": "normal",
         "set": "CEP",
@@ -225,7 +225,7 @@
     },
     {
         "card_name": "Dragon's Fire",
-        "number": 121,
+        "number": 123,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -233,7 +233,7 @@
     },
     {
         "card_name": "Aranya's Intervention",
-        "number": 153,
+        "number": 155,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -248,15 +248,15 @@
         "position": ""
     },
     {
-        "card_name": "Divination",
-        "number": 46,
+        "card_name": "Dimension Door",
+        "number": 45,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Death Druid",
+        "card_name": "Cleanse the Bloodlines",
         "number": 88,
         "shape": "normal",
         "set": "CEP",
@@ -265,7 +265,7 @@
     },
     {
         "card_name": "Drink it Down",
-        "number": 122,
+        "number": 124,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -273,7 +273,7 @@
     },
     {
         "card_name": "Aurelia's Elites",
-        "number": 154,
+        "number": 156,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -288,15 +288,15 @@
         "position": ""
     },
     {
-        "card_name": "Dominate Monster",
-        "number": 47,
+        "card_name": "Divination",
+        "number": 46,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Desecrate the Temple",
+        "card_name": "Dayvroass the Haunted",
         "number": 89,
         "shape": "normal",
         "set": "CEP",
@@ -305,7 +305,7 @@
     },
     {
         "card_name": "Fane of the Mountain",
-        "number": 123,
+        "number": 125,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -313,7 +313,7 @@
     },
     {
         "card_name": "Basilisk",
-        "number": 155,
+        "number": 157,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -328,15 +328,15 @@
         "position": ""
     },
     {
-        "card_name": "Draconic Ascent",
-        "number": 48,
+        "card_name": "Dominate Monster",
+        "number": 47,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Devilish Imp",
+        "card_name": "Death Druid",
         "number": 90,
         "shape": "normal",
         "set": "CEP",
@@ -345,7 +345,7 @@
     },
     {
         "card_name": "Fire Bolt",
-        "number": 124,
+        "number": 126,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -353,7 +353,7 @@
     },
     {
         "card_name": "Blessings of the Mothertree",
-        "number": 156,
+        "number": 158,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -368,15 +368,15 @@
         "position": ""
     },
     {
-        "card_name": "Fane of the River",
-        "number": 49,
+        "card_name": "Draconic Ascent",
+        "number": 48,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Dictate of Urobu",
+        "card_name": "Desecrate the Temple",
         "number": 91,
         "shape": "normal",
         "set": "CEP",
@@ -385,7 +385,7 @@
     },
     {
         "card_name": "Fireball",
-        "number": 125,
+        "number": 127,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -393,7 +393,7 @@
     },
     {
         "card_name": "Boon of Aranya",
-        "number": 157,
+        "number": 159,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -408,15 +408,15 @@
         "position": ""
     },
     {
-        "card_name": "The Forge of Spells",
-        "number": 50,
+        "card_name": "Fane of the River",
+        "number": 49,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Draconic Purge",
+        "card_name": "Devilish Imp",
         "number": 92,
         "shape": "normal",
         "set": "CEP",
@@ -425,7 +425,7 @@
     },
     {
         "card_name": "The Forge of Elements",
-        "number": 126,
+        "number": 128,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -433,7 +433,7 @@
     },
     {
         "card_name": "Boon of Fama",
-        "number": 158,
+        "number": 160,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -448,15 +448,15 @@
         "position": ""
     },
     {
-        "card_name": "Gift of Vetys",
-        "number": 51,
+        "card_name": "The Forge of Spells",
+        "number": 50,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Dungeon Skeleton",
+        "card_name": "Dictate of Urobu",
         "number": 93,
         "shape": "normal",
         "set": "CEP",
@@ -465,7 +465,7 @@
     },
     {
         "card_name": "Fulcrum",
-        "number": 127,
+        "number": 129,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -473,7 +473,7 @@
     },
     {
         "card_name": "Caravan Raid",
-        "number": 159,
+        "number": 161,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -488,15 +488,15 @@
         "position": ""
     },
     {
-        "card_name": "Grappling Octopus",
-        "number": 52,
+        "card_name": "Gift of Vetys",
+        "number": 51,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Eliath, Doomed Fighter",
+        "card_name": "Draconic Purge",
         "number": 94,
         "shape": "normal",
         "set": "CEP",
@@ -505,7 +505,7 @@
     },
     {
         "card_name": "Fury of the Gods",
-        "number": 128,
+        "number": 130,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -513,7 +513,7 @@
     },
     {
         "card_name": "Cleanse the Fanes",
-        "number": 160,
+        "number": 162,
         "shape": "class",
         "set": "CEP",
         "rotated": false,
@@ -528,15 +528,15 @@
         "position": ""
     },
     {
-        "card_name": "Guard Drake",
-        "number": 53,
+        "card_name": "Grappling Octopus",
+        "number": 52,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Fama's Talon",
+        "card_name": "Dungeon Skeleton",
         "number": 95,
         "shape": "normal",
         "set": "CEP",
@@ -545,7 +545,7 @@
     },
     {
         "card_name": "Gniess, Stonecutter Prime",
-        "number": 129,
+        "number": 131,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -553,7 +553,7 @@
     },
     {
         "card_name": "Command \u2014 Duel",
-        "number": 161,
+        "number": 163,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -568,15 +568,15 @@
         "position": ""
     },
     {
-        "card_name": "High Priest Kaaladeth",
-        "number": 54,
+        "card_name": "Guard Drake",
+        "number": 53,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Gildling",
+        "card_name": "Eliath, Doomed Fighter",
         "number": 96,
         "shape": "normal",
         "set": "CEP",
@@ -585,7 +585,7 @@
     },
     {
         "card_name": "Goblins of the Red Hand",
-        "number": 130,
+        "number": 132,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -593,7 +593,7 @@
     },
     {
         "card_name": "Conjure Animals",
-        "number": 162,
+        "number": 164,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -608,15 +608,15 @@
         "position": ""
     },
     {
-        "card_name": "Hueick, Susceptible Youth",
-        "number": 55,
+        "card_name": "High Priest Kaaladeth",
+        "number": 54,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Hag Coven",
+        "card_name": "Fama's Talon",
         "number": 97,
         "shape": "normal",
         "set": "CEP",
@@ -625,7 +625,7 @@
     },
     {
         "card_name": "The Halcyon",
-        "number": 131,
+        "number": 133,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -633,7 +633,7 @@
     },
     {
         "card_name": "Coordinated Assault",
-        "number": 163,
+        "number": 165,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -648,15 +648,15 @@
         "position": ""
     },
     {
-        "card_name": "Huff vs McDoogal",
-        "number": 56,
-        "shape": "class",
+        "card_name": "Hueick, Susceptible Youth",
+        "number": 55,
+        "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Hellish Rebuke",
+        "card_name": "Gildling",
         "number": 98,
         "shape": "normal",
         "set": "CEP",
@@ -665,7 +665,7 @@
     },
     {
         "card_name": "Idryyth the Flamebringer",
-        "number": 132,
+        "number": 134,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -673,7 +673,7 @@
     },
     {
         "card_name": "Death Ward",
-        "number": 164,
+        "number": 166,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -688,15 +688,15 @@
         "position": ""
     },
     {
-        "card_name": "Invisibility",
-        "number": 57,
-        "shape": "normal",
+        "card_name": "Huff vs McDoogal",
+        "number": 56,
+        "shape": "class",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Inflict Wounds",
+        "card_name": "Hag Coven",
         "number": 99,
         "shape": "normal",
         "set": "CEP",
@@ -705,7 +705,7 @@
     },
     {
         "card_name": "Kythr, Sorrow's Mark",
-        "number": 133,
+        "number": 135,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -713,7 +713,7 @@
     },
     {
         "card_name": "Dire Wolf Pack",
-        "number": 165,
+        "number": 167,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -728,15 +728,15 @@
         "position": ""
     },
     {
-        "card_name": "Invoke Duplicity",
-        "number": 58,
+        "card_name": "Invisibility",
+        "number": 57,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Lanu's Intervention",
+        "card_name": "Hellish Rebuke",
         "number": 100,
         "shape": "normal",
         "set": "CEP",
@@ -745,7 +745,7 @@
     },
     {
         "card_name": "Lord Maalas",
-        "number": 134,
+        "number": 136,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -753,7 +753,7 @@
     },
     {
         "card_name": "Elf Scout",
-        "number": 166,
+        "number": 168,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -768,15 +768,15 @@
         "position": ""
     },
     {
-        "card_name": "Jimmy Beanz",
-        "number": 59,
+        "card_name": "Invoke Duplicity",
+        "number": 58,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Mark for Death",
+        "card_name": "Inflict Wounds",
         "number": 101,
         "shape": "normal",
         "set": "CEP",
@@ -785,7 +785,7 @@
     },
     {
         "card_name": "Magic Missile",
-        "number": 135,
+        "number": 137,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -793,7 +793,7 @@
     },
     {
         "card_name": "Elven Elder",
-        "number": 167,
+        "number": 169,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -808,15 +808,15 @@
         "position": ""
     },
     {
-        "card_name": "King Da'aroc",
-        "number": 60,
+        "card_name": "Jimmy Beanz",
+        "number": 59,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Mysterious Benefactor",
+        "card_name": "Lanu's Intervention",
         "number": 102,
         "shape": "normal",
         "set": "CEP",
@@ -825,7 +825,7 @@
     },
     {
         "card_name": "Malaas War Marshall",
-        "number": 136,
+        "number": 138,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -833,7 +833,7 @@
     },
     {
         "card_name": "Elven Warmaster",
-        "number": 168,
+        "number": 170,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -848,15 +848,15 @@
         "position": ""
     },
     {
-        "card_name": "Library of Vetys",
-        "number": 61,
+        "card_name": "King Da'aroc",
+        "number": 60,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Necromancer's Apprentice",
+        "card_name": "Mark for Death",
         "number": 103,
         "shape": "normal",
         "set": "CEP",
@@ -865,7 +865,7 @@
     },
     {
         "card_name": "Malaasan Emissary",
-        "number": 137,
+        "number": 139,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -873,7 +873,7 @@
     },
     {
         "card_name": "Enlarge",
-        "number": 169,
+        "number": 171,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -888,15 +888,15 @@
         "position": ""
     },
     {
-        "card_name": "Oracle's Insight",
-        "number": 62,
+        "card_name": "Library of Vetys",
+        "number": 61,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Night of Consuming Darkness",
+        "card_name": "Mysterious Benefactor",
         "number": 104,
         "shape": "normal",
         "set": "CEP",
@@ -905,7 +905,7 @@
     },
     {
         "card_name": "Malaasan Pick-Axe",
-        "number": 138,
+        "number": 140,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -913,7 +913,7 @@
     },
     {
         "card_name": "Ewiard, Lord of the Hunt",
-        "number": 170,
+        "number": 172,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -928,15 +928,15 @@
         "position": ""
     },
     {
-        "card_name": "Pierce the Veil",
-        "number": 63,
+        "card_name": "Oracle's Insight",
+        "number": 62,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Olar, The Broken Arrow",
+        "card_name": "Necromancer's Apprentice",
         "number": 105,
         "shape": "normal",
         "set": "CEP",
@@ -945,7 +945,7 @@
     },
     {
         "card_name": "Mine Collapse",
-        "number": 139,
+        "number": 141,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -953,7 +953,7 @@
     },
     {
         "card_name": "Fane of the Forest",
-        "number": 171,
+        "number": 173,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -968,15 +968,15 @@
         "position": ""
     },
     {
-        "card_name": "Professor Arden",
-        "number": 64,
+        "card_name": "Pierce the Veil",
+        "number": 63,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Olethros the Destroyer",
+        "card_name": "Night of Consuming Darkness",
         "number": 106,
         "shape": "normal",
         "set": "CEP",
@@ -985,7 +985,7 @@
     },
     {
         "card_name": "Price of Loyalty",
-        "number": 140,
+        "number": 142,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -993,7 +993,7 @@
     },
     {
         "card_name": "Fleetfoot, Sharpshooter",
-        "number": 172,
+        "number": 174,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1008,15 +1008,15 @@
         "position": ""
     },
     {
-        "card_name": "Protection from Evil and Good",
-        "number": 65,
+        "card_name": "Professor Arden",
+        "number": 64,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Remove Curse",
+        "card_name": "Olar, The Broken Arrow",
         "number": 107,
         "shape": "normal",
         "set": "CEP",
@@ -1025,7 +1025,7 @@
     },
     {
         "card_name": "The Prosperity",
-        "number": 141,
+        "number": 143,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1033,7 +1033,7 @@
     },
     {
         "card_name": "The Forge of Life",
-        "number": 173,
+        "number": 175,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1048,15 +1048,15 @@
         "position": ""
     },
     {
-        "card_name": "Reject",
-        "number": 66,
+        "card_name": "Protection from Evil and Good",
+        "number": 65,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Ritual Sacrifice",
+        "card_name": "Olethros the Destroyer",
         "number": 108,
         "shape": "normal",
         "set": "CEP",
@@ -1065,7 +1065,7 @@
     },
     {
         "card_name": "Rovari, Magic Weaver",
-        "number": 142,
+        "number": 144,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1073,7 +1073,7 @@
     },
     {
         "card_name": "Glamstol, Crafty Herbalist",
-        "number": 174,
+        "number": 176,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1088,15 +1088,15 @@
         "position": ""
     },
     {
-        "card_name": "Sahuaghin",
-        "number": 67,
+        "card_name": "Reject",
+        "number": 66,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Shaedrun, the Necromancer",
+        "card_name": "Remove Curse",
         "number": 109,
         "shape": "normal",
         "set": "CEP",
@@ -1105,7 +1105,7 @@
     },
     {
         "card_name": "Scorching Ray",
-        "number": 143,
+        "number": 145,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1113,7 +1113,7 @@
     },
     {
         "card_name": "Grasping Vegetation",
-        "number": 175,
+        "number": 177,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1128,15 +1128,15 @@
         "position": ""
     },
     {
-        "card_name": "Sahuaghin Artillerist",
-        "number": 68,
+        "card_name": "Sahuaghin",
+        "number": 67,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Shaedrun's Gambit",
+        "card_name": "Ritual Sacrifice",
         "number": 110,
         "shape": "normal",
         "set": "CEP",
@@ -1145,7 +1145,7 @@
     },
     {
         "card_name": "Scyruss, Forge Master",
-        "number": 144,
+        "number": 146,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1153,7 +1153,7 @@
     },
     {
         "card_name": "Karda, Revolutionary",
-        "number": 176,
+        "number": 178,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1168,15 +1168,15 @@
         "position": ""
     },
     {
-        "card_name": "Sahuaghin Commander",
-        "number": 69,
+        "card_name": "Sahuaghin Artillerist",
+        "number": 68,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Shambling Necromass",
+        "card_name": "Shaedrun, the Necromancer",
         "number": 111,
         "shape": "normal",
         "set": "CEP",
@@ -1185,7 +1185,7 @@
     },
     {
         "card_name": "Wardog",
-        "number": 145,
+        "number": 147,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1193,7 +1193,7 @@
     },
     {
         "card_name": "King Saakala",
-        "number": 177,
+        "number": 179,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1208,15 +1208,15 @@
         "position": ""
     },
     {
-        "card_name": "Sahuaghin Fury",
-        "number": 70,
+        "card_name": "Sahuaghin Commander",
+        "number": 69,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Soul Diversion",
+        "card_name": "Shaedrun's Gambit",
         "number": 112,
         "shape": "normal",
         "set": "CEP",
@@ -1225,7 +1225,7 @@
     },
     {
         "card_name": "The Wiggumstaff Incident",
-        "number": 146,
+        "number": 148,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1233,7 +1233,7 @@
     },
     {
         "card_name": "Kruthik Swarm",
-        "number": 178,
+        "number": 180,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1248,15 +1248,15 @@
         "position": ""
     },
     {
-        "card_name": "Saw it Coming",
-        "number": 71,
+        "card_name": "Sahuaghin Fury",
+        "number": 70,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Spare the Dying",
+        "card_name": "Shambling Necromass",
         "number": 113,
         "shape": "normal",
         "set": "CEP",
@@ -1265,7 +1265,7 @@
     },
     {
         "card_name": "Worker's Union",
-        "number": 147,
+        "number": 149,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1273,7 +1273,7 @@
     },
     {
         "card_name": "Kruthik Tunneler",
-        "number": 179,
+        "number": 181,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1288,24 +1288,24 @@
         "position": ""
     },
     {
-        "card_name": "Secrets of Tathys",
-        "number": 72,
+        "card_name": "Saw it Coming",
+        "number": 71,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Staff of the Blightree",
+        "card_name": "Soul Diversion",
         "number": 114,
-        "shape": "planeswalker",
+        "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
         "card_name": "Wrathful Smite",
-        "number": 148,
+        "number": 150,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1313,7 +1313,7 @@
     },
     {
         "card_name": "Life Cleric",
-        "number": 180,
+        "number": 182,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1328,15 +1328,15 @@
         "position": ""
     },
     {
-        "card_name": "Tathys's Silencer",
-        "number": 73,
+        "card_name": "Secrets of Tathys",
+        "number": 72,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Undead Elk",
+        "card_name": "Spare the Dying",
         "number": 115,
         "shape": "normal",
         "set": "CEP",
@@ -1348,7 +1348,7 @@
     },
     {
         "card_name": "Nydissia the Protector",
-        "number": 181,
+        "number": 183,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1363,9 +1363,17 @@
         "position": ""
     },
     {
-        "card_name": "Tidal Wave",
-        "number": 74,
+        "card_name": "Tathys's Silencer",
+        "number": 73,
         "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Staff of the Blightree",
+        "number": 116,
+        "shape": "planeswalker",
         "set": "CEP",
         "rotated": false,
         "position": ""
@@ -1374,11 +1382,8 @@
         "card_name": "e"
     },
     {
-        "card_name": "e"
-    },
-    {
         "card_name": "Owlbear",
-        "number": 182,
+        "number": 184,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1387,6 +1392,41 @@
     {
         "card_name": "Tundrayl the Pure",
         "number": 36,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Tidal Wave",
+        "number": 74,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Undead Elk",
+        "number": 117,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Planar Portal",
+        "number": 185,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Urwin Brighstar, Guild Founder",
+        "number": 37,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1407,16 +1447,16 @@
         "card_name": "e"
     },
     {
-        "card_name": "Planar Portal",
-        "number": 183,
+        "card_name": "Song of Alyra",
+        "number": 186,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Urwin Brighstar, Guild Founder",
-        "number": 37,
+        "card_name": "Wall Guard Recruiter",
+        "number": 38,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1437,16 +1477,16 @@
         "card_name": "e"
     },
     {
-        "card_name": "Song of Alyra",
-        "number": 184,
-        "shape": "normal",
+        "card_name": "Staff of the Mothertree",
+        "number": 187,
+        "shape": "planeswalker",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Wall Guard Recruiter",
-        "number": 38,
+        "card_name": "Wartime Financier",
+        "number": 39,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1467,20 +1507,15 @@
         "card_name": "e"
     },
     {
-        "card_name": "Staff of the Mothertree",
-        "number": 185,
-        "shape": "planeswalker",
+        "card_name": "Unchecked Aggression",
+        "number": 188,
+        "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Wartime Financier",
-        "number": 39,
-        "shape": "normal",
-        "set": "CEP",
-        "rotated": false,
-        "position": ""
+        "card_name": "e"
     },
     {
         "card_name": "Wall of Force",
@@ -1497,8 +1532,8 @@
         "card_name": "e"
     },
     {
-        "card_name": "Unchecked Aggression",
-        "number": 186,
+        "card_name": "Volley of Arrows",
+        "number": 189,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1522,8 +1557,8 @@
         "card_name": "e"
     },
     {
-        "card_name": "Volley of Arrows",
-        "number": 187,
+        "card_name": "Wildshape \u2014 Bear",
+        "number": 190,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1547,8 +1582,8 @@
         "card_name": "e"
     },
     {
-        "card_name": "Wildshape \u2014 Bear",
-        "number": 188,
+        "card_name": "Wildshape \u2014 Spider",
+        "number": 191,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1572,28 +1607,8 @@
         "card_name": "e"
     },
     {
-        "card_name": "Wildshape \u2014 Spider",
-        "number": 189,
-        "shape": "normal",
-        "set": "CEP",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
         "card_name": "Wyvern Toxin",
-        "number": 190,
+        "number": 192,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1613,7 +1628,7 @@
     },
     {
         "card_name": "Yanna the Ill-Fated",
-        "number": 191,
+        "number": 193,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1634,7 +1649,7 @@
     "a->gold",
     {
         "card_name": "Blessing of the Moon",
-        "number": 214,
+        "number": 216,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1642,7 +1657,7 @@
     },
     {
         "card_name": "Irdel the Pursued",
-        "number": 202,
+        "number": 204,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1650,7 +1665,7 @@
     },
     {
         "card_name": "Granite, Elos' Vengeance",
-        "number": 199,
+        "number": 201,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1658,7 +1673,7 @@
     },
     {
         "card_name": "Lady Aurelia",
-        "number": 206,
+        "number": 208,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1666,7 +1681,7 @@
     },
     {
         "card_name": "Hyrum, Last Refuge",
-        "number": 201,
+        "number": 203,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1680,7 +1695,7 @@
     },
     {
         "card_name": "His Opulence IV",
-        "number": 200,
+        "number": 202,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1691,7 +1706,7 @@
     },
     {
         "card_name": "Kinzine the Lifegiver",
-        "number": 205,
+        "number": 207,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1705,7 +1720,7 @@
     },
     {
         "card_name": "Justice, Reborn",
-        "number": 203,
+        "number": 205,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1725,7 +1740,7 @@
     },
     {
         "card_name": "Vas Asareen",
-        "number": 210,
+        "number": 212,
         "shape": "planeswalker",
         "set": "CEP",
         "rotated": false,
@@ -1754,46 +1769,6 @@
     },
     {
         "card_name": "Arrynth, Lord of Death",
-        "number": 193,
-        "shape": "normal",
-        "set": "CEP",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Pyrrydoss the Unbroken",
-        "number": 207,
-        "shape": "normal",
-        "set": "CEP",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Keldath the Scourge",
-        "number": 204,
-        "shape": "normal",
-        "set": "CEP",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Aipa the Ancient",
-        "number": 192,
-        "shape": "normal",
-        "set": "CEP",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Dryad Grove",
-        "number": 196,
-        "shape": "normal",
-        "set": "CEP",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Captain Lebrode",
         "number": 195,
         "shape": "normal",
         "set": "CEP",
@@ -1801,31 +1776,31 @@
         "position": ""
     },
     {
-        "card_name": "Chaos Bolt",
-        "number": 218,
+        "card_name": "Pyrrydoss the Unbroken",
+        "number": 209,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Syosa, Raving Dragon",
-        "number": 208,
+        "card_name": "Keldath the Scourge",
+        "number": 206,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Emir, Fists of Fury",
-        "number": 197,
+        "card_name": "Aipa the Ancient",
+        "number": 194,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Explore the Outlands",
+        "card_name": "Dryad Grove",
         "number": 198,
         "shape": "normal",
         "set": "CEP",
@@ -1833,8 +1808,48 @@
         "position": ""
     },
     {
+        "card_name": "Captain Lebrode",
+        "number": 197,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Chaos Bolt",
+        "number": 220,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Syosa, Raving Dragon",
+        "number": 210,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Emir, Fists of Fury",
+        "number": 199,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Explore the Outlands",
+        "number": 200,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
         "card_name": "Urobu, Judge of Souls",
-        "number": 225,
+        "number": 227,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1845,7 +1860,7 @@
     },
     {
         "card_name": "Sorsha, Restrained",
-        "number": 223,
+        "number": 225,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1853,7 +1868,7 @@
     },
     {
         "card_name": "Aleana, Faith's Shield",
-        "number": 211,
+        "number": 213,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1861,7 +1876,7 @@
     },
     {
         "card_name": "Tammer, Reclusive Scholar",
-        "number": 209,
+        "number": 211,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1881,7 +1896,7 @@
     },
     {
         "card_name": "Bressio and Vynne, Twins",
-        "number": 215,
+        "number": 217,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1904,7 +1919,7 @@
     },
     {
         "card_name": "Tathys, Keeper of Secrets",
-        "number": 224,
+        "number": 226,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1912,7 +1927,7 @@
     },
     {
         "card_name": "Coelys, Chaos Incarnate",
-        "number": 219,
+        "number": 221,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1920,7 +1935,7 @@
     },
     {
         "card_name": "Elos, God of War",
-        "number": 220,
+        "number": 222,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1928,7 +1943,7 @@
     },
     {
         "card_name": "Alyra, Oracle's Muse",
-        "number": 212,
+        "number": 214,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1936,7 +1951,7 @@
     },
     {
         "card_name": "Vetys, Beacon of Knowledge",
-        "number": 226,
+        "number": 228,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1959,7 +1974,7 @@
     },
     {
         "card_name": "Cadrea, God of the Forge",
-        "number": 216,
+        "number": 218,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1967,7 +1982,7 @@
     },
     {
         "card_name": "Aranya, Nature's Queen",
-        "number": 213,
+        "number": 215,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1975,7 +1990,7 @@
     },
     {
         "card_name": "Lanu, Moon Trickster",
-        "number": 222,
+        "number": 224,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1983,7 +1998,7 @@
     },
     {
         "card_name": "Caelys the Gilded",
-        "number": 217,
+        "number": 219,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -1991,7 +2006,7 @@
     },
     {
         "card_name": "Fama, Assassin Favored",
-        "number": 221,
+        "number": 223,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -2014,7 +2029,7 @@
     },
     {
         "card_name": "Ayleia Progenitor",
-        "number": 194,
+        "number": 196,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -2047,7 +2062,7 @@
     "a->colorless",
     {
         "card_name": "Soul Steel Dagger",
-        "number": 227,
+        "number": 229,
         "shape": "planeswalker",
         "set": "CEP",
         "rotated": false,
@@ -2082,7 +2097,7 @@
     },
     {
         "card_name": "Eislessi Isle",
-        "number": 241,
+        "number": 242,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -2090,7 +2105,7 @@
     },
     {
         "card_name": "Misty Isles",
-        "number": 251,
+        "number": 253,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -2098,7 +2113,7 @@
     },
     {
         "card_name": "Shattered Peaks",
-        "number": 260,
+        "number": 263,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -2106,7 +2121,7 @@
     },
     {
         "card_name": "Ovauto Forest",
-        "number": 257,
+        "number": 258,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -2114,7 +2129,7 @@
     },
     {
         "card_name": "Et'limi'dak",
-        "number": 243,
+        "number": 245,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -2137,7 +2152,7 @@
     },
     {
         "card_name": "Ikbarre Marshes",
-        "number": 245,
+        "number": 246,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -2145,7 +2160,7 @@
     },
     {
         "card_name": "Lake Dorn",
-        "number": 249,
+        "number": 251,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -2153,7 +2168,7 @@
     },
     {
         "card_name": "Corpsewood",
-        "number": 238,
+        "number": 240,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -2161,7 +2176,7 @@
     },
     {
         "card_name": "Upper Iron Pass",
-        "number": 265,
+        "number": 267,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -2169,7 +2184,7 @@
     },
     {
         "card_name": "Kavedii Islands",
-        "number": 247,
+        "number": 249,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -2192,14 +2207,6 @@
     },
     {
         "card_name": "The Abyss",
-        "number": 229,
-        "shape": "normal",
-        "set": "CEP",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Bastion",
         "number": 231,
         "shape": "normal",
         "set": "CEP",
@@ -2207,7 +2214,7 @@
         "position": ""
     },
     {
-        "card_name": "The Beacon",
+        "card_name": "Bastion",
         "number": 233,
         "shape": "normal",
         "set": "CEP",
@@ -2215,7 +2222,7 @@
         "position": ""
     },
     {
-        "card_name": "The Blightlands",
+        "card_name": "The Beacon",
         "number": 235,
         "shape": "normal",
         "set": "CEP",
@@ -2223,8 +2230,16 @@
         "position": ""
     },
     {
+        "card_name": "The Blightlands",
+        "number": 237,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
         "card_name": "The Cataclysm",
-        "number": 236,
+        "number": 239,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -2232,14 +2247,6 @@
     },
     {
         "card_name": "The Moon Grove",
-        "number": 252,
-        "shape": "normal",
-        "set": "CEP",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "The Nether",
         "number": 255,
         "shape": "normal",
         "set": "CEP",
@@ -2247,8 +2254,16 @@
         "position": ""
     },
     {
+        "card_name": "The Nether",
+        "number": 256,
+        "shape": "normal",
+        "set": "CEP",
+        "rotated": false,
+        "position": ""
+    },
+    {
         "card_name": "Revalia",
-        "number": 259,
+        "number": 261,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -2256,7 +2271,7 @@
     },
     {
         "card_name": "The Tumult",
-        "number": 263,
+        "number": 265,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
@@ -2264,7 +2279,7 @@
     },
     {
         "card_name": "The Wilds",
-        "number": 267,
+        "number": 269,
         "shape": "normal",
         "set": "CEP",
         "rotated": false,
