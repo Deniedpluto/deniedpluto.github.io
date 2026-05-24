@@ -21,153 +21,23 @@
 			}
 		},
 		{
+			"name": "Counterspell",
+			"rarity": "special",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/3_Counterspell.png"
+			}
+		},
+		{
 			"name": "Scrying",
 			"rarity": "special",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "3",
+			"collector_number": "4",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/3_Scrying.png"
-			}
-		},
-		{
-			"name": "Blinksy, Toymaker",
-			"rarity": "special",
-			"mana_cost": "{B}",
-			"type": "Legendary Creature — Human Artificer",
-			"collector_number": "5",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/5_Blinksy, Toymaker.png"
-			}
-		},
-		{
-			"name": "Book of Victims",
-			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Legendary Artifact",
-			"collector_number": "6",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/6_Book of Victims.png"
-			}
-		},
-		{
-			"name": "Dark Gift",
-			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Enchantment",
-			"collector_number": "7",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/7_Dark Gift.png"
-			}
-		},
-		{
-			"name": "Drown in the Lake",
-			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Sorcery",
-			"collector_number": "8",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/8_Drown in the Lake.png"
-			}
-		},
-		{
-			"name": "Revenant",
-			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Creature — Zombie Paladin",
-			"collector_number": "9",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/9_Revenant.png"
-			}
-		},
-		{
-			"name": "Vampire Spawn",
-			"rarity": "special",
-			"mana_cost": "{2}{B}",
-			"type": "Creature — Vampire",
-			"collector_number": "10",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/10_Vampire Spawn.png"
-			}
-		},
-		{
-			"name": "Vladimir & Godfrey, Reunited",
-			"rarity": "special",
-			"mana_cost": "{3}{B}",
-			"type": "Legendary Creature — Zombie Paladin",
-			"collector_number": "11",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/11_Vladimir & Godfrey, Reunited.png"
-			}
-		},
-		{
-			"name": "Minnesota, Impulsive Planner",
-			"rarity": "special",
-			"mana_cost": "{U}{R}",
-			"type": "Legendary Creature — Human Wizard",
-			"collector_number": "12",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/12_Minnesota, Impulsive Planner.png"
-			}
-		},
-		{
-			"name": "Strahd Von Zarovich",
-			"rarity": "special",
-			"mana_cost": "{3}{U}{B}",
-			"type": "Legendary Creature — Vampire Wizard",
-			"collector_number": "13",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/13_Strahd Von Zarovich.png"
-			}
-		},
-		{
-			"name": "Zas, Barbarian Scholar",
-			"rarity": "special",
-			"mana_cost": "{1}{R}{G}",
-			"type": "Legendary Creature — Orc Barbarian",
-			"collector_number": "14",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/14_Zas, Barbarian Scholar.png"
-			}
-		},
-		{
-			"name": "Clif, Chilled Tortle",
-			"rarity": "special",
-			"mana_cost": "{2}{G/W}",
-			"type": "Legendary Creature — Turtle Cleric",
-			"collector_number": "15",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/15_Clif, Chilled Tortle.png"
-			}
-		},
-		{
-			"name": "Harlston, Grappling Pugilist",
-			"rarity": "special",
-			"mana_cost": "{3}{R/W}",
-			"type": "Legendary Creature — Dwarf Fighter",
-			"collector_number": "16",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/16_Harlston, Grappling Pugilist.png"
-			}
-		},
-		{
-			"name": "Animated Armor",
-			"rarity": "special",
-			"mana_cost": "{3}",
-			"type": "Artifact Creature — Construct",
-			"collector_number": "17",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/17_Animated Armor.png"
-			}
-		},
-		{
-			"name": "Zas's Battleaxe",
-			"rarity": "special",
-			"mana_cost": "{2}",
-			"type": "Legendary Artifact — Equipment",
-			"collector_number": "18",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/18_Zas's Battleaxe.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/4_Scrying.png"
 			}
 		},
 		{
@@ -175,9 +45,179 @@
 			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Instant",
-			"collector_number": "4",
+			"collector_number": "5",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CoS-files/img/4_Tarroka Reading.png"
+				"en": "https://mtg-hub/sets/CoS-files/img/5_Tarroka Reading.png"
+			}
+		},
+		{
+			"name": "Blinksy, Toymaker",
+			"rarity": "special",
+			"mana_cost": "{B}",
+			"type": "Legendary Creature — Human Artificer",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/6_Blinksy, Toymaker.png"
+			}
+		},
+		{
+			"name": "Book of Victims",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Artifact",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/7_Book of Victims.png"
+			}
+		},
+		{
+			"name": "Dark Gift",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/8_Dark Gift.png"
+			}
+		},
+		{
+			"name": "Drown in the Lake",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/9_Drown in the Lake.png"
+			}
+		},
+		{
+			"name": "Revenant",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie Paladin",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/10_Revenant.png"
+			}
+		},
+		{
+			"name": "Vampire Spawn",
+			"rarity": "special",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Vampire",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/11_Vampire Spawn.png"
+			}
+		},
+		{
+			"name": "Vladimir & Godfrey, Reunited",
+			"rarity": "special",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Creature — Zombie Paladin",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/12_Vladimir & Godfrey, Reunited.png"
+			}
+		},
+		{
+			"name": "Magic Missile",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/13_Magic Missile.png"
+			}
+		},
+		{
+			"name": "Dire Wolf Pack",
+			"rarity": "special",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Wolf",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/14_Dire Wolf Pack.png"
+			}
+		},
+		{
+			"name": "Unchecked Aggression",
+			"rarity": "special",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/15_Unchecked Aggression.png"
+			}
+		},
+		{
+			"name": "Minnesota, Impulsive Planner",
+			"rarity": "special",
+			"mana_cost": "{U}{R}",
+			"type": "Legendary Creature — Human Wizard",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/16_Minnesota, Impulsive Planner.png"
+			}
+		},
+		{
+			"name": "Strahd Von Zarovich",
+			"rarity": "special",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Legendary Creature — Vampire Wizard",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/17_Strahd Von Zarovich.png"
+			}
+		},
+		{
+			"name": "Zas, Barbarian Scholar",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Creature — Orc Barbarian",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/18_Zas, Barbarian Scholar.png"
+			}
+		},
+		{
+			"name": "Clif, Chilled Tortle",
+			"rarity": "special",
+			"mana_cost": "{2}{G/W}",
+			"type": "Legendary Creature — Turtle Cleric",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/19_Clif, Chilled Tortle.png"
+			}
+		},
+		{
+			"name": "Harlston, Grappling Pugilist",
+			"rarity": "special",
+			"mana_cost": "{3}{R/W}",
+			"type": "Legendary Creature — Dwarf Fighter",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/20_Harlston, Grappling Pugilist.png"
+			}
+		},
+		{
+			"name": "Animated Armor",
+			"rarity": "special",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/21_Animated Armor.png"
+			}
+		},
+		{
+			"name": "Zas's Battleaxe",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CoS-files/img/22_Zas's Battleaxe.png"
 			}
 		}
 	]
@@ -185,7 +225,9 @@
 [cube(15)]
 	1 March of the the Dead
 	1 Arabel, Seer Prodigy
+	1 Counterspell
 	1 Scrying
+	1 Tarroka Reading
 	1 Blinksy, Toymaker
 	1 Book of Victims
 	1 Dark Gift
@@ -193,6 +235,9 @@
 	1 Revenant
 	1 Vampire Spawn
 	1 Vladimir & Godfrey, Reunited
+	1 Magic Missile
+	1 Dire Wolf Pack
+	1 Unchecked Aggression
 	1 Minnesota, Impulsive Planner
 	1 Strahd Von Zarovich
 	1 Zas, Barbarian Scholar
@@ -200,4 +245,3 @@
 	1 Harlston, Grappling Pugilist
 	1 Animated Armor
 	1 Zas's Battleaxe
-	1 Tarroka Reading

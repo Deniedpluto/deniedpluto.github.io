@@ -21,16 +21,6 @@
 			}
 		},
 		{
-			"name": "Captain Laos",
-			"rarity": "special",
-			"mana_cost": "{1}{U}",
-			"type": "Legendary Creature — Elf Pirate",
-			"collector_number": "3",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/TLD-files/img/3_Captain Laos.png"
-			}
-		},
-		{
 			"name": "Blessing of Water",
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
@@ -41,6 +31,16 @@
 			}
 		},
 		{
+			"name": "Captain Laos",
+			"rarity": "special",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Elf Pirate",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/TLD-files/img/3_Captain Laos.png"
+			}
+		},
+		{
 			"name": "First Mate Addus",
 			"rarity": "special",
 			"mana_cost": "{1}{U}",
@@ -48,56 +48,6 @@
 			"collector_number": "4",
 			"image_uris": {
 				"en": "https://mtg-hub/sets/TLD-files/img/4_First Mate Addus.png"
-			}
-		},
-		{
-			"name": "Luster, War-Scarred",
-			"rarity": "special",
-			"mana_cost": "{2}{B}{R}",
-			"type": "Legendary Creature — Human Fighter",
-			"collector_number": "10",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/TLD-files/img/10_Luster, War-Scarred.png"
-			}
-		},
-		{
-			"name": "Blade of Blood",
-			"rarity": "special",
-			"mana_cost": "{3}",
-			"type": "Legendary Artifact — Equipment",
-			"collector_number": "12",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/TLD-files/img/12_Blade of Blood.png"
-			}
-		},
-		{
-			"name": "Elemental Orb of Earth",
-			"rarity": "special",
-			"mana_cost": "{2}",
-			"type": "Legendary Artifact — Elemental Orb",
-			"collector_number": "17",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/TLD-files/img/17_Elemental Orb of Earth.png"
-			}
-		},
-		{
-			"name": "Judge & Executioner",
-			"rarity": "special",
-			"mana_cost": "{2}",
-			"type": "Legendary Artifact — Equipment",
-			"collector_number": "21",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/TLD-files/img/21_Judge & Executioner.png"
-			}
-		},
-		{
-			"name": "Jury",
-			"rarity": "special",
-			"mana_cost": "{3}",
-			"type": "Legendary Artifact — Equipment",
-			"collector_number": "22",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/TLD-files/img/22_Jury.png"
 			}
 		},
 		{
@@ -131,6 +81,16 @@
 			}
 		},
 		{
+			"name": "Iskael, Lord of Shadows",
+			"rarity": "special",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Legendary Creature — Human Elf Rogue",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/TLD-files/img/8_Iskael, Lord of Shadows.png"
+			}
+		},
+		{
 			"name": "Kildrak, Life's Spring",
 			"rarity": "special",
 			"mana_cost": "{3}{G}{W}",
@@ -141,13 +101,13 @@
 			}
 		},
 		{
-			"name": "Elemental Orb of Water",
+			"name": "Luster, War-Scarred",
 			"rarity": "special",
-			"mana_cost": "{2}",
-			"type": "Legendary Artifact — Elemental Orb",
-			"collector_number": "19",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Human Fighter",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/TLD-files/img/19_Elemental Orb of Water.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/10_Luster, War-Scarred.png"
 			}
 		},
 		{
@@ -161,23 +121,13 @@
 			}
 		},
 		{
-			"name": "Breastplate of Kyrios",
+			"name": "Blade of Blood",
 			"rarity": "special",
-			"mana_cost": "{4}",
+			"mana_cost": "{3}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "14",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/TLD-files/img/14_Breastplate of Kyrios.png"
-			}
-		},
-		{
-			"name": "Elemental Orb of Fire",
-			"rarity": "special",
-			"mana_cost": "{2}",
-			"type": "Legendary Artifact — Elemental Orb",
-			"collector_number": "18",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/TLD-files/img/18_Elemental Orb of Fire.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/12_Blade of Blood.png"
 			}
 		},
 		{
@@ -191,33 +141,13 @@
 			}
 		},
 		{
-			"name": "Helm of Kyrios",
+			"name": "Breastplate of Kyrios",
 			"rarity": "special",
-			"mana_cost": "{3}",
+			"mana_cost": "{4}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "20",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/TLD-files/img/20_Helm of Kyrios.png"
-			}
-		},
-		{
-			"name": "Sword of Kyrios",
-			"rarity": "special",
-			"mana_cost": "{5}",
-			"type": "Legendary Artifact — Equipment",
-			"collector_number": "23",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/TLD-files/img/23_Sword of Kyrios.png"
-			}
-		},
-		{
-			"name": "Iskael, Lord of Shadows",
-			"rarity": "special",
-			"mana_cost": "{3}{U}{B}",
-			"type": "Legendary Creature — Human Elf Rogue",
-			"collector_number": "8",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/TLD-files/img/8_Iskael, Lord of Shadows.png"
+				"en": "https://mtg-hub/sets/TLD-files/img/14_Breastplate of Kyrios.png"
 			}
 		},
 		{
@@ -239,31 +169,101 @@
 			"image_uris": {
 				"en": "https://mtg-hub/sets/TLD-files/img/16_Elemental Orb of Darkness.png"
 			}
+		},
+		{
+			"name": "Elemental Orb of Earth",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Elemental Orb",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/TLD-files/img/17_Elemental Orb of Earth.png"
+			}
+		},
+		{
+			"name": "Elemental Orb of Fire",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Elemental Orb",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/TLD-files/img/18_Elemental Orb of Fire.png"
+			}
+		},
+		{
+			"name": "Elemental Orb of Water",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Elemental Orb",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/TLD-files/img/19_Elemental Orb of Water.png"
+			}
+		},
+		{
+			"name": "Helm of Kyrios",
+			"rarity": "special",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/TLD-files/img/20_Helm of Kyrios.png"
+			}
+		},
+		{
+			"name": "Judge & Executioner",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/TLD-files/img/21_Judge & Executioner.png"
+			}
+		},
+		{
+			"name": "Jury",
+			"rarity": "special",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/TLD-files/img/22_Jury.png"
+			}
+		},
+		{
+			"name": "Sword of Kyrios",
+			"rarity": "special",
+			"mana_cost": "{5}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/TLD-files/img/23_Sword of Kyrios.png"
+			}
 		}
 	]
 
 [cube(15)]
 	1 Champions of Thadenswel
 	1 Trials of Thadenswel
-	1 Captain Laos
 	1 Blessing of Water
+	1 Captain Laos
 	1 First Mate Addus
-	1 Luster, War-Scarred
-	1 Blade of Blood
-	1 Elemental Orb of Earth
-	1 Judge & Executioner
-	1 Jury
 	1 Sea Spawn
 	1 Darkling Elder
 	1 Darkling Scout
-	1 Kildrak, Life's Spring
-	1 Elemental Orb of Water
-	1 Kriv, Champion of Heroes
-	1 Breastplate of Kyrios
-	1 Elemental Orb of Fire
-	1 Boots of Kyrios
-	1 Helm of Kyrios
-	1 Sword of Kyrios
 	1 Iskael, Lord of Shadows
+	1 Kildrak, Life's Spring
+	1 Luster, War-Scarred
+	1 Kriv, Champion of Heroes
+	1 Blade of Blood
+	1 Boots of Kyrios
+	1 Breastplate of Kyrios
 	1 Elemental Orb of Air
 	1 Elemental Orb of Darkness
+	1 Elemental Orb of Earth
+	1 Elemental Orb of Fire
+	1 Elemental Orb of Water
+	1 Helm of Kyrios
+	1 Judge & Executioner
+	1 Jury
+	1 Sword of Kyrios

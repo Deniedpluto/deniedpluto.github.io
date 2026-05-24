@@ -23,7 +23,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Kriv, Champion of Heroes",
@@ -33,8 +33,8 @@
             "number": 299,
             "color_identity": "WR",
             "cost": "{3}{RW}{RW}",
-            "rules_text": "Vigilance\nBoast \u2014 {1}{R}: Kriv, Champion of Heroes deals 3 damage to target creature. [i](Activate this ability only if this creature attacked this turn and only once each turn.)[/i]\nOther creatures you control get +1/+1",
-            "flavor_text": "[i]Only those who are worthy may wield the armor of Kryios[/i]",
+            "rules_text": "Vigilance\nBoast \u2014 {1}{R}: Kriv, Champion of Heroes deals 3 damage to target creature. [i](Activate only if this creature attacked this turn and only once each turn.)[/i]\nOther creatures you control get +1/+1",
+            "flavor_text": "[i]His name is rises with the flames[/i]",
             "pt": "5/5",
             "special_text": "",
             "shape": "normal",
@@ -42,7 +42,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Mathias, Cursed of Urobu",
@@ -61,7 +61,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "The Professor",
@@ -71,7 +71,7 @@
             "number": 305,
             "color_identity": "BG",
             "cost": "{2}{BG}",
-            "rules_text": "Nemesis [i](You may only control one creature or Planeswalker with Nemesis.)[/i]\nAt the beginning of your upkeep create a 1/1 Homunculus creature token with mutate. Creatures in your hand have mutate.",
+            "rules_text": "Nemesis [i](You may only control one creature or Planeswalker with Nemesis.)[/i]\nAt the beginning of your upkeep create a 1/1 Homunculus creature token with mutate. \nCreatures in your hand have mutate.",
             "flavor_text": "[i]Among the gild, only Vas Asareen was more feared.[/i]",
             "pt": "2/3",
             "special_text": "",
@@ -80,7 +80,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Vas Asareen",
@@ -94,12 +94,12 @@
             "flavor_text": "[i]Draw a card and lose 1 life[/i]",
             "pt": "",
             "special_text": "",
-            "shape": "planeswalker",
+            "shape": "normal",
             "set": "D&D",
             "loyalty": "5",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Donar, Tragic Hero",
@@ -118,7 +118,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Paeter, Foolish Monk",
@@ -137,7 +137,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Iskael, Lord of Shadows",
@@ -156,7 +156,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Bron, Dastardly Thief",
@@ -175,7 +175,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Taj, Glittering Thief",
@@ -194,7 +194,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Leshanna, Lovestruck Bard",
@@ -213,7 +213,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Boomer",
@@ -232,7 +232,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Klaarrrgggg, Affable Bugbear",
@@ -251,7 +251,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Zazzid, Chosen of Coelys",
@@ -270,7 +270,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Gyles, Forgetful Hermit",
@@ -281,7 +281,7 @@
             "color_identity": "BG",
             "cost": "{B}{G}",
             "rules_text": "When Gyles, Forgetful Hermit enters the battlefield, mill three cards then return a land from your graveyard to your hand.",
-            "flavor_text": "[i]The gild disowned him and expunged his experiments from the annals of history[/i]",
+            "flavor_text": "[i]The gild disowned him and expunged his experiments from the annals of history.[/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
@@ -289,7 +289,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Milde, Faithful Assistant",
@@ -299,7 +299,7 @@
             "number": 303,
             "color_identity": "WG",
             "cost": "{1}{GW}",
-            "rules_text": "At the beginning of each end step, gain 1 life if a creature died this turn.",
+            "rules_text": "At the beginning of each end step, gain 1 life if a creature died this turn.\n\n",
             "flavor_text": "[i]Often overlooked by the Gild and yet without her the project would have failed[/i]",
             "pt": "1/2",
             "special_text": "",
@@ -308,7 +308,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "The Ledger",
@@ -327,7 +327,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Fondael the Bloodied",
@@ -346,7 +346,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Carmen, Pious Knight",
@@ -365,7 +365,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Adenar, Willful Protector",
@@ -384,7 +384,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Bulgan, Raging Battler",
@@ -403,7 +403,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Lord Chuck Gavelston",
@@ -422,7 +422,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Xurug the Avenger",
@@ -441,7 +441,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Theo, Friendly Barkeep",
@@ -460,7 +460,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Vhalimar, Forsaken Angel",
@@ -477,7 +477,7 @@
             "shape": "adventure",
             "set": "D&D",
             "loyalty": "",
-            "artist": "DALL-E | Eastern Reach",
+            "artist": "DALL-E",
             "alias": "",
             "card_name2": "Eldritch Blast",
             "color2": "B",
@@ -490,7 +490,7 @@
             "loyalty2": "",
             "artist2": "DALL-E",
             "alias2": "",
-            "notes": "S"
+            "notes": "#ER"
         },
         {
             "card_name": "Temple of Judgement",
@@ -509,7 +509,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Mazzer, Protected",
@@ -528,7 +528,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Misha, Werebear Leader",
@@ -547,7 +547,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Werebear Amulet",
@@ -566,7 +566,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Kirk of Clan Daardendrian",
@@ -585,7 +585,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Namfoodle Stumbleduck",
@@ -604,7 +604,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Garmin, Beast's Companion",
@@ -623,7 +623,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Cerberus",
@@ -642,7 +642,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER #Token"
         },
         {
             "card_name": "Phaedra the Seeker",
@@ -661,7 +661,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Blade of Olethros",
@@ -672,7 +672,7 @@
             "color_identity": "C",
             "cost": "{5}",
             "rules_text": "Equipped creatures has deathtouch.\nWhen equipped creature attacks, roll a d10.\nEquip {2}\n[b]1-2[/b]|Target player mills 2.\n[b]3-4| [/b]Destroy target nonland permanent with mana value 2 or less.\n[b]5-6[/b]|Destroy target artifact or enchantment.\n[b]7-8[/b]|Deal 2 damage to target creature or player\n[b]9-10[/b]| Target creature gets -2/-2 until the end of turn.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]\u200bKirk found Kriv's journal which led him to a most curious treasure...[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -680,7 +680,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Master Jarreau",
@@ -690,16 +690,16 @@
             "number": 275,
             "color_identity": "WU",
             "cost": "{2}{W}{U}",
-            "rules_text": "\u200b",
+            "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
-            "shape": "planeswalker",
+            "shape": "normal",
             "set": "D&D",
             "loyalty": "5",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Rowan, Faithful Squire",
@@ -718,7 +718,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER #Token"
         },
         {
             "card_name": "Beatrix, Wily Herbalist",
@@ -728,16 +728,16 @@
             "number": 255,
             "color_identity": "UG",
             "cost": "{2}{G}{U}",
-            "rules_text": "\u200b",
+            "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
-            "shape": "planeswalker",
+            "shape": "normal",
             "set": "D&D",
             "loyalty": "3",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Nicki, Swashbuckler",
@@ -756,7 +756,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Tammer, Reclusive Scholar",
@@ -775,7 +775,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Samuel, Sentient Mask",
@@ -794,7 +794,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Lodaec, Tyrant King",
@@ -813,7 +813,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Kraigg, Friendly Troll",
@@ -832,7 +832,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Scyruss, Forge Master",
@@ -851,7 +851,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Elemental Orb of Water",
@@ -862,7 +862,7 @@
             "color_identity": "U",
             "cost": "{2}",
             "rules_text": "{T}: Add {U} \n{1}{U}, {T}: Tap target creature, artifact, or land.",
-            "flavor_text": "[i]\u201cThe skeleton captain tried to flee before me. He didn't know the sea was mine.\u201d\n\u2014Kildrak[/i]",
+            "flavor_text": "[i]\u201cThe skeleton captain tried to flee before me. He didn't know the sea was mine.\u201d\n\u2014 Kildrak[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -870,7 +870,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Elemental Orb of Fire",
@@ -881,7 +881,7 @@
             "color_identity": "R",
             "cost": "{2}",
             "rules_text": "{T}: Add {R} \n{1}{R}, {T}: Draw a card, discard a card.",
-            "flavor_text": "[i]\u201cI found it in the volcanic pit, clutched by an ancient dragon. The fight was fearsome, but in the end we prevailed.\u201d\n\u2014Kriv[/i]",
+            "flavor_text": "[i]\u201cI found it in the volcanic pit, clutched by an ancient dragon. The fight was fearsome, but in the end we prevailed.\u201d\n\u2014 Kriv[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -889,7 +889,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Elemental Orb of Earth",
@@ -900,7 +900,7 @@
             "color_identity": "G",
             "cost": "{2}",
             "rules_text": "{T}: Add {G}\n{1}{G}, {T}: Put a land from your hand onto the battlefield tapped.",
-            "flavor_text": "[i]\u201cIn the caves outside Solitude I found Deputy consumed by darkness. It was time for both Jury and Executioner\u201d\n\u2014Luster[/i]",
+            "flavor_text": "[i]\u201cIn the caves outside Solitude I found Deputy consumed by darkness. It was time for both Jury and Executioner\u201d\n\u2014 Luster[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -908,7 +908,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Elemental Orb of Air",
@@ -919,7 +919,7 @@
             "color_identity": "W",
             "cost": "{2}",
             "rules_text": "{T}: Add {W} \n{1}{W}, {T}: Target creature gets +1/+1 and vigilance until end of turn.",
-            "flavor_text": "[i]\u201cThaddeus sought to keep the power for his own and doom the world. I had to show him otherwise.\u201d\n\u2014Iskael[/i]",
+            "flavor_text": "[i]\u201cThaddeus sought to keep the power for his own and doom the world. I had to show him otherwise.\u201d\n\u2014 Iskael[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -927,7 +927,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Elemental Orb of Darkness",
@@ -938,15 +938,15 @@
             "color_identity": "B",
             "cost": "{2}",
             "rules_text": "{T}: Add {B}\n{1}{B}, {T}: Draw a card, then lose life equal to its mana value.",
-            "flavor_text": "[i]\u201cI'd spend so long in the space between time I'd nearly forgotten who I was. Those \u2018heroes' reminded my of my anger and brought my chance for retribution.\u201d\n\u2014Gado[/i]",
+            "flavor_text": "[i]\u201cI'd spend so long in the space between time I'd nearly forgotten who I was. Those \u2018heroes' reminded my of my anger and brought my chance for retribution.\u201d\n\u2014 Gado[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "D&D",
             "loyalty": "",
-            "artist": "DALL-E |Legendary Defenders",
+            "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Helm of Kyrios",
@@ -956,7 +956,7 @@
             "number": 320,
             "color_identity": "C",
             "cost": "{3}",
-            "rules_text": "Equipped creature has \u201cBoast {2}: Deal 2 damage to target creature defending player controls.\u201d [i](Activate this ability only if that creature attacked this turn and only once each turn.)[/i]\nEquip {3}",
+            "rules_text": "Equipped creature has \u201cBoast {2}: Deal 2 damage to target creature defending player controls.\u201d [i](Activate only if that creature attacked this turn and only once each turn.)[/i]\nEquip {3}",
             "flavor_text": "[i]The last piece of the Armor of Kyrios[/i]",
             "pt": "",
             "special_text": "",
@@ -965,7 +965,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Breastplate of Kyrios",
@@ -984,7 +984,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Boots of Kyrios",
@@ -995,7 +995,7 @@
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Equipped creature has haste.\nWhenever equipped creature attacks, put a charge counter of Boots of Kyrios.\nEquipped creature gets +1/+1 for each charge counter on Boots of Kyrios.\nEquip {1}",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]Kriv found the boots of Kyrios deep in a dungeon.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -1003,7 +1003,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Sword of Kyrios",
@@ -1022,7 +1022,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "The Black Glove",
@@ -1041,7 +1041,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Darkling Scout",
@@ -1060,7 +1060,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Darkling Elder",
@@ -1079,7 +1079,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Captain Ryo",
@@ -1098,7 +1098,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Captain Laos",
@@ -1108,7 +1108,7 @@
             "number": 54,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Partner with First Mate Addus [i](When this creature enters the battlefield, target player may put First Mate Addus into their hand from their library, then shuffle.)[/i]\nWhenever a dwarf you control deals combat damage to a player, create a treasure.",
+            "rules_text": "Partner with First Mate Addus [i](When this creature enters, target player may put First Mate Addus into their hand from their library, then shuffle.)[/i]\nWhenever a dwarf you control deals combat damage to a player, create a treasure.",
             "flavor_text": "[i]The Captain of the Atlantean was quite the smooth sailor.[/i]",
             "pt": "1/3",
             "special_text": "",
@@ -1117,7 +1117,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "First Mate Addus",
@@ -1127,7 +1127,7 @@
             "number": 64,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Partner with Captain Laos [i](When this creature enters the battlefield, target player may put Captain Laos into their hand from their library, then shuffle.)[/i]\nWhenever an elf you control deals combat damage to a player, scry 1.",
+            "rules_text": "Partner with Captain Laos [i](When this creature enters, target player may put Captain Laos into their hand from their library, then shuffle.)[/i]\nWhenever an elf you control deals combat damage to a player, scry 1.",
             "flavor_text": "[i]Aye, Addus was a man of few words.[/i]",
             "pt": "3/2",
             "special_text": "",
@@ -1136,7 +1136,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Sea Spawn",
@@ -1155,7 +1155,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Kildrak, Life's Spring",
@@ -1174,7 +1174,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Luster, War-Scarred",
@@ -1193,7 +1193,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Tathys, Keeper of Secrets",
@@ -1212,7 +1212,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Ayleia Progenitor",
@@ -1222,7 +1222,7 @@
             "number": 254,
             "color_identity": "WUBRG",
             "cost": "{1}{W}{U}{B}{R}{G}",
-            "rules_text": "Indestructible\nAs long as your devotion to is less than twelve Ayleia, Progenitor isn't a creature.\nWhenever a creature you control dies, search your library for a creature of equal mana value and put it on the battlefield.\nAt the beginning of your upkeep, sacrifice a creature.",
+            "rules_text": "Indestructible\nAs long as your devotion to is less than twelve Ayleia, Progenitor isn't a creature.\nWhenever a creature you control dies, search your library for a creature of equal mana value and put it on the battlefield.\nAt the beginning of your end step, sacrifice a creature.",
             "flavor_text": "[i]Progenitor & Destroyer[/i]",
             "pt": "12/12",
             "special_text": "",
@@ -1231,7 +1231,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Urobu, Judge of Souls",
@@ -1250,7 +1250,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Aranya, Nature's Queen",
@@ -1269,7 +1269,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Elos, God of War",
@@ -1288,7 +1288,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Aleana, Faith's Shield",
@@ -1307,7 +1307,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Fama, Assassin Favored",
@@ -1326,7 +1326,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Vetys, Beacon of Knowledge",
@@ -1345,7 +1345,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Cadrea, God of the Forge",
@@ -1364,7 +1364,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Alyra, Oracle's Muse",
@@ -1383,7 +1383,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Caelys the Gilded",
@@ -1402,7 +1402,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Coelys, Chaos Incarnate",
@@ -1421,7 +1421,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Lanu, Moon Trickster",
@@ -1440,7 +1440,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Hueick, Susceptible Youth",
@@ -1459,7 +1459,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Olar, The Broken Arrow",
@@ -1478,7 +1478,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Zunam, Fate Favored",
@@ -1497,7 +1497,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Leonir, Acolyte of Lanu",
@@ -1516,7 +1516,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Granite, Elos' Vengeance",
@@ -1535,7 +1535,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Captain Lebrode",
@@ -1545,7 +1545,7 @@
             "number": 257,
             "color_identity": "WB",
             "cost": "{W}{B}",
-            "rules_text": "Spells your opponents cast during your turn cost {1} more to cast.",
+            "rules_text": "Spells your opponents cast during your turn cost {1} more to cast.\n",
             "flavor_text": "[i]Uriwn and Lebrode took the blame for the calamity at Lodespine. They never fully recovered.[/i]",
             "pt": "1/3",
             "special_text": "",
@@ -1554,7 +1554,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Urwin Brighstar, Guild Founder",
@@ -1573,7 +1573,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "King Saakala",
@@ -1584,7 +1584,7 @@
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "Forestwalk [i](This creature can't be blocked as long as defending player controls a Forest.)[/i]\nOther elves you control get +1/+1 and \u201c{T}: Add {G}\u201d.",
-            "flavor_text": "[i]Only those granted passage by King Saakala could travel through the Amalec Forest.[/i]",
+            "flavor_text": "[i]Only those granted passage by King Saakala could travel through the Amalec Forest. [/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
@@ -1592,7 +1592,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Professor Arden",
@@ -1611,7 +1611,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Glamstol, Crafty Herbalist",
@@ -1630,7 +1630,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Irdel the Pursued",
@@ -1649,7 +1649,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Yanna the Ill-Fated",
@@ -1659,7 +1659,7 @@
             "number": 250,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "When Yanna dies, gain 2 life and draw a card.",
+            "rules_text": "When Yanna dies, gain 2 life and draw a card.\n\n",
             "flavor_text": "[i]Yanna hoped to protect Irdel long enough to see him safe to Refuge. [/i]",
             "pt": "2/1",
             "special_text": "",
@@ -1668,7 +1668,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Ara, Reknown Scout",
@@ -1687,7 +1687,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Harlston, Grappling Pugilist",
@@ -1706,7 +1706,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Clif, Chilled Tortle",
@@ -1725,7 +1725,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Minnesota, Impulsive Planner",
@@ -1744,7 +1744,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": "Dice-roll, spellslinger"
+            "notes": "#CoS"
         },
         {
             "card_name": "Book of Victims",
@@ -1763,7 +1763,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Zas, Barbarian Scholar",
@@ -1773,16 +1773,16 @@
             "number": 283,
             "color_identity": "RG",
             "cost": "{1}{R}{G}",
-            "rules_text": "Trample\nYou may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Barbarian Scholar's power and toughness until end of turn. [i](An exerted creature won't untap during your next untap step.)[/i]",
+            "rules_text": "Trample\nYou may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Barbarian Scholar's power until end of turn. [i](An exerted creature won't untap during your next untap step.)[/i]",
             "flavor_text": "[i]\u201cBattleaxe!\u201d\n\u2014Zas[/i]",
-            "pt": "4/3",
+            "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "D&D",
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Karda, Revolutionary",
@@ -1801,7 +1801,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Undead Elk",
@@ -1820,7 +1820,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Death Druid",
@@ -1839,7 +1839,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Blade of Blood",
@@ -1858,13 +1858,13 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Keldath the Scourge",
             "color": "BG",
             "rarity": "cube",
-            "type": "Legendary Creature \u2014 Dragon",
+            "type": "Legendary Creature \u2014 Ancient Dragon",
             "number": 268,
             "color_identity": "BG",
             "cost": "{4}{B}{G}",
@@ -1877,7 +1877,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Bressio and Vynne, Twins",
@@ -1887,7 +1887,7 @@
             "number": 288,
             "color_identity": "UG",
             "cost": "{1}{G}{GU}{U}",
-            "rules_text": "Double strike\nDragon spell cost {2} less for you to cast.",
+            "rules_text": "Double strike\nDragon spell cost {2} less for you to cast.\n",
             "flavor_text": "[i]The youngest dragons of Aigarra live on Triton Isle and advise the council of Oclea.[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -1896,13 +1896,13 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Idryyth the Flamebringer",
             "color": "R",
             "rarity": "cube",
-            "type": "Legendary Creature \u2014 Dragon",
+            "type": "Legendary Creature \u2014 Ancient Dragon",
             "number": 176,
             "color_identity": "R",
             "cost": "{4}{R}{R}",
@@ -1915,13 +1915,13 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Kinzine the Lifegiver",
             "color": "WG",
             "rarity": "cube",
-            "type": "Legendary Creature \u2014 Dragon",
+            "type": "Legendary Creature \u2014 Ancient Dragon",
             "number": 270,
             "color_identity": "WG",
             "cost": "{3}{G}{W}",
@@ -1934,13 +1934,13 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Ylbor the Lazy",
             "color": "U",
             "rarity": "cube",
-            "type": "Legendary Creature \u2014 Dragon",
+            "type": "Legendary Creature \u2014 Ancient Dragon",
             "number": 98,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
@@ -1953,13 +1953,13 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Arrynth, Lord of Death",
             "color": "WB",
             "rarity": "cube",
-            "type": "Legendary Creature \u2014 Dragon",
+            "type": "Legendary Creature \u2014 Ancient Dragon",
             "number": 253,
             "color_identity": "WB",
             "cost": "{3}{W}{B}",
@@ -1972,13 +1972,13 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Aipa the Ancient",
             "color": "WR",
             "rarity": "cube",
-            "type": "Legendary Creature \u2014 Dragon",
+            "type": "Legendary Creature \u2014 Ancient Dragon",
             "number": 252,
             "color_identity": "WR",
             "cost": "{3}{R}{W}",
@@ -1991,36 +1991,36 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Pyrrydoss the Unbroken",
             "color": "UR",
             "rarity": "cube",
-            "type": "Legendary Creature \u2014 Dragon",
+            "type": "Legendary Creature \u2014 Ancient Dragon",
             "number": 277,
             "color_identity": "UR",
             "cost": "{2}{U}{R}",
-            "rules_text": "Flying, Haste\nWhen Pyrrydoss attacks, roll a d20.\n[b]1-9 [/b]| Return Pyrrydoss to your hand.\n[b]10-19[/b]| Pyrrydoss deals 3 damage to target creature.\n[b]20[/b]| Pyrrydoss deals 2 damage to each creature target opponent controls.",
+            "rules_text": "Flying, Haste\nWhen Pyrrydoss attacks, roll a d20.\n[b]1-9 [/b]| Exile Pyrrydoss. Return Pyrrydoss to the battlefield tapped at the beginning of the next end step.\n[b]10-19 [/b]| Pyrrydoss deals 3 damage to target creature.\n[b]20 [/b]| Pyrrydoss deals 2 damage to each creature target opponent controls.",
             "flavor_text": "[i]The Oclea sea is a dangerous place, even without Pyrrydoss.[/i]",
-            "pt": "7/7",
+            "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "D&D",
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Dayvroass the Haunted",
             "color": "B",
             "rarity": "cube",
-            "type": "Legendary Creature \u2014 Dragon",
+            "type": "Legendary Creature \u2014 Ancient Dragon",
             "number": 115,
             "color_identity": "B",
             "cost": "{4}{B}{B}",
-            "rules_text": "Flying, Menace\nAnnihilator 2 [i](Whenever this creature attacks, defending player sacrifices two permanents.)[/i]",
+            "rules_text": "Flying, Menace\nAnnihilator 1 [i](Whenever this creature attacks, defending player sacrifices a permanent.)[/i]",
             "flavor_text": "[i]Dayvroass may have survived both dragon purges, but his mind was broken.\n [/i]",
             "pt": "6/6",
             "special_text": "",
@@ -2029,13 +2029,13 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Nydissia the Protector",
             "color": "G",
             "rarity": "cube",
-            "type": "Legendary Creature \u2014 Dragon",
+            "type": "Legendary Creature \u2014 Ancient Dragon",
             "number": 237,
             "color_identity": "G",
             "cost": "{4}{G}{G}",
@@ -2048,17 +2048,17 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Tundrayl the Pure",
             "color": "W",
             "rarity": "cube",
-            "type": "Legendary Creature \u2014 Dragon",
+            "type": "Legendary Creature \u2014 Ancient Dragon",
             "number": 47,
             "color_identity": "W",
             "cost": "{4}{W}{W}",
-            "rules_text": "Flying, Vigilance\nWhen Tundrayl the Pure enters the battlefield, tap a creature under the control of each opponent.\nCreatures your opponents control don't untap during their controllers next untap step.",
+            "rules_text": "Flying, Vigilance\nWhen Tundrayl the Pure enters the battlefield, tap a creature under the control of each opponent.\nPut a stun counter on each tapped creature.",
             "flavor_text": "[i]Tundral lives on Eislessi Isle and has been known to depart wisdom to those brave enought to make the pilgrimage.[/i]",
             "pt": "5/7",
             "special_text": "",
@@ -2067,7 +2067,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Spear of Vhalimar",
@@ -2086,7 +2086,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#FlipCard #ER"
         },
         {
             "card_name": "Captain Morro",
@@ -2105,7 +2105,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Lydia Brooks",
@@ -2124,7 +2124,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Hundral the Voiceless",
@@ -2143,7 +2143,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Zas's Battleaxe",
@@ -2162,7 +2162,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Staff of the Mothertree",
@@ -2172,16 +2172,16 @@
             "number": 241,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "\u200b",
+            "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
-            "shape": "planeswalker",
+            "shape": "normal",
             "set": "D&D",
             "loyalty": "5",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Explore the Outlands",
@@ -2200,7 +2200,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Beacon",
@@ -2219,7 +2219,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Et'limi'dak",
@@ -2238,7 +2238,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Lake Dorn",
@@ -2257,7 +2257,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Nether",
@@ -2276,7 +2276,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Wilds",
@@ -2295,7 +2295,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Blightlands",
@@ -2314,7 +2314,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Abyss",
@@ -2333,7 +2333,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Ovauto Forest",
@@ -2352,7 +2352,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Moon Grove",
@@ -2371,7 +2371,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Upper Iron Pass",
@@ -2390,7 +2390,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Blue Flame Candle",
@@ -2409,7 +2409,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Invoke Duplicity",
@@ -2428,7 +2428,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Scorching Ray",
@@ -2447,7 +2447,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Crown of Giants",
@@ -2466,7 +2466,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Muster the Guard",
@@ -2485,7 +2485,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Invisibility",
@@ -2504,7 +2504,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Spare the Dying",
@@ -2523,7 +2523,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Emir, Fists of Fury",
@@ -2533,16 +2533,16 @@
             "number": 259,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
-            "rules_text": "Haste, Double strike\nDwarves you control get +1/+1",
+            "rules_text": "Haste, Double strike\nDwarves you control get +1/+1\n",
             "flavor_text": "[i]Emir was short for an elf, but still much taller than his dwarven companions.[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "D&D",
             "loyalty": "",
-            "artist": "DALL-E | West Marches",
+            "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Justice, Reborn",
@@ -2561,7 +2561,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Town's Guard",
@@ -2571,7 +2571,7 @@
             "number": 45,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Bolster 1 [i](Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)[/i]\n",
+            "rules_text": "Bolster 1 [i](To bolster 1, choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)[/i]\n",
             "flavor_text": "[i]No town would be complete without a guard to keep watch.[/i]",
             "pt": "2/1",
             "special_text": "",
@@ -2580,7 +2580,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Sorsha, Restrained",
@@ -2599,7 +2599,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Umbra",
@@ -2613,12 +2613,12 @@
             "flavor_text": "[i]The blade of Lanu's chosen was a sacred relic.[/i]",
             "pt": "",
             "special_text": "",
-            "shape": "planeswalker",
+            "shape": "normal",
             "set": "D&D",
             "loyalty": "3",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Staff of the Blightree",
@@ -2632,12 +2632,12 @@
             "flavor_text": "[i]Olar gifted Sorsha a hag eye which she affixed to the end of her[/i]",
             "pt": "",
             "special_text": "",
-            "shape": "planeswalker",
+            "shape": "normal",
             "set": "D&D",
             "loyalty": "5",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Aleana's Chosen",
@@ -2656,7 +2656,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Fire Bolt",
@@ -2675,7 +2675,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Sacred Flame",
@@ -2694,7 +2694,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Divine Smite",
@@ -2713,7 +2713,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Chaos Bolt",
@@ -2732,7 +2732,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Werebear Warrior",
@@ -2751,7 +2751,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Manticore Tower",
@@ -2770,7 +2770,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Banden Docks",
@@ -2780,7 +2780,7 @@
             "number": 331,
             "color_identity": "U",
             "cost": "",
-            "rules_text": "\n{T}: Add {U}\nCrew 1 [i](Tap any number of creatures you control with total power 1 or greater: This Island becomes an artifact creature until end of turn.)[/i]",
+            "rules_text": "\n{T}: Add {U}\nCrew 1 [i](Tap any number of creatures you control with total power 1 or more: This Island becomes an artifact creature until end of turn.)[/i]",
             "flavor_text": "[i]Captain Ryo had sole control of the docks, but he let the heroes of New Falden use his ship when they wanted.[/i]",
             "pt": "3/3",
             "special_text": "",
@@ -2789,7 +2789,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Old Falden",
@@ -2808,7 +2808,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Korolduhr",
@@ -2827,7 +2827,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Hyathyr",
@@ -2846,7 +2846,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Elf Scout",
@@ -2865,7 +2865,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Mining Dwarf",
@@ -2884,7 +2884,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Hobgoblin Warboss",
@@ -2903,7 +2903,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Mining Contract",
@@ -2922,7 +2922,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Caravan Raid",
@@ -2941,7 +2941,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Inflict Wounds",
@@ -2960,7 +2960,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Mysterious Benefactor",
@@ -2979,7 +2979,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Manticore",
@@ -2998,7 +2998,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Blessing of the Moon",
@@ -3017,7 +3017,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Blessings of the Mothertree",
@@ -3036,7 +3036,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Treasure Diver",
@@ -3055,7 +3055,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Nighttime Ambush",
@@ -3074,7 +3074,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Oracle's Insight",
@@ -3084,7 +3084,7 @@
             "number": 78,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Scry 2 then draw a card.",
+            "rules_text": "Scry 2 then draw a card.\n\n",
             "flavor_text": "[i]Zunam was plagued by visions and began to view his gift as a curse.[/i]",
             "pt": "",
             "special_text": "",
@@ -3093,7 +3093,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Counterspell",
@@ -3112,7 +3112,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Teleportation Circle",
@@ -3131,7 +3131,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Defend the Walls!",
@@ -3150,7 +3150,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Wrathful Smite",
@@ -3160,7 +3160,7 @@
             "number": 198,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "Target creature you control gets trample and +2/+0 until end of turn.\nOverload {4}{R}{R} [i](You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \u201ctarget\u201d with \u201ceach\u201d.)[/i]",
+            "rules_text": "Target creature you control gets trample and +2/+0 until end of turn.\nOverload {4}{R}{R} [i](You may cast this spell for its overload cost. If you do, change \u201ctarget\u201d in its text to \u201ceach.\u201d)[/i]",
             "flavor_text": "[i]Granite's axe glowed with a holy fire that burned the attacking sahuaghins.[/i]",
             "pt": "",
             "special_text": "",
@@ -3169,7 +3169,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Sahuaghin",
@@ -3179,7 +3179,7 @@
             "number": 83,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Unblockable",
+            "rules_text": "Unblockable\n\n",
             "flavor_text": "[i]Fishing vessels mysteriously disappeared into the depths of Lake Gurdoc.[/i]",
             "pt": "1/1",
             "special_text": "",
@@ -3188,7 +3188,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Dryad Grove",
@@ -3207,7 +3207,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Captain of the Guard",
@@ -3226,7 +3226,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Wall Guard Recruiter",
@@ -3245,7 +3245,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Sahuaghin Artillerist",
@@ -3264,7 +3264,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Sahuaghin Fury",
@@ -3283,7 +3283,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Sahuaghin Commander",
@@ -3302,7 +3302,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Aurelia's Elites",
@@ -3312,7 +3312,7 @@
             "number": 206,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Vigilance\nSquad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)[/i]",
+            "rules_text": "Vigilance\nSquad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)[/i]",
             "flavor_text": "[i]Wherever Lady Aurelia went, her elites weren't far behind[/i]",
             "pt": "3/3",
             "special_text": "",
@@ -3321,7 +3321,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Squad Commander",
@@ -3340,7 +3340,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Charles",
@@ -3350,7 +3350,7 @@
             "number": 110,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "When Charles dies, deal 1 damage to any target.",
+            "rules_text": "When Charles dies, deal 1 damage to any target.\n",
             "flavor_text": "[i]Never trust Zunam around children... [/i]",
             "pt": "1/1",
             "special_text": "",
@@ -3359,7 +3359,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Wardog",
@@ -3369,7 +3369,7 @@
             "number": 195,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "Haste",
+            "rules_text": "Haste\n",
             "flavor_text": "[i]Turns out, hags don't like dogs either.[/i]",
             "pt": "2/1",
             "special_text": "",
@@ -3378,7 +3378,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Hag Coven",
@@ -3416,7 +3416,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Soul Diversion",
@@ -3435,7 +3435,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Fane of the Mountain",
@@ -3445,8 +3445,8 @@
             "number": 161,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Whenever you sacrifice an Artifact, put a +1/+1 counter on Fane of the Mountain and add {R}.",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Whenever you sacrifice an Artifact, put a +1/+1 counter on Fane of the Mountain and add {R}.\n",
+            "flavor_text": "[i]For cleansing her fane, Granite was gifted sacred metal from Eternum.[/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
@@ -3454,7 +3454,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Fane of the River",
@@ -3465,7 +3465,7 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "At the beginning of your upkeep, scry 1.\n{1}{U}: Target creature you control can't be blocked this turn.\n",
-            "flavor_text": "[i]Insert Flavor Text[/i]",
+            "flavor_text": "[i]A voice drifted down the river, calling the heroes to her aid.[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
@@ -3473,7 +3473,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Fane of the Forest",
@@ -3484,7 +3484,7 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "If one or more +1/+1 counters would be put on a permanent you control, that many plus one +1/+1 counters are put on that permanent instead.\n{T}: Add X mana of any one color, where X is Fane of the Forest's power.",
-            "flavor_text": "[i]Even the greatest tree starts from a small seed.\n[/i]",
+            "flavor_text": "[i]Even the greatest tree starts from a small seed. [/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
@@ -3492,7 +3492,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Boon of Aranya",
@@ -3511,7 +3511,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Judge & Executioner",
@@ -3530,7 +3530,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Jury",
@@ -3547,9 +3547,9 @@
             "shape": "normal",
             "set": "D&D",
             "loyalty": "",
-            "artist": "r/Inocyde",
+            "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Soul Eater",
@@ -3568,7 +3568,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Young Flayer",
@@ -3587,7 +3587,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Acolyte of Aranya",
@@ -3597,8 +3597,8 @@
             "number": 201,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "When Acolyte of Aranya enters the battlefield, draw a card. \nYou may play an additional land each turn.",
-            "flavor_text": "[i]With the temple cleansed, Elves resumed their worship of Aranya.[/i]",
+            "rules_text": "When Acolyte of Aranya enters the battlefield, draw a card. \nYou may play an additional land each turn.\n",
+            "flavor_text": "[i]With the temple cleansed, Elves resumed their worship of Aranya.\n[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
@@ -3606,7 +3606,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Chittering Spider",
@@ -3625,7 +3625,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Kavedii Islands",
@@ -3644,7 +3644,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Revalia",
@@ -3663,7 +3663,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Misty Isles",
@@ -3682,7 +3682,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Tumult",
@@ -3701,7 +3701,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Cataclysm",
@@ -3720,7 +3720,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Bastion",
@@ -3739,7 +3739,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Eislessi Isle",
@@ -3758,7 +3758,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Ikbarre Marshes",
@@ -3777,7 +3777,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Corpsewood",
@@ -3796,7 +3796,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Shattered Peaks",
@@ -3815,7 +3815,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Grappling Octopus",
@@ -3834,7 +3834,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Boon of Elos",
@@ -3853,7 +3853,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Mark for Death",
@@ -3872,7 +3872,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Hyrum, Last Refuge",
@@ -3891,7 +3891,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Reject",
@@ -3901,7 +3901,7 @@
             "number": 82,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Return target creature to its owner's hand.",
+            "rules_text": "Return target creature to its owner's hand.\n\n",
             "flavor_text": "[i]Zunam rejected his fate and in doing so, Sorsha took up the mantel of the Oracle.[/i]",
             "pt": "",
             "special_text": "",
@@ -3910,7 +3910,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Strahd Von Zarovich",
@@ -3920,7 +3920,7 @@
             "number": 278,
             "color_identity": "UB",
             "cost": "{3}{U}{B}",
-            "rules_text": "Nemesis [i](You may only control one creature or Planeswalker with Nemesis.)[/i]\nFlying\nWhenever Strahd Von Zarovich deals combat damage to a player that player discards a card and you draw a card.\nIf Strahd Von Zarovich would die, return him to the battlefield tapped and the beginning of the next end step.",
+            "rules_text": "Nemesis [i](You may only control one creature or Planeswalker with Nemesis.)[/i]\nFlying\nWhenever Strahd Von Zarovich deals combat damage to a player that player discards a card and you draw a card.\nIf Strahd Von Zarovich would die, exile him instead and return him to the battlefield tapped and the beginning of the next end step.",
             "flavor_text": "[i]\u201cI am the ancient, I am the land\u201d[/i]",
             "pt": "3/3",
             "special_text": "",
@@ -3929,7 +3929,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Wesley the Rescued",
@@ -3948,7 +3948,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER #FlipCard"
         },
         {
             "card_name": "Blessed Ent",
@@ -3967,7 +3967,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#FlipCard #TFF"
         },
         {
             "card_name": "Trials of Thadenswel",
@@ -3986,7 +3986,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Cube of K'nezeret",
@@ -3996,16 +3996,16 @@
             "number": 14,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "\u200b",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Exile target creature you control then return it to the battlefield.",
+            "flavor_text": "[i]Exile target card from a graveyard. Investigate. [i](Create a Clue token. It's an artifact with \u201c{2}, Sacrifice this artifact: Draw a card.\u201d)[/i][/i]",
             "pt": "",
             "special_text": "",
-            "shape": "planeswalker",
+            "shape": "normal",
             "set": "D&D",
             "loyalty": "3",
-            "artist": "DALL-E | Cephestia",
+            "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Eye of Coelys",
@@ -4015,16 +4015,16 @@
             "number": 160,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "\u200b",
+            "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
-            "shape": "planeswalker",
+            "shape": "normal",
             "set": "D&D",
             "loyalty": "3",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Goblin Gang Leader",
@@ -4043,7 +4043,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#FlipCard #ER"
         },
         {
             "card_name": "Champions of Thadenswel",
@@ -4062,7 +4062,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#FlipCard #TLD"
         },
         {
             "card_name": "Inopportune Arrest",
@@ -4081,7 +4081,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#FlipCard #TFF"
         },
         {
             "card_name": "Lady Aurelia",
@@ -4100,13 +4100,13 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Mazzer, The Rat King",
             "color": "UB",
             "rarity": "cube",
-            "type": "Legendary Creature \u2014 Human Rat Monk",
+            "type": "Legendary Creature \u2014 Elf Rat Monk",
             "number": 0,
             "color_identity": "UB",
             "cost": "{2}{U}{B}",
@@ -4119,7 +4119,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER #FlipCard"
         },
         {
             "card_name": "Dire Wolf Pack",
@@ -4129,16 +4129,16 @@
             "number": 218,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)[/i]",
+            "rules_text": "Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)[/i]",
             "flavor_text": "[i]The howl of the wolf pack drifted on the mist.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "D&D",
             "loyalty": "",
-            "artist": "DALL-E | Curse of Starhd",
+            "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Sarana, Fists of Fury",
@@ -4157,7 +4157,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Fleetfoot, Sharpshooter",
@@ -4176,7 +4176,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Kythr, Sorrow's Mark",
@@ -4195,7 +4195,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Eliath, Doomed Fighter",
@@ -4205,7 +4205,7 @@
             "number": 123,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "When Eliath, Doomed Fighter is dies, return another target legendary creature from your graveyard to the battlefield with a +1/+1 counter.",
+            "rules_text": "When Eliath, Doomed Fighter dies, return another target legendary creature from your graveyard to the battlefield with a +1/+1 counter.",
             "flavor_text": "[i]The heart of the Sovereign Shield died that day in the frozen north.[/i]",
             "pt": "3/2",
             "special_text": "",
@@ -4214,7 +4214,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Shaedrun, the Necromancer",
@@ -4233,7 +4233,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Necromancer's Apprentice",
@@ -4252,7 +4252,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Revenant",
@@ -4271,7 +4271,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Vladimir & Godfrey, Reunited",
@@ -4288,9 +4288,9 @@
             "shape": "normal",
             "set": "D&D",
             "loyalty": "",
-            "artist": "DALL-E | Curese of Strahd",
+            "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Arabel, Seer Prodigy",
@@ -4309,7 +4309,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Blinksy, Toymaker",
@@ -4326,9 +4326,9 @@
             "shape": "normal",
             "set": "D&D",
             "loyalty": "",
-            "artist": "DALL-E | Curese of Strahd",
+            "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "His Opulence IV",
@@ -4347,7 +4347,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Syosa, Raving Dragon",
@@ -4366,7 +4366,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Draconic Purge",
@@ -4385,7 +4385,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Wiggumstaff Incident",
@@ -4404,7 +4404,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "March of the the Dead",
@@ -4423,7 +4423,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Pierce the Veil",
@@ -4442,7 +4442,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Tidal Wave",
@@ -4461,7 +4461,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Fama's Talon",
@@ -4473,14 +4473,14 @@
             "cost": "{1}{B}",
             "rules_text": "Deathtouch\nWhenever a creature dealt damage by Fama's Talon would die, exile it instead.",
             "flavor_text": "[i]The Talons were an elite group of a assassins who used cursed weapons to ensure the demise of their targets.\n[/i]",
-            "pt": "2/1",
+            "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "D&D",
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "The Prosperity",
@@ -4499,7 +4499,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Aleana's Mercy",
@@ -4509,7 +4509,7 @@
             "number": 3,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Target creature you control gets protection from the color of your choice until the end of the turn. [i](It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until the end of the turn.)[/i]\nDraw a card.",
+            "rules_text": "Target creature you control gets protection from the color of your choice until the end of the turn.[i][/i] [i](It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until the end of the turn.)[/i]\nDraw a card.",
             "flavor_text": "[i]\u201cI protect those who would give their lives to protect others.\u201d\n\u2014Aleana[/i]",
             "pt": "",
             "special_text": "",
@@ -4518,7 +4518,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Blood Magic",
@@ -4537,7 +4537,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Malaas War Marshall",
@@ -4556,7 +4556,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Tarroka Reading",
@@ -4575,7 +4575,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Cleanse the Bloodlines",
@@ -4594,7 +4594,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Dragon's Fire",
@@ -4613,7 +4613,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Archon of Gold",
@@ -4632,7 +4632,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "The Halcyon",
@@ -4651,7 +4651,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Gildling",
@@ -4670,7 +4670,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Goblin War-Rider",
@@ -4689,7 +4689,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Conjure Animals",
@@ -4708,7 +4708,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Animated Armor",
@@ -4727,7 +4727,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "The Forge of Life",
@@ -4746,7 +4746,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "The Forge of War",
@@ -4765,7 +4765,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Forge of Elements",
@@ -4784,7 +4784,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "The Forge of Spells",
@@ -4803,7 +4803,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Devilish Imp",
@@ -4822,7 +4822,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Rovari, Magic Weaver",
@@ -4841,7 +4841,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Worker's Union",
@@ -4860,7 +4860,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Guantlets of the Storm",
@@ -4871,7 +4871,7 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Flash\nWhen Guantlets of the Storm enters the battlefield, attach it to target creature you control.\nEquipped creature gets +2/+0 and has first strike.\nEquip {2}\n{2}{R}, Sacrifice Guantlets of the Storm: Deal 3 damage to any target.",
-            "flavor_text": "[i]Mazzer [/i]",
+            "flavor_text": "[i]Mazzer fists struck quick as lightning.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -4879,7 +4879,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Dark Gift",
@@ -4898,7 +4898,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Death Ward",
@@ -4909,7 +4909,7 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Untap target creature. It gains hexproof, indestructible, and trample until end of turn.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]The headmaster of the Aigarra Academy ensured his students went out on adventure safely.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -4917,7 +4917,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Blood Ritual",
@@ -4936,7 +4936,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Lanu's Intervention",
@@ -4947,7 +4947,7 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Return target card from your graveyard to your hand.\nDraw a card.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]One of Lanu's greatest pleasures was messing with Urobu[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -4955,7 +4955,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Drown in the Lake",
@@ -4974,7 +4974,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Desecrate the Temple",
@@ -4993,7 +4993,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Dictate of Urobu",
@@ -5012,7 +5012,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Ritual Sacrifice",
@@ -5031,7 +5031,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Shambling Necromass",
@@ -5050,7 +5050,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Olethros the Destroyer",
@@ -5059,7 +5059,7 @@
             "type": "Legendary Creature \u2014 Eternal Dragon",
             "number": 137,
             "color_identity": "B",
-            "cost": "{4}{B}{B}",
+            "cost": "{4}{B}{B}{B}",
             "rules_text": "Flying\nAnnihilator 2 [i](Whenever this creature attacks, defending player sacrifices two permanents.)[/i]",
             "flavor_text": "[i]Olethros's appearance in the material plane signaled the end of all things.[/i]",
             "pt": "7/5",
@@ -5069,7 +5069,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Dungeon Skeleton",
@@ -5088,7 +5088,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Vampire Spawn",
@@ -5107,7 +5107,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Remove Curse",
@@ -5126,7 +5126,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Fury of the Gods",
@@ -5145,7 +5145,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Shaedrun's Gambit",
@@ -5164,7 +5164,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Ring of Etheria",
@@ -5183,7 +5183,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Ayleia's Return",
@@ -5202,7 +5202,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Gift of Vetys",
@@ -5213,7 +5213,7 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Scry 2, draw a card.\nFlashback {2}{U} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]The eye and candle of Vetys symbolized the light he brings through knowledge.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -5221,7 +5221,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Secrets of Tathys",
@@ -5240,7 +5240,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Blessing of Alyra",
@@ -5251,7 +5251,7 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Creatures you control get +2/+0 and haste until the end of the turn.\nDraw a card.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]Her songs called her followers to move, to dance... to action.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -5259,7 +5259,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Coelys's Ire",
@@ -5278,7 +5278,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Caelys's Favor",
@@ -5297,7 +5297,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Cadrea's Blessing",
@@ -5316,7 +5316,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Fulcrum",
@@ -5335,7 +5335,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Goblin Raid Runner",
@@ -5354,7 +5354,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Fireball",
@@ -5373,7 +5373,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Price of Loyalty",
@@ -5392,7 +5392,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Hellish Rebuke",
@@ -5411,7 +5411,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Divine Intervention",
@@ -5430,7 +5430,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Lady Ostrix",
@@ -5449,7 +5449,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Binding of the Law",
@@ -5468,7 +5468,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Guard Drake",
@@ -5485,9 +5485,9 @@
             "shape": "normal",
             "set": "D&D",
             "loyalty": "",
-            "artist": "DALLE | Cephestia",
+            "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "King Da'aroc",
@@ -5506,7 +5506,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "High Priest Kaaladeth",
@@ -5525,7 +5525,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Lord Maalas",
@@ -5544,7 +5544,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Gniess, Stonecutter Prime",
@@ -5563,7 +5563,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Gnome Technocrat",
@@ -5582,7 +5582,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Moon Scythe",
@@ -5601,7 +5601,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Armor of Aleana",
@@ -5611,7 +5611,7 @@
             "number": 4,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Equipped creature gets +3/+3 and has ward {1}. [i](Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i]\nEquip {3}. This ability costs {1} less to activate for each other Equipment you control.\n",
+            "rules_text": "Equipped creature gets +3/+3 and has ward {1}.[i][/i] [i](Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i]\nEquip 3. This ability costs {1} less to activate for each other Equipment you control.\n",
             "flavor_text": "[i]Justice and Mercy find equal weight in the chosen of Aleana.[/i]",
             "pt": "",
             "special_text": "",
@@ -5620,7 +5620,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Kyrios the Creator",
@@ -5639,7 +5639,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Fly",
@@ -5658,7 +5658,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Astral Prison",
@@ -5677,7 +5677,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Reinforce",
@@ -5696,7 +5696,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Dispel Magic",
@@ -5715,7 +5715,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Rising Populace",
@@ -5734,7 +5734,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Soul Steel Dagger",
@@ -5744,16 +5744,16 @@
             "number": 326,
             "color_identity": "C",
             "cost": "{5}",
-            "rules_text": "\u200b",
+            "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
-            "shape": "planeswalker",
+            "shape": "normal",
             "set": "D&D",
             "loyalty": "5",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Griffin Mount",
@@ -5772,7 +5772,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Cleric of Aleana",
@@ -5782,7 +5782,7 @@
             "number": 13,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "{T}: Another target creature you control gains protection from the color of your choice until end of turn. [i](This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until end of turn.)[/i]\n",
+            "rules_text": "{T}: Another target creature you control gains protection from the color of your choice until end of turn. [i](This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until end of turn..)[/i]\n",
             "flavor_text": "[i]Protection. Justice. Mercy.\n- The tenets of Aleana's Code[/i]",
             "pt": "1/2",
             "special_text": "",
@@ -5791,7 +5791,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Resistance Squad",
@@ -5801,7 +5801,7 @@
             "number": 36,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)[/i]\nResistance Squad gets +1/0 for each other creature named Resistance Squad that is attacking or blocking.",
+            "rules_text": "Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)[/i]\nResistance Squad gets +1/0 for each other creature named Resistance Squad that is attacking or blocking.",
             "flavor_text": "[i]As war ravaged Aigarra, bands of resistance warriors cropped up to defend against advance of the Holy Kingdom of Nastrax.[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -5810,7 +5810,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Wartime Financier",
@@ -5829,7 +5829,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Noble Ward",
@@ -5848,7 +5848,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Chief Inspector",
@@ -5858,7 +5858,7 @@
             "number": 12,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "When Chief Inspector enters the battlefield, investigate. [i](Create a colorless Clue artifact token with \u201c{2}, Sacrifice this artifact: Draw a card.\u201d)[/i]\n",
+            "rules_text": "When Chief Inspector enters the battlefield, investigate. [i](To investigate, create a Clue token. It's an artifact with \u201c{2}, Sacrifice this artifact: Draw a card.\u201d)[/i]\n",
             "flavor_text": "[i]Crime in Ostrixia was low, in part due to their elite detective force.[/i]",
             "pt": "1/2",
             "special_text": "",
@@ -5867,7 +5867,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Acolyte of Urobu",
@@ -5886,7 +5886,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Tax Accessor",
@@ -5905,7 +5905,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Wall of Force",
@@ -5924,7 +5924,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Cone of Cold",
@@ -5934,7 +5934,7 @@
             "number": 55,
             "color_identity": "U",
             "cost": "{3}{U}",
-            "rules_text": "Roll a d20.\n1-9 | Tap all creatures your opponents control.\n10-19 | Tap all creatures your opponents control. Those creatures don't untap during their controller's next untap steps.\n20 | Tap all creatures your opponents control. Those creatures don't untap during their controller's next untap steps. Until your next turn, creatures your opponents control enter the battlefield tapped.",
+            "rules_text": "Roll a d20.\n[b]1-9 [/b]| Tap all creatures your opponents control.\n[b]10-19 [/b]| Tap all creatures your opponents control. Those creatures don't untap during their controller's next untap steps.\n[b]20 [/b]| Tap all creatures your opponents control. Those creatures don't untap during their controller's next untap steps. Until your next turn, creatures your opponents control enter the battlefield tapped.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5943,7 +5943,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Tsunami",
@@ -5962,7 +5962,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Saw it Coming",
@@ -5981,7 +5981,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Divination",
@@ -6000,7 +6000,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Protection from Evil and Good",
@@ -6010,7 +6010,7 @@
             "number": 81,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Target creature you control gains hexproof.\nOverload {2}{U}{U} [i](You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \u201ctarget\u201d with \u201ceach\u201d.)[/i]",
+            "rules_text": "Target creature you control gains hexproof.\nOverload {2}{U}{U} [i](You may cast this spell for its overload cost. If you do, change \u201ctarget\u201d in its text to \u201ceach.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6019,7 +6019,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Draconic Ascent",
@@ -6029,7 +6029,7 @@
             "number": 62,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Overload {4}{U}{U} [i](You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \u201ctarget\u201d with \u201ceach\u201d.)[/i]\nUntil end of turn, target creature you control becomes a dragon in addition to its other types, gets +1/+1 and can't be blocked except by other dragons.",
+            "rules_text": "Overload {4}{U}{U} [i](You may cast this spell for its overload cost. If you do, change \u201ctarget\u201d in its text to \u201ceach.\u201d)[/i]\nUntil end of turn, target creature you control becomes a dragon in addition to its other types, gets +1/+1 and can't be blocked except by other dragons.",
             "flavor_text": "[i]The Holy Kingdom of Nastrax plotted in secret until the day Elos had prepared for them arrived.[/i]",
             "pt": "",
             "special_text": "",
@@ -6038,7 +6038,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Dimension Door",
@@ -6057,7 +6057,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Dominate Monster",
@@ -6067,8 +6067,8 @@
             "number": 61,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "Enchant Creature.\nYou control enchanted creature.",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Enchant Creature.\nYou control enchanted creature.\n",
+            "flavor_text": "[i]\n\u201cPower is meaningless without control.\u201d\n\u2014 Arinelleth's Guide to Wizardry, 4th Edition[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -6076,7 +6076,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Library of Vetys",
@@ -6095,13 +6095,13 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Tathys's Silencer",
             "color": "U",
             "rarity": "cube",
-            "type": "Creture \u2014 Devil",
+            "type": "Creature \u2014 Devil",
             "number": 92,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
@@ -6114,7 +6114,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Cutting Words",
@@ -6133,7 +6133,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Acolyte of Vetys",
@@ -6152,7 +6152,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Jimmy Beanz",
@@ -6171,7 +6171,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Blessing of Water",
@@ -6190,7 +6190,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TLD"
         },
         {
             "card_name": "Scrying",
@@ -6209,7 +6209,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Death of the Oracle",
@@ -6228,7 +6228,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Coelys Fantatic",
@@ -6247,7 +6247,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Magic Missile",
@@ -6266,7 +6266,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Goblins of the Red Hand",
@@ -6276,7 +6276,7 @@
             "number": 172,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)[/i]\nSacrifice a creature: Deal 1 damage to any target",
+            "rules_text": "Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)[/i]\nSacrifice a creature: Deal 1 damage to any target",
             "flavor_text": "[i]The Ulani feared the Cult of the Red Hand \u2014 and for good reason. [/i]",
             "pt": "1/1",
             "special_text": "",
@@ -6285,7 +6285,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Malaasan Emissary",
@@ -6304,7 +6304,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Drachenj\u00e4ger",
@@ -6323,7 +6323,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Malaasan Pick-Axe",
@@ -6342,7 +6342,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Drink it Down",
@@ -6361,7 +6361,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Mine Collapse",
@@ -6380,7 +6380,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Nicki's Blade",
@@ -6390,7 +6390,7 @@
             "number": 189,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Whenever equipped creature attacks, put a +1/+1 counter on it.\nWhenever equipped creature deals combat damage, roll a d12. If the result is greater than the damage dealt or the result is 12, double the number of +1/+1 counters on that creature.\nEquip {2}",
+            "rules_text": "Whenever equipped creature attacks, put a +1/+1 counter on it then roll a d12. \nIf the result is lower than the equipped creatures power, it becomes unblockable, otherwise add an additional +1/+1 counter.\nIf the result is {12}, do both\nEquip {2}",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6399,7 +6399,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Aranya's Intervention",
@@ -6410,7 +6410,7 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Creatures you control gain hexproof and indestructible until the end of turn.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]In the midst of her power, Aranya's followers were untouchable.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -6418,7 +6418,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Volley of Arrows",
@@ -6429,7 +6429,7 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Destroy target artifact, enchantment, or creature with flying.",
-            "flavor_text": "[i]Yes I have one extra attack, but what a bout a second extra attack? \n\u2014 Olar (Probably)[/i]",
+            "flavor_text": "[i]Yes I have one extra attack, but what about a second extra attack? \n\u2014 Olar (Probably)[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -6437,7 +6437,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Wyvern Toxin",
@@ -6456,7 +6456,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Unchecked Aggression",
@@ -6475,7 +6475,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CoS"
         },
         {
             "card_name": "Command \u2014 Duel",
@@ -6494,7 +6494,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Coordinated Assault",
@@ -6504,8 +6504,8 @@
             "number": 216,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Up to two target creatures you control each deal damage equal to their power to another target creature.",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Up to two target creatures you control each deal damage equal to their power to another target creature.\n",
+            "flavor_text": "[i]Eliath and Kythr were inseparable and struck with precision[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -6513,7 +6513,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Boon of Fama",
@@ -6532,7 +6532,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Enlarge",
@@ -6542,7 +6542,7 @@
             "number": 222,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Target creature gets +3/+3 and trample.\nOverload {4}{G}{G} [i](You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \u201ctarget\u201d with \u201ceach\u201d.)[/i]",
+            "rules_text": "Target creature gets +3/+3 and trample.\nOverload {4}{G}{G} [i](You may cast this spell for its overload cost. If you do, change \u201ctarget\u201d in its text to \u201ceach.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6551,7 +6551,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Wildshape \u2014 Bear",
@@ -6570,7 +6570,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Song of Alyra",
@@ -6580,7 +6580,7 @@
             "number": 240,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Nontoken creatures you control have riot. [i](That creature enters the battlefield with your choice of a +1/+1 counter or haste.)[/i]\nWhenever a creature enters the battlefield under your control with power four or greater, draw a card.",
+            "rules_text": "Nontoken creatures you control have riot. [i](That creature enters with your choice of a +1/+1 counter or haste.)[/i]\nWhenever a creature enters the battlefield under your control with power four or greater, draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6589,7 +6589,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Planar Portal",
@@ -6608,7 +6608,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Wildshape \u2014 Spider",
@@ -6627,7 +6627,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Elven Elder",
@@ -6646,7 +6646,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Ewiard, Lord of the Hunt",
@@ -6665,7 +6665,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Elven Warmaster",
@@ -6684,7 +6684,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Aranya's Adept",
@@ -6695,7 +6695,7 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "{T}: Add {G}",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]Aranya's followers watched over the land and saw to its fertility[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
@@ -6703,7 +6703,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Life Cleric",
@@ -6722,7 +6722,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Kruthik Swarm",
@@ -6741,7 +6741,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Grasping Vegetation",
@@ -6760,7 +6760,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Basilisk",
@@ -6779,7 +6779,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Owlbear",
@@ -6798,7 +6798,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Adolescent Dragon",
@@ -6817,7 +6817,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Kruthik Tunneler",
@@ -6836,7 +6836,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Huff vs McDoogal",
@@ -6855,7 +6855,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Goblin Raid",
@@ -6874,7 +6874,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#ER"
         },
         {
             "card_name": "Cleanse the Fanes",
@@ -6893,7 +6893,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#TFF"
         },
         {
             "card_name": "Corpsewood",
@@ -6912,7 +6912,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Eislessi Isle",
@@ -6931,7 +6931,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Et'limi'dak",
@@ -6950,7 +6950,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Ikbarre Marshes",
@@ -6969,7 +6969,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Kavedii Islands",
@@ -6988,7 +6988,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Lake Dorn",
@@ -7007,7 +7007,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Misty Isles",
@@ -7026,7 +7026,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Ovauto Forest",
@@ -7045,7 +7045,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Shattered Peaks",
@@ -7064,7 +7064,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Upper Iron Pass",
@@ -7083,7 +7083,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Abyss",
@@ -7102,7 +7102,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Bastion",
@@ -7121,7 +7121,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Beacon",
@@ -7140,7 +7140,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Blightlands",
@@ -7159,7 +7159,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Cataclysm",
@@ -7178,7 +7178,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Moon Grove",
@@ -7197,7 +7197,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Nether",
@@ -7216,7 +7216,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "Revalia",
@@ -7235,7 +7235,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Tumult",
@@ -7254,7 +7254,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
         },
         {
             "card_name": "The Wilds",
@@ -7273,7 +7273,26 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ""
+            "notes": "#CEP"
+        },
+        {
+            "card_name": "Fly",
+            "color": "W",
+            "rarity": "cube",
+            "type": "Token Enchantment \u2014 Aura",
+            "number": 1,
+            "color_identity": "C",
+            "cost": "",
+            "rules_text": "Enchant Creature\nEnchanted creature has flying.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "token",
+            "set": "D&D",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#CEP"
         }
     ]
 }

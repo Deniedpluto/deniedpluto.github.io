@@ -11,19 +11,19 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Token Creature \u2014 Human Soldier",
-            "number": 1,
+            "number": 0,
             "color_identity": "C",
             "cost": "",
             "rules_text": "Sacrifice Rowan, target creature you control gets indestructible until the end of turn.\n",
             "flavor_text": "[i]The goblin leaf helped calm his nerves. Phaedra really was the best.[/i]",
             "pt": "2/1",
             "special_text": "",
-            "shape": "token",
+            "shape": "normal",
             "set": "ER",
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER #Token"
         },
         {
             "card_name": "Wesley the Rescued",
@@ -42,178 +42,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
-        },
-        {
-            "card_name": "Armor of Aleana",
-            "color": "W",
-            "rarity": "cube",
-            "type": "Artifact \u2014 Equipment",
-            "number": 1,
-            "color_identity": "W",
-            "cost": "{2}{W}",
-            "rules_text": "Equipped creature gets +3/+3 and has ward {1}. [i](Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i]\nEquip {3}. This ability costs {1} less to activate for each other Equipment you control.\n",
-            "flavor_text": "[i]Justice and Mercy find equal weight in the chosen of Aleana.[/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "ER",
-            "loyalty": "",
-            "artist": "DALL-E",
-            "alias": "",
-            "notes": ","
-        },
-        {
-            "card_name": "Goblin Gang Leader",
-            "color": "R",
-            "rarity": "cube",
-            "type": "Creature \u2014 Goblin",
-            "number": 0,
-            "color_identity": "C",
-            "cost": "",
-            "rules_text": "Other goblins you control get +1/+1\nWhenever you attack with two or more creatures, create a 1/1 red goblin creature token that is tapped and attacking.\n",
-            "flavor_text": "[i]Inside the abandoned tower the party found a hive of goblins ready to attack.\n[/i]",
-            "pt": "2/2",
-            "special_text": "",
-            "shape": "normal",
-            "set": "ER",
-            "loyalty": "",
-            "artist": "DALL-E",
-            "alias": "",
-            "notes": ","
-        },
-        {
-            "card_name": "Cerberus",
-            "color": "G",
-            "rarity": "cube",
-            "type": "Legendary Token Creature \u2014 Wolf",
-            "number": 2,
-            "color_identity": "C",
-            "cost": "",
-            "rules_text": "Whenever a creature dealt damage by Cerberus dies, put a +1/+1 counter on Cerberus\n",
-            "flavor_text": "[i]\u201cYou should have seen the Professors eyes when she attacked\u201d\n\u2014Kirk[/i]",
-            "pt": "2/2",
-            "special_text": "",
-            "shape": "token",
-            "set": "ER",
-            "loyalty": "",
-            "artist": "DALL-E",
-            "alias": "",
-            "notes": ","
-        },
-        {
-            "card_name": "Mazzer, The Rat King",
-            "color": "UB",
-            "rarity": "cube",
-            "type": "Legendary Creature \u2014 Human Rat Monk",
-            "number": 3,
-            "color_identity": "UB",
-            "cost": "{2}{U}{B}",
-            "rules_text": "Skulk [i](This creature can't be blocked by creatures with greater power.)[/i]\nDiscard a card: Create a 1/1 black rat creature tokens with menace and \u201cThis creature can't block\u201d\nOther rats you control get +1/+1\n",
-            "flavor_text": "[i]\u201cThe moment he put on the crown, we lost him\u201d \n\u2014Phaedra[/i]",
-            "pt": "3/3",
-            "special_text": "",
-            "shape": "token",
-            "set": "ER",
-            "loyalty": "",
-            "artist": "DALL-E",
-            "alias": "",
-            "notes": ","
-        },
-        {
-            "card_name": "Captain Morro",
-            "color": "W",
-            "rarity": "cube",
-            "type": "Legendary Creature \u2014 Human Soldier",
-            "number": 2,
-            "color_identity": "W",
-            "cost": "{2}{W}",
-            "rules_text": "Flash, First strike\nWhen Captain Morro enters the battlefield, you may pay 1{W} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Captain Morro then tap that many target creatures. They don't untap during their controllers next untap step.\n",
-            "flavor_text": "[i]Under the watchful eye of Captain Morro, New Falden was kept safe.[/i]",
-            "pt": "2/3",
-            "special_text": "",
-            "shape": "normal",
-            "set": "ER",
-            "loyalty": "",
-            "artist": "DALL-E",
-            "alias": "",
-            "notes": ","
-        },
-        {
-            "card_name": "Carmen, Pious Knight",
-            "color": "W",
-            "rarity": "cube",
-            "type": "Legendary Creature \u2014 Giant Paladin",
-            "number": 3,
-            "color_identity": "W",
-            "cost": "{2}{W}",
-            "rules_text": "Vigilance\nWhen Carmen, Pious Knight enters the battlefield gain 3 life.\n",
-            "flavor_text": "[i]Her death caused a great many tears.\nSlain by The Professor in his lair.[/i]",
-            "pt": "3/3",
-            "special_text": "",
-            "shape": "normal",
-            "set": "ER",
-            "loyalty": "",
-            "artist": "DALL-E",
-            "alias": "",
-            "notes": ","
-        },
-        {
-            "card_name": "Kirk of Clan Daardendrian",
-            "color": "W",
-            "rarity": "cube",
-            "type": "Legendary Creature \u2014 Dragon Paladin",
-            "number": 4,
-            "color_identity": "W",
-            "cost": "{3}{W}",
-            "rules_text": "When Kirk of Clan Daardendrian enters the battlefield, search your library for an equipment card and put it on the battlefield.\n{1}{W}: Attach all Equipment you control to Kirk.",
-            "flavor_text": "[i]Kriv's journal led him to the Sword of Olethros and to his destiny.[/i]",
-            "pt": "3/3",
-            "special_text": "",
-            "shape": "normal",
-            "set": "ER",
-            "loyalty": "",
-            "artist": "DALL-E",
-            "alias": "",
-            "notes": ","
-        },
-        {
-            "card_name": "Lord Chuck Gavelston",
-            "color": "W",
-            "rarity": "cube",
-            "type": "Legendary Creature \u2014 Human Noble",
-            "number": 5,
-            "color_identity": "W",
-            "cost": "{1}{W}",
-            "rules_text": "When Lord Chuck Gavelston enters the battlefield create a food token.\n\n",
-            "flavor_text": "[i]\u201cBless his heart, he was always ready with hot stew when we arrived\u201d \n\u2014Phaedra[/i]",
-            "pt": "1/4",
-            "special_text": "",
-            "shape": "normal",
-            "set": "ER",
-            "loyalty": "",
-            "artist": "DALL-E",
-            "alias": "",
-            "notes": ","
-        },
-        {
-            "card_name": "Manticore",
-            "color": "W",
-            "rarity": "cube",
-            "type": "Creature \u2014 Manticore",
-            "number": 6,
-            "color_identity": "W",
-            "cost": "{2}{W}",
-            "rules_text": "Flash, Flying\nWhen Manticore Dies, draw a card.\n",
-            "flavor_text": "[i]The Heroes of New Falden learned quickly not to camp in the plains to the north.[/i]",
-            "pt": "3/1",
-            "special_text": "",
-            "shape": "normal",
-            "set": "ER",
-            "loyalty": "",
-            "artist": "DALL-E",
-            "alias": "",
-            "notes": ","
+            "notes": "#ER #FlipCard"
         },
         {
             "card_name": "Spear of Vhalimar",
@@ -232,14 +61,166 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#FlipCard #ER"
+        },
+        {
+            "card_name": "Goblin Gang Leader",
+            "color": "R",
+            "rarity": "cube",
+            "type": "Creature \u2014 Goblin",
+            "number": 0,
+            "color_identity": "C",
+            "cost": "",
+            "rules_text": "Other goblins you control get +1/+1\nWhenever you attack with two or more creatures, create a 1/1 red goblin creature token that is tapped and attacking.\n",
+            "flavor_text": "[i]Inside the abandoned tower the party found a hive of goblins ready to attack.\n[/i]",
+            "pt": "2/2",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#FlipCard #ER"
+        },
+        {
+            "card_name": "Cerberus",
+            "color": "G",
+            "rarity": "cube",
+            "type": "Legendary Token Creature \u2014 Wolf",
+            "number": 0,
+            "color_identity": "C",
+            "cost": "",
+            "rules_text": "Whenever a creature dealt damage by Cerberus dies, put a +1/+1 counter on Cerberus\n",
+            "flavor_text": "[i]\u201cYou should have seen the Professors eyes when she attacked\u201d\n\u2014Kirk[/i]",
+            "pt": "2/2",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#ER #Token"
+        },
+        {
+            "card_name": "Mazzer, The Rat King",
+            "color": "UB",
+            "rarity": "cube",
+            "type": "Legendary Creature \u2014 Elf Rat Monk",
+            "number": 0,
+            "color_identity": "UB",
+            "cost": "{2}{U}{B}",
+            "rules_text": "Skulk [i](This creature can't be blocked by creatures with greater power.)[/i]\nDiscard a card: Create a 1/1 black rat creature tokens with menace and \u201cThis creature can't block\u201d\nOther rats you control get +1/+1\n",
+            "flavor_text": "[i]\u201cThe moment he put on the crown, we lost him\u201d \n\u2014Phaedra[/i]",
+            "pt": "3/3",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#ER #FlipCard"
+        },
+        {
+            "card_name": "Captain Morro",
+            "color": "W",
+            "rarity": "cube",
+            "type": "Legendary Creature \u2014 Human Soldier",
+            "number": 1,
+            "color_identity": "W",
+            "cost": "{2}{W}",
+            "rules_text": "Flash, First strike\nWhen Captain Morro enters the battlefield, you may pay 1{W} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Captain Morro then tap that many target creatures. They don't untap during their controllers next untap step.\n",
+            "flavor_text": "[i]Under the watchful eye of Captain Morro, New Falden was kept safe.[/i]",
+            "pt": "2/3",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#ER"
+        },
+        {
+            "card_name": "Carmen, Pious Knight",
+            "color": "W",
+            "rarity": "cube",
+            "type": "Legendary Creature \u2014 Giant Paladin",
+            "number": 2,
+            "color_identity": "W",
+            "cost": "{2}{W}",
+            "rules_text": "Vigilance\nWhen Carmen, Pious Knight enters the battlefield gain 3 life.\n",
+            "flavor_text": "[i]Her death caused a great many tears.\nSlain by The Professor in his lair.[/i]",
+            "pt": "3/3",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#ER"
+        },
+        {
+            "card_name": "Kirk of Clan Daardendrian",
+            "color": "W",
+            "rarity": "cube",
+            "type": "Legendary Creature \u2014 Dragon Paladin",
+            "number": 3,
+            "color_identity": "W",
+            "cost": "{3}{W}",
+            "rules_text": "When Kirk of Clan Daardendrian enters the battlefield, search your library for an equipment card and put it on the battlefield.\n{1}{W}: Attach all Equipment you control to Kirk.",
+            "flavor_text": "[i]Kriv's journal led him to the Sword of Olethros and to his destiny.[/i]",
+            "pt": "3/3",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#ER"
+        },
+        {
+            "card_name": "Lord Chuck Gavelston",
+            "color": "W",
+            "rarity": "cube",
+            "type": "Legendary Creature \u2014 Human Noble",
+            "number": 4,
+            "color_identity": "W",
+            "cost": "{1}{W}",
+            "rules_text": "When Lord Chuck Gavelston enters the battlefield create a food token.\n\n",
+            "flavor_text": "[i]\u201cBless his heart, he was always ready with hot stew when we arrived\u201d \n\u2014Phaedra[/i]",
+            "pt": "1/4",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#ER"
+        },
+        {
+            "card_name": "Manticore",
+            "color": "W",
+            "rarity": "cube",
+            "type": "Creature \u2014 Manticore",
+            "number": 5,
+            "color_identity": "W",
+            "cost": "{2}{W}",
+            "rules_text": "Flash, Flying\nWhen Manticore Dies, draw a card.\n",
+            "flavor_text": "[i]The Heroes of New Falden learned quickly not to camp in the plains to the north.[/i]",
+            "pt": "3/1",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#ER"
         },
         {
             "card_name": "Paeter, Foolish Monk",
             "color": "W",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Monk",
-            "number": 7,
+            "number": 6,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "When Paeter, Foolish Monk dies, draw a card.\n",
@@ -251,14 +232,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Phaedra the Seeker",
             "color": "W",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Tiefling Paladin",
-            "number": 8,
+            "number": 7,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Vigilance\nWhen Phaedra enters the battlefield, create Rowan, a 2/1 soldier token with \u201cSacrifice Rowan, target creature you control gets indestructible until the end of turn.\u201d\nWhen Phaedra attacks with at least two other creatures, creatures you control get first strike.",
@@ -270,14 +251,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Taj, Glittering Thief",
             "color": "W",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Tabaxi Rogue",
-            "number": 9,
+            "number": 8,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Haste\nWhen Taj, Glitter Thief enters the battlefield gain control of target artifact until Taj, Glittering Thief leaves the battlefield.\n",
@@ -289,14 +270,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Lydia Brooks",
             "color": "U",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Cleric",
-            "number": 10,
+            "number": 9,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "When Lydia Brooks enters the battlefield, you may pay 1{U} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Lydia Brooks then return that many target instant or sorcery cards from your graveyard to your hand.",
@@ -308,14 +289,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "The Black Glove",
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Artifact",
-            "number": 11,
+            "number": 10,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "The Black Glove does not untap during your untap step.\n{1}{B}, {T}: Target creature gets -1/-1 for as long as The Black Glove remains tapped. When targeted creature dies, untap The Black Glove and draw a card.",
@@ -327,7 +308,45 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
+        },
+        {
+            "card_name": "Bron, Dastardly Thief",
+            "color": "B",
+            "rarity": "cube",
+            "type": "Legendary Creature \u2014 Human Rogue",
+            "number": 11,
+            "color_identity": "B",
+            "cost": "{1}{B}",
+            "rules_text": "Menace\nWhen Bron, Dastardly Thief enters the battlefield return it to your hand unless mana from a Treasure was spent to cast it.",
+            "flavor_text": "[i]Only in it for the money.[/i]",
+            "pt": "4/3",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#ER"
+        },
+        {
+            "card_name": "Hellish Rebuke",
+            "color": "B",
+            "rarity": "cube",
+            "type": "Instant",
+            "number": 12,
+            "color_identity": "B",
+            "cost": "{2}{B}",
+            "rules_text": "Until end of turn, permanents your opponents control gain \u201cWhen this permanent deals damage to the player who cast Hellish Rebuke, sacrifice this permanent. You lose 2 life.\u201d",
+            "flavor_text": "[i]Phaedra has something to say about you attacking her friends..[/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#ER"
         },
         {
             "card_name": "Hundral the Voiceless",
@@ -346,26 +365,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
-        },
-        {
-            "card_name": "Bron, Dastardly Thief",
-            "color": "B",
-            "rarity": "cube",
-            "type": "Legendary Creature \u2014 Human Rogue",
-            "number": 12,
-            "color_identity": "B",
-            "cost": "{1}{B}",
-            "rules_text": "Menace\nWhen Bron, Dastardly Thief enters the battlefield return it to your hand unless mana from a Treasure was spent to cast it.",
-            "flavor_text": "[i]Only in it for the money.[/i]",
-            "pt": "4/3",
-            "special_text": "",
-            "shape": "normal",
-            "set": "ER",
-            "loyalty": "",
-            "artist": "DALL-E",
-            "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Nighttime Ambush",
@@ -384,7 +384,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Temple of Judgement",
@@ -403,7 +403,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Captain Ryo",
@@ -422,7 +422,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Crown of Giants",
@@ -441,7 +441,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Eye of Coelys",
@@ -451,16 +451,16 @@
             "number": 18,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "\u200b",
+            "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
-            "shape": "planeswalker",
+            "shape": "normal",
             "set": "ER",
             "loyalty": "3",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Fondael the Bloodied",
@@ -479,7 +479,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Goblin Raid",
@@ -498,7 +498,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Goblin Raid Runner",
@@ -517,26 +517,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
-        },
-        {
-            "card_name": "Guantlets of the Storm",
-            "color": "R",
-            "rarity": "cube",
-            "type": "Artifact \u2014 Equipment",
-            "number": 23,
-            "color_identity": "R",
-            "cost": "{1}{R}",
-            "rules_text": "Flash\nWhen Guantlets of the Storm enters the battlefield, attach it to target creature you control.\nEquipped creature gets +2/+0 and has first strike.\nEquip {2}\n{2}{R}, Sacrifice Guantlets of the Storm: Deal 3 damage to any target.",
-            "flavor_text": "[i]Mazzer [/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "ER",
-            "loyalty": "",
-            "artist": "DALL-E",
-            "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Goblin War-Rider",
@@ -555,7 +536,45 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
+        },
+        {
+            "card_name": "Guantlets of the Storm",
+            "color": "R",
+            "rarity": "cube",
+            "type": "Artifact \u2014 Equipment",
+            "number": 23,
+            "color_identity": "R",
+            "cost": "{1}{R}",
+            "rules_text": "Flash\nWhen Guantlets of the Storm enters the battlefield, attach it to target creature you control.\nEquipped creature gets +2/+0 and has first strike.\nEquip {2}\n{2}{R}, Sacrifice Guantlets of the Storm: Deal 3 damage to any target.",
+            "flavor_text": "[i]Mazzer fists struck quick as lightning.[/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#ER"
+        },
+        {
+            "card_name": "Hobgoblin Warboss",
+            "color": "R",
+            "rarity": "cube",
+            "type": "Creature \u2014 Goblin",
+            "number": 24,
+            "color_identity": "R",
+            "cost": "{2}{R}",
+            "rules_text": "When Hobgoblin Warboss enters the battlefield roll a d20:\n[b]1-9[/b]| Create a 1/1 red goblin creature token.\n[b]10-19[/b]|Create two 1/1 red goblin creature tokens.\n[b]20[/b]| Create three 1/1 red goblin creature tokens.",
+            "flavor_text": "[i]The raid of Kraiggrock Mine did not go as planned.\n[/i]",
+            "pt": "3/3",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#ER"
         },
         {
             "card_name": "Leshanna, Lovestruck Bard",
@@ -574,7 +593,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Lodaec, Tyrant King",
@@ -593,7 +612,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Mining Contract",
@@ -612,7 +631,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Mining Dwarf",
@@ -631,7 +650,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Nicki, Swashbuckler",
@@ -650,7 +669,7 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Nicki's Blade",
@@ -660,7 +679,7 @@
             "number": 30,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Whenever equipped creature attacks, put a +1/+1 counter on it.\nWhenever equipped creature deals combat damage, roll a d12. If the result is greater than the damage dealt or the result is 12, double the number of +1/+1 counters on that creature.\nEquip {2}",
+            "rules_text": "Whenever equipped creature attacks, put a +1/+1 counter on it then roll a d12. \nIf the result is lower than the equipped creatures power, it becomes unblockable, otherwise add an additional +1/+1 counter.\nIf the result is {12}, do both\nEquip {2}",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -669,14 +688,33 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
+        },
+        {
+            "card_name": "Scyruss, Forge Master",
+            "color": "R",
+            "rarity": "cube",
+            "type": "Legendary Creature \u2014 Gnome Artificer",
+            "number": 31,
+            "color_identity": "R",
+            "cost": "{1}{R}",
+            "rules_text": "First strike\nWhen Scyruss enters the battlefield, you may pay 1{R} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Scyruss. Then reveal cards off the top of your library until you reveal an equipment for each forge counter on Scyruss. Put them on the battlefield.",
+            "flavor_text": "[i]Only a forge master could reignite the forge of war. [/i]",
+            "pt": "2/1",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#ER"
         },
         {
             "card_name": "Xurug the Avenger",
             "color": "R",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Orc Barbarian",
-            "number": 31,
+            "number": 32,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Whenever Xurug attacks with at least two other creatures, attacking creatures get trample until end of turn.\nOther Barbarians and Fighters you control get +1/+1",
@@ -688,14 +726,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Zazzid, Chosen of Coelys",
             "color": "R",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Orc Barbarian",
-            "number": 32,
+            "number": 33,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
             "rules_text": "When Zazzid attacks roll a d20.\n[b]1-9[/b]| Zazzid deals 3 damage to a random creature.\n[b]10-19|[/b] Zazzid deals 3 damage to a random creature an opponent controls.\n[b]20[/b]| Zazzid deals 3 damage to a each creature your opponents control.",
@@ -707,14 +745,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Chittering Spider",
             "color": "G",
             "rarity": "cube",
             "type": "Creature \u2014 Spider",
-            "number": 33,
+            "number": 34,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Deathtouch, Reach\n{3}{G}: Return Chittering Spider from your graveyard to the battlefield tapped.",
@@ -726,14 +764,33 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
+        },
+        {
+            "card_name": "Elf Scout",
+            "color": "G",
+            "rarity": "cube",
+            "type": "Creature \u2014 Elf Ranger",
+            "number": 35,
+            "color_identity": "G",
+            "cost": "{1}{G}",
+            "rules_text": "When Elf Scout enters the battlefield, you may search your library for a basic land and put it on the battlefield tapped.",
+            "flavor_text": "[i]The Amalec Forest was theirs to protect.[/i]",
+            "pt": "1/1",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#ER"
         },
         {
             "card_name": "Garmin, Beast's Companion",
             "color": "G",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Halfling Ranger",
-            "number": 34,
+            "number": 36,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "When Garmin enters the battlefield create Cerberus, a 2/2 legendary green Wolf creature token with \u201cWhenever a creature dealt damage by Cerberus dies, put a +1/+1 counter on Cerberus\u201d.\n{G}, {T}: Cerberus fights target creature you don't control.",
@@ -745,14 +802,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Mazzer, Protected",
             "color": "G",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Elf Monk",
-            "number": 35,
+            "number": 37,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "Skulk [i](This creature can't be blocked by creatures with greater power.)[/i]\nWhen Mazzer enters the battlefield, destroy target artifact or enchantment.",
@@ -764,14 +821,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Misha, Werebear Leader",
             "color": "G",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Werebear",
-            "number": 36,
+            "number": 38,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "When Misha enters the battlefield create a 2/2 green Werebear creature token.\nOther Bears and Werebears you control get +1/+1\n{1}{G}, Exile target creature card from your graveyard: Create a 2/2 green Werebear creature token.",
@@ -783,14 +840,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Theo, Friendly Barkeep",
             "color": "G",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Citizen",
-            "number": 37,
+            "number": 39,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Whenever another legendary permanent enters the battlefield under your control, you gain 1 life and draw a card. This ability triggers only once each turn.",
@@ -802,14 +859,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Werebear Amulet",
             "color": "G",
             "rarity": "cube",
             "type": "Artifact \u2014 Equipment",
-            "number": 38,
+            "number": 40,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "When Werebear Amulet enters the battlefield destroy target enchantment.\nEquipped creature has hexproof.\nEquip {1}",
@@ -821,14 +878,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Werebear Warrior",
             "color": "G",
             "rarity": "cube",
             "type": "Creature \u2014 Werebear",
-            "number": 39,
+            "number": 41,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "When Werebear Warrior enters the battlefield, target creature you control and target creature an opponent controls fight. [i](Each deals damage equal to its power to the other.)[/i]",
@@ -840,14 +897,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Adenar, Willful Protector",
             "color": "WU",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Aasimar Wizard",
-            "number": 40,
+            "number": 42,
             "color_identity": "WU",
             "cost": "{1}{W}{U}",
             "rules_text": "Flash\nFlying\nWhen Adenar enters the battlefield, exile target creature and return it to the battlefield under its owner's control.",
@@ -859,33 +916,33 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Beatrix, Wily Herbalist",
             "color": "UG",
             "rarity": "cube",
             "type": "Legendary Planeswalker \u2014 Beatrix",
-            "number": 41,
+            "number": 43,
             "color_identity": "UG",
             "cost": "{2}{G}{U}",
-            "rules_text": "\u200b",
+            "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
-            "shape": "planeswalker",
+            "shape": "normal",
             "set": "ER",
             "loyalty": "3",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Boomer",
             "color": "UR",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Bird Wizard",
-            "number": 42,
+            "number": 44,
             "color_identity": "UR",
             "cost": "{2}{U}{R}",
             "rules_text": "Each time an instant or sorcery resolves, you may exile that card. You may copy that card for as long as it remains in exile and cast it using mana as though it were mana of any color. If you cast the exiled spell or exile another spell this way return the previously exiled card to its owner's graveyard.",
@@ -897,18 +954,18 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Gyles, Forgetful Hermit",
             "color": "BG",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Noble",
-            "number": 43,
+            "number": 45,
             "color_identity": "BG",
             "cost": "{B}{G}",
             "rules_text": "When Gyles, Forgetful Hermit enters the battlefield, mill three cards then return a land from your graveyard to your hand.",
-            "flavor_text": "[i]The gild disowned him and expunged his experiments from the annals of history[/i]",
+            "flavor_text": "[i]The gild disowned him and expunged his experiments from the annals of history.[/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
@@ -916,14 +973,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Klaarrrgggg, Affable Bugbear",
             "color": "RG",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Goblin Barbarian",
-            "number": 44,
+            "number": 46,
             "color_identity": "RG",
             "cost": "{1}{R}{G}",
             "rules_text": "Nemesis [i](You may only control one creature or Planeswalker with Nemesis.)[/i]\nAt the beginning of each upkeep create a 1/1 red goblin creature token with haste. \nGoblins you control get +1/+0 and must attack each combat if able.",
@@ -935,14 +992,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Kraigg, Friendly Troll",
             "color": "RG",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Troll",
-            "number": 45,
+            "number": 47,
             "color_identity": "RG",
             "cost": "{2}{R}{G}",
             "rules_text": "Defender\nKraigg, Friendly Troll assigns combat damage equal to its toughness rather than its power.",
@@ -954,33 +1011,71 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Master Jarreau",
             "color": "WU",
             "rarity": "cube",
             "type": "Legendary Planeswalker \u2014 Jarreau",
-            "number": 46,
+            "number": 48,
             "color_identity": "WU",
             "cost": "{2}{W}{U}",
-            "rules_text": "\u200b",
+            "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
-            "shape": "planeswalker",
+            "shape": "normal",
             "set": "ER",
             "loyalty": "5",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
+        },
+        {
+            "card_name": "Tammer, Reclusive Scholar",
+            "color": "UG",
+            "rarity": "cube",
+            "type": "Legendary Creature \u2014 Halfling Wizard",
+            "number": 49,
+            "color_identity": "UG",
+            "cost": "{G}{U}",
+            "rules_text": "When Tammer, Reclusive Scholar enters the battlefield, you may put a land from you hand onto the battlefield.",
+            "flavor_text": "[i]One of the more interesting locations in the Na'vala Forest is Tammer's Tower.[/i]",
+            "pt": "1/1",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#ER"
+        },
+        {
+            "card_name": "Vas Asareen",
+            "color": "BR",
+            "rarity": "cube",
+            "type": "Legendary Planeswalker \u2014 Vas Asareen",
+            "number": 50,
+            "color_identity": "BR",
+            "cost": "{2}{B}{R}",
+            "rules_text": "Nemesis \u2014 At the beginning of your upkeep you may sacrifice a creature, if you do reveal cards off the top of your library until you reveal a creature card. Put that card onto the battlefield and the rest on the bottom of your library. [i](You may only control one creature or Planeswalker with Nemesis.)[/i]",
+            "flavor_text": "[i]Draw a card and lose 1 life[/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ER",
+            "loyalty": "5",
+            "artist": "DALL-E",
+            "alias": "",
+            "notes": "#ER"
         },
         {
             "card_name": "Vhalimar, Forsaken Angel",
             "color": "WB",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Aasimar Warlock",
-            "number": 47,
+            "number": 51,
             "color_identity": "WB",
             "cost": "{1}{W}{B}",
             "rules_text": "Haste\nAt the beginning of your upkeep, sacrifice a creature.",
@@ -1003,14 +1098,14 @@
             "loyalty2": "",
             "artist2": "DALL-E",
             "alias2": "",
-            "notes": "S"
+            "notes": "#ER"
         },
         {
             "card_name": "Bulgan, Raging Battler",
             "color": "RG",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Orc Barbarian",
-            "number": 48,
+            "number": 52,
             "color_identity": "RG",
             "cost": "{2}{RG}{RG}",
             "rules_text": "Menace, Trample\nBlitz {R}{G} [i](If you cast this spell for its blitz cost, it gains haste and \u201cWhen this creature dies, draw a card\u201d. Sacrifice it at the beginning of the next end step.)[/i]",
@@ -1022,14 +1117,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Donar, Tragic Hero",
             "color": "WU",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Cleric",
-            "number": 49,
+            "number": 53,
             "color_identity": "WU",
             "cost": "{1}{WU}",
             "rules_text": "When Donar, Tragic Hero is put into the graveyard from anywhere return a creature with mana value 2 or less from the graveyard to your hand.",
@@ -1041,33 +1136,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
-        },
-        {
-            "card_name": "Kriv, Champion of Heroes",
-            "color": "WR",
-            "rarity": "cube",
-            "type": "Legendary Creature \u2014 Dragon Paladin",
-            "number": 50,
-            "color_identity": "WR",
-            "cost": "{3}{RW}{RW}",
-            "rules_text": "Vigilance\nBoast \u2014 {1}{R}: Kriv, Champion of Heroes deals 3 damage to target creature. [i](Activate this ability only if this creature attacked this turn and only once each turn.)[/i]\nOther creatures you control get +1/+1",
-            "flavor_text": "[i]Only those who are worthy may wield the armor of Kryios[/i]",
-            "pt": "5/5",
-            "special_text": "",
-            "shape": "normal",
-            "set": "ER",
-            "loyalty": "",
-            "artist": "DALL-E",
-            "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "The Ledger",
             "color": "UB",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Rogue",
-            "number": 51,
+            "number": 54,
             "color_identity": "UB",
             "cost": "{1}{U}{UB}{B}",
             "rules_text": "Nemesis \u2014 At the beginning of your upkeep if you control no rogue creatures tokens, create a 1/1 black rogue creature token with unblockable. [i](You may only control one creature or Planeswalker with Nemesis.)[/i]\nSacrifice a creature: Create a treasure.",
@@ -1079,14 +1155,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Mathias, Cursed of Urobu",
             "color": "WB",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Elf Ranger",
-            "number": 52,
+            "number": 55,
             "color_identity": "WB",
             "cost": "{2}{WB}",
             "rules_text": "Flash\nWhen Mathias, Cursed of Urobu enters the battlefield, target creature gets -2/-2 until end of turn.",
@@ -1098,17 +1174,17 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Milde, Faithful Assistant",
             "color": "WG",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Citizen",
-            "number": 53,
+            "number": 56,
             "color_identity": "WG",
             "cost": "{1}{GW}",
-            "rules_text": "At the beginning of each end step, gain 1 life if a creature died this turn.",
+            "rules_text": "At the beginning of each end step, gain 1 life if a creature died this turn.\n\n",
             "flavor_text": "[i]Often overlooked by the Gild and yet without her the project would have failed[/i]",
             "pt": "1/2",
             "special_text": "",
@@ -1117,14 +1193,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Namfoodle Stumbleduck",
             "color": "UR",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Gnome Wizard",
-            "number": 54,
+            "number": 57,
             "color_identity": "UR",
             "cost": "{2}{UR}",
             "rules_text": "When Namfoodle Stumbleduck enters the battlefield, roll a d20:\n[b]1-5[/b]|Return target creature to its owner's hand.\n[b]6-15[/b]|Scry 2 then draw a card.\n[b]16+[/b]|Deal 3 damage to target creature or player.",
@@ -1136,17 +1212,17 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "The Professor",
             "color": "BG",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Wizard",
-            "number": 55,
+            "number": 58,
             "color_identity": "BG",
             "cost": "{2}{BG}",
-            "rules_text": "Nemesis [i](You may only control one creature or Planeswalker with Nemesis.)[/i]\nAt the beginning of your upkeep create a 1/1 Homunculus creature token with mutate. Creatures in your hand have mutate.",
+            "rules_text": "Nemesis [i](You may only control one creature or Planeswalker with Nemesis.)[/i]\nAt the beginning of your upkeep create a 1/1 Homunculus creature token with mutate. \nCreatures in your hand have mutate.",
             "flavor_text": "[i]Among the gild, only Vas Asareen was more feared.[/i]",
             "pt": "2/3",
             "special_text": "",
@@ -1155,18 +1231,18 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Blade of Olethros",
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Equipment",
-            "number": 56,
+            "number": 59,
             "color_identity": "C",
             "cost": "{5}",
             "rules_text": "Equipped creatures has deathtouch.\nWhen equipped creature attacks, roll a d10.\nEquip {2}\n[b]1-2[/b]|Target player mills 2.\n[b]3-4| [/b]Destroy target nonland permanent with mana value 2 or less.\n[b]5-6[/b]|Destroy target artifact or enchantment.\n[b]7-8[/b]|Deal 2 damage to target creature or player\n[b]9-10[/b]| Target creature gets -2/-2 until the end of turn.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]\u200bKirk found Kriv's journal which led him to a most curious treasure...[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -1174,14 +1250,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Monument of Heroes",
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact",
-            "number": 57,
+            "number": 60,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "\u200b",
@@ -1193,14 +1269,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Samuel, Sentient Mask",
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact Creature \u2014 Contruct",
-            "number": 58,
+            "number": 61,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Defender\nWhen Samuel enter the battlefield, draw a card.\n{3}{T}: Draw a card",
@@ -1212,14 +1288,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Soul Eater",
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Equipment",
-            "number": 59,
+            "number": 62,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "When equipped creature deals combat damage to a player, you may sacrifice it. If you do, exile target legendary permanent that player controls.\nEquip legendary creature {3}\nEquip {7}",
@@ -1231,17 +1307,17 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Banden Docks",
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land \u2014 Island",
-            "number": 60,
+            "number": 63,
             "color_identity": "U",
             "cost": "",
-            "rules_text": "\n{T}: Add {U}\nCrew 1 [i](Tap any number of creatures you control with total power 1 or greater: This Island becomes an artifact creature until end of turn.)[/i]",
+            "rules_text": "\n{T}: Add {U}\nCrew 1 [i](Tap any number of creatures you control with total power 1 or more: This Island becomes an artifact creature until end of turn.)[/i]",
             "flavor_text": "[i]Captain Ryo had sole control of the docks, but he let the heroes of New Falden use his ship when they wanted.[/i]",
             "pt": "3/3",
             "special_text": "",
@@ -1250,14 +1326,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Hyathyr",
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land \u2014 Forest",
-            "number": 61,
+            "number": 64,
             "color_identity": "G",
             "cost": "",
             "rules_text": "{T}: Add {G}\n{2}{G}{G}: Create a 2/2 green bear creature token.",
@@ -1269,14 +1345,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Korolduhr",
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land \u2014 Mountain",
-            "number": 62,
+            "number": 65,
             "color_identity": "R",
             "cost": "",
             "rules_text": "{T}: Add {R}\n{1}{R}, {T}, Exile a creature card from your graveyard: Create a treasure.",
@@ -1288,14 +1364,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Manticore Tower",
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land \u2014 Plains",
-            "number": 63,
+            "number": 66,
             "color_identity": "W",
             "cost": "",
             "rules_text": "{T}: Add {W}\n{4}{W}: Create a 3/1 Flying Manticore creature token.",
@@ -1307,14 +1383,14 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
+            "notes": "#ER"
         },
         {
             "card_name": "Old Falden",
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land \u2014 Swamp",
-            "number": 64,
+            "number": 67,
             "color_identity": "B",
             "cost": "",
             "rules_text": "When Old Falden enters the battlefield, mill four then return a card from your graveyard to your hand that was put there this turn.\n{T}: Add {B}",
@@ -1326,27 +1402,8 @@
             "loyalty": "",
             "artist": "DALL-E",
             "alias": "",
-            "notes": ","
-        },
-        {
-            "card_name": "Hobgoblin Warboss",
-            "color": "R",
-            "rarity": "cube",
-            "type": "Creature \u2014 Goblin",
-            "number": 24,
-            "color_identity": "R",
-            "cost": "{2}{R}",
-            "rules_text": "When Hobgoblin Warboss enters the battlefield roll a d20:\n[b]1-9[/b]| Create a 1/1 red goblin creature token.\n[b]10-19[/b]|Create two 1/1 red goblin creature tokens.\n[b]20[/b]| Create three 1/1 red goblin creature tokens.",
-            "flavor_text": "[i]The raid of Kraiggrock Mine did not go as planned.\n[/i]",
-            "pt": "3/3",
-            "special_text": "",
-            "shape": "normal",
-            "set": "ER",
-            "loyalty": "",
-            "artist": "DALL-E",
-            "alias": "",
-            "notes": ","
+            "notes": "#ER"
         }
     ],
-    "version": 2
+    "version": 3
 }

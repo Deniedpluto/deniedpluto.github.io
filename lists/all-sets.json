@@ -2,7 +2,7 @@
     "sets": [
         {
             "set_code": "CEP",
-            "set_name": "The Formidable Five",
+            "set_name": "Cephestia",
             "formats": ""
         },
         {
@@ -18,6 +18,11 @@
         {
             "set_code": "ER",
             "set_name": "Eastern Reach",
+            "formats": ""
+        },
+        {
+            "set_code": "TFF",
+            "set_name": "The Formidable Five",
             "formats": ""
         },
         {

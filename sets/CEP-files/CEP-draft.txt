@@ -1,23 +1,473 @@
 ﻿[CustomCards]
 	[
 		{
-			"name": "Acolyte of Urobu",
+			"name": "Explore the Outlands",
 			"rarity": "special",
-			"mana_cost": "{1}{W}",
-			"type": "Creature — Elf Cleric",
-			"collector_number": "1",
+			"mana_cost": "{G}{U}",
+			"type": "Sorcery",
+			"collector_number": "90",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/1_Acolyte of Urobu.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/90_Explore the Outlands.png"
 			}
 		},
 		{
-			"name": "Aleana's Chosen",
+			"name": "The Beacon",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/97_The Beacon.png"
+			}
+		},
+		{
+			"name": "Et'limi'dak",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Forest Plains",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/108_Et'limi'dak.png"
+			}
+		},
+		{
+			"name": "Lake Dorn",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Mountain Island",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/114_Lake Dorn.png"
+			}
+		},
+		{
+			"name": "The Nether",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/119_The Nether.png"
+			}
+		},
+		{
+			"name": "The Wilds",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/131_The Wilds.png"
+			}
+		},
+		{
+			"name": "The Blightlands",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/100_The Blightlands.png"
+			}
+		},
+		{
+			"name": "The Abyss",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/94_The Abyss.png"
+			}
+		},
+		{
+			"name": "Ovauto Forest",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Mountain Forest",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/121_Ovauto Forest.png"
+			}
+		},
+		{
+			"name": "The Moon Grove",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/117_The Moon Grove.png"
+			}
+		},
+		{
+			"name": "Upper Iron Pass",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Mountain Plains",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/129_Upper Iron Pass.png"
+			}
+		},
+		{
+			"name": "Muster the Guard",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/20_Muster the Guard.png"
+			}
+		},
+		{
+			"name": "Invisibility",
+			"rarity": "special",
+			"mana_cost": "{U}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/37_Invisibility.png"
+			}
+		},
+		{
+			"name": "Spare the Dying",
+			"rarity": "special",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/58_Spare the Dying.png"
+			}
+		},
+		{
+			"name": "Emir, Fists of Fury",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Legendary Creature — Elf Monk",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/89_Emir, Fists of Fury.png"
+			}
+		},
+		{
+			"name": "Town's Guard",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/28_Town's Guard.png"
+			}
+		},
+		{
+			"name": "Sorsha, Restrained",
+			"rarity": "special",
+			"mana_cost": "{2}{B/G}",
+			"type": "Legendary Creature — Elf Vampire Druid",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/92_Sorsha, Restrained.png"
+			}
+		},
+		{
+			"name": "Fire Bolt",
+			"rarity": "special",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/64_Fire Bolt.png"
+			}
+		},
+		{
+			"name": "Sacred Flame",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/24_Sacred Flame.png"
+			}
+		},
+		{
+			"name": "Divine Smite",
+			"rarity": "special",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/13_Divine Smite.png"
+			}
+		},
+		{
+			"name": "Chaos Bolt",
+			"rarity": "special",
+			"mana_cost": "{2}{U/R}",
+			"type": "Instant",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/91_Chaos Bolt.png"
+			}
+		},
+		{
+			"name": "Inflict Wounds",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/50_Inflict Wounds.png"
+			}
+		},
+		{
+			"name": "Mysterious Benefactor",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Noble",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/53_Mysterious Benefactor.png"
+			}
+		},
+		{
+			"name": "Treasure Diver",
+			"rarity": "special",
+			"mana_cost": "{U}",
+			"type": "Creature — Merfolk Rogue",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/41_Treasure Diver.png"
+			}
+		},
+		{
+			"name": "Teleportation Circle",
 			"rarity": "special",
 			"mana_cost": "{3}{W}",
-			"type": "Creature — Tiefling Paladin",
-			"collector_number": "2",
+			"type": "Enchantment",
+			"collector_number": "27",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/2_Aleana's Chosen.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/27_Teleportation Circle.png"
+			}
+		},
+		{
+			"name": "Defend the Walls!",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/10_Defend the Walls!.png"
+			}
+		},
+		{
+			"name": "Captain of the Guard",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/7_Captain of the Guard.png"
+			}
+		},
+		{
+			"name": "Squad Commander",
+			"rarity": "special",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Elf Soldier",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/25_Squad Commander.png"
+			}
+		},
+		{
+			"name": "Hag Coven",
+			"rarity": "special",
+			"mana_cost": "{3}{B}{B}{B}",
+			"type": "Creature — Hag",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/49_Hag Coven.png"
+			}
+		},
+		{
+			"name": "Soul Diversion",
+			"rarity": "special",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/57_Soul Diversion.png"
+			}
+		},
+		{
+			"name": "Boon of Aranya",
+			"rarity": "special",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/77_Boon of Aranya.png"
+			}
+		},
+		{
+			"name": "Acolyte of Aranya",
+			"rarity": "special",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/74_Acolyte of Aranya.png"
+			}
+		},
+		{
+			"name": "Kavedii Islands",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Forest Island",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/111_Kavedii Islands.png"
+			}
+		},
+		{
+			"name": "Revalia",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/123_Revalia.png"
+			}
+		},
+		{
+			"name": "Misty Isles",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Island Swamp",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/115_Misty Isles.png"
+			}
+		},
+		{
+			"name": "The Tumult",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/127_The Tumult.png"
+			}
+		},
+		{
+			"name": "The Cataclysm",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/101_The Cataclysm.png"
+			}
+		},
+		{
+			"name": "Bastion",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/96_Bastion.png"
+			}
+		},
+		{
+			"name": "Eislessi Isle",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Plains Island",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/106_Eislessi Isle.png"
+			}
+		},
+		{
+			"name": "Ikbarre Marshes",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Plains Swamp",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/110_Ikbarre Marshes.png"
+			}
+		},
+		{
+			"name": "Corpsewood",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Swamp Forest",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/104_Corpsewood.png"
+			}
+		},
+		{
+			"name": "Shattered Peaks",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Swamp Mountain",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/126_Shattered Peaks.png"
+			}
+		},
+		{
+			"name": "Boon of Elos",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/44_Boon of Elos.png"
+			}
+		},
+		{
+			"name": "Mark for Death",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/52_Mark for Death.png"
+			}
+		},
+		{
+			"name": "Necromancer's Apprentice",
+			"rarity": "special",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/54_Necromancer's Apprentice.png"
+			}
+		},
+		{
+			"name": "Draconic Purge",
+			"rarity": "special",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/47_Draconic Purge.png"
+			}
+		},
+		{
+			"name": "The Wiggumstaff Incident",
+			"rarity": "special",
+			"mana_cost": "{8}{R}",
+			"type": "Sorcery",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/73_The Wiggumstaff Incident.png"
 			}
 		},
 		{
@@ -25,9 +475,299 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/2_Aleana's Mercy.png"
+			}
+		},
+		{
+			"name": "Malaas War Marshall",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dwarf Soldier",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/68_Malaas War Marshall.png"
+			}
+		},
+		{
+			"name": "Cleanse the Bloodlines",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/45_Cleanse the Bloodlines.png"
+			}
+		},
+		{
+			"name": "Dragon's Fire",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/63_Dragon's Fire.png"
+			}
+		},
+		{
+			"name": "Conjure Animals",
+			"rarity": "special",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/79_Conjure Animals.png"
+			}
+		},
+		{
+			"name": "The Forge of War",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Artifact",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/15_The Forge of War.png"
+			}
+		},
+		{
+			"name": "The Forge of Spells",
+			"rarity": "special",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Artifact",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/34_The Forge of Spells.png"
+			}
+		},
+		{
+			"name": "Death Ward",
+			"rarity": "special",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/80_Death Ward.png"
+			}
+		},
+		{
+			"name": "Lanu's Intervention",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/51_Lanu's Intervention.png"
+			}
+		},
+		{
+			"name": "Dictate of Urobu",
+			"rarity": "special",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/46_Dictate of Urobu.png"
+			}
+		},
+		{
+			"name": "Ritual Sacrifice",
+			"rarity": "special",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/56_Ritual Sacrifice.png"
+			}
+		},
+		{
+			"name": "Dungeon Skeleton",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Skeleton",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/48_Dungeon Skeleton.png"
+			}
+		},
+		{
+			"name": "Remove Curse",
+			"rarity": "special",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/55_Remove Curse.png"
+			}
+		},
+		{
+			"name": "Gift of Vetys",
+			"rarity": "special",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/35_Gift of Vetys.png"
+			}
+		},
+		{
+			"name": "Secrets of Tathys",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/39_Secrets of Tathys.png"
+			}
+		},
+		{
+			"name": "Blessing of Alyra",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/59_Blessing of Alyra.png"
+			}
+		},
+		{
+			"name": "Coelys's Ire",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/62_Coelys's Ire.png"
+			}
+		},
+		{
+			"name": "Caelys's Favor",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/60_Caelys's Favor.png"
+			}
+		},
+		{
+			"name": "Cadrea's Blessing",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/6_Cadrea's Blessing.png"
+			}
+		},
+		{
+			"name": "Fireball",
+			"rarity": "special",
+			"mana_cost": "{X}{R}",
+			"type": "Sorcery",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/65_Fireball.png"
+			}
+		},
+		{
+			"name": "Price of Loyalty",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/72_Price of Loyalty.png"
+			}
+		},
+		{
+			"name": "Divine Intervention",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/12_Divine Intervention.png"
+			}
+		},
+		{
+			"name": "Lady Ostrix",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Elf Noble",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/19_Lady Ostrix.png"
+			}
+		},
+		{
+			"name": "Binding of the Law",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/5_Binding of the Law.png"
+			}
+		},
+		{
+			"name": "Guard Drake",
+			"rarity": "special",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Dragon",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/36_Guard Drake.png"
+			}
+		},
+		{
+			"name": "Lord Maalas",
+			"rarity": "special",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Creature — Dwarf Lord",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/67_Lord Maalas.png"
+			}
+		},
+		{
+			"name": "Gnome Technocrat",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Gnome Artificer",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/16_Gnome Technocrat.png"
+			}
+		},
+		{
+			"name": "Armor of Aleana",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Equipment",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/3_Aleana's Mercy.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/3_Armor of Aleana.png"
+			}
+		},
+		{
+			"name": "Kyrios the Creator",
+			"rarity": "special",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Legendary Creature — Eternal Dragon",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/18_Kyrios the Creator.png"
+			}
+		},
+		{
+			"name": "Fly",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/14_Fly.png"
 			}
 		},
 		{
@@ -41,93 +781,13 @@
 			}
 		},
 		{
-			"name": "Ayleia's Return",
+			"name": "Reinforce",
 			"rarity": "special",
-			"mana_cost": "{2}{W}{W}",
-			"type": "Sorcery",
-			"collector_number": "5",
+			"mana_cost": "{4}{W}",
+			"type": "Enchantment",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/5_Ayleia's Return.png"
-			}
-		},
-		{
-			"name": "Blessed Ent",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Creature — Treefolk",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/0_Blessed Ent.png"
-			}
-		},
-		{
-			"name": "Binding of the Law",
-			"rarity": "special",
-			"mana_cost": "{1}{W}",
-			"type": "Enchantment — Aura",
-			"collector_number": "6",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/6_Binding of the Law.png"
-			}
-		},
-		{
-			"name": "Cadrea's Blessing",
-			"rarity": "special",
-			"mana_cost": "{1}{W}",
-			"type": "Instant",
-			"collector_number": "7",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/7_Cadrea's Blessing.png"
-			}
-		},
-		{
-			"name": "Captain of the Guard",
-			"rarity": "special",
-			"mana_cost": "{1}{W}",
-			"type": "Creature — Human Soldier",
-			"collector_number": "8",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/8_Captain of the Guard.png"
-			}
-		},
-		{
-			"name": "Chief Inspector",
-			"rarity": "special",
-			"mana_cost": "{W}",
-			"type": "Creature — Human Soldier",
-			"collector_number": "9",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/9_Chief Inspector.png"
-			}
-		},
-		{
-			"name": "Cleric of Aleana",
-			"rarity": "special",
-			"mana_cost": "{W}",
-			"type": "Creature — Tiefling Cleric",
-			"collector_number": "10",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/10_Cleric of Aleana.png"
-			}
-		},
-		{
-			"name": "Cube of K'nezeret",
-			"rarity": "special",
-			"mana_cost": "{2}{W}",
-			"type": "Legendary Enchantment Artifact",
-			"collector_number": "11",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/11_Cube of K'nezeret.png"
-			}
-		},
-		{
-			"name": "Defend the Walls!",
-			"rarity": "special",
-			"mana_cost": "{2}{W}",
-			"type": "Instant",
-			"collector_number": "12",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/12_Defend the Walls!.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/21_Reinforce.png"
 			}
 		},
 		{
@@ -135,159 +795,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "13",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/13_Dispel Magic.png"
-			}
-		},
-		{
-			"name": "Divine Intervention",
-			"rarity": "special",
-			"mana_cost": "{2}{W}",
-			"type": "Instant",
-			"collector_number": "14",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/14_Divine Intervention.png"
-			}
-		},
-		{
-			"name": "Divine Smite",
-			"rarity": "special",
-			"mana_cost": "{W}",
-			"type": "Instant",
-			"collector_number": "15",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/15_Divine Smite.png"
-			}
-		},
-		{
-			"name": "Fly",
-			"rarity": "special",
-			"mana_cost": "{1}{W}",
-			"type": "Enchantment — Aura",
-			"collector_number": "16",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/16_Fly.png"
-			}
-		},
-		{
-			"name": "The Forge of War",
-			"rarity": "special",
-			"mana_cost": "{2}{W}",
-			"type": "Legendary Artifact",
-			"collector_number": "17",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/17_The Forge of War.png"
-			}
-		},
-		{
-			"name": "Gnome Technocrat",
-			"rarity": "special",
-			"mana_cost": "{1}{W}",
-			"type": "Creature — Gnome Artificer",
-			"collector_number": "18",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/18_Gnome Technocrat.png"
-			}
-		},
-		{
-			"name": "Griffin Mount",
-			"rarity": "special",
-			"mana_cost": "{2}{W}",
-			"type": "Creature — Griffon",
-			"collector_number": "19",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/19_Griffin Mount.png"
-			}
-		},
-		{
-			"name": "Kyrios the Creator",
-			"rarity": "special",
-			"mana_cost": "{4}{W}{W}",
-			"type": "Legendary Creature — Eternal Dragon",
-			"collector_number": "20",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/20_Kyrios the Creator.png"
-			}
-		},
-		{
-			"name": "Lady Ostrix",
-			"rarity": "special",
-			"mana_cost": "{1}{W}",
-			"type": "Legendary Creature — Elf Noble",
-			"collector_number": "21",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/21_Lady Ostrix.png"
-			}
-		},
-		{
-			"name": "Leonir, Acolyte of Lanu",
-			"rarity": "special",
-			"mana_cost": "{1}{W}{W}",
-			"type": "Legendary Creature — Elf Cleric Rogue",
-			"collector_number": "22",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/22_Leonir, Acolyte of Lanu.png"
-			}
-		},
-		{
-			"name": "Moon Scythe",
-			"rarity": "special",
-			"mana_cost": "{1}{W}",
-			"type": "Artifact — Equipment",
-			"collector_number": "23",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/23_Moon Scythe.png"
-			}
-		},
-		{
-			"name": "Muster the Guard",
-			"rarity": "special",
-			"mana_cost": "{1}{W}",
-			"type": "Enchantment",
-			"collector_number": "24",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/24_Muster the Guard.png"
-			}
-		},
-		{
-			"name": "Noble Ward",
-			"rarity": "special",
-			"mana_cost": "{1}{W}{W}",
-			"type": "Creature — Human Noble",
-			"collector_number": "25",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/25_Noble Ward.png"
-			}
-		},
-		{
-			"name": "Reinforce",
-			"rarity": "special",
-			"mana_cost": "{4}{W}",
-			"type": "Enchantment",
-			"collector_number": "26",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/26_Reinforce.png"
-			}
-		},
-		{
-			"name": "Resistance Squad",
-			"rarity": "special",
-			"mana_cost": "{1}{W}",
-			"type": "Creature — Dwarf Soldier",
-			"collector_number": "27",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/27_Resistance Squad.png"
-			}
-		},
-		{
-			"name": "Ring of Etheria",
-			"rarity": "special",
-			"mana_cost": "{1}{W}",
-			"type": "Artifact — Equipment",
-			"collector_number": "28",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/28_Ring of Etheria.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/11_Dispel Magic.png"
 			}
 		},
 		{
@@ -295,99 +805,39 @@
 			"rarity": "special",
 			"mana_cost": "{W}",
 			"type": "Sorcery",
-			"collector_number": "29",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/29_Rising Populace.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/23_Rising Populace.png"
 			}
 		},
 		{
-			"name": "Sacred Flame",
+			"name": "Griffin Mount",
 			"rarity": "special",
-			"mana_cost": "{1}{W}",
-			"type": "Sorcery",
-			"collector_number": "30",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Griffon",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/30_Sacred Flame.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/17_Griffin Mount.png"
 			}
 		},
 		{
-			"name": "Sarana, Fists of Fury",
-			"rarity": "special",
-			"mana_cost": "{1}{W}{W}",
-			"type": "Legendary Creature — Halfling Monk",
-			"collector_number": "31",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/31_Sarana, Fists of Fury.png"
-			}
-		},
-		{
-			"name": "Squad Commander",
-			"rarity": "special",
-			"mana_cost": "{3}{W}",
-			"type": "Creature — Elf Soldier",
-			"collector_number": "32",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/32_Squad Commander.png"
-			}
-		},
-		{
-			"name": "Tax Accessor",
-			"rarity": "special",
-			"mana_cost": "{1}{W}",
-			"type": "Creature — Human Noble",
-			"collector_number": "33",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/33_Tax Accessor.png"
-			}
-		},
-		{
-			"name": "Teleportation Circle",
-			"rarity": "special",
-			"mana_cost": "{3}{W}",
-			"type": "Enchantment",
-			"collector_number": "34",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/34_Teleportation Circle.png"
-			}
-		},
-		{
-			"name": "Town's Guard",
-			"rarity": "special",
-			"mana_cost": "{1}{W}",
-			"type": "Creature — Human Soldier",
-			"collector_number": "35",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/35_Town's Guard.png"
-			}
-		},
-		{
-			"name": "Tundrayl the Pure",
-			"rarity": "special",
-			"mana_cost": "{4}{W}{W}",
-			"type": "Legendary Creature — Ancient Dragon",
-			"collector_number": "36",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/36_Tundrayl the Pure.png"
-			}
-		},
-		{
-			"name": "Urwin Brighstar, Guild Founder",
-			"rarity": "special",
-			"mana_cost": "{3}{W}",
-			"type": "Legendary Creature — Human Paladin",
-			"collector_number": "37",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/37_Urwin Brighstar, Guild Founder.png"
-			}
-		},
-		{
-			"name": "Wall Guard Recruiter",
+			"name": "Cleric of Aleana",
 			"rarity": "special",
 			"mana_cost": "{W}",
-			"type": "Creature — Human Soldier",
-			"collector_number": "38",
+			"type": "Creature — Tiefling Cleric",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/38_Wall Guard Recruiter.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/9_Cleric of Aleana.png"
+			}
+		},
+		{
+			"name": "Resistance Squad",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Dwarf Soldier",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/22_Resistance Squad.png"
 			}
 		},
 		{
@@ -395,379 +845,39 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Elf Noble",
-			"collector_number": "39",
+			"collector_number": "29",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/39_Wartime Financier.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/29_Wartime Financier.png"
 			}
 		},
 		{
-			"name": "Acolyte of Vetys",
+			"name": "Chief Inspector",
 			"rarity": "special",
-			"mana_cost": "{2}{U}{U}",
-			"type": "Creature — Dragon Wizard",
-			"collector_number": "40",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/40_Acolyte of Vetys.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/8_Chief Inspector.png"
 			}
 		},
 		{
-			"name": "Cone of Cold",
+			"name": "Acolyte of Urobu",
 			"rarity": "special",
-			"mana_cost": "{3}{U}",
-			"type": "Sorcery",
-			"collector_number": "41",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Elf Cleric",
+			"collector_number": "1",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/41_Cone of Cold.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/1_Acolyte of Urobu.png"
 			}
 		},
 		{
-			"name": "Counterspell",
+			"name": "Tax Accessor",
 			"rarity": "special",
-			"mana_cost": "{U}{U}",
-			"type": "Instant",
-			"collector_number": "42",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Noble",
+			"collector_number": "26",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/42_Counterspell.png"
-			}
-		},
-		{
-			"name": "Cutting Words",
-			"rarity": "special",
-			"mana_cost": "{1}{U}",
-			"type": "Instant",
-			"collector_number": "43",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/43_Cutting Words.png"
-			}
-		},
-		{
-			"name": "Death of the Oracle",
-			"rarity": "special",
-			"mana_cost": "{2}{U}",
-			"type": "Sorcery",
-			"collector_number": "44",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/44_Death of the Oracle.png"
-			}
-		},
-		{
-			"name": "Dimension Door",
-			"rarity": "special",
-			"mana_cost": "{U}",
-			"type": "Instant",
-			"collector_number": "45",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/45_Dimension Door.png"
-			}
-		},
-		{
-			"name": "Divination",
-			"rarity": "special",
-			"mana_cost": "{3}{U}",
-			"type": "Instant",
-			"collector_number": "46",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/46_Divination.png"
-			}
-		},
-		{
-			"name": "Dominate Monster",
-			"rarity": "special",
-			"mana_cost": "{2}{U}{U}",
-			"type": "Enchantment — Aura",
-			"collector_number": "47",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/47_Dominate Monster.png"
-			}
-		},
-		{
-			"name": "Draconic Ascent",
-			"rarity": "special",
-			"mana_cost": "{1}{U}",
-			"type": "Sorcery",
-			"collector_number": "48",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/48_Draconic Ascent.png"
-			}
-		},
-		{
-			"name": "Fane of the River",
-			"rarity": "special",
-			"mana_cost": "{2}{U}",
-			"type": "Legendary Creature — Demigod",
-			"collector_number": "49",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/49_Fane of the River.png"
-			}
-		},
-		{
-			"name": "The Forge of Spells",
-			"rarity": "special",
-			"mana_cost": "{2}{U}",
-			"type": "Legendary Artifact",
-			"collector_number": "50",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/50_The Forge of Spells.png"
-			}
-		},
-		{
-			"name": "Gift of Vetys",
-			"rarity": "special",
-			"mana_cost": "{1}{U}",
-			"type": "Instant",
-			"collector_number": "51",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/51_Gift of Vetys.png"
-			}
-		},
-		{
-			"name": "Grappling Octopus",
-			"rarity": "special",
-			"mana_cost": "{3}{U}",
-			"type": "Creature — Octopus",
-			"collector_number": "52",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/52_Grappling Octopus.png"
-			}
-		},
-		{
-			"name": "Guard Drake",
-			"rarity": "special",
-			"mana_cost": "{3}{U}",
-			"type": "Creature — Dragon",
-			"collector_number": "53",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/53_Guard Drake.png"
-			}
-		},
-		{
-			"name": "High Priest Kaaladeth",
-			"rarity": "special",
-			"mana_cost": "{2}{U}{U}",
-			"type": "Legendary Creature — Dragon Cleric",
-			"collector_number": "54",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/54_High Priest Kaaladeth.png"
-			}
-		},
-		{
-			"name": "Hueick, Susceptible Youth",
-			"rarity": "special",
-			"mana_cost": "{U}",
-			"type": "Legendary Creature — Human Bird",
-			"collector_number": "55",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/55_Hueick, Susceptible Youth.png"
-			}
-		},
-		{
-			"name": "Huff vs McDoogal",
-			"rarity": "special",
-			"mana_cost": "{1}{U}",
-			"type": "Enchantment — Quest",
-			"collector_number": "56",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/56_Huff vs McDoogal.png"
-			}
-		},
-		{
-			"name": "Invisibility",
-			"rarity": "special",
-			"mana_cost": "{U}{U}",
-			"type": "Enchantment — Aura",
-			"collector_number": "57",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/57_Invisibility.png"
-			}
-		},
-		{
-			"name": "Invoke Duplicity",
-			"rarity": "special",
-			"mana_cost": "{U}",
-			"type": "Instant",
-			"collector_number": "58",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/58_Invoke Duplicity.png"
-			}
-		},
-		{
-			"name": "Jimmy Beanz",
-			"rarity": "special",
-			"mana_cost": "{2}{U}{U}",
-			"type": "Legendary Creature — Changeling Rogue",
-			"collector_number": "59",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/59_Jimmy Beanz.png"
-			}
-		},
-		{
-			"name": "King Da'aroc",
-			"rarity": "special",
-			"mana_cost": "{3}{U}{U}",
-			"type": "Legendary Creature — Dragon Lord",
-			"collector_number": "60",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/60_King Da'aroc.png"
-			}
-		},
-		{
-			"name": "Library of Vetys",
-			"rarity": "special",
-			"mana_cost": "{3}{U}",
-			"type": "Enchantment",
-			"collector_number": "61",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/61_Library of Vetys.png"
-			}
-		},
-		{
-			"name": "Oracle's Insight",
-			"rarity": "special",
-			"mana_cost": "{U}",
-			"type": "Sorcery",
-			"collector_number": "62",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/62_Oracle's Insight.png"
-			}
-		},
-		{
-			"name": "Pierce the Veil",
-			"rarity": "special",
-			"mana_cost": "{U}",
-			"type": "Instant",
-			"collector_number": "63",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/63_Pierce the Veil.png"
-			}
-		},
-		{
-			"name": "Professor Arden",
-			"rarity": "special",
-			"mana_cost": "{2}{U}",
-			"type": "Legendary Creature — Changeling Rogue",
-			"collector_number": "64",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/64_Professor Arden.png"
-			}
-		},
-		{
-			"name": "Protection from Evil and Good",
-			"rarity": "special",
-			"mana_cost": "{U}",
-			"type": "Instant",
-			"collector_number": "65",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/65_Protection from Evil and Good.png"
-			}
-		},
-		{
-			"name": "Reject",
-			"rarity": "special",
-			"mana_cost": "{U}",
-			"type": "Instant",
-			"collector_number": "66",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/66_Reject.png"
-			}
-		},
-		{
-			"name": "Sahuaghin",
-			"rarity": "special",
-			"mana_cost": "{U}",
-			"type": "Creature — Sahuaghin",
-			"collector_number": "67",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/67_Sahuaghin.png"
-			}
-		},
-		{
-			"name": "Sahuaghin Artillerist",
-			"rarity": "special",
-			"mana_cost": "{2}{U}",
-			"type": "Creature — Sahuaghin",
-			"collector_number": "68",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/68_Sahuaghin Artillerist.png"
-			}
-		},
-		{
-			"name": "Sahuaghin Commander",
-			"rarity": "special",
-			"mana_cost": "{2}{U}",
-			"type": "Creature — Sahuaghin",
-			"collector_number": "69",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/69_Sahuaghin Commander.png"
-			}
-		},
-		{
-			"name": "Sahuaghin Fury",
-			"rarity": "special",
-			"mana_cost": "{1}{U}",
-			"type": "Creature — Sahuaghin",
-			"collector_number": "70",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/70_Sahuaghin Fury.png"
-			}
-		},
-		{
-			"name": "Saw it Coming",
-			"rarity": "special",
-			"mana_cost": "{1}{U}{U}",
-			"type": "Instant",
-			"collector_number": "71",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/71_Saw it Coming.png"
-			}
-		},
-		{
-			"name": "Tathys's Silencer",
-			"rarity": "special",
-			"mana_cost": "{3}{U}{U}",
-			"type": "Creture — Devil",
-			"collector_number": "73",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/73_Tathys's Silencer.png"
-			}
-		},
-		{
-			"name": "Tidal Wave",
-			"rarity": "special",
-			"mana_cost": "{U}",
-			"type": "Sorcery",
-			"collector_number": "74",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/74_Tidal Wave.png"
-			}
-		},
-		{
-			"name": "Treasure Diver",
-			"rarity": "special",
-			"mana_cost": "{U}",
-			"type": "Creature — Merfolk Rogue",
-			"collector_number": "75",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/75_Treasure Diver.png"
-			}
-		},
-		{
-			"name": "Tsunami",
-			"rarity": "special",
-			"mana_cost": "{4}{U}{U}",
-			"type": "Sorcery",
-			"collector_number": "76",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/76_Tsunami.png"
-			}
-		},
-		{
-			"name": "Umbra",
-			"rarity": "special",
-			"mana_cost": "{2}{U}",
-			"type": "Legendary Enchantment Artifact",
-			"collector_number": "77",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/77_Umbra.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/26_Tax Accessor.png"
 			}
 		},
 		{
@@ -775,399 +885,79 @@
 			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Instant",
-			"collector_number": "78",
+			"collector_number": "43",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/78_Wall of Force.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/43_Wall of Force.png"
 			}
 		},
 		{
-			"name": "Ylbor the Lazy",
+			"name": "Cone of Cold",
+			"rarity": "special",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/31_Cone of Cold.png"
+			}
+		},
+		{
+			"name": "Tsunami",
 			"rarity": "special",
 			"mana_cost": "{4}{U}{U}",
-			"type": "Legendary Creature — Ancient Dragon",
-			"collector_number": "79",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/79_Ylbor the Lazy.png"
-			}
-		},
-		{
-			"name": "Young Flayer",
-			"rarity": "special",
-			"mana_cost": "{1}{U}",
-			"type": "Creature — Horror",
-			"collector_number": "80",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/80_Young Flayer.png"
-			}
-		},
-		{
-			"name": "Zunam, Fate Favored",
-			"rarity": "special",
-			"mana_cost": "{2}{U}",
-			"type": "Legendary Creature — Aasimar Bard",
-			"collector_number": "81",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/81_Zunam, Fate Favored.png"
-			}
-		},
-		{
-			"name": "Secrets of Tathys",
-			"rarity": "special",
-			"mana_cost": "{1}{U}{U}",
-			"type": "Instant",
-			"collector_number": "72",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/72_Secrets of Tathys.png"
-			}
-		},
-		{
-			"name": "Blood Magic",
-			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Instant",
-			"collector_number": "83",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/83_Blood Magic.png"
-			}
-		},
-		{
-			"name": "Blood Ritual",
-			"rarity": "special",
-			"mana_cost": "{2}{B}",
-			"type": "Enchantment",
-			"collector_number": "84",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/84_Blood Ritual.png"
-			}
-		},
-		{
-			"name": "Blue Flame Candle",
-			"rarity": "special",
-			"mana_cost": "{B}",
-			"type": "Legendary Artifact",
-			"collector_number": "85",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/85_Blue Flame Candle.png"
-			}
-		},
-		{
-			"name": "Charles",
-			"rarity": "special",
-			"mana_cost": "{B}",
-			"type": "Legendary Creature — Human",
-			"collector_number": "87",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/87_Charles.png"
-			}
-		},
-		{
-			"name": "Cleanse the Bloodlines",
-			"rarity": "special",
-			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "88",
+			"collector_number": "42",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/88_Cleanse the Bloodlines.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/42_Tsunami.png"
 			}
 		},
 		{
-			"name": "Dayvroass the Haunted",
+			"name": "Protection from Evil and Good",
 			"rarity": "special",
-			"mana_cost": "{4}{B}{B}",
-			"type": "Legendary Creature — Ancient Dragon",
-			"collector_number": "89",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/89_Dayvroass the Haunted.png"
-			}
-		},
-		{
-			"name": "Death Druid",
-			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Creature — Zombie Druid",
-			"collector_number": "90",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/90_Death Druid.png"
-			}
-		},
-		{
-			"name": "Desecrate the Temple",
-			"rarity": "special",
-			"mana_cost": "{B}",
-			"type": "Sorcery",
-			"collector_number": "91",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/91_Desecrate the Temple.png"
-			}
-		},
-		{
-			"name": "Devilish Imp",
-			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Creature — Imp",
-			"collector_number": "92",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/92_Devilish Imp.png"
-			}
-		},
-		{
-			"name": "Dictate of Urobu",
-			"rarity": "special",
-			"mana_cost": "{3}{B}{B}",
-			"type": "Sorcery",
-			"collector_number": "93",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/93_Dictate of Urobu.png"
-			}
-		},
-		{
-			"name": "Draconic Purge",
-			"rarity": "special",
-			"mana_cost": "{2}{B}{B}",
-			"type": "Sorcery",
-			"collector_number": "94",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/94_Draconic Purge.png"
-			}
-		},
-		{
-			"name": "Dungeon Skeleton",
-			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Creature — Skeleton",
-			"collector_number": "95",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/95_Dungeon Skeleton.png"
-			}
-		},
-		{
-			"name": "Eliath, Doomed Fighter",
-			"rarity": "special",
-			"mana_cost": "{1}{B}{B}",
-			"type": "Legendary Creature — Elf Fighter",
-			"collector_number": "96",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/96_Eliath, Doomed Fighter.png"
-			}
-		},
-		{
-			"name": "Fama's Talon",
-			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Creature — Assassin",
-			"collector_number": "97",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/97_Fama's Talon.png"
-			}
-		},
-		{
-			"name": "Gildling",
-			"rarity": "special",
-			"mana_cost": "{B}",
-			"type": "Creature — Human Noble",
-			"collector_number": "98",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/98_Gildling.png"
-			}
-		},
-		{
-			"name": "Hag Coven",
-			"rarity": "special",
-			"mana_cost": "{3}{B}{B}{B}",
-			"type": "Creature — Hag",
-			"collector_number": "99",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/99_Hag Coven.png"
-			}
-		},
-		{
-			"name": "Hellish Rebuke",
-			"rarity": "special",
-			"mana_cost": "{2}{B}",
+			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "100",
+			"collector_number": "38",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/100_Hellish Rebuke.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/38_Protection from Evil and Good.png"
 			}
 		},
 		{
-			"name": "Inflict Wounds",
+			"name": "Dimension Door",
 			"rarity": "special",
-			"mana_cost": "{1}{B}",
+			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "101",
+			"collector_number": "32",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/101_Inflict Wounds.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/32_Dimension Door.png"
 			}
 		},
 		{
-			"name": "Lanu's Intervention",
+			"name": "Dominate Monster",
 			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Instant",
-			"collector_number": "102",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "33",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/102_Lanu's Intervention.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/33_Dominate Monster.png"
 			}
 		},
 		{
-			"name": "Mark for Death",
+			"name": "Tathys's Silencer",
 			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Instant",
-			"collector_number": "103",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Devil",
+			"collector_number": "40",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/103_Mark for Death.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/40_Tathys's Silencer.png"
 			}
 		},
 		{
-			"name": "Necromancer's Apprentice",
+			"name": "Acolyte of Vetys",
 			"rarity": "special",
-			"mana_cost": "{2}{B}{B}",
-			"type": "Creature — Human Warlock",
-			"collector_number": "105",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Dragon Wizard",
+			"collector_number": "30",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/105_Necromancer's Apprentice.png"
-			}
-		},
-		{
-			"name": "Night of Consuming Darkness",
-			"rarity": "special",
-			"mana_cost": "{2}{B}",
-			"type": "Sorcery",
-			"collector_number": "106",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/106_Night of Consuming Darkness.png"
-			}
-		},
-		{
-			"name": "Olar, The Broken Arrow",
-			"rarity": "special",
-			"mana_cost": "{2}{B}",
-			"type": "Legendary Creature — Aasimar Ranger",
-			"collector_number": "107",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/107_Olar, The Broken Arrow.png"
-			}
-		},
-		{
-			"name": "Olethros the Destroyer",
-			"rarity": "special",
-			"mana_cost": "{4}{B}{B}",
-			"type": "Legendary Creature — Eternal Dragon",
-			"collector_number": "108",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/108_Olethros the Destroyer.png"
-			}
-		},
-		{
-			"name": "Remove Curse",
-			"rarity": "special",
-			"mana_cost": "{B}{B}",
-			"type": "Sorcery",
-			"collector_number": "109",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/109_Remove Curse.png"
-			}
-		},
-		{
-			"name": "Ritual Sacrifice",
-			"rarity": "special",
-			"mana_cost": "{B}",
-			"type": "Sorcery",
-			"collector_number": "110",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/110_Ritual Sacrifice.png"
-			}
-		},
-		{
-			"name": "Shaedrun, the Necromancer",
-			"rarity": "special",
-			"mana_cost": "{4}{B}{B}",
-			"type": "Legendary Creature — Human Warlock",
-			"collector_number": "111",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/111_Shaedrun, the Necromancer.png"
-			}
-		},
-		{
-			"name": "Shaedrun's Gambit",
-			"rarity": "special",
-			"mana_cost": "{2}{B}",
-			"type": "Instant",
-			"collector_number": "112",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/112_Shaedrun's Gambit.png"
-			}
-		},
-		{
-			"name": "Shambling Necromass",
-			"rarity": "special",
-			"mana_cost": "{7}{B}",
-			"type": "Creature — Zombie",
-			"collector_number": "113",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/113_Shambling Necromass.png"
-			}
-		},
-		{
-			"name": "Soul Diversion",
-			"rarity": "special",
-			"mana_cost": "{2}{B}{B}",
-			"type": "Instant",
-			"collector_number": "114",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/114_Soul Diversion.png"
-			}
-		},
-		{
-			"name": "Spare the Dying",
-			"rarity": "special",
-			"mana_cost": "{B}",
-			"type": "Instant",
-			"collector_number": "115",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/115_Spare the Dying.png"
-			}
-		},
-		{
-			"name": "Staff of the Blightree",
-			"rarity": "special",
-			"mana_cost": "{3}{B}",
-			"type": "Legendary Enchantment Artifact",
-			"collector_number": "116",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/116_Staff of the Blightree.png"
-			}
-		},
-		{
-			"name": "Undead Elk",
-			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Creature — Elk Skeleton",
-			"collector_number": "117",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/117_Undead Elk.png"
-			}
-		},
-		{
-			"name": "Blessing of Alyra",
-			"rarity": "special",
-			"mana_cost": "{1}{R}",
-			"type": "Sorcery",
-			"collector_number": "118",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/118_Blessing of Alyra.png"
-			}
-		},
-		{
-			"name": "Caelys's Favor",
-			"rarity": "special",
-			"mana_cost": "{1}{R}",
-			"type": "Instant",
-			"collector_number": "119",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/119_Caelys's Favor.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/30_Acolyte of Vetys.png"
 			}
 		},
 		{
@@ -1175,119 +965,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Goblin Wizard",
-			"collector_number": "120",
+			"collector_number": "61",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/120_Coelys Fantatic.png"
-			}
-		},
-		{
-			"name": "Coelys's Ire",
-			"rarity": "special",
-			"mana_cost": "{1}{R}",
-			"type": "Instant",
-			"collector_number": "121",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/121_Coelys's Ire.png"
-			}
-		},
-		{
-			"name": "Drachenjäger",
-			"rarity": "special",
-			"mana_cost": "{1}{R}",
-			"type": "Creature — Dragon Soldier",
-			"collector_number": "122",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/122_Drachenjäger.png"
-			}
-		},
-		{
-			"name": "Dragon's Fire",
-			"rarity": "special",
-			"mana_cost": "{1}{R}",
-			"type": "Instant",
-			"collector_number": "123",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/123_Dragon's Fire.png"
-			}
-		},
-		{
-			"name": "Drink it Down",
-			"rarity": "special",
-			"mana_cost": "{R}{R}",
-			"type": "Instant",
-			"collector_number": "124",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/124_Drink it Down.png"
-			}
-		},
-		{
-			"name": "Fane of the Mountain",
-			"rarity": "special",
-			"mana_cost": "{2}{R}",
-			"type": "Legendary Creature — Demigod",
-			"collector_number": "125",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/125_Fane of the Mountain.png"
-			}
-		},
-		{
-			"name": "Fire Bolt",
-			"rarity": "special",
-			"mana_cost": "{R}",
-			"type": "Instant",
-			"collector_number": "126",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/126_Fire Bolt.png"
-			}
-		},
-		{
-			"name": "Fireball",
-			"rarity": "special",
-			"mana_cost": "{X}{R}",
-			"type": "Sorcery",
-			"collector_number": "127",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/127_Fireball.png"
-			}
-		},
-		{
-			"name": "The Forge of Elements",
-			"rarity": "special",
-			"mana_cost": "{2}{R}",
-			"type": "Legendary Artifact",
-			"collector_number": "128",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/128_The Forge of Elements.png"
-			}
-		},
-		{
-			"name": "Fulcrum",
-			"rarity": "special",
-			"mana_cost": "{2}{R}{R}",
-			"type": "Legendary Artifact — Equipment",
-			"collector_number": "129",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/129_Fulcrum.png"
-			}
-		},
-		{
-			"name": "Fury of the Gods",
-			"rarity": "special",
-			"mana_cost": "{2}{R}{R}",
-			"type": "Sorcery",
-			"collector_number": "130",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/130_Fury of the Gods.png"
-			}
-		},
-		{
-			"name": "Gniess, Stonecutter Prime",
-			"rarity": "special",
-			"mana_cost": "{1}{R}",
-			"type": "Legendary Creature — Dwarf Noble",
-			"collector_number": "131",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/131_Gniess, Stonecutter Prime.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/61_Coelys Fantatic.png"
 			}
 		},
 		{
@@ -1295,69 +975,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Goblin",
-			"collector_number": "132",
+			"collector_number": "66",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/132_Goblins of the Red Hand.png"
-			}
-		},
-		{
-			"name": "The Halcyon",
-			"rarity": "special",
-			"mana_cost": "{2}{R}",
-			"type": "Creature — Human Noble",
-			"collector_number": "133",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/133_The Halcyon.png"
-			}
-		},
-		{
-			"name": "Idryyth the Flamebringer",
-			"rarity": "special",
-			"mana_cost": "{4}{R}{R}",
-			"type": "Legendary Creature — Ancient Dragon",
-			"collector_number": "134",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/134_Idryyth the Flamebringer.png"
-			}
-		},
-		{
-			"name": "Kythr, Sorrow's Mark",
-			"rarity": "special",
-			"mana_cost": "{1}{R}{R}",
-			"type": "Legendary Creature — Dwarf Paladin",
-			"collector_number": "135",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/135_Kythr, Sorrow's Mark.png"
-			}
-		},
-		{
-			"name": "Lord Maalas",
-			"rarity": "special",
-			"mana_cost": "{3}{R}",
-			"type": "Legendary Creature — Dwarf Lord",
-			"collector_number": "136",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/136_Lord Maalas.png"
-			}
-		},
-		{
-			"name": "Magic Missile",
-			"rarity": "special",
-			"mana_cost": "{1}{R}{R}",
-			"type": "Sorcery",
-			"collector_number": "137",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/137_Magic Missile.png"
-			}
-		},
-		{
-			"name": "Malaas War Marshall",
-			"rarity": "special",
-			"mana_cost": "{1}{R}",
-			"type": "Creature — Dwarf Soldier",
-			"collector_number": "138",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/138_Malaas War Marshall.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/66_Goblins of the Red Hand.png"
 			}
 		},
 		{
@@ -1365,9 +985,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Dwarf Noble",
-			"collector_number": "139",
+			"collector_number": "69",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/139_Malaasan Emissary.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/69_Malaasan Emissary.png"
 			}
 		},
 		{
@@ -1375,9 +995,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact — Equipment",
-			"collector_number": "140",
+			"collector_number": "70",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/140_Malaasan Pick-Axe.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/70_Malaasan Pick-Axe.png"
 			}
 		},
 		{
@@ -1385,139 +1005,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "141",
+			"collector_number": "71",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/141_Mine Collapse.png"
-			}
-		},
-		{
-			"name": "Price of Loyalty",
-			"rarity": "special",
-			"mana_cost": "{1}{R}",
-			"type": "Sorcery",
-			"collector_number": "142",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/142_Price of Loyalty.png"
-			}
-		},
-		{
-			"name": "The Prosperity",
-			"rarity": "special",
-			"mana_cost": "{2}{R}",
-			"type": "Creature — Human Noble",
-			"collector_number": "143",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/143_The Prosperity.png"
-			}
-		},
-		{
-			"name": "Rovari, Magic Weaver",
-			"rarity": "special",
-			"mana_cost": "{3}{R}",
-			"type": "Legendary Creature — Tiefling Artificer",
-			"collector_number": "144",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/144_Rovari, Magic Weaver.png"
-			}
-		},
-		{
-			"name": "Scorching Ray",
-			"rarity": "special",
-			"mana_cost": "{2}{R}",
-			"type": "Instant",
-			"collector_number": "145",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/145_Scorching Ray.png"
-			}
-		},
-		{
-			"name": "Scyruss, Forge Master",
-			"rarity": "special",
-			"mana_cost": "{1}{R}",
-			"type": "Legendary Creature — Gnome Artificer",
-			"collector_number": "146",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/146_Scyruss, Forge Master.png"
-			}
-		},
-		{
-			"name": "Wardog",
-			"rarity": "special",
-			"mana_cost": "{R}",
-			"type": "Creature — Dog",
-			"collector_number": "147",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/147_Wardog.png"
-			}
-		},
-		{
-			"name": "The Wiggumstaff Incident",
-			"rarity": "special",
-			"mana_cost": "{8}{R}",
-			"type": "Sorcery",
-			"collector_number": "148",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/148_The Wiggumstaff Incident.png"
-			}
-		},
-		{
-			"name": "Worker's Union",
-			"rarity": "special",
-			"mana_cost": "{1}{R}",
-			"type": "Enchantment",
-			"collector_number": "149",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/149_Worker's Union.png"
-			}
-		},
-		{
-			"name": "Wrathful Smite",
-			"rarity": "special",
-			"mana_cost": "{R}",
-			"type": "Instant",
-			"collector_number": "150",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/150_Wrathful Smite.png"
-			}
-		},
-		{
-			"name": "Acolyte of Aranya",
-			"rarity": "special",
-			"mana_cost": "{2}{G}",
-			"type": "Creature — Elf Druid",
-			"collector_number": "151",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/151_Acolyte of Aranya.png"
-			}
-		},
-		{
-			"name": "Adolescent Dragon",
-			"rarity": "special",
-			"mana_cost": "{1}{G}",
-			"type": "Creature — Dragon",
-			"collector_number": "152",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/152_Adolescent Dragon.png"
-			}
-		},
-		{
-			"name": "Ara, Reknown Scout",
-			"rarity": "special",
-			"mana_cost": "{1}{G}",
-			"type": "Legendary Creature — Elf Ranger",
-			"collector_number": "153",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/153_Ara, Reknown Scout.png"
-			}
-		},
-		{
-			"name": "Aranya's Adept",
-			"rarity": "special",
-			"mana_cost": "{G}",
-			"type": "Creature — Elf Druid",
-			"collector_number": "154",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/154_Aranya's Adept.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/71_Mine Collapse.png"
 			}
 		},
 		{
@@ -1525,369 +1015,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "155",
+			"collector_number": "76",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/155_Aranya's Intervention.png"
-			}
-		},
-		{
-			"name": "Aurelia's Elites",
-			"rarity": "special",
-			"mana_cost": "{2}{G}",
-			"type": "Creature — Soldier",
-			"collector_number": "156",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/156_Aurelia's Elites.png"
-			}
-		},
-		{
-			"name": "Basilisk",
-			"rarity": "special",
-			"mana_cost": "{3}{G}",
-			"type": "Creature — Monstrosity",
-			"collector_number": "157",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/157_Basilisk.png"
-			}
-		},
-		{
-			"name": "Blessings of the Mothertree",
-			"rarity": "special",
-			"mana_cost": "{2}{G}",
-			"type": "Legendary Enchantment",
-			"collector_number": "158",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/158_Blessings of the Mothertree.png"
-			}
-		},
-		{
-			"name": "Boon of Aranya",
-			"rarity": "special",
-			"mana_cost": "{1}{G}",
-			"type": "Sorcery",
-			"collector_number": "159",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/159_Boon of Aranya.png"
-			}
-		},
-		{
-			"name": "Boon of Fama",
-			"rarity": "special",
-			"mana_cost": "{1}{G}",
-			"type": "Instant",
-			"collector_number": "160",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/160_Boon of Fama.png"
-			}
-		},
-		{
-			"name": "Caravan Raid",
-			"rarity": "special",
-			"mana_cost": "{G}",
-			"type": "Instant",
-			"collector_number": "161",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/161_Caravan Raid.png"
-			}
-		},
-		{
-			"name": "Cleanse the Fanes",
-			"rarity": "special",
-			"mana_cost": "{1}{G}",
-			"type": "Enchantment — Quest",
-			"collector_number": "162",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/162_Cleanse the Fanes.png"
-			}
-		},
-		{
-			"name": "Command — Duel",
-			"rarity": "special",
-			"mana_cost": "{G}",
-			"type": "Sorcery",
-			"collector_number": "163",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/163_Command — Duel.png"
-			}
-		},
-		{
-			"name": "Conjure Animals",
-			"rarity": "special",
-			"mana_cost": "{2}{G}",
-			"type": "Sorcery",
-			"collector_number": "164",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/164_Conjure Animals.png"
-			}
-		},
-		{
-			"name": "Coordinated Assault",
-			"rarity": "special",
-			"mana_cost": "{1}{G}",
-			"type": "Sorcery",
-			"collector_number": "165",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/165_Coordinated Assault.png"
-			}
-		},
-		{
-			"name": "Death Ward",
-			"rarity": "special",
-			"mana_cost": "{G}",
-			"type": "Instant",
-			"collector_number": "166",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/166_Death Ward.png"
-			}
-		},
-		{
-			"name": "Dire Wolf Pack",
-			"rarity": "special",
-			"mana_cost": "{1}{G}",
-			"type": "Creature — Wolf",
-			"collector_number": "167",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/167_Dire Wolf Pack.png"
-			}
-		},
-		{
-			"name": "Elf Scout",
-			"rarity": "special",
-			"mana_cost": "{1}{G}",
-			"type": "Creature — Elf Ranger",
-			"collector_number": "168",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/168_Elf Scout.png"
-			}
-		},
-		{
-			"name": "Elven Elder",
-			"rarity": "special",
-			"mana_cost": "{1}{G}",
-			"type": "Creature — Elf Druid",
-			"collector_number": "169",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/169_Elven Elder.png"
-			}
-		},
-		{
-			"name": "Elven Warmaster",
-			"rarity": "special",
-			"mana_cost": "{1}{G}",
-			"type": "Creature — Elf Fighter",
-			"collector_number": "170",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/170_Elven Warmaster.png"
-			}
-		},
-		{
-			"name": "Enlarge",
-			"rarity": "special",
-			"mana_cost": "{1}{G}",
-			"type": "Instant",
-			"collector_number": "171",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/171_Enlarge.png"
-			}
-		},
-		{
-			"name": "Ewiard, Lord of the Hunt",
-			"rarity": "special",
-			"mana_cost": "{3}{G}{G}",
-			"type": "Legendary Creature — Goliath Fighter",
-			"collector_number": "172",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/172_Ewiard, Lord of the Hunt.png"
-			}
-		},
-		{
-			"name": "Fane of the Forest",
-			"rarity": "special",
-			"mana_cost": "{2}{G}",
-			"type": "Legendary Creature — Demigod",
-			"collector_number": "173",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/173_Fane of the Forest.png"
-			}
-		},
-		{
-			"name": "Fleetfoot, Sharpshooter",
-			"rarity": "special",
-			"mana_cost": "{1}{G}{G}",
-			"type": "Legendary Creature — Human Ranger",
-			"collector_number": "174",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/174_Fleetfoot, Sharpshooter.png"
-			}
-		},
-		{
-			"name": "The Forge of Life",
-			"rarity": "special",
-			"mana_cost": "{2}{G}",
-			"type": "Legendary Artifact",
-			"collector_number": "175",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/175_The Forge of Life.png"
-			}
-		},
-		{
-			"name": "Glamstol, Crafty Herbalist",
-			"rarity": "special",
-			"mana_cost": "{2}{G}",
-			"type": "Legendary Creature — Halfling Druid",
-			"collector_number": "176",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/176_Glamstol, Crafty Herbalist.png"
-			}
-		},
-		{
-			"name": "Grasping Vegetation",
-			"rarity": "special",
-			"mana_cost": "{G}",
-			"type": "Creature — Plant Monstrosity",
-			"collector_number": "177",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/177_Grasping Vegetation.png"
-			}
-		},
-		{
-			"name": "Karda, Revolutionary",
-			"rarity": "special",
-			"mana_cost": "{2}{G}",
-			"type": "Legendary Creature — Elf Ranger",
-			"collector_number": "178",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/178_Karda, Revolutionary.png"
-			}
-		},
-		{
-			"name": "King Saakala",
-			"rarity": "special",
-			"mana_cost": "{1}{G}{G}",
-			"type": "Legendary Creature — Elf Lord",
-			"collector_number": "179",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/179_King Saakala.png"
-			}
-		},
-		{
-			"name": "Kruthik Swarm",
-			"rarity": "special",
-			"mana_cost": "{2}{G}",
-			"type": "Creature — Monstrosity",
-			"collector_number": "180",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/180_Kruthik Swarm.png"
-			}
-		},
-		{
-			"name": "Kruthik Tunneler",
-			"rarity": "special",
-			"mana_cost": "{1}{G}",
-			"type": "Creature — Monstrosity",
-			"collector_number": "181",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/181_Kruthik Tunneler.png"
-			}
-		},
-		{
-			"name": "Life Cleric",
-			"rarity": "special",
-			"mana_cost": "{1}{G}{G}",
-			"type": "Creature — Elf Cleric",
-			"collector_number": "182",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/182_Life Cleric.png"
-			}
-		},
-		{
-			"name": "Nydissia the Protector",
-			"rarity": "special",
-			"mana_cost": "{4}{G}{G}",
-			"type": "Legendary Creature — Ancient Dragon",
-			"collector_number": "183",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/183_Nydissia the Protector.png"
-			}
-		},
-		{
-			"name": "Owlbear",
-			"rarity": "special",
-			"mana_cost": "{3}{G}",
-			"type": "Creature — Bear Bird",
-			"collector_number": "184",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/184_Owlbear.png"
-			}
-		},
-		{
-			"name": "Planar Portal",
-			"rarity": "special",
-			"mana_cost": "{5}{G}{G}",
-			"type": "Enchantment",
-			"collector_number": "185",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/185_Planar Portal.png"
-			}
-		},
-		{
-			"name": "Song of Alyra",
-			"rarity": "special",
-			"mana_cost": "{2}{G}",
-			"type": "Enchantment",
-			"collector_number": "186",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/186_Song of Alyra.png"
-			}
-		},
-		{
-			"name": "Staff of the Mothertree",
-			"rarity": "special",
-			"mana_cost": "{2}{G}",
-			"type": "Legendary Enchantment Artifact",
-			"collector_number": "187",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/187_Staff of the Mothertree.png"
-			}
-		},
-		{
-			"name": "Unchecked Aggression",
-			"rarity": "special",
-			"mana_cost": "{2}{G}",
-			"type": "Sorcery",
-			"collector_number": "188",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/188_Unchecked Aggression.png"
-			}
-		},
-		{
-			"name": "Volley of Arrows",
-			"rarity": "special",
-			"mana_cost": "{2}{G}",
-			"type": "Instant",
-			"collector_number": "189",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/189_Volley of Arrows.png"
-			}
-		},
-		{
-			"name": "Wildshape — Bear",
-			"rarity": "special",
-			"mana_cost": "{1}{G}",
-			"type": "Enchantment — Aura",
-			"collector_number": "190",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/190_Wildshape — Bear.png"
-			}
-		},
-		{
-			"name": "Wildshape — Spider",
-			"rarity": "special",
-			"mana_cost": "{G}",
-			"type": "Enchantment — Aura",
-			"collector_number": "191",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/191_Wildshape — Spider.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/76_Aranya's Intervention.png"
 			}
 		},
 		{
@@ -1895,1092 +1025,443 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "192",
+			"collector_number": "88",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/192_Wyvern Toxin.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/88_Wyvern Toxin.png"
 			}
 		},
 		{
-			"name": "Yanna the Ill-Fated",
+			"name": "Boon of Fama",
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
-			"type": "Legendary Creature — Turtle Druid",
-			"collector_number": "193",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/193_Yanna the Ill-Fated.png"
-			}
-		},
-		{
-			"name": "Aipa the Ancient",
-			"rarity": "special",
-			"mana_cost": "{3}{R}{W}",
-			"type": "Legendary Creature — Dragon",
-			"collector_number": "194",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/194_Aipa the Ancient.png"
-			}
-		},
-		{
-			"name": "Arrynth, Lord of Death",
-			"rarity": "special",
-			"mana_cost": "{3}{W}{B}",
-			"type": "Legendary Creature — Ancient Dragon",
-			"collector_number": "195",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/195_Arrynth, Lord of Death.png"
-			}
-		},
-		{
-			"name": "Ayleia Progenitor",
-			"rarity": "special",
-			"mana_cost": "{1}{W}{U}{B}{R}{G}",
-			"type": "Legendary Enchantment Creature — God",
-			"collector_number": "196",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/196_Ayleia Progenitor.png"
-			}
-		},
-		{
-			"name": "Captain Lebrode",
-			"rarity": "special",
-			"mana_cost": "{W}{B}",
-			"type": "Legendary Creature — Elf Advisor",
-			"collector_number": "197",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/197_Captain Lebrode.png"
-			}
-		},
-		{
-			"name": "Dryad Grove",
-			"rarity": "special",
-			"mana_cost": "{2}{G}{U}",
-			"type": "Enchantment",
-			"collector_number": "198",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/198_Dryad Grove.png"
-			}
-		},
-		{
-			"name": "Emir, Fists of Fury",
-			"rarity": "special",
-			"mana_cost": "{1}{R}{W}",
-			"type": "Legendary Creature — Elf Monk",
-			"collector_number": "199",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/199_Emir, Fists of Fury.png"
-			}
-		},
-		{
-			"name": "Explore the Outlands",
-			"rarity": "special",
-			"mana_cost": "{G}{U}",
-			"type": "Sorcery",
-			"collector_number": "200",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/200_Explore the Outlands.png"
-			}
-		},
-		{
-			"name": "Granite, Elos' Vengeance",
-			"rarity": "special",
-			"mana_cost": "{2}{B}{R}",
-			"type": "Legendary Creature — Dwarf Paladin",
-			"collector_number": "201",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/201_Granite, Elos' Vengeance.png"
-			}
-		},
-		{
-			"name": "His Opulence IV",
-			"rarity": "special",
-			"mana_cost": "{2}{B}{R}",
-			"type": "Legendary Creature — Human Noble",
-			"collector_number": "202",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/202_His Opulence IV.png"
-			}
-		},
-		{
-			"name": "Hyrum, Last Refuge",
-			"rarity": "special",
-			"mana_cost": "{2}{G}{G}{W}",
-			"type": "Legendary Creature — Dwarf Fighter",
-			"collector_number": "203",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/203_Hyrum, Last Refuge.png"
-			}
-		},
-		{
-			"name": "Irdel the Pursued",
-			"rarity": "special",
-			"mana_cost": "{U}{B}",
-			"type": "Legendary Creature — Dragon Wizard",
-			"collector_number": "204",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/204_Irdel the Pursued.png"
-			}
-		},
-		{
-			"name": "Justice, Reborn",
-			"rarity": "special",
-			"mana_cost": "{3}{B}{R}",
-			"type": "Legendary Creature — Dragon Paladin",
-			"collector_number": "205",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/205_Justice, Reborn.png"
-			}
-		},
-		{
-			"name": "Keldath the Scourge",
-			"rarity": "special",
-			"mana_cost": "{4}{B}{G}",
-			"type": "Legendary Creature — Ancient Dragon",
-			"collector_number": "206",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/206_Keldath the Scourge.png"
-			}
-		},
-		{
-			"name": "Kinzine the Lifegiver",
-			"rarity": "special",
-			"mana_cost": "{3}{G}{W}",
-			"type": "Legendary Creature — Ancient Dragon",
-			"collector_number": "207",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/207_Kinzine the Lifegiver.png"
-			}
-		},
-		{
-			"name": "Lady Aurelia",
-			"rarity": "special",
-			"mana_cost": "{3}{R}{G}",
-			"type": "Legendary Creature — Orc Noble",
-			"collector_number": "208",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/208_Lady Aurelia.png"
-			}
-		},
-		{
-			"name": "Pyrrydoss the Unbroken",
-			"rarity": "special",
-			"mana_cost": "{2}{U}{R}",
-			"type": "Legendary Creature — Ancient Dragon",
-			"collector_number": "209",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/209_Pyrrydoss the Unbroken.png"
-			}
-		},
-		{
-			"name": "Syosa, Raving Dragon",
-			"rarity": "special",
-			"mana_cost": "{3}{B}{G}",
-			"type": "Legendary Creature — Dragon",
-			"collector_number": "210",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/210_Syosa, Raving Dragon.png"
-			}
-		},
-		{
-			"name": "Tammer, Reclusive Scholar",
-			"rarity": "special",
-			"mana_cost": "{G}{U}",
-			"type": "Legendary Creature — Halfling Wizard",
-			"collector_number": "211",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/211_Tammer, Reclusive Scholar.png"
-			}
-		},
-		{
-			"name": "Vas Asareen",
-			"rarity": "special",
-			"mana_cost": "{2}{B}{R}",
-			"type": "Legendary Planeswalker — Vas Asareen",
-			"collector_number": "212",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/212_Vas Asareen.png"
-			}
-		},
-		{
-			"name": "Aleana, Faith's Shield",
-			"rarity": "special",
-			"mana_cost": "{2}{R/W}{W}",
-			"type": "Legendary Enchantment Creature — God",
-			"collector_number": "213",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/213_Aleana, Faith's Shield.png"
-			}
-		},
-		{
-			"name": "Alyra, Oracle's Muse",
-			"rarity": "special",
-			"mana_cost": "{1}{R/G}{R/W}",
-			"type": "Legendary Enchantment Creature — God",
-			"collector_number": "214",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/214_Alyra, Oracle's Muse.png"
-			}
-		},
-		{
-			"name": "Aranya, Nature's Queen",
-			"rarity": "special",
-			"mana_cost": "{3}{R/G}{G/U}",
-			"type": "Legendary Enchantment Creature — God",
-			"collector_number": "215",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/215_Aranya, Nature's Queen.png"
-			}
-		},
-		{
-			"name": "Blessing of the Moon",
-			"rarity": "special",
-			"mana_cost": "{1}{W/U}",
 			"type": "Instant",
-			"collector_number": "216",
+			"collector_number": "78",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/216_Blessing of the Moon.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/78_Boon of Fama.png"
 			}
 		},
 		{
-			"name": "Bressio and Vynne, Twins",
+			"name": "Enlarge",
 			"rarity": "special",
-			"mana_cost": "{1}{G}{G/U}{U}",
-			"type": "Legendary Creature — Dragon",
-			"collector_number": "217",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/217_Bressio and Vynne, Twins.png"
-			}
-		},
-		{
-			"name": "Cadrea, God of the Forge",
-			"rarity": "special",
-			"mana_cost": "{2}{R/W}{W/B}",
-			"type": "Legendary Enchantment Creature — God",
-			"collector_number": "218",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/218_Cadrea, God of the Forge.png"
-			}
-		},
-		{
-			"name": "Caelys the Gilded",
-			"rarity": "special",
-			"mana_cost": "{1}{U/R}{R/W}",
-			"type": "Legendary Enchantment Creature — God",
-			"collector_number": "219",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/219_Caelys the Gilded.png"
-			}
-		},
-		{
-			"name": "Chaos Bolt",
-			"rarity": "special",
-			"mana_cost": "{2}{U/R}",
+			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "220",
+			"collector_number": "81",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/220_Chaos Bolt.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/81_Enlarge.png"
 			}
 		},
 		{
-			"name": "Coelys, Chaos Incarnate",
+			"name": "Wildshape — Bear",
 			"rarity": "special",
-			"mana_cost": "{2}{U/B}{B/R}",
-			"type": "Legendary Enchantment Creature — God",
-			"collector_number": "221",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/221_Coelys, Chaos Incarnate.png"
-			}
-		},
-		{
-			"name": "Elos, God of War",
-			"rarity": "special",
-			"mana_cost": "{3}{B/R}{R/G}",
-			"type": "Legendary Enchantment Creature — God",
-			"collector_number": "222",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/222_Elos, God of War.png"
-			}
-		},
-		{
-			"name": "Fama, Assassin Favored",
-			"rarity": "special",
-			"mana_cost": "{1}{B/G}{G/U}",
-			"type": "Legendary Enchantment Creature — God",
-			"collector_number": "223",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/223_Fama, Assassin Favored.png"
-			}
-		},
-		{
-			"name": "Lanu, Moon Trickster",
-			"rarity": "special",
-			"mana_cost": "{1}{W/B}{B/G}",
-			"type": "Legendary Enchantment Creature — God",
-			"collector_number": "224",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/224_Lanu, Moon Trickster.png"
-			}
-		},
-		{
-			"name": "Sorsha, Restrained",
-			"rarity": "special",
-			"mana_cost": "{2}{B/G}",
-			"type": "Legendary Creature — Elf Vampire Druid",
-			"collector_number": "225",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/225_Sorsha, Restrained.png"
-			}
-		},
-		{
-			"name": "Tathys, Keeper of Secrets",
-			"rarity": "special",
-			"mana_cost": "{1}{W/U}{U/B}",
-			"type": "Legendary Enchantment Creature — God",
-			"collector_number": "226",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/226_Tathys, Keeper of Secrets.png"
-			}
-		},
-		{
-			"name": "Urobu, Judge of Souls",
-			"rarity": "special",
-			"mana_cost": "{1}{W/B}{B}",
-			"type": "Legendary Enchantment Creature — God",
-			"collector_number": "227",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/227_Urobu, Judge of Souls.png"
-			}
-		},
-		{
-			"name": "Vetys, Beacon of Knowledge",
-			"rarity": "special",
-			"mana_cost": "{1}{W/U}{G/U}",
-			"type": "Legendary Enchantment Creature — God",
-			"collector_number": "228",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/228_Vetys, Beacon of Knowledge.png"
-			}
-		},
-		{
-			"name": "Soul Steel Dagger",
-			"rarity": "special",
-			"mana_cost": "{5}",
-			"type": "Legendary Enchantment Artifact",
-			"collector_number": "229",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/229_Soul Steel Dagger.png"
-			}
-		},
-		{
-			"name": "The Abyss",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "230",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/230_The Abyss.png"
-			}
-		},
-		{
-			"name": "The Abyss",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "231",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/231_The Abyss.png"
-			}
-		},
-		{
-			"name": "Bastion",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "232",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/232_Bastion.png"
-			}
-		},
-		{
-			"name": "Bastion",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "233",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/233_Bastion.png"
-			}
-		},
-		{
-			"name": "The Beacon",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "234",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/234_The Beacon.png"
-			}
-		},
-		{
-			"name": "The Beacon",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "235",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/235_The Beacon.png"
-			}
-		},
-		{
-			"name": "The Blightlands",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "236",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/236_The Blightlands.png"
-			}
-		},
-		{
-			"name": "The Blightlands",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "237",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/237_The Blightlands.png"
-			}
-		},
-		{
-			"name": "The Cataclysm",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "238",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/238_The Cataclysm.png"
-			}
-		},
-		{
-			"name": "The Cataclysm",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "239",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/239_The Cataclysm.png"
-			}
-		},
-		{
-			"name": "Corpsewood",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Swamp Forest",
-			"collector_number": "241",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/241_Corpsewood.png"
-			}
-		},
-		{
-			"name": "Corpsewood",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Swamp Forest",
-			"collector_number": "240",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/240_Corpsewood.png"
-			}
-		},
-		{
-			"name": "Eislessi Isle",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Plains Island",
-			"collector_number": "243",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/243_Eislessi Isle.png"
-			}
-		},
-		{
-			"name": "Eislessi Isle",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Plains Island",
-			"collector_number": "242",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/242_Eislessi Isle.png"
-			}
-		},
-		{
-			"name": "Et'limi'dak",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Forest Plains",
-			"collector_number": "244",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/244_Et'limi'dak.png"
-			}
-		},
-		{
-			"name": "Et'limi'dak",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Forest Plains",
-			"collector_number": "245",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/245_Et'limi'dak.png"
-			}
-		},
-		{
-			"name": "Ikbarre Marshes",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Plains Swamp",
-			"collector_number": "247",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/247_Ikbarre Marshes.png"
-			}
-		},
-		{
-			"name": "Ikbarre Marshes",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Plains Swamp",
-			"collector_number": "246",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/246_Ikbarre Marshes.png"
-			}
-		},
-		{
-			"name": "Kavedii Islands",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Forest Island",
-			"collector_number": "248",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/248_Kavedii Islands.png"
-			}
-		},
-		{
-			"name": "Kavedii Islands",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Forest Island",
-			"collector_number": "249",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/249_Kavedii Islands.png"
-			}
-		},
-		{
-			"name": "Lake Dorn",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Mountain Island",
-			"collector_number": "250",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/250_Lake Dorn.png"
-			}
-		},
-		{
-			"name": "Lake Dorn",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Mountain Island",
-			"collector_number": "251",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/251_Lake Dorn.png"
-			}
-		},
-		{
-			"name": "Misty Isles",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Island Swamp",
-			"collector_number": "252",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/252_Misty Isles.png"
-			}
-		},
-		{
-			"name": "Misty Isles",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Island Swamp",
-			"collector_number": "253",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/253_Misty Isles.png"
-			}
-		},
-		{
-			"name": "The Moon Grove",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "254",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/254_The Moon Grove.png"
-			}
-		},
-		{
-			"name": "The Moon Grove",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "255",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/255_The Moon Grove.png"
-			}
-		},
-		{
-			"name": "The Nether",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "257",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/257_The Nether.png"
-			}
-		},
-		{
-			"name": "The Nether",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "256",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/256_The Nether.png"
-			}
-		},
-		{
-			"name": "Ovauto Forest",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Mountain Forest",
-			"collector_number": "259",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/259_Ovauto Forest.png"
-			}
-		},
-		{
-			"name": "Ovauto Forest",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Mountain Forest",
-			"collector_number": "258",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/258_Ovauto Forest.png"
-			}
-		},
-		{
-			"name": "Revalia",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "260",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/260_Revalia.png"
-			}
-		},
-		{
-			"name": "Revalia",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "261",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/261_Revalia.png"
-			}
-		},
-		{
-			"name": "Shattered Peaks",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Swamp Mountain",
-			"collector_number": "262",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/262_Shattered Peaks.png"
-			}
-		},
-		{
-			"name": "Shattered Peaks",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Swamp Mountain",
-			"collector_number": "263",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/263_Shattered Peaks.png"
-			}
-		},
-		{
-			"name": "The Tumult",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "264",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/264_The Tumult.png"
-			}
-		},
-		{
-			"name": "The Tumult",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "265",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/265_The Tumult.png"
-			}
-		},
-		{
-			"name": "Upper Iron Pass",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Mountain Plains",
-			"collector_number": "266",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/266_Upper Iron Pass.png"
-			}
-		},
-		{
-			"name": "Upper Iron Pass",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land — Mountain Plains",
-			"collector_number": "267",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/267_Upper Iron Pass.png"
-			}
-		},
-		{
-			"name": "The Wilds",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "268",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/268_The Wilds.png"
-			}
-		},
-		{
-			"name": "The Wilds",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "269",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/269_The Wilds.png"
-			}
-		},
-		{
-			"name": "Mysterious Benefactor",
-			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Creature — Human Noble",
-			"collector_number": "104",
-			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/104_Mysterious Benefactor.png"
-			}
-		},
-		{
-			"name": "Boon of Elos",
-			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Instant",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Aura",
 			"collector_number": "86",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/86_Boon of Elos.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/86_Wildshape — Bear.png"
 			}
 		},
 		{
-			"name": "Inopportune Arrest",
+			"name": "Song of Alyra",
 			"rarity": "special",
-			"mana_cost": "",
+			"mana_cost": "{2}{G}",
 			"type": "Enchantment",
-			"collector_number": "0",
+			"collector_number": "85",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/0_Inopportune Arrest.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/85_Song of Alyra.png"
 			}
 		},
 		{
-			"name": "The Archon of Gold",
+			"name": "Wildshape — Spider",
 			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Creature — Human Noble",
+			"mana_cost": "{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/87_Wildshape — Spider.png"
+			}
+		},
+		{
+			"name": "Aranya's Adept",
+			"rarity": "special",
+			"mana_cost": "{G}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/75_Aranya's Adept.png"
+			}
+		},
+		{
+			"name": "Life Cleric",
+			"rarity": "special",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Elf Cleric",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/83_Life Cleric.png"
+			}
+		},
+		{
+			"name": "Grasping Vegetation",
+			"rarity": "special",
+			"mana_cost": "{G}",
+			"type": "Creature — Plant Monstrosity",
 			"collector_number": "82",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/CEP-files/img/82_The Archon of Gold.png"
+				"en": "https://mtg-hub/sets/CEP-files/img/82_Grasping Vegetation.png"
+			}
+		},
+		{
+			"name": "Owlbear",
+			"rarity": "special",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Bear Bird",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/84_Owlbear.png"
+			}
+		},
+		{
+			"name": "Corpsewood",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Swamp Forest",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/103_Corpsewood.png"
+			}
+		},
+		{
+			"name": "Eislessi Isle",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Plains Island",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/105_Eislessi Isle.png"
+			}
+		},
+		{
+			"name": "Et'limi'dak",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Forest Plains",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/107_Et'limi'dak.png"
+			}
+		},
+		{
+			"name": "Ikbarre Marshes",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Plains Swamp",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/109_Ikbarre Marshes.png"
+			}
+		},
+		{
+			"name": "Kavedii Islands",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Forest Island",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/112_Kavedii Islands.png"
+			}
+		},
+		{
+			"name": "Lake Dorn",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Mountain Island",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/113_Lake Dorn.png"
+			}
+		},
+		{
+			"name": "Misty Isles",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Island Swamp",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/116_Misty Isles.png"
+			}
+		},
+		{
+			"name": "Ovauto Forest",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Mountain Forest",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/122_Ovauto Forest.png"
+			}
+		},
+		{
+			"name": "Shattered Peaks",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Swamp Mountain",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/125_Shattered Peaks.png"
+			}
+		},
+		{
+			"name": "Upper Iron Pass",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land — Mountain Plains",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/130_Upper Iron Pass.png"
+			}
+		},
+		{
+			"name": "The Abyss",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/93_The Abyss.png"
+			}
+		},
+		{
+			"name": "Bastion",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/95_Bastion.png"
+			}
+		},
+		{
+			"name": "The Beacon",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/98_The Beacon.png"
+			}
+		},
+		{
+			"name": "The Blightlands",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/99_The Blightlands.png"
+			}
+		},
+		{
+			"name": "The Cataclysm",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/102_The Cataclysm.png"
+			}
+		},
+		{
+			"name": "The Moon Grove",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/118_The Moon Grove.png"
+			}
+		},
+		{
+			"name": "The Nether",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/120_The Nether.png"
+			}
+		},
+		{
+			"name": "Revalia",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/124_Revalia.png"
+			}
+		},
+		{
+			"name": "The Tumult",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/128_The Tumult.png"
+			}
+		},
+		{
+			"name": "The Wilds",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/132_The Wilds.png"
+			}
+		},
+		{
+			"name": "Fly",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Enchantment — Aura",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/CEP-files/img/1t_Fly.png"
 			}
 		}
 	]
 
 [cube(15)]
-	1 Acolyte of Urobu
-	1 Aleana's Chosen
-	1 Aleana's Mercy
-	1 Astral Prison
-	1 Ayleia's Return
-	1 Blessed Ent
-	1 Binding of the Law
-	1 Cadrea's Blessing
-	1 Captain of the Guard
-	1 Chief Inspector
-	1 Cleric of Aleana
-	1 Cube of K'nezeret
-	1 Defend the Walls!
-	1 Dispel Magic
-	1 Divine Intervention
-	1 Divine Smite
-	1 Fly
-	1 The Forge of War
-	1 Gnome Technocrat
-	1 Griffin Mount
-	1 Kyrios the Creator
-	1 Lady Ostrix
-	1 Leonir, Acolyte of Lanu
-	1 Moon Scythe
+	1 Explore the Outlands
+	1 The Beacon
+	1 Et'limi'dak
+	1 Lake Dorn
+	1 The Nether
+	1 The Wilds
+	1 The Blightlands
+	1 The Abyss
+	1 Ovauto Forest
+	1 The Moon Grove
+	1 Upper Iron Pass
 	1 Muster the Guard
-	1 Noble Ward
-	1 Reinforce
-	1 Resistance Squad
-	1 Ring of Etheria
-	1 Rising Populace
-	1 Sacred Flame
-	1 Sarana, Fists of Fury
-	1 Squad Commander
-	1 Tax Accessor
-	1 Teleportation Circle
-	1 Town's Guard
-	1 Tundrayl the Pure
-	1 Urwin Brighstar, Guild Founder
-	1 Wall Guard Recruiter
-	1 Wartime Financier
-	1 Acolyte of Vetys
-	1 Cone of Cold
-	1 Counterspell
-	1 Cutting Words
-	1 Death of the Oracle
-	1 Dimension Door
-	1 Divination
-	1 Dominate Monster
-	1 Draconic Ascent
-	1 Fane of the River
-	1 The Forge of Spells
-	1 Gift of Vetys
-	1 Grappling Octopus
-	1 Guard Drake
-	1 High Priest Kaaladeth
-	1 Hueick, Susceptible Youth
-	1 Huff vs McDoogal
 	1 Invisibility
-	1 Invoke Duplicity
-	1 Jimmy Beanz
-	1 King Da'aroc
-	1 Library of Vetys
-	1 Oracle's Insight
-	1 Pierce the Veil
-	1 Professor Arden
-	1 Protection from Evil and Good
-	1 Reject
-	1 Sahuaghin
-	1 Sahuaghin Artillerist
-	1 Sahuaghin Commander
-	1 Sahuaghin Fury
-	1 Saw it Coming
-	1 Tathys's Silencer
-	1 Tidal Wave
-	1 Treasure Diver
-	1 Tsunami
-	1 Umbra
-	1 Wall of Force
-	1 Ylbor the Lazy
-	1 Young Flayer
-	1 Zunam, Fate Favored
-	1 Secrets of Tathys
-	1 Blood Magic
-	1 Blood Ritual
-	1 Blue Flame Candle
-	1 Charles
-	1 Cleanse the Bloodlines
-	1 Dayvroass the Haunted
-	1 Death Druid
-	1 Desecrate the Temple
-	1 Devilish Imp
-	1 Dictate of Urobu
-	1 Draconic Purge
-	1 Dungeon Skeleton
-	1 Eliath, Doomed Fighter
-	1 Fama's Talon
-	1 Gildling
-	1 Hag Coven
-	1 Hellish Rebuke
+	1 Spare the Dying
+	1 Emir, Fists of Fury
+	1 Town's Guard
+	1 Sorsha, Restrained
+	1 Fire Bolt
+	1 Sacred Flame
+	1 Divine Smite
+	1 Chaos Bolt
 	1 Inflict Wounds
-	1 Lanu's Intervention
+	1 Mysterious Benefactor
+	1 Treasure Diver
+	1 Teleportation Circle
+	1 Defend the Walls!
+	1 Captain of the Guard
+	1 Squad Commander
+	1 Hag Coven
+	1 Soul Diversion
+	1 Boon of Aranya
+	1 Acolyte of Aranya
+	1 Kavedii Islands
+	1 Revalia
+	1 Misty Isles
+	1 The Tumult
+	1 The Cataclysm
+	1 Bastion
+	1 Eislessi Isle
+	1 Ikbarre Marshes
+	1 Corpsewood
+	1 Shattered Peaks
+	1 Boon of Elos
 	1 Mark for Death
 	1 Necromancer's Apprentice
-	1 Night of Consuming Darkness
-	1 Olar, The Broken Arrow
-	1 Olethros the Destroyer
-	1 Remove Curse
-	1 Ritual Sacrifice
-	1 Shaedrun, the Necromancer
-	1 Shaedrun's Gambit
-	1 Shambling Necromass
-	1 Soul Diversion
-	1 Spare the Dying
-	1 Staff of the Blightree
-	1 Undead Elk
-	1 Blessing of Alyra
-	1 Caelys's Favor
-	1 Coelys Fantatic
-	1 Coelys's Ire
-	1 Drachenjäger
-	1 Dragon's Fire
-	1 Drink it Down
-	1 Fane of the Mountain
-	1 Fire Bolt
-	1 Fireball
-	1 The Forge of Elements
-	1 Fulcrum
-	1 Fury of the Gods
-	1 Gniess, Stonecutter Prime
-	1 Goblins of the Red Hand
-	1 The Halcyon
-	1 Idryyth the Flamebringer
-	1 Kythr, Sorrow's Mark
-	1 Lord Maalas
-	1 Magic Missile
+	1 Draconic Purge
+	1 The Wiggumstaff Incident
+	1 Aleana's Mercy
 	1 Malaas War Marshall
+	1 Cleanse the Bloodlines
+	1 Dragon's Fire
+	1 Conjure Animals
+	1 The Forge of War
+	1 The Forge of Spells
+	1 Death Ward
+	1 Lanu's Intervention
+	1 Dictate of Urobu
+	1 Ritual Sacrifice
+	1 Dungeon Skeleton
+	1 Remove Curse
+	1 Gift of Vetys
+	1 Secrets of Tathys
+	1 Blessing of Alyra
+	1 Coelys's Ire
+	1 Caelys's Favor
+	1 Cadrea's Blessing
+	1 Fireball
+	1 Price of Loyalty
+	1 Divine Intervention
+	1 Lady Ostrix
+	1 Binding of the Law
+	1 Guard Drake
+	1 Lord Maalas
+	1 Gnome Technocrat
+	1 Armor of Aleana
+	1 Kyrios the Creator
+	1 Fly
+	1 Astral Prison
+	1 Reinforce
+	1 Dispel Magic
+	1 Rising Populace
+	1 Griffin Mount
+	1 Cleric of Aleana
+	1 Resistance Squad
+	1 Wartime Financier
+	1 Chief Inspector
+	1 Acolyte of Urobu
+	1 Tax Accessor
+	1 Wall of Force
+	1 Cone of Cold
+	1 Tsunami
+	1 Protection from Evil and Good
+	1 Dimension Door
+	1 Dominate Monster
+	1 Tathys's Silencer
+	1 Acolyte of Vetys
+	1 Coelys Fantatic
+	1 Goblins of the Red Hand
 	1 Malaasan Emissary
 	1 Malaasan Pick-Axe
 	1 Mine Collapse
-	1 Price of Loyalty
-	1 The Prosperity
-	1 Rovari, Magic Weaver
-	1 Scorching Ray
-	1 Scyruss, Forge Master
-	1 Wardog
-	1 The Wiggumstaff Incident
-	1 Worker's Union
-	1 Wrathful Smite
-	1 Acolyte of Aranya
-	1 Adolescent Dragon
-	1 Ara, Reknown Scout
-	1 Aranya's Adept
 	1 Aranya's Intervention
-	1 Aurelia's Elites
-	1 Basilisk
-	1 Blessings of the Mothertree
-	1 Boon of Aranya
-	1 Boon of Fama
-	1 Caravan Raid
-	1 Cleanse the Fanes
-	1 Command — Duel
-	1 Conjure Animals
-	1 Coordinated Assault
-	1 Death Ward
-	1 Dire Wolf Pack
-	1 Elf Scout
-	1 Elven Elder
-	1 Elven Warmaster
-	1 Enlarge
-	1 Ewiard, Lord of the Hunt
-	1 Fane of the Forest
-	1 Fleetfoot, Sharpshooter
-	1 The Forge of Life
-	1 Glamstol, Crafty Herbalist
-	1 Grasping Vegetation
-	1 Karda, Revolutionary
-	1 King Saakala
-	1 Kruthik Swarm
-	1 Kruthik Tunneler
-	1 Life Cleric
-	1 Nydissia the Protector
-	1 Owlbear
-	1 Planar Portal
-	1 Song of Alyra
-	1 Staff of the Mothertree
-	1 Unchecked Aggression
-	1 Volley of Arrows
-	1 Wildshape — Bear
-	1 Wildshape — Spider
 	1 Wyvern Toxin
-	1 Yanna the Ill-Fated
-	1 Aipa the Ancient
-	1 Arrynth, Lord of Death
-	1 Ayleia Progenitor
-	1 Captain Lebrode
-	1 Dryad Grove
-	1 Emir, Fists of Fury
-	1 Explore the Outlands
-	1 Granite, Elos' Vengeance
-	1 His Opulence IV
-	1 Hyrum, Last Refuge
-	1 Irdel the Pursued
-	1 Justice, Reborn
-	1 Keldath the Scourge
-	1 Kinzine the Lifegiver
-	1 Lady Aurelia
-	1 Pyrrydoss the Unbroken
-	1 Syosa, Raving Dragon
-	1 Tammer, Reclusive Scholar
-	1 Vas Asareen
-	1 Aleana, Faith's Shield
-	1 Alyra, Oracle's Muse
-	1 Aranya, Nature's Queen
-	1 Blessing of the Moon
-	1 Bressio and Vynne, Twins
-	1 Cadrea, God of the Forge
-	1 Caelys the Gilded
-	1 Chaos Bolt
-	1 Coelys, Chaos Incarnate
-	1 Elos, God of War
-	1 Fama, Assassin Favored
-	1 Lanu, Moon Trickster
-	1 Sorsha, Restrained
-	1 Tathys, Keeper of Secrets
-	1 Urobu, Judge of Souls
-	1 Vetys, Beacon of Knowledge
-	1 Soul Steel Dagger
-	1 The Abyss
-	1 The Abyss
-	1 Bastion
-	1 Bastion
-	1 The Beacon
-	1 The Beacon
-	1 The Blightlands
-	1 The Blightlands
-	1 The Cataclysm
-	1 The Cataclysm
-	1 Corpsewood
+	1 Boon of Fama
+	1 Enlarge
+	1 Wildshape — Bear
+	1 Song of Alyra
+	1 Wildshape — Spider
+	1 Aranya's Adept
+	1 Life Cleric
+	1 Grasping Vegetation
+	1 Owlbear
 	1 Corpsewood
 	1 Eislessi Isle
-	1 Eislessi Isle
-	1 Et'limi'dak
 	1 Et'limi'dak
 	1 Ikbarre Marshes
-	1 Ikbarre Marshes
-	1 Kavedii Islands
 	1 Kavedii Islands
 	1 Lake Dorn
-	1 Lake Dorn
 	1 Misty Isles
-	1 Misty Isles
-	1 The Moon Grove
+	1 Ovauto Forest
+	1 Shattered Peaks
+	1 Upper Iron Pass
+	1 The Abyss
+	1 Bastion
+	1 The Beacon
+	1 The Blightlands
+	1 The Cataclysm
 	1 The Moon Grove
 	1 The Nether
-	1 The Nether
-	1 Ovauto Forest
-	1 Ovauto Forest
 	1 Revalia
-	1 Revalia
-	1 Shattered Peaks
-	1 Shattered Peaks
 	1 The Tumult
-	1 The Tumult
-	1 Upper Iron Pass
-	1 Upper Iron Pass
 	1 The Wilds
-	1 The Wilds
-	1 Mysterious Benefactor
-	1 Boon of Elos
-	1 Inopportune Arrest
-	1 The Archon of Gold

@@ -1,0 +1,2379 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>TFF</name>
+			<longname>The Formidable Five</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-05-23</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Inopportune Arrest</name>
+			<text>Tap a creature you control: Tap target creature an opponent controls.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/0_Inopportune Arrest.png" num="0">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blessed Ent</name>
+			<text>Blessed Ent&apos;s power and toughness are equal to the number of lands you control.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/0_Blessed Ent.png" num="0">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Treefolk</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aleana&apos;s Chosen</name>
+			<text>Flash
+Flying
+When Aleana&apos;s Chosen enter the battlefield, phase out any number of other target creatures you control.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/1_Aleana&apos;s Chosen.png" num="1">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Tiefling Paladin</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ayleia&apos;s Return</name>
+			<text>Foretell {1}{W}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
+Choose one or more —
+• Exile all legendary artifacts.
+• Exile all legendary creatures.
+• Exile all legendary enchantments.
+• Exile all graveyards.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/2_Ayleia&apos;s Return.png" num="2">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cube of K&apos;nezeret</name>
+			<text>Exile target creature you control then return it to the battlefield.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/3_Cube of K&apos;nezeret.png" num="3">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Leonir, Acolyte of Lanu</name>
+			<text>When Leonir, Acolyte of Lanu enters the battlefield create a 2/2 white elf token.
+Sacrifice a creature token: Leonir, Acolyte of Lanu phases out. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/4_Leonir, Acolyte of Lanu.png" num="4">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Cleric Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Moon Scythe</name>
+			<text>Whenever equipped creature attacks, put a +1/+1 counter on it and tap up to one target creature defending player controls.
+Equip {W}</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/5_Moon Scythe.png" num="5">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Noble Ward</name>
+			<text>When Noble Ward dies, return target creature card with mana value 3 or less from the graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/6_Noble Ward.png" num="6">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ring of Etheria</name>
+			<text>Equipped creature gets +0/+3
+{1}{W}: Equipped creature phases out. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)
+Equip {1}</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/7_Ring of Etheria.png" num="7">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sarana, Fists of Fury</name>
+			<text>Flash, Doublestrike
+When Sarana, Fists of Fury enters the battlefield, target creature you control phases out. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/8_Sarana, Fists of Fury.png" num="8">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Halfling Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tundrayl the Pure</name>
+			<text>Flying, Vigilance
+When Tundrayl the Pure enters the battlefield, tap a creature under the control of each opponent.
+Put a stun counter on each tapped creature.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/9_Tundrayl the Pure.png" num="9">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ancient Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Urwin Brighstar, Guild Founder</name>
+			<text>Legendary creatures cost {1} less to cast. 
+{2U}{2B}{2R}{2G}: Look at the top five cards of your library, you may reveal up to two legendary creatures and put them in your hand. Put the rest on the bottom of your library.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/10_Urwin Brighstar, Guild Founder.png" num="10">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Paladin</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wall Guard Recruiter</name>
+			<text>When Guard Recruiter enters the battlefield, look at the top four cards of your library. You may reveal a creature card with mana value 3 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/11_Wall Guard Recruiter.png" num="11">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cutting Words</name>
+			<text>Creatures your opponents control get -1/-0 until end of turn.
+Draw a card.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/12_Cutting Words.png" num="12">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Death of the Oracle</name>
+			<text>Exile target creature. Its controller creates a 1/1 blue Spirit creature token with flying.
+Foretell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/13_Death of the Oracle.png" num="13">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Divination</name>
+			<text>Scry 2, then draw 2 cards.
+Foretell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/14_Divination.png" num="14">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Draconic Ascent</name>
+			<text>Overload {4}{U}{U} (You may cast this spell for its overload cost. If you do, change &quot;target&quot; in its text to &quot;each.&quot;)
+Until end of turn, target creature you control becomes a dragon in addition to its other types, gets +1/+1 and can&apos;t be blocked except by other dragons.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/15_Draconic Ascent.png" num="15">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fane of the River</name>
+			<text>At the beginning of your upkeep, scry 1.
+{1}{U}: Target creature you control can&apos;t be blocked this turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/16_Fane of the River.png" num="16">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demigod</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grappling Octopus</name>
+			<text>When Grappling Octopus attacks, roll a d20:
+[b]1-9[/b]| Tap up to two target creatures.
+[b]10-19[/b]| Tap up to two target creatures, they don&apos;t untap during their next untap step.
+[b]20[/b]| Tap up to eight target creatures.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/17_Grappling Octopus.png" num="17">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Octopus</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>High Priest Kaaladeth</name>
+			<text>When High Priest Kaaladeth enters the battlefield, look at the top five cards of your library. You may reveal a dragon card and put it in your hand. Put the rest on the bottom of your library in random order.
+{3}{U}, {T}: Scry 2. This ability cost {1} less for each other dragon you control.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/18_High Priest Kaaladeth.png" num="18">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hueick, Susceptible Youth</name>
+			<text>Flying
+Whenever Hueick, Susceptible Youth enters the battlefield, you and target opponent draw a card.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/19_Hueick, Susceptible Youth.png" num="19">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Huff vs McDoogal</name>
+			<text>​</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/20_Huff vs McDoogal.png" num="20">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Quest</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Invoke Duplicity</name>
+			<text>Target creature you control phases out. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)
+Create a 0/1 blue illusion token.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/21_Invoke Duplicity.png" num="21">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Jimmy Beanz</name>
+			<text>Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+You may have Jimmy Beanz enter the battlefield as a copy of any creature on the battlefield, except it&apos;s a Rogue in addition to its other creature types.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/22_Jimmy Beanz.png" num="22">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Changeling Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>King Da&apos;aroc</name>
+			<text>Dragon spells cost {2} less to cast.
+Other dragons you control get +1/+1.
+{U}{U}: Return target dragon to your hand.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/23_King Da&apos;aroc.png" num="23">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Lord</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Library of Vetys</name>
+			<text>Instant and sorcery spells you cast cost {1} less to cast.
+Whenever you cast an instant or sorcery spell, scry 1.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/24_Library of Vetys.png" num="24">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Oracle&apos;s Insight</name>
+			<text>Scry 2 then draw a card.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/25_Oracle&apos;s Insight.png" num="25">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pierce the Veil</name>
+			<text>If you cast this card from your graveyard, Scry 3 otherwise, Scry 1.
+Draw a card.
+Flashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/26_Pierce the Veil.png" num="26">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Professor Arden</name>
+			<text>Changeling (This card is every creature type.)
+You may have Professor Arden enter the battlefield as a copy target creature except it has Professor Arden&apos;s other abilities.
+The &quot;legend rule&quot; doesn&apos;t apply to permanents you control.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/27_Professor Arden.png" num="27">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Changeling Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reject</name>
+			<text>Return target creature to its owner&apos;s hand.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/28_Reject.png" num="28">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sahuaghin</name>
+			<text>Unblockable</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/29_Sahuaghin.png" num="29">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sahuaghin</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sahuaghin Artillerist</name>
+			<text>Foretell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
+When Sahuaghin Artillerist enters the battlefield, return target creature to its owner&apos;s hand.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/30_Sahuaghin Artillerist.png" num="30">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sahuaghin</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sahuaghin Commander</name>
+			<text>Other Sahuaghin you control get +1/+1.
+{2}{U}, {T}: Create a 1/1 blue Sahuaghin creature token with unblockable.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/31_Sahuaghin Commander.png" num="31">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sahuaghin</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sahuaghin Fury</name>
+			<text>Haste
+When Sahuaghin Fury attacks, draw a card then discard a card. If a creature card is discarded this way, Sahuaghin Fury gets first strike until end of turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/32_Sahuaghin Fury.png" num="32">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sahuaghin</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Saw it Coming</name>
+			<text>Counter target spell.
+Foretell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/33_Saw it Coming.png" num="33">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tidal Wave</name>
+			<text>Upcast {1}{U} (You may pay an additional {1}{U} any number of times as you cast this spell.)
+Return target creature to its owners hand. You may target an additional creature for each time this spell was upcast.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/34_Tidal Wave.png" num="34">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Umbra</name>
+			<text>Equip {2}
+Equipped creature is unblockable.
+Whenever equipped creature deals combat damage to a player, put a smoke counter on Umbra. If Umbra has 3 or more smoke counters on it, equipped creature has hexproof. If Umbra has 5 or more counters on it then whenever equipped creature deals combat damage to a player, each opponent loses 3 life.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/35_Umbra.png" num="35">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ylbor the Lazy</name>
+			<text>Islandwalk (This creature can&apos;t be blocked as long as defending player controls an Island.)
+Ylbor the Lazy enters the battlefield tapped.
+When Ylbor the Lazy attacks, you may exert Ylbor the Lazy to return target creature an opponent controls to their hand. (An exerted creature won&apos;t untap during your next untap step.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/36_Ylbor the Lazy.png" num="36">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ancient Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>8/8</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Young Flayer</name>
+			<text>When Young Flayer attacks, it connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/37_Young Flayer.png" num="37">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zunam, Fate Favored</name>
+			<text>At the beginning of your upkeep, scry 1. 
+Whenever you cast a non-creature spell, roll a d20.
+[b]1-9 [/b]| Scry 1.
+[b]10-19[/b]| Scry 1 then draw a card.
+[b]20[/b]| Scry 2 then draw 2 cards.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/38_Zunam, Fate Favored.png" num="38">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Aasimar Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Archon of Gold</name>
+			<text>{1}{B}, Sacrifice a creature: Create a treasure and draw a card.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/39_The Archon of Gold.png" num="39">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blood Magic</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature. 
+Destroy target creature.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/40_Blood Magic.png" num="40">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blood Ritual</name>
+			<text>Whenever a creature dies, put a blood counter on Blood Ritual.
+Remove a blood counter: Each opponent loses 1 life.
+Remove five blood counters: Return target creature from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/41_Blood Ritual.png" num="41">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blue Flame Candle</name>
+			<text>Whenever a creature dies, scry 1.
+If you choose to leave the card on top of your library, you may draw a card. If you do, reveal it and lose life equal to its mana value.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/42_Blue Flame Candle.png" num="42">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Charles</name>
+			<text>When Charles dies, deal 1 damage to any target.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/43_Charles.png" num="43">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dayvroass the Haunted</name>
+			<text>Flying, Menace
+Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/44_Dayvroass the Haunted.png" num="44">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ancient Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Death Druid</name>
+			<text>Whenever a creature dies, each opponent loses 1 life.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/45_Death Druid.png" num="45">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Desecrate the Temple</name>
+			<text>Target God loses all abilities until the end of the turn.
+Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/46_Desecrate the Temple.png" num="46">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Devilish Imp</name>
+			<text>Flying
+When Devilish Imp dies choose one — 
+• Draw a card and lose 1 life.
+• Target creature gets -2/-2 until the end of the turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/47_Devilish Imp.png" num="47">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Imp</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eliath, Doomed Fighter</name>
+			<text>When Eliath, Doomed Fighter dies, return another target legendary creature from your graveyard to the battlefield with a +1/+1 counter.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/48_Eliath, Doomed Fighter.png" num="48">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Fighter</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fama&apos;s Talon</name>
+			<text>Deathtouch
+Whenever a creature dealt damage by Fama&apos;s Talon would die, exile it instead.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/49_Fama&apos;s Talon.png" num="49">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gildling</name>
+			<text>When Gildling dies, create a treasure.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/50_Gildling.png" num="50">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Night of Consuming Darkness</name>
+			<text>As an additional cost to cast this spell, pay X life.
+Creatures get -X/-X until the end of turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/51_Night of Consuming Darkness.png" num="51">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Olar, The Broken Arrow</name>
+			<text>{T}: Olar, the Broken Arrow deals damage equal to its power to target creature. If that creature dies, put a +1/+1 counter on Olar, the Broken Arrow.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/52_Olar, The Broken Arrow.png" num="52">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Aasimar Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Olethros the Destroyer</name>
+			<text>Flying
+Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/53_Olethros the Destroyer.png" num="53">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Eternal Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4BBB</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>7/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shaedrun, the Necromancer</name>
+			<text>Nemesis (You may only control one creature or Planeswalker with Nemesis.)
+Ward— Sacrifice a creature.
+At the beginning of combat on your turn, mill 2 cards, then exile target creature card from your graveyard. Create a token copy of it, except its a 3/3 black Zombie. Exile all tokens created this way when Shaedrun leaves the battlefield.
+Creature tokens you control have haste and must attack each combat if able.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/54_Shaedrun, the Necromancer.png" num="54">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shaedrun&apos;s Gambit</name>
+			<text>Create X 2/2 black Zombie creature tokens, where X is the number of nontoken creatures that died this turn.
+Foretell {B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/55_Shaedrun&apos;s Gambit.png" num="55">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shambling Necromass</name>
+			<text>Menace
+Shambling Necromass costs {1} less to cast for each creature card in your graveyard.
+Shambling Necromass power and toughness is equal to the number of creature cards in your graveyard.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/56_Shambling Necromass.png" num="56">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>7B</manacost>
+				<cmc>8</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Staff of the Blightree</name>
+			<text>{1}{T}: Target opponent discards a card.
+{3}{T}: 
+{5}{T}: Return target creature from the graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/57_Staff of the Blightree.png" num="57">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Undead Elk</name>
+			<text>Menace
+Trample</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/58_Undead Elk.png" num="58">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk Skeleton</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Drachenjäger</name>
+			<text>Haste
+Prowess
+When Drachenjäger dies, it deals damage equal to its power to any target.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/59_Drachenjäger.png" num="59">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Drink it Down</name>
+			<text>Upcast {R} (You may pay an additional {R} any number of times as you cast this spell.)
+Choose one, you may choose an additional mode for each time this spell was upcast —
+• Copy target instant or sorcery.
+• Red sources you control deal an additional 1 damage until the end of turn.
+• Up to two target creatures can&apos;t block until the end of turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/60_Drink it Down.png" num="60">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>RR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fane of the Mountain</name>
+			<text>Whenever you sacrifice an Artifact, put a +1/+1 counter on Fane of the Mountain and add {R}.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/61_Fane of the Mountain.png" num="61">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demigod</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Forge of Elements</name>
+			<text>Whenever you cast a instant or sorcery spell, roll a d20:
+1-9 | Deal damage equal to its mana value to a random creature an opponent controls.
+10-19 | Deal damage equal to its mana value to a random opponent.
+20 | Deal damage equal to its mana value to each opponent.
+
+{1}{R}, {T}: Exile the top two cards of your library. You may play them until the end of your next turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/62_The Forge of Elements.png" num="62">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fulcrum</name>
+			<text>Flash
+When Fulcrum enters the battlefield, attach it to target creature you control. Equipped creature gets +3/+1 and trample.
+When Fulcrum becomes equipped to a creature or the equipped creature attacks, it fights target dragon.
+Equip {3}</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/63_Fulcrum.png" num="63">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fury of the Gods</name>
+			<text>Foretell {R}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
+Deal 4 damage to each creature.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/64_Fury of the Gods.png" num="64">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gniess, Stonecutter Prime</name>
+			<text>Whenever a dwarf you control becomes tapped, create a treasure.
+Whenever a creature you control dies, you may pay 1 life. if you do exile the top card of your library, you may play that card until the end of your next turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/65_Gniess, Stonecutter Prime.png" num="65">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Halcyon</name>
+			<text>When The Halcyon enters the battlefield create a treasure.
+Sacrifice a treasure: Target creature can&apos;t be blocked this turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/66_The Halcyon.png" num="66">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Idryyth the Flamebringer</name>
+			<text>Flying
+When Idryyth enters the battlefield, it deals 5 damage to target creature and 3 damage to each other creature that player controls.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/67_Idryyth the Flamebringer.png" num="67">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ancient Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kythr, Sorrow&apos;s Mark</name>
+			<text>When Kythr dies, it deals damage equal to its power to target creature or player.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/68_Kythr, Sorrow&apos;s Mark.png" num="68">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Paladin</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Prosperity</name>
+			<text>When The Prosperity enters the battlefield, create two treasures.
+Whenever an artifact enters the battlefield under your control, deal 1 damage to each opponent.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/69_The Prosperity.png" num="69">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rovari, Magic Weaver</name>
+			<text>Magecraft — Whenever you cast or copy an instant or sorcery spell, create a Treasure token.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/70_Rovari, Magic Weaver.png" num="70">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Tiefling Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scorching Ray</name>
+			<text>For each opponent, choose a creature that opponent controls. Scorching Ray deals 3 damage to each creature.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/71_Scorching Ray.png" num="71">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wardog</name>
+			<text>Haste</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/72_Wardog.png" num="72">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dog</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Worker&apos;s Union</name>
+			<text>When Worker&apos;s Union enters the battlefield, create two 1/1 red Worker creature tokens.
+Sacrifice a treasure: Create a 1/1 red Worker creature token.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/73_Worker&apos;s Union.png" num="73">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wrathful Smite</name>
+			<text>Target creature you control gets trample and +2/+0 until end of turn.
+Overload {4}{R}{R} (You may cast this spell for its overload cost. If you do, change &quot;target&quot; in its text to &quot;each.&quot;)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/74_Wrathful Smite.png" num="74">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Adolescent Dragon</name>
+			<text>Flying, Deathtouch</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/75_Adolescent Dragon.png" num="75">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ara, Reknown Scout</name>
+			<text>Landfall — Whenever a land enter the battlefield under your control, Ara explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/76_Ara, Reknown Scout.png" num="76">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aurelia&apos;s Elites</name>
+			<text>Vigilance
+Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/77_Aurelia&apos;s Elites.png" num="77">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Basilisk</name>
+			<text>Deathtouch
+Whenever a creature dealt damage by Basilisk would die, exile it and return it to the battlefield under your control face-down. It is a 0/4 golem creature with defender.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/78_Basilisk.png" num="78">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monstrosity</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blessings of the Mothertree</name>
+			<text>Creatures you control have: &quot;{T}, Add {G}.&quot;
+{3}{G}, {T}: Create a 1/1 green Forest Dryad land creature token.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/79_Blessings of the Mothertree.png" num="79">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Caravan Raid</name>
+			<text>Upcast {1}{G}: (You may pay an additional {1}{G} any number of times as you cast this spell.)
+Destroy target artifact.
+If this spell was upcast, you may destroy up to one other target enchantment.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/80_Caravan Raid.png" num="80">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cleanse the Fanes</name>
+			<text>[b]Enter the Tomb:[/b]
+Create a treasure token</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/81_Cleanse the Fanes.png" num="81">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Quest</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Command — Duel</name>
+			<text>Target creature you control fights target creature an opponent controls.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/82_Command — Duel.png" num="82">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Coordinated Assault</name>
+			<text>Up to two target creatures you control each deal damage equal to their power to another target creature.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/83_Coordinated Assault.png" num="83">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Elven Elder</name>
+			<text>Other Elf creatures you control get +1/+1.
+{T}: Add {G} for each Elf you control.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/84_Elven Elder.png" num="84">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elven Warmaster</name>
+			<text>Whenever one or more other Elves enter the battlefield under your control, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.
+{5}{G}{G}: Elves you control get +2/+2 and gain deathtouch until end of turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/85_Elven Warmaster.png" num="85">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Fighter</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ewiard, Lord of the Hunt</name>
+			<text>Trample, Reach
+Other creatures you control have trample.
+Whenever you cast a green creature spell, put a +1/+1 counter on each creature you control.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/86_Ewiard, Lord of the Hunt.png" num="86">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Goliath Fighter</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fane of the Forest</name>
+			<text>If one or more +1/+1 counters would be put on a permanent you control, that many plus one +1/+1 counters are put on that permanent instead.
+{T}: Add X mana of any one color, where X is Fane of the Forest&apos;s power.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/87_Fane of the Forest.png" num="87">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demigod</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fleetfoot, Sharpshooter</name>
+			<text>Flash
+Reach
+When Fleetfoot enters the battlefield he deals damage equal to the number of creatures you control to target creature an opponent controls.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/88_Fleetfoot, Sharpshooter.png" num="88">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Forge of Life</name>
+			<text>Whenever you cast a creature spell, look at the top X cards of your library where X is the mana value of the creature spell. You may reveal a creature card from among them and put it in your hand and the rest on the bottom of your library in random order.
+{1}{G}, {T}: You may put a creature card from your hand onto the battlefield.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/89_The Forge of Life.png" num="89">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Glamstol, Crafty Herbalist</name>
+			<text>Whenever another creature enters the battlefield under your control, you may create a food, a map token, or a clue token.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/90_Glamstol, Crafty Herbalist.png" num="90">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Halfling Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Karda, Revolutionary</name>
+			<text>Flash
+When Karda enters the battlefield, destroy target artifact or enchantment.
+{2}: Sacrifice Karda, Revolutionary. Destroy target creature that was dealt damage this turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/91_Karda, Revolutionary.png" num="91">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>King Saakala</name>
+			<text>Forestwalk (This creature can&apos;t be blocked as long as defending player controls a Forest.)
+Other elves you control get +1/+1 and &quot;{T}: Add {G}&quot;.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/92_King Saakala.png" num="92">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Lord</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kruthik Swarm</name>
+			<text>Landfall — Whenever a land you control enters, create a 1/1 green Monstrosity creature token. If you control six or more lands, create a token that&apos;s a copy of Kruthik Swarm instead.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/93_Kruthik Swarm.png" num="93">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monstrosity</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kruthik Tunneler</name>
+			<text>Menace
+When Kruthik Tunneler deals combat damage to a player, mill 2 cards. You may return a land from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/94_Kruthik Tunneler.png" num="94">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monstrosity</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nydissia the Protector</name>
+			<text>Flying, Vigilance
+When Nydissia attacks or blocks, choose one — 
+• Create a 2/2 green Elf creature token.
+• Draw a card.
+• You gain 3 life.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/95_Nydissia the Protector.png" num="95">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ancient Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Planar Portal</name>
+			<text>Whenever you cast a creature spell. Reveal cards off the top of your library until you reveal a creature with lesser mana value. Put that creature onto the battlefield.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/96_Planar Portal.png" num="96">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Staff of the Mothertree</name>
+			<text></text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/97_Staff of the Mothertree.png" num="97">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Volley of Arrows</name>
+			<text>Destroy target artifact, enchantment, or creature with flying.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/98_Volley of Arrows.png" num="98">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Yanna the Ill-Fated</name>
+			<text>When Yanna dies, gain 2 life and draw a card.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/99_Yanna the Ill-Fated.png" num="99">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Turtle Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aipa the Ancient</name>
+			<text>Flying, Haste
+Whenever Aipa the Ancient is dealt damage, create that many treasure tokens.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/100_Aipa the Ancient.png" num="100">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ancient Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3RW</manacost>
+				<cmc>5</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arrynth, Lord of Death</name>
+			<text>Flying
+Whenever a creature dies, each opponent loses 1 life. If it is the first time this turn, draw a card.
+When Arrynth, Lord of Death attacks exile target creature from a graveyard.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/101_Arrynth, Lord of Death.png" num="101">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ancient Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3WB</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ayleia Progenitor</name>
+			<text>Indestructible
+As long as your devotion to is less than twelve Ayleia, Progenitor isn&apos;t a creature.
+Whenever a creature you control dies, search your library for a creature of equal mana value and put it on the battlefield.
+At the beginning of your end step, sacrifice a creature.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/102_Ayleia Progenitor.png" num="102">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>1WUBRG</manacost>
+				<cmc>6</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>12/12</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Captain Lebrode</name>
+			<text>Spells your opponents cast during your turn cost {1} more to cast.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/103_Captain Lebrode.png" num="103">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dryad Grove</name>
+			<text>Play with the top card of your library revealed.
+You may play lands off the top of your library.
+Landfall — Create a 4/4 green treefolk creature token with reach.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/104_Dryad Grove.png" num="104">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Granite, Elos&apos; Vengeance</name>
+			<text>Haste, Menace
+When Granite is dealt damage, Granite fights target creature you don&apos;t control.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/105_Granite, Elos&apos; Vengeance.png" num="105">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Paladin</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>His Opulence IV</name>
+			<text>Nemesis (You may only control one creature or Planeswalker with Nemesis.)
+Whenever a creature your opponents control dies, create a treasure.
+At the beginning of your upkeep, if you control ten or more treasure you win the game.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/106_His Opulence IV.png" num="106">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hyrum, Last Refuge</name>
+			<text>Flash
+When Hyrum, Last Refuge enters the battlefield, he fights target creature.
+When Hyrum, Last Refuge attacks, destroy target artifact or enchantment.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/107_Hyrum, Last Refuge.png" num="107">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Fighter</type>
+				<maintype>Creature</maintype>
+				<manacost>2GGW</manacost>
+				<cmc>5</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Irdel the Pursued</name>
+			<text>At the beginning of your upkeep pay 1 life unless you sacrifice Irdel the Pursued.
+When Irdel the Pursued deals combat damage to a player put a +1/+1 counter on it.
+{U}{B}: Irdel the Pursued cannot be blocked until end of turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/108_Irdel the Pursued.png" num="108">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Justice, Reborn</name>
+			<text>Nemesis — Creatures you control have undying. (You may only control one creature or Planeswalker with Nemesis.)
+Menace
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/109_Justice, Reborn.png" num="109">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Paladin</type>
+				<maintype>Creature</maintype>
+				<manacost>3BR</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Keldath the Scourge</name>
+			<text>Flying, Deathtouch
+When Keldath the Scourge enters the battlefield, put a -1/-1 counter on each creature an opponent controls.
+When a creature with a -1/-1 counter on it dies, you may move the counters to another creature.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/110_Keldath the Scourge.png" num="110">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ancient Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4BG</manacost>
+				<cmc>6</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kinzine the Lifegiver</name>
+			<text>Flying, Vigilance, Lifelink
+Whenever you gain life, create a 2/2 green elk creature token. This ability triggers only once each turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/111_Kinzine the Lifegiver.png" num="111">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ancient Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3GW</manacost>
+				<cmc>5</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lady Aurelia</name>
+			<text>Creatures you control have vigilance.
+{3}{G}: Create a 3/3 green Soldier creature token with vigilance.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/112_Lady Aurelia.png" num="112">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Orc Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>3RG</manacost>
+				<cmc>5</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pyrrydoss the Unbroken</name>
+			<text>Flying, Haste
+When Pyrrydoss attacks, roll a d20.
+[b]1-9 [/b]| Exile Pyrrydoss. Return Pyrrydoss to the battlefield tapped at the beginning of the next end step.
+[b]10-19 [/b]| Pyrrydoss deals 3 damage to target creature.
+[b]20 [/b]| Pyrrydoss deals 2 damage to each creature target opponent controls.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/113_Pyrrydoss the Unbroken.png" num="113">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ancient Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Syosa, Raving Dragon</name>
+			<text>Nemesis (You may only control one creature or Planeswalker with Nemesis.)
+Flying
+At the beginning of each combat, create an dragon egg token with &quot;{2}: Transform this egg.&quot; It transforms into a 0/0 dragon creature token. Put a +1/+1 counter on each egg you control.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/114_Syosa, Raving Dragon.png" num="114">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3BG</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>5/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aleana, Faith&apos;s Shield</name>
+			<text>Indestructible
+As long as your devotion to white and red is less than five, Aleana, Faith&apos;s Shield isn&apos;t a creature.
+Creature you controls gain vigilance.
+Prevent all damage done to blocking creatures you control.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/115_Aleana, Faith&apos;s Shield.png" num="115">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>2R/WW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>5/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alyra, Oracle&apos;s Muse</name>
+			<text>Indestructible
+As long as your devotion to red, green, and white is less than seven, Alyra, Oracle&apos;s Muse isn&apos;t a creature.
+Creature you control have haste. 
+At the beginning of your end step, if you dealt combat damage to a player, draw a card.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/116_Alyra, Oracle&apos;s Muse.png" num="116">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>1R/GR/W</manacost>
+				<cmc>3</cmc>
+				<colors>WRG</colors>
+				<coloridentity>WRG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aranya, Nature&apos;s Queen</name>
+			<text>Indestructible
+As long as your devotion to green, blue and red is less than seven, Aranya, Nature&apos;s Queen isn&apos;t a creature.
+You may play an additional land each turn.
+When a land enters the battlefield under your control, draw a card. This ability triggers only once each turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/117_Aranya, Nature&apos;s Queen.png" num="117">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>3R/GG/U</manacost>
+				<cmc>5</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>6/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blessing of the Moon</name>
+			<text>Cleave {1}{W}{U} (You may cast this spell for its cleave cost. If you do, remove the words in square brackets.)
+Exile target creature [you control, return it to the battlefield at the beginning of the next end step].</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/118_Blessing of the Moon.png" num="118">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W/U</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bressio and Vynne, Twins</name>
+			<text>Double strike
+Dragon spell cost {2} less for you to cast.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/119_Bressio and Vynne, Twins.png" num="119">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG/UU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cadrea, God of the Forge</name>
+			<text>Indestructible
+As long as your devotion to white, red, and black is less than seven, Cadrea, God of the Forge isn&apos;t a creature.
+At the beginning of your upkeep, reveal cards off the top of your library until you reveal an artifact. Put that card onto the battlefield.
+Sacrifice an artifact: Deal x damage to target creature where x is the mana value of the artifact.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/120_Cadrea, God of the Forge.png" num="120">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>2R/WW/B</manacost>
+				<cmc>4</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>7/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Caelys the Gilded</name>
+			<text>Indestructible
+As long as your devotion to red, white, and blue is less than seven, Caelys the Gilded isn&apos;t a creature.
+At the beginning your upkeep, roll a d20.
+[b]1-9|[/b]Create a Treasure token.
+[b]10-19|[/b] Create two Treasure tokens[b].
+20| [/b]Create three Treasure tokens.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/121_Caelys the Gilded.png" num="121">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>1U/RR/W</manacost>
+				<cmc>3</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Coelys, Chaos Incarnate</name>
+			<text>Indestructible
+As long as your devotion to black, blue, and red is less than seven, Coelys, Chaos Incarnate isn&apos;t a creature.
+Whenever you cast a spell with mana value 4 or greater, roll a d20.
+[b]1[/b]|Deal 3 damage to each creature you control.
+[b]2-9 [/b]| Deal 1 damage to each creature.
+[b]10-19[/b]| Deal 2 damage to each creature your opponents control.
+[b]20[/b]| Deal 3 damage to each creature your opponents control and each opponent.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/122_Coelys, Chaos Incarnate.png" num="122">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>2U/BB/R</manacost>
+				<cmc>4</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>7/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elos, God of War</name>
+			<text>Indestructible
+As long as your devotion to red, black, and green is less than seven, Elos, God of War isn&apos;t a creature.
+Creatures you control must attack each turn if able.
+Whenever a creature you control attacks, put a +1/+1 counter on it.
+If a creature with three or more counters on it would be put in the graveyard, return it to the battlefield instead.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/123_Elos, God of War.png" num="123">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>3B/RR/G</manacost>
+				<cmc>5</cmc>
+				<colors>BRG</colors>
+				<coloridentity>BRG</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fama, Assassin Favored</name>
+			<text>Indestructible
+As long as your devotion to green, black, and blue is less than seven, Fama, Assassin Favored isn&apos;t a creature.
+Creatures you control have deathtouch.
+Whenever a creature dies, each opponent loses 1 life.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/124_Fama, Assassin Favored.png" num="124">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>1B/GG/U</manacost>
+				<cmc>3</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lanu, Moon Trickster</name>
+			<text>Indestructible, Unblockable
+As long as your devotion to white, green, and black is less than seven, Lanu, Moon Trickster isn&apos;t a creature.
+When a creature an opponent controls is put into the graveyard, you may pay {X} where {X} is the mana value of that card. If you do, put it on the battlefield tapped under your control.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/125_Lanu, Moon Trickster.png" num="125">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/BB/G</manacost>
+				<cmc>3</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>3/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tathys, Keeper of Secrets</name>
+			<text>Indestructible
+As long as your devotion to blue, black, and white is less than seven, Tathys, Keeper of Secrets isn&apos;t a creature.
+You may look at the top of each player&apos;s library at any time.
+Whenever a player casts a spell from anywhere other than their hand, draw a card.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/126_Tathys, Keeper of Secrets.png" num="126">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/UU/B</manacost>
+				<cmc>3</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Urobu, Judge of Souls</name>
+			<text>Indestructible
+As long as your devotion to white and black is less than five, Urobu, Judge of Souls isn&apos;t a creature.
+When Urobu, Judge of Souls enters the battlefield, exile all graveyards.
+Opponents cannot cast spells from anywhere other than their hands.
+Opponents cannot target creature cards in their graveyard.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/127_Urobu, Judge of Souls.png" num="127">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/BB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>4/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vetys, Beacon of Knowledge</name>
+			<text>Indestructible
+As long as your devotion to blue, white, and green is less than seven, Vetys, Beacon of Knowledge isn&apos;t a creature.
+During upkeep on your turn, draw a card.
+During upkeep on each opponent&apos;s turn, that player may draw a card. If they do, draw a card.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/128_Vetys, Beacon of Knowledge.png" num="128">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/UG/U</manacost>
+				<cmc>3</cmc>
+				<colors>WUG</colors>
+				<coloridentity>WUG</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soul Steel Dagger</name>
+			<text></text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/TFF-files/img/129_Soul Steel Dagger.png" num="129">TFF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

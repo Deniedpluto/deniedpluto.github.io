@@ -5,7 +5,7 @@
 			<name>CoS</name>
 			<longname>Curse of Strahd</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-14</releasedate>
+			<releasedate>2026-05-23</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -43,9 +43,25 @@
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Counterspell</name>
+			<text>Counter target spell.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/3_Counterspell.png" num="3">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Scrying</name>
 			<text>Draw 3 cards, then put two cards from your hand on top of your library in any order.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/3_Scrying.png" num="3">CoS</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/4_Scrying.png" num="4">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -59,9 +75,25 @@
 			<tablerow>3</tablerow>
 		</card>
 		<card>
+			<name>Tarroka Reading</name>
+			<text>Reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/5_Tarroka Reading.png" num="5">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Blinksy, Toymaker</name>
 			<text>{B}, {T}, Pay 1 life: Create a treasure token</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/5_Blinksy, Toymaker.png" num="5">CoS</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/6_Blinksy, Toymaker.png" num="6">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -79,7 +111,7 @@
 			<name>Book of Victims</name>
 			<text>{T}: Exile target creature from a graveyard.
 {5}: Sacrifice Book of Victims. Each opponent loses life equal to the number of cards exiled with Book of Victims.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/6_Book of Victims.png" num="6">CoS</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/7_Book of Victims.png" num="7">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -97,7 +129,7 @@
 			<text>Enchant creature card in a graveyard
 When Dark Gift enters the battlefield, if it&apos;s on the battlefield, it loses &quot;enchant creature card in a graveyard&quot; and gains &quot;enchant creature put onto the battlefield with Dark Gift.&quot; Return enchanted creature card to the battlefield under your control and attach Dark Gift to it. When Dark Gift leaves the battlefield, that creature&apos;s controller sacrifices it.
 Enchanted creature gets +1/+0.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/7_Dark Gift.png" num="7">CoS</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/8_Dark Gift.png" num="8">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -113,7 +145,7 @@ Enchanted creature gets +1/+0.</text>
 		<card>
 			<name>Drown in the Lake</name>
 			<text>Target creature gets -X/-X until the end of turn where X is two plus your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/8_Drown in the Lake.png" num="8">CoS</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/9_Drown in the Lake.png" num="9">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -129,7 +161,7 @@ Enchanted creature gets +1/+0.</text>
 		<card>
 			<name>Revenant</name>
 			<text>{1}{B}: Return Revenant from the graveyard to the battlefield tapped.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/9_Revenant.png" num="9">CoS</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/10_Revenant.png" num="10">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -148,7 +180,7 @@ Enchanted creature gets +1/+0.</text>
 			<text>Reach
 Vampire Spawn enters the battlefield tapped.
 Whenever a creature dealt damage by Vampire Spawn dies, create a tapped token copy of Vampire Spawn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/10_Vampire Spawn.png" num="10">CoS</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/11_Vampire Spawn.png" num="11">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -165,7 +197,7 @@ Whenever a creature dealt damage by Vampire Spawn dies, create a tapped token co
 		<card>
 			<name>Vladimir &amp; Godfrey, Reunited</name>
 			<text>Whenever Vladimir &amp; Godfrey attack or block, create a 2/2 black Zombie Paladin creature token.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/11_Vladimir &amp; Godfrey, Reunited.png" num="11">CoS</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/12_Vladimir &amp; Godfrey, Reunited.png" num="12">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -180,11 +212,64 @@ Whenever a creature dealt damage by Vampire Spawn dies, create a tapped token co
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Magic Missile</name>
+			<text>Upcast {R} (You may pay an additional {R} any number of times as you cast this spell.)
+This spell can&apos;t be countered.
+Magic Missile deals 3 damage divided as you choose among one, two, or three targets.
+If this spell was upcast, it deals an additional 1 damage and you may target one additional creature for each time it was upcast.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/13_Magic Missile.png" num="13">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dire Wolf Pack</name>
+			<text>Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/14_Dire Wolf Pack.png" num="14">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wolf</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unchecked Aggression</name>
+			<text>Target creature you control deals damage equal to its power to target creature.
+If a creature you control dies, draw cards equal to its toughness.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/15_Unchecked Aggression.png" num="15">CoS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Minnesota, Impulsive Planner</name>
 			<text>When you cast your first instant or sorcery each turn roll a d20.
 [b]1-9[/b]|Target opponent may copy the spell. They may choose new targets for the copy.
 [b]10-20[/b]|Copy the spell. You may choose new targets for the copy.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/12_Minnesota, Impulsive Planner.png" num="12">CoS</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/16_Minnesota, Impulsive Planner.png" num="16">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -203,8 +288,8 @@ Whenever a creature dealt damage by Vampire Spawn dies, create a tapped token co
 			<text>Nemesis (You may only control one creature or Planeswalker with Nemesis.)
 Flying
 Whenever Strahd Von Zarovich deals combat damage to a player that player discards a card and you draw a card.
-If Strahd Von Zarovich would die, return him to the battlefield tapped and the beginning of the next end step.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/13_Strahd Von Zarovich.png" num="13">CoS</set>
+If Strahd Von Zarovich would die, exile him instead and return him to the battlefield tapped and the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/17_Strahd Von Zarovich.png" num="17">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -221,8 +306,8 @@ If Strahd Von Zarovich would die, return him to the battlefield tapped and the b
 		<card>
 			<name>Zas, Barbarian Scholar</name>
 			<text>Trample
-You may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Barbarian Scholar&apos;s power and toughness until end of turn. (An exerted creature won&apos;t untap during your next untap step.)</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/14_Zas, Barbarian Scholar.png" num="14">CoS</set>
+You may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Barbarian Scholar&apos;s power until end of turn. (An exerted creature won&apos;t untap during your next untap step.)</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/18_Zas, Barbarian Scholar.png" num="18">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -232,7 +317,7 @@ You may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Bar
 				<cmc>3</cmc>
 				<colors>RG</colors>
 				<coloridentity>RG</coloridentity>
-				<pt>4/3</pt>
+				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -241,7 +326,7 @@ You may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Bar
 			<text>Lifelink
 Defender
 {2}{W}: Clif deals damage to any target equal to the amount of life you gained this turn.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/15_Clif, Chilled Tortle.png" num="15">CoS</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/19_Clif, Chilled Tortle.png" num="19">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -259,7 +344,7 @@ Defender
 			<name>Harlston, Grappling Pugilist</name>
 			<text>Flash
 When Harlston, Grappling Pugilist enters the battlefield, tap target creature an opponent controls. It doesn&apos;t untap during its controllers next untap step.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/16_Harlston, Grappling Pugilist.png" num="16">CoS</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/20_Harlston, Grappling Pugilist.png" num="20">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -278,7 +363,7 @@ When Harlston, Grappling Pugilist enters the battlefield, tap target creature an
 			<text>Flash
 Vigilance
 When Animated Armor enters the battlefield, tap target creature.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/17_Animated Armor.png" num="17">CoS</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/21_Animated Armor.png" num="21">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -298,7 +383,7 @@ Equip {4}
 [b]1-9[/b]| Equipped creature gains trample until the end of turn.
 [b]10-19[/b]| Creatures you control gain trample until end of turn.
 [b]20[/b]| Creatures you control gain trample. Untap each attacking creature you control. After this combat phase, there is an additional combat phase.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/18_Zas&apos;s Battleaxe.png" num="18">CoS</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/22_Zas&apos;s Battleaxe.png" num="22">CoS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -308,22 +393,6 @@ Equip {4}
 				<cmc>2</cmc>
 			</prop>
 			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Tarroka Reading</name>
-			<text>Reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/CoS-files/img/4_Tarroka Reading.png" num="4">CoS</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
-				<manacost>3U</manacost>
-				<cmc>4</cmc>
-				<colors>U</colors>
-				<coloridentity>U</coloridentity>
-			</prop>
-			<tablerow>3</tablerow>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

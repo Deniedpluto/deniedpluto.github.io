@@ -1,4 +1,76 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+
+
+Champions of Thadenswel
+rules_text: Legendary creatures you control get +1/+2 and have ward {1} [i](Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i] => Legendary creatures you control get +1/+2 and have ward {1} [i](Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i]
+
+
+Trials of Thadenswel
+
+Blessing of Water
+rules_text: Each player discards their hand, then draws cards equal to the greatest number of cards a player discarded this way. => Each player discards their hand, then draws cards equal to the greatest number of cards a player discarded this way.
+
+
+Captain Laos
+rules_text: Partner with First Mate Addus [i](When this creature enters the battlefield, target player may put First Mate Addus into their hand from their library, then shuffle.)[/i]
+Whenever a dwarf you control deals combat damage to a player, create a treasure. => Partner with First Mate Addus [i](When this creature enters, target player may put First Mate Addus into their hand from their library, then shuffle.)[/i]
+Whenever a dwarf you control deals combat damage to a player, create a treasure.
+
+First Mate Addus
+rules_text: Partner with Captain Laos [i](When this creature enters the battlefield, target player may put Captain Laos into their hand from their library, then shuffle.)[/i]
+Whenever an elf you control deals combat damage to a player, scry 1. => Partner with Captain Laos [i](When this creature enters, target player may put Captain Laos into their hand from their library, then shuffle.)[/i]
+Whenever an elf you control deals combat damage to a player, scry 1.
+
+Sea Spawn
+
+Darkling Elder
+
+Darkling Scout
+
+Iskael, Lord of Shadows
+
+Kildrak, Life's Spring
+
+Luster, War-Scarred
+
+Kriv, Champion of Heroes
+rules_text: Vigilance
+Boast — {1}{R}: Kriv, Champion of Heroes deals 3 damage to target creature. [i](Activate this ability only if this creature attacked this turn and only once each turn.)[/i]
+Other creatures you control get +1/+1 => Vigilance
+Boast — {1}{R}: Kriv, Champion of Heroes deals 3 damage to target creature. [i](Activate only if this creature attacked this turn and only once each turn.)[/i]
+Other creatures you control get +1/+1
+
+Blade of Blood
+
+Boots of Kyrios
+
+Breastplate of Kyrios
+
+Elemental Orb of Air
+
+Elemental Orb of Darkness
+
+Elemental Orb of Earth
+
+Elemental Orb of Fire
+
+Elemental Orb of Water
+
+Helm of Kyrios
+rules_text: Equipped creature has “Boast {2}: Deal 2 damage to target creature defending player controls.” [i](Activate this ability only if that creature attacked this turn and only once each turn.)[/i]
+Equip {3} => Equipped creature has “Boast {2}: Deal 2 damage to target creature defending player controls.” [i](Activate only if that creature attacked this turn and only once each turn.)[/i]
+Equip {3}
+
+Judge & Executioner
+
+Jury
+
+Sword of Kyrios
+
+
+VERSION 2 CHANGELOG
 ====================
 
 No changes.

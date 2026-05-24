@@ -974,7 +974,7 @@
 			"name": "Keldath the Scourge",
 			"rarity": "special",
 			"mana_cost": "{4}{B}{G}",
-			"type": "Legendary Creature — Dragon",
+			"type": "Legendary Creature — Ancient Dragon",
 			"collector_number": "268",
 			"image_uris": {
 				"en": "https://mtg-hub/sets/D&D-files/img/268_Keldath the Scourge.png"
@@ -994,7 +994,7 @@
 			"name": "Idryyth the Flamebringer",
 			"rarity": "special",
 			"mana_cost": "{4}{R}{R}",
-			"type": "Legendary Creature — Dragon",
+			"type": "Legendary Creature — Ancient Dragon",
 			"collector_number": "176",
 			"image_uris": {
 				"en": "https://mtg-hub/sets/D&D-files/img/176_Idryyth the Flamebringer.png"
@@ -1004,7 +1004,7 @@
 			"name": "Kinzine the Lifegiver",
 			"rarity": "special",
 			"mana_cost": "{3}{G}{W}",
-			"type": "Legendary Creature — Dragon",
+			"type": "Legendary Creature — Ancient Dragon",
 			"collector_number": "270",
 			"image_uris": {
 				"en": "https://mtg-hub/sets/D&D-files/img/270_Kinzine the Lifegiver.png"
@@ -1014,7 +1014,7 @@
 			"name": "Ylbor the Lazy",
 			"rarity": "special",
 			"mana_cost": "{4}{U}{U}",
-			"type": "Legendary Creature — Dragon",
+			"type": "Legendary Creature — Ancient Dragon",
 			"collector_number": "98",
 			"image_uris": {
 				"en": "https://mtg-hub/sets/D&D-files/img/98_Ylbor the Lazy.png"
@@ -1024,7 +1024,7 @@
 			"name": "Arrynth, Lord of Death",
 			"rarity": "special",
 			"mana_cost": "{3}{W}{B}",
-			"type": "Legendary Creature — Dragon",
+			"type": "Legendary Creature — Ancient Dragon",
 			"collector_number": "253",
 			"image_uris": {
 				"en": "https://mtg-hub/sets/D&D-files/img/253_Arrynth, Lord of Death.png"
@@ -1034,7 +1034,7 @@
 			"name": "Aipa the Ancient",
 			"rarity": "special",
 			"mana_cost": "{3}{R}{W}",
-			"type": "Legendary Creature — Dragon",
+			"type": "Legendary Creature — Ancient Dragon",
 			"collector_number": "252",
 			"image_uris": {
 				"en": "https://mtg-hub/sets/D&D-files/img/252_Aipa the Ancient.png"
@@ -1044,7 +1044,7 @@
 			"name": "Pyrrydoss the Unbroken",
 			"rarity": "special",
 			"mana_cost": "{2}{U}{R}",
-			"type": "Legendary Creature — Dragon",
+			"type": "Legendary Creature — Ancient Dragon",
 			"collector_number": "277",
 			"image_uris": {
 				"en": "https://mtg-hub/sets/D&D-files/img/277_Pyrrydoss the Unbroken.png"
@@ -1054,7 +1054,7 @@
 			"name": "Dayvroass the Haunted",
 			"rarity": "special",
 			"mana_cost": "{4}{B}{B}",
-			"type": "Legendary Creature — Dragon",
+			"type": "Legendary Creature — Ancient Dragon",
 			"collector_number": "115",
 			"image_uris": {
 				"en": "https://mtg-hub/sets/D&D-files/img/115_Dayvroass the Haunted.png"
@@ -1064,7 +1064,7 @@
 			"name": "Nydissia the Protector",
 			"rarity": "special",
 			"mana_cost": "{4}{G}{G}",
-			"type": "Legendary Creature — Dragon",
+			"type": "Legendary Creature — Ancient Dragon",
 			"collector_number": "237",
 			"image_uris": {
 				"en": "https://mtg-hub/sets/D&D-files/img/237_Nydissia the Protector.png"
@@ -1074,7 +1074,7 @@
 			"name": "Tundrayl the Pure",
 			"rarity": "special",
 			"mana_cost": "{4}{W}{W}",
-			"type": "Legendary Creature — Dragon",
+			"type": "Legendary Creature — Ancient Dragon",
 			"collector_number": "47",
 			"image_uris": {
 				"en": "https://mtg-hub/sets/D&D-files/img/47_Tundrayl the Pure.png"
@@ -2154,7 +2154,7 @@
 			"name": "Mazzer, The Rat King",
 			"rarity": "special",
 			"mana_cost": "{2}{U}{B}",
-			"type": "Legendary Creature — Human Rat Monk",
+			"type": "Legendary Creature — Elf Rat Monk",
 			"collector_number": "0",
 			"image_uris": {
 				"en": "https://mtg-hub/sets/D&D-files/img/0_Mazzer, The Rat King.png"
@@ -2653,7 +2653,7 @@
 		{
 			"name": "Olethros the Destroyer",
 			"rarity": "special",
-			"mana_cost": "{4}{B}{B}",
+			"mana_cost": "{4}{B}{B}{B}",
 			"type": "Legendary Creature — Eternal Dragon",
 			"collector_number": "137",
 			"image_uris": {
@@ -3204,7 +3204,7 @@
 			"name": "Tathys's Silencer",
 			"rarity": "special",
 			"mana_cost": "{3}{U}{U}",
-			"type": "Creture — Devil",
+			"type": "Creature — Devil",
 			"collector_number": "92",
 			"image_uris": {
 				"en": "https://mtg-hub/sets/D&D-files/img/92_Tathys's Silencer.png"
@@ -3818,6 +3818,16 @@
 			"collector_number": "373",
 			"image_uris": {
 				"en": "https://mtg-hub/sets/D&D-files/img/373_The Wilds.png"
+			}
+		},
+		{
+			"name": "Fly",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Enchantment — Aura",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/D&D-files/img/1t_Fly.png"
 			}
 		}
 	]

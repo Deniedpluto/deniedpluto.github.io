@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/TFF-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>TFF visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/TFF-files/logo.png" />
+	<img class="preload-hidden" src="../sets/CEP-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CoS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/D&D-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ER-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TFF-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TLD-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/TFF"><img src="../sets/TFF-files/icon.png">The Formidable Five</a>
+	
+		<a class="set-bar inactive" href="../previews/CEP"><img src="../sets/CEP-files/icon.png">Cephestia</a>
+	
+		<a class="set-bar inactive" href="../previews/CoS"><img src="../sets/CoS-files/icon.png">Curse of Strahd</a>
+	
+		<a class="set-bar inactive" href="../previews/D&D"><img src="../sets/D&D-files/icon.png">Peter’s D&D</a>
+	
+		<a class="set-bar inactive" href="../previews/ER"><img src="../sets/ER-files/icon.png">Eastern Reach</a>
+	
+		<a class="set-bar inactive" href="../previews/TLD"><img src="../sets/TLD-files/icon.png">The Legendary Defenders</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/TFF-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\TFF-files\img\1_Aleana's Chosen.png" id="TFF_1_Aleanas Chosen" data-flag="@X" onclick="openSidebar('TFF_1_Aleanas Chosen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\0_Inopportune Arrest.png" id="TFF_0_Inopportune Arrest" data-flag="@X" onclick="openSidebar('TFF_0_Inopportune Arrest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\39_The Archon of Gold.png" id="TFF_39_The Archon of Gold" data-flag="@X" onclick="openSidebar('TFF_39_The Archon of Gold',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\59_Drachenjäger.png" id="TFF_59_Drachenjäger" data-flag="@X" onclick="openSidebar('TFF_59_Drachenjäger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\0_Blessed Ent.png" id="TFF_0_Blessed Ent" data-flag="@X" onclick="openSidebar('TFF_0_Blessed Ent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\2_Ayleia's Return.png" id="TFF_2_Ayleias Return" data-flag="@X" onclick="openSidebar('TFF_2_Ayleias Return',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\12_Cutting Words.png" id="TFF_12_Cutting Words" data-flag="@X" onclick="openSidebar('TFF_12_Cutting Words',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\40_Blood Magic.png" id="TFF_40_Blood Magic" data-flag="@X" onclick="openSidebar('TFF_40_Blood Magic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\60_Drink it Down.png" id="TFF_60_Drink it Down" data-flag="@X" onclick="openSidebar('TFF_60_Drink it Down',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\75_Adolescent Dragon.png" id="TFF_75_Adolescent Dragon" data-flag="@X" onclick="openSidebar('TFF_75_Adolescent Dragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\3_Cube of K'nezeret.png" id="TFF_3_Cube of Knezeret" data-flag="@X" onclick="openSidebar('TFF_3_Cube of Knezeret',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\13_Death of the Oracle.png" id="TFF_13_Death of the Oracle" data-flag="@X" onclick="openSidebar('TFF_13_Death of the Oracle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\41_Blood Ritual.png" id="TFF_41_Blood Ritual" data-flag="@X" onclick="openSidebar('TFF_41_Blood Ritual',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\61_Fane of the Mountain.png" id="TFF_61_Fane of the Mountain" data-flag="@X" onclick="openSidebar('TFF_61_Fane of the Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\76_Ara, Reknown Scout.png" id="TFF_76_Ara, Reknown Scout" data-flag="@X" onclick="openSidebar('TFF_76_Ara, Reknown Scout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\4_Leonir, Acolyte of Lanu.png" id="TFF_4_Leonir, Acolyte of Lanu" data-flag="@X" onclick="openSidebar('TFF_4_Leonir, Acolyte of Lanu',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\14_Divination.png" id="TFF_14_Divination" data-flag="@X" onclick="openSidebar('TFF_14_Divination',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\42_Blue Flame Candle.png" id="TFF_42_Blue Flame Candle" data-flag="@X" onclick="openSidebar('TFF_42_Blue Flame Candle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\62_The Forge of Elements.png" id="TFF_62_The Forge of Elements" data-flag="@X" onclick="openSidebar('TFF_62_The Forge of Elements',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\77_Aurelia's Elites.png" id="TFF_77_Aurelias Elites" data-flag="@X" onclick="openSidebar('TFF_77_Aurelias Elites',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\5_Moon Scythe.png" id="TFF_5_Moon Scythe" data-flag="@X" onclick="openSidebar('TFF_5_Moon Scythe',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\15_Draconic Ascent.png" id="TFF_15_Draconic Ascent" data-flag="@X" onclick="openSidebar('TFF_15_Draconic Ascent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\43_Charles.png" id="TFF_43_Charles" data-flag="@X" onclick="openSidebar('TFF_43_Charles',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\63_Fulcrum.png" id="TFF_63_Fulcrum" data-flag="@X" onclick="openSidebar('TFF_63_Fulcrum',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\78_Basilisk.png" id="TFF_78_Basilisk" data-flag="@X" onclick="openSidebar('TFF_78_Basilisk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\6_Noble Ward.png" id="TFF_6_Noble Ward" data-flag="@X" onclick="openSidebar('TFF_6_Noble Ward',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\16_Fane of the River.png" id="TFF_16_Fane of the River" data-flag="@X" onclick="openSidebar('TFF_16_Fane of the River',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\44_Dayvroass the Haunted.png" id="TFF_44_Dayvroass the Haunted" data-flag="@X" onclick="openSidebar('TFF_44_Dayvroass the Haunted',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\64_Fury of the Gods.png" id="TFF_64_Fury of the Gods" data-flag="@X" onclick="openSidebar('TFF_64_Fury of the Gods',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\79_Blessings of the Mothertree.png" id="TFF_79_Blessings of the Mothertree" data-flag="@X" onclick="openSidebar('TFF_79_Blessings of the Mothertree',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\7_Ring of Etheria.png" id="TFF_7_Ring of Etheria" data-flag="@X" onclick="openSidebar('TFF_7_Ring of Etheria',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\17_Grappling Octopus.png" id="TFF_17_Grappling Octopus" data-flag="@X" onclick="openSidebar('TFF_17_Grappling Octopus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\45_Death Druid.png" id="TFF_45_Death Druid" data-flag="@X" onclick="openSidebar('TFF_45_Death Druid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\65_Gniess, Stonecutter Prime.png" id="TFF_65_Gniess, Stonecutter Prime" data-flag="@X" onclick="openSidebar('TFF_65_Gniess, Stonecutter Prime',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\80_Caravan Raid.png" id="TFF_80_Caravan Raid" data-flag="@X" onclick="openSidebar('TFF_80_Caravan Raid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\8_Sarana, Fists of Fury.png" id="TFF_8_Sarana, Fists of Fury" data-flag="@X" onclick="openSidebar('TFF_8_Sarana, Fists of Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\18_High Priest Kaaladeth.png" id="TFF_18_High Priest Kaaladeth" data-flag="@X" onclick="openSidebar('TFF_18_High Priest Kaaladeth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\46_Desecrate the Temple.png" id="TFF_46_Desecrate the Temple" data-flag="@X" onclick="openSidebar('TFF_46_Desecrate the Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\66_The Halcyon.png" id="TFF_66_The Halcyon" data-flag="@X" onclick="openSidebar('TFF_66_The Halcyon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\81_Cleanse the Fanes.png" id="TFF_81_Cleanse the Fanes" data-flag="@X" onclick="openSidebar('TFF_81_Cleanse the Fanes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\9_Tundrayl the Pure.png" id="TFF_9_Tundrayl the Pure" data-flag="@X" onclick="openSidebar('TFF_9_Tundrayl the Pure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\19_Hueick, Susceptible Youth.png" id="TFF_19_Hueick, Susceptible Youth" data-flag="@X" onclick="openSidebar('TFF_19_Hueick, Susceptible Youth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\47_Devilish Imp.png" id="TFF_47_Devilish Imp" data-flag="@X" onclick="openSidebar('TFF_47_Devilish Imp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\67_Idryyth the Flamebringer.png" id="TFF_67_Idryyth the Flamebringer" data-flag="@X" onclick="openSidebar('TFF_67_Idryyth the Flamebringer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\82_Command — Duel.png" id="TFF_82_Command — Duel" data-flag="@X" onclick="openSidebar('TFF_82_Command — Duel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\10_Urwin Brighstar, Guild Founder.png" id="TFF_10_Urwin Brighstar, Guild Founder" data-flag="@X" onclick="openSidebar('TFF_10_Urwin Brighstar, Guild Founder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\20_Huff vs McDoogal.png" id="TFF_20_Huff vs McDoogal" data-flag="@X" onclick="openSidebar('TFF_20_Huff vs McDoogal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\48_Eliath, Doomed Fighter.png" id="TFF_48_Eliath, Doomed Fighter" data-flag="@X" onclick="openSidebar('TFF_48_Eliath, Doomed Fighter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\68_Kythr, Sorrow's Mark.png" id="TFF_68_Kythr, Sorrows Mark" data-flag="@X" onclick="openSidebar('TFF_68_Kythr, Sorrows Mark',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\83_Coordinated Assault.png" id="TFF_83_Coordinated Assault" data-flag="@X" onclick="openSidebar('TFF_83_Coordinated Assault',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\11_Wall Guard Recruiter.png" id="TFF_11_Wall Guard Recruiter" data-flag="@X" onclick="openSidebar('TFF_11_Wall Guard Recruiter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\21_Invoke Duplicity.png" id="TFF_21_Invoke Duplicity" data-flag="@X" onclick="openSidebar('TFF_21_Invoke Duplicity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\49_Fama's Talon.png" id="TFF_49_Famas Talon" data-flag="@X" onclick="openSidebar('TFF_49_Famas Talon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\69_The Prosperity.png" id="TFF_69_The Prosperity" data-flag="@X" onclick="openSidebar('TFF_69_The Prosperity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\84_Elven Elder.png" id="TFF_84_Elven Elder" data-flag="@X" onclick="openSidebar('TFF_84_Elven Elder',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\22_Jimmy Beanz.png" id="TFF_22_Jimmy Beanz" data-flag="@X" onclick="openSidebar('TFF_22_Jimmy Beanz',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\50_Gildling.png" id="TFF_50_Gildling" data-flag="@X" onclick="openSidebar('TFF_50_Gildling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\70_Rovari, Magic Weaver.png" id="TFF_70_Rovari, Magic Weaver" data-flag="@X" onclick="openSidebar('TFF_70_Rovari, Magic Weaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\85_Elven Warmaster.png" id="TFF_85_Elven Warmaster" data-flag="@X" onclick="openSidebar('TFF_85_Elven Warmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\23_King Da'aroc.png" id="TFF_23_King Daaroc" data-flag="@X" onclick="openSidebar('TFF_23_King Daaroc',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\51_Night of Consuming Darkness.png" id="TFF_51_Night of Consuming Darkness" data-flag="@X" onclick="openSidebar('TFF_51_Night of Consuming Darkness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\71_Scorching Ray.png" id="TFF_71_Scorching Ray" data-flag="@X" onclick="openSidebar('TFF_71_Scorching Ray',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\86_Ewiard, Lord of the Hunt.png" id="TFF_86_Ewiard, Lord of the Hunt" data-flag="@X" onclick="openSidebar('TFF_86_Ewiard, Lord of the Hunt',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\24_Library of Vetys.png" id="TFF_24_Library of Vetys" data-flag="@X" onclick="openSidebar('TFF_24_Library of Vetys',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\52_Olar, The Broken Arrow.png" id="TFF_52_Olar, The Broken Arrow" data-flag="@X" onclick="openSidebar('TFF_52_Olar, The Broken Arrow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\72_Wardog.png" id="TFF_72_Wardog" data-flag="@X" onclick="openSidebar('TFF_72_Wardog',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\87_Fane of the Forest.png" id="TFF_87_Fane of the Forest" data-flag="@X" onclick="openSidebar('TFF_87_Fane of the Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\25_Oracle's Insight.png" id="TFF_25_Oracles Insight" data-flag="@X" onclick="openSidebar('TFF_25_Oracles Insight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\53_Olethros the Destroyer.png" id="TFF_53_Olethros the Destroyer" data-flag="@X" onclick="openSidebar('TFF_53_Olethros the Destroyer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\73_Worker's Union.png" id="TFF_73_Workers Union" data-flag="@X" onclick="openSidebar('TFF_73_Workers Union',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\88_Fleetfoot, Sharpshooter.png" id="TFF_88_Fleetfoot, Sharpshooter" data-flag="@X" onclick="openSidebar('TFF_88_Fleetfoot, Sharpshooter',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\26_Pierce the Veil.png" id="TFF_26_Pierce the Veil" data-flag="@X" onclick="openSidebar('TFF_26_Pierce the Veil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\54_Shaedrun, the Necromancer.png" id="TFF_54_Shaedrun, the Necromancer" data-flag="@X" onclick="openSidebar('TFF_54_Shaedrun, the Necromancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\74_Wrathful Smite.png" id="TFF_74_Wrathful Smite" data-flag="@X" onclick="openSidebar('TFF_74_Wrathful Smite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\89_The Forge of Life.png" id="TFF_89_The Forge of Life" data-flag="@X" onclick="openSidebar('TFF_89_The Forge of Life',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\27_Professor Arden.png" id="TFF_27_Professor Arden" data-flag="@X" onclick="openSidebar('TFF_27_Professor Arden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\55_Shaedrun's Gambit.png" id="TFF_55_Shaedruns Gambit" data-flag="@X" onclick="openSidebar('TFF_55_Shaedruns Gambit',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\90_Glamstol, Crafty Herbalist.png" id="TFF_90_Glamstol, Crafty Herbalist" data-flag="@X" onclick="openSidebar('TFF_90_Glamstol, Crafty Herbalist',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\28_Reject.png" id="TFF_28_Reject" data-flag="@X" onclick="openSidebar('TFF_28_Reject',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\56_Shambling Necromass.png" id="TFF_56_Shambling Necromass" data-flag="@X" onclick="openSidebar('TFF_56_Shambling Necromass',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\91_Karda, Revolutionary.png" id="TFF_91_Karda, Revolutionary" data-flag="@X" onclick="openSidebar('TFF_91_Karda, Revolutionary',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\29_Sahuaghin.png" id="TFF_29_Sahuaghin" data-flag="@X" onclick="openSidebar('TFF_29_Sahuaghin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\57_Staff of the Blightree.png" id="TFF_57_Staff of the Blightree" data-flag="@X" onclick="openSidebar('TFF_57_Staff of the Blightree',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\92_King Saakala.png" id="TFF_92_King Saakala" data-flag="@X" onclick="openSidebar('TFF_92_King Saakala',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\30_Sahuaghin Artillerist.png" id="TFF_30_Sahuaghin Artillerist" data-flag="@X" onclick="openSidebar('TFF_30_Sahuaghin Artillerist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\58_Undead Elk.png" id="TFF_58_Undead Elk" data-flag="@X" onclick="openSidebar('TFF_58_Undead Elk',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\93_Kruthik Swarm.png" id="TFF_93_Kruthik Swarm" data-flag="@X" onclick="openSidebar('TFF_93_Kruthik Swarm',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\31_Sahuaghin Commander.png" id="TFF_31_Sahuaghin Commander" data-flag="@X" onclick="openSidebar('TFF_31_Sahuaghin Commander',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\94_Kruthik Tunneler.png" id="TFF_94_Kruthik Tunneler" data-flag="@X" onclick="openSidebar('TFF_94_Kruthik Tunneler',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\32_Sahuaghin Fury.png" id="TFF_32_Sahuaghin Fury" data-flag="@X" onclick="openSidebar('TFF_32_Sahuaghin Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\95_Nydissia the Protector.png" id="TFF_95_Nydissia the Protector" data-flag="@X" onclick="openSidebar('TFF_95_Nydissia the Protector',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\33_Saw it Coming.png" id="TFF_33_Saw it Coming" data-flag="@X" onclick="openSidebar('TFF_33_Saw it Coming',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\96_Planar Portal.png" id="TFF_96_Planar Portal" data-flag="@X" onclick="openSidebar('TFF_96_Planar Portal',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\34_Tidal Wave.png" id="TFF_34_Tidal Wave" data-flag="@X" onclick="openSidebar('TFF_34_Tidal Wave',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\97_Staff of the Mothertree.png" id="TFF_97_Staff of the Mothertree" data-flag="@X" onclick="openSidebar('TFF_97_Staff of the Mothertree',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\35_Umbra.png" id="TFF_35_Umbra" data-flag="@X" onclick="openSidebar('TFF_35_Umbra',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\98_Volley of Arrows.png" id="TFF_98_Volley of Arrows" data-flag="@X" onclick="openSidebar('TFF_98_Volley of Arrows',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\36_Ylbor the Lazy.png" id="TFF_36_Ylbor the Lazy" data-flag="@X" onclick="openSidebar('TFF_36_Ylbor the Lazy',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\99_Yanna the Ill-Fated.png" id="TFF_99_Yanna the Ill-Fated" data-flag="@X" onclick="openSidebar('TFF_99_Yanna the Ill-Fated',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\37_Young Flayer.png" id="TFF_37_Young Flayer" data-flag="@X" onclick="openSidebar('TFF_37_Young Flayer',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\38_Zunam, Fate Favored.png" id="TFF_38_Zunam, Fate Favored" data-flag="@X" onclick="openSidebar('TFF_38_Zunam, Fate Favored',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\118_Blessing of the Moon.png" id="TFF_118_Blessing of the Moon" data-flag="@X" onclick="openSidebar('TFF_118_Blessing of the Moon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\108_Irdel the Pursued.png" id="TFF_108_Irdel the Pursued" data-flag="@X" onclick="openSidebar('TFF_108_Irdel the Pursued',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\105_Granite, Elos' Vengeance.png" id="TFF_105_Granite, Elos Vengeance" data-flag="@X" onclick="openSidebar('TFF_105_Granite, Elos Vengeance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\112_Lady Aurelia.png" id="TFF_112_Lady Aurelia" data-flag="@X" onclick="openSidebar('TFF_112_Lady Aurelia',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\107_Hyrum, Last Refuge.png" id="TFF_107_Hyrum, Last Refuge" data-flag="@X" onclick="openSidebar('TFF_107_Hyrum, Last Refuge',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\106_His Opulence IV.png" id="TFF_106_His Opulence IV" data-flag="@X" onclick="openSidebar('TFF_106_His Opulence IV',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\111_Kinzine the Lifegiver.png" id="TFF_111_Kinzine the Lifegiver" data-flag="@X" onclick="openSidebar('TFF_111_Kinzine the Lifegiver',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\109_Justice, Reborn.png" id="TFF_109_Justice, Reborn" data-flag="@X" onclick="openSidebar('TFF_109_Justice, Reborn',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\101_Arrynth, Lord of Death.png" id="TFF_101_Arrynth, Lord of Death" data-flag="@X" onclick="openSidebar('TFF_101_Arrynth, Lord of Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\113_Pyrrydoss the Unbroken.png" id="TFF_113_Pyrrydoss the Unbroken" data-flag="@X" onclick="openSidebar('TFF_113_Pyrrydoss the Unbroken',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\110_Keldath the Scourge.png" id="TFF_110_Keldath the Scourge" data-flag="@X" onclick="openSidebar('TFF_110_Keldath the Scourge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\100_Aipa the Ancient.png" id="TFF_100_Aipa the Ancient" data-flag="@X" onclick="openSidebar('TFF_100_Aipa the Ancient',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\104_Dryad Grove.png" id="TFF_104_Dryad Grove" data-flag="@X" onclick="openSidebar('TFF_104_Dryad Grove',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\103_Captain Lebrode.png" id="TFF_103_Captain Lebrode" data-flag="@X" onclick="openSidebar('TFF_103_Captain Lebrode',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\114_Syosa, Raving Dragon.png" id="TFF_114_Syosa, Raving Dragon" data-flag="@X" onclick="openSidebar('TFF_114_Syosa, Raving Dragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\115_Aleana, Faith's Shield.png" id="TFF_115_Aleana, Faiths Shield" data-flag="@X" onclick="openSidebar('TFF_115_Aleana, Faiths Shield',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\119_Bressio and Vynne, Twins.png" id="TFF_119_Bressio and Vynne, Twins" data-flag="@X" onclick="openSidebar('TFF_119_Bressio and Vynne, Twins',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\127_Urobu, Judge of Souls.png" id="TFF_127_Urobu, Judge of Souls" data-flag="@X" onclick="openSidebar('TFF_127_Urobu, Judge of Souls',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\126_Tathys, Keeper of Secrets.png" id="TFF_126_Tathys, Keeper of Secrets" data-flag="@X" onclick="openSidebar('TFF_126_Tathys, Keeper of Secrets',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\122_Coelys, Chaos Incarnate.png" id="TFF_122_Coelys, Chaos Incarnate" data-flag="@X" onclick="openSidebar('TFF_122_Coelys, Chaos Incarnate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\123_Elos, God of War.png" id="TFF_123_Elos, God of War" data-flag="@X" onclick="openSidebar('TFF_123_Elos, God of War',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\116_Alyra, Oracle's Muse.png" id="TFF_116_Alyra, Oracles Muse" data-flag="@X" onclick="openSidebar('TFF_116_Alyra, Oracles Muse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\128_Vetys, Beacon of Knowledge.png" id="TFF_128_Vetys, Beacon of Knowledge" data-flag="@X" onclick="openSidebar('TFF_128_Vetys, Beacon of Knowledge',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\120_Cadrea, God of the Forge.png" id="TFF_120_Cadrea, God of the Forge" data-flag="@X" onclick="openSidebar('TFF_120_Cadrea, God of the Forge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\117_Aranya, Nature's Queen.png" id="TFF_117_Aranya, Natures Queen" data-flag="@X" onclick="openSidebar('TFF_117_Aranya, Natures Queen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\125_Lanu, Moon Trickster.png" id="TFF_125_Lanu, Moon Trickster" data-flag="@X" onclick="openSidebar('TFF_125_Lanu, Moon Trickster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\121_Caelys the Gilded.png" id="TFF_121_Caelys the Gilded" data-flag="@X" onclick="openSidebar('TFF_121_Caelys the Gilded',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\124_Fama, Assassin Favored.png" id="TFF_124_Fama, Assassin Favored" data-flag="@X" onclick="openSidebar('TFF_124_Fama, Assassin Favored',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\102_Ayleia Progenitor.png" id="TFF_102_Ayleia Progenitor" data-flag="@X" onclick="openSidebar('TFF_102_Ayleia Progenitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\TFF-files\img\129_Soul Steel Dagger.png" id="TFF_129_Soul Steel Dagger" data-flag="@X" onclick="openSidebar('TFF_129_Soul Steel Dagger',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TFF_e" data-flag="@E" onclick="openSidebar('TFF_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TFF_er" data-flag="@E" onclick="openSidebar('TFF_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>

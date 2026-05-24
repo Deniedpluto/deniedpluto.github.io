@@ -426,7 +426,7 @@
     {
         "card_name": "Eye of Coelys",
         "number": 160,
-        "shape": "planeswalker",
+        "shape": "normal",
         "set": "D&D",
         "rotated": false,
         "position": ""
@@ -602,7 +602,7 @@
     {
         "card_name": "Cube of K'nezeret",
         "number": 14,
-        "shape": "planeswalker",
+        "shape": "normal",
         "set": "D&D",
         "rotated": false,
         "position": ""
@@ -1714,7 +1714,7 @@
     {
         "card_name": "Staff of the Mothertree",
         "number": 241,
-        "shape": "planeswalker",
+        "shape": "normal",
         "set": "D&D",
         "rotated": false,
         "position": ""
@@ -1850,7 +1850,7 @@
     {
         "card_name": "Umbra",
         "number": 96,
-        "shape": "planeswalker",
+        "shape": "normal",
         "set": "D&D",
         "rotated": false,
         "position": ""
@@ -1858,7 +1858,7 @@
     {
         "card_name": "Staff of the Blightree",
         "number": 146,
-        "shape": "planeswalker",
+        "shape": "normal",
         "set": "D&D",
         "rotated": false,
         "position": ""
@@ -2120,7 +2120,7 @@
     {
         "card_name": "Master Jarreau",
         "number": 275,
-        "shape": "planeswalker",
+        "shape": "normal",
         "set": "D&D",
         "rotated": false,
         "position": ""
@@ -2251,7 +2251,7 @@
     {
         "card_name": "Vas Asareen",
         "number": 281,
-        "shape": "planeswalker",
+        "shape": "normal",
         "set": "D&D",
         "rotated": false,
         "position": ""
@@ -2322,7 +2322,7 @@
     {
         "card_name": "Beatrix, Wily Herbalist",
         "number": 255,
-        "shape": "planeswalker",
+        "shape": "normal",
         "set": "D&D",
         "rotated": false,
         "position": ""
@@ -2784,7 +2784,7 @@
     {
         "card_name": "Soul Steel Dagger",
         "number": 326,
-        "shape": "planeswalker",
+        "shape": "normal",
         "set": "D&D",
         "rotated": false,
         "position": ""
@@ -3062,6 +3062,39 @@
         "set": "D&D",
         "rotated": false,
         "position": ""
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->token",
+    {
+        "card_name": "Fly",
+        "number": 1,
+        "shape": "token",
+        "set": "D&D",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "er"

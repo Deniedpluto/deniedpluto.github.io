@@ -5,7 +5,7 @@
 			<name>D&amp;D</name>
 			<longname>Peter&apos;s D&amp;D</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-14</releasedate>
+			<releasedate>2026-05-23</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -26,7 +26,7 @@
 		<card>
 			<name>Kriv, Champion of Heroes</name>
 			<text>Vigilance
-Boast — {1}{R}: Kriv, Champion of Heroes deals 3 damage to target creature. (Activate this ability only if this creature attacked this turn and only once each turn.)
+Boast — {1}{R}: Kriv, Champion of Heroes deals 3 damage to target creature. (Activate only if this creature attacked this turn and only once each turn.)
 Other creatures you control get +1/+1</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/299_Kriv, Champion of Heroes.png" num="299">D&amp;D</set>
 			<prop>
@@ -63,7 +63,8 @@ When Mathias, Cursed of Urobu enters the battlefield, target creature gets -2/-2
 		<card>
 			<name>The Professor</name>
 			<text>Nemesis (You may only control one creature or Planeswalker with Nemesis.)
-At the beginning of your upkeep create a 1/1 Homunculus creature token with mutate. Creatures in your hand have mutate.</text>
+At the beginning of your upkeep create a 1/1 Homunculus creature token with mutate. 
+Creatures in your hand have mutate.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/305_The Professor.png" num="305">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -643,7 +644,7 @@ Equip {2}
 		</card>
 		<card>
 			<name>Master Jarreau</name>
-			<text>​</text>
+			<text></text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/275_Master Jarreau.png" num="275">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -675,7 +676,7 @@ Equip {2}
 		</card>
 		<card>
 			<name>Beatrix, Wily Herbalist</name>
-			<text>​</text>
+			<text></text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/255_Beatrix, Wily Herbalist.png" num="255">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -879,7 +880,7 @@ When Scyruss enters the battlefield, you may pay 1{R} any number of times. When 
 		</card>
 		<card>
 			<name>Helm of Kyrios</name>
-			<text>Equipped creature has &quot;Boast {2}: Deal 2 damage to target creature defending player controls.&quot; (Activate this ability only if that creature attacked this turn and only once each turn.)
+			<text>Equipped creature has &quot;Boast {2}: Deal 2 damage to target creature defending player controls.&quot; (Activate only if that creature attacked this turn and only once each turn.)
 Equip {3}</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/320_Helm of Kyrios.png" num="320">D&amp;D</set>
 			<prop>
@@ -1018,7 +1019,7 @@ Sacrifice a treasure: Goad target creature. (Until your next turn, that creature
 		</card>
 		<card>
 			<name>Captain Laos</name>
-			<text>Partner with First Mate Addus (When this creature enters the battlefield, target player may put First Mate Addus into their hand from their library, then shuffle.)
+			<text>Partner with First Mate Addus (When this creature enters, target player may put First Mate Addus into their hand from their library, then shuffle.)
 Whenever a dwarf you control deals combat damage to a player, create a treasure.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/54_Captain Laos.png" num="54">D&amp;D</set>
 			<prop>
@@ -1036,7 +1037,7 @@ Whenever a dwarf you control deals combat damage to a player, create a treasure.
 		</card>
 		<card>
 			<name>First Mate Addus</name>
-			<text>Partner with Captain Laos (When this creature enters the battlefield, target player may put Captain Laos into their hand from their library, then shuffle.)
+			<text>Partner with Captain Laos (When this creature enters, target player may put Captain Laos into their hand from their library, then shuffle.)
 Whenever an elf you control deals combat damage to a player, scry 1.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/64_First Mate Addus.png" num="64">D&amp;D</set>
 			<prop>
@@ -1135,7 +1136,7 @@ Whenever a player casts a spell from anywhere other than their hand, draw a card
 			<text>Indestructible
 As long as your devotion to is less than twelve Ayleia, Progenitor isn&apos;t a creature.
 Whenever a creature you control dies, search your library for a creature of equal mana value and put it on the battlefield.
-At the beginning of your upkeep, sacrifice a creature.</text>
+At the beginning of your end step, sacrifice a creature.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/254_Ayleia Progenitor.png" num="254">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -1686,7 +1687,7 @@ Defender
 		<card>
 			<name>Zas, Barbarian Scholar</name>
 			<text>Trample
-You may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Barbarian Scholar&apos;s power and toughness until end of turn. (An exerted creature won&apos;t untap during your next untap step.)</text>
+You may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Barbarian Scholar&apos;s power until end of turn. (An exerted creature won&apos;t untap during your next untap step.)</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/283_Zas, Barbarian Scholar.png" num="283">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -1697,7 +1698,7 @@ You may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Bar
 				<cmc>3</cmc>
 				<colors>RG</colors>
 				<coloridentity>RG</coloridentity>
-				<pt>4/3</pt>
+				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1782,7 +1783,7 @@ When a creature with a -1/-1 counter on it dies, you may move the counters to an
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Dragon</type>
+				<type>Legendary Creature — Ancient Dragon</type>
 				<maintype>Creature</maintype>
 				<manacost>4BG</manacost>
 				<cmc>6</cmc>
@@ -1818,7 +1819,7 @@ When Idryyth enters the battlefield, it deals 5 damage to target creature and 3 
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Dragon</type>
+				<type>Legendary Creature — Ancient Dragon</type>
 				<maintype>Creature</maintype>
 				<manacost>4RR</manacost>
 				<cmc>6</cmc>
@@ -1836,7 +1837,7 @@ Whenever you gain life, create a 2/2 green elk creature token. This ability trig
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Dragon</type>
+				<type>Legendary Creature — Ancient Dragon</type>
 				<maintype>Creature</maintype>
 				<manacost>3GW</manacost>
 				<cmc>5</cmc>
@@ -1855,7 +1856,7 @@ When Ylbor the Lazy attacks, you may exert Ylbor the Lazy to return target creat
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Dragon</type>
+				<type>Legendary Creature — Ancient Dragon</type>
 				<maintype>Creature</maintype>
 				<manacost>4UU</manacost>
 				<cmc>6</cmc>
@@ -1874,7 +1875,7 @@ When Arrynth, Lord of Death attacks exile target creature from a graveyard.</tex
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Dragon</type>
+				<type>Legendary Creature — Ancient Dragon</type>
 				<maintype>Creature</maintype>
 				<manacost>3WB</manacost>
 				<cmc>5</cmc>
@@ -1892,7 +1893,7 @@ Whenever Aipa the Ancient is dealt damage, create that many treasure tokens.</te
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Dragon</type>
+				<type>Legendary Creature — Ancient Dragon</type>
 				<maintype>Creature</maintype>
 				<manacost>3RW</manacost>
 				<cmc>5</cmc>
@@ -1906,32 +1907,32 @@ Whenever Aipa the Ancient is dealt damage, create that many treasure tokens.</te
 			<name>Pyrrydoss the Unbroken</name>
 			<text>Flying, Haste
 When Pyrrydoss attacks, roll a d20.
-[b]1-9 [/b]| Return Pyrrydoss to your hand.
-[b]10-19[/b]| Pyrrydoss deals 3 damage to target creature.
-[b]20[/b]| Pyrrydoss deals 2 damage to each creature target opponent controls.</text>
+[b]1-9 [/b]| Exile Pyrrydoss. Return Pyrrydoss to the battlefield tapped at the beginning of the next end step.
+[b]10-19 [/b]| Pyrrydoss deals 3 damage to target creature.
+[b]20 [/b]| Pyrrydoss deals 2 damage to each creature target opponent controls.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/277_Pyrrydoss the Unbroken.png" num="277">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Dragon</type>
+				<type>Legendary Creature — Ancient Dragon</type>
 				<maintype>Creature</maintype>
 				<manacost>2UR</manacost>
 				<cmc>4</cmc>
 				<colors>UR</colors>
 				<coloridentity>UR</coloridentity>
-				<pt>7/7</pt>
+				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Dayvroass the Haunted</name>
 			<text>Flying, Menace
-Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)</text>
+Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.)</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/115_Dayvroass the Haunted.png" num="115">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Dragon</type>
+				<type>Legendary Creature — Ancient Dragon</type>
 				<maintype>Creature</maintype>
 				<manacost>4BB</manacost>
 				<cmc>6</cmc>
@@ -1952,7 +1953,7 @@ When Nydissia attacks or blocks, choose one —
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Dragon</type>
+				<type>Legendary Creature — Ancient Dragon</type>
 				<maintype>Creature</maintype>
 				<manacost>4GG</manacost>
 				<cmc>6</cmc>
@@ -1966,12 +1967,12 @@ When Nydissia attacks or blocks, choose one —
 			<name>Tundrayl the Pure</name>
 			<text>Flying, Vigilance
 When Tundrayl the Pure enters the battlefield, tap a creature under the control of each opponent.
-Creatures your opponents control don&apos;t untap during their controllers next untap step.</text>
+Put a stun counter on each tapped creature.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/47_Tundrayl the Pure.png" num="47">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Dragon</type>
+				<type>Legendary Creature — Ancient Dragon</type>
 				<maintype>Creature</maintype>
 				<manacost>4WW</manacost>
 				<cmc>6</cmc>
@@ -2071,7 +2072,7 @@ Equip {4}
 		</card>
 		<card>
 			<name>Staff of the Mothertree</name>
-			<text>​</text>
+			<text></text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/241_Staff of the Mothertree.png" num="241">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -2410,7 +2411,7 @@ Undying (When this creature dies, if it had no +1/+1 counters on it, return it t
 		</card>
 		<card>
 			<name>Town&apos;s Guard</name>
-			<text>Bolster 1 (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)</text>
+			<text>Bolster 1 (To bolster 1, choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/45_Town&apos;s Guard.png" num="45">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -2603,7 +2604,7 @@ If this spell was upcast, deal an additional 2 damage to that creature for each 
 		<card>
 			<name>Banden Docks</name>
 			<text>{T}: Add {U}
-Crew 1 (Tap any number of creatures you control with total power 1 or greater: This Island becomes an artifact creature until end of turn.)</text>
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Island becomes an artifact creature until end of turn.)</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/331_Banden Docks.png" num="331">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -2939,7 +2940,7 @@ Exile target creature [you control, return it to the battlefield at the beginnin
 		<card>
 			<name>Wrathful Smite</name>
 			<text>Target creature you control gets trample and +2/+0 until end of turn.
-Overload {4}{R}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of &quot;target&quot; with &quot;each&quot;.)</text>
+Overload {4}{R}{R} (You may cast this spell for its overload cost. If you do, change &quot;target&quot; in its text to &quot;each.&quot;)</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/198_Wrathful Smite.png" num="198">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -3080,7 +3081,7 @@ When Sahuaghin Fury attacks, draw a card then discard a card. If a creature card
 		<card>
 			<name>Aurelia&apos;s Elites</name>
 			<text>Vigilance
-Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)</text>
+Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/206_Aurelia&apos;s Elites.png" num="206">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -3620,7 +3621,7 @@ When Hyrum, Last Refuge attacks, destroy target artifact or enchantment.</text>
 			<text>Nemesis (You may only control one creature or Planeswalker with Nemesis.)
 Flying
 Whenever Strahd Von Zarovich deals combat damage to a player that player discards a card and you draw a card.
-If Strahd Von Zarovich would die, return him to the battlefield tapped and the beginning of the next end step.</text>
+If Strahd Von Zarovich would die, exile him instead and return him to the battlefield tapped and the beginning of the next end step.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/278_Strahd Von Zarovich.png" num="278">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -3687,7 +3688,7 @@ At the beginning of each end step you may flip Wesley the Rescued.</text>
 		</card>
 		<card>
 			<name>Cube of K&apos;nezeret</name>
-			<text>​</text>
+			<text>Exile target creature you control then return it to the battlefield.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/14_Cube of K&apos;nezeret.png" num="14">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -3704,7 +3705,7 @@ At the beginning of each end step you may flip Wesley the Rescued.</text>
 		</card>
 		<card>
 			<name>Eye of Coelys</name>
-			<text>​</text>
+			<text></text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/160_Eye of Coelys.png" num="160">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -3793,7 +3794,7 @@ Other rats you control get +1/+1</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Human Rat Monk</type>
+				<type>Legendary Creature — Elf Rat Monk</type>
 				<maintype>Creature</maintype>
 				<manacost>2UB</manacost>
 				<cmc>4</cmc>
@@ -3805,7 +3806,7 @@ Other rats you control get +1/+1</text>
 		</card>
 		<card>
 			<name>Dire Wolf Pack</name>
-			<text>Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)</text>
+			<text>Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/218_Dire Wolf Pack.png" num="218">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -3876,7 +3877,7 @@ When Fleetfoot enters the battlefield he deals damage equal to the number of cre
 		</card>
 		<card>
 			<name>Eliath, Doomed Fighter</name>
-			<text>When Eliath, Doomed Fighter is dies, return another target legendary creature from your graveyard to the battlefield with a +1/+1 counter.</text>
+			<text>When Eliath, Doomed Fighter dies, return another target legendary creature from your graveyard to the battlefield with a +1/+1 counter.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/123_Eliath, Doomed Fighter.png" num="123">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -4132,7 +4133,7 @@ Whenever a creature dealt damage by Fama&apos;s Talon would die, exile it instea
 				<cmc>2</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>2/1</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -4670,8 +4671,8 @@ Annihilator 2 (Whenever this creature attacks, defending player sacrifices two p
 				<side>front</side>
 				<type>Legendary Creature — Eternal Dragon</type>
 				<maintype>Creature</maintype>
-				<manacost>4BB</manacost>
-				<cmc>6</cmc>
+				<manacost>4BBB</manacost>
+				<cmc>7</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 				<pt>7/5</pt>
@@ -5176,7 +5177,7 @@ Equip {W}</text>
 		<card>
 			<name>Armor of Aleana</name>
 			<text>Equipped creature gets +3/+3 and has ward {1}. (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
-Equip {3}. This ability costs {1} less to activate for each other Equipment you control.</text>
+Equip 3. This ability costs {1} less to activate for each other Equipment you control.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/4_Armor of Aleana.png" num="4">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -5301,7 +5302,7 @@ If this spell was upcast, create two 1/1 white Human Soldier creature tokens.</t
 		</card>
 		<card>
 			<name>Soul Steel Dagger</name>
-			<text>​</text>
+			<text></text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/326_Soul Steel Dagger.png" num="326">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -5334,7 +5335,7 @@ When Griffin Mount attacks, target creature you control gains flying until the e
 		</card>
 		<card>
 			<name>Cleric of Aleana</name>
-			<text>{T}: Another target creature you control gains protection from the color of your choice until end of turn. (This creature can&apos;t be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until end of turn.)</text>
+			<text>{T}: Another target creature you control gains protection from the color of your choice until end of turn. (This creature can&apos;t be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until end of turn..)</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/13_Cleric of Aleana.png" num="13">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -5351,7 +5352,7 @@ When Griffin Mount attacks, target creature you control gains flying until the e
 		</card>
 		<card>
 			<name>Resistance Squad</name>
-			<text>Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)
+			<text>Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)
 Resistance Squad gets +1/0 for each other creature named Resistance Squad that is attacking or blocking.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/36_Resistance Squad.png" num="36">D&amp;D</set>
 			<prop>
@@ -5403,7 +5404,7 @@ Resistance Squad gets +1/0 for each other creature named Resistance Squad that i
 		</card>
 		<card>
 			<name>Chief Inspector</name>
-			<text>When Chief Inspector enters the battlefield, investigate. (Create a colorless Clue artifact token with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<text>When Chief Inspector enters the battlefield, investigate. (To investigate, create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/12_Chief Inspector.png" num="12">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -5473,9 +5474,9 @@ Return all attacking creatures to their owner&apos;s hand.</text>
 		<card>
 			<name>Cone of Cold</name>
 			<text>Roll a d20.
-1-9 | Tap all creatures your opponents control.
-10-19 | Tap all creatures your opponents control. Those creatures don&apos;t untap during their controller&apos;s next untap steps.
-20 | Tap all creatures your opponents control. Those creatures don&apos;t untap during their controller&apos;s next untap steps. Until your next turn, creatures your opponents control enter the battlefield tapped.</text>
+[b]1-9 [/b]| Tap all creatures your opponents control.
+[b]10-19 [/b]| Tap all creatures your opponents control. Those creatures don&apos;t untap during their controller&apos;s next untap steps.
+[b]20 [/b]| Tap all creatures your opponents control. Those creatures don&apos;t untap during their controller&apos;s next untap steps. Until your next turn, creatures your opponents control enter the battlefield tapped.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/55_Cone of Cold.png" num="55">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -5543,7 +5544,7 @@ Foretell {1}{U} (During your turn, you may pay {2} and exile this card from your
 		<card>
 			<name>Protection from Evil and Good</name>
 			<text>Target creature you control gains hexproof.
-Overload {2}{U}{U} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of &quot;target&quot; with &quot;each&quot;.)</text>
+Overload {2}{U}{U} (You may cast this spell for its overload cost. If you do, change &quot;target&quot; in its text to &quot;each.&quot;)</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/81_Protection from Evil and Good.png" num="81">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -5559,7 +5560,7 @@ Overload {2}{U}{U} (You may cast this spell for its overload cost. If you do, ch
 		</card>
 		<card>
 			<name>Draconic Ascent</name>
-			<text>Overload {4}{U}{U} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of &quot;target&quot; with &quot;each&quot;.)
+			<text>Overload {4}{U}{U} (You may cast this spell for its overload cost. If you do, change &quot;target&quot; in its text to &quot;each.&quot;)
 Until end of turn, target creature you control becomes a dragon in addition to its other types, gets +1/+1 and can&apos;t be blocked except by other dragons.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/62_Draconic Ascent.png" num="62">D&amp;D</set>
 			<prop>
@@ -5635,15 +5636,15 @@ When Tathys&apos;s Silencer enters the battlefield, exile target spell, then rol
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creture — Devil</type>
-				<maintype>Creture</maintype>
+				<type>Creature — Devil</type>
+				<maintype>Creature</maintype>
 				<manacost>3UU</manacost>
 				<cmc>5</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 				<pt>3/2</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Cutting Words</name>
@@ -5784,7 +5785,7 @@ If this spell was upcast, it deals an additional 1 damage and you may target one
 		</card>
 		<card>
 			<name>Goblins of the Red Hand</name>
-			<text>Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)
+			<text>Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)
 Sacrifice a creature: Deal 1 damage to any target</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/172_Goblins of the Red Hand.png" num="172">D&amp;D</set>
 			<prop>
@@ -5894,8 +5895,9 @@ Choose one, if you sacrificed a creature, you may choose both —
 		</card>
 		<card>
 			<name>Nicki&apos;s Blade</name>
-			<text>Whenever equipped creature attacks, put a +1/+1 counter on it.
-Whenever equipped creature deals combat damage, roll a d12. If the result is greater than the damage dealt or the result is 12, double the number of +1/+1 counters on that creature.
+			<text>Whenever equipped creature attacks, put a +1/+1 counter on it then roll a d12. 
+If the result is lower than the equipped creatures power, it becomes unblockable, otherwise add an additional +1/+1 counter.
+If the result is {12}, do both
 Equip {2}</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/189_Nicki&apos;s Blade.png" num="189">D&amp;D</set>
 			<prop>
@@ -6030,7 +6032,7 @@ Draw a card.</text>
 		<card>
 			<name>Enlarge</name>
 			<text>Target creature gets +3/+3 and trample.
-Overload {4}{G}{G} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of &quot;target&quot; with &quot;each&quot;.)</text>
+Overload {4}{G}{G} (You may cast this spell for its overload cost. If you do, change &quot;target&quot; in its text to &quot;each.&quot;)</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/222_Enlarge.png" num="222">D&amp;D</set>
 			<prop>
 				<layout>normal</layout>
@@ -6064,7 +6066,7 @@ Enchanted creature has +2/+2 and trample and is a bear in addition to its other 
 		</card>
 		<card>
 			<name>Song of Alyra</name>
-			<text>Nontoken creatures you control have riot. (That creature enters the battlefield with your choice of a +1/+1 counter or haste.)
+			<text>Nontoken creatures you control have riot. (That creature enters with your choice of a +1/+1 counter or haste.)
 Whenever a creature enters the battlefield under your control with power four or greater, draw a card.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/240_Song of Alyra.png" num="240">D&amp;D</set>
 			<prop>
@@ -6655,6 +6657,23 @@ Create a treasure token</text>
 				<cmc>0</cmc>
 			</prop>
 			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Fly D&amp;D</name>
+			<text>Enchant Creature
+Enchanted creature has flying.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/D&amp;D-files/img/1t_Fly.png" num="1">D&amp;D</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

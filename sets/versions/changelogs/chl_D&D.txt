@@ -1,6 +1,951 @@
 ﻿VERSION 2 CHANGELOG
 ====================
 
+Fly added.
+
+
+Monument of Heroes
+
+Kriv, Champion of Heroes
+rules_text: Vigilance
+Boast — {1}{R}: Kriv, Champion of Heroes deals 3 damage to target creature. [i](Activate this ability only if this creature attacked this turn and only once each turn.)[/i]
+Other creatures you control get +1/+1 => Vigilance
+Boast — {1}{R}: Kriv, Champion of Heroes deals 3 damage to target creature. [i](Activate only if this creature attacked this turn and only once each turn.)[/i]
+Other creatures you control get +1/+1
+
+Mathias, Cursed of Urobu
+
+The Professor
+rules_text: Nemesis [i](You may only control one creature or Planeswalker with Nemesis.)[/i]
+At the beginning of your upkeep create a 1/1 Homunculus creature token with mutate. Creatures in your hand have mutate. => Nemesis [i](You may only control one creature or Planeswalker with Nemesis.)[/i]
+At the beginning of your upkeep create a 1/1 Homunculus creature token with mutate. 
+Creatures in your hand have mutate.
+
+Vas Asareen
+
+Donar, Tragic Hero
+
+Paeter, Foolish Monk
+
+Iskael, Lord of Shadows
+
+Bron, Dastardly Thief
+
+Taj, Glittering Thief
+
+Leshanna, Lovestruck Bard
+
+Boomer
+
+Klaarrrgggg, Affable Bugbear
+
+Zazzid, Chosen of Coelys
+
+Gyles, Forgetful Hermit
+
+Milde, Faithful Assistant
+rules_text: At the beginning of each end step, gain 1 life if a creature died this turn. => At the beginning of each end step, gain 1 life if a creature died this turn.
+
+
+
+The Ledger
+
+Fondael the Bloodied
+
+Carmen, Pious Knight
+
+Adenar, Willful Protector
+
+Bulgan, Raging Battler
+
+Lord Chuck Gavelston
+
+Xurug the Avenger
+
+Theo, Friendly Barkeep
+
+Vhalimar, Forsaken Angel
+
+Temple of Judgement
+
+Mazzer, Protected
+
+Misha, Werebear Leader
+
+Werebear Amulet
+
+Kirk of Clan Daardendrian
+
+Namfoodle Stumbleduck
+
+Garmin, Beast's Companion
+
+Cerberus
+
+Phaedra the Seeker
+
+Blade of Olethros
+
+Master Jarreau
+rules_text: ​ => 
+
+Rowan, Faithful Squire
+
+Beatrix, Wily Herbalist
+rules_text: ​ => 
+
+Nicki, Swashbuckler
+
+Tammer, Reclusive Scholar
+
+Samuel, Sentient Mask
+
+Lodaec, Tyrant King
+
+Kraigg, Friendly Troll
+
+Scyruss, Forge Master
+
+Elemental Orb of Water
+
+Elemental Orb of Fire
+
+Elemental Orb of Earth
+
+Elemental Orb of Air
+
+Elemental Orb of Darkness
+
+Helm of Kyrios
+rules_text: Equipped creature has “Boast {2}: Deal 2 damage to target creature defending player controls.” [i](Activate this ability only if that creature attacked this turn and only once each turn.)[/i]
+Equip {3} => Equipped creature has “Boast {2}: Deal 2 damage to target creature defending player controls.” [i](Activate only if that creature attacked this turn and only once each turn.)[/i]
+Equip {3}
+
+Breastplate of Kyrios
+
+Boots of Kyrios
+
+Sword of Kyrios
+
+The Black Glove
+
+Darkling Scout
+
+Darkling Elder
+
+Captain Ryo
+
+Captain Laos
+rules_text: Partner with First Mate Addus [i](When this creature enters the battlefield, target player may put First Mate Addus into their hand from their library, then shuffle.)[/i]
+Whenever a dwarf you control deals combat damage to a player, create a treasure. => Partner with First Mate Addus [i](When this creature enters, target player may put First Mate Addus into their hand from their library, then shuffle.)[/i]
+Whenever a dwarf you control deals combat damage to a player, create a treasure.
+
+First Mate Addus
+rules_text: Partner with Captain Laos [i](When this creature enters the battlefield, target player may put Captain Laos into their hand from their library, then shuffle.)[/i]
+Whenever an elf you control deals combat damage to a player, scry 1. => Partner with Captain Laos [i](When this creature enters, target player may put Captain Laos into their hand from their library, then shuffle.)[/i]
+Whenever an elf you control deals combat damage to a player, scry 1.
+
+Sea Spawn
+
+Kildrak, Life's Spring
+
+Luster, War-Scarred
+
+Tathys, Keeper of Secrets
+
+Ayleia Progenitor
+rules_text: Indestructible
+As long as your devotion to is less than twelve Ayleia, Progenitor isn't a creature.
+Whenever a creature you control dies, search your library for a creature of equal mana value and put it on the battlefield.
+At the beginning of your upkeep, sacrifice a creature. => Indestructible
+As long as your devotion to is less than twelve Ayleia, Progenitor isn't a creature.
+Whenever a creature you control dies, search your library for a creature of equal mana value and put it on the battlefield.
+At the beginning of your end step, sacrifice a creature.
+
+Urobu, Judge of Souls
+
+Aranya, Nature's Queen
+
+Elos, God of War
+
+Aleana, Faith's Shield
+
+Fama, Assassin Favored
+
+Vetys, Beacon of Knowledge
+
+Cadrea, God of the Forge
+
+Alyra, Oracle's Muse
+
+Caelys the Gilded
+
+Coelys, Chaos Incarnate
+
+Lanu, Moon Trickster
+
+Hueick, Susceptible Youth
+
+Olar, The Broken Arrow
+
+Zunam, Fate Favored
+
+Leonir, Acolyte of Lanu
+
+Granite, Elos' Vengeance
+
+Captain Lebrode
+rules_text: Spells your opponents cast during your turn cost {1} more to cast. => Spells your opponents cast during your turn cost {1} more to cast.
+
+
+Urwin Brighstar, Guild Founder
+
+King Saakala
+
+Professor Arden
+
+Glamstol, Crafty Herbalist
+
+Irdel the Pursued
+
+Yanna the Ill-Fated
+rules_text: When Yanna dies, gain 2 life and draw a card. => When Yanna dies, gain 2 life and draw a card.
+
+
+
+Ara, Reknown Scout
+
+Harlston, Grappling Pugilist
+
+Clif, Chilled Tortle
+
+Minnesota, Impulsive Planner
+
+Book of Victims
+
+Zas, Barbarian Scholar
+rules_text: Trample
+You may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Barbarian Scholar's power and toughness until end of turn. [i](An exerted creature won't untap during your next untap step.)[/i] => Trample
+You may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Barbarian Scholar's power until end of turn. [i](An exerted creature won't untap during your next untap step.)[/i]
+pt: 4/3 => 3/2
+
+Karda, Revolutionary
+
+Undead Elk
+
+Death Druid
+
+Blade of Blood
+
+Keldath the Scourge
+type: Legendary Creature — Dragon => Legendary Creature — Ancient Dragon
+
+Bressio and Vynne, Twins
+rules_text: Double strike
+Dragon spell cost {2} less for you to cast. => Double strike
+Dragon spell cost {2} less for you to cast.
+
+
+Idryyth the Flamebringer
+type: Legendary Creature — Dragon => Legendary Creature — Ancient Dragon
+
+Kinzine the Lifegiver
+type: Legendary Creature — Dragon => Legendary Creature — Ancient Dragon
+
+Ylbor the Lazy
+type: Legendary Creature — Dragon => Legendary Creature — Ancient Dragon
+
+Arrynth, Lord of Death
+type: Legendary Creature — Dragon => Legendary Creature — Ancient Dragon
+
+Aipa the Ancient
+type: Legendary Creature — Dragon => Legendary Creature — Ancient Dragon
+
+Pyrrydoss the Unbroken
+type: Legendary Creature — Dragon => Legendary Creature — Ancient Dragon
+rules_text: Flying, Haste
+When Pyrrydoss attacks, roll a d20.
+[b]1-9 [/b]| Return Pyrrydoss to your hand.
+[b]10-19[/b]| Pyrrydoss deals 3 damage to target creature.
+[b]20[/b]| Pyrrydoss deals 2 damage to each creature target opponent controls. => Flying, Haste
+When Pyrrydoss attacks, roll a d20.
+[b]1-9 [/b]| Exile Pyrrydoss. Return Pyrrydoss to the battlefield tapped at the beginning of the next end step.
+[b]10-19 [/b]| Pyrrydoss deals 3 damage to target creature.
+[b]20 [/b]| Pyrrydoss deals 2 damage to each creature target opponent controls.
+pt: 7/7 => 3/3
+
+Dayvroass the Haunted
+type: Legendary Creature — Dragon => Legendary Creature — Ancient Dragon
+rules_text: Flying, Menace
+Annihilator 2 [i](Whenever this creature attacks, defending player sacrifices two permanents.)[/i] => Flying, Menace
+Annihilator 1 [i](Whenever this creature attacks, defending player sacrifices a permanent.)[/i]
+
+Nydissia the Protector
+type: Legendary Creature — Dragon => Legendary Creature — Ancient Dragon
+
+Tundrayl the Pure
+type: Legendary Creature — Dragon => Legendary Creature — Ancient Dragon
+rules_text: Flying, Vigilance
+When Tundrayl the Pure enters the battlefield, tap a creature under the control of each opponent.
+Creatures your opponents control don't untap during their controllers next untap step. => Flying, Vigilance
+When Tundrayl the Pure enters the battlefield, tap a creature under the control of each opponent.
+Put a stun counter on each tapped creature.
+
+Spear of Vhalimar
+
+Captain Morro
+
+Lydia Brooks
+
+Hundral the Voiceless
+
+Zas's Battleaxe
+
+Staff of the Mothertree
+rules_text: ​ => 
+
+Explore the Outlands
+
+The Beacon
+
+Et'limi'dak
+
+Lake Dorn
+
+The Nether
+
+The Wilds
+
+The Blightlands
+
+The Abyss
+
+Ovauto Forest
+
+The Moon Grove
+
+Upper Iron Pass
+
+Blue Flame Candle
+
+Invoke Duplicity
+
+Scorching Ray
+
+Crown of Giants
+
+Muster the Guard
+
+Invisibility
+
+Spare the Dying
+
+Emir, Fists of Fury
+rules_text: Haste, Double strike
+Dwarves you control get +1/+1 => Haste, Double strike
+Dwarves you control get +1/+1
+
+
+Justice, Reborn
+
+Town's Guard
+rules_text: Bolster 1 [i](Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)[/i]
+ => Bolster 1 [i](To bolster 1, choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)[/i]
+
+
+Sorsha, Restrained
+
+Umbra
+
+Staff of the Blightree
+
+Aleana's Chosen
+
+Fire Bolt
+
+Sacred Flame
+
+Divine Smite
+
+Chaos Bolt
+
+Werebear Warrior
+
+Manticore Tower
+
+Banden Docks
+rules_text: 
+{T}: Add {U}
+Crew 1 [i](Tap any number of creatures you control with total power 1 or greater: This Island becomes an artifact creature until end of turn.)[/i] => 
+{T}: Add {U}
+Crew 1 [i](Tap any number of creatures you control with total power 1 or more: This Island becomes an artifact creature until end of turn.)[/i]
+
+Old Falden
+
+Korolduhr
+
+Hyathyr
+
+Elf Scout
+
+Mining Dwarf
+
+Hobgoblin Warboss
+
+Mining Contract
+
+Caravan Raid
+
+Inflict Wounds
+
+Mysterious Benefactor
+
+Manticore
+
+Blessing of the Moon
+
+Blessings of the Mothertree
+
+Treasure Diver
+
+Nighttime Ambush
+
+Oracle's Insight
+rules_text: Scry 2 then draw a card. => Scry 2 then draw a card.
+
+
+
+Counterspell
+
+Teleportation Circle
+
+Defend the Walls!
+
+Wrathful Smite
+rules_text: Target creature you control gets trample and +2/+0 until end of turn.
+Overload {4}{R}{R} [i](You may cast this spell for its overload cost. If you do, change its text by replacing all instances of “target” with “each”.)[/i] => Target creature you control gets trample and +2/+0 until end of turn.
+Overload {4}{R}{R} [i](You may cast this spell for its overload cost. If you do, change “target” in its text to “each.”)[/i]
+
+Sahuaghin
+rules_text: Unblockable => Unblockable
+
+
+
+Dryad Grove
+
+Captain of the Guard
+
+Wall Guard Recruiter
+
+Sahuaghin Artillerist
+
+Sahuaghin Fury
+
+Sahuaghin Commander
+
+Aurelia's Elites
+rules_text: Vigilance
+Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)[/i] => Vigilance
+Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)[/i]
+
+Squad Commander
+
+Charles
+rules_text: When Charles dies, deal 1 damage to any target. => When Charles dies, deal 1 damage to any target.
+
+
+Wardog
+rules_text: Haste => Haste
+
+
+Night of Consuming Darkness
+
+Soul Diversion
+
+Fane of the Mountain
+rules_text: Whenever you sacrifice an Artifact, put a +1/+1 counter on Fane of the Mountain and add {R}. => Whenever you sacrifice an Artifact, put a +1/+1 counter on Fane of the Mountain and add {R}.
+
+
+Fane of the River
+
+Fane of the Forest
+
+Boon of Aranya
+
+Judge & Executioner
+
+Jury
+
+Soul Eater
+
+Young Flayer
+
+Acolyte of Aranya
+rules_text: When Acolyte of Aranya enters the battlefield, draw a card. 
+You may play an additional land each turn. => When Acolyte of Aranya enters the battlefield, draw a card. 
+You may play an additional land each turn.
+
+
+Chittering Spider
+
+Kavedii Islands
+
+Revalia
+
+Misty Isles
+
+The Tumult
+
+The Cataclysm
+
+Bastion
+
+Eislessi Isle
+
+Ikbarre Marshes
+
+Corpsewood
+
+Shattered Peaks
+
+Grappling Octopus
+
+Boon of Elos
+
+Mark for Death
+
+Hyrum, Last Refuge
+
+Reject
+rules_text: Return target creature to its owner's hand. => Return target creature to its owner's hand.
+
+
+
+Strahd Von Zarovich
+rules_text: Nemesis [i](You may only control one creature or Planeswalker with Nemesis.)[/i]
+Flying
+Whenever Strahd Von Zarovich deals combat damage to a player that player discards a card and you draw a card.
+If Strahd Von Zarovich would die, return him to the battlefield tapped and the beginning of the next end step. => Nemesis [i](You may only control one creature or Planeswalker with Nemesis.)[/i]
+Flying
+Whenever Strahd Von Zarovich deals combat damage to a player that player discards a card and you draw a card.
+If Strahd Von Zarovich would die, exile him instead and return him to the battlefield tapped and the beginning of the next end step.
+
+Wesley the Rescued
+
+Blessed Ent
+
+Trials of Thadenswel
+
+Cube of K'nezeret
+rules_text: ​ => Exile target creature you control then return it to the battlefield.
+
+Eye of Coelys
+rules_text: ​ => 
+
+Goblin Gang Leader
+
+Champions of Thadenswel
+
+Inopportune Arrest
+
+Lady Aurelia
+
+Mazzer, The Rat King
+type: Legendary Creature — Human Rat Monk => Legendary Creature — Elf Rat Monk
+
+Dire Wolf Pack
+rules_text: Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)[/i] => Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)[/i]
+
+Sarana, Fists of Fury
+
+Fleetfoot, Sharpshooter
+
+Kythr, Sorrow's Mark
+
+Eliath, Doomed Fighter
+rules_text: When Eliath, Doomed Fighter is dies, return another target legendary creature from your graveyard to the battlefield with a +1/+1 counter. => When Eliath, Doomed Fighter dies, return another target legendary creature from your graveyard to the battlefield with a +1/+1 counter.
+
+Shaedrun, the Necromancer
+
+Necromancer's Apprentice
+
+Revenant
+
+Vladimir & Godfrey, Reunited
+
+Arabel, Seer Prodigy
+
+Blinksy, Toymaker
+
+His Opulence IV
+
+Syosa, Raving Dragon
+
+Draconic Purge
+
+The Wiggumstaff Incident
+
+March of the the Dead
+
+Pierce the Veil
+
+Tidal Wave
+
+Fama's Talon
+pt: 2/1 => 2/2
+
+The Prosperity
+
+Aleana's Mercy
+rules_text: Target creature you control gets protection from the color of your choice until the end of the turn. [i](It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until the end of the turn.)[/i]
+Draw a card. => Target creature you control gets protection from the color of your choice until the end of the turn.[i][/i] [i](It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until the end of the turn.)[/i]
+Draw a card.
+
+Blood Magic
+
+Malaas War Marshall
+
+Tarroka Reading
+
+Cleanse the Bloodlines
+
+Dragon's Fire
+
+The Archon of Gold
+
+The Halcyon
+
+Gildling
+
+Goblin War-Rider
+
+Conjure Animals
+
+Animated Armor
+
+The Forge of Life
+
+The Forge of War
+
+The Forge of Elements
+
+The Forge of Spells
+
+Devilish Imp
+
+Rovari, Magic Weaver
+
+Worker's Union
+
+Guantlets of the Storm
+
+Dark Gift
+
+Death Ward
+
+Blood Ritual
+
+Lanu's Intervention
+
+Drown in the Lake
+
+Desecrate the Temple
+
+Dictate of Urobu
+
+Ritual Sacrifice
+
+Shambling Necromass
+
+Olethros the Destroyer
+cost: {4}{B}{B} => {4}{B}{B}{B}
+
+Dungeon Skeleton
+
+Vampire Spawn
+
+Remove Curse
+
+Fury of the Gods
+
+Shaedrun's Gambit
+
+Ring of Etheria
+
+Ayleia's Return
+
+Gift of Vetys
+
+Secrets of Tathys
+
+Blessing of Alyra
+
+Coelys's Ire
+
+Caelys's Favor
+
+Cadrea's Blessing
+
+Fulcrum
+
+Goblin Raid Runner
+
+Fireball
+
+Price of Loyalty
+
+Hellish Rebuke
+
+Divine Intervention
+
+Lady Ostrix
+
+Binding of the Law
+
+Guard Drake
+
+King Da'aroc
+
+High Priest Kaaladeth
+
+Lord Maalas
+
+Gniess, Stonecutter Prime
+
+Gnome Technocrat
+
+Moon Scythe
+
+Armor of Aleana
+rules_text: Equipped creature gets +3/+3 and has ward {1}. [i](Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i]
+Equip {3}. This ability costs {1} less to activate for each other Equipment you control.
+ => Equipped creature gets +3/+3 and has ward {1}.[i][/i] [i](Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i]
+Equip 3. This ability costs {1} less to activate for each other Equipment you control.
+
+
+Kyrios the Creator
+
+Fly
+
+Astral Prison
+
+Reinforce
+
+Dispel Magic
+
+Rising Populace
+
+Soul Steel Dagger
+rules_text: ​ => 
+
+Griffin Mount
+
+Cleric of Aleana
+rules_text: {T}: Another target creature you control gains protection from the color of your choice until end of turn. [i](This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until end of turn.)[/i]
+ => {T}: Another target creature you control gains protection from the color of your choice until end of turn. [i](This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until end of turn..)[/i]
+
+
+Resistance Squad
+rules_text: Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)[/i]
+Resistance Squad gets +1/0 for each other creature named Resistance Squad that is attacking or blocking. => Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)[/i]
+Resistance Squad gets +1/0 for each other creature named Resistance Squad that is attacking or blocking.
+
+Wartime Financier
+
+Noble Ward
+
+Chief Inspector
+rules_text: When Chief Inspector enters the battlefield, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+ => When Chief Inspector enters the battlefield, investigate. [i](To investigate, create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+
+
+Acolyte of Urobu
+
+Tax Accessor
+
+Wall of Force
+
+Cone of Cold
+rules_text: Roll a d20.
+1-9 | Tap all creatures your opponents control.
+10-19 | Tap all creatures your opponents control. Those creatures don't untap during their controller's next untap steps.
+20 | Tap all creatures your opponents control. Those creatures don't untap during their controller's next untap steps. Until your next turn, creatures your opponents control enter the battlefield tapped. => Roll a d20.
+[b]1-9 [/b]| Tap all creatures your opponents control.
+[b]10-19 [/b]| Tap all creatures your opponents control. Those creatures don't untap during their controller's next untap steps.
+[b]20 [/b]| Tap all creatures your opponents control. Those creatures don't untap during their controller's next untap steps. Until your next turn, creatures your opponents control enter the battlefield tapped.
+
+Tsunami
+
+Saw it Coming
+
+Divination
+
+Protection from Evil and Good
+rules_text: Target creature you control gains hexproof.
+Overload {2}{U}{U} [i](You may cast this spell for its overload cost. If you do, change its text by replacing all instances of “target” with “each”.)[/i] => Target creature you control gains hexproof.
+Overload {2}{U}{U} [i](You may cast this spell for its overload cost. If you do, change “target” in its text to “each.”)[/i]
+
+Draconic Ascent
+rules_text: Overload {4}{U}{U} [i](You may cast this spell for its overload cost. If you do, change its text by replacing all instances of “target” with “each”.)[/i]
+Until end of turn, target creature you control becomes a dragon in addition to its other types, gets +1/+1 and can't be blocked except by other dragons. => Overload {4}{U}{U} [i](You may cast this spell for its overload cost. If you do, change “target” in its text to “each.”)[/i]
+Until end of turn, target creature you control becomes a dragon in addition to its other types, gets +1/+1 and can't be blocked except by other dragons.
+
+Dimension Door
+
+Dominate Monster
+rules_text: Enchant Creature.
+You control enchanted creature. => Enchant Creature.
+You control enchanted creature.
+
+
+Library of Vetys
+
+Tathys's Silencer
+type: Creture — Devil => Creature — Devil
+
+Cutting Words
+
+Acolyte of Vetys
+
+Jimmy Beanz
+
+Blessing of Water
+
+Scrying
+
+Death of the Oracle
+
+Coelys Fantatic
+
+Magic Missile
+
+Goblins of the Red Hand
+rules_text: Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)[/i]
+Sacrifice a creature: Deal 1 damage to any target => Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)[/i]
+Sacrifice a creature: Deal 1 damage to any target
+
+Malaasan Emissary
+
+Drachenjäger
+
+Malaasan Pick-Axe
+
+Drink it Down
+
+Mine Collapse
+
+Nicki's Blade
+rules_text: Whenever equipped creature attacks, put a +1/+1 counter on it.
+Whenever equipped creature deals combat damage, roll a d12. If the result is greater than the damage dealt or the result is 12, double the number of +1/+1 counters on that creature.
+Equip {2} => Whenever equipped creature attacks, put a +1/+1 counter on it then roll a d12. 
+If the result is lower than the equipped creatures power, it becomes unblockable, otherwise add an additional +1/+1 counter.
+If the result is {12}, do both
+Equip {2}
+
+Aranya's Intervention
+
+Volley of Arrows
+
+Wyvern Toxin
+
+Unchecked Aggression
+
+Command — Duel
+
+Coordinated Assault
+rules_text: Up to two target creatures you control each deal damage equal to their power to another target creature. => Up to two target creatures you control each deal damage equal to their power to another target creature.
+
+
+Boon of Fama
+
+Enlarge
+rules_text: Target creature gets +3/+3 and trample.
+Overload {4}{G}{G} [i](You may cast this spell for its overload cost. If you do, change its text by replacing all instances of “target” with “each”.)[/i] => Target creature gets +3/+3 and trample.
+Overload {4}{G}{G} [i](You may cast this spell for its overload cost. If you do, change “target” in its text to “each.”)[/i]
+
+Wildshape — Bear
+
+Song of Alyra
+rules_text: Nontoken creatures you control have riot. [i](That creature enters the battlefield with your choice of a +1/+1 counter or haste.)[/i]
+Whenever a creature enters the battlefield under your control with power four or greater, draw a card. => Nontoken creatures you control have riot. [i](That creature enters with your choice of a +1/+1 counter or haste.)[/i]
+Whenever a creature enters the battlefield under your control with power four or greater, draw a card.
+
+Planar Portal
+
+Wildshape — Spider
+
+Elven Elder
+
+Ewiard, Lord of the Hunt
+
+Elven Warmaster
+
+Aranya's Adept
+
+Life Cleric
+
+Kruthik Swarm
+
+Grasping Vegetation
+
+Basilisk
+
+Owlbear
+
+Adolescent Dragon
+
+Kruthik Tunneler
+
+Huff vs McDoogal
+
+Goblin Raid
+
+Cleanse the Fanes
+
+Corpsewood
+
+Eislessi Isle
+
+Et'limi'dak
+
+Ikbarre Marshes
+
+Kavedii Islands
+
+Lake Dorn
+
+Misty Isles
+
+Ovauto Forest
+
+Shattered Peaks
+
+Upper Iron Pass
+
+The Abyss
+
+Bastion
+
+The Beacon
+
+The Blightlands
+
+The Cataclysm
+
+The Moon Grove
+
+The Nether
+
+Revalia
+
+The Tumult
+
+The Wilds
+
+
+VERSION 2 CHANGELOG
+====================
+
 Fixed numbers that came in as strings
 
 VERSION 1 CHANGELOG

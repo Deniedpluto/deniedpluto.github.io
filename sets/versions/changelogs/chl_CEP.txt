@@ -1,4 +1,461 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+Armor of Aleana added.
+Fly added.
+
+Aleana's Chosen removed.
+Ayleia's Return removed.
+Blessed Ent removed.
+Cube of K'nezeret removed.
+Leonir, Acolyte of Lanu removed.
+Moon Scythe removed.
+Noble Ward removed.
+Ring of Etheria removed.
+Sarana, Fists of Fury removed.
+Tundrayl the Pure removed.
+Urwin Brighstar, Guild Founder removed.
+Wall Guard Recruiter removed.
+Counterspell removed.
+Cutting Words removed.
+Death of the Oracle removed.
+Divination removed.
+Draconic Ascent removed.
+Fane of the River removed.
+Grappling Octopus removed.
+High Priest Kaaladeth removed.
+Hueick, Susceptible Youth removed.
+Huff vs McDoogal removed.
+Invoke Duplicity removed.
+Jimmy Beanz removed.
+King Da'aroc removed.
+Library of Vetys removed.
+Oracle's Insight removed.
+Pierce the Veil removed.
+Professor Arden removed.
+Reject removed.
+Sahuaghin removed.
+Sahuaghin Artillerist removed.
+Sahuaghin Commander removed.
+Sahuaghin Fury removed.
+Saw it Coming removed.
+Tidal Wave removed.
+Umbra removed.
+Ylbor the Lazy removed.
+Young Flayer removed.
+Zunam, Fate Favored removed.
+Blood Magic removed.
+Blood Ritual removed.
+Blue Flame Candle removed.
+Charles removed.
+Dayvroass the Haunted removed.
+Death Druid removed.
+Desecrate the Temple removed.
+Devilish Imp removed.
+Eliath, Doomed Fighter removed.
+Fama's Talon removed.
+Gildling removed.
+Hellish Rebuke removed.
+Night of Consuming Darkness removed.
+Olar, The Broken Arrow removed.
+Olethros the Destroyer removed.
+Shaedrun, the Necromancer removed.
+Shaedrun's Gambit removed.
+Shambling Necromass removed.
+Staff of the Blightree removed.
+Undead Elk removed.
+Drachenjäger removed.
+Drink it Down removed.
+Fane of the Mountain removed.
+The Forge of Elements removed.
+Fulcrum removed.
+Fury of the Gods removed.
+Gniess, Stonecutter Prime removed.
+The Halcyon removed.
+Idryyth the Flamebringer removed.
+Kythr, Sorrow's Mark removed.
+Magic Missile removed.
+The Prosperity removed.
+Rovari, Magic Weaver removed.
+Scorching Ray removed.
+Scyruss, Forge Master removed.
+Wardog removed.
+Worker's Union removed.
+Wrathful Smite removed.
+Adolescent Dragon removed.
+Ara, Reknown Scout removed.
+Aurelia's Elites removed.
+Basilisk removed.
+Blessings of the Mothertree removed.
+Caravan Raid removed.
+Cleanse the Fanes removed.
+Command — Duel removed.
+Coordinated Assault removed.
+Dire Wolf Pack removed.
+Elf Scout removed.
+Elven Elder removed.
+Elven Warmaster removed.
+Ewiard, Lord of the Hunt removed.
+Fane of the Forest removed.
+Fleetfoot, Sharpshooter removed.
+The Forge of Life removed.
+Glamstol, Crafty Herbalist removed.
+Karda, Revolutionary removed.
+King Saakala removed.
+Kruthik Swarm removed.
+Kruthik Tunneler removed.
+Nydissia the Protector removed.
+Planar Portal removed.
+Staff of the Mothertree removed.
+Unchecked Aggression removed.
+Volley of Arrows removed.
+Yanna the Ill-Fated removed.
+Aipa the Ancient removed.
+Arrynth, Lord of Death removed.
+Ayleia Progenitor removed.
+Captain Lebrode removed.
+Dryad Grove removed.
+Granite, Elos' Vengeance removed.
+His Opulence IV removed.
+Hyrum, Last Refuge removed.
+Irdel the Pursued removed.
+Justice, Reborn removed.
+Keldath the Scourge removed.
+Kinzine the Lifegiver removed.
+Lady Aurelia removed.
+Pyrrydoss the Unbroken removed.
+Syosa, Raving Dragon removed.
+Tammer, Reclusive Scholar removed.
+Vas Asareen removed.
+Aleana, Faith's Shield removed.
+Alyra, Oracle's Muse removed.
+Aranya, Nature's Queen removed.
+Blessing of the Moon removed.
+Bressio and Vynne, Twins removed.
+Cadrea, God of the Forge removed.
+Caelys the Gilded removed.
+Coelys, Chaos Incarnate removed.
+Elos, God of War removed.
+Fama, Assassin Favored removed.
+Lanu, Moon Trickster removed.
+Tathys, Keeper of Secrets removed.
+Urobu, Judge of Souls removed.
+Vetys, Beacon of Knowledge removed.
+Soul Steel Dagger removed.
+Inopportune Arrest removed.
+The Archon of Gold removed.
+
+Explore the Outlands
+
+The Beacon
+
+Et'limi'dak
+
+Lake Dorn
+
+The Nether
+
+The Wilds
+
+The Blightlands
+
+The Abyss
+
+Ovauto Forest
+
+The Moon Grove
+
+Upper Iron Pass
+
+Muster the Guard
+
+Invisibility
+
+Spare the Dying
+
+Emir, Fists of Fury
+rules_text: Haste, Double strike
+Dwarves you control get +1/+1 => Haste, Double strike
+Dwarves you control get +1/+1
+
+
+Town's Guard
+rules_text: Bolster 1 [i](Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)[/i]
+ => Bolster 1 [i](To bolster 1, choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)[/i]
+
+
+Sorsha, Restrained
+
+Fire Bolt
+
+Sacred Flame
+
+Divine Smite
+
+Chaos Bolt
+
+Inflict Wounds
+
+Mysterious Benefactor
+
+Treasure Diver
+
+Teleportation Circle
+
+Defend the Walls!
+
+Captain of the Guard
+
+Squad Commander
+
+Hag Coven
+
+Soul Diversion
+
+Boon of Aranya
+
+Acolyte of Aranya
+rules_text: When Acolyte of Aranya enters the battlefield, draw a card. 
+You may play an additional land each turn. => When Acolyte of Aranya enters the battlefield, draw a card. 
+You may play an additional land each turn.
+
+
+Kavedii Islands
+
+Revalia
+
+Misty Isles
+
+The Tumult
+
+The Cataclysm
+
+Bastion
+
+Eislessi Isle
+
+Ikbarre Marshes
+
+Corpsewood
+
+Shattered Peaks
+
+Boon of Elos
+
+Mark for Death
+
+Necromancer's Apprentice
+
+Draconic Purge
+
+The Wiggumstaff Incident
+
+Aleana's Mercy
+rules_text: Target creature you control gets protection from the color of your choice until the end of the turn. [i](It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until the end of the turn.)[/i]
+Draw a card. => Target creature you control gets protection from the color of your choice until the end of the turn.[i][/i] [i](It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until the end of the turn.)[/i]
+Draw a card.
+
+Malaas War Marshall
+
+Cleanse the Bloodlines
+
+Dragon's Fire
+
+Conjure Animals
+
+The Forge of War
+
+The Forge of Spells
+
+Death Ward
+
+Lanu's Intervention
+
+Dictate of Urobu
+
+Ritual Sacrifice
+
+Dungeon Skeleton
+
+Remove Curse
+
+Gift of Vetys
+
+Secrets of Tathys
+
+Blessing of Alyra
+
+Coelys's Ire
+
+Caelys's Favor
+
+Cadrea's Blessing
+
+Fireball
+
+Price of Loyalty
+
+Divine Intervention
+
+Lady Ostrix
+
+Binding of the Law
+
+Guard Drake
+
+Lord Maalas
+
+Gnome Technocrat
+
+Kyrios the Creator
+
+Fly
+
+Astral Prison
+
+Reinforce
+
+Dispel Magic
+
+Rising Populace
+
+Griffin Mount
+
+Cleric of Aleana
+rules_text: {T}: Another target creature you control gains protection from the color of your choice until end of turn. [i](This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until end of turn.)[/i]
+ => {T}: Another target creature you control gains protection from the color of your choice until end of turn. [i](This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color until end of turn..)[/i]
+
+
+Resistance Squad
+rules_text: Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)[/i]
+Resistance Squad gets +1/0 for each other creature named Resistance Squad that is attacking or blocking. => Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)[/i]
+Resistance Squad gets +1/0 for each other creature named Resistance Squad that is attacking or blocking.
+
+Wartime Financier
+
+Chief Inspector
+rules_text: When Chief Inspector enters the battlefield, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+ => When Chief Inspector enters the battlefield, investigate. [i](To investigate, create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+
+
+Acolyte of Urobu
+
+Tax Accessor
+
+Wall of Force
+
+Cone of Cold
+rules_text: Roll a d20.
+1-9 | Tap all creatures your opponents control.
+10-19 | Tap all creatures your opponents control. Those creatures don't untap during their controller's next untap steps.
+20 | Tap all creatures your opponents control. Those creatures don't untap during their controller's next untap steps. Until your next turn, creatures your opponents control enter the battlefield tapped. => Roll a d20.
+[b]1-9 [/b]| Tap all creatures your opponents control.
+[b]10-19 [/b]| Tap all creatures your opponents control. Those creatures don't untap during their controller's next untap steps.
+[b]20 [/b]| Tap all creatures your opponents control. Those creatures don't untap during their controller's next untap steps. Until your next turn, creatures your opponents control enter the battlefield tapped.
+
+Tsunami
+
+Protection from Evil and Good
+rules_text: Target creature you control gains hexproof.
+Overload {2}{U}{U} [i](You may cast this spell for its overload cost. If you do, change its text by replacing all instances of “target” with “each”.)[/i] => Target creature you control gains hexproof.
+Overload {2}{U}{U} [i](You may cast this spell for its overload cost. If you do, change “target” in its text to “each.”)[/i]
+
+Dimension Door
+
+Dominate Monster
+rules_text: Enchant Creature.
+You control enchanted creature. => Enchant Creature.
+You control enchanted creature.
+
+
+Tathys's Silencer
+type: Creture — Devil => Creature — Devil
+
+Acolyte of Vetys
+
+Coelys Fantatic
+
+Goblins of the Red Hand
+rules_text: Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)[/i]
+Sacrifice a creature: Deal 1 damage to any target => Squad {2} [i](As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)[/i]
+Sacrifice a creature: Deal 1 damage to any target
+
+Malaasan Emissary
+
+Malaasan Pick-Axe
+
+Mine Collapse
+
+Aranya's Intervention
+
+Wyvern Toxin
+
+Boon of Fama
+
+Enlarge
+rules_text: Target creature gets +3/+3 and trample.
+Overload {4}{G}{G} [i](You may cast this spell for its overload cost. If you do, change its text by replacing all instances of “target” with “each”.)[/i] => Target creature gets +3/+3 and trample.
+Overload {4}{G}{G} [i](You may cast this spell for its overload cost. If you do, change “target” in its text to “each.”)[/i]
+
+Wildshape — Bear
+
+Song of Alyra
+rules_text: Nontoken creatures you control have riot. [i](That creature enters the battlefield with your choice of a +1/+1 counter or haste.)[/i]
+Whenever a creature enters the battlefield under your control with power four or greater, draw a card. => Nontoken creatures you control have riot. [i](That creature enters with your choice of a +1/+1 counter or haste.)[/i]
+Whenever a creature enters the battlefield under your control with power four or greater, draw a card.
+
+Wildshape — Spider
+
+Aranya's Adept
+
+Life Cleric
+
+Grasping Vegetation
+
+Owlbear
+
+Corpsewood
+
+Eislessi Isle
+
+Et'limi'dak
+
+Ikbarre Marshes
+
+Kavedii Islands
+
+Lake Dorn
+
+Misty Isles
+
+Ovauto Forest
+
+Shattered Peaks
+
+Upper Iron Pass
+
+The Abyss
+
+Bastion
+
+The Beacon
+
+The Blightlands
+
+The Cataclysm
+
+The Moon Grove
+
+The Nether
+
+Revalia
+
+The Tumult
+
+The Wilds
+
+
+VERSION 3 CHANGELOG
 ====================
 
 Boon of Elos added.

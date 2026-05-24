@@ -1,4 +1,61 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Counterspell added.
+Magic Missile added.
+Dire Wolf Pack added.
+Unchecked Aggression added.
+
+
+March of the the Dead
+
+Arabel, Seer Prodigy
+
+Scrying
+
+Tarroka Reading
+
+Blinksy, Toymaker
+
+Book of Victims
+
+Dark Gift
+
+Drown in the Lake
+
+Revenant
+
+Vampire Spawn
+
+Vladimir & Godfrey, Reunited
+
+Minnesota, Impulsive Planner
+
+Strahd Von Zarovich
+rules_text: Nemesis [i](You may only control one creature or Planeswalker with Nemesis.)[/i]
+Flying
+Whenever Strahd Von Zarovich deals combat damage to a player that player discards a card and you draw a card.
+If Strahd Von Zarovich would die, return him to the battlefield tapped and the beginning of the next end step. => Nemesis [i](You may only control one creature or Planeswalker with Nemesis.)[/i]
+Flying
+Whenever Strahd Von Zarovich deals combat damage to a player that player discards a card and you draw a card.
+If Strahd Von Zarovich would die, exile him instead and return him to the battlefield tapped and the beginning of the next end step.
+
+Zas, Barbarian Scholar
+rules_text: Trample
+You may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Barbarian Scholar's power and toughness until end of turn. [i](An exerted creature won't untap during your next untap step.)[/i] => Trample
+You may exert Zas, Barbarian Scholar as it attacks. When you do, double Zas, Barbarian Scholar's power until end of turn. [i](An exerted creature won't untap during your next untap step.)[/i]
+pt: 4/3 => 3/2
+
+Clif, Chilled Tortle
+
+Harlston, Grappling Pugilist
+
+Animated Armor
+
+Zas's Battleaxe
+
+
+VERSION 2 CHANGELOG
 ====================
 
 Tarroka Reading added.
