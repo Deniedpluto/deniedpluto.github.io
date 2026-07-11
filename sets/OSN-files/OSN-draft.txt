@@ -1,0 +1,482 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Jerry Butler, Butler (Incomptent)",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/28_Jerry Butler, Butler (Incomptent).png"
+			}
+		},
+		{
+			"name": "Fizban the Busy",
+			"rarity": "mythic",
+			"mana_cost": "{G}{U}{R}",
+			"type": "Legendary Creature — Human Dragon",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/23_Fizban the Busy.png"
+			}
+		},
+		{
+			"name": "Henzie, Mayor",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}{G}",
+			"type": "Legendary Creature — Devil Noble",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/26_Henzie, Mayor.png"
+			}
+		},
+		{
+			"name": "Tary, the Harry",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Dwarf Cleric",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/31_Tary, the Harry.png"
+			}
+		},
+		{
+			"name": "Jeffrey, Conscripted Cheuffer",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature — Devil",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/27_Jeffrey, Conscripted Cheuffer.png"
+			}
+		},
+		{
+			"name": "Rhino Crew",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Rhino",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/20_Rhino Crew.png"
+			}
+		},
+		{
+			"name": "Treasure Mimic",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/11_Treasure Mimic.png"
+			}
+		},
+		{
+			"name": "Saw in Half",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/10_Saw in Half.png"
+			}
+		},
+		{
+			"name": "Hell in a Cell",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Enchantment — Saga",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/7_Hell in a Cell.png"
+			}
+		},
+		{
+			"name": "Convertible Automobile",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/13_Convertible Automobile.png"
+			}
+		},
+		{
+			"name": "Ram Through",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/19_Ram Through.png"
+			}
+		},
+		{
+			"name": "Phylactery",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/9_Phylactery.png"
+			}
+		},
+		{
+			"name": "Big Ass Wrench",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact — Equipment",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/18_Big Ass Wrench.png"
+			}
+		},
+		{
+			"name": "Ziatora, the Undertaker",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{R}{G}",
+			"type": "Legendary Creature — Elder Dragon",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/32_Ziatora, the Undertaker.png"
+			}
+		},
+		{
+			"name": "Trap Room",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Enchantment — Saga",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/6_Trap Room.png"
+			}
+		},
+		{
+			"name": "Flipping Ring",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/1_Flipping Ring.png"
+			}
+		},
+		{
+			"name": "Myterious Letter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/36_Myterious Letter.png"
+			}
+		},
+		{
+			"name": "Hedonic Motivator",
+			"rarity": "rare",
+			"mana_cost": "{1}{R/W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/33_Hedonic Motivator.png"
+			}
+		},
+		{
+			"name": "Niv, Guild Kingpin",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U/B}{B}{B/R}{R}",
+			"type": "Legendary Creature — Dragon Wizard",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/34_Niv, Guild Kingpin.png"
+			}
+		},
+		{
+			"name": "Seismic Toss",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B/G}",
+			"type": "Instant",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/35_Seismic Toss.png"
+			}
+		},
+		{
+			"name": "Thunderous Applause",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/16_Thunderous Applause.png"
+			}
+		},
+		{
+			"name": "Henzie's Contract",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/8_Henzie's Contract.png"
+			}
+		},
+		{
+			"name": "Mid-Fight Call",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/5_Mid-Fight Call.png"
+			}
+		},
+		{
+			"name": "Seal it with a Kiss",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/3_Seal it with a Kiss.png"
+			}
+		},
+		{
+			"name": "Wall of Flame",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/17_Wall of Flame.png"
+			}
+		},
+		{
+			"name": "Lightning Bolt",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/15_Lightning Bolt.png"
+			}
+		},
+		{
+			"name": "Fling",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/14_Fling.png"
+			}
+		},
+		{
+			"name": "Mayor Thomas, TBD",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Human Dragon",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/29_Mayor Thomas, TBD.png"
+			}
+		},
+		{
+			"name": "Hypnotic Pattern",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/4_Hypnotic Pattern.png"
+			}
+		},
+		{
+			"name": "Casino Spree",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Instant",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/12_Casino Spree.png"
+			}
+		},
+		{
+			"name": "Mayoral Usurpation",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/2_Mayoral Usurpation.png"
+			}
+		},
+		{
+			"name": "Rodric, Negotiator",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Dwarf Bard",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/30_Rodric, Negotiator.png"
+			}
+		},
+		{
+			"name": "Hank LaFist, The Fist",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Creature — Human Elf",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/25_Hank LaFist, The Fist.png"
+			}
+		},
+		{
+			"name": "Glark, Menacing Entertainer",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Human Elf Barbarian",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/24_Glark, Menacing Entertainer.png"
+			}
+		},
+		{
+			"name": "Enzo, the Tentacular",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Creature — Tiefling Wizard",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/22_Enzo, the Tentacular.png"
+			}
+		},
+		{
+			"name": "Boblin, The Goblin",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{G}",
+			"type": "Legendary Creature — Goblin Paladin",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://mtg-hub/sets/OSN-files/img/21_Boblin, The Goblin.png"
+			}
+		}
+	]
+
+[rare(1)]
+	1 Fizban the Busy
+	2 Henzie, Mayor
+	1 Tary, the Harry
+	2 Saw in Half
+	1 Hell in a Cell
+	2 Phylactery
+	1 Ziatora, the Undertaker
+	2 Trap Room
+	2 Hedonic Motivator
+	1 Niv, Guild Kingpin
+	2 Mid-Fight Call
+	2 Mayor Thomas, TBD
+	2 Hypnotic Pattern
+	2 Casino Spree
+	2 Mayoral Usurpation
+	1 Rodric, Negotiator
+	1 Hank LaFist, The Fist
+	1 Glark, Menacing Entertainer
+	1 Enzo, the Tentacular
+	1 Boblin, The Goblin
+[uncommon(3)]
+	4 Jerry Butler, Butler (Incomptent)
+	4 Jeffrey, Conscripted Cheuffer
+	4 Big Ass Wrench
+	4 Flipping Ring
+	4 Myterious Letter
+	4 Seismic Toss
+	4 Thunderous Applause
+	4 Henzie's Contract
+	4 Seal it with a Kiss
+	4 Wall of Flame
+	4 Lightning Bolt
+	4 Fling
+[common(6)]
+	8 Rhino Crew
+	8 Treasure Mimic
+	8 Convertible Automobile
+	8 Ram Through
+[common | masterpiece(1)]
+	8 Rhino Crew
+	8 Treasure Mimic
+	8 Convertible Automobile
+	8 Ram Through
+[foil(1)]
+	6 Jerry Butler, Butler (Incomptent)
+	1 Fizban the Busy
+	2 Henzie, Mayor
+	1 Tary, the Harry
+	6 Jeffrey, Conscripted Cheuffer
+	12 Rhino Crew
+	12 Treasure Mimic
+	2 Saw in Half
+	1 Hell in a Cell
+	12 Convertible Automobile
+	12 Ram Through
+	2 Phylactery
+	6 Big Ass Wrench
+	1 Ziatora, the Undertaker
+	2 Trap Room
+	6 Flipping Ring
+	6 Myterious Letter
+	2 Hedonic Motivator
+	1 Niv, Guild Kingpin
+	6 Seismic Toss
+	6 Thunderous Applause
+	6 Henzie's Contract
+	2 Mid-Fight Call
+	6 Seal it with a Kiss
+	6 Wall of Flame
+	6 Lightning Bolt
+	6 Fling
+	2 Mayor Thomas, TBD
+	2 Hypnotic Pattern
+	2 Casino Spree
+	2 Mayoral Usurpation
+	1 Rodric, Negotiator
+	1 Hank LaFist, The Fist
+	1 Glark, Menacing Entertainer
+	1 Enzo, the Tentacular
+	1 Boblin, The Goblin
+[wildcard(1)]
+	15 Jerry Butler, Butler (Incomptent)
+	4 Fizban the Busy
+	7 Henzie, Mayor
+	4 Tary, the Harry
+	15 Jeffrey, Conscripted Cheuffer
+	6 Rhino Crew
+	6 Treasure Mimic
+	7 Saw in Half
+	4 Hell in a Cell
+	6 Convertible Automobile
+	6 Ram Through
+	7 Phylactery
+	15 Big Ass Wrench
+	4 Ziatora, the Undertaker
+	7 Trap Room
+	15 Flipping Ring
+	15 Myterious Letter
+	7 Hedonic Motivator
+	4 Niv, Guild Kingpin
+	15 Seismic Toss
+	15 Thunderous Applause
+	15 Henzie's Contract
+	7 Mid-Fight Call
+	15 Seal it with a Kiss
+	15 Wall of Flame
+	15 Lightning Bolt
+	15 Fling
+	7 Mayor Thomas, TBD
+	7 Hypnotic Pattern
+	7 Casino Spree
+	7 Mayoral Usurpation
+	4 Rodric, Negotiator
+	4 Hank LaFist, The Fist
+	4 Glark, Menacing Entertainer
+	4 Enzo, the Tentacular
+	4 Boblin, The Goblin

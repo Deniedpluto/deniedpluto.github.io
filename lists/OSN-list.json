@@ -1,0 +1,433 @@
+﻿[
+    {
+        "card_name": "Mayoral Usurpation",
+        "number": 2,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Hypnotic Pattern",
+        "number": 4,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Hell in a Cell",
+        "number": 7,
+        "shape": "saga",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Casino Spree",
+        "number": 12,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Big Ass Wrench",
+        "number": 18,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Flipping Ring",
+        "number": 1,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Mid-Fight Call",
+        "number": 5,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Phylactery",
+        "number": 9,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Fling",
+        "number": 14,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Ram Through",
+        "number": 19,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Seal it with a Kiss",
+        "number": 3,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Trap Room",
+        "number": 6,
+        "shape": "saga",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Saw in Half",
+        "number": 10,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Lightning Bolt",
+        "number": 15,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Rhino Crew",
+        "number": 20,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Henzie's Contract",
+        "number": 8,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Thunderous Applause",
+        "number": 16,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Treasure Mimic",
+        "number": 11,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Wall of Flame",
+        "number": 17,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Convertible Automobile",
+        "number": 13,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Hank LaFist, The Fist",
+        "number": 25,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Enzo, the Tentacular",
+        "number": 22,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Glark, Menacing Entertainer",
+        "number": 24,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Boblin, The Goblin",
+        "number": 21,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Mayor Thomas, TBD",
+        "number": 29,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Jerry Butler, Butler (Incomptent)",
+        "number": 28,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Rodric, Negotiator",
+        "number": 30,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Jeffrey, Conscripted Cheuffer",
+        "number": 27,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Tary, the Harry",
+        "number": 31,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Seismic Toss",
+        "number": 35,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Hedonic Motivator",
+        "number": 33,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Fizban the Busy",
+        "number": 23,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Ziatora, the Undertaker",
+        "number": 32,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Niv, Guild Kingpin",
+        "number": 34,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Henzie, Mayor",
+        "number": 26,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Myterious Letter",
+        "number": 36,
+        "shape": "normal",
+        "set": "OSN",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

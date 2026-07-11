@@ -1,0 +1,641 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>OSN</name>
+			<longname>Oneshot Noah</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-07-11</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Jerry Butler, Butler (Incomptent)</name>
+			<text>Partner with Mayor Thomas (When this creature enters, target player may put Mayor Thomas into their hand from their library, then shuffle.)
+Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure token.</text>
+			<set rarity="uncommon" picurl="https://mtg-hub/sets/OSN-files/img/28_Jerry Butler, Butler (Incomptent).png" num="28">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fizban the Busy</name>
+			<text>Trample, Haste
+When Fizban deals combat damage to a player, exile Fizban then put that many suspend counters on Fizban.
+Whenever a player casts a spell, remove a suspend counter from Fizban.</text>
+			<set rarity="mythic" picurl="https://mtg-hub/sets/OSN-files/img/23_Fizban the Busy.png" num="23">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>GUR</manacost>
+				<cmc>3</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Henzie, Mayor</name>
+			<text>When Henzie or another creature you control enters the battlefield, create a 1/1 black legendary creature token named Proxy Mayor.
+Whenever a token you control dies, each opponent loses one life.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/OSN-files/img/26_Henzie, Mayor.png" num="26">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Devil Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>WBG</manacost>
+				<cmc>3</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tary, the Harry</name>
+			<text>Partner (You can have two commanders if both have partner.)
+When Tary enters the battlefield put a beard token on target creature you control.
+Other creatures you control with beards gain +2/+0 and ward {2}. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)</text>
+			<set rarity="mythic" picurl="https://mtg-hub/sets/OSN-files/img/31_Tary, the Harry.png" num="31">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jeffrey, Conscripted Cheuffer</name>
+			<text>When Jeffrey enters the battlefield, you may sacrifice an artifact. If you do, return target card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://mtg-hub/sets/OSN-files/img/27_Jeffrey, Conscripted Cheuffer.png" num="27">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Devil</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rhino Crew</name>
+			<text>Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)</text>
+			<set rarity="common" picurl="https://mtg-hub/sets/OSN-files/img/20_Rhino Crew.png" num="20">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Rhino</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Treasure Mimic</name>
+			<text>Flash
+Changeling (This card is every creature type.) (This card is every creature type.)
+Keep the Change — When this creature dies, you and target opponent create treasures equal to the excess damage dealt to it.</text>
+			<set rarity="common" picurl="https://mtg-hub/sets/OSN-files/img/11_Treasure Mimic.png" num="11">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shapeshifter</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Saw in Half</name>
+			<text>Destroy target creature. If that creature dies this way, its controller creates two tokens that are copies of that creature, except their power is half that creature&apos;s power and their toughness is half that creature&apos;s toughness. Round up each time.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/OSN-files/img/10_Saw in Half.png" num="10">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hell in a Cell</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://mtg-hub/sets/OSN-files/img/7_Hell in a Cell.png" num="7">OSN</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Legendary Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Convertible Automobile</name>
+			<text>Trample, Haste
+When Convertible Automobile deals combat damage to a player, sacrifice it then destroy target artifact that opponent controls.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://mtg-hub/sets/OSN-files/img/13_Convertible Automobile.png" num="13">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ram Through</name>
+			<text>Target creature you control deals damage equal to its power to target creature you don&apos;t control. If the creature you control has trample, excess damage is dealt to that creature&apos;s controller instead.</text>
+			<set rarity="common" picurl="https://mtg-hub/sets/OSN-files/img/19_Ram Through.png" num="19">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Phylactery</name>
+			<text>Enchant creature or planeswalker you control
+When enchanted permanent dies or is put into exile, return that card to the battlefield under your control.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/OSN-files/img/9_Phylactery.png" num="9">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Big Ass Wrench</name>
+			<text>Equipped creature has base power and toughness 10/10.
+Equip {10}
+This ability costs {X} less to activate, where X is the power of the creature it targets.</text>
+			<set rarity="uncommon" picurl="https://mtg-hub/sets/OSN-files/img/18_Big Ass Wrench.png" num="18">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ziatora, the Undertaker</name>
+			<text>Nemesis (You may only control one creature or Planeswalker with Nemesis.)
+Flying
+Whenever a creature you control deals combat damage to a player, create that many treasures.
+Sacrifice a treasure: Exile the top card of your library, you may play that card this turn.</text>
+			<set rarity="mythic" picurl="https://mtg-hub/sets/OSN-files/img/32_Ziatora, the Undertaker.png" num="32">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elder Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3BRG</manacost>
+				<cmc>6</cmc>
+				<colors>BRG</colors>
+				<coloridentity>BRG</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trap Room</name>
+			<text></text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/OSN-files/img/6_Trap Room.png" num="6">OSN</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Legendary Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Flipping Ring</name>
+			<text>When Flipping Ring enters the battlefield, attach it to target creature.
+Equip {3}
+{1}{W}: Exile equipped creature and Flipping Ring. Return them to the battlefield and the beginning of the next end step.</text>
+			<set rarity="uncommon" picurl="https://mtg-hub/sets/OSN-files/img/1_Flipping Ring.png" num="1">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Myterious Letter</name>
+			<text>When Myterious Letter enters the battlefield discard a card then draw a card.
+{3}, Sacrifice Myterious Letter: Reveal cards off the top of your library until you reveal a legendary creature. Put that card into your hand and the rest on the bottom of your library in a random order.</text>
+			<set rarity="uncommon" picurl="https://mtg-hub/sets/OSN-files/img/36_Myterious Letter.png" num="36">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hedonic Motivator</name>
+			<text>Equip {2}
+Equipped creature gains &quot;{T}: Target creature you control gains +2/+0 and haste&quot; and &quot;{T}: Target creature you control +0/+2 and vigilance&quot;</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/OSN-files/img/33_Hedonic Motivator.png" num="33">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R/W</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Niv, Guild Kingpin</name>
+			<text>Nemesis (You may only control one creature or Planeswalker with Nemesis.)
+When Niv enters the battlefield, create a 3/3 red legendary creature token named, Krenko, The Right Hand with the ability &quot;{T}: Create X 1/1 red Goblin creature tokens, where X is the number of Goblins you control.&quot;
+Whenever a creature you control enters the battlefield, deal 1 damage to target opponent.</text>
+			<set rarity="mythic" picurl="https://mtg-hub/sets/OSN-files/img/34_Niv, Guild Kingpin.png" num="34">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU/BBB/RR</manacost>
+				<cmc>7</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seismic Toss</name>
+			<text>Target creature deals damage to itself equal to its power.</text>
+			<set rarity="uncommon" picurl="https://mtg-hub/sets/OSN-files/img/35_Seismic Toss.png" num="35">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B/G</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Thunderous Applause</name>
+			<text>If you attacked with a creature this turn, deal 4 damage to target creature. Otherwise deal 2.</text>
+			<set rarity="uncommon" picurl="https://mtg-hub/sets/OSN-files/img/16_Thunderous Applause.png" num="16">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Henzie&apos;s Contract</name>
+			<text>Enchant creature.
+Enchanted creature gets +2/+2, has menace, and can&apos;t attack you or planeswalkers you control.</text>
+			<set rarity="uncommon" picurl="https://mtg-hub/sets/OSN-files/img/8_Henzie&apos;s Contract.png" num="8">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mid-Fight Call</name>
+			<text>End the turn.
+This spell costs {3} less to cast if it is your turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/OSN-files/img/5_Mid-Fight Call.png" num="5">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Seal it with a Kiss</name>
+			<text>You and target opponent each draw three cards.</text>
+			<set rarity="uncommon" picurl="https://mtg-hub/sets/OSN-files/img/3_Seal it with a Kiss.png" num="3">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wall of Flame</name>
+			<text>Each opponent divides their creatures into three piles. Destroy one pile at random.</text>
+			<set rarity="uncommon" picurl="https://mtg-hub/sets/OSN-files/img/17_Wall of Flame.png" num="17">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>RR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lightning Bolt</name>
+			<text>Deal 3 damage to any target</text>
+			<set rarity="uncommon" picurl="https://mtg-hub/sets/OSN-files/img/15_Lightning Bolt.png" num="15">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fling</name>
+			<text>Sacrifice a creature. Deal damage equal to the sacrificed creatures power to any target.</text>
+			<set rarity="uncommon" picurl="https://mtg-hub/sets/OSN-files/img/14_Fling.png" num="14">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mayor Thomas, TBD</name>
+			<text>Partner with Jerry Butler (When this creature enters, target player may put Jerry Butler into their hand from their library, then shuffle.)
+Non-creature spells your opponents cast cost {1} more to cast.
+Non-creature spells you cast cost {1} less to cast.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/OSN-files/img/29_Mayor Thomas, TBD.png" num="29">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hypnotic Pattern</name>
+			<text>Untap all creatures you control and all creatures target opponent controls. You and that opponent each gain control of all creatures the other controls until end of turn. Those creatures gain haste until end of turn.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/OSN-files/img/4_Hypnotic Pattern.png" num="4">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Casino Spree</name>
+			<text>Upcast {1}: (You may pay an additional 1 any number of times as you cast this spell.) (You may pay an additional {1} any number of times as you cast this spell.)
+Choose one, you may choose an additional mode for each time Mayoral Usurpation was upcast. —
+• Target player discards all the cards in their hand, then draws that many cards.
+• Collective Defiance deals 4 damage to target creature.
+• Collective Defiance deals 3 damage to target opponent or planeswalker.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/OSN-files/img/12_Casino Spree.png" num="12">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mayoral Usurpation</name>
+			<text>Exile target creature. It&apos;s controller may put a legendary creature from their hand onto the battlefield.</text>
+			<set rarity="rare" picurl="https://mtg-hub/sets/OSN-files/img/2_Mayoral Usurpation.png" num="2">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rodric, Negotiator</name>
+			<text>Partner (You can have two commanders if both have partner.)
+Whenever an opponent casts their first spell on their turn, they chose deal or pay.
+If they choose deal, draw a card. If they choose pay, create a treasure.</text>
+			<set rarity="mythic" picurl="https://mtg-hub/sets/OSN-files/img/30_Rodric, Negotiator.png" num="30">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hank LaFist, The Fist</name>
+			<text>Partner (You can have two commanders if both have partner.)
+Flash
+When Hank LaFist enters the battlefield, return target creature to its owner&apos;s hand.</text>
+			<set rarity="mythic" picurl="https://mtg-hub/sets/OSN-files/img/25_Hank LaFist, The Fist.png" num="25">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Elf</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glark, Menacing Entertainer</name>
+			<text>Partner (You can have two commanders if both have partner.)
+Menace
+Boast — Sacrifice another creature or artifact: This creature deals damage equal to 2 plus the sacrificed permanent&apos;s mana value to any target. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="mythic" picurl="https://mtg-hub/sets/OSN-files/img/24_Glark, Menacing Entertainer.png" num="24">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Elf Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Enzo, the Tentacular</name>
+			<text>Partner (You can have two commanders if both have partner.)
+Whenever you draw a card, create a 1/1 black tentacle creature token with haste. Sacrifice those creatures at the beginning of the next end step.
+{1}{U}{B}, {T}: Create a 2/3 blue water elemental creature token.</text>
+			<set rarity="mythic" picurl="https://mtg-hub/sets/OSN-files/img/22_Enzo, the Tentacular.png" num="22">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Tiefling Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Boblin, The Goblin</name>
+			<text>Partner (You can have two commanders if both have partner.)
+Whenever you attack, if it&apos;s the first combat phase of the turn, untap all attacking creatures. They gain first strike until end of turn. After this phase, there is an additional combat phase.</text>
+			<set rarity="mythic" picurl="https://mtg-hub/sets/OSN-files/img/21_Boblin, The Goblin.png" num="21">OSN</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Goblin Paladin</type>
+				<maintype>Creature</maintype>
+				<manacost>3RG</manacost>
+				<cmc>5</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>
