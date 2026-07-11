@@ -434,8 +434,8 @@ This spell costs {3} less to cast if it is your turn.</text>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>RR</manacost>
-				<cmc>2</cmc>
+				<manacost>RRR</manacost>
+				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
@@ -474,11 +474,11 @@ This spell costs {3} less to cast if it is your turn.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Mayor Thomas, TBD</name>
+			<name>Mayor Thomas, The Usurped</name>
 			<text>Partner with Jerry Butler (When this creature enters, target player may put Jerry Butler into their hand from their library, then shuffle.)
 Non-creature spells your opponents cast cost {1} more to cast.
 Non-creature spells you cast cost {1} less to cast.</text>
-			<set rarity="rare" picurl="https://mtg-hub/sets/OSN-files/img/29_Mayor Thomas, TBD.png" num="29">OSN</set>
+			<set rarity="rare" picurl="https://mtg-hub/sets/OSN-files/img/29_Mayor Thomas, The Usurped.png" num="29">OSN</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -511,10 +511,10 @@ Non-creature spells you cast cost {1} less to cast.</text>
 		<card>
 			<name>Casino Spree</name>
 			<text>Upcast {1}: (You may pay an additional 1 any number of times as you cast this spell.) (You may pay an additional {1} any number of times as you cast this spell.)
-Choose one, you may choose an additional mode for each time Mayoral Usurpation was upcast. —
+Choose one, you may choose an additional mode for each time Casino Spree was upcast. —
 • Target player discards all the cards in their hand, then draws that many cards.
-• Collective Defiance deals 4 damage to target creature.
-• Collective Defiance deals 3 damage to target opponent or planeswalker.</text>
+• Casino Spree deals 4 damage to target creature.
+• Casino Spree deals 3 damage to target opponent or planeswalker.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/OSN-files/img/12_Casino Spree.png" num="12">OSN</set>
 			<prop>
 				<layout>normal</layout>

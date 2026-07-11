@@ -243,7 +243,7 @@
 		{
 			"name": "Wall of Flame",
 			"rarity": "uncommon",
-			"mana_cost": "{R}{R}",
+			"mana_cost": "{R}{R}{R}",
 			"type": "Sorcery",
 			"collector_number": "17",
 			"image_uris": {
@@ -271,13 +271,13 @@
 			}
 		},
 		{
-			"name": "Mayor Thomas, TBD",
+			"name": "Mayor Thomas, The Usurped",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{U}",
 			"type": "Legendary Creature — Human Dragon",
 			"collector_number": "29",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/OSN-files/img/29_Mayor Thomas, TBD.png"
+				"en": "https://mtg-hub/sets/OSN-files/img/29_Mayor Thomas, The Usurped.png"
 			}
 		},
 		{
@@ -374,7 +374,7 @@
 	2 Hedonic Motivator
 	1 Niv, Guild Kingpin
 	2 Mid-Fight Call
-	2 Mayor Thomas, TBD
+	2 Mayor Thomas, The Usurped
 	2 Hypnotic Pattern
 	2 Casino Spree
 	2 Mayoral Usurpation
@@ -434,7 +434,7 @@
 	6 Wall of Flame
 	6 Lightning Bolt
 	6 Fling
-	2 Mayor Thomas, TBD
+	2 Mayor Thomas, The Usurped
 	2 Hypnotic Pattern
 	2 Casino Spree
 	2 Mayoral Usurpation
@@ -471,7 +471,7 @@
 	15 Wall of Flame
 	15 Lightning Bolt
 	15 Fling
-	7 Mayor Thomas, TBD
+	7 Mayor Thomas, The Usurped
 	7 Hypnotic Pattern
 	7 Casino Spree
 	7 Mayoral Usurpation

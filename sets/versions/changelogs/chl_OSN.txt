@@ -1,4 +1,50 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Mayor Thomas, The Usurped added.
+
+Mayor Thomas, TBD removed.
+
+Rhino Crew
+
+Saw in Half
+
+Big Ass Wrench
+
+Thunderous Applause
+
+Henzie's Contract
+
+Mid-Fight Call
+
+Wall of Flame
+cost: {R}{R} => {R}{R}{R}
+
+Lightning Bolt
+rules_text: Deal 3 damage to any target => Deal 3 damage to any target
+
+
+Fling
+rules_text: Sacrifice a creature. Deal damage equal to the sacrificed creatures power to any target. => Sacrifice a creature. Deal damage equal to the sacrificed creatures power to any target.
+
+
+Casino Spree
+rules_text: Upcast {1}: [i](You may pay an additional 1 any number of times as you cast this spell.)[/i] [i](You may pay an additional {1} any number of times as you cast this spell.)[/i]
+Choose one, you may choose an additional mode for each time Mayoral Usurpation was upcast. —
+• Target player discards all the cards in their hand, then draws that many cards.
+• Collective Defiance deals 4 damage to target creature.
+• Collective Defiance deals 3 damage to target opponent or planeswalker. => Upcast {1}: [i](You may pay an additional 1 any number of times as you cast this spell.)[/i] [i](You may pay an additional {1} any number of times as you cast this spell.)[/i]
+Choose one, you may choose an additional mode for each time Casino Spree was upcast. —
+• Target player discards all the cards in their hand, then draws that many cards.
+• Casino Spree deals 4 damage to target creature.
+• Casino Spree deals 3 damage to target opponent or planeswalker.
+
+Hank LaFist, The Fist
+
+Enzo, the Tentacular
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
