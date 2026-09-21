@@ -5,7 +5,7 @@
 			<name>OSN</name>
 			<longname>Oneshot Noah</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-07-11</releasedate>
+			<releasedate>2026-09-21</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -49,7 +49,7 @@ Whenever a player casts a spell, remove a suspend counter from Fizban.</text>
 		<card>
 			<name>Henzie, Mayor</name>
 			<text>When Henzie or another creature you control enters the battlefield, create a 1/1 black legendary creature token named Proxy Mayor.
-Whenever a token you control dies, each opponent loses one life.</text>
+Whenever a token you control dies, each opponent loses 1 life.</text>
 			<set rarity="rare" picurl="https://mtg-hub/sets/OSN-files/img/26_Henzie, Mayor.png" num="26">OSN</set>
 			<prop>
 				<layout>normal</layout>
@@ -67,7 +67,7 @@ Whenever a token you control dies, each opponent loses one life.</text>
 		<card>
 			<name>Tary, the Harry</name>
 			<text>Partner (You can have two commanders if both have partner.)
-When Tary enters the battlefield put a beard token on target creature you control.
+Beard Cannon — When Tary enters the battlefield put a beard token on target creature you control.
 Other creatures you control with beards gain +2/+0 and ward {2}. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)</text>
 			<set rarity="mythic" picurl="https://mtg-hub/sets/OSN-files/img/31_Tary, the Harry.png" num="31">OSN</set>
 			<prop>
@@ -120,7 +120,7 @@ Other creatures you control with beards gain +2/+0 and ward {2}. (Whenever this 
 		<card>
 			<name>Treasure Mimic</name>
 			<text>Flash
-Changeling (This card is every creature type.) (This card is every creature type.)
+Changeling (This card is every creature type.)
 Keep the Change — When this creature dies, you and target opponent create treasures equal to the excess damage dealt to it.</text>
 			<set rarity="common" picurl="https://mtg-hub/sets/OSN-files/img/11_Treasure Mimic.png" num="11">OSN</set>
 			<prop>
@@ -344,9 +344,9 @@ Whenever a creature you control enters the battlefield, deal 1 damage to target 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Seismic Toss</name>
+			<name>Supplex</name>
 			<text>Target creature deals damage to itself equal to its power.</text>
-			<set rarity="uncommon" picurl="https://mtg-hub/sets/OSN-files/img/35_Seismic Toss.png" num="35">OSN</set>
+			<set rarity="uncommon" picurl="https://mtg-hub/sets/OSN-files/img/35_Supplex.png" num="35">OSN</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -572,7 +572,7 @@ When Hank LaFist enters the battlefield, return target creature to its owner&apo
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Human Elf</type>
+				<type>Legendary Creature — Human Elf Monk</type>
 				<maintype>Creature</maintype>
 				<manacost>1WU</manacost>
 				<cmc>3</cmc>

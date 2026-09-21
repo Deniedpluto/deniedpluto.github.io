@@ -1,4 +1,36 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Supplex added.
+
+Seismic Toss removed.
+
+Henzie, Mayor
+rules_text: When Henzie or another creature you control enters the battlefield, create a 1/1 black legendary creature token named Proxy Mayor.
+Whenever a token you control dies, each opponent loses one life. => When Henzie or another creature you control enters the battlefield, create a 1/1 black legendary creature token named Proxy Mayor.
+Whenever a token you control dies, each opponent loses 1 life.
+
+Tary, the Harry
+rules_text: Partner [i](You can have two commanders if both have partner.)[/i]
+When Tary enters the battlefield put a beard token on target creature you control.
+Other creatures you control with beards gain +2/+0 and ward {2}. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i] => Partner [i](You can have two commanders if both have partner.)[/i]
+Beard Cannon — When Tary enters the battlefield put a beard token on target creature you control.
+Other creatures you control with beards gain +2/+0 and ward {2}. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i]
+
+Treasure Mimic
+rules_text: Flash
+Changeling [i](This card is every creature type.)[/i] [i](This card is every creature type.)[/i]
+Keep the Change — When this creature dies, you and target opponent create treasures equal to the excess damage dealt to it. => Flash
+Changeling [i](This card is every creature type.)[/i]
+Keep the Change — When this creature dies, you and target opponent create treasures equal to the excess damage dealt to it.
+
+Hank LaFist, The Fist
+type: Legendary Creature — Human Elf => Legendary Creature — Human Elf Monk
+
+Boblin, The Goblin
+
+
+VERSION 2 CHANGELOG
 ====================
 
 Mayor Thomas, The Usurped added.

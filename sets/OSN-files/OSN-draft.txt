@@ -191,13 +191,13 @@
 			}
 		},
 		{
-			"name": "Seismic Toss",
+			"name": "Supplex",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B/G}",
 			"type": "Instant",
 			"collector_number": "35",
 			"image_uris": {
-				"en": "https://mtg-hub/sets/OSN-files/img/35_Seismic Toss.png"
+				"en": "https://mtg-hub/sets/OSN-files/img/35_Supplex.png"
 			}
 		},
 		{
@@ -324,7 +324,7 @@
 			"name": "Hank LaFist, The Fist",
 			"rarity": "mythic",
 			"mana_cost": "{1}{W}{U}",
-			"type": "Legendary Creature — Human Elf",
+			"type": "Legendary Creature — Human Elf Monk",
 			"collector_number": "25",
 			"image_uris": {
 				"en": "https://mtg-hub/sets/OSN-files/img/25_Hank LaFist, The Fist.png"
@@ -389,7 +389,7 @@
 	4 Big Ass Wrench
 	4 Flipping Ring
 	4 Myterious Letter
-	4 Seismic Toss
+	4 Supplex
 	4 Thunderous Applause
 	4 Henzie's Contract
 	4 Seal it with a Kiss
@@ -426,7 +426,7 @@
 	6 Myterious Letter
 	2 Hedonic Motivator
 	1 Niv, Guild Kingpin
-	6 Seismic Toss
+	6 Supplex
 	6 Thunderous Applause
 	6 Henzie's Contract
 	2 Mid-Fight Call
@@ -463,7 +463,7 @@
 	15 Myterious Letter
 	7 Hedonic Motivator
 	4 Niv, Guild Kingpin
-	15 Seismic Toss
+	15 Supplex
 	15 Thunderous Applause
 	15 Henzie's Contract
 	7 Mid-Fight Call
